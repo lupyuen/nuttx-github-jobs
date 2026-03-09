@@ -1,0 +1,239 @@
+{
+  "additions": 2258,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzNTY0NDc3",
+    "is_bot": false,
+    "login": "tinnedkarma",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 33,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-01-17T00:05:05Z",
+  "deletions": 1550,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-m/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_perf.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_rcc.h",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_clk.c",
+      "additions": 1649,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_clk.h",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_lowputc.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_rcc.c",
+      "additions": 0,
+      "deletions": 184
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_rcc.h",
+      "additions": 0,
+      "deletions": 234
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_serial.c",
+      "additions": 157,
+      "deletions": 354
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_start.c",
+      "additions": 7,
+      "deletions": 36
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_tim.c",
+      "additions": 83,
+      "deletions": 351
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_timerisr.c",
+      "additions": 22,
+      "deletions": 42
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_uart.h",
+      "additions": 1,
+      "deletions": 65
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/include/board.h",
+      "additions": 0,
+      "deletions": 154
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/nucleo-h743zi.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_boot.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_buttons.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_clk.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/clk/clk_divider.c",
+      "additions": 8,
+      "deletions": 14
+    },
+    {
+      "path": "drivers/clk/clk_fixed_factor.c",
+      "additions": 3,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/clk/clk_fixed_rate.c",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/clk/clk_fractional_divider.c",
+      "additions": 3,
+      "deletions": 13
+    },
+    {
+      "path": "drivers/clk/clk_gate.c",
+      "additions": 5,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/clk/clk_multiplier.c",
+      "additions": 31,
+      "deletions": 15
+    },
+    {
+      "path": "drivers/clk/clk_mux.c",
+      "additions": 5,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/clk/clk_phase.c",
+      "additions": 3,
+      "deletions": 10
+    },
+    {
+      "path": "include/nuttx/clk/clk_provider.h",
+      "additions": 55,
+      "deletions": 21
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 1,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "stm32h7-clk",
+  "headRefOid": "b4e2e9a74d8ca09e35e938048b5e68023b11e383",
+  "headRepository": {
+    "id": "R_kgDOMN3abA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIzNTY0NDc3",
+    "login": "tinnedkarma"
+  },
+  "id": "PR_kwDODZiUac69uYuu",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17978,
+  "state": "OPEN",
+  "title": "stm32h7/clk: work in progress",
+  "updatedAt": "2026-02-23T12:05:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17978"
+}
