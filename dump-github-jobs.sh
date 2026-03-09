@@ -273,7 +273,8 @@ function dump_duration {
 ## Dump the PRs, Jobs and Durations for the NuttX Repo and NuttX Apps Repo
 function dump_repo {
   ## Backtrack for 365 days
-  for days in {0..365}; do
+  ## for days in {0..365}; do
+  for days in {59..365}; do
     echo "days=$days"
     if [ "`uname`" == "Darwin" ]; then
       date=$(date -v-${days}d +"%Y-%m-%d")
