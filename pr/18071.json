@@ -1,0 +1,150 @@
+{
+  "additions": 102,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCtrWAw",
+    "is_bot": false,
+    "login": "jwang12340",
+    "name": "Jinjing Wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2026-02-02T12:52:59Z",
+  "createdAt": "2026-01-21T07:50:53Z",
+  "deletions": 280,
+  "files": [
+    {
+      "path": "arch/arm/src/imx9/imx9_flexcan.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_flexcan.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_flexcan.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/s32k1xx/s32k1xx_flexcan.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/s32k3xx/s32k3xx_flexcan.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_fdcan_sock.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_fdcan_sock.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_fdcan_sock.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_flexcan.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/can/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/can/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/can/can_common.c",
+      "additions": 0,
+      "deletions": 149
+    },
+    {
+      "path": "include/nuttx/can/can_common.h",
+      "additions": 82,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/net/can.h",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "net/can/can_input.c",
+      "additions": 0,
+      "deletions": 92
+    }
+  ],
+  "headRefName": "can_common_h",
+  "headRefOid": "ffd57f00b404e3e4d3611f5e458ea2a09a6fea14",
+  "headRepository": {
+    "id": "R_kgDOQ5iZVA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCtrWAw",
+    "name": "Jinjing Wang",
+    "login": "jwang12340"
+  },
+  "id": "PR_kwDODZiUac6-Yw_S",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18071,
+  "state": "CLOSED",
+  "title": "drivers/can: consolidate socket CAN implementations with common header functions",
+  "updatedAt": "2026-02-02T13:01:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18071"
+}

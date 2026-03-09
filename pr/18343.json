@@ -1,0 +1,83 @@
+{
+  "additions": 65,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-03T19:24:37Z",
+  "createdAt": "2026-02-03T14:17:27Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/qemu/boards/qemu-armv7a/index.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/knsh/defconfig",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "fs/v9fs/client.c",
+      "additions": 39,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "v9fs_knsh",
+  "headRefOid": "b77edef147e45c9b092f23bba0f9c4aa1ccb4b22",
+  "headRepository": {
+    "id": "R_kgDOLHs-vw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiUac7BNMuq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18343,
+  "state": "CLOSED",
+  "title": "fs/v9fs: Add KERNEL build support and enable v9fs for qemu-armv7a knsh",
+  "updatedAt": "2026-02-03T19:24:37Z",
+  "url": "https://github.com/apache/nuttx/pull/18343"
+}

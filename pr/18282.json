@@ -1,0 +1,96 @@
+{
+  "additions": 402,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-02-03T19:32:32Z",
+  "createdAt": "2026-01-30T10:29:37Z",
+  "deletions": 386,
+  "files": [
+    {
+      "path": "libs/libc/misc/lib_crc16ccitt.c",
+      "additions": 38,
+      "deletions": 41
+    },
+    {
+      "path": "libs/libc/misc/lib_crc16ibm.c",
+      "additions": 40,
+      "deletions": 41
+    },
+    {
+      "path": "libs/libc/misc/lib_crc32.c",
+      "additions": 75,
+      "deletions": 52
+    },
+    {
+      "path": "libs/libc/misc/lib_crc64.c",
+      "additions": 137,
+      "deletions": 140
+    },
+    {
+      "path": "libs/libc/misc/lib_crc8.c",
+      "additions": 38,
+      "deletions": 38
+    },
+    {
+      "path": "libs/libc/misc/lib_crc8ccitt.c",
+      "additions": 38,
+      "deletions": 38
+    },
+    {
+      "path": "libs/libc/misc/lib_crc8rohc.c",
+      "additions": 33,
+      "deletions": 33
+    },
+    {
+      "path": "libs/libc/misc/lib_crc8table.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "crc_coverity",
+  "headRefOid": "f0043aab4a003bc673499a4fa0faea2ad8ee7aab",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac7AXFjm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18282,
+  "state": "CLOSED",
+  "title": "libs/crc: Make the code conform to the misra-c code specification.",
+  "updatedAt": "2026-02-05T03:18:17Z",
+  "url": "https://github.com/apache/nuttx/pull/18282"
+}

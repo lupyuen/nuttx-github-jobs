@@ -1,0 +1,74 @@
+{
+  "additions": 26,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-14T01:21:35Z",
+  "createdAt": "2026-01-13T16:03:54Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/fakesensor_uorb.c",
+      "additions": 26,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "fakesensor-no-gnss",
+  "headRefOid": "c798b5b9445a226e5ba0cbd0e709fb016d330d16",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6891RA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a35dcd82e3dec0f4cdcd35226f84c951baeee6c7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-14T01:21:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17872,
+  "state": "MERGED",
+  "title": "drivers/sensors/fakesensor: Remove GNSS dependency",
+  "updatedAt": "2026-01-14T01:39:33Z",
+  "url": "https://github.com/apache/nuttx/pull/17872"
+}

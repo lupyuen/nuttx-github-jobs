@@ -1,0 +1,88 @@
+{
+  "additions": 21,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrHUjw",
+    "is_bot": false,
+    "login": "pangzhen1xiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-28T05:35:30Z",
+  "createdAt": "2026-01-27T14:26:53Z",
+  "deletions": 42,
+  "files": [
+    {
+      "path": "include/nuttx/irq.h",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "sched/irq/irq_attach.c",
+      "additions": 2,
+      "deletions": 9
+    },
+    {
+      "path": "sched/irq/irq_attach_thread.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "sched/irq/irq_attach_wqueue.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "sched/irq/irq_chain.c",
+      "additions": 9,
+      "deletions": 15
+    }
+  ],
+  "headRefName": "irq_bounds_check_consolidation",
+  "headRefOid": "1648b9eb1dd0800ca18b658c66878d055c4ef970",
+  "headRepository": {
+    "id": "R_kgDOMoRG_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrHUjw",
+    "login": "pangzhen1xiaomi"
+  },
+  "id": "PR_kwDODZiUac6_nmZy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7b154402fb9d3f4e0d41ca13f0f0890765d35b73"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T05:35:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18203,
+  "state": "MERGED",
+  "title": "sched/irq: Consolidate IRQ bounds checking into IRQ_TO_NDX macro",
+  "updatedAt": "2026-01-28T05:35:30Z",
+  "url": "https://github.com/apache/nuttx/pull/18203"
+}

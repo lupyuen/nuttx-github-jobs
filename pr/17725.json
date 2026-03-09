@@ -1,0 +1,125 @@
+{
+  "additions": 231,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIwMjczNDQ=",
+    "is_bot": false,
+    "login": "jerenkrantz",
+    "name": "Justin Erenkrantz"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-12-30T13:18:58Z",
+  "createdAt": "2025-12-29T17:05:04Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 19,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/litex/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/litex/hardware/litex_clint.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/litex/hardware/litex_memorymap.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/litex/hardware/litex_plic.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/litex/litex_irq.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/litex/litex_irq_dispatch.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/litex/arty_a7/configs/nsh-vexii/defconfig",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/litex/arty_a7/include/vexii_irq.h",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/litex/arty_a7/include/vexii_memorymap.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/litex/arty_a7/scripts/ld.script",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "vexiiriscv-support",
+  "headRefOid": "8b68921034b8d5a29ca7752042fcaa294c62455c",
+  "headRepository": {
+    "id": "R_kgDOQnkSfw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIwMjczNDQ=",
+    "name": "Justin Erenkrantz",
+    "login": "jerenkrantz"
+  },
+  "id": "PR_kwDODZiUac662fJo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7298977894020a06fa11c601041bfb8f379b6772"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T13:18:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17725,
+  "state": "MERGED",
+  "title": "risc-v/litex: Add 64-bit S-mode vexiiriscv support for litex.",
+  "updatedAt": "2025-12-30T15:13:41Z",
+  "url": "https://github.com/apache/nuttx/pull/17725"
+}

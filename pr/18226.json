@@ -1,0 +1,136 @@
+{
+  "additions": 433,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-01-28T16:09:19Z",
+  "createdAt": "2026-01-28T09:06:00Z",
+  "deletions": 245,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/virtio.rst",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/components/drivers/special/virtio/framework.rst",
+      "additions": 269,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/virtio/index.rst",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm64/qemu/boards/qemu-armv8a/index.rst",
+      "additions": 24,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh/defconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/src/qemu_bringup.c",
+      "additions": 5,
+      "deletions": 99
+    },
+    {
+      "path": "drivers/virtio/virtio-pci-legacy.c",
+      "additions": 21,
+      "deletions": 42
+    },
+    {
+      "path": "drivers/virtio/virtio-pci-modern.c",
+      "additions": 39,
+      "deletions": 46
+    },
+    {
+      "path": "drivers/virtio/virtio-pci.c",
+      "additions": 43,
+      "deletions": 45
+    },
+    {
+      "path": "drivers/virtio/virtio-pci.h",
+      "additions": 4,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "virtio-pci",
+  "headRefOid": "c9a45e1829275eb78c499abf77a04717f589cbe4",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac6_zGvv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "def2e89b6eb27e3b4035e56f6116e24a68aabe41"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T16:09:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18226,
+  "state": "MERGED",
+  "title": "virtio/virtio-pci: improve PCI transport with INTX fallback and 64-bit support",
+  "updatedAt": "2026-01-28T16:09:19Z",
+  "url": "https://github.com/apache/nuttx/pull/18226"
+}

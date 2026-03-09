@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI1ODY3OTkx",
+    "is_bot": false,
+    "login": "XuNeo",
+    "name": "Neo Xu"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-29T11:15:21Z",
+  "createdAt": "2025-12-26T02:58:14Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/armv8-m/arm_doirq.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "arm-exception-direct-opt-issue",
+  "headRefOid": "715375405457d51741b8f56adedcbe4ebb15b068",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzODc4NDAxNDg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI1ODY3OTkx",
+    "name": "Neo Xu",
+    "login": "XuNeo"
+  },
+  "id": "PR_kwDODZiUac66lxNr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cdd8032cb98869803af5a002d1d011fc335ebbef"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T11:15:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17684,
+  "state": "MERGED",
+  "title": "arch/armv8-m: Fix IRQ number corruption in exception_direct with O2 optimization",
+  "updatedAt": "2025-12-29T11:15:21Z",
+  "url": "https://github.com/apache/nuttx/pull/17684"
+}

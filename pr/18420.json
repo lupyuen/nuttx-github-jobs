@@ -1,0 +1,109 @@
+{
+  "additions": 391,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "is_bot": false,
+    "login": "pbarada",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-02-21T07:50:54Z",
+  "createdAt": "2026-02-20T20:34:53Z",
+  "deletions": 78,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/nucleo-h743zi2/index.rst",
+      "additions": 239,
+      "deletions": 76
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/configs/jumbo/defconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/nucleo-h743zi2.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/stm32_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/stm32_buttons.c",
+      "additions": 107,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "test/nucleo-h743zi2-buttons",
+  "headRefOid": "41b242be6d168d31936c906cdf5c866ed4bf59c8",
+  "headRepository": {
+    "id": "R_kgDORJdmWw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "login": "pbarada"
+  },
+  "id": "PR_kwDODZiUac7FQUya",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c4d6b728a034d21414e8025f84f8d4d15fdd833e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-21T07:50:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "milestone": null,
+  "number": 18420,
+  "state": "MERGED",
+  "title": "boards/stm32h7: Add button support to nucleo-h743zi2",
+  "updatedAt": "2026-02-21T07:50:54Z",
+  "url": "https://github.com/apache/nuttx/pull/18420"
+}

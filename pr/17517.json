@@ -1,0 +1,147 @@
+{
+  "additions": 1161,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-12-18T10:36:28Z",
+  "createdAt": "2025-12-16T02:53:49Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "Documentation/reference/os/time_clock.rst",
+      "additions": 99,
+      "deletions": 6
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 221,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/CMakeLists.txt",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/Make.defs",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 176,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 208,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_initialize.c",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 143,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_start.c",
+      "additions": 148,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_hrtimer_only",
+  "headRefOid": "45b838b325acf02d453662d12b09e0eb4bd87ef5",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac65DZif",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "edf89ddedd1f01c34df7f0c0c5bc35be6e323515"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-18T10:36:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17517,
+  "state": "MERGED",
+  "title": "sched/sched: Part 1: add high resolution timer (hrtimer) only (without os tick support with hrtimer) for NuttX",
+  "updatedAt": "2026-01-11T07:42:56Z",
+  "url": "https://github.com/apache/nuttx/pull/17517"
+}

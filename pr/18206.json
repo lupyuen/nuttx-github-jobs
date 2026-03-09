@@ -1,0 +1,80 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-28T10:20:42Z",
+  "createdAt": "2026-01-28T02:44:41Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/citest/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest64/defconfig",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "hrtimer_citest",
+  "headRefOid": "88a92258dbcd753cd29f95fd80a58b1b8e723fb1",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6_vpi8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1196f0869e2a78aa19dba03cbb2521089d4221da"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T10:20:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18206,
+  "state": "MERGED",
+  "title": "board: enable hritmer (RB-tree and list implementation) CITEST on arm and riscv board",
+  "updatedAt": "2026-01-28T13:08:31Z",
+  "url": "https://github.com/apache/nuttx/pull/18206"
+}

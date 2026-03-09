@@ -1,0 +1,519 @@
+{
+  "additions": 3615,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 79,
+  "closed": true,
+  "closedAt": "2026-01-19T06:18:28Z",
+  "createdAt": "2026-01-09T15:05:42Z",
+  "deletions": 983,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/rptun.rst",
+      "additions": 0,
+      "deletions": 23
+    },
+    {
+      "path": "Documentation/components/drivers/special/rptun/api_reference.rst",
+      "additions": 226,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rptun/architecture.rst",
+      "additions": 189,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rptun/driver_porting.rst",
+      "additions": 250,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rptun/index.rst",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rptun/resource_table.rst",
+      "additions": 126,
+      "deletions": 0
+    },
+    {
+      "path": "Kconfig",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_rptun.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_rsctable.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/mx8mp/mx8mp_rptun.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/mx8mp/mx8mp_rsctable.c",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/nrf53/nrf53_rptun.c",
+      "additions": 24,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_rptun.c",
+      "additions": 24,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/k230/k230_rptun.c",
+      "additions": 24,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_ihc.c",
+      "additions": 16,
+      "deletions": 7
+    },
+    {
+      "path": "arch/risc-v/src/qemu-rv/qemu_rv_rptun.c",
+      "additions": 24,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostmisc.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_heap.c",
+      "additions": 23,
+      "deletions": 10
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_rpmsg_virtio.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sim/src/sim/sim_rptun.c",
+      "additions": 137,
+      "deletions": 46
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/rpmsg/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpproxy/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpserver/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rpproxy/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rpserver/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/Kconfig",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 609,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio_ivshmem.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rptun/Kconfig",
+      "additions": 5,
+      "deletions": 18
+    },
+    {
+      "path": "drivers/rptun/rptun.c",
+      "additions": 676,
+      "deletions": 643
+    },
+    {
+      "path": "drivers/rptun/rptun_bmp.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/rptun/rptun_ivshmem.c",
+      "additions": 143,
+      "deletions": 82
+    },
+    {
+      "path": "drivers/vhost/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/vhost/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/vhost/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/vhost/vhost-rng.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/vhost/vhost-rpmsg.c",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/vhost/vhost-rpmsg.h",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/vhost/vhost.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/virtio-rpmsg.c",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/virtio-rpmsg.h",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/virtio.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "fs/fs_heap.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "include/debug.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/mm.h",
+      "additions": 33,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg_virtio.h",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/rptun/rptun.h",
+      "additions": 23,
+      "deletions": 34
+    },
+    {
+      "path": "mm/kmm_heap/kmm_initialize.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "mm/mm_heap/mm.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_initialize.c",
+      "additions": 43,
+      "deletions": 27
+    },
+    {
+      "path": "mm/tlsf/mm_tlsf.c",
+      "additions": 43,
+      "deletions": 21
+    },
+    {
+      "path": "mm/umm_heap/umm_initialize.c",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "openamp/0001-ns-acknowledge-the-received-creation-message.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0002-Negotiate-individual-buffer-size-dynamically.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0003-rpmsg-notify-the-user-when-the-remote-address-is-rec.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0004-rpmsg-wait-ept-ready-in-rpmsg_send.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0005-openamp-add-VIRTIO_RING_F_MUST_NOTIFY-event.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0006-rpmsg_virtio-don-t-need-check-status-when-get_tx_pay.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0007-virtqueue-move-virtqueue_nused-and-virtqueue_navail-.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0008-lib-rpmsg-rpmsg_virtio-add-last-buffer-check-to-fix-.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0009-virtio-change-feature-to-64-bit-in-all-virtio_dispat.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0010-openamp-add-assert-when-get-tx-buffer-failed.patch",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "openamp/0011-remoteproc_virtio-add-shm_io-for-remoteproc-virtio-a.patch",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0012-remoteproc-sync-the-virtio-rpmsg-config-with-linux-s.patch",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0013-virtio.h-add-mm_priv-to-struct-virtio_deivce.patch",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0014-lib-rpmsg_virtio-use-virtio_alloc_buf-to-alloc-share.patch",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0015-lib-remoteproc_virtio-optimize-virtqueue_notificatio.patch",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/open-amp.cmake",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/open-amp.defs",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rptun-refactor",
+  "headRefOid": "da9da30acb493db4f9461ca9037388c8141c1082",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac68WSbv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "949b519aa5ae0053c5dd42877aef879dfecf4cc6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T06:18:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17816,
+  "state": "MERGED",
+  "title": "drivers/rptun: refactor rptun to decoupling the rptun and rpmsg virtio, make rptun can work with any virtio devices",
+  "updatedAt": "2026-03-03T10:33:41Z",
+  "url": "https://github.com/apache/nuttx/pull/17816"
+}

@@ -1,0 +1,88 @@
+{
+  "additions": 159,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCeG-zg",
+    "is_bot": false,
+    "login": "HedongGao",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-12-30T03:17:39Z",
+  "createdAt": "2025-12-28T03:56:53Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/netutils/netlib.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/netlib_addvlan.c",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/netlib_delvlan.c",
+      "additions": 72,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "806dba8",
+  "headRefOid": "be4f2b37e4b44793e392482edd7e055222ce136b",
+  "headRepository": {
+    "id": "R_kgDOLoukZw",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCeG-zg",
+    "login": "HedongGao"
+  },
+  "id": "PR_kwDODZiT4866uM0Z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "40c7982816ebc9f2c6a2c18f44e43cc5158b15cc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T03:17:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 3284,
+  "state": "MERGED",
+  "title": " netlib: Add support for adding/removing VLAN device",
+  "updatedAt": "2025-12-30T03:17:39Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3284"
+}

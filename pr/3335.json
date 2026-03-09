@@ -1,0 +1,82 @@
+{
+  "additions": 351,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-02-03T19:28:55Z",
+  "createdAt": "2026-01-16T02:04:55Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "crypto/mbedtls/0004-mbedtls-cipher-wrap-support-aes-with-keyid.patch",
+      "additions": 268,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/mbedtls/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/mbedtls/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/mbedtls/include/aes_alt.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/mbedtls/source/aes_alt.c",
+      "additions": 55,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "mbedtls-aes-alt-new",
+  "headRefOid": "185b48d31426c60540259868b51707380b26c6f5",
+  "headRepository": {
+    "id": "R_kgDOKAa8bg",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiT4869gq1z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7ksA",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3335,
+  "state": "CLOSED",
+  "title": "Mbedtls aes keyid alt ",
+  "updatedAt": "2026-02-03T19:28:55Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3335"
+}

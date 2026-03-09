@@ -1,0 +1,84 @@
+{
+  "additions": 109,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-03-05T04:39:14Z",
+  "createdAt": "2026-03-04T12:35:55Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 51,
+      "deletions": 3
+    },
+    {
+      "path": "openamp/0019-rpmsg-Add-VIRTIO_RPMSG_F_BUFADDR-to-support-specify-.patch",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/open-amp.cmake",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/open-amp.defs",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-virtio-bufaddr",
+  "headRefOid": "e625b345f0f2ab1dca251a32bdeb76ccb5ea396c",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac7H3h0D",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6b139407974d026b25be1d5fc9ffba46ced81576"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-05T04:39:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18491,
+  "state": "MERGED",
+  "title": "drivers/rpmsg_virtio: add VIRTIO_RPMSG_F_BUFADDR to support specifying buffer address",
+  "updatedAt": "2026-03-05T04:39:14Z",
+  "url": "https://github.com/apache/nuttx/pull/18491"
+}

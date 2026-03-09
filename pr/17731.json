@@ -1,0 +1,79 @@
+{
+  "additions": 28,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-02T10:55:38Z",
+  "createdAt": "2025-12-30T03:37:24Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "fs/inode/fs_files.c",
+      "additions": 24,
+      "deletions": 13
+    },
+    {
+      "path": "fs/vfs/fs_eventfd.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_timerfd.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fs_minor",
+  "headRefOid": "dceba6b073f5ef07d84b4827edcd43e039c2f2a6",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6655KI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "12079a213dc6e4cd6a6b027269eb108e70410013"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-02T10:55:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17731,
+  "state": "MERGED",
+  "title": "fs/inode: bug fix about fdlist_extend, fdlist_install and eventfd/timerfd_blocking_io",
+  "updatedAt": "2026-01-02T10:55:38Z",
+  "url": "https://github.com/apache/nuttx/pull/17731"
+}

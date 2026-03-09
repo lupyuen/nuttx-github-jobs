@@ -1,0 +1,74 @@
+{
+  "additions": 50,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-08T04:05:47Z",
+  "createdAt": "2026-01-07T08:31:51Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio_lite.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rptun/rptun.c",
+      "additions": 49,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "rptun-stop",
+  "headRefOid": "89784ea27da4abb0428b25fd72eeee81b3c8c0db",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac673BHO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "43d26e289094346f7a2c7d303716585b15582882"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-08T04:05:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17787,
+  "state": "MERGED",
+  "title": "drivers/rptun: fix rptun stop related deadlock and crash bugs",
+  "updatedAt": "2026-01-08T04:05:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17787"
+}

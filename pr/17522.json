@@ -1,0 +1,142 @@
+{
+  "additions": 1070,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "is_bot": false,
+    "login": "ajuckler",
+    "name": "Antoine Juckler"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-12-17T18:03:55Z",
+  "createdAt": "2025-12-16T11:14:36Z",
+  "deletions": 1151,
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd.rst",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_at24.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_at24.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/eeprom/i2c_xx24xx.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/eeprom/spi_xx25xx.c",
+      "additions": 539,
+      "deletions": 204
+    },
+    {
+      "path": "drivers/mtd/Kconfig",
+      "additions": 5,
+      "deletions": 40
+    },
+    {
+      "path": "drivers/mtd/at25ee.c",
+      "additions": 242,
+      "deletions": 670
+    },
+    {
+      "path": "include/nuttx/eeprom/eeprom.h",
+      "additions": 251,
+      "deletions": 11
+    },
+    {
+      "path": "include/nuttx/eeprom/i2c_xx24xx.h",
+      "additions": 0,
+      "deletions": 102
+    },
+    {
+      "path": "include/nuttx/eeprom/spi_xx25xx.h",
+      "additions": 0,
+      "deletions": 114
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 25,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "mtd_ee25xx_internal",
+  "headRefOid": "2d7ea46b88dd19f0e8348bc560bbfddb4edf3057",
+  "headRepository": {
+    "id": "R_kgDONaihnQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "name": "Antoine Juckler",
+    "login": "ajuckler"
+  },
+  "id": "PR_kwDODZiUac65IQYv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d5633f75a8bff1ab7579922f5e697b2c7e767124"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-17T18:03:55Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17522,
+  "state": "MERGED",
+  "title": "mtd/at25ee: Use eeprom/spi_xx25xx internally",
+  "updatedAt": "2025-12-23T05:43:58Z",
+  "url": "https://github.com/apache/nuttx/pull/17522"
+}

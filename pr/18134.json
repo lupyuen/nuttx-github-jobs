@@ -1,0 +1,154 @@
+{
+  "additions": 169,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "is_bot": false,
+    "login": "Otpvondoiats",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2026-01-26T07:04:11Z",
+  "createdAt": "2026-01-23T07:14:56Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "drivers/sensors/adxl362_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/adxl372_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bh1749nuc_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bme680_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bme688_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmi270_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmm150_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/fs3000_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm9ds1_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ltr308_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mpu9250_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/qmi8658_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/sensor.c",
+      "additions": 50,
+      "deletions": 9
+    },
+    {
+      "path": "drivers/sensors/sensor_rpmsg.c",
+      "additions": 73,
+      "deletions": 16
+    },
+    {
+      "path": "include/nuttx/sensors/ioctl.h",
+      "additions": 11,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/sensors/sensor.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/uorb.h",
+      "additions": 4,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "lk-power",
+  "headRefOid": "2dcc7ab2d23e7c542b6842ed9ec33f1e69237468",
+  "headRepository": {
+    "id": "R_kgDOKDOGGg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "login": "Otpvondoiats"
+  },
+  "id": "PR_kwDODZiUac6-3Xeo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ae85903f71d9b0f0aac62f93f5910fb5c4760606"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T07:04:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18134,
+  "state": "MERGED",
+  "title": " drivers/sensors: Add non-wakeup mode support and optimize RPMSG communication part 4.",
+  "updatedAt": "2026-01-26T11:51:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18134"
+}

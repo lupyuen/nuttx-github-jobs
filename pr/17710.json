@@ -1,0 +1,68 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-29T14:38:25Z",
+  "createdAt": "2025-12-29T04:00:50Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "net/tcp/tcp_timer.c",
+      "additions": 8,
+      "deletions": 14
+    }
+  ],
+  "headRefName": "upstream-2",
+  "headRefOid": "839d5175fab32fd4680bfb45e1a00233751059f7",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66xXB4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a91c50243ef457aa1bc6f866e6c402b2c0df4a65"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T14:38:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17710,
+  "state": "MERGED",
+  "title": "net/tcp: send reset when retransmitted number greater than TCP_MAXRTX",
+  "updatedAt": "2025-12-29T14:38:25Z",
+  "url": "https://github.com/apache/nuttx/pull/17710"
+}

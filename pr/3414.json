@@ -1,0 +1,89 @@
+{
+  "additions": 736,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-02-26T18:42:46Z",
+  "createdAt": "2026-02-25T01:57:50Z",
+  "deletions": 163,
+  "files": [
+    {
+      "path": "testing/ostest/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/Makefile",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "testing/ostest/hrtimer.c",
+      "additions": 715,
+      "deletions": 141
+    },
+    {
+      "path": "testing/ostest/ostest.h",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/ostest_main.c",
+      "additions": 8,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "upstream_01_27_hrtimer",
+  "headRefOid": "d9ed169d05961fd24be94cfa21e478d0fb1deb24",
+  "headRepository": {
+    "id": "R_kgDOM3RcdA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiT487GFuEo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e4b84b29d47b98a666df524d6f2d38904c972de5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-26T18:42:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 3414,
+  "state": "MERGED",
+  "title": "ostest/hrtimer: Refactor hrtimer test.",
+  "updatedAt": "2026-02-26T18:42:46Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3414"
+}

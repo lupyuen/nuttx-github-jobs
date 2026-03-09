@@ -1,0 +1,74 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-14T01:41:50Z",
+  "createdAt": "2026-01-13T08:27:33Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-m/Toolchain.defs",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/cmake/armv7-m_ghs.cmake",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "ghs_change_vfp_option",
+  "headRefOid": "a572fdb73e9ec0618863efabacb9906279c91acb",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac6832Nn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e823681091ac57ff952b142fed299fdf0a23fdda"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-14T01:41:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17855,
+  "state": "MERGED",
+  "title": "arch/arm: change ghs vfpv3 to vfpv5 accrding to armv7-m documentation",
+  "updatedAt": "2026-01-14T01:41:50Z",
+  "url": "https://github.com/apache/nuttx/pull/17855"
+}

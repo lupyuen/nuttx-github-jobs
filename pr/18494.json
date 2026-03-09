@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-03-05T04:41:43Z",
+  "createdAt": "2026-03-04T16:13:50Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm/src/sam34/sam_gpioirq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_gpioirq.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "samv7-gpio-irq-fix",
+  "headRefOid": "0c8270a219c6cfcf5ce79fffada5afd84bb86c1c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac7H67l6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b3656d34b6f895076e5b91a8d167a23a870196ed"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-05T04:41:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18494,
+  "state": "MERGED",
+  "title": "arch/arm/src/samvX/sam_gpioirq.c: fix pin base address calculation",
+  "updatedAt": "2026-03-05T04:41:44Z",
+  "url": "https://github.com/apache/nuttx/pull/18494"
+}

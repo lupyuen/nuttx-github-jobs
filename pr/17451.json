@@ -1,0 +1,133 @@
+{
+  "additions": 133,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2025-12-09T06:43:59Z",
+  "createdAt": "2025-12-08T12:34:39Z",
+  "deletions": 99,
+  "files": [
+    {
+      "path": "drivers/net/e1000.c",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/igb.c",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/igc.c",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/lan91c111.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/net/rpmsgdrv.c",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/net/skeleton.c",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/net/tun.c",
+      "additions": 22,
+      "deletions": 5
+    },
+    {
+      "path": "net/arp/arp_notify.c",
+      "additions": 10,
+      "deletions": 9
+    },
+    {
+      "path": "net/icmpv6/icmpv6_notify.c",
+      "additions": 13,
+      "deletions": 7
+    },
+    {
+      "path": "net/icmpv6/icmpv6_rnotify.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "net/igmp/igmp_timer.c",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "wireless/ieee802154/ieee802154_primitive.c",
+      "additions": 20,
+      "deletions": 19
+    },
+    {
+      "path": "wireless/ieee802154/mac802154_device.c",
+      "additions": 10,
+      "deletions": 12
+    },
+    {
+      "path": "wireless/ieee802154/mac802154_netdev.c",
+      "additions": 1,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "upstream-9",
+  "headRefOid": "294887c45c09d1f270b920a5364da590d34dc559",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac63q5Pa",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "521e319aa3ce6c5781f39e43ac566ae506b39aad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-09T06:43:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17451,
+  "state": "MERGED",
+  "title": "net: replace critical_section with spinlock",
+  "updatedAt": "2025-12-09T06:43:59Z",
+  "url": "https://github.com/apache/nuttx/pull/17451"
+}

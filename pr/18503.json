@@ -1,0 +1,120 @@
+{
+  "additions": 381,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-03-08T12:09:00Z",
+  "createdAt": "2026-03-07T00:18:33Z",
+  "deletions": 287,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/nucleo-h723zg/index.rst",
+      "additions": 29,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/netnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/oa_tc6/defconfig",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/nucleo-h723zg.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_bringup.c",
+      "additions": 3,
+      "deletions": 283
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_oa_tc6.c",
+      "additions": 212,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_spi.c",
+      "additions": 13,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "h723zg-oa-tc6-pr",
+  "headRefOid": "f8307643a02f5643009102cbaf2c71fecd3966a7",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac7IodMD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "01f4ec8693e5ffe9ef45393b7053c08f0cb6cf7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-08T12:09:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18503,
+  "state": "MERGED",
+  "title": "boards/arm/stm32h7/nucleo-h723zg: Add support for 10BASE-T1S SPI Ethernet, remove untested/unsupported code, improve stability",
+  "updatedAt": "2026-03-08T12:09:00Z",
+  "url": "https://github.com/apache/nuttx/pull/18503"
+}

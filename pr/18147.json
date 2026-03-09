@@ -1,0 +1,78 @@
+{
+  "additions": 14,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-03T19:43:14Z",
+  "createdAt": "2026-01-26T03:54:03Z",
+  "deletions": 48,
+  "files": [
+    {
+      "path": "drivers/note/note_driver.c",
+      "additions": 2,
+      "deletions": 23
+    },
+    {
+      "path": "include/nuttx/sched_note.h",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/spinlock.h",
+      "additions": 10,
+      "deletions": 21
+    }
+  ],
+  "headRefName": "apache_remove_sched_note_spinlock_",
+  "headRefOid": "2ff8c03a8ea47747f6b890607b706bdcf21f5d33",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_SYSU",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18147,
+  "state": "CLOSED",
+  "title": "spinlock: Simplify instrumentation interface by removing wrapper functions",
+  "updatedAt": "2026-02-03T19:43:14Z",
+  "url": "https://github.com/apache/nuttx/pull/18147"
+}

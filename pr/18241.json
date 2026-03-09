@@ -1,0 +1,84 @@
+{
+  "additions": 14,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-28T16:02:58Z",
+  "createdAt": "2026-01-28T12:04:34Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/sched/sched_addreadytorun.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "sched/sched/sched_process_delivered.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_removereadytorun.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_fix_sched_issue_cause_by_community",
+  "headRefOid": "ea2c07252ef6c6d013b30d6d9314aeb2a2baa3e3",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_1uai",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dc6ddd8d4d7ef1c9bd49c79b3802d4867655d85b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T16:02:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18241,
+  "state": "MERGED",
+  "title": "Fix critical SMP scheduler issues with CPU selection and ready-to-run list management",
+  "updatedAt": "2026-01-28T16:02:58Z",
+  "url": "https://github.com/apache/nuttx/pull/18241"
+}

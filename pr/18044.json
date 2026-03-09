@@ -1,0 +1,101 @@
+{
+  "additions": 544,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-21T19:45:56Z",
+  "createdAt": "2026-01-20T11:52:59Z",
+  "deletions": 35,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rpmsg/concepts.rst",
+      "additions": 302,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rpmsg/index.rst",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/Kconfig",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 201,
+      "deletions": 35
+    }
+  ],
+  "headRefName": "rpmsg-virtio-pm",
+  "headRefOid": "f48c3c855d4800048f9d9b5d1a6edbdfa13b3901",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac6-MmeF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "baba361bb14f19334692b29df0c0ab1628b8da99"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-21T19:45:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18044,
+  "state": "MERGED",
+  "title": "rpmsg/rpmsg_virtio: add rpmsg virtio common pm support",
+  "updatedAt": "2026-01-21T19:45:56Z",
+  "url": "https://github.com/apache/nuttx/pull/18044"
+}

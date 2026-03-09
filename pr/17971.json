@@ -1,0 +1,95 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-19T06:12:09Z",
+  "createdAt": "2026-01-16T11:45:17Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "arch/x86_64/src/intel64/intel64_freq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/list.h",
+      "additions": 2,
+      "deletions": 10
+    },
+    {
+      "path": "include/nuttx/list_type.h",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "include/nuttx/wqueue.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "update_list",
+  "headRefOid": "224f632bd6b6bf6267e48457f2da4593806758b9",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac69mdmI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1502e6da1564ef78ecffab37084236b5566fa3b1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T06:12:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17971,
+  "state": "MERGED",
+  "title": "sched/list: some improvements.",
+  "updatedAt": "2026-01-19T06:12:10Z",
+  "url": "https://github.com/apache/nuttx/pull/17971"
+}

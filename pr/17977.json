@@ -1,0 +1,89 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-16T15:26:58Z",
+  "createdAt": "2026-01-16T13:39:09Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_gpio.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_serial.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/coremark/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/ostest/defconfig",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mine",
+  "headRefOid": "ef1be668c1dbef3f031ac55bf350fa5fc4ff426d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTQzMzM1MTg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "login": "GUIDINGLI"
+  },
+  "id": "PR_kwDODZiUac69nvE8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c000974700cdc666281070022515c86b2560a250"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T15:26:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17977,
+  "state": "MERGED",
+  "title": "arm64: fix compile failed",
+  "updatedAt": "2026-02-04T22:25:52Z",
+  "url": "https://github.com/apache/nuttx/pull/17977"
+}

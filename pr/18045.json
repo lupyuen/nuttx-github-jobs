@@ -1,0 +1,642 @@
+{
+  "additions": 168,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 94,
+  "closed": true,
+  "closedAt": "2026-01-22T07:37:25Z",
+  "createdAt": "2026-01-20T11:55:35Z",
+  "deletions": 156,
+  "files": [
+    {
+      "path": "arch/arm/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/arm_checkstack.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/common/arm_createstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/arm_internal.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/arm_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/arm_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_checkstack.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_createstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_internal.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/avr/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avr32/avr_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avr32/avr_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_createstack.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/hc/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/hc/src/common/hc_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/hc/src/common/hc_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/mips/include/irq.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/mips/src/common/mips_createstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/mips/src/common/mips_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/mips/src/common/mips_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_createstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_createstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/or1k/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_createstack.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/renesas/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/bl808/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_createstack.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_exception_common.S",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_fork.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_internal.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_macros.S",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/eic7700x/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/jh7110/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/k210/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/k230/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/nuttsbi/sbi_internal.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/nuttsbi/sbi_mscratch.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/nuttsbi/sbi_mtrap.S",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/qemu-rv/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/sg2000/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_createstack.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sim/src/sim/sim_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sparc/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_checkstack.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_createstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_internal.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_createstack.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_schedulesigaction.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86/src/i486/i486_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86/src/i486/i486_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/include/irq.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_checkstack.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_createstack.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/z16/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z16/src/common/z16_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z16/src/common/z16_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/z80/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/common/z80_stackframe.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/common/z80_usestack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/smp/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/irq.h",
+      "additions": 14,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "apache_arch_Make_STACK_ALIGNMENT",
+  "headRefOid": "6eb335304d7b0dca2e87d45ef7b83e1105c752f4",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6-Moeb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP2Vg",
+      "name": "Arch: hc",
+      "description": "Issues related to HC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6f03601169a8091d4e0c15c1217c330b1228660d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T07:37:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18045,
+  "state": "MERGED",
+  "title": "irq: rename STACK_ALIGNMENT to STACKFRAME_ALIGN for clarity",
+  "updatedAt": "2026-01-22T07:37:25Z",
+  "url": "https://github.com/apache/nuttx/pull/18045"
+}

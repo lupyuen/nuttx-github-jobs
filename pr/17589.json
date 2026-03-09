@@ -1,0 +1,103 @@
+{
+  "additions": 19,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB7F0xg",
+    "is_bot": false,
+    "login": "wangchen61698",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-01-09T13:48:18Z",
+  "createdAt": "2025-12-22T07:53:19Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "net/arp/arp_acd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/igmp/igmp_leave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/ipforward/ipv4_forward.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/ipforward/ipv6_forward.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "net/netdev/netdown_notifier.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/procfs/netdev_statistics.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/udp/udp_sendto_buffered.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/udp/udp_sendto_unbuffered.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "41977",
+  "headRefOid": "d7475b0e6ddeb671d33648b8d36b9290f7569cf6",
+  "headRepository": {
+    "id": "R_kgDOQs6X0w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB7F0xg",
+    "login": "wangchen61698"
+  },
+  "id": "PR_kwDODZiUac66FbBA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "96fcc8bb1d1d7818b21274aa40f86f3704b1520d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-09T13:48:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17589,
+  "state": "MERGED",
+  "title": "net: update check condition from IFF_UP  to IFF_RUNNING in the network sending process",
+  "updatedAt": "2026-01-09T13:48:18Z",
+  "url": "https://github.com/apache/nuttx/pull/17589"
+}

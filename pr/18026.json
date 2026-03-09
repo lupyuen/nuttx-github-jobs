@@ -1,0 +1,84 @@
+{
+  "additions": 77,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-21T02:33:13Z",
+  "createdAt": "2026-01-20T01:52:28Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_initialize.c",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "hrtimer_add_list_support",
+  "headRefOid": "886dbdc1ef1b40c1990c896baf95ca14430138c7",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6-HGz-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "291938150f468a61f0dd48b78106eb25559fe6a5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-21T02:33:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18026,
+  "state": "MERGED",
+  "title": "sched/hrtimer: add option for list-based hrtimer management",
+  "updatedAt": "2026-01-21T02:40:00Z",
+  "url": "https://github.com/apache/nuttx/pull/18026"
+}

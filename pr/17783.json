@@ -1,0 +1,85 @@
+{
+  "additions": 64,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-07T14:47:09Z",
+  "createdAt": "2026-01-07T03:25:41Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 24,
+      "deletions": 19
+    },
+    {
+      "path": "include/nuttx/rwsem.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "sched/semaphore/sem_rw.c",
+      "additions": 27,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-race-condition",
+  "headRefOid": "053f42b5b78a6e5a9769691bc72996fca8a94af8",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac671A24",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9d6edc37e7de50bfbfa93cc84b9cecd6c243351b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-07T14:47:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17783,
+  "state": "MERGED",
+  "title": "drivers/Rpmsg: fix rpmsg dead lock and ns bind race condition problem",
+  "updatedAt": "2026-01-07T14:47:09Z",
+  "url": "https://github.com/apache/nuttx/pull/17783"
+}

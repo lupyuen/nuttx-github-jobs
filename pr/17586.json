@@ -1,0 +1,79 @@
+{
+  "additions": 27,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB7F0xg",
+    "is_bot": false,
+    "login": "wangchen61698",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-23T12:06:12Z",
+  "createdAt": "2025-12-22T06:28:34Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/sim_wifidriver.c",
+      "additions": 15,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/net/wifi_sim.c",
+      "additions": 12,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "49071",
+  "headRefOid": "2f42ef02e0d8e5c8ee8afea25fc04651537da317",
+  "headRepository": {
+    "id": "R_kgDOQs6X0w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB7F0xg",
+    "login": "wangchen61698"
+  },
+  "id": "PR_kwDODZiUac66Ev0j",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "07247be9f665d0691b6676bd1876e3dd1620f648"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T12:06:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17586,
+  "state": "MERGED",
+  "title": "drivers/net: fix \"wapi save_config\" and \"wapi reconnect\" commands",
+  "updatedAt": "2025-12-23T12:06:12Z",
+  "url": "https://github.com/apache/nuttx/pull/17586"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB7F0xg",
+    "is_bot": false,
+    "login": "wangchen61698",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-25T06:09:12Z",
+  "createdAt": "2025-12-24T13:07:26Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/icmp/icmp_sockif.c",
+      "additions": 18,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "81810",
+  "headRefOid": "712214bf464a804ef7c72c4dd8a2b7a2de532cbf",
+  "headRepository": {
+    "id": "R_kgDOQs6X0w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB7F0xg",
+    "login": "wangchen61698"
+  },
+  "id": "PR_kwDODZiUac66erWw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c825404a2b163afb4b1da3af683d7c3f2d73541f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T06:09:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17662,
+  "state": "MERGED",
+  "title": "net/icmp: Return -ENOPROTOOPT for SOL_SOCKET to avoid misleading logs",
+  "updatedAt": "2025-12-25T06:09:12Z",
+  "url": "https://github.com/apache/nuttx/pull/17662"
+}

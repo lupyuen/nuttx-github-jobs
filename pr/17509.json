@@ -1,0 +1,73 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB4lDNQ",
+    "is_bot": false,
+    "login": "guohao15",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-16T19:02:46Z",
+  "createdAt": "2025-12-15T08:44:44Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "fs/mqueue/mq_unlink.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "fs/semaphore/sem_unlink.c",
+      "additions": 6,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "bugfix1",
+  "headRefOid": "5f3f0347bed1c05d63f9bf1484e24d5dd3a92d84",
+  "headRepository": {
+    "id": "R_kgDOKIdKpQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB4lDNQ",
+    "login": "guohao15"
+  },
+  "id": "PR_kwDODZiUac643haQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "99ca0dbf9daa6d5ae32c7601133d7c39cccbef8a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-16T19:02:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17509,
+  "state": "MERGED",
+  "title": "bugfix:the inode may have been removed by other core in SMP",
+  "updatedAt": "2025-12-16T19:02:46Z",
+  "url": "https://github.com/apache/nuttx/pull/17509"
+}

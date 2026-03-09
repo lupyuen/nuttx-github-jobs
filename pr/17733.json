@@ -1,0 +1,216 @@
+{
+  "additions": 172,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": true,
+  "closedAt": "2026-01-06T08:08:30Z",
+  "createdAt": "2025-12-30T09:29:07Z",
+  "deletions": 124,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/sim_cansock.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/enc28j60.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/encx24j600.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/ftmac100.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/net/lan91c111.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/net/lan9250.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/net/loopback.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/net/skeleton.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/net/slip.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/tun.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/net/w5500.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/usbdev/cdcecm.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/usbdev/rndis.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/usbhost/usbhost_cdcmbim.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/wireless/ieee80211/bcm43xxx/bcmf_netdev.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/wireless/ieee802154/xbee/xbee_netdev.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/wireless/spirit/drivers/spirit_netdev.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/local/local.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "net/local/local_accept.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "net/local/local_bind.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/local/local_conn.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "net/local/local_connect.c",
+      "additions": 7,
+      "deletions": 9
+    },
+    {
+      "path": "net/local/local_listen.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/local/local_recvmsg.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/local/local_release.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/local/local_sendmsg.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "net/local/local_sockif.c",
+      "additions": 6,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "upstream-3",
+  "headRefOid": "b9de796fe9fb40e424b94f2347e0f028b0084105",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac668JmP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fa6c8579dd11968b46ba602bc46598a78e98a328"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-06T08:08:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 17733,
+  "state": "MERGED",
+  "title": "net/local: replace net_lock with local_lock",
+  "updatedAt": "2026-01-06T08:08:31Z",
+  "url": "https://github.com/apache/nuttx/pull/17733"
+}

@@ -1,0 +1,164 @@
+{
+  "additions": 144,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2026-01-04T12:40:12Z",
+  "createdAt": "2025-12-29T21:14:08Z",
+  "deletions": 15,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/guides/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/testing/citests.rst",
+      "additions": 24,
+      "deletions": 12
+    },
+    {
+      "path": "Documentation/testing/index.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx6/sabre-6quad/configs/citest/run.sh",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest/run.sh",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest64/run.sh",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/config.yaml",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/run",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/run.sh",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/session.json",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "tools/testbuild.sh",
+      "additions": 3,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "ntfc_for_sim",
+  "headRefOid": "4720f92dce009c15a8f03103c61b5afc26633467",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac663_Ny",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e1fb0498b22e4c4213db580a0c9b6692b6f42598"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-04T12:40:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17728,
+  "state": "MERGED",
+  "title": "initial support for automated testing with NTFC",
+  "updatedAt": "2026-03-02T14:23:22Z",
+  "url": "https://github.com/apache/nuttx/pull/17728"
+}

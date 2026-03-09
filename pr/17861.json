@@ -1,0 +1,74 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-13T21:56:39Z",
+  "createdAt": "2026-01-13T09:39:19Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "sched/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "sched/signal/sig_default.c",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_SIGURG_default_sigaction",
+  "headRefOid": "808129b993e4d00f3f6344f929d5376701e56b00",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac684w4u",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f47ff76589811abfc8534ca3303b7b50f99a2001"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-13T21:56:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17861,
+  "state": "MERGED",
+  "title": "signal: add default sigaction for SIGURG",
+  "updatedAt": "2026-01-13T21:56:39Z",
+  "url": "https://github.com/apache/nuttx/pull/17861"
+}

@@ -1,0 +1,90 @@
+{
+  "additions": 22,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-02-27T11:12:19Z",
+  "createdAt": "2026-02-26T18:28:43Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/riscv_initialize.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_internal.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_initialize.c",
+      "additions": 7,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/soc_specific_init",
+  "headRefOid": "2e5a296493c9223414199863d5a3900f1a7afd62",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7Gn9H9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "18be6955c696091757d5f2ff1ba86292dd4bf92e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-27T11:12:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18461,
+  "state": "MERGED",
+  "title": "arch/[risc-v|xtensa]/src/common: Create SoC-specific initialization routine",
+  "updatedAt": "2026-02-27T13:31:38Z",
+  "url": "https://github.com/apache/nuttx/pull/18461"
+}

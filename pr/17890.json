@@ -1,0 +1,69 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "is_bot": false,
+    "login": "13627105546",
+    "name": "daichuan0525"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-19T22:56:28Z",
+  "createdAt": "2026-01-14T07:50:38Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/icmp/icmp_input.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "topic/icmp-unreach-loop-fix",
+  "headRefOid": "a5c14b0696c04e5b0cf53361ace952f8744dd0be",
+  "headRepository": {
+    "id": "R_kgDOMlMqqw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "name": "daichuan0525",
+    "login": "13627105546"
+  },
+  "id": "PR_kwDODZiUac69F_xI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "32ffc69bdde364fc851762a3497e5cfa158d22be"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T22:56:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17890,
+  "state": "MERGED",
+  "title": "net/icmp: Fix devif_loopback dead loop when unrecognized ICMP packet",
+  "updatedAt": "2026-01-19T22:56:28Z",
+  "url": "https://github.com/apache/nuttx/pull/17890"
+}

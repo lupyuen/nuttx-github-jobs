@@ -1,0 +1,84 @@
+{
+  "additions": 219,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-05T17:59:33Z",
+  "createdAt": "2026-01-04T14:39:12Z",
+  "deletions": 73,
+  "files": [
+    {
+      "path": "drivers/wireless/lpwan/Kconfig",
+      "additions": 1,
+      "deletions": 71
+    },
+    {
+      "path": "drivers/wireless/lpwan/sx126x/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/wireless/lpwan/sx127x/Kconfig",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/wireless/lpwan/sx127x/sx127x.c",
+      "additions": 110,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "improve_sx127x",
+  "headRefOid": "36c09feb8144582f9211fc8be74626fb5a693d33",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac67bQaI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "76903ea636ae9df8a0f1ab737aaa07243b9c411d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-05T17:59:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17763,
+  "state": "MERGED",
+  "title": "drivers/sx127x: Add support to different bitrate and RX timeout",
+  "updatedAt": "2026-01-05T17:59:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17763"
+}

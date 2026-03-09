@@ -1,0 +1,222 @@
+{
+  "additions": 2743,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 28,
+  "closed": true,
+  "closedAt": "2025-12-30T13:22:10Z",
+  "createdAt": "2025-12-14T15:03:35Z",
+  "deletions": 36,
+  "files": [
+    {
+      "path": "Documentation/applications/system/ptpd/index.rst",
+      "additions": 606,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/ptp.rst",
+      "additions": 497,
+      "deletions": 0
+    },
+    {
+      "path": "Kconfig",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/drivers_initialize.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/ptp_clock.c",
+      "additions": 482,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/ptp_clock_dummy.c",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "include/debug.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 20,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/ptp_clock.h",
+      "additions": 399,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/ptp_clock_dummy.h",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "include/sys/time.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/sys/timex.h",
+      "additions": 129,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/sched/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/sched/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/clock_adjtime.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_getres.c",
+      "additions": 20,
+      "deletions": 3
+    },
+    {
+      "path": "sched/clock/clock_gettime.c",
+      "additions": 43,
+      "deletions": 5
+    },
+    {
+      "path": "sched/clock/clock_settime.c",
+      "additions": 58,
+      "deletions": 18
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "ptp",
+  "headRefOid": "714166975ce3d3dac18f8e0d9460c8a29f850b16",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac64xgB5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0625b7a760c4c21f872dae823c7eb3dc7c345d7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T13:22:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17498,
+  "state": "MERGED",
+  "title": " drivers/timers/ptp: support ptp clock driver model，CLOCKFD and clock adjtime/settime/gettime for ptp device",
+  "updatedAt": "2025-12-30T13:22:10Z",
+  "url": "https://github.com/apache/nuttx/pull/17498"
+}

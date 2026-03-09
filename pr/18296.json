@@ -1,0 +1,75 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NDY5NjA1",
+    "is_bot": false,
+    "login": "adwait-godbole",
+    "name": "Adwait Godbole"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-01T15:23:33Z",
+  "createdAt": "2026-01-31T17:15:03Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/stm32f10xxf30xx_flash.c",
+      "additions": 15,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "arch/stm32-fix-dualbank-flash-page",
+  "headRefOid": "028aeda430297745018606827c6950788a34c9d0",
+  "headRepository": {
+    "id": "R_kgDORFWekw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NDY5NjA1",
+    "name": "Adwait Godbole",
+    "login": "adwait-godbole"
+  },
+  "id": "PR_kwDODZiUac7Alq5F",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5024a6751493e7cc272642582742eb8bdb00a276"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-01T15:23:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18296,
+  "state": "MERGED",
+  "title": "arch/arm/stm32: fix undeclared page variable in flash write",
+  "updatedAt": "2026-02-01T15:23:33Z",
+  "url": "https://github.com/apache/nuttx/pull/18296"
+}

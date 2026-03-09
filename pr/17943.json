@@ -1,0 +1,113 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-15T14:37:16Z",
+  "createdAt": "2026-01-15T14:14:53Z",
+  "deletions": 313,
+  "files": [
+    {
+      "path": "drivers/note/note_driver.c",
+      "additions": 0,
+      "deletions": 162
+    },
+    {
+      "path": "drivers/note/notelog_driver.c",
+      "additions": 0,
+      "deletions": 46
+    },
+    {
+      "path": "drivers/note/noteram_driver.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/note/noterpmsg_driver.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/note/notesnap_driver.c",
+      "additions": 0,
+      "deletions": 42
+    },
+    {
+      "path": "drivers/note/notestream_driver.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/segger/note_sysview.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/note/note_driver.h",
+      "additions": 1,
+      "deletions": 11
+    },
+    {
+      "path": "include/nuttx/sched_note.h",
+      "additions": 0,
+      "deletions": 38
+    }
+  ],
+  "headRefName": "note-wdog-schednote-cleanup",
+  "headRefOid": "53cc09aa6ffa1f9c0b58d464aebce85097987560",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTQzMzM1MTg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "login": "GUIDINGLI"
+  },
+  "id": "PR_kwDODZiUac69ZRDG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17943,
+  "state": "CLOSED",
+  "title": "note: add noswitches for SUSPEND/RESUME",
+  "updatedAt": "2026-01-15T14:37:16Z",
+  "url": "https://github.com/apache/nuttx/pull/17943"
+}

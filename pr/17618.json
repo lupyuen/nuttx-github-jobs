@@ -1,0 +1,79 @@
+{
+  "additions": 24,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-23T02:28:09Z",
+  "createdAt": "2025-12-22T10:22:40Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "drivers/power/battery/battery_charger.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/power/battery/battery_gauge.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/power/battery/battery_monitor.c",
+      "additions": 8,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "bp-17501",
+  "headRefOid": "d360109a53d52e3c6a5b1562317d3b6c938614b8",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66HIrw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "68a4632f5dc3bcdd2f6f8ecbbefde98945f3f21e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T02:28:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17618,
+  "state": "MERGED",
+  "title": "{bp-17501} drivers/battery: fix race condition in event handling",
+  "updatedAt": "2025-12-23T05:30:29Z",
+  "url": "https://github.com/apache/nuttx/pull/17618"
+}

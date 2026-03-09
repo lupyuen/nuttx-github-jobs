@@ -1,0 +1,99 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-02-02T03:13:21Z",
+  "createdAt": "2026-01-30T09:13:35Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fork.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_initialstate.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_registerdump.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_vector_table.S",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_vectors.S",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "arm64_sctlr",
+  "headRefOid": "82459a633178109e84976e8a3dc47ad34a66d7d8",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7AWInG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "95ef6753ad26dfa66b32f1af0342f501f89ac8cf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T03:13:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18279,
+  "state": "MERGED",
+  "title": "arch/arm64: Delete the default save for SCTLR and fix the issue of including incorrect order",
+  "updatedAt": "2026-02-02T03:13:22Z",
+  "url": "https://github.com/apache/nuttx/pull/18279"
+}

@@ -1,0 +1,115 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-12-20T12:47:23Z",
+  "createdAt": "2025-12-17T11:19:48Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "fs/procfs/fs_procfsmeminfo.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/mempool.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/mm.h",
+      "additions": 12,
+      "deletions": 2
+    },
+    {
+      "path": "mm/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mempool/mempool.c",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "mm/mm_heap/mm.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "mm/mm_heap/mm_memdump.c",
+      "additions": 27,
+      "deletions": 6
+    },
+    {
+      "path": "mm/tlsf/mm_tlsf.c",
+      "additions": 21,
+      "deletions": 5
+    },
+    {
+      "path": "mm/umm_heap/umm_memdump.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "20251217_mm_seq",
+  "headRefOid": "ea0e5915d367f2efacf1745c82b8ae3aecfb892a",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac65WRpg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "92f26a98dd276c4c2aefe9892c93ca2a6b9f76eb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-20T12:47:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17538,
+  "state": "MERGED",
+  "title": "mm: use Kconfig to control sequence number to save memory",
+  "updatedAt": "2025-12-20T12:47:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17538"
+}

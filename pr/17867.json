@@ -1,0 +1,110 @@
+{
+  "additions": 251,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "is_bot": false,
+    "login": "13627105546",
+    "name": "daichuan0525"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-01-14T01:22:55Z",
+  "createdAt": "2026-01-13T13:47:03Z",
+  "deletions": 71,
+  "files": [
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 23,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_netdriver.c",
+      "additions": 40,
+      "deletions": 9
+    },
+    {
+      "path": "arch/sim/src/sim/sim_wifihost.c",
+      "additions": 85,
+      "deletions": 60
+    },
+    {
+      "path": "arch/sim/src/sim/sim_wifihost.h",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/wifi_sim.c",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/wifi_sim.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "topic/simwifi-stack",
+  "headRefOid": "7647b0a092c420263fcfa7811be2ae482307a813",
+  "headRepository": {
+    "id": "R_kgDOMlMqqw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "name": "daichuan0525",
+    "login": "13627105546"
+  },
+  "id": "PR_kwDODZiUac6870XR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1d8eab937f1813638df3556a88151d54f63edcde"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-14T01:22:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17867,
+  "state": "MERGED",
+  "title": "arch/sim: Refactor Wi-Fi simulation and add Pseudo Mode support",
+  "updatedAt": "2026-01-14T01:22:55Z",
+  "url": "https://github.com/apache/nuttx/pull/17867"
+}

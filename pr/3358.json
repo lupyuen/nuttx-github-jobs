@@ -1,0 +1,136 @@
+{
+  "additions": 32,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC2sdrQ",
+    "is_bot": false,
+    "login": "txy-21",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-01-26T11:32:28Z",
+  "createdAt": "2026-01-21T08:22:13Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mdnsd/mdnsd_daemon.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/codecs/md5.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ftpd/ftpd.c",
+      "additions": 18,
+      "deletions": 17
+    },
+    {
+      "path": "netutils/rexecd/rexecd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/lsan/lsan_main.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "testing/drivers/crypto/dhm.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "testing/drivers/drivertest/drivertest_touchpanel.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "testing/mm/cachetest/cachetest_main.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "testing/mm/memstress/memorystress_main.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/include/fstest.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "testing-header-fixes",
+  "headRefOid": "a6dad89076be10189bbf84248700ec496d749a3e",
+  "headRepository": {
+    "id": "R_kgDONemdMQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC2sdrQ",
+    "login": "txy-21"
+  },
+  "id": "PR_kwDODZiT486-ZGIw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c69df55cd043c1621e4c0fa3207ffd6ab7c71e18"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T11:32:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3358,
+  "state": "MERGED",
+  "title": "testing: fix compilation issues with missing header files",
+  "updatedAt": "2026-01-26T11:32:28Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3358"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODxOs-w",
+    "is_bot": false,
+    "login": "0xFFFF800000000000",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-02T14:58:03Z",
+  "createdAt": "2026-02-01T23:10:00Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/x86/src/i486/i486_utils.S",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "x86-gdt_idt_flush-fix",
+  "headRefOid": "71a879e80184ab1ad17e1ac5692f44d4aaef2744",
+  "headRepository": {
+    "id": "R_kgDORGNgaQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODxOs-w",
+    "login": "0xFFFF800000000000"
+  },
+  "id": "PR_kwDODZiUac7AxjXR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cb2a3ed83ea1b965f93e85773156d56d3223094e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T14:58:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18303,
+  "state": "MERGED",
+  "title": "arch/x86: fixed errors in gdt_flush and idt_flush",
+  "updatedAt": "2026-02-04T15:41:05Z",
+  "url": "https://github.com/apache/nuttx/pull/18303"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-18T18:02:48Z",
+  "createdAt": "2026-01-16T06:19:14Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "sched/irq/irq_attach_thread.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "sched/irq/irq_attach_wqueue.c",
+      "additions": 6,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "apache_isrthread_is_isr",
+  "headRefOid": "59ed5753410370fced547c06a927508d0e6372d5",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69ix26",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e143acfc4642e53b5998f2b2dc617be4c0a48c4f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-18T18:02:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17958,
+  "state": "MERGED",
+  "title": "sched/irq: handle NULL ISR handler in irq_default_handler",
+  "updatedAt": "2026-01-18T18:02:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17958"
+}

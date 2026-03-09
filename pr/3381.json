@@ -1,0 +1,85 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-27T12:48:04Z",
+  "createdAt": "2026-01-27T06:21:52Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "examples/foc/foc_fixed16_thr.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "examples/foc/foc_float_thr.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/wdog.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_remove_csection_2",
+  "headRefOid": "be9d6baeee4d7162c243554611d822328eb0b378",
+  "headRepository": {
+    "id": "R_kgDOJYlokQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiT486_hdUl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6Uug",
+      "name": "Size: XS",
+      "description": "",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8aa48c4fb6a691a321bd167892c79a844ec52cf1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T12:48:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3381,
+  "state": "MERGED",
+  "title": "examples: foc: Add critical section protection for thread-safe motor control",
+  "updatedAt": "2026-01-27T17:06:20Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3381"
+}

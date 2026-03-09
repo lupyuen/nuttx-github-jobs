@@ -1,0 +1,136 @@
+{
+  "additions": 49,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-01-13T13:41:36Z",
+  "createdAt": "2026-01-13T03:57:08Z",
+  "deletions": 142,
+  "files": [
+    {
+      "path": "Documentation/reference/os/nuttx.rst",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "Documentation/reference/os/time_clock.rst",
+      "additions": 14,
+      "deletions": 45
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/timers/arch_timer.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 8,
+      "deletions": 16
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_start.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 0,
+      "deletions": 24
+    },
+    {
+      "path": "sched/sched/sched_processtimer.c",
+      "additions": 4,
+      "deletions": 25
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "hrtimer_refactor_p1_back",
+  "headRefOid": "ddcbaa297791c3e63bd414440f2a4d09d216d1f2",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac681XuZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4514a11237e9d012db39f377a2a92d5ced1e1066"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-13T13:41:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17848,
+  "state": "MERGED",
+  "title": "sched/hrtimer: Some improvements.",
+  "updatedAt": "2026-01-13T13:41:36Z",
+  "url": "https://github.com/apache/nuttx/pull/17848"
+}

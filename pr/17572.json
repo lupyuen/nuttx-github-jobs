@@ -1,0 +1,100 @@
+{
+  "additions": 199,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-12-20T16:58:58Z",
+  "createdAt": "2025-12-20T01:20:21Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/index.rst",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/qmi8658/defconfig",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3-szpi.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_qmi8658.c",
+      "additions": 84,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "lc",
+  "headRefOid": "b6b2821d4cd92352728eaaa9182545b0ca835c4d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac657AD7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "beb0a4756868bac1fede2a1a60d98e21ea42221f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-20T16:58:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17572,
+  "state": "MERGED",
+  "title": "boards/esp32s3/lckfb-szpi: Add QMI8658 6-axis IMU sensor support",
+  "updatedAt": "2025-12-20T16:58:58Z",
+  "url": "https://github.com/apache/nuttx/pull/17572"
+}

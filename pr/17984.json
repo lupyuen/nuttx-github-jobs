@@ -1,0 +1,96 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-18T15:05:11Z",
+  "createdAt": "2026-01-17T10:29:40Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "binfmt/binfmt_execmodule.c",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 13,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "apache_arch_ARCH_KERNEL_STACK",
+  "headRefOid": "28cd8490af0860118f948a3ab6498daf1a460b15",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69w60E",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6f4cb9f457b9bfdfc31c875c42c3ae7f6c631e78"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-18T15:05:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17984,
+  "state": "MERGED",
+  "title": "arch: enable ARCH_KERNEL_STACK support in protected builds",
+  "updatedAt": "2026-01-18T15:05:11Z",
+  "url": "https://github.com/apache/nuttx/pull/17984"
+}

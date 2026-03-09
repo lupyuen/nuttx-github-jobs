@@ -1,0 +1,113 @@
+{
+  "additions": 20,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC2sdrQ",
+    "is_bot": false,
+    "login": "txy-21",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-22T11:48:58Z",
+  "createdAt": "2026-01-21T09:53:08Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "testing/drivers/drivertest/drivertest_audio.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/libc/arch_libc/arch_libc_test_main.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "testing/mm/cachetest/cachetest_main.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "testing/sched/timerjitter/timerjitter.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/socket/cases/net_socket_test_010.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/close_test.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/dup2_test.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/fsync_test.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/listen_test.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/setsocketopt01_test.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "testing-fixes-batch",
+  "headRefOid": "e436f0288b7615d3893ffca9e1f5551c173af4ee",
+  "headRepository": {
+    "id": "R_kgDONemdMQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC2sdrQ",
+    "login": "txy-21"
+  },
+  "id": "PR_kwDODZiT486-aMy9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b6203955f98a0d7d209e591f189a9c7eb057dcdc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T11:48:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 3360,
+  "state": "MERGED",
+  "title": "testing: fix test suite issues for better compatibility",
+  "updatedAt": "2026-01-22T11:48:58Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3360"
+}

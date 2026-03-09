@@ -1,0 +1,127 @@
+{
+  "additions": 328,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2026-02-03T19:25:44Z",
+  "createdAt": "2026-02-03T07:39:07Z",
+  "deletions": 149,
+  "files": [
+    {
+      "path": "arch/arm/src/armv6-m/arm_dispatch_syscall.S",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_dispatch_syscall.S",
+      "additions": 6,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/armv7-r/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_dispatch_syscall.S",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_syscall.c",
+      "additions": 9,
+      "deletions": 61
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_vectors.S",
+      "additions": 32,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_dispatch_syscall.S",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/armv8-r/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_dispatch_syscall.S",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_syscall.c",
+      "additions": 9,
+      "deletions": 61
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_vectors.S",
+      "additions": 33,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/common/arm_internal.h",
+      "additions": 6,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "20260203_arm_r_cfi",
+  "headRefOid": "612dbed9676e28d074d304700b6c0362bdace9af",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac7BHHD5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18332,
+  "state": "CLOSED",
+  "title": "arch/arm: Add CFI directives for syscall dispatch to enable kernel-to-user backtrace.",
+  "updatedAt": "2026-02-03T19:25:44Z",
+  "url": "https://github.com/apache/nuttx/pull/18332"
+}

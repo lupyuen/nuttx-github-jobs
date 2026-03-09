@@ -1,0 +1,84 @@
+{
+  "additions": 31,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-27T17:29:34Z",
+  "createdAt": "2026-01-27T12:47:23Z",
+  "deletions": 28,
+  "files": [
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/semaphore/sem_trywait.c",
+      "additions": 26,
+      "deletions": 24
+    },
+    {
+      "path": "sched/semaphore/sem_wait.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "sched/semaphore/semaphore.h",
+      "additions": 0,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "apache_sem_trywait_coverity_HIS_metric_violation",
+  "headRefOid": "ac1806bf63ed7fbde1169398003ca4ad1da49f33",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_mLWc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "49cb8e08e609d062f14dbaf7b70f409b890833e9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T17:29:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18201,
+  "state": "MERGED",
+  "title": "sched/semaphore: Code quality improvements and MISRA compliance fixes",
+  "updatedAt": "2026-01-27T17:29:34Z",
+  "url": "https://github.com/apache/nuttx/pull/18201"
+}

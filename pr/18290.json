@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-31T06:14:26Z",
+  "createdAt": "2026-01-30T16:22:50Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "drivers/virtio/virtio-mmio.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/virtio/virtio-pci.c",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "virtio-irq",
+  "headRefOid": "1d6d1951a2e1b6e453197bd2bc15cbd1903a353d",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac7AbnfF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3237e25d7036dc153e7cf340fcd74809d1274c93"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-31T06:14:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18290,
+  "state": "MERGED",
+  "title": "drivers/virtio: use virtqueue_nused() to check pending buffers",
+  "updatedAt": "2026-01-31T06:14:26Z",
+  "url": "https://github.com/apache/nuttx/pull/18290"
+}

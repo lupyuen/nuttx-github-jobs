@@ -1,0 +1,153 @@
+{
+  "additions": 1486,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": true,
+  "closedAt": "2026-01-16T08:18:51Z",
+  "createdAt": "2025-12-25T06:33:08Z",
+  "deletions": 884,
+  "files": [
+    {
+      "path": "Documentation/reference/os/time_clock.rst",
+      "additions": 226,
+      "deletions": 60
+    },
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 176,
+      "deletions": 108
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 25,
+      "deletions": 6
+    },
+    {
+      "path": "sched/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "sched/hrtimer/Make.defs",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.c",
+      "additions": 434,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 21,
+      "deletions": 119
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 0,
+      "deletions": 208
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_initialize.c",
+      "additions": 0,
+      "deletions": 79
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_internal.h",
+      "additions": 475,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 0,
+      "deletions": 143
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_start.c",
+      "additions": 0,
+      "deletions": 148
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_processtimer.c",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 59,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "hrtimer_p4",
+  "headRefOid": "cfa0b01f03c9176c54b1e0f73a0a0b2e8835dd73",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac66ibj3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17675,
+  "state": "CLOSED",
+  "title": "sched: Refactor the functional incorrect HRTimer implementation.",
+  "updatedAt": "2026-01-16T08:18:52Z",
+  "url": "https://github.com/apache/nuttx/pull/17675"
+}

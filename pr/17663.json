@@ -1,0 +1,153 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": true,
+  "closedAt": "2025-12-25T01:50:41Z",
+  "createdAt": "2025-12-24T13:13:28Z",
+  "deletions": 305,
+  "files": [
+    {
+      "path": "net/can/can.h",
+      "additions": 0,
+      "deletions": 13
+    },
+    {
+      "path": "net/can/can_conn.c",
+      "additions": 0,
+      "deletions": 13
+    },
+    {
+      "path": "net/devif/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/devif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/devif/devif.h",
+      "additions": 0,
+      "deletions": 16
+    },
+    {
+      "path": "net/devif/devif_callback.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "net/devif/devif_initialize.c",
+      "additions": 0,
+      "deletions": 92
+    },
+    {
+      "path": "net/ipforward/ipforward.h",
+      "additions": 0,
+      "deletions": 13
+    },
+    {
+      "path": "net/ipforward/ipfwd_alloc.c",
+      "additions": 2,
+      "deletions": 20
+    },
+    {
+      "path": "net/net_initialize.c",
+      "additions": 0,
+      "deletions": 40
+    },
+    {
+      "path": "net/netlink/netlink.h",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "net/netlink/netlink_conn.c",
+      "additions": 0,
+      "deletions": 13
+    },
+    {
+      "path": "net/pkt/pkt.h",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "net/pkt/pkt_conn.c",
+      "additions": 0,
+      "deletions": 13
+    },
+    {
+      "path": "net/tcp/tcp.h",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 0,
+      "deletions": 13
+    },
+    {
+      "path": "net/udp/udp.h",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "net/udp/udp_conn.c",
+      "additions": 0,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "upstream-2",
+  "headRefOid": "bf41ad999f6770c8471eec6503a332097c8d0b41",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66euVv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "aba8cd4d8639aa18c9160015342df36405667cdb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T01:50:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17663,
+  "state": "MERGED",
+  "title": "net/net_initialize: remove the empty functions that are not needed",
+  "updatedAt": "2025-12-25T01:50:41Z",
+  "url": "https://github.com/apache/nuttx/pull/17663"
+}

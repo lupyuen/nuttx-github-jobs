@@ -1,0 +1,125 @@
+{
+  "additions": 132,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-12-24T08:46:17Z",
+  "createdAt": "2025-12-22T12:13:33Z",
+  "deletions": 214,
+  "files": [
+    {
+      "path": "include/nuttx/list.h",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "sched/task/task_recover.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/wd_cancel.c",
+      "additions": 32,
+      "deletions": 26
+    },
+    {
+      "path": "sched/wdog/wd_gettime.c",
+      "additions": 11,
+      "deletions": 6
+    },
+    {
+      "path": "sched/wdog/wd_initialize.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/wdog/wd_recover.c",
+      "additions": 0,
+      "deletions": 69
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 70,
+      "deletions": 77
+    },
+    {
+      "path": "sched/wdog/wdog.h",
+      "additions": 0,
+      "deletions": 24
+    }
+  ],
+  "headRefName": "hrtimer_p3",
+  "headRefOid": "70123422a013d8a3dfe790592cd85332aa7c2ee7",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac66IU2R",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2dc2b30a6a030e36e7300b7da89a7c929157ea48"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-24T08:46:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17640,
+  "state": "MERGED",
+  "title": "sched/wdog: Fix-up for SMP and Improvements.",
+  "updatedAt": "2025-12-24T08:46:17Z",
+  "url": "https://github.com/apache/nuttx/pull/17640"
+}

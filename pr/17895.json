@@ -1,0 +1,88 @@
+{
+  "additions": 92,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-15T15:15:04Z",
+  "createdAt": "2026-01-14T08:22:06Z",
+  "deletions": 128,
+  "files": [
+    {
+      "path": "net/route/net_add_ramroute.c",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "net/route/net_alloc_ramroute.c",
+      "additions": 56,
+      "deletions": 93
+    },
+    {
+      "path": "net/route/net_foreach_ramroute.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/route/net_initroute.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "net/route/ramroute.h",
+      "additions": 26,
+      "deletions": 19
+    }
+  ],
+  "headRefName": "upstream-4",
+  "headRefOid": "82586c797a9f449e93ab8a803892496c32daf7d6",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac69GVSy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6296aeecdb7aa5b3340ef8efefa3f62e96b244d6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T15:15:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17895,
+  "state": "MERGED",
+  "title": "net/route/ramroute: replace prealloc with netpool",
+  "updatedAt": "2026-01-15T15:15:04Z",
+  "url": "https://github.com/apache/nuttx/pull/17895"
+}

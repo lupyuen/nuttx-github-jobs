@@ -1,0 +1,85 @@
+{
+  "additions": 39,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-23T02:29:27Z",
+  "createdAt": "2025-12-22T10:06:46Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_cdcacm.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-17461",
+  "headRefOid": "f0c0d726bb4b22cfa8f45498461e3a84e55b35c0",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66G7cR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a70cc1cca16f992bdb5b9867b69508158673f273"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T02:29:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17611,
+  "state": "MERGED",
+  "title": "{bp-17461} usbhost: cdcacm exit wq after copy all received data",
+  "updatedAt": "2025-12-23T05:29:36Z",
+  "url": "https://github.com/apache/nuttx/pull/17611"
+}

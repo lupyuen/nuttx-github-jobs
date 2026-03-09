@@ -1,0 +1,79 @@
+{
+  "additions": 50,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-15T19:23:05Z",
+  "createdAt": "2026-01-15T09:20:48Z",
+  "deletions": 50,
+  "files": [
+    {
+      "path": "include/pthread.h",
+      "additions": 0,
+      "deletions": 50
+    },
+    {
+      "path": "include/signal.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/types.h",
+      "additions": 45,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pse52_pthread_constant_reorg",
+  "headRefOid": "22623537dd4ce4c408e72fe597c5259a1f07f14d",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac69VtLU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d78d94e1fab58d512b82e7199ae774990dead146"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T19:23:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17934,
+  "state": "MERGED",
+  "title": "pthread: reorganized the locations of pthread-related functions and constants",
+  "updatedAt": "2026-01-15T19:23:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17934"
+}

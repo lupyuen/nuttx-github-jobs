@@ -1,0 +1,110 @@
+{
+  "additions": 101,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCtvr1Q",
+    "is_bot": false,
+    "login": "xianglyc",
+    "name": "liwenxiang1"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-01-20T14:43:38Z",
+  "createdAt": "2026-01-19T09:30:21Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/x86_64/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/cmake/Toolchain.cmake",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/common/Toolchain.defs",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_checkstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_handlers.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/x86_64/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/x86_64/Make.defs",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/x86_64/mcount.S",
+      "additions": 63,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "debugtool",
+  "headRefOid": "678786f73f892a640bfd420561b9554864a77f3f",
+  "headRepository": {
+    "id": "R_kgDOM0W-2g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCtvr1Q",
+    "name": "liwenxiang1",
+    "login": "xianglyc"
+  },
+  "id": "PR_kwDODZiUac699fsy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2645e06c862ca3726f12b6abf629b358151c1dbd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-20T14:43:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18008,
+  "state": "MERGED",
+  "title": "arch/x86_64: Add gprof and stack check tool",
+  "updatedAt": "2026-01-23T05:59:47Z",
+  "url": "https://github.com/apache/nuttx/pull/18008"
+}

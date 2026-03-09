@@ -1,0 +1,100 @@
+{
+  "additions": 634,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-12-30T11:51:51Z",
+  "createdAt": "2025-12-15T09:00:15Z",
+  "deletions": 374,
+  "files": [
+    {
+      "path": "include/netutils/ptpd.h",
+      "additions": 16,
+      "deletions": 3
+    },
+    {
+      "path": "netutils/ptpd/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ptpd/Kconfig",
+      "additions": 9,
+      "deletions": 45
+    },
+    {
+      "path": "netutils/ptpd/ptpd.c",
+      "additions": 477,
+      "deletions": 286
+    },
+    {
+      "path": "netutils/ptpd/ptpv2.h",
+      "additions": 14,
+      "deletions": 12
+    },
+    {
+      "path": "system/ptpd/ptpd_main.c",
+      "additions": 95,
+      "deletions": 28
+    }
+  ],
+  "headRefName": "ptp",
+  "headRefOid": "53f8f23d33affb94b96bc6d345424fcdf84012b8",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTU2MzQ3Nzc=",
+    "name": "incubator-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiT48643rtu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e5c85d1ca23c5e41df65da7b228f447e6229470a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T11:51:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 3247,
+  "state": "MERGED",
+  "title": "PTPd Service Enhancement: Supports Ethernet Synchronization / Logic Optimization / Alignment with Linux PTPv4 Options",
+  "updatedAt": "2025-12-30T11:51:51Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3247"
+}

@@ -1,0 +1,89 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-08T14:26:12Z",
+  "createdAt": "2026-01-07T03:41:08Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "hrtimer_refactor_p1",
+  "headRefOid": "695487419c987c0623e1c5312a6b15f9a31f1c97",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac671F7B",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "254df1721a1c7c582fc9f00775b93fc87e77ddad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-08T14:26:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17784,
+  "state": "MERGED",
+  "title": "sched/hrtimer: Fix some functional correctness issues.",
+  "updatedAt": "2026-01-08T14:26:12Z",
+  "url": "https://github.com/apache/nuttx/pull/17784"
+}

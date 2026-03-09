@@ -1,0 +1,80 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC6qofw",
+    "is_bot": false,
+    "login": "xiezhanpeng2025",
+    "name": "xiezhanpeng"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-08T13:09:05Z",
+  "createdAt": "2025-12-08T07:32:26Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm/src/armv8-r/Toolchain.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cmake/armv8-r.cmake",
+      "additions": 5,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "d7a3d64a3503b4186d093f664114924e4388957b",
+  "headRepository": {
+    "id": "R_kgDOQOHtuQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC6qofw",
+    "name": "xiezhanpeng",
+    "login": "xiezhanpeng2025"
+  },
+  "id": "PR_kwDODZiUac63m4cH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fc0647491b8bfaf90419ac7cb66ac6858a6cd76c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-08T13:09:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17448,
+  "state": "MERGED",
+  "title": "arch/armv8-r: use -mfpu=fpv5-sp-d16 for SP-only Cortex-R52 targets",
+  "updatedAt": "2025-12-08T13:09:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17448"
+}

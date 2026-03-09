@@ -1,0 +1,124 @@
+{
+  "additions": 326,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-01-01T09:03:29Z",
+  "createdAt": "2025-12-30T15:32:25Z",
+  "deletions": 53,
+  "files": [
+    {
+      "path": "include/nuttx/mm/iob.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/netdev.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "mm/iob/iob_add_queue.c",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "net/arp/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "net/arp/arp.h",
+      "additions": 36,
+      "deletions": 4
+    },
+    {
+      "path": "net/arp/arp_out.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "net/arp/arp_send.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/arp/arp_table.c",
+      "additions": 128,
+      "deletions": 26
+    },
+    {
+      "path": "net/devif/devif_poll.c",
+      "additions": 77,
+      "deletions": 13
+    },
+    {
+      "path": "net/netdev/netdev_findbyaddr.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "net/netdev/netdev_ioctl.c",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "upstream-7",
+  "headRefOid": "034892570fc5e58c237d5eec44da493d770c4d22",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66_Vb5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d6bd89ff144abae5c1c747ba7882f9087ff8f9ae"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-01T09:03:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17749,
+  "state": "MERGED",
+  "title": "ARP table improvement",
+  "updatedAt": "2026-01-02T10:48:33Z",
+  "url": "https://github.com/apache/nuttx/pull/17749"
+}

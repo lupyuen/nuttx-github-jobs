@@ -1,0 +1,99 @@
+{
+  "additions": 71,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-26T20:23:31Z",
+  "createdAt": "2026-01-26T14:27:53Z",
+  "deletions": 29,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg.h",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_router.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio_lite.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg.h",
+      "additions": 0,
+      "deletions": 25
+    }
+  ],
+  "headRefName": "rpmsg-private-api",
+  "headRefOid": "07a3e871e429102e0dc2f57bb0fd567350ec6ec9",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac6_YNeq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f56ea304790d88daf74a4208578464ffdba1e28c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T20:23:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18165,
+  "state": "MERGED",
+  "title": "drivers/rpmsg: refactor internal APIs to private header",
+  "updatedAt": "2026-01-26T20:23:31Z",
+  "url": "https://github.com/apache/nuttx/pull/18165"
+}

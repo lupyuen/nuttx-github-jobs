@@ -1,0 +1,105 @@
+{
+  "additions": 71,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB7F0xg",
+    "is_bot": false,
+    "login": "wangchen61698",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-12-25T04:24:04Z",
+  "createdAt": "2025-12-22T13:16:27Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "include/netutils/icmp_ping.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/netutils/icmpv6_ping.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ping/icmp_ping.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ping/icmpv6_ping.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "system/ping/ping.c",
+      "additions": 19,
+      "deletions": 1
+    },
+    {
+      "path": "system/ping6/ping6.c",
+      "additions": 16,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "63377",
+  "headRefOid": "9b730b237e21e27b95a274bde82dbc38614ed625",
+  "headRepository": {
+    "id": "R_kgDOQtHhCw",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB7F0xg",
+    "login": "wangchen61698"
+  },
+  "id": "PR_kwDODZiT4866JBt8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6Uug",
+      "name": "Size: XS",
+      "description": "",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f89773cbc8ed658461223c923b7fdc1c99c18d00"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T04:24:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3263,
+  "state": "MERGED",
+  "title": "ping: add -I for bind device",
+  "updatedAt": "2025-12-25T04:24:04Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3263"
+}

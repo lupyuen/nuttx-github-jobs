@@ -1,0 +1,109 @@
+{
+  "additions": 454,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-22T07:39:34Z",
+  "createdAt": "2026-01-19T02:52:56Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/arch.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/Make.defs",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_addrenv_kstack.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_addrenv_mmu.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_addrenv_mpu.c",
+      "additions": 432,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_initialstate.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_syscall.c",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_arm64_add_mpu_addrenv",
+  "headRefOid": "d18fa2068ffdbfd51ff73ad4167f2923d3231574",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac696Gt9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b0cb4e5968b4dbdd291cc8715375a977e3481b28"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T07:39:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17998,
+  "state": "MERGED",
+  "title": "arm64: add mpu_addrenv.c empty implementation and change arm64_addren…",
+  "updatedAt": "2026-01-22T07:39:34Z",
+  "url": "https://github.com/apache/nuttx/pull/17998"
+}

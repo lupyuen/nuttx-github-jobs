@@ -1,0 +1,69 @@
+{
+  "additions": 274,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-03T19:04:44Z",
+  "createdAt": "2026-02-03T09:17:53Z",
+  "deletions": 260,
+  "files": [
+    {
+      "path": "sched/sched/sched_waitpid.c",
+      "additions": 274,
+      "deletions": 260
+    }
+  ],
+  "headRefName": "apache_sched_waitpid_HIS_metric_violation2",
+  "headRefOid": "9a0fdc60b7ec9e6e9fbe9b052c5f8c97ac6f9b6e",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac7BIm2c",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "82a218cbf3f295d6639842b2efbc359e2178357d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-03T19:04:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18336,
+  "state": "MERGED",
+  "title": "sched/waitpid: reduce cyclomatic complexity for HIS/MISRA compliance",
+  "updatedAt": "2026-02-03T19:04:44Z",
+  "url": "https://github.com/apache/nuttx/pull/18336"
+}

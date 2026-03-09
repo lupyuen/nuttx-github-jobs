@@ -1,0 +1,99 @@
+{
+  "additions": 585,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCZ0p9w",
+    "is_bot": false,
+    "login": "arjav1528",
+    "name": "Arjav Patel"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-03-02T12:09:41Z",
+  "createdAt": "2026-02-03T17:21:37Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/components/libs/libc/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/libs/libc/stdbit.rst",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "Kconfig",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_generate_headers.cmake",
+      "additions": 15,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/lib/stdbit.h",
+      "additions": 485,
+      "deletions": 0
+    },
+    {
+      "path": "tools/Unix.mk",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "tools/Win.mk",
+      "additions": 15,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "dev-issue-18311",
+  "headRefOid": "964c1180ac12e1f9de9655e477c4c51d21639f22",
+  "headRepository": {
+    "id": "R_kgDORHYmBw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCZ0p9w",
+    "name": "Arjav Patel",
+    "login": "arjav1528"
+  },
+  "id": "PR_kwDODZiUac7BP8rA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e2f3950d45946eb765dd5fab13a67b7bc70b8a51"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-02T12:09:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18347,
+  "state": "MERGED",
+  "title": "libc: Add C23 stdbit.h with optional Kconfig and generic implementation",
+  "updatedAt": "2026-03-02T16:13:32Z",
+  "url": "https://github.com/apache/nuttx/pull/18347"
+}

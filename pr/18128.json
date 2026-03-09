@@ -1,0 +1,104 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-23T10:48:09Z",
+  "createdAt": "2026-01-23T03:40:06Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "drivers/note/note_driver.c",
+      "additions": 17,
+      "deletions": 27
+    },
+    {
+      "path": "include/nuttx/sched_note.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_note.c",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "note-compile-error",
+  "headRefOid": "c09f041d56bd022d7da6deff3f50442783cf2b87",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac6-1vFB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1b22f8c65b96749565ede4f69cda230992fe81da"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-23T10:48:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18128,
+  "state": "MERGED",
+  "title": "driver/note: Fix compilation error when CONFIG_SYSLOG_TO_SCHED_NOTE=y",
+  "updatedAt": "2026-01-26T08:44:07Z",
+  "url": "https://github.com/apache/nuttx/pull/18128"
+}

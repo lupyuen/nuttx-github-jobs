@@ -1,0 +1,95 @@
+{
+  "additions": 92,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-12-26T03:51:38Z",
+  "createdAt": "2025-12-25T11:24:18Z",
+  "deletions": 112,
+  "files": [
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 14,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 2,
+      "deletions": 14
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 0,
+      "deletions": 20
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 76,
+      "deletions": 74
+    }
+  ],
+  "headRefName": "hrtimer_p3.5",
+  "headRefOid": "0609fb512200e5618ac505271186bbdb1e1adc78",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac66jddj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dfdbf4dcf91c58e13928359c79ac5ecda33ac47a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-26T03:51:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17680,
+  "state": "MERGED",
+  "title": "sched: Remove `CONFIG_SCHED_TICKLESS_TICK_ARGUMENT`.",
+  "updatedAt": "2025-12-26T03:51:38Z",
+  "url": "https://github.com/apache/nuttx/pull/17680"
+}

@@ -1,0 +1,253 @@
+{
+  "additions": 2430,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 33,
+  "closed": true,
+  "closedAt": "2025-12-11T10:29:27Z",
+  "createdAt": "2025-12-10T11:52:52Z",
+  "deletions": 336,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 84,
+      "deletions": 77
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 110,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/index.rst",
+      "additions": 229,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 119,
+      "deletions": 25
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 108,
+      "deletions": 109
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 114,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Bootloader.mk",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 117,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash.c",
+      "additions": 465,
+      "deletions": 19
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 114,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_efuse.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash.c",
+      "additions": 470,
+      "deletions": 22
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Bootloader.mk",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig.security",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_start.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Bootloader.mk",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig.security",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Bootloader.mk",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 17,
+      "deletions": 17
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/esp32_sections.ld",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_spiflash.c",
+      "additions": 2,
+      "deletions": 6
+    },
+    {
+      "path": "tools/esp32/Config.mk",
+      "additions": 77,
+      "deletions": 13
+    },
+    {
+      "path": "tools/esp32s2/Config.mk",
+      "additions": 82,
+      "deletions": 10
+    },
+    {
+      "path": "tools/esp32s3/Config.mk",
+      "additions": 86,
+      "deletions": 3
+    },
+    {
+      "path": "tools/espressif/Config.mk",
+      "additions": 89,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/esp-flash-enc-support",
+  "headRefOid": "b146efe58e556117614c2d22e6212fcf92c48c1c",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac64H4Al",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "37521ebf1de7d5fb47f1b95ffe235d80dc27dc2c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-11T10:29:27Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17475,
+  "state": "MERGED",
+  "title": "espressif: add support for flash encryption",
+  "updatedAt": "2025-12-11T10:29:27Z",
+  "url": "https://github.com/apache/nuttx/pull/17475"
+}

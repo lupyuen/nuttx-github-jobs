@@ -1,0 +1,89 @@
+{
+  "additions": 116,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-19T15:17:41Z",
+  "createdAt": "2025-12-20T04:36:43Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_processtimer.c",
+      "additions": 111,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "add_hrtimer_sched_support",
+  "headRefOid": "1558659a6932ac53a9eb406f98dde46bb57f427a",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac657knj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17573,
+  "state": "CLOSED",
+  "title": "sched/hrtimer: introduce scheduler support with hrtimer",
+  "updatedAt": "2026-01-26T04:20:35Z",
+  "url": "https://github.com/apache/nuttx/pull/17573"
+}

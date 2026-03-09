@@ -1,0 +1,149 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4OTk1NjY=",
+    "is_bot": false,
+    "login": "yf13",
+    "name": "yf13"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-12-10T11:06:05Z",
+  "createdAt": "2025-12-08T11:57:44Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "arch/arm/src/common/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/crt0.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/crt0.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/crt0.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/common/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/common/crt0.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/crt0.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/lx6/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/lx7/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/toolchain.cmake.export",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "pull-crt0-start-naming",
+  "headRefOid": "bcea169c6242b3be74e32317f3bc08052de6fb9a",
+  "headRepository": {
+    "id": "R_kgDOK5HLRQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4OTk1NjY=",
+    "name": "yf13",
+    "login": "yf13"
+  },
+  "id": "PR_kwDODZiUac63qWxe",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c38042941fe984a7f89d3be68b410862c5b54398"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-10T11:06:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17450,
+  "state": "MERGED",
+  "title": "arch/crt0.c: revert entry name to `_start`",
+  "updatedAt": "2025-12-10T11:06:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17450"
+}

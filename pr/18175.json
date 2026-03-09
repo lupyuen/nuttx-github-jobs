@@ -1,0 +1,78 @@
+{
+  "additions": 96,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrHUjw",
+    "is_bot": false,
+    "login": "pangzhen1xiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-27T11:35:48Z",
+  "createdAt": "2026-01-27T03:25:32Z",
+  "deletions": 92,
+  "files": [
+    {
+      "path": "sched/irq/irq_attach.c",
+      "additions": 24,
+      "deletions": 23
+    },
+    {
+      "path": "sched/irq/irq_attach_thread.c",
+      "additions": 30,
+      "deletions": 33
+    },
+    {
+      "path": "sched/irq/irq_attach_wqueue.c",
+      "additions": 42,
+      "deletions": 36
+    }
+  ],
+  "headRefName": "function-exit-point2",
+  "headRefOid": "a72f3f3da8d370ce1182b7eaf186c76d3d1921a0",
+  "headRepository": {
+    "id": "R_kgDOMoRG_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrHUjw",
+    "login": "pangzhen1xiaomi"
+  },
+  "id": "PR_kwDODZiUac6_gJ2z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a665cd795aed52bb5f6942d191f06ea6965e60cb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T11:35:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18175,
+  "state": "MERGED",
+  "title": "sched/irq: functions should have exactly one exit point",
+  "updatedAt": "2026-01-27T11:35:48Z",
+  "url": "https://github.com/apache/nuttx/pull/18175"
+}

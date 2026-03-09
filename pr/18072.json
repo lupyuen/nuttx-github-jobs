@@ -1,0 +1,83 @@
+{
+  "additions": 68,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrHUjw",
+    "is_bot": false,
+    "login": "pangzhen1xiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-27T02:18:25Z",
+  "createdAt": "2026-01-21T08:12:45Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "sched/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wqueue/CMakeLists.txt",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wqueue/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wqueue/kwork_thread.c",
+      "additions": 36,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "hpwork_static",
+  "headRefOid": "557fcbd3297405238c9529c137ed1f763bac5ac9",
+  "headRepository": {
+    "id": "R_kgDOMoRG_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrHUjw",
+    "login": "pangzhen1xiaomi"
+  },
+  "id": "PR_kwDODZiUac6-Y_jJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d483364481b39a6251e442ae4dc297828903349f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T02:18:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18072,
+  "state": "MERGED",
+  "title": "sched/wqueue: add configuring the stack of an hpwork/lpwork as static",
+  "updatedAt": "2026-02-09T06:23:01Z",
+  "url": "https://github.com/apache/nuttx/pull/18072"
+}

@@ -1,0 +1,171 @@
+{
+  "additions": 344,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": true,
+  "closedAt": "2026-01-22T14:14:00Z",
+  "createdAt": "2026-01-21T12:19:04Z",
+  "deletions": 363,
+  "files": [
+    {
+      "path": "arch/x86_64/src/intel64/intel64_cpustart.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_timerfd.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 26,
+      "deletions": 38
+    },
+    {
+      "path": "include/nuttx/macro.h",
+      "additions": 53,
+      "deletions": 50
+    },
+    {
+      "path": "include/nuttx/sched_note.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/signal.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/clock_settime.c",
+      "additions": 18,
+      "deletions": 41
+    },
+    {
+      "path": "sched/semaphore/sem_clockwait.c",
+      "additions": 30,
+      "deletions": 39
+    },
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/timer/timer.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/timer/timer_create.c",
+      "additions": 49,
+      "deletions": 45
+    },
+    {
+      "path": "sched/timer/timer_delete.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/timer/timer_getitimer.c",
+      "additions": 11,
+      "deletions": 9
+    },
+    {
+      "path": "sched/timer/timer_getoverrun.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "sched/timer/timer_gettime.c",
+      "additions": 11,
+      "deletions": 7
+    },
+    {
+      "path": "sched/timer/timer_release.c",
+      "additions": 16,
+      "deletions": 11
+    },
+    {
+      "path": "sched/timer/timer_setitimer.c",
+      "additions": 26,
+      "deletions": 25
+    },
+    {
+      "path": "sched/timer/timer_settime.c",
+      "additions": 80,
+      "deletions": 78
+    }
+  ],
+  "headRefName": "upstreaming_2026_01_19",
+  "headRefOid": "6cc8ef9b3ccf71fb2b0d089ecafc8ba4106d8741",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6-cBRc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "048ef54c553c02bd368891c8e0e211d001b1705d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T14:14:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18083,
+  "state": "MERGED",
+  "title": "!sched: Fix MISRA-C violations",
+  "updatedAt": "2026-01-22T14:14:00Z",
+  "url": "https://github.com/apache/nuttx/pull/18083"
+}

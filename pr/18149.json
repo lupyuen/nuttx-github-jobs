@@ -1,0 +1,92 @@
+{
+  "additions": 151,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4OTk1NjY=",
+    "is_bot": false,
+    "login": "yf13",
+    "name": "yf13"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-27T02:15:25Z",
+  "createdAt": "2026-01-26T07:09:57Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/sched/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/sched/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/sched/clock_perf.c",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/clock_perf.c",
+      "additions": 36,
+      "deletions": 67
+    }
+  ],
+  "headRefName": "pullup-user-pmu",
+  "headRefOid": "3b76a09c5d81031705be145d348de90276fbe732",
+  "headRepository": {
+    "id": "R_kgDOK5HLRQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4OTk1NjY=",
+    "name": "yf13",
+    "login": "yf13"
+  },
+  "id": "PR_kwDODZiUac6_TgMT",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18149,
+  "state": "CLOSED",
+  "title": "[draft] userspace PMU register acess",
+  "updatedAt": "2026-01-27T02:15:25Z",
+  "url": "https://github.com/apache/nuttx/pull/18149"
+}

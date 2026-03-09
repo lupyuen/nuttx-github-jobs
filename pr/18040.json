@@ -1,0 +1,115 @@
+{
+  "additions": 72,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-20T14:33:46Z",
+  "createdAt": "2026-01-20T10:13:24Z",
+  "deletions": 34,
+  "files": [
+    {
+      "path": "include/nuttx/tls.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/sched/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/sched/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/sched/task_getpid.c",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_fork.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "sched/task/task_getpid.c",
+      "additions": 0,
+      "deletions": 22
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_task_fork_fix_gettid_in_nxtask_setup_fork",
+  "headRefOid": "665edcdb019293ffd01129dd29b88e1a4036d2db",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6-LXfw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8bb675849061c4bda7294b075e6f982e81436b19"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-20T14:33:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18040,
+  "state": "MERGED",
+  "title": "sched: move process ID from kernel to TLS for faster access",
+  "updatedAt": "2026-01-20T14:33:46Z",
+  "url": "https://github.com/apache/nuttx/pull/18040"
+}

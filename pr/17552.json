@@ -1,0 +1,89 @@
+{
+  "additions": 983,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MTk2ODg=",
+    "is_bot": false,
+    "login": "julianoes",
+    "name": "Julian Oes"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-12-19T02:00:33Z",
+  "createdAt": "2025-12-18T01:49:00Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "drivers/mtd/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/Kconfig",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/w25n.c",
+      "additions": 941,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 12,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "pr-w25n01gv",
+  "headRefOid": "9127a650ee61e3843f80160efefb596eeb334a55",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzNjI3OTk4NTk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MTk2ODg=",
+    "name": "Julian Oes",
+    "login": "julianoes"
+  },
+  "id": "PR_kwDODZiUac65fFJt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7e46d282eb5e034859978a59d92f48703fb78c32"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-19T02:00:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17552,
+  "state": "MERGED",
+  "title": "drivers/mtd: Add W25N SPI NAND flash driver",
+  "updatedAt": "2025-12-19T22:22:51Z",
+  "url": "https://github.com/apache/nuttx/pull/17552"
+}

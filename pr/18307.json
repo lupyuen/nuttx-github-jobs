@@ -1,0 +1,79 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEyMDY5Njc4",
+    "is_bot": false,
+    "login": "fxysunshine",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-02T12:39:36Z",
+  "createdAt": "2026-02-02T08:26:59Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "include/spawn.h",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "sched/task/task_spawnparms.c",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix-spawn-misra-c-10-4",
+  "headRefOid": "a60fd4cf975cb84da05aa1bc8fab5a42c80bbbcf",
+  "headRepository": {
+    "id": "R_kgDOJLyY7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEyMDY5Njc4",
+    "login": "fxysunshine"
+  },
+  "id": "PR_kwDODZiUac7A2NQH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2b9506bc5de449c16e9efff25a9795e9df47f223"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T12:39:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18307,
+  "state": "MERGED",
+  "title": "sched/spawn: Fix MISRA C Rule 10.4 violations",
+  "updatedAt": "2026-02-02T12:39:36Z",
+  "url": "https://github.com/apache/nuttx/pull/18307"
+}

@@ -1,0 +1,104 @@
+{
+  "additions": 1564,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-02-27T11:14:04Z",
+  "createdAt": "2026-02-26T08:38:32Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "drivers/serial/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Kconfig-16550",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Kconfig-xlnxps",
+      "additions": 136,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/uart_16550.c",
+      "additions": 33,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/serial/uart_xlnx_ps.c",
+      "additions": 1312,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/serial/uart_xlnx_ps.h",
+      "additions": 48,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "26022601",
+  "headRefOid": "298a91857a9f0afdb4dfa5d11762e94c703395da",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac7Gd-LN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2306cae9334eab54fd05c109bdce3fed4c8b16b4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-27T11:14:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18446,
+  "state": "MERGED",
+  "title": "drivers/serial: add common Xilinx UART Peripheral System (XUARTPS) support",
+  "updatedAt": "2026-02-27T11:14:04Z",
+  "url": "https://github.com/apache/nuttx/pull/18446"
+}

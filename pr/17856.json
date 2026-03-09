@@ -1,0 +1,74 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-14T01:40:32Z",
+  "createdAt": "2026-01-13T08:42:35Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm/src/cmake/ghs.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/Toolchain.defs",
+      "additions": 8,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "ghs_replace_wall_build_ops",
+  "headRefOid": "81486c662d5f0e8d6bb87a4b0dab3ee11a7509fd",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac684Cre",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "49a57ddfbc5b7c9a9f1c0b4e416d4e9ba17f17e3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-14T01:40:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17856,
+  "state": "MERGED",
+  "title": "arch/arm: replace the \"-Wall\" build option with the \"-ghstd=last\"",
+  "updatedAt": "2026-01-14T01:40:32Z",
+  "url": "https://github.com/apache/nuttx/pull/17856"
+}

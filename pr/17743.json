@@ -1,0 +1,79 @@
+{
+  "additions": 28,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-30T18:35:43Z",
+  "createdAt": "2025-12-30T12:53:08Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "net/can/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "net/can/can.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/can/can_sockif.c",
+      "additions": 20,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "can",
+  "headRefOid": "b2d7c964c3a874fff71f7a41565be12bae0dfdc4",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6692xJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b8585b9b0c3cff9100066c4c6e3fb6b71f6866df"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T18:35:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17743,
+  "state": "MERGED",
+  "title": "net/can: fix poll setup to properly find and use free pollfd slots",
+  "updatedAt": "2025-12-30T18:35:43Z",
+  "url": "https://github.com/apache/nuttx/pull/17743"
+}

@@ -1,0 +1,136 @@
+{
+  "additions": 1913,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-01-05T17:50:05Z",
+  "createdAt": "2026-01-02T21:04:02Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "examples/smf/CMakeLists.txt",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "examples/smf/Kconfig",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "examples/smf/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/smf/Makefile",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "examples/smf/hsm_psicc2_thread.c",
+      "additions": 626,
+      "deletions": 0
+    },
+    {
+      "path": "examples/smf/hsm_psicc2_thread.h",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "examples/smf/smf_main.c",
+      "additions": 127,
+      "deletions": 0
+    },
+    {
+      "path": "include/system/smf.h",
+      "additions": 267,
+      "deletions": 0
+    },
+    {
+      "path": "system/smf/Kconfig",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "system/smf/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "system/smf/Makefile",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "system/smf/smf.c",
+      "additions": 605,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/add-smf-squashed",
+  "headRefOid": "21725622b2ee86f7018361070649e29f68f028ec",
+  "headRepository": {
+    "id": "R_kgDOMr2uag",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiT4867VOO6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqd4wg",
+      "name": "Area: Build System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ca11a7e0930a0170d2c17e7913cd3fc221e2f6a5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-05T17:50:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 3296,
+  "state": "MERGED",
+  "title": "system/smf: Port SMF .c/.h files to NuttX",
+  "updatedAt": "2026-01-05T17:50:05Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3296"
+}

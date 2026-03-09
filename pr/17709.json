@@ -1,0 +1,78 @@
+{
+  "additions": 137,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-29T11:20:01Z",
+  "createdAt": "2025-12-29T03:49:39Z",
+  "deletions": 74,
+  "files": [
+    {
+      "path": "net/tcp/tcp.h",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 104,
+      "deletions": 39
+    },
+    {
+      "path": "net/tcp/tcp_listen.c",
+      "additions": 6,
+      "deletions": 35
+    }
+  ],
+  "headRefName": "upstream-1",
+  "headRefOid": "9ea1c29541c03067db8fcd0c83504a626f45d906",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66xU-H",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0588d08d75244c5e56aee5bf453af018bad1c3d8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T11:20:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17709,
+  "state": "MERGED",
+  "title": "net/tcp: remove SYN_RCVD state conn by listener created when free listener",
+  "updatedAt": "2025-12-29T11:20:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17709"
+}

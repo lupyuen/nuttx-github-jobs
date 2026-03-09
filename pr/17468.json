@@ -1,0 +1,453 @@
+{
+  "additions": 482,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 72,
+  "closed": true,
+  "closedAt": "2026-02-03T19:37:06Z",
+  "createdAt": "2025-12-10T08:16:02Z",
+  "deletions": 197,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-m/arm_svcall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_exception.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/kernel/sam_userspace.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/note/note_driver.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/vsyslog.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/inode/fs_files.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "fs/procfs/fs_procfs.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "fs/procfs/fs_procfsmeminfo.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "fs/procfs/fs_procfsproc.c",
+      "additions": 8,
+      "deletions": 16
+    },
+    {
+      "path": "include/nuttx/mm/mm.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 30,
+      "deletions": 11
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/gdbstub/lib_gdbstub.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_memdump.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "mm/tlsf/mm_tlsf.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_gettime.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_continue.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_killchildren.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_signal.c",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "sched/group/group_suspendchildren.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "sched/misc/coredump.c",
+      "additions": 10,
+      "deletions": 5
+    },
+    {
+      "path": "sched/misc/deadlock.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/paging/pg_miss.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/paging/pg_worker.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_cancel.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_completejoin.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_detach.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_exit.c",
+      "additions": 35,
+      "deletions": 2
+    },
+    {
+      "path": "sched/pthread/pthread_join.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 11,
+      "deletions": 4
+    },
+    {
+      "path": "sched/sched/sched_backtrace.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_cpuload.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_foreach.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_get_stackinfo.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_getaffinity.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_getparam.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_getscheduler.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_gettcb.c",
+      "additions": 92,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_releasetcb.c",
+      "additions": 16,
+      "deletions": 18
+    },
+    {
+      "path": "sched/sched/sched_roundrobin.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_rrgetinterval.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_setaffinity.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_setparam.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_setscheduler.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_suspend.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_verifytcb.c",
+      "additions": 0,
+      "deletions": 81
+    },
+    {
+      "path": "sched/sched/sched_waitid.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_waitpid.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "sched/semaphore/sem_wait.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/signal.h",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/exit.c",
+      "additions": 34,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_delete.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_exithook.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_fork.c",
+      "additions": 13,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task_getgroup.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_prctl.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_reparent.c",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_restart.c",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_setup.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_spawnparms.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_terminate.c",
+      "additions": 27,
+      "deletions": 20
+    },
+    {
+      "path": "sched/wqueue/kwork_inherit.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wqueue/kwork_thread.c",
+      "additions": 5,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_12",
+  "headRefOid": "414c423b5a7c64a4ee9b33ed70652518c3c9b656",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac64FS3z",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17468,
+  "state": "CLOSED",
+  "title": " sched: add a reference count to the TCB to prevent it from being deleted.",
+  "updatedAt": "2026-02-03T19:37:06Z",
+  "url": "https://github.com/apache/nuttx/pull/17468"
+}

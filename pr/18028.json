@@ -1,0 +1,94 @@
+{
+  "additions": 2588,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBq4kmg",
+    "is_bot": false,
+    "login": "cuiziweizw",
+    "name": "czw"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-24T09:33:19Z",
+  "createdAt": "2026-01-20T02:46:49Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "libs/libxx/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/Makefile",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libxx/libstdc++/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/libstdc++/0001-libsupc-Add-missing-header-files.patch",
+      "additions": 2304,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/libstdc++/CMakeLists.txt",
+      "additions": 167,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/libstdc++/libsupc++.defs",
+      "additions": 103,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "libstdcxx_add",
+  "headRefOid": "7967e46a54f753c43dd997a8557651ab7224a4ca",
+  "headRepository": {
+    "id": "R_kgDOM-pM8w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBq4kmg",
+    "name": "czw",
+    "login": "cuiziweizw"
+  },
+  "id": "PR_kwDODZiUac6-HZS6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f17b82bd65474e4495de39ab7f91799aae0d56d0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-24T09:33:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18028,
+  "state": "MERGED",
+  "title": "libcxx/libstdc++: Add libsupc++.defs to support libsupc++",
+  "updatedAt": "2026-02-08T19:38:25Z",
+  "url": "https://github.com/apache/nuttx/pull/18028"
+}

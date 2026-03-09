@@ -1,0 +1,73 @@
+{
+  "additions": 24,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-01T12:41:50Z",
+  "createdAt": "2026-01-30T07:03:41Z",
+  "deletions": 22,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_enet.c",
+      "additions": 13,
+      "deletions": 11
+    }
+  ],
+  "headRefName": "imx9_eth_phy_error_recovery",
+  "headRefOid": "3e387c10bb137a8f1dad5cf5ca9dfb534193da78",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac7AUqrs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fdaeb00910b527c8bccbea594ec9bd98e73bb4d7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-01T12:41:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18273,
+  "state": "MERGED",
+  "title": "arch/imx9: Correct CONFIG_IMX9_ENET_PHYINIT flag and imx9_phy_boardinitialize",
+  "updatedAt": "2026-02-01T12:41:50Z",
+  "url": "https://github.com/apache/nuttx/pull/18273"
+}

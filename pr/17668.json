@@ -1,0 +1,105 @@
+{
+  "additions": 14,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-12-25T11:40:02Z",
+  "createdAt": "2025-12-25T03:29:18Z",
+  "deletions": 15,
+  "files": [
+    {
+      "path": "drivers/usrsock/usrsock_rpmsg.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/iob.h",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "mm/iob/iob_alloc.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "mm/iob/iob_free.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/iob/iob_initialize.c",
+      "additions": 6,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "upstream-1",
+  "headRefOid": "fb45e469ab334d649b709d753dd4f9f067566a3e",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66h-FS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "48e9b4fc7a29ae58f88859625ea356c34886d121"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T11:40:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17668,
+  "state": "MERGED",
+  "title": "mm/iob: limit the alignment length of IOB to no less than sizeof(uinptr_t)",
+  "updatedAt": "2025-12-25T11:40:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17668"
+}

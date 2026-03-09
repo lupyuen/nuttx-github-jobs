@@ -1,0 +1,126 @@
+{
+  "additions": 1037,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-28T03:52:12Z",
+  "createdAt": "2026-01-26T16:23:22Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "Documentation/components/crypto.rst",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/crypto/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/Kconfig",
+      "additions": 27,
+      "deletions": 2
+    },
+    {
+      "path": "crypto/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/crypto.c",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "crypto/cryptosoft.c",
+      "additions": 928,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/cryptodev.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/cryptosoft.h",
+      "additions": 8,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "crypto-pr-submit-2",
+  "headRefOid": "a7432605eec68f0044279cc694766cb835b20c6e",
+  "headRepository": {
+    "id": "R_kgDOKAa8wg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiUac6_ZuHe",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "83fdd685dfaf37c14c9cb1c8b017603d4efc260c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T03:52:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18169,
+  "state": "MERGED",
+  "title": "crypto: support software key management features (MTD storage, Key Gen)",
+  "updatedAt": "2026-01-28T03:52:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18169"
+}

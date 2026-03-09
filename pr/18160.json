@@ -1,0 +1,104 @@
+{
+  "additions": 96,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrHUjw",
+    "is_bot": false,
+    "login": "pangzhen1xiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-27T02:34:13Z",
+  "createdAt": "2026-01-26T09:35:01Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_irq.c",
+      "additions": 54,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/irq.h",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "sched/irq/irq_attach.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "sched/irq/irq_chain.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "sched/irq/irq_dispatch.c",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "modify-irq_to_ndx",
+  "headRefOid": "bca78c8eb42537d4780af16810187f5197280e8c",
+  "headRepository": {
+    "id": "R_kgDOMoRG_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrHUjw",
+    "login": "pangzhen1xiaomi"
+  },
+  "id": "PR_kwDODZiUac6_U44X",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6d9ed4217ad908de22aa7be0a5ba16b1be69529e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T02:34:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18160,
+  "state": "MERGED",
+  "title": "sched/irq: Add architecture-specific IRQ-to-index mapping interface",
+  "updatedAt": "2026-01-27T02:34:13Z",
+  "url": "https://github.com/apache/nuttx/pull/18160"
+}

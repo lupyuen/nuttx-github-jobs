@@ -1,0 +1,575 @@
+{
+  "additions": 3271,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 236,
+  "closed": true,
+  "closedAt": "2026-03-05T04:41:15Z",
+  "createdAt": "2026-03-04T14:15:34Z",
+  "deletions": 4891,
+  "files": [
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 61,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Wireless.mk",
+      "additions": 36,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/chip.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_adc.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_dedic_gpio.c",
+      "additions": 14,
+      "deletions": 9
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_dma.c",
+      "additions": 0,
+      "deletions": 527
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_dma.h",
+      "additions": 0,
+      "deletions": 330
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_gpio.c",
+      "additions": 111,
+      "deletions": 138
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_gpio.h",
+      "additions": 48,
+      "deletions": 44
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_head.S",
+      "additions": 2,
+      "deletions": 7
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_hr_timer.c",
+      "additions": 95,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_hr_timer.h",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
+      "additions": 4,
+      "deletions": 21
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.c",
+      "additions": 5,
+      "deletions": 17
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2s.c",
+      "additions": 23,
+      "deletions": 30
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_irq.c",
+      "additions": 342,
+      "deletions": 440
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_irq.h",
+      "additions": 86,
+      "deletions": 91
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ledc.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_lowputc.c",
+      "additions": 13,
+      "deletions": 10
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_mcpwm.c",
+      "additions": 18,
+      "deletions": 26
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_oneshot.c",
+      "additions": 15,
+      "deletions": 14
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_pcnt.c",
+      "additions": 33,
+      "deletions": 43
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rmt.c",
+      "additions": 203,
+      "deletions": 1743
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rmt.h",
+      "additions": 7,
+      "deletions": 9
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc.c",
+      "additions": 86,
+      "deletions": 9
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc.h",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc_gpio.c",
+      "additions": 111,
+      "deletions": 13
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc_gpio.h",
+      "additions": 45,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_sdm.c",
+      "additions": 23,
+      "deletions": 19
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_serial.c",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_sha.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi.c",
+      "additions": 57,
+      "deletions": 46
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi_slave.c",
+      "additions": 20,
+      "deletions": 36
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash.c",
+      "additions": 1,
+      "deletions": 162
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash.h",
+      "additions": 0,
+      "deletions": 16
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_start.c",
+      "additions": 98,
+      "deletions": 53
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_start.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_systemreset.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_systemreset.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_tickless.c",
+      "additions": 5,
+      "deletions": 7
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_timer.c",
+      "additions": 11,
+      "deletions": 17
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_timerisr.c",
+      "additions": 3,
+      "deletions": 7
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_twai.c",
+      "additions": 19,
+      "deletions": 28
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ulp.mk",
+      "additions": 20,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_usbserial.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_vectors.S",
+      "additions": 45,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wdt.c",
+      "additions": 104,
+      "deletions": 76
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_api.c",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ws2812.c",
+      "additions": 30,
+      "deletions": 13
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_gpio.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_ble_adapter.c",
+      "additions": 44,
+      "deletions": 160
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_wifi_adapter.c",
+      "additions": 49,
+      "deletions": 78
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_wireless.c",
+      "additions": 5,
+      "deletions": 11
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 139,
+      "deletions": 61
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_wifi_adapter.c",
+      "additions": 49,
+      "deletions": 78
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 153,
+      "deletions": 74
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 155,
+      "deletions": 72
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 23,
+      "deletions": 23
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/include/esp_board_rmt.h",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_aliases.ld",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_sections.ld",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_rmt.c",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_spiflash.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/jumbo/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/nsh/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/sta_softap/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/usbnsh/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/wifi/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32c3_bringup.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/adc/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/ble/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/bmp180/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/buttons/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/crypto/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/efuse/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/gpio/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/i2c/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/i2schar/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/mcuboot_nsh/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/mcuboot_update_agent/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/nimble/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/nsh/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/ostest/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/pm/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/pwm/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/random/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/rmt/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/romfs/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/rtc/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/sdm/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/sdmmc_spi/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/spi/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/spiflash/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/sta_softap/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/temperature_sensor/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/tickless/defconfig",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improvement/espressif_update_risc-v",
+  "headRefOid": "3ad3e6cb8481b37d193c6aba1d4977ccdfd63dce",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7H4-84",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d2c85a9fa0a35d2e762895f6ff77feeb1e228ac2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-05T04:41:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": {
+    "number": 3,
+    "title": "v13.0.0",
+    "description": "NuttX version 13.0.0 release, including new breaking changes.",
+    "dueOn": "2026-06-01T00:00:00Z"
+  },
+  "number": 18492,
+  "state": "MERGED",
+  "title": "!arch/risc-v/espressif: Update common-source integration for RISC-V devices",
+  "updatedAt": "2026-03-05T04:41:15Z",
+  "url": "https://github.com/apache/nuttx/pull/18492"
+}

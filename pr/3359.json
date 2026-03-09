@@ -1,0 +1,106 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC2sdrQ",
+    "is_bot": false,
+    "login": "txy-21",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-21T09:29:15Z",
+  "createdAt": "2026-01-21T09:26:11Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "testing/drivers/drivertest/drivertest_audio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/libc/arch_libc/arch_libc_test_main.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/mm/cachetest/cachetest_main.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "testing/sched/timerjitter/timerjitter.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/socket/cases/net_socket_test_010.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/close_test.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/dup2_test.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/fsync_test.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/listen_test.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/setsocketopt01_test.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "testing-fixes-batch",
+  "headRefOid": "da89b4e26f4d0375bb538f59c3268a6ff1d4f1ce",
+  "headRepository": {
+    "id": "R_kgDONemdMQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC2sdrQ",
+    "login": "txy-21"
+  },
+  "id": "PR_kwDODZiT486-Z2u_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3359,
+  "state": "CLOSED",
+  "title": "testing: fix cache, timerjitter, syscall, and driver test issues",
+  "updatedAt": "2026-01-21T09:30:46Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3359"
+}

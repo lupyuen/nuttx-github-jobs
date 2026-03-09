@@ -1,0 +1,79 @@
+{
+  "additions": 58,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-04T23:01:13Z",
+  "createdAt": "2026-02-04T15:16:40Z",
+  "deletions": 33,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 37,
+      "deletions": 20
+    },
+    {
+      "path": "drivers/rptun/rptun.c",
+      "additions": 19,
+      "deletions": 13
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg_virtio.h",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-virtio-cpuname",
+  "headRefOid": "865e227d93de4bb7753c259f06718347521eefd7",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac7Bfh5w",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "877a9af2d14cf6053deabe0df729a1b1efa6e1b6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-04T23:01:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18352,
+  "state": "MERGED",
+  "title": "[BUG FIX] rpmsg_virtio/rptun: support fallback cpuname when VIRTIO_RPMSG_F_CPUNAME not set",
+  "updatedAt": "2026-02-05T02:10:42Z",
+  "url": "https://github.com/apache/nuttx/pull/18352"
+}

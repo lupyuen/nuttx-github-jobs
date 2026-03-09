@@ -1,0 +1,127 @@
+{
+  "additions": 1357,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2026-02-03T19:27:58Z",
+  "createdAt": "2026-01-28T07:55:05Z",
+  "deletions": 683,
+  "files": [
+    {
+      "path": "testing/drivers/crypto/3descbc.c",
+      "additions": 28,
+      "deletions": 10
+    },
+    {
+      "path": "testing/drivers/crypto/CMakeLists.txt",
+      "additions": 47,
+      "deletions": 11
+    },
+    {
+      "path": "testing/drivers/crypto/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "testing/drivers/crypto/Makefile",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "testing/drivers/crypto/aescbc.c",
+      "additions": 132,
+      "deletions": 38
+    },
+    {
+      "path": "testing/drivers/crypto/aescmac.c",
+      "additions": 40,
+      "deletions": 25
+    },
+    {
+      "path": "testing/drivers/crypto/aesctr.c",
+      "additions": 140,
+      "deletions": 36
+    },
+    {
+      "path": "testing/drivers/crypto/aesxts.c",
+      "additions": 207,
+      "deletions": 29
+    },
+    {
+      "path": "testing/drivers/crypto/crc32.c",
+      "additions": 36,
+      "deletions": 79
+    },
+    {
+      "path": "testing/drivers/crypto/dhm.c",
+      "additions": 22,
+      "deletions": 52
+    },
+    {
+      "path": "testing/drivers/crypto/hash.c",
+      "additions": 169,
+      "deletions": 261
+    },
+    {
+      "path": "testing/drivers/crypto/hmac.c",
+      "additions": 80,
+      "deletions": 75
+    },
+    {
+      "path": "testing/drivers/crypto/keymanagement.c",
+      "additions": 419,
+      "deletions": 0
+    },
+    {
+      "path": "testing/drivers/crypto/rsa.c",
+      "additions": 26,
+      "deletions": 67
+    }
+  ],
+  "headRefName": "apps-features",
+  "headRefOid": "713b2ef6059c76974095d8ffd233ed429b75ce5d",
+  "headRepository": {
+    "id": "R_kgDOKAa8bg",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiT486_yOcr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3384,
+  "state": "CLOSED",
+  "title": "Crypto Testing Framework Enhancement",
+  "updatedAt": "2026-02-03T19:27:58Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3384"
+}

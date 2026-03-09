@@ -1,0 +1,84 @@
+{
+  "additions": 125,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-25T22:20:41Z",
+  "createdAt": "2026-02-25T15:08:39Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32wl5/CMakeLists.txt",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/src/CMakeLists.txt",
+      "additions": 53,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-stm32wl5",
+  "headRefOid": "0c6eb69f14089a7a659c8f3c52aa0a3654cbad92",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac7GQh65",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "37152f7a34844fb645e2848ff1e737b1a2fba868"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-25T22:20:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 18440,
+  "state": "MERGED",
+  "title": "CMake: build implemented for STM32 STM32WL5",
+  "updatedAt": "2026-02-26T09:53:41Z",
+  "url": "https://github.com/apache/nuttx/pull/18440"
+}

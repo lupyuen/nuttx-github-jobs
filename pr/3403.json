@@ -1,0 +1,154 @@
+{
+  "additions": 85,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": true,
+  "closedAt": "2026-02-18T10:01:03Z",
+  "createdAt": "2026-02-15T21:38:46Z",
+  "deletions": 85,
+  "files": [
+    {
+      "path": "interpreters/bas/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/bas/Kconfig",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "interpreters/bas/Makefile",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/bas/bas.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "interpreters/bas/bas_fs.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "interpreters/bas/bas_main.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "interpreters/lua/CMakeLists.txt",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "interpreters/lua/Kconfig",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "interpreters/lua/Makefile",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "interpreters/lua/nuttx_linit.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "interpreters/minibasic/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "interpreters/minibasic/Kconfig",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "interpreters/minibasic/Makefile",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "interpreters/minibasic/basic.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "interpreters/minibasic/script.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/Kconfig",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "interpreters/python/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "interpreters/python/Makefile",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "interpreter-interpreters",
+  "headRefOid": "7de69ad0903d84b1981478794e89363fd0e53ba3",
+  "headRepository": {
+    "id": "R_kgDOMXy84w",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiT487D9Ppa",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7eSw",
+      "name": "Area: Interpreters",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "448b0bd0a6847e8e0976b86462e4a79029a90799"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-18T10:01:03Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 3403,
+  "state": "MERGED",
+  "title": "!interpreters: Align naming of Kconfig options",
+  "updatedAt": "2026-02-18T10:01:03Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3403"
+}

@@ -1,0 +1,212 @@
+{
+  "additions": 484,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 20,
+  "closed": true,
+  "closedAt": "2025-12-22T13:22:06Z",
+  "createdAt": "2025-12-19T08:43:59Z",
+  "deletions": 47,
+  "files": [
+    {
+      "path": "Documentation/components/concurrency/index.rst",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/concurrency/seqcount/index.rst",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/arm/barriers.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/include/armv6-m/barriers.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/armv7-a/barriers.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-m/barriers.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-r/barriers.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv8-m/barriers.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv8-r/barriers.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/barriers.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/ceva/include/barriers.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/barriers.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/include/barriers.h",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/include/barriers.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/seqlock.h",
+      "additions": 214,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/spinlock.h",
+      "additions": 0,
+      "deletions": 34
+    },
+    {
+      "path": "include/nuttx/spinlock_type.h",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "hrtimer_p1",
+  "headRefOid": "be8b128ef8f79d0c7d48eb27cf9cce58d2862c29",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac65xzHh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b5eae7d774ee648af9175c01ad83b54ca7837f5d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-22T13:22:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17569,
+  "state": "MERGED",
+  "title": "include/nuttx: Introduce seqlock, a sequential count based read-write lock. ",
+  "updatedAt": "2025-12-22T13:22:06Z",
+  "url": "https://github.com/apache/nuttx/pull/17569"
+}

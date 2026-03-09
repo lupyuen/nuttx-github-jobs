@@ -1,0 +1,80 @@
+{
+  "additions": 92,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-23T02:27:30Z",
+  "createdAt": "2025-12-22T11:37:46Z",
+  "deletions": 106,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/posix/sim_linuxspi.c",
+      "additions": 15,
+      "deletions": 28
+    },
+    {
+      "path": "drivers/sensors/bmi160_base.c",
+      "additions": 77,
+      "deletions": 78
+    }
+  ],
+  "headRefName": "bp-17523",
+  "headRefOid": "4672e955eebe9a3ba3ff819890fdd8f3b8288d02",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66H8aH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2a57c4818c8821db505d46566d290de22c8d0008"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T02:27:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17623,
+  "state": "MERGED",
+  "title": "{bp-17523} arch/sim: fix sim spi issue",
+  "updatedAt": "2025-12-23T05:30:55Z",
+  "url": "https://github.com/apache/nuttx/pull/17623"
+}

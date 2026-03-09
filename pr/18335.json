@@ -1,0 +1,92 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBpHuUA",
+    "is_bot": false,
+    "login": "yeungao",
+    "name": "yeung"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-02-03T12:40:52Z",
+  "createdAt": "2026-02-03T09:05:05Z",
+  "deletions": 27,
+  "files": [
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/stream/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_filesistream.c",
+      "additions": 30,
+      "deletions": 16
+    },
+    {
+      "path": "libs/libc/stream/lib_memsistream.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_rawsistream.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_stdsistream.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "vela",
+  "headRefOid": "d05e9029bca157092174380220e4ed91f6b154cb",
+  "headRepository": {
+    "id": "R_kgDONBlaMw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBpHuUA",
+    "name": "yeung",
+    "login": "yeungao"
+  },
+  "id": "PR_kwDODZiUac7BIaO6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18335,
+  "state": "CLOSED",
+  "title": "libc: ! replace file input stream with seekable API",
+  "updatedAt": "2026-02-03T12:40:52Z",
+  "url": "https://github.com/apache/nuttx/pull/18335"
+}

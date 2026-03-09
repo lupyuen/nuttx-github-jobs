@@ -1,0 +1,68 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NzM4NDk5",
+    "is_bot": false,
+    "login": "zyfeier",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-10T11:02:00Z",
+  "createdAt": "2026-02-09T11:39:48Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "drivers/note/noteram_driver.c",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "noteram-ioctl-fionbio-fix",
+  "headRefOid": "8e156a5941efa0dbe16bc1e401dc4e88f2071787",
+  "headRepository": {
+    "id": "R_kgDOH4WgRg",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NzM4NDk5",
+    "login": "zyfeier"
+  },
+  "id": "PR_kwDODZiUac7Cdctx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6c37217c36804b6b37ec0860765b4526111f4104"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-10T11:02:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18372,
+  "state": "MERGED",
+  "title": "drivers/note: noteram ioctl FIONBIO should return -ENOTTY",
+  "updatedAt": "2026-02-10T11:02:00Z",
+  "url": "https://github.com/apache/nuttx/pull/18372"
+}

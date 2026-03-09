@@ -1,0 +1,68 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODxOs-w",
+    "is_bot": false,
+    "login": "0xFFFF800000000000",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-02T05:58:10Z",
+  "createdAt": "2026-02-01T17:03:37Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/x86_64/src/common/multiboot1.S",
+      "additions": 2,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "x86_64-mb1-optimization",
+  "headRefOid": "6435763300d8ee77a1addbfa86b8430468c91c71",
+  "headRepository": {
+    "id": "R_kgDORGNgaQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODxOs-w",
+    "login": "0xFFFF800000000000"
+  },
+  "id": "PR_kwDODZiUac7AvD4z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7b1e9eb8bcb8f1b7ffb23903fbb8a735f561449a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T05:58:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18298,
+  "state": "MERGED",
+  "title": "arch/x86_64: replaced loop construct with rep movsb",
+  "updatedAt": "2026-02-02T12:25:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18298"
+}

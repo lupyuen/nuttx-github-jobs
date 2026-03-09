@@ -1,0 +1,84 @@
+{
+  "additions": 2287,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBq4kmg",
+    "is_bot": false,
+    "login": "cuiziweizw",
+    "name": "czw"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-27T02:35:59Z",
+  "createdAt": "2026-01-26T07:23:27Z",
+  "deletions": 2308,
+  "files": [
+    {
+      "path": "libs/libxx/libstdc++/0001-libsupc-Add-missing-header-files.patch",
+      "additions": 0,
+      "deletions": 2304
+    },
+    {
+      "path": "libs/libxx/libstdc++/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libxx/libstdc++/c++config.h",
+      "additions": 2284,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/libstdc++/libsupc++.defs",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "mv_c++config",
+  "headRefOid": "d84dc797de7d07241f2b3b295c876de1e93512c5",
+  "headRepository": {
+    "id": "R_kgDOM-pM8w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBq4kmg",
+    "name": "czw",
+    "login": "cuiziweizw"
+  },
+  "id": "PR_kwDODZiUac6_Tm5h",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "94ac6b620bdd7377c8075da24b86a9d2e5825d7c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T02:35:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18151,
+  "state": "MERGED",
+  "title": "libstdc++: Relocate c++config.h from include/ to libstdc++ to preserv…",
+  "updatedAt": "2026-01-27T02:35:59Z",
+  "url": "https://github.com/apache/nuttx/pull/18151"
+}

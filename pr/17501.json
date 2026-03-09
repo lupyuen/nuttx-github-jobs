@@ -1,0 +1,79 @@
+{
+  "additions": 24,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-15T09:35:11Z",
+  "createdAt": "2025-12-14T16:09:20Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "drivers/power/battery/battery_charger.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/power/battery/battery_gauge.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/power/battery/battery_monitor.c",
+      "additions": 8,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "battery",
+  "headRefOid": "5b01a331b563af3b74ac33f3fa562dd0afd0f71e",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac64xzpf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b4c6a92757f73188c43b37319fc2261212be1061"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-15T09:35:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17501,
+  "state": "MERGED",
+  "title": "drivers/battery: fix event lost before service open",
+  "updatedAt": "2025-12-15T09:35:11Z",
+  "url": "https://github.com/apache/nuttx/pull/17501"
+}

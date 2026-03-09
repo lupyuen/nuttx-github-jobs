@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-22T11:47:45Z",
+  "createdAt": "2026-01-20T11:58:45Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "include/pthread.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix-libc-pthread",
+  "headRefOid": "cec5f8eb8edca16062314c94875661a168f72190",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac6-MriQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dd307ab82cea5ea1893cee46742175726bd7be19"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T11:47:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18046,
+  "state": "MERGED",
+  "title": "libc/pthread: Avoid compiler optimizations for once_control->done",
+  "updatedAt": "2026-01-22T11:47:45Z",
+  "url": "https://github.com/apache/nuttx/pull/18046"
+}

@@ -1,0 +1,97 @@
+{
+  "additions": 364,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-02-03T19:40:12Z",
+  "createdAt": "2026-01-30T09:26:02Z",
+  "deletions": 40,
+  "files": [
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 42,
+      "deletions": 7
+    },
+    {
+      "path": "libs/libc/stream/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stream/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stream/lib_filesistream.c",
+      "additions": 47,
+      "deletions": 26
+    },
+    {
+      "path": "libs/libc/stream/lib_lzfdecompress.c",
+      "additions": 268,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/lib_memsistream.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_rawsistream.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_stdsistream.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "stream",
+  "headRefOid": "d5fee9316445f24d9429d7e3624ed8d7af1c2caf",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7AWSaB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18281,
+  "state": "CLOSED",
+  "title": "libc/stream,lzf: add lzf decompress stream and fix lzf-stream header/seek/read issues",
+  "updatedAt": "2026-02-03T19:40:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18281"
+}

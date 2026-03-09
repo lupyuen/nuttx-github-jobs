@@ -1,0 +1,184 @@
+{
+  "additions": 625,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 24,
+  "closed": true,
+  "closedAt": "2025-12-31T03:37:49Z",
+  "createdAt": "2025-12-30T21:48:07Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/eeprom.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/at24xx.rst",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/at25.rst",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/at25ee.rst",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/at45db.rst",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/gd25.rst",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/gd55.rst",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/gd5f.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/is25xp.rst",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/m25px.rst",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/mx25l.rst",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/mx25r.rst",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/mx35.rst",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/n25q.rst",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/s25fl1.rst",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/sst25.rst",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/sst26.rst",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/sst39vf.rst",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/w25n.rst",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/devices/w25q.rst",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/index.rst",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd/mtd_open_flow.png",
+      "additions": 0,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mtd-docs-enhance",
+  "headRefOid": "f596114d05fbadec88952d447cd8930c7c3b34d9",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac67CEGP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "56dbfe7bb3bb5d43732c0a57574f38cb21ce8217"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-31T03:37:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17750,
+  "state": "MERGED",
+  "title": "Documentation: add pages for supported MTD devices",
+  "updatedAt": "2025-12-31T03:37:50Z",
+  "url": "https://github.com/apache/nuttx/pull/17750"
+}

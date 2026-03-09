@@ -1,0 +1,89 @@
+{
+  "additions": 120,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIyNzk3MzAw",
+    "is_bot": false,
+    "login": "arikimari",
+    "name": "Ari Kimari"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-17T03:41:57Z",
+  "createdAt": "2026-01-16T08:57:38Z",
+  "deletions": 37,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/ddr/imx9_ddr_training.c",
+      "additions": 2,
+      "deletions": 37
+    },
+    {
+      "path": "arch/arm64/src/imx9/ddr/imx9_ddr_training.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/src/Makefile",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/src/imx9_ddr_config.c",
+      "additions": 96,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "modify-ddr-config",
+  "headRefOid": "f8992a92821b8ad890844ceb197926550bb93cb7",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac69kSVJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb7e5c5618ff5c806a2d1cb0d8dea00f8be8ddac"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-17T03:41:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17964,
+  "state": "MERGED",
+  "title": "arch/imx9: Modify default ddr config handling",
+  "updatedAt": "2026-01-20T12:38:39Z",
+  "url": "https://github.com/apache/nuttx/pull/17964"
+}

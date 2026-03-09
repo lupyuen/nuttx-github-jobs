@@ -1,0 +1,84 @@
+{
+  "additions": 187,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-26T19:17:06Z",
+  "createdAt": "2026-01-23T03:29:19Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/syslog.rst",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/ramlog.c",
+      "additions": 109,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/syslog/syslog.h",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ramlog-ratelimit",
+  "headRefOid": "ebf96321be9b5b683048aed3961d7ba082cc10fd",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac6-1qi0",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6ccc2fc7c83d34bb4ca4ef93ed86bf7ac037f90d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T19:17:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18127,
+  "state": "MERGED",
+  "title": "driver/syslog: Implement the rate limiting function for ramlog driver.",
+  "updatedAt": "2026-01-26T19:17:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18127"
+}

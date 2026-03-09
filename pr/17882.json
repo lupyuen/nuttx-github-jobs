@@ -1,0 +1,140 @@
+{
+  "additions": 1531,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2026-01-17T13:31:44Z",
+  "createdAt": "2026-01-14T06:36:02Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/components/filesystem/archivefs.rst",
+      "additions": 521,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/filesystem/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/archivefs/defconfig",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "fs/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/archivefs/CMakeLists.txt",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "fs/archivefs/Kconfig",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "fs/archivefs/Make.defs",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "fs/archivefs/archivefs.c",
+      "additions": 767,
+      "deletions": 0
+    },
+    {
+      "path": "fs/archivefs/libarchive",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/mount/fs_mount.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "include/fnmatch.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/statfs.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "20260114archivefs",
+  "headRefOid": "0a725bfb3d5be0d3c97c47aa50ed5177bc9c72c5",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac69FQrn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17882,
+  "state": "CLOSED",
+  "title": "fs/archivefs: add ArchiveFS support",
+  "updatedAt": "2026-01-18T03:42:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17882"
+}

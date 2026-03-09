@@ -1,0 +1,74 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "is_bot": false,
+    "login": "13627105546",
+    "name": "daichuan0525"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-16T01:42:12Z",
+  "createdAt": "2026-01-14T07:16:11Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "include/netinet/in.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/inet/ipv4_setsockopt.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "topic/ip_mreqn-linux-compat",
+  "headRefOid": "48ec7e11cb146b9392903f37e4a12c127b829d6b",
+  "headRepository": {
+    "id": "R_kgDOMlMqqw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "name": "daichuan0525",
+    "login": "13627105546"
+  },
+  "id": "PR_kwDODZiUac69Fm-G",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cf8dacde9c2d64dcf0e7312f1e1fb98486270c27"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T01:42:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17887,
+  "state": "MERGED",
+  "title": "netinet/in.h: Rename imr_interface to imr_address in struct ip_mreqn.",
+  "updatedAt": "2026-01-16T01:42:12Z",
+  "url": "https://github.com/apache/nuttx/pull/17887"
+}

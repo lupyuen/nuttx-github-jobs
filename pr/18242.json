@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-28T15:45:11Z",
+  "createdAt": "2026-01-28T12:16:51Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "include/nuttx/semaphore.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_semaphore_fix_ubsan_error",
+  "headRefOid": "bbf99c8de367a710d7aa499e34780fdcc9828112",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_15fo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2df1ecca3c8534e3ac361fe40bdfe7d042312c53"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T15:45:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18242,
+  "state": "MERGED",
+  "title": "Fix UBSAN undefined behavior in semaphore mutex helper macro",
+  "updatedAt": "2026-01-28T15:45:11Z",
+  "url": "https://github.com/apache/nuttx/pull/18242"
+}

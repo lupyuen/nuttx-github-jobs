@@ -1,0 +1,78 @@
+{
+  "additions": 46,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-25T11:35:04Z",
+  "createdAt": "2025-12-25T04:21:02Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/mld/mld.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "net/mld/mld_group.c",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/netdev_unregister.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "upstream-6",
+  "headRefOid": "9100cccd30e64681e4001b1861e4f4ad77a20e9b",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66iFbF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a0bd7413878c72f36c31fa5257e05f9f0f7d64f0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T11:35:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17671,
+  "state": "MERGED",
+  "title": "mld: free all mld group when netdev unregister",
+  "updatedAt": "2025-12-25T11:35:04Z",
+  "url": "https://github.com/apache/nuttx/pull/17671"
+}

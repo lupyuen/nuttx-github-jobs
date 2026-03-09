@@ -1,0 +1,161 @@
+{
+  "additions": 829,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-12-21T18:18:08Z",
+  "createdAt": "2025-12-20T21:06:17Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/heltec_wifi_lora32/index.rst",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/heltec_wifi_lora32/wifi-lora-32-v2-pinout.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/heltec_wifi_lora32/wifi-lora-32-v2.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/configs/nsh/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/include/board.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/include/board_memorymap.h",
+      "additions": 130,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/scripts/Make.defs",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/Make.defs",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/esp32_appinit.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/esp32_boot.c",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/esp32_bringup.c",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/heltec_wifi_lora32.h",
+      "additions": 115,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "heltec_esp32_lora",
+  "headRefOid": "43020e3a163334e9edfeac81ed6e8e4fdf568076",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac65-Nv7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a6af0e94f9373842644f04d32a6792303d58f399"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-21T18:18:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17574,
+  "state": "MERGED",
+  "title": "boards/esp32: Add initial support to Heltec WiFi LoRa32",
+  "updatedAt": "2025-12-21T18:18:08Z",
+  "url": "https://github.com/apache/nuttx/pull/17574"
+}

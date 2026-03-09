@@ -1,0 +1,67 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-03T19:37:44Z",
+  "createdAt": "2026-02-03T04:08:20Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/lib_blkoutstream.c",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "blkoutstream",
+  "headRefOid": "c7b503a7026397e73cc25b883d77c5d59e57d71e",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7BEwLK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18325,
+  "state": "CLOSED",
+  "title": "libc/blkoutstream: Fix memory layout and add hardware flush support",
+  "updatedAt": "2026-02-03T19:37:44Z",
+  "url": "https://github.com/apache/nuttx/pull/18325"
+}

@@ -1,0 +1,85 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "is_bot": false,
+    "login": "Otpvondoiats",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-13T14:46:08Z",
+  "createdAt": "2026-01-12T14:04:58Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "drivers/sensors/sensor.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/uorb.h",
+      "additions": 17,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "lk_eng",
+  "headRefOid": "ecaf52558008ed04c2a0e7f87c7220d3bc72e505",
+  "headRepository": {
+    "id": "R_kgDOKDOGGg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "login": "Otpvondoiats"
+  },
+  "id": "PR_kwDODZiUac68tVSs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bbda415412a35f26464cb2f4a1e62cdf695e7864"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-13T14:46:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17837,
+  "state": "MERGED",
+  "title": "drivers/sensors: add a new sensor type ENG",
+  "updatedAt": "2026-01-14T03:16:08Z",
+  "url": "https://github.com/apache/nuttx/pull/17837"
+}

@@ -1,0 +1,71 @@
+{
+  "additions": 69,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "is_bot": false,
+    "login": "Otpvondoiats",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-11T18:03:03Z",
+  "createdAt": "2026-01-11T17:59:44Z",
+  "deletions": 41,
+  "files": [
+    {
+      "path": "drivers/sensors/sensor.c",
+      "additions": 25,
+      "deletions": 31
+    },
+    {
+      "path": "drivers/sensors/sensor_rpmsg.c",
+      "additions": 40,
+      "deletions": 10
+    },
+    {
+      "path": "drivers/sensors/usensor.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "lk_wait_bug_fix",
+  "headRefOid": "169c3653a848f7324cb147570d4d100f62228def",
+  "headRepository": {
+    "id": "R_kgDOKDOGGg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "login": "Otpvondoiats"
+  },
+  "id": "PR_kwDODZiUac68kQ4U",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17825,
+  "state": "CLOSED",
+  "title": "ioctl adds wait proxy node creation - part 2",
+  "updatedAt": "2026-01-11T18:03:03Z",
+  "url": "https://github.com/apache/nuttx/pull/17825"
+}

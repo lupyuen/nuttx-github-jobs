@@ -1,0 +1,94 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEyMDY5Njc4",
+    "is_bot": false,
+    "login": "fxysunshine",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-02-02T13:09:40Z",
+  "createdAt": "2026-02-02T08:07:37Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "include/nuttx/cancelpt.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/sched/task_cancelpt.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "libs/libc/sched/task_setcancelstate.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/sched/task_setcanceltype.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_cancelpt.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix-cancel-flag-misra-c-10-4",
+  "headRefOid": "433be2fa3a357c95adf7ebffaf878960436774d4",
+  "headRepository": {
+    "id": "R_kgDOJLyY7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEyMDY5Njc4",
+    "login": "fxysunshine"
+  },
+  "id": "PR_kwDODZiUac7A17pp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a724a5f4f46a070d54a2b97115030be7436debeb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T13:09:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18306,
+  "state": "MERGED",
+  "title": "sched: Fix CANCEL_FLAG_* macro definitions MISRA C:2012 Rule 10.4 violations",
+  "updatedAt": "2026-02-02T13:09:40Z",
+  "url": "https://github.com/apache/nuttx/pull/18306"
+}

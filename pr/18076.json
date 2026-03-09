@@ -1,0 +1,100 @@
+{
+  "additions": 149,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-26T13:01:01Z",
+  "createdAt": "2026-01-21T09:39:17Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/reference/user/01_task_control.rst",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "include/spawn.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/spawn/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/spawn/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/spawn/lib_psa_getpriority.c",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/spawn/lib_psa_setpriority.c",
+      "additions": 60,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "20260121_lib_proi",
+  "headRefOid": "5fe1d86f1809e8556067b2db2d22fff2e314cfab",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac6-aA7I",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fea492cf6fc557799130ec52bb7db08e8dfa70d6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T13:01:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18076,
+  "state": "MERGED",
+  "title": "libc/spawn: support get/set priority",
+  "updatedAt": "2026-01-26T13:01:01Z",
+  "url": "https://github.com/apache/nuttx/pull/18076"
+}

@@ -1,0 +1,95 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "is_bot": false,
+    "login": "Barto22",
+    "name": "Bartosz "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-14T14:00:48Z",
+  "createdAt": "2026-01-13T06:53:15Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "boards/sim/sim/sim/scripts/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "tools/ci/testlist/sim-01.dat",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/ci/testlist/sim-02.dat",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "tools/ci/testlist/sim-03.dat",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/change-toolchain-for-sim-boards",
+  "headRefOid": "107d5a53fa3553e8dad34e72961c550cbfc193db",
+  "headRepository": {
+    "id": "R_kgDOQ1YDIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "name": "Bartosz ",
+    "login": "Barto22"
+  },
+  "id": "PR_kwDODZiUac682yJs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17850,
+  "state": "CLOSED",
+  "title": "Change SIM boards that uses libcxx to use Clang.",
+  "updatedAt": "2026-01-14T14:00:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17850"
+}

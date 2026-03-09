@@ -1,0 +1,356 @@
+{
+  "additions": 547,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "is_bot": false,
+    "login": "Barto22",
+    "name": "Bartosz "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 55,
+  "closed": true,
+  "closedAt": "2026-01-23T09:24:30Z",
+  "createdAt": "2026-01-22T08:08:16Z",
+  "deletions": 65,
+  "files": [
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/testlibcxx/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_legacy_sections.ld",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_sections.ld",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/testlibcxx/defconfig",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/scripts/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_sections.ld",
+      "additions": 18,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-xiao/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/scripts/esp32h2_sections.ld",
+      "additions": 19,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-2432S028/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-ethernet-kit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-pico-kit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/lilygo_tbeam_lora_gps/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_eink5_v2/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_lora_esp32/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_t_display_esp32/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-kaluga-1/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/franzininho-wifi/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-box/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-eye/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lhcbit/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-meadow/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/scripts/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/Kconfig",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libxx/__assertion_handler",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/__config_site",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libxx/libcxx/0001-Fix-build-error-about-__GLIBC__.patch",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "libs/libxx/libcxx/0001-libcxx-fix-ld-errors.patch",
+      "additions": 17,
+      "deletions": 18
+    },
+    {
+      "path": "libs/libxx/libcxx/0001-libcxx-remove-mach-time-h.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libxx/libcxx/0001_fix_stdatomic_h_miss_typedef.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libxx/libcxx/0002-libcxx-decay-and-tzdb-fixes.patch",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/libcxx/CMakeLists.txt",
+      "additions": 16,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libxx/libcxx/Make.defs",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libxx/libcxx/mbstate_t.patch",
+      "additions": 13,
+      "deletions": 12
+    },
+    {
+      "path": "libs/libxx/libcxx/nuttx_string_instantiations.cpp",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/libcxxabi/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libxx/libcxxabi/Make.defs",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/change-libcxx-to-v19",
+  "headRefOid": "df6a2db0fedc2213ca000baba471b9a45a87ffb7",
+  "headRepository": {
+    "id": "R_kgDOQ1YDIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "name": "Bartosz ",
+    "login": "Barto22"
+  },
+  "id": "PR_kwDODZiUac6-osIL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18096,
+  "state": "CLOSED",
+  "title": "libs/libcxx: update libcxx to v19",
+  "updatedAt": "2026-01-23T09:24:30Z",
+  "url": "https://github.com/apache/nuttx/pull/18096"
+}

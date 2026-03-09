@@ -1,0 +1,114 @@
+{
+  "additions": 119,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-15T19:13:25Z",
+  "createdAt": "2026-01-15T06:32:01Z",
+  "deletions": 45,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 41,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 0,
+      "deletions": 14
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi_slave.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_uart.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_router.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_router_edge.c",
+      "additions": 24,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_router_hub.c",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg.h",
+      "additions": 4,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "rpmsg-signals",
+  "headRefOid": "1b6eb400f6be91ac6d888144372603754e54bd10",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac69UFCo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f671ec648e4ce68c2bb4c106693bc415b85aa65c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T19:13:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17925,
+  "state": "MERGED",
+  "title": "Rpmsg signals: rpmsg router support get the rpmsg signals",
+  "updatedAt": "2026-01-15T19:13:25Z",
+  "url": "https://github.com/apache/nuttx/pull/17925"
+}

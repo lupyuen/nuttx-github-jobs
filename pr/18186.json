@@ -1,0 +1,79 @@
+{
+  "additions": 34,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-27T11:34:45Z",
+  "createdAt": "2026-01-27T05:37:56Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/riscv_cpustart.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_internal.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mtimer.c",
+      "additions": 31,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "qemu_rv_fix",
+  "headRefOid": "919280c0c0a5e5cf7cb35fb00003640ccb13d1f0",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6_hH2Q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d9a0cf46ac8d4794424d7bfd05c5c6892ca22bbd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T11:34:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18186,
+  "state": "MERGED",
+  "title": "arch/risc-v: fix timer initialization for SMP mode using mtimer",
+  "updatedAt": "2026-01-27T12:02:41Z",
+  "url": "https://github.com/apache/nuttx/pull/18186"
+}

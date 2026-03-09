@@ -1,0 +1,78 @@
+{
+  "additions": 14,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-21T19:13:52Z",
+  "createdAt": "2025-12-21T14:33:06Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/src/armv6-m/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-m/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-m/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "simbit18-alignment",
+  "headRefOid": "d86e73ab9e0876d0c691f2e2aa0e97666b0cdaba",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac66AiX1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e5a0c3e7d7eb3989cba5ad9486de8fc6806ca692"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-21T19:13:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17579,
+  "state": "MERGED",
+  "title": "arch/arm: Aligned Cmake with Make",
+  "updatedAt": "2025-12-22T15:01:28Z",
+  "url": "https://github.com/apache/nuttx/pull/17579"
+}

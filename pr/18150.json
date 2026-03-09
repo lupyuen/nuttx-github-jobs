@@ -1,0 +1,106 @@
+{
+  "additions": 294,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMzODcwMDI4",
+    "is_bot": false,
+    "login": "Gary-Hobson",
+    "name": "garyhobson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-02-03T19:03:45Z",
+  "createdAt": "2026-01-26T07:22:10Z",
+  "deletions": 110,
+  "files": [
+    {
+      "path": "Documentation/applications/system/gprof/index.rst",
+      "additions": 2,
+      "deletions": 110
+    },
+    {
+      "path": "Documentation/debugging/gprof.rst",
+      "additions": 268,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/debugging/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mps/mps2-an500/configs/nsh/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/nsh/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/arch_mcount.S",
+      "additions": 15,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "gprof",
+  "headRefOid": "d27f33487fcf7059926bd89dbfc3d7df70126605",
+  "headRepository": {
+    "id": "R_kgDOGRyqTg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMzODcwMDI4",
+    "name": "garyhobson",
+    "login": "Gary-Hobson"
+  },
+  "id": "PR_kwDODZiUac6_TmTU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "87b317f965cd3fa57810f4c144d7b08d079cbddc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-03T19:03:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18150,
+  "state": "MERGED",
+  "title": "nuttx: add profiling support and documentation",
+  "updatedAt": "2026-02-03T19:03:46Z",
+  "url": "https://github.com/apache/nuttx/pull/18150"
+}

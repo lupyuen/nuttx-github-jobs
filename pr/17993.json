@@ -1,0 +1,84 @@
+{
+  "additions": 120,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-22T11:31:29Z",
+  "createdAt": "2026-01-19T02:05:24Z",
+  "deletions": 93,
+  "files": [
+    {
+      "path": "sched/sched/sched_tickexpiration.c",
+      "additions": 65,
+      "deletions": 74
+    },
+    {
+      "path": "sched/wdog/wd_initialize.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/wdog.h",
+      "additions": 51,
+      "deletions": 18
+    }
+  ],
+  "headRefName": "fix-wd-expiration",
+  "headRefOid": "fa3f6f3309c777fcfc72bdba8e12135a3aa0f03a",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6953LP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "702e1d95f32ffd9b7189eb302e7e53ba9599516c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T11:31:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 17993,
+  "state": "MERGED",
+  "title": "sched/wdog: Simplify tickless timer expiration.",
+  "updatedAt": "2026-01-22T11:31:29Z",
+  "url": "https://github.com/apache/nuttx/pull/17993"
+}

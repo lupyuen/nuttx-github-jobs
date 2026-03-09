@@ -1,0 +1,94 @@
+{
+  "additions": 25,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-15T19:10:11Z",
+  "createdAt": "2026-01-15T11:27:28Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "include/nuttx/tls.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_get_tls.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_argvstr.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_setup.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "sched/tls/tls_dupinfo.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "sched/tls/tls_initinfo.c",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "submit-apache-328c11e",
+  "headRefOid": "27e915b0ee6b57484b1855d44be54f904265653c",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69XMbP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "92bbe4f6ac92b5bc8db3d2182d832e1c2dd2b505"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T19:10:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17941,
+  "state": "MERGED",
+  "title": "sched/tls: fix uninitialized argv pointer in task info",
+  "updatedAt": "2026-01-15T19:10:11Z",
+  "url": "https://github.com/apache/nuttx/pull/17941"
+}

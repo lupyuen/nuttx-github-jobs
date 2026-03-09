@@ -1,0 +1,79 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB4lDNQ",
+    "is_bot": false,
+    "login": "guohao15",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-23T16:26:25Z",
+  "createdAt": "2025-12-18T08:39:23Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "drivers/note/note_driver.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/sched_note.h",
+      "additions": 0,
+      "deletions": 10
+    }
+  ],
+  "headRefName": "bugfix4",
+  "headRefOid": "0337ceb442f80ad14f7062622dc91e1488e68723",
+  "headRepository": {
+    "id": "R_kgDOKIdKpQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB4lDNQ",
+    "login": "guohao15"
+  },
+  "id": "PR_kwDODZiUac65iU1v",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "029a5f5383d2dad23412d67bc0fcb537c11ebc05"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T16:26:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17557,
+  "state": "MERGED",
+  "title": "driver/note: make SIZEOF_NOTE_START return the right size",
+  "updatedAt": "2025-12-23T16:26:25Z",
+  "url": "https://github.com/apache/nuttx/pull/17557"
+}

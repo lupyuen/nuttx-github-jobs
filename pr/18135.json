@@ -1,0 +1,701 @@
+{
+  "additions": 793,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 534,
+  "closed": true,
+  "closedAt": "2026-02-03T19:32:24Z",
+  "createdAt": "2026-01-24T08:58:52Z",
+  "deletions": 1302,
+  "files": [
+    {
+      "path": "arch/arm/src/a1x/a1x_irq.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/a1x/a1x_pio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/a1x/a1x_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_gpio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/arm/arm_syscall.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_dumpnvic.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_sigdeliver.c",
+      "additions": 3,
+      "deletions": 48
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_svcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_sigdeliver.c",
+      "additions": 3,
+      "deletions": 48
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_syscall.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_sigdeliver.c",
+      "additions": 3,
+      "deletions": 48
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_svcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_sigdeliver.c",
+      "additions": 3,
+      "deletions": 48
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_syscall.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_sigdeliver.c",
+      "additions": 3,
+      "deletions": 48
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_svcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_sigdeliver.c",
+      "additions": 3,
+      "deletions": 46
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_syscall.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/at32/at32_adc.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_can.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_can_sock.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_eth.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_otgfsdev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_otgfshost.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_pwm.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_pwr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_sdio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/c5471/c5471_ethernet.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/c5471/c5471_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_backuplog.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_cpufifo.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_dmac.c",
+      "additions": 25,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_i2c.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_icc.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_powermgr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_rtc_lowerhalf.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_scu.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_sdhci.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_timer.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_timerisr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_udmac.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_usbdev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_wdt.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/dm320/dm320_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_gpioirq.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/eoss3/eoss3_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_enet.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_gpio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_sdio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_spi.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_gpio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_gpioirq.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_adc_ver1.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_ehci.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_gpio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_irq.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_lpi2c.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_lpspi.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_tickless.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_usbdev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_usdhc.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_enet.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_i2c.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_pinirq.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_pwm.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_rtc_lowerhalf.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_sdhc.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_usbdev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_wdog.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kl/kl_pwm.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lc823450/lc823450_i2c.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lc823450/lc823450_sddrv_dep.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lc823450/lc823450_spi.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_can.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_ethernet.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_gpdma.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_gpioint.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_i2c.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_sdcard.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_spi.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_ssp.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_usbdev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_usbhost.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc214x/lpc214x_irq.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc214x/lpc214x_serial.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc214x/lpc214x_usbdev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc2378/lpc23xx_irq.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc2378/lpc23xx_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc31xx/lpc31_i2c.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc31xx/lpc31_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc31xx/lpc31_usbdev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_adc.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_ethernet.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_gpio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_i2c.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_rgu.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_serial.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_ssp.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "apache_remove_csection",
+  "headRefOid": "b94ef26a63d00eeb8c9ead307307c72360f32ff6",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_GgWP",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18135,
+  "state": "CLOSED",
+  "title": "sched/spinlock: Refactor critical section implementation with rspinlock foundation and SMP optimization",
+  "updatedAt": "2026-02-03T19:32:24Z",
+  "url": "https://github.com/apache/nuttx/pull/18135"
+}

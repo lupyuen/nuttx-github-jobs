@@ -1,0 +1,109 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-19T15:14:53Z",
+  "createdAt": "2026-01-19T08:31:19Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "drivers/rpmsg/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/Make.defs",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_router_edge.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_router_hub.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio_lite.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-headers",
+  "headRefOid": "5f8fe8b608afacc93fb7e60489279734e98f0d80",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac698yJf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9903b116562b5007357be6837c2cbc96ae01cd0c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T15:14:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18005,
+  "state": "MERGED",
+  "title": "drivers/rpmsg: remove unnecessary header files, revise make.def and cmake file",
+  "updatedAt": "2026-01-19T15:14:54Z",
+  "url": "https://github.com/apache/nuttx/pull/18005"
+}

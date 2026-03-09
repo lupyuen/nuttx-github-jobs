@@ -1,0 +1,74 @@
+{
+  "additions": 20,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-31T17:14:02Z",
+  "createdAt": "2026-01-30T09:10:31Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 19,
+      "deletions": 15
+    },
+    {
+      "path": "sched/sched/sched_profil.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_sched_sched_Fix_coverity",
+  "headRefOid": "ec8a204e92aeb6c2fdde10b97c9b9770df0b344d",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac7AWGj8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0d25df766324191f463b667908a46b5864730ebb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-31T17:14:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18278,
+  "state": "MERGED",
+  "title": "sched/sched: fix casting issue found by coverity",
+  "updatedAt": "2026-01-31T17:14:02Z",
+  "url": "https://github.com/apache/nuttx/pull/18278"
+}

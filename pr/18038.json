@@ -1,0 +1,69 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-21T02:05:18Z",
+  "createdAt": "2026-01-20T09:27:56Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "sched/pthread/pthread_mutex.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "apache_change_spin_lock_irqsave",
+  "headRefOid": "19343b9ff0988572db8f1044d9def126c997a11f",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6-Kx2F",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bc3d478749edbc6baf7157c6f2497a255d56176b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-21T02:05:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18038,
+  "state": "MERGED",
+  "title": "sched/pthread: use spin_lock_irqsave_nopreempt for mutex head lock",
+  "updatedAt": "2026-01-21T02:05:18Z",
+  "url": "https://github.com/apache/nuttx/pull/18038"
+}

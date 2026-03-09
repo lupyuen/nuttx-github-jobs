@@ -1,0 +1,80 @@
+{
+  "additions": 415,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMzODcwMDI4",
+    "is_bot": false,
+    "login": "Gary-Hobson",
+    "name": "garyhobson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-27T02:37:37Z",
+  "createdAt": "2026-01-22T11:53:21Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "boards/arm/sam34/sam3u-ek/scripts/memory.ld",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/fat/fs_fat32.c",
+      "additions": 413,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fat-fioc-filepath",
+  "headRefOid": "256329197604fdcbd6f03729c9bab774d4e227ae",
+  "headRepository": {
+    "id": "R_kgDOGRyqTg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMzODcwMDI4",
+    "name": "garyhobson",
+    "login": "Gary-Hobson"
+  },
+  "id": "PR_kwDODZiUac6-reUK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b777b0acbe6f6113d7a0e3eb1e0576405ab9783f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T02:37:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18107,
+  "state": "MERGED",
+  "title": "fs/fat: add support for FIOC_FILEPATH ioctl",
+  "updatedAt": "2026-01-27T02:37:37Z",
+  "url": "https://github.com/apache/nuttx/pull/18107"
+}

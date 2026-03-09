@@ -1,0 +1,144 @@
+{
+  "additions": 50,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC2sdrQ",
+    "is_bot": false,
+    "login": "txy-21",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2026-01-21T08:07:05Z",
+  "createdAt": "2026-01-21T07:58:29Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "examples/mdnsd/mdnsd_daemon.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/codecs/md5.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ftpd/ftpd.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/rexec/Android.bp",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/rexec/rexec.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/rexecd/Android.bp",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/rexecd/rexecd.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "system/lsan/lsan_main.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "system/popen/popen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/drivers/crypto/dhm.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "testing/drivers/drivertest/drivertest_touchpanel.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "testing/mm/cachetest/cachetest_main.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "testing/mm/memstress/memorystress_main.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/include/fstest.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "header-fixes-compilation",
+  "headRefOid": "8525ad4accd7cf7182b5e4b575adfed3261b4e54",
+  "headRepository": {
+    "id": "R_kgDONemdMQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC2sdrQ",
+    "login": "txy-21"
+  },
+  "id": "PR_kwDODZiT486-Y1kk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3357,
+  "state": "CLOSED",
+  "title": "apps: fix compilation issues with missing header files",
+  "updatedAt": "2026-01-21T08:12:56Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3357"
+}

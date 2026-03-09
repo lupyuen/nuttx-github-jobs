@@ -1,0 +1,84 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "is_bot": false,
+    "login": "Barto22",
+    "name": "Bartosz "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-22T14:07:53Z",
+  "createdAt": "2026-01-22T07:08:43Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/src/nrf52/nrf52_tickless_rtc.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/nrf53/nrf53_tickless_rtc.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/nrf91/nrf91_modem_os.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf91/nrf91_tickless_rtc.c",
+      "additions": 0,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/fix-nrf-board-rtc-functions-return-param",
+  "headRefOid": "1d31e21c62bd9fef82c80d9ab54795c5286c571f",
+  "headRepository": {
+    "id": "R_kgDOQ1YDIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "name": "Bartosz ",
+    "login": "Barto22"
+  },
+  "id": "PR_kwDODZiUac6-oFGL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "64d2b822f8eb0086d39b0cdc03164060f5e5fd62"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T14:07:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18092,
+  "state": "MERGED",
+  "title": "arch/arm/nrf: fix rtc functions return param",
+  "updatedAt": "2026-01-22T14:07:53Z",
+  "url": "https://github.com/apache/nuttx/pull/18092"
+}

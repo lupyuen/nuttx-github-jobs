@@ -1,0 +1,683 @@
+{
+  "additions": 10903,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCZ0p9w",
+    "is_bot": false,
+    "login": "arjav1528",
+    "name": "Arjav Patel"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 205,
+  "closed": true,
+  "closedAt": "2026-02-15T23:49:32Z",
+  "createdAt": "2026-02-15T23:29:31Z",
+  "deletions": 3559,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 19,
+      "deletions": 14
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/Pipfile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/Pipfile.lock",
+      "additions": 576,
+      "deletions": 305
+    },
+    {
+      "path": "Documentation/applications/system/gprof/index.rst",
+      "additions": 2,
+      "deletions": 110
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/images/keypad-example.png",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/keypad-keyboard.rst",
+      "additions": 143,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/keypad.rst",
+      "additions": 79,
+      "deletions": 138
+    },
+    {
+      "path": "Documentation/components/drivers/character/leds/userled.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/vhost/framework.rst",
+      "additions": 342,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/vhost/index.rst",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/conf.py",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/debugging/gprof.rst",
+      "additions": 268,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/debugging/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/guides/image/port_bootsequence-12.4.0.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/guides/port_bootsequence.rst",
+      "additions": 50,
+      "deletions": 8
+    },
+    {
+      "path": "Documentation/platforms/arm/imx9/boards/mr-navq95b/index.rst",
+      "additions": 142,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/imx9/boards/mr-navq95b/mr-navq95b-overview.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/rp23xx/boards/raspberrypi-pico-2/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/hc/m9s12/boards/demo9s12ne64/README.txt",
+      "additions": 0,
+      "deletions": 385
+    },
+    {
+      "path": "Documentation/platforms/hc/m9s12/boards/demo9s12ne64/index.rst",
+      "additions": 110,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/hc/m9s12/boards/ne64badge/README.txt",
+      "additions": 0,
+      "deletions": 492
+    },
+    {
+      "path": "Documentation/platforms/hc/m9s12/boards/ne64badge/index.rst",
+      "additions": 201,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/hc/m9s12/index.rst",
+      "additions": 217,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/chipkit-wifire/README.txt",
+      "additions": 0,
+      "deletions": 104
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/chipkit-wifire/chipkit-wifire.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/chipkit-wifire/index.rst",
+      "additions": 127,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/flipnclick-pic32mz/README.txt",
+      "additions": 0,
+      "deletions": 442
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/flipnclick-pic32mz/flipclick-pic32mz.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/flipnclick-pic32mz/index.rst",
+      "additions": 436,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/pic32mz-starterkit/README.txt",
+      "additions": 0,
+      "deletions": 422
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mz/boards/pic32mz-starterkit/index.rst",
+      "additions": 409,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/or1k/mor1kx/boards/or1k/README.txt",
+      "additions": 0,
+      "deletions": 206
+    },
+    {
+      "path": "Documentation/platforms/or1k/mor1kx/boards/or1k/index.rst",
+      "additions": 222,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/Toolchain.defs",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-m/Toolchain.defs",
+      "additions": 1,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/armv8-m/Toolchain.defs",
+      "additions": 1,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/cmake/armv8-m.cmake",
+      "additions": 0,
+      "deletions": 30
+    },
+    {
+      "path": "arch/arm/src/cmake/clang.cmake",
+      "additions": 1,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/common/Toolchain.defs",
+      "additions": 6,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/s32k3xx/CMakeLists.txt",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sam34/CMakeLists.txt",
+      "additions": 159,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samd2l2/CMakeLists.txt",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_fdcan_sock.c",
+      "additions": 24,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/tlsr82/Toolchain.defs",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm64/src/imx9/CMakeLists.txt",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_exception.c",
+      "additions": 18,
+      "deletions": 14
+    },
+    {
+      "path": "arch/risc-v/src/qemu-rv/qemu_rv_mm_init.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_camera.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_systimer.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "audio/audio.c",
+      "additions": 881,
+      "deletions": 156
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/can/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/nsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/rpmsg/defconfig",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/CMakeLists.txt",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/configs/nsh/defconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/configs/rpmsg/defconfig",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/include/board.h",
+      "additions": 200,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/Make.defs",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/ddr.ld",
+      "additions": 137,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/flash.ld",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/itcm.ld",
+      "additions": 137,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/CMakeLists.txt",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/Makefile",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_appinit.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_boardinit.c",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_bringup.c",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_i2c.c",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_spi.c",
+      "additions": 164,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/mr-navq95b.h",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mps/mps2-an500/configs/nsh/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/full/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/nsh/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/CMakeLists.txt",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/src/CMakeLists.txt",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/s32k344evb/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/s32k344evb/src/CMakeLists.txt",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/arduino-due/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/arduino-due/src/CMakeLists.txt",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/flipnclick-sam3x/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/flipnclick-sam3x/src/CMakeLists.txt",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/CMakeLists.txt",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/src/CMakeLists.txt",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4cmp-db/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4cmp-db/src/CMakeLists.txt",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/src/CMakeLists.txt",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4l-xplained/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4l-xplained/src/CMakeLists.txt",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/src/CMakeLists.txt",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained/src/CMakeLists.txt",
+      "additions": 42,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "dev-issue-16695",
+  "headRefOid": "9e8d9bb7d58926fd52c54cfa5096a1f66748da80",
+  "headRepository": {
+    "id": "R_kgDORHYmBw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCZ0p9w",
+    "name": "Arjav Patel",
+    "login": "arjav1528"
+  },
+  "id": "PR_kwDODZiUac7D93Uh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18399,
+  "state": "CLOSED",
+  "title": "cmake: Update CONFIG_BASE_DEFCONFIG in .config file",
+  "updatedAt": "2026-02-15T23:50:05Z",
+  "url": "https://github.com/apache/nuttx/pull/18399"
+}

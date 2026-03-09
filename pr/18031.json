@@ -1,0 +1,95 @@
+{
+  "additions": 72,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "is_bot": false,
+    "login": "13627105546",
+    "name": "daichuan0525"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-22T14:13:31Z",
+  "createdAt": "2026-01-20T08:14:57Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/reference/user/13_boardctl.rst",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/boardctl.c",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/board.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/boardctl.h",
+      "additions": 15,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "topic/netinit-wifimac",
+  "headRefOid": "98062ea2219c7ca6e1a2e44ef08125b0630d9a80",
+  "headRepository": {
+    "id": "R_kgDOMlMqqw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "name": "daichuan0525",
+    "login": "13627105546"
+  },
+  "id": "PR_kwDODZiUac6-J8Sj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "763caabf6d02cc159849290edd52ac62c16e0e6e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T14:13:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18031,
+  "state": "MERGED",
+  "title": "boards/boardctl: Add BOARDCTL_MACADDR command",
+  "updatedAt": "2026-01-22T14:13:31Z",
+  "url": "https://github.com/apache/nuttx/pull/18031"
+}

@@ -1,0 +1,154 @@
+{
+  "additions": 347,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrKzlg",
+    "is_bot": false,
+    "login": "yezhonghui2024",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-12-24T14:50:24Z",
+  "createdAt": "2025-12-23T08:04:42Z",
+  "deletions": 322,
+  "files": [
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 17,
+      "deletions": 11
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_alsa.c",
+      "additions": 17,
+      "deletions": 17
+    },
+    {
+      "path": "arch/sim/src/sim/sim_ajoystick.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sim/src/sim/sim_camera.c",
+      "additions": 23,
+      "deletions": 15
+    },
+    {
+      "path": "arch/sim/src/sim/sim_framebuffer.c",
+      "additions": 11,
+      "deletions": 17
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hcisocket.c",
+      "additions": 17,
+      "deletions": 15
+    },
+    {
+      "path": "arch/sim/src/sim/sim_initialize.c",
+      "additions": 65,
+      "deletions": 66
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "arch/sim/src/sim/sim_lcd.c",
+      "additions": 7,
+      "deletions": 14
+    },
+    {
+      "path": "arch/sim/src/sim/sim_netdriver.c",
+      "additions": 18,
+      "deletions": 11
+    },
+    {
+      "path": "arch/sim/src/sim/sim_rptun.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_uart.c",
+      "additions": 14,
+      "deletions": 15
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usbdev.c",
+      "additions": 44,
+      "deletions": 57
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usbhost.c",
+      "additions": 76,
+      "deletions": 76
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usrsock.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_wifidriver.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/src/sim_foc.c",
+      "additions": 23,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "wdtime",
+  "headRefOid": "28c72cdbbf3d55f10eddafd14320b1b87b9959c1",
+  "headRepository": {
+    "id": "R_kgDOMob6bw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrKzlg",
+    "login": "yezhonghui2024"
+  },
+  "id": "PR_kwDODZiUac66SGBK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ba681d3ddfaf41e75f83746275a56692e1a28909"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-24T14:50:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17647,
+  "state": "MERGED",
+  "title": "LoopTask: Sim loop task refactor wdt thread process loop event",
+  "updatedAt": "2025-12-24T14:50:24Z",
+  "url": "https://github.com/apache/nuttx/pull/17647"
+}

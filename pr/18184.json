@@ -1,0 +1,101 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-27T10:21:12Z",
+  "createdAt": "2026-01-27T04:24:33Z",
+  "deletions": 85,
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/legacy_sections.ld",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/mcuboot_sections.ld",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_resumescheduler.c",
+      "additions": 0,
+      "deletions": 81
+    }
+  ],
+  "headRefName": "26012702",
+  "headRefOid": "605be4ddfacf2ee1e105bdc8e6e1989c8e68d068",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6_gj9v",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f3e2a7029d5c0ff47980eaea9d00b50f4d3c7017"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T10:21:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18184,
+  "state": "MERGED",
+  "title": "sched: Remove legacy sched_resumescheduler.c",
+  "updatedAt": "2026-01-27T10:21:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18184"
+}

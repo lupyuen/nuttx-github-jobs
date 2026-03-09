@@ -1,0 +1,95 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-30T11:11:58Z",
+  "createdAt": "2026-01-30T03:12:00Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 16,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/virtio/virtio-net.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/virtio/virtio-snd.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "fs/v9fs/virtio_9p.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/virtio/virtio-config.h",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "virtio-config",
+  "headRefOid": "ff74c26cdd98ad02a1f02a81e29ee0585a2dbc2f",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac7ASWWl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "521fcd964db09baf501d286d31242d6958246aa8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-30T11:11:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18265,
+  "state": "MERGED",
+  "title": "drivers/virtio: virtio config space size-matched read operations",
+  "updatedAt": "2026-01-30T11:11:58Z",
+  "url": "https://github.com/apache/nuttx/pull/18265"
+}

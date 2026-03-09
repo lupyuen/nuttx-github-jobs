@@ -1,0 +1,91 @@
+{
+  "additions": 169,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-15T19:11:20Z",
+  "createdAt": "2026-01-15T08:40:42Z",
+  "deletions": 33,
+  "files": [
+    {
+      "path": "Documentation/components/crypto.rst",
+      "additions": 133,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/cryptodev.h",
+      "additions": 34,
+      "deletions": 32
+    }
+  ],
+  "headRefName": "crypto-aes-keysize-support-new",
+  "headRefOid": "fc8ec5847f58ccb95be77ee80775056174beeba3",
+  "headRepository": {
+    "id": "R_kgDOKAa8wg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiUac69VPoe",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5fb5e2ff4ff476df388c1d42195cf2fb1b379670"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T19:11:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17932,
+  "state": "MERGED",
+  "title": "nuttx/crypto: export aes-cbc with 192/256 keysize",
+  "updatedAt": "2026-01-15T19:11:20Z",
+  "url": "https://github.com/apache/nuttx/pull/17932"
+}

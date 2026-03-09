@@ -1,0 +1,75 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-30T15:52:23Z",
+  "createdAt": "2026-01-28T11:36:37Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "sched/sched/sched_cpuload.c",
+      "additions": 4,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "apache_sched_cpuload_misra_c_2012_rule_8_9_violation",
+  "headRefOid": "579820831ea07010db42d32ba3839a4f3e442c7d",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_1SzR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "926f5de5411c0a2c54f68185eb90d5e060ec9be6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-30T15:52:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18239,
+  "state": "MERGED",
+  "title": "sched_cpuload: Move static wdog to block scope for MISRA C 2012 Rule 8.9",
+  "updatedAt": "2026-01-30T15:52:23Z",
+  "url": "https://github.com/apache/nuttx/pull/18239"
+}

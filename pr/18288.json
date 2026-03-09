@@ -1,0 +1,62 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBkM3nQ",
+    "is_bot": false,
+    "login": "aviralgarg05",
+    "name": "Aviral Garg"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-02T08:11:48Z",
+  "createdAt": "2026-01-30T15:48:16Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "libs/libc/semaphore/sem_wait.c",
+      "additions": 7,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "fix/issue-17865-sem-wait-idle",
+  "headRefOid": "35f459e171d1893cfa97a79240b3b3c67d2b56dc",
+  "headRepository": {
+    "id": "R_kgDOQ70AiA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBkM3nQ",
+    "name": "Aviral Garg",
+    "login": "aviralgarg05"
+  },
+  "id": "PR_kwDODZiUac7AbJhL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18288,
+  "state": "CLOSED",
+  "title": "libc/semaphore: Allow Idle Task to acquire available semaphores",
+  "updatedAt": "2026-02-02T08:11:48Z",
+  "url": "https://github.com/apache/nuttx/pull/18288"
+}

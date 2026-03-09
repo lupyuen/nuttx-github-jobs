@@ -1,0 +1,78 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCH1EXA",
+    "is_bot": false,
+    "login": "AndreHeinemans-NXP",
+    "name": "André Heinemans"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-05T16:17:48Z",
+  "createdAt": "2026-02-05T14:05:24Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/can/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/nsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/rpmsg/defconfig",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "enable-mpu-for-imx95-evk",
+  "headRefOid": "f82f64c07d7ade1d9aad04068913d47686c03b38",
+  "headRepository": {
+    "id": "R_kgDOIwF0pQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjM2OTM3MTIw",
+    "login": "NXP-Robotics"
+  },
+  "id": "PR_kwDODZiUac7BvLc5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9ecfff08337c437c5f947ef83e47e8438b14ef44"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-05T16:17:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18355,
+  "state": "MERGED",
+  "title": "boards/imx95-evk: enable mpu by default",
+  "updatedAt": "2026-02-05T16:17:48Z",
+  "url": "https://github.com/apache/nuttx/pull/18355"
+}

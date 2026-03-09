@@ -1,0 +1,77 @@
+{
+  "additions": 40,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-27T02:05:30Z",
+  "createdAt": "2026-01-23T04:01:22Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/syslog/vsyslog.c",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "include/syslog.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/syslog/lib_syslog.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "syslog-nx_syslog",
+  "headRefOid": "3f917da5b31abb464f14b5aae0fa2791433d1edb",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac6-12Tf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18129,
+  "state": "CLOSED",
+  "title": "syslog: use nx_syslog in kernel space",
+  "updatedAt": "2026-01-27T02:05:30Z",
+  "url": "https://github.com/apache/nuttx/pull/18129"
+}

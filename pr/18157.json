@@ -1,0 +1,136 @@
+{
+  "additions": 360,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-01-26T12:59:04Z",
+  "createdAt": "2026-01-26T08:54:51Z",
+  "deletions": 215,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_mpu.c",
+      "additions": 18,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_mpu.h",
+      "additions": 63,
+      "deletions": 72
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/fvp_boot.c",
+      "additions": 82,
+      "deletions": 55
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/fvp_userspace.c",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/fvp_userspace.h",
+      "additions": 30,
+      "deletions": 36
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh_smp/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/kernel/fvp_userspace.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/scripts/dramboot.ld",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/scripts/memory.ld",
+      "additions": 56,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/scripts/nuttx_user.ld",
+      "additions": 22,
+      "deletions": 18
+    }
+  ],
+  "headRefName": "apache_arm64_mpu",
+  "headRefOid": "9d6cc3bb543a9ad9185988d3eeeeda99daff4cba",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_Udi5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6c18cfd472b6507f00733d4bed08f0f224f8cefe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T12:59:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18157,
+  "state": "MERGED",
+  "title": "arch/arm64: Enhance MPU infrastructure with unified interface and improved platform flexibility",
+  "updatedAt": "2026-01-26T12:59:04Z",
+  "url": "https://github.com/apache/nuttx/pull/18157"
+}

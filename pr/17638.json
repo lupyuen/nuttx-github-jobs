@@ -1,0 +1,104 @@
+{
+  "additions": 54,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-12-22T16:14:30Z",
+  "createdAt": "2025-12-22T12:04:25Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/nucleo-c071rb.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_autoleds.c",
+      "additions": 14,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_userleds.c",
+      "additions": 11,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/nucleo-c092rc.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_autoleds.c",
+      "additions": 14,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_userleds.c",
+      "additions": 11,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "bp-17577",
+  "headRefOid": "4e280f7edad2864c9dc0efcaae2aa07864aba43e",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66IOC2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "50a7d82d44a3baf81e21693b141d59c1364bc315"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-22T16:14:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17638,
+  "state": "MERGED",
+  "title": "{bp-17577} boards/nucleo-c0xxx: fix leds handling",
+  "updatedAt": "2025-12-23T05:31:56Z",
+  "url": "https://github.com/apache/nuttx/pull/17638"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 16,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjQ4NDYyMjY0",
+      "login": "wangchdo",
+      "name": "chengdong wang"
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjExNzM1OTY4",
+    "is_bot": false,
+    "login": "blta",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-27T13:08:51Z",
+  "createdAt": "2026-02-26T12:22:58Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-m/arm_systick.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_systick.c",
+      "additions": 8,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "tickless_fix",
+  "headRefOid": "ebf32fab6aafe027104b3e741de0e22292f98aa0",
+  "headRepository": {
+    "id": "R_kgDORZUnsg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjExNzM1OTY4",
+    "login": "blta"
+  },
+  "id": "PR_kwDODZiUac7Ghr6X",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e3b1e5914eb9ac319dc26a993c92912a02d1b862"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-27T13:08:51Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18457,
+  "state": "MERGED",
+  "title": "arch/arm: Add necessary conversion between tick and usec in systick_interrupt",
+  "updatedAt": "2026-02-27T13:08:51Z",
+  "url": "https://github.com/apache/nuttx/pull/18457"
+}

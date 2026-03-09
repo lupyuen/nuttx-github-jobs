@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrHUjw",
+    "is_bot": false,
+    "login": "pangzhen1xiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-23T23:30:05Z",
+  "createdAt": "2026-01-22T13:15:00Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "sched/irq/irq_attach_thread.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "convert-pointer",
+  "headRefOid": "c99d0046bd50f34fa1d2bff8699a98b939e3f4b4",
+  "headRepository": {
+    "id": "R_kgDOMoRG_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrHUjw",
+    "login": "pangzhen1xiaomi"
+  },
+  "id": "PR_kwDODZiUac6-shid",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "72117428fba77d63c73530f50a5d048cda46f657"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-23T23:30:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18111,
+  "state": "MERGED",
+  "title": "sched/irq: Avoid directly converting variables of type uintptr_t to void",
+  "updatedAt": "2026-01-23T23:30:05Z",
+  "url": "https://github.com/apache/nuttx/pull/18111"
+}

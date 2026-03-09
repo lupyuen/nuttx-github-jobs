@@ -1,0 +1,197 @@
+{
+  "additions": 32,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 23,
+  "closed": true,
+  "closedAt": "2026-01-16T01:41:13Z",
+  "createdAt": "2026-01-13T09:53:36Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-m/arm_exception.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/iar/fork.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_farapistub.S",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/moxart/moxart_head.S",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/tlsr82/chip/b87/boot/cstartup_flash.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/imx9/ddr/imx9_ddr_training.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f450zk-aiotbox/src/gd32f4xx_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f450zk-eval/src/gd32f4xx_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470ik-eval/src/gd32f4xx_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-aiotbox/src/gd32f4xx_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-eval/src/gd32f4xx_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/pnev5180b/src/lpc17_40_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f429zi/src/stm32_romfs_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_romfs_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/omnibusf4/src/stm32_romfs_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/stm32_romfs_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/common/src/stm32_romfs_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_romfs_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_memchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_memcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_strcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_strlen.S",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "ghs_fix_usage_fault_error",
+  "headRefOid": "975ab8124489b7307901aac0464b3c60e7ae271e",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac68480F",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ba63a4d234ae01cde67a06bb7711aefc0482d2f8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T01:41:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17863,
+  "state": "MERGED",
+  "title": "ghs: fix the UsageFault:INVSTATE error triggered by exception_common",
+  "updatedAt": "2026-01-16T01:41:13Z",
+  "url": "https://github.com/apache/nuttx/pull/17863"
+}

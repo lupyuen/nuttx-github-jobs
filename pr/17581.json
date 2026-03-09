@@ -1,0 +1,100 @@
+{
+  "additions": 353,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-12-22T02:22:36Z",
+  "createdAt": "2025-12-21T19:37:14Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/heltec_wifi_lora32/index.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/configs/sx1276/defconfig",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/esp32_bringup.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/esp32_sx127x.c",
+      "additions": 229,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/heltec_wifi_lora32/src/heltec_wifi_lora32.h",
+      "additions": 24,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "heltec_esp32_lora",
+  "headRefOid": "42a6029923d5c62cb835a0ab452beb38d6f1c63a",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac66Be0f",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "29ee50aba883d931ed63751a7804993fb86832a3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-22T02:22:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17581,
+  "state": "MERGED",
+  "title": "boards/esp32/heltec_wifi_lora32: Add support to SX1276 transceiver",
+  "updatedAt": "2025-12-22T02:22:36Z",
+  "url": "https://github.com/apache/nuttx/pull/17581"
+}

@@ -1,0 +1,92 @@
+{
+  "additions": 59,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-02-03T19:34:32Z",
+  "createdAt": "2026-02-03T03:33:04Z",
+  "deletions": 37,
+  "files": [
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/stream/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_filesistream.c",
+      "additions": 47,
+      "deletions": 26
+    },
+    {
+      "path": "libs/libc/stream/lib_memsistream.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_rawsistream.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_stdsistream.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "filestream",
+  "headRefOid": "3a4e9a1d43e23e383b063274abc166525aee1704",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7BETU2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18321,
+  "state": "CLOSED",
+  "title": "libc/fileinstream: Fix file reading bugs and static analysis issues",
+  "updatedAt": "2026-02-03T19:34:32Z",
+  "url": "https://github.com/apache/nuttx/pull/18321"
+}

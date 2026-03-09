@@ -1,0 +1,89 @@
+{
+  "additions": 83,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB4lDNQ",
+    "is_bot": false,
+    "login": "guohao15",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-24T10:41:28Z",
+  "createdAt": "2025-12-12T12:13:50Z",
+  "deletions": 509,
+  "files": [
+    {
+      "path": "fs/romfs/Kconfig",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "fs/romfs/fs_romfs.c",
+      "additions": 25,
+      "deletions": 105
+    },
+    {
+      "path": "fs/romfs/fs_romfs.h",
+      "additions": 1,
+      "deletions": 26
+    },
+    {
+      "path": "fs/romfs/fs_romfsutil.c",
+      "additions": 57,
+      "deletions": 371
+    }
+  ],
+  "headRefName": "pick-lrofs",
+  "headRefOid": "07de6932ccb86caf92629d016ffd9199763b4a8f",
+  "headRepository": {
+    "id": "R_kgDOKIdKpQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB4lDNQ",
+    "login": "guohao15"
+  },
+  "id": "PR_kwDODZiUac64jm4L",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "081ff15254bab9328ba17c9011b7e816ab9a3f8e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-24T10:41:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17488,
+  "state": "MERGED",
+  "title": "fs/romfs: revert the romfs write feature",
+  "updatedAt": "2025-12-24T10:41:28Z",
+  "url": "https://github.com/apache/nuttx/pull/17488"
+}

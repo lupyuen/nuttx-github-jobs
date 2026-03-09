@@ -1,0 +1,116 @@
+{
+  "additions": 243,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-01-06T15:14:04Z",
+  "createdAt": "2025-12-23T00:56:50Z",
+  "deletions": 165,
+  "files": [
+    {
+      "path": "Documentation/reference/os/hrtimer_state_machine.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/reference/os/time_clock.rst",
+      "additions": 17,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 10,
+      "deletions": 28
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 107,
+      "deletions": 10
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 45,
+      "deletions": 41
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_initialize.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 36,
+      "deletions": 22
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_start.c",
+      "additions": 21,
+      "deletions": 58
+    }
+  ],
+  "headRefName": "refine_hrtimer",
+  "headRefOid": "0ae6d785ce63d0fea5ed0b494da30c2a4b22b8cd",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac66PZif",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "24651af90c60006b2ccea01fd960a2caa9c9a921"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-06T15:14:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17642,
+  "state": "MERGED",
+  "title": "[EXPERIMENTAL]sched/hrtimer: hrtimer state machine improvement for SMP cases",
+  "updatedAt": "2026-01-08T03:16:34Z",
+  "url": "https://github.com/apache/nuttx/pull/17642"
+}

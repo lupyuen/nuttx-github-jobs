@@ -1,0 +1,154 @@
+{
+  "additions": 182,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-12-29T11:22:24Z",
+  "createdAt": "2025-12-29T02:54:49Z",
+  "deletions": 163,
+  "files": [
+    {
+      "path": "Documentation/components/net/tcp_state_machine.rst",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "net/devif/devif.h",
+      "additions": 25,
+      "deletions": 20
+    },
+    {
+      "path": "net/tcp/tcp.h",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "net/tcp/tcp_appsend.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_callback.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "net/tcp/tcp_close.c",
+      "additions": 37,
+      "deletions": 25
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_connect.c",
+      "additions": 5,
+      "deletions": 6
+    },
+    {
+      "path": "net/tcp/tcp_devpoll.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_input.c",
+      "additions": 13,
+      "deletions": 48
+    },
+    {
+      "path": "net/tcp/tcp_monitor.c",
+      "additions": 16,
+      "deletions": 9
+    },
+    {
+      "path": "net/tcp/tcp_netpoll.c",
+      "additions": 14,
+      "deletions": 7
+    },
+    {
+      "path": "net/tcp/tcp_recvfrom.c",
+      "additions": 16,
+      "deletions": 21
+    },
+    {
+      "path": "net/tcp/tcp_send_buffered.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_send_unbuffered.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_shutdown.c",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_timer.c",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "upstream-6",
+  "headRefOid": "7128a6832778654071de89bc4313e829051c4043",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66xJhU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6addf24fa2d567560ca3bd394eebe8596304e509"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T11:22:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17707,
+  "state": "MERGED",
+  "title": "net/tcp: support recv packet in the TCP_FIN_WAIT_1/2 state",
+  "updatedAt": "2025-12-29T11:22:24Z",
+  "url": "https://github.com/apache/nuttx/pull/17707"
+}

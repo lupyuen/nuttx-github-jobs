@@ -1,0 +1,107 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-03-02T16:36:47Z",
+  "createdAt": "2026-03-02T12:56:49Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "Documentation/testing/citests.rst",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/imx6/sabre-6quad/configs/citest/run.sh",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest/run.sh",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest64/run.sh",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/run.sh",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "export_ntfc_fix",
+  "headRefOid": "30ded096633c3957a6b1c72c8a60f9712ee6c38f",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac7HUxzY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cd68f50ba521d8659a2130bf3c14a4f4f712b4d3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-02T16:36:47Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18479,
+  "state": "MERGED",
+  "title": "ci: don't export pytest.debug.log in CI artifacts",
+  "updatedAt": "2026-03-02T16:36:47Z",
+  "url": "https://github.com/apache/nuttx/pull/18479"
+}

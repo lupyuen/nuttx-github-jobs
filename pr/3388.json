@@ -1,0 +1,67 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-03T19:27:52Z",
+  "createdAt": "2026-01-29T11:41:31Z",
+  "deletions": 37,
+  "files": [
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/ssl_pm.c",
+      "additions": 7,
+      "deletions": 37
+    }
+  ],
+  "headRefName": "fix/mbedtls-3.6.2-compat",
+  "headRefOid": "902ced3fe9ae1e098084b18c47cd28ef740655be",
+  "headRepository": {
+    "id": "R_kgDOKAa8bg",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiT487AG40Z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7ksA",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3388,
+  "state": "CLOSED",
+  "title": "crypto/openssl_mbedtls_wrapper: Fix compat with Mbed TLS 3.6.2",
+  "updatedAt": "2026-02-03T19:27:52Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3388"
+}

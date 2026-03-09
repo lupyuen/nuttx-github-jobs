@@ -1,0 +1,69 @@
+{
+  "additions": 44,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-31T11:49:04Z",
+  "createdAt": "2025-12-30T12:40:02Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "fs/vfs/fs_epoll.c",
+      "additions": 44,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "epoll",
+  "headRefOid": "b1bb2724fdcb3133da4bba4360721b43672f5895",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac669su2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "291199f833f7f22ec0082f7c8dada3fae600cb4e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-31T11:49:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17741,
+  "state": "MERGED",
+  "title": "fs/epoll: release refs count and add TLS cleanup handler to release epoll fd reference on thread exit",
+  "updatedAt": "2025-12-31T11:49:04Z",
+  "url": "https://github.com/apache/nuttx/pull/17741"
+}

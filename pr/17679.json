@@ -1,0 +1,84 @@
+{
+  "additions": 26,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCotZQw",
+    "is_bot": false,
+    "login": "zs39",
+    "name": "zhangshuai39"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-25T14:13:43Z",
+  "createdAt": "2025-12-25T07:41:31Z",
+  "deletions": 85,
+  "files": [
+    {
+      "path": "include/nuttx/net/ip.h",
+      "additions": 24,
+      "deletions": 3
+    },
+    {
+      "path": "net/utils/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/utils/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/utils/net_ipv6_maskcmp.c",
+      "additions": 0,
+      "deletions": 80
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "841cc5c359d06b72620b7aa23cb11b5eea978a32",
+  "headRepository": {
+    "id": "R_kgDOMcfXzA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCotZQw",
+    "name": "zhangshuai39",
+    "login": "zs39"
+  },
+  "id": "PR_kwDODZiUac66iqne",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c44834fb9209fc995bd13fb3c72363e4f71fe946"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T14:13:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17679,
+  "state": "MERGED",
+  "title": "nuttx/net: Expose the net_ipv6addr_maskcmp interface to user-mode calls",
+  "updatedAt": "2025-12-25T14:13:43Z",
+  "url": "https://github.com/apache/nuttx/pull/17679"
+}

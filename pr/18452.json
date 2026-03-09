@@ -1,0 +1,74 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-27T11:54:46Z",
+  "createdAt": "2026-02-26T09:37:44Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/posix/sim_x11eventloop.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_x11framebuffer.c",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "26022607",
+  "headRefOid": "b095603b82e7618f7596dc0f4a4e8cf418172818",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac7Ge9UA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f0fc695a81cc4c3f12ec9e0624f3948c34f331a4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-27T11:54:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18452,
+  "state": "MERGED",
+  "title": "arch/sim: fix X11 framebuffer window not visible in POSIX simulator",
+  "updatedAt": "2026-02-27T13:42:57Z",
+  "url": "https://github.com/apache/nuttx/pull/18452"
+}

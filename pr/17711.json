@@ -1,0 +1,83 @@
+{
+  "additions": 44,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "is_bot": false,
+    "login": "wenquan2015",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-29T14:39:56Z",
+  "createdAt": "2025-12-29T05:56:29Z",
+  "deletions": 31,
+  "files": [
+    {
+      "path": "net/tcp/tcp_close.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "net/tcp/tcp_input.c",
+      "additions": 36,
+      "deletions": 13
+    },
+    {
+      "path": "net/tcp/tcp_timer.c",
+      "additions": 0,
+      "deletions": 11
+    }
+  ],
+  "headRefName": "6174732",
+  "headRefOid": "516afe23808ce7c1c64b480ef52101ab75ed4946",
+  "headRepository": {
+    "id": "R_kgDOQu98Tw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "login": "wenquan2015"
+  },
+  "id": "PR_kwDODZiUac66xzlz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb7dcc3d894020a098b2ca45649cef30ca0e836f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T14:39:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17711,
+  "state": "MERGED",
+  "title": "net/tcp: support OTW ack seq check",
+  "updatedAt": "2025-12-29T14:39:56Z",
+  "url": "https://github.com/apache/nuttx/pull/17711"
+}

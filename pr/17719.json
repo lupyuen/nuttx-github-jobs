@@ -1,0 +1,125 @@
+{
+  "additions": 1324,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrKzlg",
+    "is_bot": false,
+    "login": "yezhonghui2024",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-05T18:10:41Z",
+  "createdAt": "2025-12-29T13:04:10Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/platforms/sim/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/sim/sim_gpiochip.rst",
+      "additions": 308,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_linux_gpiochip.c",
+      "additions": 419,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_gpiochip.c",
+      "additions": 477,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_gpiochip.h",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/ioexpander/ioe_dummy.c",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "sim-gpio",
+  "headRefOid": "5a7ab1c1ef188be4a92784ea79798c21b57918b7",
+  "headRepository": {
+    "id": "R_kgDOMob6bw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrKzlg",
+    "login": "yezhonghui2024"
+  },
+  "id": "PR_kwDODZiUac660sK_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "227d7237abbdfd5bd3c9e79ebfa4816b8cb85681"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-05T18:10:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17719,
+  "state": "MERGED",
+  "title": "Sim/gpiochip: sim gpiochip support nuttx access host gpiochip ",
+  "updatedAt": "2026-01-05T18:10:41Z",
+  "url": "https://github.com/apache/nuttx/pull/17719"
+}

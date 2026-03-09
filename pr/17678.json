@@ -1,0 +1,125 @@
+{
+  "additions": 395,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-12-27T13:06:23Z",
+  "createdAt": "2025-12-25T07:39:01Z",
+  "deletions": 37,
+  "files": [
+    {
+      "path": "Documentation/components/net/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/net/tcp_state_machine.rst",
+      "additions": 327,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/tcp.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "net/tcp/tcp_appsend.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_close.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_devpoll.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_input.c",
+      "additions": 43,
+      "deletions": 23
+    },
+    {
+      "path": "net/tcp/tcp_send_buffered.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_shutdown.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_timer.c",
+      "additions": 3,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "upstream-11",
+  "headRefOid": "b58c237fb5f7497022546d483673a468beaa5050",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66ip-g",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "746d68916f94dbcb775bb300ad100bea4b1b9a9a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-27T13:06:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17678,
+  "state": "MERGED",
+  "title": "net/tcp: add support for the CLOSE_WAIT state",
+  "updatedAt": "2025-12-27T13:06:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17678"
+}

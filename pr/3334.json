@@ -1,0 +1,176 @@
+{
+  "additions": 90,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "is_bot": false,
+    "login": "zzby0",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 24,
+  "closed": true,
+  "closedAt": "2026-02-03T19:29:12Z",
+  "createdAt": "2026-01-15T14:17:32Z",
+  "deletions": 93,
+  "files": [
+    {
+      "path": "testing/ostest/aio.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "testing/ostest/fpu.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/posixtimer.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "testing/ostest/prioinherit.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/pthread_cleanup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/pthread_exit.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "testing/ostest/pthread_rwlock.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "testing/ostest/pthread_rwlock_cancel.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/restart.c",
+      "additions": 21,
+      "deletions": 28
+    },
+    {
+      "path": "testing/ostest/robust.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/schedlock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/semtimed.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/sighand.c",
+      "additions": 12,
+      "deletions": 9
+    },
+    {
+      "path": "testing/ostest/signest.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/sporadic.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/sporadic2.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/suspend.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/timedmqueue.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/timedmutex.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/timedwait.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/vfork.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/waitpid.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "testing/ostest/wdog.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/wqueue.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "ostest_reduce_time",
+  "headRefOid": "f322a004e6ddc97abc861142878ff9059aa0252d",
+  "headRepository": {
+    "id": "R_kgDOKAmvcQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "login": "zzby0"
+  },
+  "id": "PR_kwDODZiT4869ZS87",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3334,
+  "state": "CLOSED",
+  "title": "ostest: reduce time and fix bugs cause by reducing time",
+  "updatedAt": "2026-02-03T19:29:12Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3334"
+}

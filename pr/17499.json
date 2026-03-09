@@ -1,0 +1,87 @@
+{
+  "additions": 157,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-04T13:43:51Z",
+  "createdAt": "2025-12-14T15:29:32Z",
+  "deletions": 73,
+  "files": [
+    {
+      "path": "drivers/serial/serial.c",
+      "additions": 114,
+      "deletions": 45
+    },
+    {
+      "path": "drivers/serial/serial_cmsdk.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/serial/serial_io.c",
+      "additions": 2,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/serial/uart_16550.c",
+      "additions": 10,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/serial/uart_rpmsg.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/serial/serial.h",
+      "additions": 22,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "serial",
+  "headRefOid": "f50333e05d226dc7bbb509d492ab36ae171ac352",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac64xnd5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17499,
+  "state": "CLOSED",
+  "title": "drivers/serial: using small lock to replace enter/leave_critical_section",
+  "updatedAt": "2026-01-04T13:43:51Z",
+  "url": "https://github.com/apache/nuttx/pull/17499"
+}

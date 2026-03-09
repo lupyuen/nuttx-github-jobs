@@ -1,0 +1,96 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBkM3nQ",
+    "is_bot": false,
+    "login": "aviralgarg05",
+    "name": "Aviral Garg"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-31T17:12:18Z",
+  "createdAt": "2026-01-25T08:47:23Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/imxrt/imxrt_enet.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_eth.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_ethernet.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ethernet.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/issue-18110-ethernet-running-status",
+  "headRefOid": "e6d7108d969e4ae9eb3312eb468765fe29f315d8",
+  "headRepository": {
+    "id": "R_kgDOQ70AiA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBkM3nQ",
+    "name": "Aviral Garg",
+    "login": "aviralgarg05"
+  },
+  "id": "PR_kwDODZiUac6_NtPI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a4315fbb452c4a10aaa689021c3b8b28853b490d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-31T17:12:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18140,
+  "state": "MERGED",
+  "title": "arch/arm/src/imxrt: Fix Ethernet RUNNING status regression",
+  "updatedAt": "2026-01-31T17:12:18Z",
+  "url": "https://github.com/apache/nuttx/pull/18140"
+}

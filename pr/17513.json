@@ -1,0 +1,68 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB4lDNQ",
+    "is_bot": false,
+    "login": "guohao15",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-16T11:41:20Z",
+  "createdAt": "2025-12-15T13:01:18Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix2",
+  "headRefOid": "37f490be9a47bc26d41c692294e58b20977e8196",
+  "headRepository": {
+    "id": "R_kgDOKIdKpQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB4lDNQ",
+    "login": "guohao15"
+  },
+  "id": "PR_kwDODZiUac646zjq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "14942b5ab49d54de5f861a994733dd518d347654"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-16T11:41:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17513,
+  "state": "MERGED",
+  "title": "bugfix/fs:write Bad buf addr should return EINVAL",
+  "updatedAt": "2025-12-16T11:41:20Z",
+  "url": "https://github.com/apache/nuttx/pull/17513"
+}

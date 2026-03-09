@@ -1,0 +1,73 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsAKA",
+    "is_bot": false,
+    "login": "OceanfromXiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-08T12:15:05Z",
+  "createdAt": "2026-01-08T06:31:33Z",
+  "deletions": 67,
+  "files": [
+    {
+      "path": "drivers/can/sja1000.c",
+      "additions": 10,
+      "deletions": 63
+    },
+    {
+      "path": "include/nuttx/can/sja1000.h",
+      "additions": 1,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "replace_with_spinlock",
+  "headRefOid": "fd6b567d9dc8d8927ee9bfb76e4734395257644e",
+  "headRepository": {
+    "id": "R_kgDOMmOEBQ",
+    "name": "nuttx-kernel"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsAKA",
+    "login": "OceanfromXiaomi"
+  },
+  "id": "PR_kwDODZiUac68DQ5o",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "380bcabba83e28db1baeb2bf7ac088bbc4abd41c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-08T12:15:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17797,
+  "state": "MERGED",
+  "title": "drivers/can:  replace critical-section mutex with spinlock",
+  "updatedAt": "2026-01-08T12:15:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17797"
+}

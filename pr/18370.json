@@ -1,0 +1,85 @@
+{
+  "additions": 108,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgwNzUyMjY1",
+    "is_bot": false,
+    "login": "nyh163925",
+    "name": "niyinghao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-09T23:56:46Z",
+  "createdAt": "2026-02-09T06:41:32Z",
+  "deletions": 71,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/sim_camera.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/v4l2_cap.c",
+      "additions": 85,
+      "deletions": 52
+    },
+    {
+      "path": "drivers/video/v4l2_m2m.c",
+      "additions": 13,
+      "deletions": 19
+    }
+  ],
+  "headRefName": "split_camera",
+  "headRefOid": "99103ca2504f4f10072ff43318b38592711b3372",
+  "headRepository": {
+    "id": "R_kgDONtO6Fg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjgwNzUyMjY1",
+    "name": "niyinghao",
+    "login": "nyh163925"
+  },
+  "id": "PR_kwDODZiUac7CZa7G",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c5549143adf0ae444d0669e3b46def2175197e71"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-09T23:56:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18370,
+  "state": "MERGED",
+  "title": "video/sim_camera: Improve camera driver behavior and simulator camera coverage.",
+  "updatedAt": "2026-02-09T23:56:46Z",
+  "url": "https://github.com/apache/nuttx/pull/18370"
+}

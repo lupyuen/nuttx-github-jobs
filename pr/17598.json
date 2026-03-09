@@ -1,0 +1,79 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-23T02:31:02Z",
+  "createdAt": "2025-12-22T09:33:29Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "include/sys/socket.h",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "net/icmp/icmp_sockif.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/icmpv6/icmpv6_sockif.c",
+      "additions": 6,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "bp-17432",
+  "headRefOid": "d55b2037243fabfb9f3a39e04989b68aed720711",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66Gem-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fdedb5bccdd3078f8703b5f48eb83ccbce821f2f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T02:31:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17598,
+  "state": "MERGED",
+  "title": "{bp-17432} icmp/icmp6: Fix some functional errors",
+  "updatedAt": "2025-12-23T02:31:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17598"
+}

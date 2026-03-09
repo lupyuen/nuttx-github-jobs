@@ -1,0 +1,79 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-14T18:22:47Z",
+  "createdAt": "2026-01-13T09:48:49Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "include/fcntl.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/stdio.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_fsetpos.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_fsetops_func_signature",
+  "headRefOid": "ce05390961a7e3b07ebe00ca93224258dd0c132d",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac6844rw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "80fcbf7aa8305452b3d0301650bec0109f9e4881"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-14T18:22:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17862,
+  "state": "MERGED",
+  "title": "libs/libc: Fix fsetops func signature",
+  "updatedAt": "2026-01-14T18:22:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17862"
+}

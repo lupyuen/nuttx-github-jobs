@@ -1,0 +1,74 @@
+{
+  "additions": 17,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-19T00:58:45Z",
+  "createdAt": "2025-12-17T11:35:55Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "drivers/timers/arch_rtc.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/rpmsg_rtc.c",
+      "additions": 13,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "20251217_rpmsg_tm_bug",
+  "headRefOid": "46b55494d6b6d63a596620aee738a31b7386b168",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac65Wd95",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7003a2c14d646a547087fcb2ed9c52813423d4c2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-19T00:58:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17540,
+  "state": "MERGED",
+  "title": "drivers/timers: fix rtc_time struct",
+  "updatedAt": "2025-12-19T00:58:45Z",
+  "url": "https://github.com/apache/nuttx/pull/17540"
+}

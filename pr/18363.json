@@ -1,0 +1,169 @@
+{
+  "additions": 1747,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCH1EXA",
+    "is_bot": false,
+    "login": "AndreHeinemans-NXP",
+    "name": "André Heinemans"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 20,
+  "closed": true,
+  "closedAt": "2026-02-06T18:28:12Z",
+  "createdAt": "2026-02-06T13:48:27Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/imx9/boards/mr-navq95b/index.rst",
+      "additions": 142,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/imx9/boards/mr-navq95b/mr-navq95b-overview.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/CMakeLists.txt",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/configs/nsh/defconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/configs/rpmsg/defconfig",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/include/board.h",
+      "additions": 200,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/Make.defs",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/ddr.ld",
+      "additions": 137,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/flash.ld",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/scripts/itcm.ld",
+      "additions": 137,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/CMakeLists.txt",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/Makefile",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_appinit.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_boardinit.c",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_bringup.c",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_i2c.c",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/imx95_spi.c",
+      "additions": 164,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/mr-navq95b/src/mr-navq95b.h",
+      "additions": 98,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add-navq95b",
+  "headRefOid": "751705d1ec8507ab4971c5bd48e0147bc0c4ad53",
+  "headRepository": {
+    "id": "R_kgDOIwF0pQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjM2OTM3MTIw",
+    "login": "NXP-Robotics"
+  },
+  "id": "PR_kwDODZiUac7CALMw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e83606732d5e71eb98a9eb544537dbbeb71aa58b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-06T18:28:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18363,
+  "state": "MERGED",
+  "title": "boards/arm: add nxp mr-navq95b support",
+  "updatedAt": "2026-02-06T18:28:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18363"
+}

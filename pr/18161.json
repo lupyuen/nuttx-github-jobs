@@ -1,0 +1,154 @@
+{
+  "additions": 373,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC2sdrQ",
+    "is_bot": false,
+    "login": "txy-21",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2026-01-27T06:07:02Z",
+  "createdAt": "2026-01-26T09:51:32Z",
+  "deletions": 118,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_arch_timer.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/power/pm/pm_activity.c",
+      "additions": 2,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/power/supply/powerled.c",
+      "additions": 1,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/power/supply/regulator.c",
+      "additions": 94,
+      "deletions": 79
+    },
+    {
+      "path": "drivers/power/supply/smps.c",
+      "additions": 1,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/rptun/rptun_ivshmem.c",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/vhost/vhost.c",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/virtio.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "fs/aio/aio_cancel.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/lib/lib.h",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/power/regulator.h",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/netdb/lib_getaddrinfo.c",
+      "additions": 18,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/netdb/lib_gethostentbynamer.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/netdb/lib_netdb.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/coredump.c",
+      "additions": 23,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nuttx-misc-fixes",
+  "headRefOid": "2457a12801bce99250165ca3c7ecd5c257529026",
+  "headRepository": {
+    "id": "R_kgDONc8U5Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC2sdrQ",
+    "login": "txy-21"
+  },
+  "id": "PR_kwDODZiUac6_VEnC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18161,
+  "state": "CLOSED",
+  "title": "NuttX miscellaneous fixes and improvements",
+  "updatedAt": "2026-01-27T06:07:02Z",
+  "url": "https://github.com/apache/nuttx/pull/18161"
+}

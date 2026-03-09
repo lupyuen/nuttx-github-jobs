@@ -1,0 +1,94 @@
+{
+  "additions": 196,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-02-23T14:12:48Z",
+  "createdAt": "2026-02-23T12:00:40Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32l5/CMakeLists.txt",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l5/nucleo-l552ze/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l5/nucleo-l552ze/src/CMakeLists.txt",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l5/stm32l562e-dk/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l5/stm32l562e-dk/src/CMakeLists.txt",
+      "additions": 41,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-stm32l5",
+  "headRefOid": "d1ed05cd646f1b1160635294e553ed6457d3f99d",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac7FoSNM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "802de91155356b9e15023fcb13cf55bb4ac68fca"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-23T14:12:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 18423,
+  "state": "MERGED",
+  "title": "CMake: build implemented for STM32 STM32L5 Series",
+  "updatedAt": "2026-02-24T10:14:53Z",
+  "url": "https://github.com/apache/nuttx/pull/18423"
+}

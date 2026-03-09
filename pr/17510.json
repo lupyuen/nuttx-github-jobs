@@ -1,0 +1,101 @@
+{
+  "additions": 126,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCannfA",
+    "is_bot": false,
+    "login": "chenzihan0416",
+    "name": "Hibana"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-12-18T13:52:37Z",
+  "createdAt": "2025-12-15T08:49:38Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/gpio.rst",
+      "additions": 30,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/ioexpander/gpio.c",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/ioexpander/gpio_lower_half.c",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/ioexpander/gpio.h",
+      "additions": 23,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/ioexpander/ioexpander.h",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "gpio",
+  "headRefOid": "ba79d5bffeaa93954ad55b3e402c1636ada3b191",
+  "headRepository": {
+    "id": "R_kgDOLbaZXw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCannfA",
+    "name": "Hibana",
+    "login": "chenzihan0416"
+  },
+  "id": "PR_kwDODZiUac643ksP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a9df67e56b5c20ad4be49fadf44019a630f46ee0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-18T13:52:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "milestone": null,
+  "number": 17510,
+  "state": "MERGED",
+  "title": "drivers/ioexpander: add debounce and interrupt mask functions",
+  "updatedAt": "2025-12-31T02:28:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17510"
+}

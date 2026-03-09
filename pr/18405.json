@@ -1,0 +1,69 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NDg1ODU=",
+    "is_bot": false,
+    "login": "tunefs",
+    "name": "Atsunori Saito"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-18T12:19:23Z",
+  "createdAt": "2026-02-17T05:25:06Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/arm/src/imxrt/imxrt_lpspi.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix/imxrt_spi_dma",
+  "headRefOid": "3053c5280245222c24fe064942d7e3c0b05abb54",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzNjM1NzU5NjM=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NDg1ODU=",
+    "name": "Atsunori Saito",
+    "login": "tunefs"
+  },
+  "id": "PR_kwDODZiUac7EQrc1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fc1ae9b7becd31b4e966aee2e7ebfc263e942701"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-18T12:19:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18405,
+  "state": "MERGED",
+  "title": "imxrt/lpspi: Fix correct LPSPI DMA transfer size for 16-bit",
+  "updatedAt": "2026-02-18T12:19:46Z",
+  "url": "https://github.com/apache/nuttx/pull/18405"
+}

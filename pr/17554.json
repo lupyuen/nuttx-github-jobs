@@ -1,0 +1,148 @@
+{
+  "additions": 223,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-01-05T18:15:43Z",
+  "createdAt": "2025-12-18T03:39:56Z",
+  "deletions": 26,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/qemu/boards/qemu-armv7a/index.rst",
+      "additions": 19,
+      "deletions": 11
+    },
+    {
+      "path": "Documentation/platforms/arm64/qemu/boards/qemu-armv8a/index.rst",
+      "additions": 23,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/src/qemu_bringup.c",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpproxy/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpserver/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/src/qemu_bringup.c",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg.h",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-get-signals",
+  "headRefOid": "3654a1d76d1c5896b90fd17ac3366cf44767841a",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac65f2Zq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7dfc62bac5b7a0238356c7eac26c13243fdf9291"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-05T18:15:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17554,
+  "state": "MERGED",
+  "title": "drivers/rpmsg: Add rpmsg_get_signals API and rpmsg transport ops support",
+  "updatedAt": "2026-01-05T18:15:44Z",
+  "url": "https://github.com/apache/nuttx/pull/17554"
+}

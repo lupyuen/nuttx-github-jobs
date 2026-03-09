@@ -1,0 +1,308 @@
+{
+  "additions": 464,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsgVg",
+    "is_bot": false,
+    "login": "wangzhi16",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 31,
+  "closed": true,
+  "closedAt": "2026-01-27T13:24:32Z",
+  "createdAt": "2026-01-27T08:11:42Z",
+  "deletions": 1148,
+  "files": [
+    {
+      "path": "arch/arm/src/arm/arm_schedulesigaction.c",
+      "additions": 20,
+      "deletions": 41
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_schedulesigaction.c",
+      "additions": 27,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_schedulesigaction.c",
+      "additions": 27,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_schedulesigaction.c",
+      "additions": 27,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tc32/tc32_schedulesigaction.c",
+      "additions": 19,
+      "deletions": 40
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_schedulesigaction.c",
+      "additions": 6,
+      "deletions": 22
+    },
+    {
+      "path": "arch/avr/src/avr/avr_schedulesigaction.c",
+      "additions": 21,
+      "deletions": 48
+    },
+    {
+      "path": "arch/avr/src/avr32/avr_schedulesigaction.c",
+      "additions": 14,
+      "deletions": 41
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_schedulesigaction.c",
+      "additions": 16,
+      "deletions": 46
+    },
+    {
+      "path": "arch/mips/src/mips32/mips_schedulesigaction.c",
+      "additions": 25,
+      "deletions": 52
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_schedulesigaction.c",
+      "additions": 17,
+      "deletions": 44
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_schedulesigaction.c",
+      "additions": 18,
+      "deletions": 45
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_schedulesigaction.c",
+      "additions": 16,
+      "deletions": 43
+    },
+    {
+      "path": "arch/renesas/src/m16c/m16c_schedulesigaction.c",
+      "additions": 15,
+      "deletions": 36
+    },
+    {
+      "path": "arch/renesas/src/rx65n/rx65n_schedulesigaction.c",
+      "additions": 13,
+      "deletions": 34
+    },
+    {
+      "path": "arch/renesas/src/sh1/sh1_schedulesigaction.c",
+      "additions": 13,
+      "deletions": 34
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_schedulesigaction.c",
+      "additions": 22,
+      "deletions": 38
+    },
+    {
+      "path": "arch/sparc/src/sparc_v8/sparc_v8_schedulesigaction.c",
+      "additions": 33,
+      "deletions": 93
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_schedulesigaction.c",
+      "additions": 10,
+      "deletions": 72
+    },
+    {
+      "path": "arch/x86/src/i486/i486_schedulesigaction.c",
+      "additions": 14,
+      "deletions": 41
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_schedulesigaction.c",
+      "additions": 11,
+      "deletions": 29
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_schedsigaction.c",
+      "additions": 26,
+      "deletions": 44
+    },
+    {
+      "path": "arch/z16/src/common/z16_schedulesigaction.c",
+      "additions": 16,
+      "deletions": 37
+    },
+    {
+      "path": "arch/z80/src/ez80/ez80_schedulesigaction.c",
+      "additions": 6,
+      "deletions": 27
+    },
+    {
+      "path": "arch/z80/src/z180/z180_schedulesigaction.c",
+      "additions": 6,
+      "deletions": 27
+    },
+    {
+      "path": "arch/z80/src/z8/z8_schedulesigaction.c",
+      "additions": 6,
+      "deletions": 27
+    },
+    {
+      "path": "arch/z80/src/z80/z80_schedulesigaction.c",
+      "additions": 6,
+      "deletions": 27
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 11,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "up_schedule_sigact",
+  "headRefOid": "bdf6463aa788faae312ac4290b5237d58e8f8a53",
+  "headRepository": {
+    "id": "R_kgDOMmQ4Gw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsgVg",
+    "login": "wangzhi16"
+  },
+  "id": "PR_kwDODZiUac6_ij1a",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "364a633ec325ab4023ac07764f8b175207cbd25a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T13:24:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18192,
+  "state": "MERGED",
+  "title": "sched/signal: Optimize code logic",
+  "updatedAt": "2026-01-27T13:24:32Z",
+  "url": "https://github.com/apache/nuttx/pull/18192"
+}

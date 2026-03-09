@@ -1,0 +1,180 @@
+{
+  "additions": 506,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB84a4g",
+    "is_bot": false,
+    "login": "Shanks0224",
+    "name": "GanJing<Saiyan>"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 21,
+  "closed": true,
+  "closedAt": "2026-01-21T10:23:10Z",
+  "createdAt": "2026-01-21T09:23:58Z",
+  "deletions": 395,
+  "files": [
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_ummheap.c",
+      "additions": 361,
+      "deletions": 274
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/asan/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/mnemofs/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/nand/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfsmeminfo.c",
+      "additions": 25,
+      "deletions": 19
+    },
+    {
+      "path": "include/nuttx/fs/procfs.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/mm.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "mm/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_foreach.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_free.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "mm/mm_heap/mm_initialize.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "mm/mm_heap/mm_lock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/mm_heap/mm_mallinfo.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_malloc.c",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "mm/tlsf/mm_tlsf.c",
+      "additions": 49,
+      "deletions": 55
+    },
+    {
+      "path": "mm/umm_heap/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 23
+    },
+    {
+      "path": "mm/umm_heap/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "fa0588bd3672c2329c7d539cbebc3ec8f6b3b655",
+  "headRepository": {
+    "id": "R_kgDOQ8jgDg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB84a4g",
+    "name": "GanJing<Saiyan>",
+    "login": "Shanks0224"
+  },
+  "id": "PR_kwDODZiUac6-Z0v0",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18075,
+  "state": "CLOSED",
+  "title": "arch/sim: add heap management support",
+  "updatedAt": "2026-01-21T10:23:10Z",
+  "url": "https://github.com/apache/nuttx/pull/18075"
+}

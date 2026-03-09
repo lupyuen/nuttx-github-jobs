@@ -1,0 +1,110 @@
+{
+  "additions": 786,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-01-02T10:46:52Z",
+  "createdAt": "2025-12-30T14:27:39Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/timers/capture.rst",
+      "additions": 201,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/drivers_initialize.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/capture.c",
+      "additions": 120,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/timers/fake_capture.c",
+      "additions": 352,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/capture.h",
+      "additions": 80,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "capture",
+  "headRefOid": "468f90104adc29d2521cc90e8f0c6dcd428e147d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac66-tqw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5ca6581353c2262018ec9c8683430afdf5e47778"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-02T10:46:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17747,
+  "state": "MERGED",
+  "title": "drivers/capture: add signal notification support and fake capture driver",
+  "updatedAt": "2026-01-02T10:46:52Z",
+  "url": "https://github.com/apache/nuttx/pull/17747"
+}

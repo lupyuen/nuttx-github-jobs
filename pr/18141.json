@@ -1,0 +1,94 @@
+{
+  "additions": 48,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-26T02:10:57Z",
+  "createdAt": "2026-01-25T08:56:34Z",
+  "deletions": 43,
+  "files": [
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 9,
+      "deletions": 8
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 11,
+      "deletions": 15
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_initialize.c",
+      "additions": 15,
+      "deletions": 8
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_start.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "hrtimer_comments",
+  "headRefOid": "0d6d13f289dcd3c8d6afe374ac60fe0afbbb00f2",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6_Nu1J",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3538d805fc515d0954a82211e47e24db796dd36a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T02:10:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18141,
+  "state": "MERGED",
+  "title": "sched/hrtimer: refresh code comments to match implementation",
+  "updatedAt": "2026-01-26T02:10:57Z",
+  "url": "https://github.com/apache/nuttx/pull/18141"
+}

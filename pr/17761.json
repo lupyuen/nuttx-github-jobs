@@ -1,0 +1,109 @@
+{
+  "additions": 117,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-04T13:06:10Z",
+  "createdAt": "2026-01-04T07:19:10Z",
+  "deletions": 31,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 20,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 7,
+      "deletions": 21
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio_lite.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rptun/rptun.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "openamp/0001-libmetal-cmake-set-HAVE_STDATOMIC_H-default-true-in-.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "openamp/0002-libmetal-atomic-enable-64-bit-atomic-by-toolchain-bu.patch",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "openamp/0003-mutex-change-the-libmetal-nuttx-mutex-to-recursive-m.patch",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/libmetal.cmake",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/libmetal.defs",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "libmetal-mutex",
+  "headRefOid": "f5739e13a228bbd21cb44fac9c52d00a0fa221d9",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac67aMfv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d019a638aba57796485a4095b08bf320a199cd63"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-04T13:06:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17761,
+  "state": "MERGED",
+  "title": "Rpmsg: rpmsg services should be properly destroyed after calling rpmsg_device_destroy()",
+  "updatedAt": "2026-01-04T13:06:10Z",
+  "url": "https://github.com/apache/nuttx/pull/17761"
+}

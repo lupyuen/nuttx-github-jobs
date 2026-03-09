@@ -1,0 +1,69 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-28T16:07:21Z",
+  "createdAt": "2026-01-28T09:11:29Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "sched/sched/sched_getscheduler.c",
+      "additions": 10,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "apache_sched_getscheduler_coverity_HIS_metric_violation",
+  "headRefOid": "79e2d99a5dfdf02efba988c0424550e31a3b8bca",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_zLod",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "effdb88710d46d3d4f0b812efabcf8678b147c35"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T16:07:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18227,
+  "state": "MERGED",
+  "title": "sched_getscheduler: Consolidate return statements for MISRA HIS compliance",
+  "updatedAt": "2026-01-28T16:07:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18227"
+}

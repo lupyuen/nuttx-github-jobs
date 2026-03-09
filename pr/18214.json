@@ -1,0 +1,112 @@
+{
+  "additions": 112,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-02-02T15:20:40Z",
+  "createdAt": "2026-01-28T06:02:40Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/qemu/boards/qemu-armv7r/index.rst",
+      "additions": 92,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_perf.c",
+      "additions": 8,
+      "deletions": 5
+    },
+    {
+      "path": "sched/clock/clock_perf.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "arch_armv7-r_userspace_PMU_access",
+  "headRefOid": "cdc95c046adb42121216b1adb1e680b9ed418b52",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_xGOR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "63aefd9975b926ebf28e7b383eb332423a883463"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T15:20:40Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18214,
+  "state": "MERGED",
+  "title": "arch/armv7-r: Enable userspace PMU access with performance event support",
+  "updatedAt": "2026-02-02T15:20:40Z",
+  "url": "https://github.com/apache/nuttx/pull/18214"
+}

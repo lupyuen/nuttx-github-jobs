@@ -1,0 +1,68 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4MjYwNjU2",
+    "is_bot": false,
+    "login": "ENJOU1224",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-05T18:08:03Z",
+  "createdAt": "2026-01-04T13:30:28Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/riscv_internal.h",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix/riscv-vector-types",
+  "headRefOid": "2e56f160d0203c19a7478ede8e35fd54e397ef02",
+  "headRepository": {
+    "id": "R_kgDOQzdTIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4MjYwNjU2",
+    "login": "ENJOU1224"
+  },
+  "id": "PR_kwDODZiUac67bFD1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e072356182ba759622852abf134caaa1d30a7aec"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-05T18:08:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17762,
+  "state": "MERGED",
+  "title": "arch/risc-v: Fix incompatible pointer types in vector context switching",
+  "updatedAt": "2026-01-05T18:08:04Z",
+  "url": "https://github.com/apache/nuttx/pull/17762"
+}

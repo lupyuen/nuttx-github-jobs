@@ -1,0 +1,74 @@
+{
+  "additions": 37,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDxz3Q",
+    "is_bot": false,
+    "login": "jingfei195887",
+    "name": "Jing Fei"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-14T01:25:09Z",
+  "createdAt": "2026-01-12T14:20:04Z",
+  "deletions": 51,
+  "files": [
+    {
+      "path": "fs/driver/fs_blockproxy.c",
+      "additions": 16,
+      "deletions": 29
+    },
+    {
+      "path": "fs/driver/fs_mtdproxy.c",
+      "additions": 21,
+      "deletions": 22
+    }
+  ],
+  "headRefName": "optimize_proxy",
+  "headRefOid": "5be427f5bd4861e88945796731b4195f47ee3b52",
+  "headRepository": {
+    "id": "R_kgDOPCxhcQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDxz3Q",
+    "name": "Jing Fei",
+    "login": "jingfei195887"
+  },
+  "id": "PR_kwDODZiUac68th_f",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c3010eafabf3aa7c37cd4ff7da2b99d5cfbf6904"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-14T01:25:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17839,
+  "state": "MERGED",
+  "title": "fs/driver: Replace heap allocation of temporary device names",
+  "updatedAt": "2026-01-14T01:25:09Z",
+  "url": "https://github.com/apache/nuttx/pull/17839"
+}

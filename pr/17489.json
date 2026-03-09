@@ -1,0 +1,120 @@
+{
+  "additions": 178,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-12-22T03:36:11Z",
+  "createdAt": "2025-12-12T12:27:22Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/tricore/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_processhrtimer.c",
+      "additions": 149,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 6,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "add_hrtimer_nuttx",
+  "headRefOid": "3663e78f82e26d6f42ee0c44f9b65f164449c6f0",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac64jvyp",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17489,
+  "state": "CLOSED",
+  "title": "sched/sched: Part 2: Add high-resolution timer (hrtimer) and os tick support with hrtimer to NuttX",
+  "updatedAt": "2026-01-11T07:40:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17489"
+}

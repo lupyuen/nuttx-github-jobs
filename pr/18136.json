@@ -1,0 +1,99 @@
+{
+  "additions": 39,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-26T12:56:12Z",
+  "createdAt": "2026-01-24T10:55:23Z",
+  "deletions": 52,
+  "files": [
+    {
+      "path": "include/nuttx/tls.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex.c",
+      "additions": 37,
+      "deletions": 31
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_inconsistent.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_releasetcb.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/tls/tls_dupinfo.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/tls/tls_initinfo.c",
+      "additions": 0,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "apache_pthread_remove_tl_lock",
+  "headRefOid": "45e622cbd295b9cf7d99d28afab4c06dd200f44d",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_HYwB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6e8ae12ef1c52e42932b5223ad41399f062bc0c6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T12:56:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18136,
+  "state": "MERGED",
+  "title": "libs/libc/pthread: Optimize mutex robustness configuration and remove unnecessary tl_lock",
+  "updatedAt": "2026-01-26T12:56:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18136"
+}

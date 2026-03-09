@@ -1,0 +1,79 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCezRTQ",
+    "is_bot": false,
+    "login": "aditya0yadav",
+    "name": "Aditya Yadav"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-03-05T13:52:59Z",
+  "createdAt": "2026-02-03T07:15:08Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/cmake/Toolchain.cmake",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostmisc.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "46ba8792356b12007c671d1a6a5fa7ab50abd90c",
+  "headRepository": {
+    "id": "R_kgDORFyEAQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCezRTQ",
+    "name": "Aditya Yadav",
+    "login": "aditya0yadav"
+  },
+  "id": "PR_kwDODZiUac7BG1Si",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "574fc64ab9d139ac7eea6d36691131cec44dcf19"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-05T13:52:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18331,
+  "state": "MERGED",
+  "title": "sim: Fix linker support and macOS host build issues",
+  "updatedAt": "2026-03-07T20:37:14Z",
+  "url": "https://github.com/apache/nuttx/pull/18331"
+}

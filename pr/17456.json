@@ -1,0 +1,69 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc2Njc0MjUw",
+    "is_bot": false,
+    "login": "OctopusHu0105",
+    "name": "zhang hu"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-09T11:23:46Z",
+  "createdAt": "2025-12-09T02:56:09Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/i3c/master.c",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bufix-revert_i3c",
+  "headRefOid": "fe1faa3f639e868319152a5afca895686ec621fb",
+  "headRepository": {
+    "id": "R_kgDOGgTAqA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc2Njc0MjUw",
+    "name": "zhang hu",
+    "login": "OctopusHu0105"
+  },
+  "id": "PR_kwDODZiUac630LTi",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1e63cf1c306d7f2e79446c23117ae5d3a62e5adc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-09T11:23:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17456,
+  "state": "MERGED",
+  "title": "drivers/i3c: Revert \"drivers/i3c: remove extra i3c_dev_register, do_daa has created them\"",
+  "updatedAt": "2025-12-10T02:10:25Z",
+  "url": "https://github.com/apache/nuttx/pull/17456"
+}

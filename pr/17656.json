@@ -1,0 +1,108 @@
+{
+  "additions": 78,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCeG-zg",
+    "is_bot": false,
+    "login": "HedongGao",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-12-25T04:23:38Z",
+  "createdAt": "2025-12-24T05:31:05Z",
+  "deletions": 51,
+  "files": [
+    {
+      "path": "include/net/if.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/arp/arp_acd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/arp/arp_input.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "net/arp/arp_out.c",
+      "additions": 9,
+      "deletions": 14
+    },
+    {
+      "path": "net/arp/arp_send.c",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "net/icmpv6/icmpv6_neighbor.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "net/neighbor/neighbor_ethernet_out.c",
+      "additions": 7,
+      "deletions": 12
+    },
+    {
+      "path": "net/netdev/netdev_ioctl.c",
+      "additions": 35,
+      "deletions": 11
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_unbuffered.c",
+      "additions": 0,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "919caea",
+  "headRefOid": "9012484cbc4b11e600842684a09ed42976c8d721",
+  "headRepository": {
+    "id": "R_kgDOLouYIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCeG-zg",
+    "login": "HedongGao"
+  },
+  "id": "PR_kwDODZiUac66bR4H",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "23013b33ce143d711d82b1f62b230d43fd79db56"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T04:23:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17656,
+  "state": "MERGED",
+  "title": "net/ethernet: ARP can be configured on interface",
+  "updatedAt": "2026-01-06T14:34:11Z",
+  "url": "https://github.com/apache/nuttx/pull/17656"
+}

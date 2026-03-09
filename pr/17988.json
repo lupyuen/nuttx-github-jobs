@@ -1,0 +1,69 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyMDQyMDc=",
+    "is_bot": false,
+    "login": "shizacat",
+    "name": "Alexey Matveev"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-18T03:40:32Z",
+  "createdAt": "2026-01-17T19:48:35Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/stm32_capture.c",
+      "additions": 8,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix-stm32-timer-capture-config",
+  "headRefOid": "6baabcb70c6051dd64a5bc7712bde950856ade28",
+  "headRepository": {
+    "id": "R_kgDOMuqKcQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyMDQyMDc=",
+    "name": "Alexey Matveev",
+    "login": "shizacat"
+  },
+  "id": "PR_kwDODZiUac69zxhC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1b993875b5e40c54c3e0615480533a65fbdbad1e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-18T03:40:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17988,
+  "state": "MERGED",
+  "title": "arch/stm32: Fix stm32-capture if timer don't support GTIM_CCER_CC1NP",
+  "updatedAt": "2026-01-18T03:40:33Z",
+  "url": "https://github.com/apache/nuttx/pull/17988"
+}

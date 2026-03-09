@@ -1,0 +1,74 @@
+{
+  "additions": 130,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-16T08:15:35Z",
+  "createdAt": "2026-01-15T09:03:47Z",
+  "deletions": 124,
+  "files": [
+    {
+      "path": "include/limits.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/unistd/lib_sysconf.c",
+      "additions": 124,
+      "deletions": 124
+    }
+  ],
+  "headRefName": "pse52_add_posix_pthread_constants",
+  "headRefOid": "afb857f29ac489f4d0c6a30beb096b1b2fa762bf",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac69VfIe",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b945c7b5056a385c0315bdcac2883d03a262d8a8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T08:15:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17933,
+  "state": "MERGED",
+  "title": "limits: add _POSIX_PTHREAD_ constant for pthread management",
+  "updatedAt": "2026-01-16T08:15:36Z",
+  "url": "https://github.com/apache/nuttx/pull/17933"
+}

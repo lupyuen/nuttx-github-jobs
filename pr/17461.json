@@ -1,0 +1,90 @@
+{
+  "additions": 39,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC1JDKw",
+    "is_bot": false,
+    "login": "yangsong8-a1",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-14T13:37:53Z",
+  "createdAt": "2025-12-09T09:55:39Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_cdcacm.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "usbhost_acm",
+  "headRefOid": "909e733b45ee6cabac7c3355f3934ec9112b5e23",
+  "headRepository": {
+    "id": "R_kgDONV3wlw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC1JDKw",
+    "login": "yangsong8-a1"
+  },
+  "id": "PR_kwDODZiUac634E0H",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a87ad9834323b8acb58a0560244e4574adb0c208"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-14T13:37:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17461,
+  "state": "MERGED",
+  "title": "usbhost: cdcacm exit wq after copy all received data",
+  "updatedAt": "2025-12-14T13:37:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17461"
+}

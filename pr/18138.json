@@ -1,0 +1,73 @@
+{
+  "additions": 14,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY5MDA1MTI4",
+    "is_bot": false,
+    "login": "PruteanuVlad",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-28T16:14:06Z",
+  "createdAt": "2026-01-24T16:20:13Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "crypto/cryptosoft.c",
+      "additions": 9,
+      "deletions": 2
+    },
+    {
+      "path": "crypto/xform.c",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix_hmac_long_key",
+  "headRefOid": "f97ee7a0bd3a17c3829831a958f9512be1160dd9",
+  "headRepository": {
+    "id": "R_kgDOOFLOjw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY5MDA1MTI4",
+    "login": "PruteanuVlad"
+  },
+  "id": "PR_kwDODZiUac6_JVut",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "17393df52a797a3163fb48e0a5cf457e73848467"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T16:14:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18138,
+  "state": "MERGED",
+  "title": "crypto/cryptosoft: Fix HMAC-SHA when a long key is used",
+  "updatedAt": "2026-01-28T16:14:22Z",
+  "url": "https://github.com/apache/nuttx/pull/18138"
+}

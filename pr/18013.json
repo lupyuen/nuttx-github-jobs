@@ -1,0 +1,80 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-19T13:46:34Z",
+  "createdAt": "2026-01-19T11:02:39Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/x86_64/src/common/x86_64_acpi_procfs.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/jumbo/defconfig",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "x86_procfs",
+  "headRefOid": "b2ee06bfaac62a9c6c45d1792381357bd55efa8d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac69-si-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8a5f646029fa089098439e5658912ff6679ff6cd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T13:46:34Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18013,
+  "state": "MERGED",
+  "title": "boards/qemu-intel64/jumbo: enable procfs ACPI",
+  "updatedAt": "2026-01-19T13:46:34Z",
+  "url": "https://github.com/apache/nuttx/pull/18013"
+}

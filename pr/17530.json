@@ -1,0 +1,89 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB7K0Yg",
+    "is_bot": false,
+    "login": "fangpeina",
+    "name": "fangpeina"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-08T03:17:17Z",
+  "createdAt": "2025-12-17T08:46:46Z",
+  "deletions": 49,
+  "files": [
+    {
+      "path": "drivers/input/ff_upper.c",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "drivers/leds/userled_upper.c",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "drivers/math/math.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/motor/foc/foc_dummy.c",
+      "additions": 9,
+      "deletions": 8
+    },
+    {
+      "path": "include/nuttx/math/math.h",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "smalllock",
+  "headRefOid": "7a677d140b141ff9ca0655f403f1edfd32dacd50",
+  "headRepository": {
+    "id": "R_kgDOJPcQ6w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB7K0Yg",
+    "name": "fangpeina",
+    "login": "fangpeina"
+  },
+  "id": "PR_kwDODZiUac65Udab",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e4d4f7e2c349f79da61a8a8ccae60344c466c10c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-08T03:17:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 17530,
+  "state": "MERGED",
+  "title": "drivers: replace critical_section with spinlock",
+  "updatedAt": "2026-01-08T03:17:17Z",
+  "url": "https://github.com/apache/nuttx/pull/17530"
+}

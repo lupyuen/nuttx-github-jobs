@@ -1,0 +1,84 @@
+{
+  "additions": 21,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODtEzxg",
+    "is_bot": false,
+    "login": "Zfeather914",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-23T12:26:35Z",
+  "createdAt": "2025-12-22T09:56:19Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/mtd.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/mtd_nand.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "your-topic",
+  "headRefOid": "c308bbe41ea053882b3cd896e051808bde84fa41",
+  "headRepository": {
+    "id": "R_kgDOQlLwvg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODtEzxg",
+    "login": "Zfeather914"
+  },
+  "id": "PR_kwDODZiUac66G0AX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "491ce83508d8640d549e20ae6323618b6145f643"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T12:26:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17604,
+  "state": "MERGED",
+  "title": "drivers/mtd: add MTDIOC_ISBAD ioctl",
+  "updatedAt": "2025-12-23T12:26:35Z",
+  "url": "https://github.com/apache/nuttx/pull/17604"
+}

@@ -1,0 +1,86 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB7F0xg",
+    "is_bot": false,
+    "login": "wangchen61698",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-12-29T03:39:53Z",
+  "createdAt": "2025-12-22T08:45:24Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "net/tcp/tcp.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_callback.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_connect.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_recvfrom.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_send_buffered.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_send_unbuffered.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "57442",
+  "headRefOid": "7c1f7e515e8e758b09a5eecac047429b126c01c6",
+  "headRepository": {
+    "id": "R_kgDOQs6X0w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB7F0xg",
+    "login": "wangchen61698"
+  },
+  "id": "PR_kwDODZiUac66F5Pj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17592,
+  "state": "CLOSED",
+  "title": "net/tcp: add net_lock in cleanup and update callback pointer type",
+  "updatedAt": "2025-12-29T03:39:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17592"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 30,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3NzA0NzEz",
+    "is_bot": false,
+    "login": "pkarashchenko",
+    "name": "Petro Karashchenko"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-14T20:57:27Z",
+  "createdAt": "2025-12-14T16:36:39Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "libs/libc/stdlib/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdlib/Make.defs",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/stream/lib_libvscanf.c",
+      "additions": 18,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "fix_strtod_no_libm_build",
+  "headRefOid": "5b3b0e6776bf056ffd6642614ae416b47e0cdbc7",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDU4MzgzMTE=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3NzA0NzEz",
+    "name": "Petro Karashchenko",
+    "login": "pkarashchenko"
+  },
+  "id": "PR_kwDODZiUac64x6ix",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "11dc1df189184ac4a25090ab09b2dff508f95f6c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-14T20:57:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17502,
+  "state": "MERGED",
+  "title": "libc: improve libc dependencies in case of LIBM_NONE",
+  "updatedAt": "2025-12-14T20:57:27Z",
+  "url": "https://github.com/apache/nuttx/pull/17502"
+}

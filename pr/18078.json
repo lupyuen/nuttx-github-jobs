@@ -1,0 +1,125 @@
+{
+  "additions": 304,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsgVg",
+    "is_bot": false,
+    "login": "wangzhi16",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-27T13:59:14Z",
+  "createdAt": "2026-01-21T11:08:43Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/implementation/critical_sections.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "fs/procfs/fs_procfscritmon.c",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "fs/procfs/fs_procfsproc.c",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/irq.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/spinlock.h",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "sched/irq/irq_csection.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_critmonitor.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_process_delivered.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "busyloop",
+  "headRefOid": "a783921ff93c89a0f80cfd11d495b971d4edd5df",
+  "headRepository": {
+    "id": "R_kgDOMmQ4Gw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsgVg",
+    "login": "wangzhi16"
+  },
+  "id": "PR_kwDODZiUac6-bJCu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3b11545356a241b963541e562a46af97441f34d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T13:59:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18078,
+  "state": "MERGED",
+  "title": "sched: add configuration to record the busy waiting time",
+  "updatedAt": "2026-01-27T13:59:14Z",
+  "url": "https://github.com/apache/nuttx/pull/18078"
+}

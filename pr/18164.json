@@ -1,0 +1,69 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjUwMzE0ODkw",
+    "is_bot": false,
+    "login": "jklincn",
+    "name": "jklincn"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-26T19:11:26Z",
+  "createdAt": "2026-01-26T13:46:07Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "drivers/sensors/dhtxx.c",
+      "additions": 8,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "pr/dht11",
+  "headRefOid": "d90e96effd18f718341870f0f62d9f05446cbcf1",
+  "headRepository": {
+    "id": "R_kgDOQxmEtA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjUwMzE0ODkw",
+    "name": "jklincn",
+    "login": "jklincn"
+  },
+  "id": "PR_kwDODZiUac6_Xsor",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6538477fa55a96b70d7aadb7c6e7b3c4e61eb9e1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T19:11:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18164,
+  "state": "MERGED",
+  "title": "drivers/sensors/dhtxx: Fix read return values to be POSIX compliant",
+  "updatedAt": "2026-01-26T19:11:26Z",
+  "url": "https://github.com/apache/nuttx/pull/18164"
+}

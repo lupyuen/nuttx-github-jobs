@@ -1,0 +1,78 @@
+{
+  "additions": 116,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsAKA",
+    "is_bot": false,
+    "login": "OceanfromXiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-30T18:37:58Z",
+  "createdAt": "2026-01-29T08:59:36Z",
+  "deletions": 35,
+  "files": [
+    {
+      "path": "include/net/if.h",
+      "additions": 40,
+      "deletions": 32
+    },
+    {
+      "path": "net/ipforward/ipv4_forward.c",
+      "additions": 36,
+      "deletions": 2
+    },
+    {
+      "path": "net/ipforward/ipv6_forward.c",
+      "additions": 40,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "netforward_add_two_d_flag",
+  "headRefOid": "60b5a67bec1435cb0411ceec12d6a38ab7f40aa8",
+  "headRepository": {
+    "id": "R_kgDOMmOEBQ",
+    "name": "nuttx-kernel"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsAKA",
+    "login": "OceanfromXiaomi"
+  },
+  "id": "PR_kwDODZiUac7AEsQR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f653ffd7237db9190053036066dd70f0cee8fc84"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-30T18:37:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18260,
+  "state": "MERGED",
+  "title": "ipforward: Add IFF_NOSRC_FORWARD and IFF_NODST_FORWARD flags.",
+  "updatedAt": "2026-02-01T05:30:22Z",
+  "url": "https://github.com/apache/nuttx/pull/18260"
+}

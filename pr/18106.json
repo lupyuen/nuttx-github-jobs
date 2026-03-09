@@ -1,0 +1,86 @@
+{
+  "additions": 109,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMzODcwMDI4",
+    "is_bot": false,
+    "login": "Gary-Hobson",
+    "name": "garyhobson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-23T08:33:01Z",
+  "createdAt": "2026-01-22T11:36:49Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "Documentation/applications/system/dumpstack/index.rst",
+      "additions": 94,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_backtrace.c",
+      "additions": 15,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix-arm64-backtrace",
+  "headRefOid": "ff513ee678fa4e747d6547c670320b3703b13ffd",
+  "headRepository": {
+    "id": "R_kgDOGRyqTg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMzODcwMDI4",
+    "name": "garyhobson",
+    "login": "Gary-Hobson"
+  },
+  "id": "PR_kwDODZiUac6-rR4g",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cd1000575e84a0299635b19036c1fa4ccaec22fe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-23T08:33:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18106,
+  "state": "MERGED",
+  "title": "arch/arm64: fix backtrace return address precision",
+  "updatedAt": "2026-01-23T08:33:01Z",
+  "url": "https://github.com/apache/nuttx/pull/18106"
+}

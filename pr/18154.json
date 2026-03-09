@@ -1,0 +1,84 @@
+{
+  "additions": 89,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-26T22:22:14Z",
+  "createdAt": "2026-01-26T07:34:32Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 12,
+      "deletions": 14
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/legacy_sections.ld",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/legacy_sections.ld",
+      "additions": 46,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/fix-xtensa-legacy-boot-abnormal",
+  "headRefOid": "113157d44d950241a051aba3c3eb3d30c287ba8d",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac6_Tsh8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fa2d2b88983ee6ac4f2f487178ac0be95a5e53c8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T22:22:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "milestone": null,
+  "number": 18154,
+  "state": "MERGED",
+  "title": "boards/xtensa: fixes for build and start-up issues when legacy boot enabled ",
+  "updatedAt": "2026-01-26T22:22:14Z",
+  "url": "https://github.com/apache/nuttx/pull/18154"
+}

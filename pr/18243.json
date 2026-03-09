@@ -1,0 +1,346 @@
+{
+  "additions": 494,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 48,
+  "closed": true,
+  "closedAt": "2026-02-02T03:06:53Z",
+  "createdAt": "2026-01-28T12:39:14Z",
+  "deletions": 93,
+  "files": [
+    {
+      "path": "arch/ceva/include/arch.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_heap.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/kernel/at32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/kernel/imxrt_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1050-evk/kernel/imxrt_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1060-evk/kernel/imxrt_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1064-evk/kernel/imxrt_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1170-evk/kernel/imxrt_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/teensy-4.x/kernel/imxrt_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/kernel/lc823450_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-devkit/kernel/lpc17_40_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-quickstart/kernel/lpc17_40_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/open1788/kernel/lpc17_40_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/pnev5180b/kernel/lpc17_40_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc43xx/bambino-200e/kernel/lpc43_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/mps/mps2-an500/kernel/mps_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/kernel/mps_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7r/kernel/qemu_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/kernel/s32k3xx_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/kernel/sam_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/samv7/same70-qmtech/kernel/sam_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/samv7/same70-xplained/kernel/sam_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/kernel/sam_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/omnibusf4/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/stm3240g-eval/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f769i-disco/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h747i-disco/kernel/stm32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/kernel/stm32l4_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/kernel/stm32l4_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/tiva/lm3s6965-ek/kernel/lm_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/kernel/fvp_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/c906/smartl-c906/kernel/c906_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/kernel/esp32c3_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/kernel/k210_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/k230/canmv230/kernel/k230_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/mpfs/common/kernel/mpfs_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/kernel/rv_virt_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/common/kernel/esp32_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/kernel/esp32s3_userspace.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/mm/mm.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/userspace.h",
+      "additions": 7,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "apache_protect_move_us_heap_to_userspace_data_s",
+  "headRefOid": "63151d9e17bc2971d38ebaba7f6f5eefe04d9d80",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_2Ls9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5db4278173c7b6293a6833301c50af4a824a24ea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T03:06:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18243,
+  "state": "MERGED",
+  "title": "protect: move us_heap to userspace_data_s",
+  "updatedAt": "2026-02-02T03:06:53Z",
+  "url": "https://github.com/apache/nuttx/pull/18243"
+}

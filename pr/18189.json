@@ -1,0 +1,116 @@
+{
+  "additions": 21,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsgVg",
+    "is_bot": false,
+    "login": "wangzhi16",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-27T09:59:08Z",
+  "createdAt": "2026-01-27T06:34:34Z",
+  "deletions": 27,
+  "files": [
+    {
+      "path": "drivers/timers/pwm.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/timers/timer.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "graphics/nxterm/nxterm.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "graphics/nxterm/nxterm_kbdin.c",
+      "additions": 6,
+      "deletions": 10
+    },
+    {
+      "path": "graphics/nxterm/nxterm_register.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "mm/kasan/hook.c",
+      "additions": 0,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "spinlock5",
+  "headRefOid": "7c6bc02cab34cfd297613563943f6b243be47bd8",
+  "headRepository": {
+    "id": "R_kgDOMmQ4Gw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsgVg",
+    "login": "wangzhi16"
+  },
+  "id": "PR_kwDODZiUac6_hkDz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6fc2d010a606c78c50f73eb9864bac7e922117f3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T09:59:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 18189,
+  "state": "MERGED",
+  "title": "sched: replace critical section with spinlock",
+  "updatedAt": "2026-01-27T09:59:08Z",
+  "url": "https://github.com/apache/nuttx/pull/18189"
+}

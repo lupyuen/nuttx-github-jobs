@@ -1,0 +1,78 @@
+{
+  "additions": 37,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB7F0xg",
+    "is_bot": false,
+    "login": "wangchen61698",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-25T01:56:09Z",
+  "createdAt": "2025-12-22T08:17:04Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/tcp/tcp.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "net/tcp/tcp_connect.c",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "2715",
+  "headRefOid": "710565438dbd19c50ac515e98551585a432eb7ee",
+  "headRepository": {
+    "id": "R_kgDOQs6X0w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB7F0xg",
+    "login": "wangchen61698"
+  },
+  "id": "PR_kwDODZiUac66FoXo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f10fc888fe15a904e47a1b2a6c684c51158250a1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T01:56:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17590,
+  "state": "MERGED",
+  "title": "net/tcp: resolve reconnection issues when connection failed due to rejection",
+  "updatedAt": "2025-12-25T01:56:09Z",
+  "url": "https://github.com/apache/nuttx/pull/17590"
+}

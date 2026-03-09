@@ -1,0 +1,73 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-22T09:15:16Z",
+  "createdAt": "2026-01-21T06:28:35Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "fs/fat/fs_fat32.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/romfs/fs_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix-fs-lseek",
+  "headRefOid": "9e10da8483f0eaf38d8dae19de2108bb5a08be0f",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac6-X_-4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "53e8c008f5e87e3f9db8da14174931706d5114be"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T09:15:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18062,
+  "state": "MERGED",
+  "title": "fs: Fix the incorrect return value of the lseek interface.",
+  "updatedAt": "2026-01-22T09:15:17Z",
+  "url": "https://github.com/apache/nuttx/pull/18062"
+}

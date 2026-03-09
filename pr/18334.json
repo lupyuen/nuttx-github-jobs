@@ -1,0 +1,159 @@
+{
+  "additions": 166,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": true,
+  "closedAt": "2026-02-03T19:02:04Z",
+  "createdAt": "2026-02-03T08:49:20Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "libs/libc/string/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/Make.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemccpy.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemchr.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemcmp.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemcpy.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemrchr.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemset.c",
+      "additions": 113,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstpcpy.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstpncpy.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcat.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrchr.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrchrnul.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcmp.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcpy.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrlen.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrncmp.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrncpy.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrrchr.c",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "20260203_libc_bsd_memset",
+  "headRefOid": "7feefb9fe5c276bf85e9585034b8c16e377a5997",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac7BIKGG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "871a9b326172a1d8ec129f014993b823b6855aad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-03T19:02:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18334,
+  "state": "MERGED",
+  "title": "libc/string: Add BSD-optimized memset implementation.",
+  "updatedAt": "2026-02-03T19:02:04Z",
+  "url": "https://github.com/apache/nuttx/pull/18334"
+}

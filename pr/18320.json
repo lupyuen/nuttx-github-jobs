@@ -1,0 +1,77 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-02-03T19:34:26Z",
+  "createdAt": "2026-02-03T03:27:23Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "libs/libc/machine/arm64/arch_memchr.S",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strchr.S",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strchrnul.S",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strrchr.S",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "arm64-clang",
+  "headRefOid": "90c4ed92981be0d2090d2b8117246902293d1df4",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7BEO8k",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18320,
+  "state": "CLOSED",
+  "title": "libc/machine/arm64: Use .d rather than .2d for element mov instructions",
+  "updatedAt": "2026-02-03T19:34:26Z",
+  "url": "https://github.com/apache/nuttx/pull/18320"
+}

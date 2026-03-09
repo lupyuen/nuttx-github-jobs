@@ -1,0 +1,328 @@
+{
+  "additions": 400,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 53,
+  "closed": true,
+  "closedAt": "2026-01-02T10:48:07Z",
+  "createdAt": "2026-01-02T04:13:06Z",
+  "deletions": 297,
+  "files": [
+    {
+      "path": "net/arp/arp_notify.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/arp/arp_send.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/bluetooth/bluetooth.h",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "net/bluetooth/bluetooth_callback.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "net/bluetooth/bluetooth_conn.c",
+      "additions": 12,
+      "deletions": 4
+    },
+    {
+      "path": "net/bluetooth/bluetooth_container.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/bluetooth/bluetooth_recvmsg.c",
+      "additions": 11,
+      "deletions": 7
+    },
+    {
+      "path": "net/bluetooth/bluetooth_sendmsg.c",
+      "additions": 10,
+      "deletions": 8
+    },
+    {
+      "path": "net/can/can_recvmsg.c",
+      "additions": 11,
+      "deletions": 10
+    },
+    {
+      "path": "net/can/can_sendmsg.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "net/can/can_sendmsg_buffered.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/devif/devif_callback.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "net/devif/devif_poll.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "net/icmp/icmp_recvmsg.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/icmp/icmp_sendmsg.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/icmpv6/icmpv6.h",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "net/icmpv6/icmpv6_autoconfig.c",
+      "additions": 3,
+      "deletions": 7
+    },
+    {
+      "path": "net/icmpv6/icmpv6_neighbor.c",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "net/icmpv6/icmpv6_notify.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmpv6/icmpv6_recvmsg.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "net/icmpv6/icmpv6_rnotify.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmpv6/icmpv6_sendmsg.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/ieee802154/ieee802154.h",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "net/ieee802154/ieee802154_callback.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "net/ieee802154/ieee802154_conn.c",
+      "additions": 12,
+      "deletions": 4
+    },
+    {
+      "path": "net/ieee802154/ieee802154_container.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/ieee802154/ieee802154_recvmsg.c",
+      "additions": 11,
+      "deletions": 7
+    },
+    {
+      "path": "net/ieee802154/ieee802154_sendmsg.c",
+      "additions": 9,
+      "deletions": 7
+    },
+    {
+      "path": "net/igmp/igmp_msg.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/ipfrag/ipfrag.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/mld/mld_msg.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/netlink/netlink_conn.c",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "net/pkt/pkt_recvmsg.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_buffered.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_unbuffered.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "net/pkt/pkt_sockif.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "net/sixlowpan/sixlowpan_internal.h",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "net/sixlowpan/sixlowpan_send.c",
+      "additions": 18,
+      "deletions": 12
+    },
+    {
+      "path": "net/sixlowpan/sixlowpan_tcpsend.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "net/sixlowpan/sixlowpan_udpsend.c",
+      "additions": 2,
+      "deletions": 6
+    },
+    {
+      "path": "net/tcp/tcp_accept.c",
+      "additions": 6,
+      "deletions": 7
+    },
+    {
+      "path": "net/tcp/tcp_connect.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "net/tcp/tcp_recvfrom.c",
+      "additions": 5,
+      "deletions": 10
+    },
+    {
+      "path": "net/tcp/tcp_send_buffered.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_send_unbuffered.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "net/tcp/tcp_sendfile.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_txdrain.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "net/udp/udp_recvfrom.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "net/udp/udp_sendto_buffered.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "net/udp/udp_sendto_unbuffered.c",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "net/udp/udp_txdrain.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "net/utils/net_lock.c",
+      "additions": 0,
+      "deletions": 40
+    },
+    {
+      "path": "net/utils/utils.h",
+      "additions": 64,
+      "deletions": 17
+    }
+  ],
+  "headRefName": "upstream-9",
+  "headRefOid": "33123685f9d025613a8253033bb1fb49ff602757",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac67Pqwr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8f416133746df3b2ba70330370b7893af3aea356"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-02T10:48:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17755,
+  "state": "MERGED",
+  "title": "utils.h: add conn_dev_sem_timedwait interface to simplify code logic",
+  "updatedAt": "2026-01-20T14:33:30Z",
+  "url": "https://github.com/apache/nuttx/pull/17755"
+}

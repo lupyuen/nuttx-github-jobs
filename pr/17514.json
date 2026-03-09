@@ -1,0 +1,61 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB4lDNQ",
+    "is_bot": false,
+    "login": "guohao15",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-22T07:39:22Z",
+  "createdAt": "2025-12-15T13:09:26Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "libs/libc/stdlib/lib_mktemp.c",
+      "additions": 8,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "bugfix3",
+  "headRefOid": "86d95858a31d4e164fbc2dac7471a7e230e306fc",
+  "headRepository": {
+    "id": "R_kgDOKIdKpQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB4lDNQ",
+    "login": "guohao15"
+  },
+  "id": "PR_kwDODZiUac6468R2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17514,
+  "state": "CLOSED",
+  "title": "libc/lib_mktemp:When the stat() returns ret < 0 and the error is not ENOENT",
+  "updatedAt": "2025-12-22T15:59:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17514"
+}

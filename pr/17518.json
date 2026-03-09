@@ -1,0 +1,80 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-16T22:38:46Z",
+  "createdAt": "2025-12-16T03:17:48Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "include/nuttx/timers/clkcnt.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/timers/oneshot.h",
+      "additions": 9,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fixoneshotround",
+  "headRefOid": "c1d6c86d6d980022672438e18fe5617625acaa0e",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac65Diw3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f14461db2e210ff280585409ddd99030a5b053de"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-16T22:38:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17518,
+  "state": "MERGED",
+  "title": "timers/oneshot: Fix converted tv_nsec > NSEC_PER_SEC.",
+  "updatedAt": "2025-12-16T22:38:46Z",
+  "url": "https://github.com/apache/nuttx/pull/17518"
+}

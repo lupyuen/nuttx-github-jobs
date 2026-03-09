@@ -1,0 +1,74 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "is_bot": false,
+    "login": "13627105546",
+    "name": "daichuan0525"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-20T14:37:11Z",
+  "createdAt": "2026-01-14T03:30:57Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "net/usrsock/usrsock_accept.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "net/usrsock/usrsock_poll.c",
+      "additions": 14,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "topic/usrsock-poll-fix",
+  "headRefOid": "5a8fc38a27db3c8f4557317a9815d8dffa8402ba",
+  "headRepository": {
+    "id": "R_kgDOMlMqqw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "name": "daichuan0525",
+    "login": "13627105546"
+  },
+  "id": "PR_kwDODZiUac69D6HV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a82ee60da8ab35a6426f348cf014ac09b422d0ad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-20T14:37:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17877,
+  "state": "MERGED",
+  "title": "net/usrsock: Fix EPIPE loop by clearing POLLIN on remote close",
+  "updatedAt": "2026-01-20T14:37:11Z",
+  "url": "https://github.com/apache/nuttx/pull/17877"
+}

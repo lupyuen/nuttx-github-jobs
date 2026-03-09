@@ -1,0 +1,280 @@
+{
+  "additions": 493,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 36,
+  "closed": true,
+  "closedAt": "2026-02-03T18:32:02Z",
+  "createdAt": "2026-01-30T16:10:27Z",
+  "deletions": 58,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/vhost/framework.rst",
+      "additions": 342,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/vhost/index.rst",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/rpmsg/defconfig",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/full/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/fastboot/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_hv/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_smp_hv/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpproxy/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpserver/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/xedge_demo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/fb64/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/kfb64/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/knetnsh64/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/knetnsh64_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/lvgl64_vector/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/netnsh64/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/netnsh64_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/netnsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/python/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/virt_nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rpproxy/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rpserver/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/vhost/Kconfig",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/vhost/vhost.c",
+      "additions": 47,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/virtio/Kconfig",
+      "additions": 13,
+      "deletions": 5
+    },
+    {
+      "path": "include/nuttx/vhost/vhost.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/virtio/virtio.h",
+      "additions": 19,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "vhost",
+  "headRefOid": "7e15b8d59213493b1c351b297a616817a90e1cfd",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac7Abcpf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c4e5ac00e3afc172b4559ce90485a8dbc40f7907"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-03T18:32:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18289,
+  "state": "MERGED",
+  "title": "drivers/vhost: Improvements and fixes for vhost framework",
+  "updatedAt": "2026-02-03T18:32:02Z",
+  "url": "https://github.com/apache/nuttx/pull/18289"
+}

@@ -1,0 +1,69 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-20T14:49:39Z",
+  "createdAt": "2026-01-20T13:22:50Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/x86_64/src/intel64/intel64_handlers.c",
+      "additions": 0,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "apache_x64_64_it_is_not_necessary_to_call",
+  "headRefOid": "92825450b9aad573f206e50604ef97e689dfa003",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6-Nvki",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7ee3890e7a09eb2e448af09606923b5ee904d65f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-20T14:49:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18051,
+  "state": "MERGED",
+  "title": "x86_64: remove unnecessary restore_critical_section call in interrupt handler",
+  "updatedAt": "2026-01-20T14:49:40Z",
+  "url": "https://github.com/apache/nuttx/pull/18051"
+}

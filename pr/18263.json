@@ -1,0 +1,61 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCpRW2A",
+    "is_bot": false,
+    "login": "yjq91115",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-03T19:49:02Z",
+  "createdAt": "2026-01-29T13:27:15Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "net/tcp/tcp_timer.c",
+      "additions": 5,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "091704897ab7b0290fd542c8392627a121205454",
+  "headRepository": {
+    "id": "R_kgDOMmJ7mg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCpRW2A",
+    "login": "yjq91115"
+  },
+  "id": "PR_kwDODZiUac7AIbCz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18263,
+  "state": "CLOSED",
+  "title": "net/tcp:Use a temporary variable to store dev to prevent conn from being released after tcp_conn_list_unlock.",
+  "updatedAt": "2026-02-03T19:49:02Z",
+  "url": "https://github.com/apache/nuttx/pull/18263"
+}

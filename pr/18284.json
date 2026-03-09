@@ -1,0 +1,80 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-03T02:18:11Z",
+  "createdAt": "2026-01-30T11:34:38Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "arch/arm/include/armv8-m/barriers.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/clock_sched_ticks.c",
+      "additions": 13,
+      "deletions": 28
+    }
+  ],
+  "headRefName": "apache_clock64",
+  "headRefOid": "2bca3690d5fa87591a3381b970886f3d7ea67249",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac7AX1nb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "29e514b27607588a5a2ebab771e1f4494d6f4bea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-03T02:18:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18284,
+  "state": "MERGED",
+  "title": "sched/clock: replace atomic operations with sequence lock for tick counter",
+  "updatedAt": "2026-02-03T02:18:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18284"
+}

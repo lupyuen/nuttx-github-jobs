@@ -1,0 +1,85 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "is_bot": false,
+    "login": "sumpfralle",
+    "name": "Lars Kruse"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-15T17:01:28Z",
+  "createdAt": "2025-12-15T13:51:54Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/arm/src/rp2040/rp2040_pio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_pio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pio.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "arm-rp2xxx-pio-fix-32-instructions",
+  "headRefOid": "9f740746cdf5339d12fad4cbabdc91909ded4c37",
+  "headRepository": {
+    "id": "R_kgDOMSGLsw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "name": "Lars Kruse",
+    "login": "sumpfralle"
+  },
+  "id": "PR_kwDODZiUac647hYj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ec906cfb0b6456614574e821c9bee7cc73451428"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-15T17:01:28Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17515,
+  "state": "MERGED",
+  "title": "rp2040,rp23xx,rp23xx-rv: allow up to 32 PIO instructions",
+  "updatedAt": "2025-12-16T10:29:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17515"
+}

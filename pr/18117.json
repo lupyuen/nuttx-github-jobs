@@ -1,0 +1,85 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NDkzNDM=",
+    "is_bot": false,
+    "login": "maxikrie",
+    "name": "Max Kriegleder"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-26T02:55:28Z",
+  "createdAt": "2026-01-22T22:36:03Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "arch/arm/src/nrf52/nrf52_tim_lowerhalf.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/nrf53/nrf53_tim_lowerhalf.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/nrf91/nrf91_tim_lowerhalf.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "30e88e78d2c505fddad865ea8e03a724d0289d74",
+  "headRepository": {
+    "id": "R_kgDONIScEg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NDkzNDM=",
+    "name": "Max Kriegleder",
+    "login": "maxikrie"
+  },
+  "id": "PR_kwDODZiUac6-zjfx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c5d57fab83b33add7f284c1bc466770453a0a52d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T02:55:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18117,
+  "state": "MERGED",
+  "title": "arch/arm/nrf{52|53|91}: fix timer timeout value (overflow issue)",
+  "updatedAt": "2026-01-26T02:55:28Z",
+  "url": "https://github.com/apache/nuttx/pull/18117"
+}

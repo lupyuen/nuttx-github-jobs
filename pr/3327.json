@@ -1,0 +1,73 @@
+{
+  "additions": 62,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-15T09:20:04Z",
+  "createdAt": "2026-01-14T12:55:46Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "system/iptables/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "system/iptables/iptables.c",
+      "additions": 57,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "upstream-6",
+  "headRefOid": "3303045d2624e914fff6df4351ed9509a46fadd9",
+  "headRepository": {
+    "id": "R_kgDOG_2nHg",
+    "name": "incubator-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiT4869JqZP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2b0a4a20f55278461248031f5d7078520c492f50"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T09:20:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3327,
+  "state": "MERGED",
+  "title": "iptables: add file lock to prevent concurrent overwrite",
+  "updatedAt": "2026-01-15T09:20:04Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3327"
+}

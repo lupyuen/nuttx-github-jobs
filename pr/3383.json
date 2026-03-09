@@ -1,0 +1,144 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY5ODg3MDAy",
+    "is_bot": false,
+    "login": "victor-suisui",
+    "name": "Wangxingxing"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2026-01-28T13:37:52Z",
+  "createdAt": "2026-01-28T07:51:14Z",
+  "deletions": 60,
+  "files": [
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_creat_test.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_dup2_test.c",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_eventfd_test.c",
+      "additions": 6,
+      "deletions": 8
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_fcntl_test.c",
+      "additions": 5,
+      "deletions": 7
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_fstat_test.c",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_fstatfs_test.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_fsync_test.c",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_open_test.c",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_opendir_test.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_pread_test.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_pwrite_test.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_read_test.c",
+      "additions": 2,
+      "deletions": 6
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_readlink_test.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_stat_test.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_stream_test.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_write_test.c",
+      "additions": 2,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "20260123",
+  "headRefOid": "5568fdaf41253452c890189c7c38310ee6a3d2b9",
+  "headRepository": {
+    "id": "R_kgDOQ4z5jA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY5ODg3MDAy",
+    "name": "Wangxingxing",
+    "login": "victor-suisui"
+  },
+  "id": "PR_kwDODZiT486_yL-C",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "42e3566147fd40f735569000eea68bc0c74d800c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T13:37:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 3383,
+  "state": "MERGED",
+  "title": "testing/fs: fix fd close issues and optimize test execution time",
+  "updatedAt": "2026-01-28T13:37:53Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3383"
+}

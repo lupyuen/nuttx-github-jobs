@@ -1,0 +1,98 @@
+{
+  "additions": 648,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-16T01:42:01Z",
+  "createdAt": "2026-01-12T15:14:47Z",
+  "deletions": 533,
+  "files": [
+    {
+      "path": "drivers/drivers_initialize.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/rpmsgdrv.c",
+      "additions": 501,
+      "deletions": 491
+    },
+    {
+      "path": "include/nuttx/net/net.h",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/rpmsg.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/net/rpmsgdrv.h",
+      "additions": 94,
+      "deletions": 6
+    },
+    {
+      "path": "net/netdev/netdev.h",
+      "additions": 0,
+      "deletions": 35
+    }
+  ],
+  "headRefName": "upstream-5",
+  "headRefOid": "973aabba2c2dc889dc840c793d45479b851b71f0",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac68uU2r",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "be74eec727c0c94aa6f526964f3af10f909cbfbc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T01:42:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17842,
+  "state": "MERGED",
+  "title": "drivers/net/rpmsgdrv.c: add bidirectional data netdev support",
+  "updatedAt": "2026-01-16T01:42:01Z",
+  "url": "https://github.com/apache/nuttx/pull/17842"
+}

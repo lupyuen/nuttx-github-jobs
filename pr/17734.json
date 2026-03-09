@@ -1,0 +1,199 @@
+{
+  "additions": 268,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 26,
+  "closed": true,
+  "closedAt": "2026-01-01T10:35:13Z",
+  "createdAt": "2025-12-30T09:49:26Z",
+  "deletions": 227,
+  "files": [
+    {
+      "path": "drivers/usrsock/usrsock_dev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/usrsock/usrsock_rpmsg.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/net/net.h",
+      "additions": 22,
+      "deletions": 43
+    },
+    {
+      "path": "include/nuttx/net/usrsock.h",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "net/socket/accept.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "net/socket/net_dup2.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/socket/setsockopt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/usrsock/usrsock_accept.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/usrsock/usrsock_bind.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_close.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_conn.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "net/usrsock/usrsock_connect.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_devif.c",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "net/usrsock/usrsock_event.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/usrsock/usrsock_getpeername.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_getsockname.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_getsockopt.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_ioctl.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_listen.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_poll.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "net/usrsock/usrsock_recvmsg.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/usrsock/usrsock_sendmsg.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "net/usrsock/usrsock_setsockopt.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_shutdown.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/usrsock/usrsock_socket.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "net/utils/net_lock.c",
+      "additions": 27,
+      "deletions": 97
+    }
+  ],
+  "headRefName": "upstream-2",
+  "headRefOid": "a896244f3517a8b9bd962589f4b2529d69862ec5",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac668Vwl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f27a9bbc2776bed0cb12990cf307702628280fc8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-01T10:35:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17734,
+  "state": "MERGED",
+  "title": "net/usrsock: replace net_lock with usrsock_lock",
+  "updatedAt": "2026-01-01T10:35:13Z",
+  "url": "https://github.com/apache/nuttx/pull/17734"
+}

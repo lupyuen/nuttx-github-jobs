@@ -1,0 +1,109 @@
+{
+  "additions": 53,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-24T09:10:18Z",
+  "createdAt": "2026-01-22T12:10:55Z",
+  "deletions": 167,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 4,
+      "deletions": 9
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 5,
+      "deletions": 33
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi_slave.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_router_edge.c",
+      "additions": 11,
+      "deletions": 43
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio.c",
+      "additions": 14,
+      "deletions": 44
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_virtio_lite.c",
+      "additions": 13,
+      "deletions": 28
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg.h",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "rpmsg-cpuname",
+  "headRefOid": "91e52687b07870a225676fccf1a5b3ea477a665c",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac6-rra8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "279591893200a537b429cb14e49462c8e42682a8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-24T09:10:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18108,
+  "state": "MERGED",
+  "title": "drivers/rpmsg: unify cpuname handling and fix pm wakelock initialization",
+  "updatedAt": "2026-01-24T09:10:18Z",
+  "url": "https://github.com/apache/nuttx/pull/18108"
+}

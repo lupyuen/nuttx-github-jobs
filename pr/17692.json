@@ -1,0 +1,563 @@
+{
+  "additions": 1243,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 104,
+  "closed": true,
+  "closedAt": "2025-12-29T01:42:19Z",
+  "createdAt": "2025-12-26T10:33:38Z",
+  "deletions": 772,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/netdev_upperhalf.c",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/net/net.h",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/netdev.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "net/arp/arp_send.c",
+      "additions": 27,
+      "deletions": 16
+    },
+    {
+      "path": "net/can/can.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "net/can/can_callback.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "net/can/can_conn.c",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "net/can/can_input.c",
+      "additions": 20,
+      "deletions": 1
+    },
+    {
+      "path": "net/can/can_recvmsg.c",
+      "additions": 11,
+      "deletions": 76
+    },
+    {
+      "path": "net/can/can_sendmsg.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "net/can/can_sendmsg_buffered.c",
+      "additions": 18,
+      "deletions": 12
+    },
+    {
+      "path": "net/can/can_setsockopt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/can/can_sockif.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "net/devif/devif_callback.c",
+      "additions": 6,
+      "deletions": 16
+    },
+    {
+      "path": "net/devif/devif_poll.c",
+      "additions": 13,
+      "deletions": 1
+    },
+    {
+      "path": "net/devif/ipv4_input.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "net/devif/ipv6_input.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "net/icmp/icmp.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "net/icmp/icmp_conn.c",
+      "additions": 34,
+      "deletions": 15
+    },
+    {
+      "path": "net/icmp/icmp_input.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "net/icmp/icmp_ioctl.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmp/icmp_netpoll.c",
+      "additions": 12,
+      "deletions": 14
+    },
+    {
+      "path": "net/icmp/icmp_recvmsg.c",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "net/icmp/icmp_sendmsg.c",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmp/icmp_sockif.c",
+      "additions": 7,
+      "deletions": 10
+    },
+    {
+      "path": "net/icmpv6/icmpv6_autoconfig.c",
+      "additions": 5,
+      "deletions": 19
+    },
+    {
+      "path": "net/icmpv6/icmpv6_conn.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "net/icmpv6/icmpv6_ioctl.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmpv6/icmpv6_neighbor.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmpv6/icmpv6_netpoll.c",
+      "additions": 12,
+      "deletions": 13
+    },
+    {
+      "path": "net/icmpv6/icmpv6_recvmsg.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "net/icmpv6/icmpv6_rnotify.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmpv6/icmpv6_sendmsg.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmpv6/icmpv6_sockif.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "net/inet/inet_sockif.c",
+      "additions": 11,
+      "deletions": 10
+    },
+    {
+      "path": "net/inet/ipv4_getsockname.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "net/inet/ipv4_getsockopt.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/inet/ipv4_setsockopt.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/inet/ipv6_getsockname.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "net/inet/ipv6_getsockopt.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/inet/ipv6_setsockopt.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/ipfrag/ipfrag.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "net/nat/ipv4_nat.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "net/nat/ipv6_nat.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "net/nat/nat.c",
+      "additions": 46,
+      "deletions": 15
+    },
+    {
+      "path": "net/nat/nat.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "net/netdev/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/netdev/netdev.h",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/netdev_count.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/netdev/netdev_default.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/netdev/netdev_findbyaddr.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "net/netdev/netdev_findbyindex.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "net/netdev/netdev_findbyname.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/netdev/netdev_ioctl.c",
+      "additions": 8,
+      "deletions": 10
+    },
+    {
+      "path": "net/netdev/netdev_lock.c",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/netdev_register.c",
+      "additions": 38,
+      "deletions": 3
+    },
+    {
+      "path": "net/netdev/netdev_unregister.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "net/netdev/netdev_verify.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/pkt/pkt.h",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_callback.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_conn.c",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_input.c",
+      "additions": 15,
+      "deletions": 2
+    },
+    {
+      "path": "net/pkt/pkt_netpoll.c",
+      "additions": 22,
+      "deletions": 19
+    },
+    {
+      "path": "net/pkt/pkt_recvmsg.c",
+      "additions": 13,
+      "deletions": 12
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_buffered.c",
+      "additions": 5,
+      "deletions": 13
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_unbuffered.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "net/pkt/pkt_sockif.c",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "net/procfs/net_tcp.c",
+      "additions": 2,
+      "deletions": 6
+    },
+    {
+      "path": "net/procfs/net_udp.c",
+      "additions": 2,
+      "deletions": 8
+    },
+    {
+      "path": "net/tcp/tcp.h",
+      "additions": 21,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_accept.c",
+      "additions": 14,
+      "deletions": 5
+    },
+    {
+      "path": "net/tcp/tcp_backlog.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_callback.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_close.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 60,
+      "deletions": 40
+    },
+    {
+      "path": "net/tcp/tcp_connect.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_devpoll.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "net/tcp/tcp_ioctl.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_listen.c",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_monitor.c",
+      "additions": 3,
+      "deletions": 9
+    },
+    {
+      "path": "net/tcp/tcp_netpoll.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "net/tcp/tcp_recvfrom.c",
+      "additions": 9,
+      "deletions": 5
+    },
+    {
+      "path": "net/tcp/tcp_send_buffered.c",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_send_unbuffered.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_sendfile.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "net/tcp/tcp_shutdown.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_timer.c",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "net/tcp/tcp_txdrain.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "net/udp/udp.h",
+      "additions": 27,
+      "deletions": 57
+    },
+    {
+      "path": "net/udp/udp_callback.c",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "net/udp/udp_close.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "net/udp/udp_conn.c",
+      "additions": 51,
+      "deletions": 17
+    },
+    {
+      "path": "net/udp/udp_input.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "net/udp/udp_ioctl.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "net/udp/udp_netpoll.c",
+      "additions": 14,
+      "deletions": 12
+    },
+    {
+      "path": "net/udp/udp_notifier.c",
+      "additions": 0,
+      "deletions": 88
+    },
+    {
+      "path": "net/udp/udp_recvfrom.c",
+      "additions": 12,
+      "deletions": 9
+    },
+    {
+      "path": "net/udp/udp_sendto_buffered.c",
+      "additions": 46,
+      "deletions": 36
+    }
+  ],
+  "headRefName": "upstream-6",
+  "headRefOid": "d9260befb14df2bdc0583099edb211a724908e9d",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66n1jg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0900b21217a26515d1636d6cd9a0ee5f9dd2c492"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T01:42:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17692,
+  "state": "MERGED",
+  "title": "net: decouple the impact of net_lock between network cards",
+  "updatedAt": "2025-12-29T01:42:19Z",
+  "url": "https://github.com/apache/nuttx/pull/17692"
+}

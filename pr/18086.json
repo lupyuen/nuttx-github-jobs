@@ -1,0 +1,89 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrHUjw",
+    "is_bot": false,
+    "login": "pangzhen1xiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-22T09:19:12Z",
+  "createdAt": "2026-01-21T14:20:46Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "sched/irq/irq_attach.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/irq/irq_attach_thread.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/irq/irq_attach_wqueue.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/irq/irq_dispatch.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "coverity_6174390",
+  "headRefOid": "3f7eff4b1ec3988f0a9b021b24f066c207245c21",
+  "headRepository": {
+    "id": "R_kgDOMoRG_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrHUjw",
+    "login": "pangzhen1xiaomi"
+  },
+  "id": "PR_kwDODZiUac6-dsYA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "652b90f8999ae851a9639b8fc5b3cfe4031dc9ee"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T09:19:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18086,
+  "state": "MERGED",
+  "title": "sched/irq: avoid casting from signed int to unsigned int",
+  "updatedAt": "2026-01-22T09:19:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18086"
+}

@@ -1,0 +1,171 @@
+{
+  "additions": 1966,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": true,
+  "closedAt": "2026-02-10T11:15:02Z",
+  "createdAt": "2026-02-08T14:45:00Z",
+  "deletions": 139,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/input/images/keypad-example.png",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/keypad-keyboard.rst",
+      "additions": 143,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/keypad.rst",
+      "additions": 79,
+      "deletions": 138
+    },
+    {
+      "path": "boards/arm/stm32/common/include/stm32_kmatrix_gpio.h",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/include/stm32_kmatrix_i2c.h",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/stm32_kmatrix_gpio.c",
+      "additions": 355,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/stm32_kmatrix_i2c.c",
+      "additions": 210,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/include/board.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/stm32_bringup.c",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/Kconfig",
+      "additions": 67,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/input/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/kmatrix.c",
+      "additions": 362,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/kmatrix_i2c.c",
+      "additions": 262,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/input/kmatrix.h",
+      "additions": 160,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/kbd-driver",
+  "headRefOid": "652f7642720b080df7f689bf3cbadbfdf08e841a",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7CTeBb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ef71625eded3e5795733b32216188c0ffee28837"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-10T11:15:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18368,
+  "state": "MERGED",
+  "title": "driver/input: Add keyboard matrix driver to read matrix keyboard using polling way.",
+  "updatedAt": "2026-02-11T14:28:33Z",
+  "url": "https://github.com/apache/nuttx/pull/18368"
+}

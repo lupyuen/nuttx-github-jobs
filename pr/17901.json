@@ -1,0 +1,68 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "is_bot": false,
+    "login": "csanchezdll",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-15T19:19:53Z",
+  "createdAt": "2026-01-14T11:43:52Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "libs/libm/libm/lib_atanf.c",
+      "additions": 4,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "atanf_rounding_fix",
+  "headRefOid": "d9aac41ee8c7f003b7130d508d5cd6ef96ff31fa",
+  "headRepository": {
+    "id": "R_kgDOIGBIlw",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "login": "csanchezdll"
+  },
+  "id": "PR_kwDODZiUac69IyVf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "23a9ff1196b6fc14fe85eeddb819a016d55af798"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T19:19:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17901,
+  "state": "MERGED",
+  "title": "libm: prevent atanf() yielding NaN for high inputs values.",
+  "updatedAt": "2026-01-15T19:19:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17901"
+}

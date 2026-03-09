@@ -1,0 +1,179 @@
+{
+  "additions": 275,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 23,
+  "closed": true,
+  "closedAt": "2025-12-20T02:38:53Z",
+  "createdAt": "2025-12-17T12:08:55Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "include/string.h",
+      "additions": 226,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arch_libc.c",
+      "additions": 22,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemchr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstpcpy.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstpncpy.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcat.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrchr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcmp.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcpy.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrlen.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrncmp.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrncpy.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrrchr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_memchr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strcat.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strchr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strcpy.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strcspn.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strlen.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strncmp.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strrchr.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strstr.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "20251217_string_builtin",
+  "headRefOid": "6e67fc63e2ca876ceb79a961fb0cb6bc8ffdb5ae",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac65W1I-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7c96537a58b125cdc16f8ff2ea668def13bc9413"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-20T02:38:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17544,
+  "state": "MERGED",
+  "title": "libs/libc: use builtin function to optimize string function",
+  "updatedAt": "2025-12-20T02:38:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17544"
+}

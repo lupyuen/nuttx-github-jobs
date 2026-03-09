@@ -1,0 +1,89 @@
+{
+  "additions": 85,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODtJYMA",
+    "is_bot": false,
+    "login": "ghnotgood",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-13T05:33:49Z",
+  "createdAt": "2025-12-10T16:26:22Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/eeprom.rst",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/eeprom/i2c_xx24xx.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/eeprom/spi_xx25xx.c",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/eeprom/eeprom.h",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "eeprom-blockprotect-ioctl",
+  "headRefOid": "643de9913fe72e690d0624a59cbd142e4d1225e4",
+  "headRepository": {
+    "id": "R_kgDOQleJpQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODtJYMA",
+    "login": "ghnotgood"
+  },
+  "id": "PR_kwDODZiUac64LaoB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f93a1b34e5f2a02c28d7a2ba5a521be6e4810da3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-13T05:33:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17478,
+  "state": "MERGED",
+  "title": "eeprom/spi_xx25xx: Add IOCTL to set Block Protect",
+  "updatedAt": "2026-01-08T17:01:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17478"
+}

@@ -1,0 +1,146 @@
+{
+  "additions": 87,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsgVg",
+    "is_bot": false,
+    "login": "wangzhi16",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2026-02-02T13:17:20Z",
+  "createdAt": "2026-01-30T06:18:54Z",
+  "deletions": 67,
+  "files": [
+    {
+      "path": "arch/arm/src/phy62xx/irq.c",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/phy62xx/phyplus_timer_lowerhalf.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/phy62xx/phyplus_wdt.c",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/ameba_flash.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/ameba_uart.c",
+      "additions": 10,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/ameba_wdt.c",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/amebaz_depend.c",
+      "additions": 12,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/amebaz_driver.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/amebaz_netdev.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fork.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_cpenable.c",
+      "additions": 11,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_oneshot.c",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "critical_section",
+  "headRefOid": "6e81d5a31675ff77ae5cf3ce065e3cd4950d62fc",
+  "headRepository": {
+    "id": "R_kgDOMmQ4Gw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsgVg",
+    "login": "wangzhi16"
+  },
+  "id": "PR_kwDODZiUac7AUJ8S",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a06ac14988a3d7ba6f294c3d180230fa188d13c2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T13:17:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18270,
+  "state": "MERGED",
+  "title": "sched/spinlock: Replace critical_section with spinlock.",
+  "updatedAt": "2026-02-02T13:17:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18270"
+}

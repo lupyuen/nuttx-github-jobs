@@ -1,0 +1,134 @@
+{
+  "additions": 995,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-12-09T10:56:21Z",
+  "createdAt": "2025-12-08T13:13:56Z",
+  "deletions": 39,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/net/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/net/vlan.rst",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/netdev_upperhalf.c",
+      "additions": 301,
+      "deletions": 35
+    },
+    {
+      "path": "drivers/net/vlan.c",
+      "additions": 375,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/ioctl.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/netdev.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/net/netdev_lowerhalf.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/vlan.h",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "net/Kconfig",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/netdev_iob.c",
+      "additions": 28,
+      "deletions": 1
+    },
+    {
+      "path": "net/netdev/netdev_ioctl.c",
+      "additions": 58,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "upstream-10",
+  "headRefOid": "685828d5f82901fe47066a329af4b5f59217b39e",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac63rZ61",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ad422684d409c41f433e0cfd2da0f58341872f7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-09T10:56:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17452,
+  "state": "MERGED",
+  "title": "net: add vlan support",
+  "updatedAt": "2025-12-09T10:56:21Z",
+  "url": "https://github.com/apache/nuttx/pull/17452"
+}

@@ -1,0 +1,121 @@
+{
+  "additions": 86,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-16T17:05:24Z",
+  "createdAt": "2026-01-16T08:56:00Z",
+  "deletions": 26,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_cpuhead.S",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_head.S",
+      "additions": 14,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_cpuhead.S",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_head.S",
+      "additions": 14,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/armv7-r/gic.h",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/goldfish/goldfish_irq.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx6/imx_irq.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_gicv2.c",
+      "additions": 4,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_arm_armv7a_armv7r_armv8r",
+  "headRefOid": "d709fe85e20ad687978c4873b9c2797e782f5166",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69kRPu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f4cbc1455f7997029ccde955a29813876acbc375"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T17:05:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17963,
+  "state": "MERGED",
+  "title": "arm: support AMP mode with GIC SGI inter-core interrupts",
+  "updatedAt": "2026-01-16T17:05:24Z",
+  "url": "https://github.com/apache/nuttx/pull/17963"
+}

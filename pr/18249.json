@@ -1,0 +1,388 @@
+{
+  "additions": 279,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 53,
+  "closed": true,
+  "closedAt": "2026-02-02T05:23:06Z",
+  "createdAt": "2026-01-28T14:21:21Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "arch/arm/src/at32/at32_can_sock.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/at32/at32_eth.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/c5471/c5471_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_enet.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx6/imx_enet.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_flexcan.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_flexcan.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_can.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc54xx/lpc54_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/amebaz_netdev.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/s32k1xx/s32k1xx_enet.c",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/s32k1xx/s32k1xx_flexcan.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/s32k3xx/s32k3xx_emac.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/s32k3xx/s32k3xx_flexcan.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sam34/sam_emac.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_emaca.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_emacb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_gmac.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_gmac.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_emac.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_lin_sock.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_can_sock.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_fdcan_sock.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_can_sock.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_fdcan_sock.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/tiva/common/tiva_sock_can.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/lm/lm3s_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/tm4c/tm4c_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_enet.c",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_flexcan.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/hc/src/m9s12/m9s12_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/mips/src/pic32mx/pic32mx_ethernet.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/mips/src/pic32mz/pic32mz_ethernet.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/misoc/src/common/misoc_net.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/src/rx65n/rx65n_eth.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/litex/litex_emac.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_ethernet.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_emac.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z80/src/ez80/ez80_emac.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/can/kvaser_pci.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/dm90x0.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/enc28j60.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/ftmac100.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/lan9250.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/skeleton.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/slip.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/w5500.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbdev/rndis.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_cdcmbim.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/wireless/ieee802154/xbee/xbee_netdev.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/wireless/spirit/drivers/spirit_netdev.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "upstream-11",
+  "headRefOid": "649d43cd60010ffe464788a44fb76769557ad76d",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac6_3qBb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP2Vg",
+      "name": "Arch: hc",
+      "description": "Issues related to HC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a7567677a888260177ec2b247b5c92ac02b3c0a2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T05:23:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18249,
+  "state": "MERGED",
+  "title": "netdev_driver: add carrier_on to xxx_ifup where carrier_on is absent",
+  "updatedAt": "2026-02-02T05:23:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18249"
+}

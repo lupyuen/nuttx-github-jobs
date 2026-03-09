@@ -1,0 +1,100 @@
+{
+  "additions": 485,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-01T09:08:47Z",
+  "createdAt": "2025-12-30T13:36:43Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/i2c.rst",
+      "additions": 132,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/i2c/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/i2c/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/i2c/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/i2c/i2c_bitbang_ioexpander.c",
+      "additions": 276,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/i2c/i2c_bitbang_ioexpander.h",
+      "additions": 60,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "i2c-bitbang",
+  "headRefOid": "9b71772fd54099eb530bb28ac7a9d3600182f67a",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac66-Oem",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "db0b8c59ac054c276e2c8922feb158d727f51609"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-01T09:08:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17746,
+  "state": "MERGED",
+  "title": "drivers/i2c: add ioexpander-based lower-half implementation for I2C bit-bang",
+  "updatedAt": "2026-01-01T09:08:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17746"
+}

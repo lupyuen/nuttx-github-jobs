@@ -1,0 +1,79 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-23T08:59:55Z",
+  "createdAt": "2026-01-23T01:44:22Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "libs/libc/sched/task_getpid.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/tls/task_getinfo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_get_stackinfo.c",
+      "additions": 6,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_bug_fix_tls",
+  "headRefOid": "df70f5e105e98749ec07cb951c20443b252bdbc1",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6-0_za",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5f92db54a613b051fb4078c36c7b887857222f4f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-23T08:59:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18118,
+  "state": "MERGED",
+  "title": "sched: fix regression and improve NULL pointer safety in task information functions",
+  "updatedAt": "2026-01-23T08:59:56Z",
+  "url": "https://github.com/apache/nuttx/pull/18118"
+}

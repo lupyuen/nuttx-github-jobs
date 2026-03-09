@@ -1,0 +1,84 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-15T02:25:21Z",
+  "createdAt": "2026-01-14T14:56:42Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "testing/ltp/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/Makefile",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/time/cases/clock_test_timer05.c",
+      "additions": 6,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "mine",
+  "headRefOid": "c0134e967ff238e45b3651123066f2609404b115",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTU2MzQ3MzI=",
+    "name": "incubator-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "login": "GUIDINGLI"
+  },
+  "id": "PR_kwDODZiT4869LN2k",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "680dca11215a8d1654ebc766177594ace2c10dc2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T02:25:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3329,
+  "state": "MERGED",
+  "title": "testing: improve timer test efficiency and fix LTP compatibility with FDCHECK",
+  "updatedAt": "2026-01-15T02:25:22Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3329"
+}

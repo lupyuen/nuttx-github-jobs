@@ -1,0 +1,94 @@
+{
+  "additions": 263,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-02-06T18:27:50Z",
+  "createdAt": "2026-02-06T15:21:35Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/s32k3xx/CMakeLists.txt",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/CMakeLists.txt",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/src/CMakeLists.txt",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/s32k344evb/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/s32k344evb/src/CMakeLists.txt",
+      "additions": 50,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-s32k3xx",
+  "headRefOid": "c5538eb3b73799c2d917fd6ae2b76cb1e3c38937",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac7CBc9D",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "99db09d050b57be5e2e2c3e86e0231d8dc9e7801"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-06T18:27:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18364,
+  "state": "MERGED",
+  "title": "CMake: build implemented for NXP S32K3 Family",
+  "updatedAt": "2026-02-12T13:11:10Z",
+  "url": "https://github.com/apache/nuttx/pull/18364"
+}

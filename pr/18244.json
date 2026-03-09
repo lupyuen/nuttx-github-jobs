@@ -1,0 +1,117 @@
+{
+  "additions": 1109,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC1JDKw",
+    "is_bot": false,
+    "login": "yangsong8-a1",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-01-28T15:03:34Z",
+  "createdAt": "2026-01-28T12:57:28Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/safety/CMakeLists.txt",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/safety/Kconfig",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/safety/Make.defs",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/safety/reg_monitor.c",
+      "additions": 237,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/safety/safety.c",
+      "additions": 498,
+      "deletions": 0
+    },
+    {
+      "path": "include/debug.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/safety/reg_monitor.h",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/safety/safety.h",
+      "additions": 147,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "safety-driver-fixes",
+  "headRefOid": "96cb09547f677431eae9b8e463362b2f8c1de921",
+  "headRepository": {
+    "id": "R_kgDONV3wlw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC1JDKw",
+    "login": "yangsong8-a1"
+  },
+  "id": "PR_kwDODZiUac6_2bLU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18244,
+  "state": "CLOSED",
+  "title": "drivers/safety: add safety upper-half and register monitor driver",
+  "updatedAt": "2026-01-29T11:50:41Z",
+  "url": "https://github.com/apache/nuttx/pull/18244"
+}

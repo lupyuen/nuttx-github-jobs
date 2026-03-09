@@ -1,0 +1,143 @@
+{
+  "additions": 46,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-12-11T01:16:14Z",
+  "createdAt": "2025-12-10T15:06:36Z",
+  "deletions": 46,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_adc.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_apds9960.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_bmp180.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_i2c.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_ice40.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_ledc.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_mpu60x0_i2c.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_oneshot.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_spidev.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_spiflash.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_spislavedev.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_twai.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_wdt.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/include/esp32c3_board_wlan.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/include/board.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/src/esp32c3-devkit.h",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "simbit18-espressif",
+  "headRefOid": "33a9340d0e7498d6dbdd0ce0571cff38760e66fc",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac64KV4O",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "846f86e011b906ac03a4a950000ca984ebcf8fc6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-11T01:16:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 17477,
+  "state": "MERGED",
+  "title": "boards/risc-v/esp32c3: Corrected the names of #include guards",
+  "updatedAt": "2025-12-11T15:33:51Z",
+  "url": "https://github.com/apache/nuttx/pull/17477"
+}

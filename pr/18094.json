@@ -1,0 +1,102 @@
+{
+  "additions": 33,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "is_bot": false,
+    "login": "Barto22",
+    "name": "Bartosz "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-23T01:46:02Z",
+  "createdAt": "2026-01-22T07:42:17Z",
+  "deletions": 27,
+  "files": [
+    {
+      "path": "boards/sim/sim/sim/src/sim_gpio.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/video/isx019.c",
+      "additions": 22,
+      "deletions": 22
+    },
+    {
+      "path": "drivers/wireless/lpwan/sx127x/sx127x.c",
+      "additions": 9,
+      "deletions": 2
+    },
+    {
+      "path": "net/pkt/pkt_recvmsg.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/fix-drivers-for-latest-gcc",
+  "headRefOid": "6b774fafe10163b6cda74942598621bd30a97e56",
+  "headRepository": {
+    "id": "R_kgDOQ1YDIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "name": "Bartosz ",
+    "login": "Barto22"
+  },
+  "id": "PR_kwDODZiUac6-obyI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "585d954d0b8dcd1b3e70a201cb5e2edd50c3da93"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-23T01:46:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18094,
+  "state": "MERGED",
+  "title": "boards/sim: Fix watchdog callback",
+  "updatedAt": "2026-01-23T01:46:02Z",
+  "url": "https://github.com/apache/nuttx/pull/18094"
+}

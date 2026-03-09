@@ -1,0 +1,104 @@
+{
+  "additions": 152,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-12-10T10:40:36Z",
+  "createdAt": "2025-12-08T14:05:25Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "arch/arm/src/kinetis/Kconfig",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/hardware/kinetis_k60memorymap.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/hardware/kinetis_k60pinmux.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/hardware/kinetis_sim.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_clockconfig.c",
+      "additions": 3,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_lowputc.c",
+      "additions": 38,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_serial.c",
+      "additions": 35,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "jvlasak-kinetis-defines",
+  "headRefOid": "39f26e78ddee8bb8000a7d38abcf2a4a286a7d9b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac63sDv1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "af205ebd3932ddb34f87fe8ef8d4318941225119"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-10T10:40:36Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17454,
+  "state": "MERGED",
+  "title": "arch/arm/src/kinetis: support RS485 on UART, fix warnings and pin assignment for K60",
+  "updatedAt": "2025-12-10T10:40:37Z",
+  "url": "https://github.com/apache/nuttx/pull/17454"
+}

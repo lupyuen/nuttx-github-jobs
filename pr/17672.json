@@ -1,0 +1,73 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-25T11:34:01Z",
+  "createdAt": "2025-12-25T04:27:03Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "net/ipfrag/ipv4_frag.c",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "net/ipfrag/ipv6_frag.c",
+      "additions": 8,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "upstream-7",
+  "headRefOid": "c5b444281ee9658cecc49c4674bf327e998eea86",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac66iGUr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c2a48999418036b27b2f39318bb2d41b6bfb0697"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T11:34:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17672,
+  "state": "MERGED",
+  "title": "net/ipfrag: fix ip fragment assert when iob not enough",
+  "updatedAt": "2025-12-25T11:34:01Z",
+  "url": "https://github.com/apache/nuttx/pull/17672"
+}

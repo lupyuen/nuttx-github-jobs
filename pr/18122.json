@@ -1,0 +1,68 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrHUjw",
+    "is_bot": false,
+    "login": "pangzhen1xiaomi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-23T11:17:49Z",
+  "createdAt": "2026-01-23T02:59:05Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "sched/irq/irq_chain.c",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "irq_chain_lock",
+  "headRefOid": "79115150ffce8825498170614ef2803872aeedb5",
+  "headRepository": {
+    "id": "R_kgDOMoRG_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrHUjw",
+    "login": "pangzhen1xiaomi"
+  },
+  "id": "PR_kwDODZiUac6-1bTd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d7bb8da6954d6034b56f656e472ad5eacb1494d8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-23T11:17:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18122,
+  "state": "MERGED",
+  "title": "sched/irq: Fix potential deadlock in irqchain_detach",
+  "updatedAt": "2026-01-23T11:17:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18122"
+}

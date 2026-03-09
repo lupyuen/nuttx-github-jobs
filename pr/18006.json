@@ -1,0 +1,301 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": true,
+  "closedAt": "2026-01-19T17:53:09Z",
+  "createdAt": "2026-01-19T09:00:18Z",
+  "deletions": 148,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-a/addrenv.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/common/arm_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm64/src/common/addrenv.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/avr/src/avr32/avr32.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/hc/src/common/hc_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/mips/src/common/mips_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/addrenv.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_exception_common.S",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/nuttsbi/sbi_internal.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86/src/common/x86_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86_64/src/common/addrenv.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_initialstate.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/z16/src/common/z16_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/z80/src/common/z80_internal.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/irq.h",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "apache_arch_move_some_macros",
+  "headRefOid": "5ee1b6e99c6213f76da94ee9c6660db639f232c8",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac699IZS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP2Vg",
+      "name": "Arch: hc",
+      "description": "Issues related to HC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "63e59e26c0e3c2f7f62045db8908bbb8530f2960"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T17:53:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 18006,
+  "state": "MERGED",
+  "title": "arch: move some macros to public code.",
+  "updatedAt": "2026-01-19T17:53:09Z",
+  "url": "https://github.com/apache/nuttx/pull/18006"
+}

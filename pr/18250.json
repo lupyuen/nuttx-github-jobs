@@ -1,0 +1,110 @@
+{
+  "additions": 460,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC1JDKw",
+    "is_bot": false,
+    "login": "yangsong8-a1",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-29T12:25:08Z",
+  "createdAt": "2026-01-28T14:36:28Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/timers/timer.rst",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/src/sim_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/timer_wdog.c",
+      "additions": 305,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/timer_wdog.h",
+      "additions": 53,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "timer-wdog-feature",
+  "headRefOid": "337232ab2038e67c32154e7a72730f2a5575ef6c",
+  "headRepository": {
+    "id": "R_kgDONV3wlw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC1JDKw",
+    "login": "yangsong8-a1"
+  },
+  "id": "PR_kwDODZiUac6_34m_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5effc98add159a878aec51a5af868d8dd89a2c39"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-29T12:25:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18250,
+  "state": "MERGED",
+  "title": "drivers/timers: add timer driver implemented by watchdog",
+  "updatedAt": "2026-01-29T12:25:08Z",
+  "url": "https://github.com/apache/nuttx/pull/18250"
+}

@@ -1,0 +1,199 @@
+{
+  "additions": 506,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMxODgxMjc4",
+    "is_bot": false,
+    "login": "xuxin930",
+    "name": "Xin Xu"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 21,
+  "closed": true,
+  "closedAt": "2026-01-19T06:45:37Z",
+  "createdAt": "2026-01-15T07:02:59Z",
+  "deletions": 48,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 16,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/cmake/elf.cmake",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/qemu/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/cmake/elf.cmake",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/cmake/Toolchain.cmake",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/cmake/elf.cmake",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/cmake/elf.cmake",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/common/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_add_application.cmake",
+      "additions": 90,
+      "deletions": 26
+    },
+    {
+      "path": "cmake/nuttx_add_library.cmake",
+      "additions": 35,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_add_romfs.cmake",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_extensions.cmake",
+      "additions": 171,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_generate_headers.cmake",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_toolchain.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/elf/CMakeLists.txt",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "syscall/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "syscall/proxies/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "syscall/stubs/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "syscall/wraps/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "0115_01",
+  "headRefOid": "802d4c7ac43d164f481ea889ca857c96bef3c116",
+  "headRepository": {
+    "id": "R_kgDOJWSgig",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMxODgxMjc4",
+    "name": "Xin Xu",
+    "login": "xuxin930"
+  },
+  "id": "PR_kwDODZiUac69UTXB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d39ed19213d3050eba25c0aad9b3805a1795c0c5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T06:45:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17927,
+  "state": "MERGED",
+  "title": "CMake(feat): Implement CMake ELF Application Build Mode",
+  "updatedAt": "2026-01-19T06:45:38Z",
+  "url": "https://github.com/apache/nuttx/pull/17927"
+}

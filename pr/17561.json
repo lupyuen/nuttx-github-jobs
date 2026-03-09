@@ -1,0 +1,268 @@
+{
+  "additions": 468,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 36,
+  "closed": true,
+  "closedAt": "2025-12-30T18:36:29Z",
+  "createdAt": "2025-12-18T09:34:51Z",
+  "deletions": 904,
+  "files": [
+    {
+      "path": "drivers/sensors/sensor_rpmsg.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/vhost/vhost-rng.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/virtio/virtio-snd.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "include/nuttx/cache.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/virtio/virtio-config.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/virtio/virtio.h",
+      "additions": 20,
+      "deletions": 26
+    },
+    {
+      "path": "net/rpmsg/rpmsg_sockif.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0001-lib-errno.h-fix-compile-error.patch",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "openamp/0001-libmetal-cmake-set-HAVE_STDATOMIC_H-default-true-in-.patch",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0001-ns-acknowledge-the-received-creation-message.patch",
+      "additions": 16,
+      "deletions": 16
+    },
+    {
+      "path": "openamp/0002-Negotiate-individual-buffer-size-dynamically.patch",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "openamp/0003-atomic.h-fix-compiler-error.patch",
+      "additions": 0,
+      "deletions": 51
+    },
+    {
+      "path": "openamp/0003-rpmsg-notify-the-user-when-the-remote-address-is-rec.patch",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "openamp/0004-lib-system-nuttx-fix-unused-parameter-compile-error.patch",
+      "additions": 0,
+      "deletions": 155
+    },
+    {
+      "path": "openamp/0004-openamp-virtio.h-negotiate_features-also-can-be-call.patch",
+      "additions": 0,
+      "deletions": 36
+    },
+    {
+      "path": "openamp/0004-rpmsg-wait-ept-ready-in-rpmsg_send.patch",
+      "additions": 7,
+      "deletions": 15
+    },
+    {
+      "path": "openamp/0005-libmetal-cmake-set-HAVE_STDATOMIC_H-default-true-in-.patch",
+      "additions": 0,
+      "deletions": 40
+    },
+    {
+      "path": "openamp/0005-openamp-add-VIRTIO_RING_F_MUST_NOTIFY-event.patch",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "openamp/0005-remoteproc-rpmsg_virtio-change-sched_yeild-to-usleep.patch",
+      "additions": 0,
+      "deletions": 48
+    },
+    {
+      "path": "openamp/0006-lib-system-nuttx-io.c-include-stddef.h-in-nuttx-io.c.patch",
+      "additions": 0,
+      "deletions": 27
+    },
+    {
+      "path": "openamp/0006-rpmsg_virtio-don-t-need-check-status-when-get_tx_pay.patch",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "openamp/0007-libmetal-nuttx-Update-function-prototype-changes.patch",
+      "additions": 0,
+      "deletions": 58
+    },
+    {
+      "path": "openamp/0007-virtqueue-move-virtqueue_nused-and-virtqueue_navail-.patch",
+      "additions": 149,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0008-lib-rpmsg-rpmsg_virtio-add-last-buffer-check-to-fix-.patch",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/0009-openamp-swap-get_rx_buffer-return_rx_buffer-to-resol.patch",
+      "additions": 0,
+      "deletions": 57
+    },
+    {
+      "path": "openamp/0009-virtio-change-feature-to-64-bit-in-all-virtio_dispat.patch",
+      "additions": 39,
+      "deletions": 48
+    },
+    {
+      "path": "openamp/0010-openamp-add-assert-when-get-tx-buffer-failed.patch",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "openamp/0010-rpmsg_virtio.c-virtqueue_kick-after-all-rx-buffer-re.patch",
+      "additions": 0,
+      "deletions": 70
+    },
+    {
+      "path": "openamp/0012-rpmsg_virtio.c-fix-get_tx_payload_buffer-error.patch",
+      "additions": 0,
+      "deletions": 32
+    },
+    {
+      "path": "openamp/0014-virtio.h-add-memory-operation-for-virtio-device.patch",
+      "additions": 0,
+      "deletions": 97
+    },
+    {
+      "path": "openamp/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "openamp/Makefile",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "openamp/libmetal.cmake",
+      "additions": 3,
+      "deletions": 13
+    },
+    {
+      "path": "openamp/libmetal.defs",
+      "additions": 3,
+      "deletions": 8
+    },
+    {
+      "path": "openamp/open-amp.cmake",
+      "additions": 8,
+      "deletions": 16
+    },
+    {
+      "path": "openamp/open-amp.defs",
+      "additions": 19,
+      "deletions": 14
+    }
+  ],
+  "headRefName": "openamp-upgrade",
+  "headRefOid": "58034a98b2e122816f7d48570057eccfa991bea2",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac65jBYf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9a9a93c9e4f0071abd82840a8cb48bf67904b098"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T18:36:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17561,
+  "state": "MERGED",
+  "title": "openamp: upgrade the OpenAMP and Libmetal to the last released version v2025.10",
+  "updatedAt": "2025-12-30T18:36:29Z",
+  "url": "https://github.com/apache/nuttx/pull/17561"
+}

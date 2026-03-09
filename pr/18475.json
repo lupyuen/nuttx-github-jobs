@@ -1,0 +1,271 @@
+{
+  "additions": 4814,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 39,
+  "closed": true,
+  "closedAt": "2026-03-05T19:51:49Z",
+  "createdAt": "2026-03-02T02:42:35Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/nucleo-h723zg/index.rst",
+      "additions": 112,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/stm32h7/chip.h",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32h7/stm32h7x3xx_irq.h",
+      "additions": 16,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 61,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_memorymap.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_fdcan_sock.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_irq.c",
+      "additions": 33,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/netnsh/defconfig",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/nsh/defconfig",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/include/board.h",
+      "additions": 521,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/kernel/Makefile",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/kernel/stm32_userspace.c",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/Make.defs",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/flash-mcuboot-app.ld",
+      "additions": 199,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/flash-mcuboot-loader.ld",
+      "additions": 199,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/flash.ld",
+      "additions": 199,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/kernel.space.ld",
+      "additions": 112,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/memory.ld",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/user-space.ld",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/CMakeLists.txt",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/Makefile",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/nucleo-h723zg.h",
+      "additions": 260,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_adc.c",
+      "additions": 269,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_appinitialize.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_autoleds.c",
+      "additions": 171,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_boot.c",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_bringup.c",
+      "additions": 504,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_buttons.c",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_gpio.c",
+      "additions": 323,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_pwm.c",
+      "additions": 110,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_reset.c",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_spi.c",
+      "additions": 258,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_uid.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_usb.c",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_usbmsc.c",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_userleds.c",
+      "additions": 126,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "h723zg-base-pr",
+  "headRefOid": "5f41f75a680cddee21de5ba97971f06e8345817a",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac7HNtwT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f4a6e62f7f72c47df8d0146a19b4060c48f508aa"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-05T19:51:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18475,
+  "state": "MERGED",
+  "title": "boards/arm/stm32h7: Add support for the NUCLEO-H723ZG board",
+  "updatedAt": "2026-03-05T19:51:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18475"
+}

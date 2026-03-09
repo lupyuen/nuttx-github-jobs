@@ -1,0 +1,216 @@
+{
+  "additions": 1012,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 28,
+  "closed": true,
+  "closedAt": "2026-01-26T08:27:20Z",
+  "createdAt": "2026-01-22T10:39:41Z",
+  "deletions": 257,
+  "files": [
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_allocateheap.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_cpustart.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fork.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_head.S",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_internal.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_mpu.h",
+      "additions": 45,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_pthread_start.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_syscall.c",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_task_start.c",
+      "additions": 14,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_vectors.S",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/fvp_boot.c",
+      "additions": 27,
+      "deletions": 17
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/fvp_v8r_allocateheap.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/nsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh/defconfig",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh_smp/defconfig",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/include/board_memorymap.h",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/kernel/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/kernel/Makefile",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/kernel/fvp_userspace.c",
+      "additions": 124,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/scripts/dramboot.ld",
+      "additions": 96,
+      "deletions": 78
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/scripts/memory.ld",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/scripts/nuttx_user.ld",
+      "additions": 128,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/addrenv.h",
+      "additions": 120,
+      "deletions": 116
+    }
+  ],
+  "headRefName": "apache_arm64_support_protectbuild_1",
+  "headRefOid": "5b9dca4bf7e35e50dfc5807c6facce49b948d8b0",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6-qivI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "78d05ff811c4f2171ed790b7eca759073cda8505"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T08:27:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18101,
+  "state": "MERGED",
+  "title": "arm64: add protected mode support and SMP improvements",
+  "updatedAt": "2026-01-26T08:27:20Z",
+  "url": "https://github.com/apache/nuttx/pull/18101"
+}

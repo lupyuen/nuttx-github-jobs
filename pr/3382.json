@@ -1,0 +1,125 @@
+{
+  "additions": 368,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-01-27T14:59:37Z",
+  "createdAt": "2026-01-27T06:33:10Z",
+  "deletions": 35,
+  "files": [
+    {
+      "path": "benchmarks/tacle-bench/0001-tacle-bench-add-makefile-and-all-in-one-main-file.patch",
+      "additions": 26,
+      "deletions": 8
+    },
+    {
+      "path": "testing/drivers/drivertest/drivertest_posix_timer.c",
+      "additions": 17,
+      "deletions": 12
+    },
+    {
+      "path": "testing/ostest/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/Makefile",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/ostest.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/ostest_main.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/spinlock.c",
+      "additions": 272,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/wdog.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "testing/sched/timerjitter/timerjitter.c",
+      "additions": 27,
+      "deletions": 6
+    },
+    {
+      "path": "testing/testsuites/kernel/time/cases/clock_test_timer03.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "upstream_01_27",
+  "headRefOid": "0ae2a279b02264ce2e0e56ae92ec466a80285e40",
+  "headRepository": {
+    "id": "R_kgDOM3RcdA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiT486_hjBE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7n5g",
+      "name": "Area: Benchmarks",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "71561d29795901da23ccf34ca4c1ff7db3a851c3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T14:59:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3382,
+  "state": "MERGED",
+  "title": "testing: Add spinlock test and fix for timer tests.",
+  "updatedAt": "2026-01-27T14:59:37Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3382"
+}

@@ -1,0 +1,73 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "is_bot": false,
+    "login": "wenquan2015",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-29T14:42:50Z",
+  "createdAt": "2025-12-29T08:47:28Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "net/devif/devif_poll.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "6246116",
+  "headRefOid": "5e115cc1dc4f770c0c6fdd5022b44838d733627e",
+  "headRepository": {
+    "id": "R_kgDOQu98Tw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "login": "wenquan2015"
+  },
+  "id": "PR_kwDODZiUac66y2AZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c0fa2cae3d750489d740069501579959505c2c49"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T14:42:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17715,
+  "state": "MERGED",
+  "title": "net/tcp: fix conn->work use after free in worker queue list",
+  "updatedAt": "2025-12-29T14:42:50Z",
+  "url": "https://github.com/apache/nuttx/pull/17715"
+}

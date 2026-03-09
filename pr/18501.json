@@ -1,5 +1,5 @@
 {
-  "additions": 1320,
+  "additions": 1326,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1MzIwMjg=",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 20,
+  "changedFiles": 22,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-03-06T10:01:56Z",
-  "deletions": 24,
+  "deletions": 26,
   "files": [
     {
       "path": "arch/arm/include/imx9/imx95_irq.h",
@@ -39,6 +39,11 @@
       "path": "arch/arm64/src/imx9/Kconfig",
       "additions": 3,
       "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Make.defs",
+      "additions": 3,
+      "deletions": 1
     },
     {
       "path": "arch/arm64/src/imx9/hardware/imx95/imx95_ccm.h",
@@ -76,14 +81,19 @@
       "deletions": 0
     },
     {
+      "path": "arch/arm64/src/imx9/imx9_gpio.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
       "path": "arch/arm64/src/imx9/imx9_gpiobase.c",
       "additions": 1,
       "deletions": 2
     },
     {
       "path": "arch/arm64/src/imx9/imx9_usdhc.c",
-      "additions": 63,
-      "deletions": 6
+      "additions": 66,
+      "deletions": 5
     },
     {
       "path": "boards/arm64/imx9/imx95-a55-evk/include/board.h",
@@ -117,7 +127,7 @@
     }
   ],
   "headRefName": "imx95_emmc8bit",
-  "headRefOid": "95d44356ea31a03c76208790987d05da674abe1c",
+  "headRefOid": "f594d5e59c5adff012fed14930ea2adbfe0d8612",
   "headRepository": {
     "id": "R_kgDOLHs-vw",
     "name": "nuttx"
@@ -169,6 +179,6 @@
   "number": 18501,
   "state": "OPEN",
   "title": "arch/arm64/imx95-a55: add GPIO and eMMC (USDHC) support with partition table parsing",
-  "updatedAt": "2026-03-09T11:27:25Z",
+  "updatedAt": "2026-03-09T16:23:21Z",
   "url": "https://github.com/apache/nuttx/pull/18501"
 }

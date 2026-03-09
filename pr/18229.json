@@ -1,0 +1,84 @@
+{
+  "additions": 227,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "is_bot": false,
+    "login": "PetervdPerk-NXP",
+    "name": "Peter van der Perk"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-28T13:13:31Z",
+  "createdAt": "2026-01-28T10:10:26Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/include/imx9/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx9/Kconfig",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_gpio.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_gpioirq.c",
+      "additions": 121,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "pr-imx95-m7-gpioirq",
+  "headRefOid": "dac6eed0bdeb6aa8fb80cb95dce5c6156a79d2f9",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDIxNzAxMTM=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "name": "Peter van der Perk",
+    "login": "PetervdPerk-NXP"
+  },
+  "id": "PR_kwDODZiUac6_0GxC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "79ce1647da21d018da7fe60534341d9ecc0f2dd6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T13:13:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18229,
+  "state": "MERGED",
+  "title": "arch/arm: GPIO IMX9 Add support for IRQ line1 and GPIO5",
+  "updatedAt": "2026-01-28T13:13:31Z",
+  "url": "https://github.com/apache/nuttx/pull/18229"
+}

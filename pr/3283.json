@@ -1,0 +1,90 @@
+{
+  "additions": 133,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCotZQw",
+    "is_bot": false,
+    "login": "zs39",
+    "name": "zhangshuai39"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-02T15:29:43Z",
+  "createdAt": "2025-12-26T11:11:56Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "examples/dhcpd/CMakeLists.txt",
+      "additions": 20,
+      "deletions": 16
+    },
+    {
+      "path": "examples/dhcpd/Makefile",
+      "additions": 12,
+      "deletions": 2
+    },
+    {
+      "path": "examples/dhcpd/dhcpd_daemon.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "netutils/dhcpd/dhcpd.c",
+      "additions": 96,
+      "deletions": 54
+    }
+  ],
+  "headRefName": "master04",
+  "headRefOid": "26ed659b250b616ab8b3792ce7eb5bea9fa567e6",
+  "headRepository": {
+    "id": "R_kgDOMmKVrA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCotZQw",
+    "name": "zhangshuai39",
+    "login": "zs39"
+  },
+  "id": "PR_kwDODZiT4866oBV6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6830e297cf0bcb5730b3a4b87b64c01027ed2bc3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-02T15:29:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 3283,
+  "state": "MERGED",
+  "title": "dhcpd: Supports kernel mode compilation",
+  "updatedAt": "2026-01-02T15:29:43Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3283"
+}

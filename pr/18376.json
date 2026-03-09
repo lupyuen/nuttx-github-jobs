@@ -1,0 +1,69 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-11T18:10:31Z",
+  "createdAt": "2026-02-10T19:08:59Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "sched/mqueue/mq_receive.c",
+      "additions": 8,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "improvement/mq_receive_isr",
+  "headRefOid": "6bf4b0e031128a91e158bc8a77206f9ace697d1a",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7C06l4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9cf7d80bab4176c7e2735eabb648c9a5f0551b8f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-11T18:10:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18376,
+  "state": "MERGED",
+  "title": "sched/mqueue: Enable receiving messages on an interrupt handler",
+  "updatedAt": "2026-02-12T12:45:35Z",
+  "url": "https://github.com/apache/nuttx/pull/18376"
+}

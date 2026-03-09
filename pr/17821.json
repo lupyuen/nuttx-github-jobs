@@ -1,0 +1,69 @@
+{
+  "additions": 190,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwNDg2OTQx",
+    "is_bot": false,
+    "login": "liamHowatt",
+    "name": "Liam Howatt"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-11T12:01:46Z",
+  "createdAt": "2026-01-10T19:03:20Z",
+  "deletions": 46,
+  "files": [
+    {
+      "path": "fs/userfs/fs_userfs.c",
+      "additions": 190,
+      "deletions": 46
+    }
+  ],
+  "headRefName": "fix/userfs-iobuf-mutex",
+  "headRefOid": "cfab6733519bf82bef84336101b1a0915a6dbbad",
+  "headRepository": {
+    "id": "R_kgDOMFdNQg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwNDg2OTQx",
+    "name": "Liam Howatt",
+    "login": "liamHowatt"
+  },
+  "id": "PR_kwDODZiUac68fs8k",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "081c2337b7e4d68ac3341aa5d0e033be93d473b1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-11T12:01:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17821,
+  "state": "MERGED",
+  "title": "fs/userfs: keep mutex while reading iobuffer",
+  "updatedAt": "2026-01-11T12:01:46Z",
+  "url": "https://github.com/apache/nuttx/pull/17821"
+}

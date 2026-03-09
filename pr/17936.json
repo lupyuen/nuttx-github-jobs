@@ -1,0 +1,84 @@
+{
+  "additions": 59,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-15T17:38:21Z",
+  "createdAt": "2026-01-15T09:26:55Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "include/fcntl.h",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "libs/libc/misc/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/Make.defs",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/misc/lib_creat.c",
+      "additions": 52,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pse52_add_creat_func",
+  "headRefOid": "5d2009ab2ca281d2e93cb5392c135517e2c42e0a",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac69VyUn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "efa6c6823b38e32b945e5282ee19f5980c7b9a7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T17:38:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17936,
+  "state": "MERGED",
+  "title": "libc: add creat function implementation",
+  "updatedAt": "2026-01-15T17:38:22Z",
+  "url": "https://github.com/apache/nuttx/pull/17936"
+}

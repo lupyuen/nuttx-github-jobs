@@ -1,0 +1,88 @@
+{
+  "additions": 142,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCeG-zg",
+    "is_bot": false,
+    "login": "HedongGao",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-12-27T12:38:47Z",
+  "createdAt": "2025-12-27T08:12:49Z",
+  "deletions": 127,
+  "files": [
+    {
+      "path": "net/socket/sendmsg.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "net/udp/udp_devpoll.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/udp/udp_send.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/udp/udp_sendto_buffered.c",
+      "additions": 117,
+      "deletions": 119
+    },
+    {
+      "path": "net/udp/udp_sendto_unbuffered.c",
+      "additions": 21,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "3007332",
+  "headRefOid": "4263a7917a4ead81b019d5876eedcbad156d2627",
+  "headRepository": {
+    "id": "R_kgDOLouYIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCeG-zg",
+    "login": "HedongGao"
+  },
+  "id": "PR_kwDODZiUac66sDR2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4d525505e47585419dcc0f5fd3b0c6a40f073d10"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-27T12:38:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17699,
+  "state": "MERGED",
+  "title": "net/udp: Support zero-length UDP datagrams",
+  "updatedAt": "2026-01-06T14:33:55Z",
+  "url": "https://github.com/apache/nuttx/pull/17699"
+}

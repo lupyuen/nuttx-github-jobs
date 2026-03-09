@@ -1,0 +1,89 @@
+{
+  "additions": 34,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-27T11:35:31Z",
+  "createdAt": "2026-01-27T03:23:51Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_timer.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wdog/wdog.h",
+      "additions": 5,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "hrtimer_bugfix",
+  "headRefOid": "ec46504521745218a38d0d47c771c64b7cf66143",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6_gJSB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "165f1cc063d80043a4e5e359ab43e3b222f583cb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T11:35:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18174,
+  "state": "MERGED",
+  "title": "sched/hrtimer: fix hrtimer regression introduced by recent update and add support for tickless with hrtimer",
+  "updatedAt": "2026-01-27T12:03:00Z",
+  "url": "https://github.com/apache/nuttx/pull/18174"
+}

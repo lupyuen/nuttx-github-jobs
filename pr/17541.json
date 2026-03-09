@@ -1,0 +1,96 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-18T10:21:55Z",
+  "createdAt": "2025-12-17T11:39:13Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "drivers/virtio/virtio-blk.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/init.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/sched/sched_backtrace.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "20251217_virtio_blk_assert",
+  "headRefOid": "3ecb91227db458498342561b68de0000d7b0ebd8",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac65WgHA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "56bdc0a03567a013a292cda91fdc94fc8357921c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-18T10:21:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17541,
+  "state": "MERGED",
+  "title": "drivers/virtio: if in assert, don't wait semaphore",
+  "updatedAt": "2025-12-18T10:21:55Z",
+  "url": "https://github.com/apache/nuttx/pull/17541"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-17T06:13:07Z",
+  "createdAt": "2026-01-16T06:03:39Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "libs/libc/unistd/lib_gethostname.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/unistd/lib_sethostname.c",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "apache_libs_rm_enter_critical_section",
+  "headRefOid": "a28b06f7380d70b4ebd733980d8d0b4e93920fcc",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69im2e",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "acc833b07df1f3f786ea1c4b49d75ce46729439d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-17T06:13:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17956,
+  "state": "MERGED",
+  "title": "libs/libc: replace critical section with spinlock in hostname operations",
+  "updatedAt": "2026-01-17T06:13:08Z",
+  "url": "https://github.com/apache/nuttx/pull/17956"
+}

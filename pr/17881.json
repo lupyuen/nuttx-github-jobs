@@ -1,0 +1,240 @@
+{
+  "additions": 233,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCtvr1Q",
+    "is_bot": false,
+    "login": "xianglyc",
+    "name": "liwenxiang1"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 34,
+  "closed": true,
+  "closedAt": "2026-01-19T02:46:09Z",
+  "createdAt": "2026-01-14T06:33:26Z",
+  "deletions": 56,
+  "files": [
+    {
+      "path": "arch/x86_64/Kconfig",
+      "additions": 31,
+      "deletions": 14
+    },
+    {
+      "path": "arch/x86_64/include/qemu/arch.h",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/include/qemu/irq.h",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/Kconfig",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "arch/x86_64/src/qemu/CMakeLists.txt",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/qemu/Kconfig",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/x86_64/src/qemu/Make.defs",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/Kconfig",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/earlyfb/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/fb/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/jumbo/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/knsh_romfs/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/knsh_romfs_pci/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh_pci/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh_pci_smp/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/ostest/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/scripts/qemu-kernel.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/scripts/qemu.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/qemu_appinit.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/qemu_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/qemu_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/qemu_intel64.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/qemu_net.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/qemu_reset.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/romfs.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/src/romfs_stub.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "qemu_chip",
+  "headRefOid": "dd33397117bf48d2976bdad86ab3bd46974b1637",
+  "headRepository": {
+    "id": "R_kgDOM0W-2g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCtvr1Q",
+    "name": "liwenxiang1",
+    "login": "xianglyc"
+  },
+  "id": "PR_kwDODZiUac69FPeO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "89eddf63960710eb67e5b35b93dbb04311121529"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T02:46:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17881,
+  "state": "MERGED",
+  "title": "arch/x64: create qemu chip",
+  "updatedAt": "2026-01-19T02:46:10Z",
+  "url": "https://github.com/apache/nuttx/pull/17881"
+}

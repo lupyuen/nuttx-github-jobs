@@ -1,0 +1,130 @@
+{
+  "additions": 177,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-03-03T12:54:12Z",
+  "createdAt": "2026-03-02T13:36:33Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": ".github/labeler.yml",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/testing/citests.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest/config.yaml",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest/run.sh",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest/session.json",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest_smp/config.yaml",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest_smp/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest_smp/run.sh",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest_smp/session.json",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "tools/testbuild.sh",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "arm64_ntfc",
+  "headRefOid": "4fcbe2da664e54a3a037ae29d0cfa5089898ce4a",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac7HVZvq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1845cb05f19963ada780236033056c88956b03eb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-03T12:54:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": {
+    "number": 9,
+    "title": "CI",
+    "description": "Apache NuttX RTOS CI related tasks.",
+    "dueOn": null
+  },
+  "number": 18481,
+  "state": "MERGED",
+  "title": "CI: enable NTFC tests for qemu-armv8a (arm64)",
+  "updatedAt": "2026-03-04T15:23:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18481"
+}

@@ -1,0 +1,361 @@
+{
+  "additions": 7631,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE2NjczMzUw",
+    "is_bot": false,
+    "login": "mzanders",
+    "name": "Maarten Zanders"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 57,
+  "closed": true,
+  "closedAt": "2026-02-28T02:30:06Z",
+  "createdAt": "2026-02-26T16:01:27Z",
+  "deletions": 200,
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "additions": 20,
+      "deletions": 9
+    },
+    {
+      "path": "Documentation/platforms/arm/imx9/boards/imx93-qsb/imx93-qsb-blockdiagram.svg",
+      "additions": 687,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/imx9/boards/imx93-qsb/imx93-qsb.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/imx9/boards/imx93-qsb/index.rst",
+      "additions": 271,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/imx9/imx93_irq.h",
+      "additions": 304,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/imx9/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/Kconfig",
+      "additions": 45,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/imx9/Make.defs",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_ccm.h",
+      "additions": 751,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_clock.h",
+      "additions": 549,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_dmamux.h",
+      "additions": 211,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_edma.h",
+      "additions": 438,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_gpio.h",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_iomux.h",
+      "additions": 608,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_memorymap.h",
+      "additions": 181,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_pinmux.h",
+      "additions": 636,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx93/imx93_pll.h",
+      "additions": 197,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx95/imx95_clock.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx95/imx95_iomuxc.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_ccm.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_clock.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_gpio.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_iomuxc.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_memorymap.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_pinmux.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_rptun.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_rsctable.h",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/hardware/imx9_xcache.h",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_ccm.c",
+      "additions": 173,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_ccm.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_clockconfig.c",
+      "additions": 409,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_iomuxc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_irq.c",
+      "additions": 77,
+      "deletions": 121
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_mu.c",
+      "additions": 53,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_mu.h",
+      "additions": 19,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_rptun.c",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_rsctable.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_scmi.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_xcache.c",
+      "additions": 490,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/CMakeLists.txt",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/Kconfig",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/configs/nsh-ddr/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/configs/nsh/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/configs/rpmsg/defconfig",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/include/board.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/scripts/Make.defs",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/scripts/ddr.ld",
+      "additions": 129,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/scripts/itcm.ld",
+      "additions": 127,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/src/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/src/Makefile",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/src/imx93-qsb.h",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/src/imx93_appinit.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/src/imx93_boardinit.c",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/src/imx93_bringup.c",
+      "additions": 133,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/tools/enable_onboard_debug.py",
+      "additions": 55,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "introduce_imx93-m33",
+  "headRefOid": "2d5f5d12162378b1bca5fbfda29f145afdc3f69f",
+  "headRepository": {
+    "id": "R_kgDORCnCQw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE2NjczMzUw",
+    "name": "Maarten Zanders",
+    "login": "mzanders"
+  },
+  "id": "PR_kwDODZiUac7GlhNw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0db2567eaa9fb569623fa25e074fde9548a41398"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-28T02:30:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18460,
+  "state": "MERGED",
+  "title": "Introduce i.MX93 (M33) and IMX93-QSB board support",
+  "updatedAt": "2026-02-28T02:30:07Z",
+  "url": "https://github.com/apache/nuttx/pull/18460"
+}

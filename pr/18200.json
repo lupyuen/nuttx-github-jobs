@@ -1,0 +1,78 @@
+{
+  "additions": 62,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-28T02:03:07Z",
+  "createdAt": "2026-01-27T12:46:15Z",
+  "deletions": 50,
+  "files": [
+    {
+      "path": "fs/event/event_open.c",
+      "additions": 27,
+      "deletions": 23
+    },
+    {
+      "path": "fs/semaphore/sem_open.c",
+      "additions": 26,
+      "deletions": 22
+    },
+    {
+      "path": "fs/vfs/fs_symlink.c",
+      "additions": 9,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fs_inode_lock",
+  "headRefOid": "ecc837ddc32ae7341a6a6c116f09246b839607af",
+  "headRepository": {
+    "id": "R_kgDOLHs-vw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiUac6_mKWP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9205c60f01612860f0f7433d7a13a5c2348c9da2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T02:03:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18200,
+  "state": "MERGED",
+  "title": "fs: fix inode information update outside of lock in SMP scene",
+  "updatedAt": "2026-01-28T02:03:07Z",
+  "url": "https://github.com/apache/nuttx/pull/18200"
+}

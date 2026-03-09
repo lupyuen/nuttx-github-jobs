@@ -1,0 +1,74 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-20T03:29:23Z",
+  "createdAt": "2026-01-16T05:53:16Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "include/nuttx/addrenv.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/addrenv/addrenv.c",
+      "additions": 4,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "apache_addrenv_remove_enter_critical_section",
+  "headRefOid": "d391c43c45b631ecadc4326555485b08b71afe92",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69ifEF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2c1e3d6ed0be101f0c09605db8ad88aee2a96f8a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-20T03:29:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17955,
+  "state": "MERGED",
+  "title": "sched/addrenv: replace critical section with spinlock for refs protec…",
+  "updatedAt": "2026-01-20T03:29:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17955"
+}

@@ -1,0 +1,384 @@
+{
+  "additions": 832,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 64,
+  "closed": true,
+  "closedAt": "2026-03-01T19:37:21Z",
+  "createdAt": "2026-02-24T16:09:17Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/sensors/adt7320.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/adxl345_i2c.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/adxl345_spi.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/adxl372.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/aht10.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ak09912.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/amg88xx.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/apds9922.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/apds9960.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/as726x.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bh1749nuc.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bh1750fvi.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmg160.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmi088.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmi160.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmi270.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmp180.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/cxd5602pwbimu.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/dhtxx.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/fxos8700cq.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/hc_sr04.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/hdc1008.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/hts221.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ina219.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ina226.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ina3221.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/isl29023.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/kxtj9.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lis2dh.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lis331dl.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lis3dh.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lis3dsh.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lis3mdl.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lm75.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lm92.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lps25h.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm303agr.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm330_spi.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm6dsl.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm9ds1.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ltc4151.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/max31855.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/max31865.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/max44009.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/max6675.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mb7040.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mcp9844.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mlx90393.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mlx90614.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mpl115a.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mpu60x0.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ms58xx.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/msa301.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/scd30.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/scd41.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/sgp30.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/sht21.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/sht3x.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/sps30.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/t67xx.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/tmp112.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/veml6070.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/vl53l1x.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/xen1210.c",
+      "additions": 13,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "legacy-sensor-warning",
+  "headRefOid": "b815aaad51211417e7f0df29f2f63741c6aada92",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac7F-ip2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6cffe9b0b45cfacbe6a4cb18d2a4f64fa03bb764"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-01T19:37:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18435,
+  "state": "MERGED",
+  "title": "drivers/sensors: Legacy sensor warning",
+  "updatedAt": "2026-03-01T19:37:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18435"
+}

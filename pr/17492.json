@@ -1,0 +1,103 @@
+{
+  "additions": 115,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC1JDKw",
+    "is_bot": false,
+    "login": "yangsong8-a1",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-12-13T08:45:07Z",
+  "createdAt": "2025-12-12T15:11:16Z",
+  "deletions": 88,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbdev/composite.c",
+      "additions": 9,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/usbdev/composite.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbdev/usbdev_fs.c",
+      "additions": 26,
+      "deletions": 23
+    },
+    {
+      "path": "drivers/usbdev/usbdev_trace.c",
+      "additions": 12,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/usbdev/usbmsc.c",
+      "additions": 23,
+      "deletions": 17
+    },
+    {
+      "path": "drivers/usbdev/usbmsc.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbdev/usbmsc_scsi.c",
+      "additions": 36,
+      "deletions": 35
+    }
+  ],
+  "headRefName": "usbdevspinlock",
+  "headRefOid": "3c7a79faf427fef85d37efca885c29df1303e4df",
+  "headRepository": {
+    "id": "R_kgDONV3wlw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC1JDKw",
+    "login": "yangsong8-a1"
+  },
+  "id": "PR_kwDODZiUac64lgoj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "67584d99819ebaf0fdab6c658477c22b8363cad8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-13T08:45:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17492,
+  "state": "MERGED",
+  "title": "usbdev: replace critical_section with spinlock",
+  "updatedAt": "2025-12-13T08:45:07Z",
+  "url": "https://github.com/apache/nuttx/pull/17492"
+}

@@ -1,0 +1,172 @@
+{
+  "additions": 455,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB84a4g",
+    "is_bot": false,
+    "login": "Shanks0224",
+    "name": "GanJing<Saiyan>"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": true,
+  "closedAt": "2026-01-27T13:27:53Z",
+  "createdAt": "2026-01-26T07:28:43Z",
+  "deletions": 340,
+  "files": [
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_ummheap.c",
+      "additions": 357,
+      "deletions": 273
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/asan/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/mnemofs/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/nand/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfsmeminfo.c",
+      "additions": 25,
+      "deletions": 19
+    },
+    {
+      "path": "include/nuttx/fs/procfs.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/mm.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "mm/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_foreach.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_initialize.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm_mallinfo.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "mm/tlsf/mm_tlsf.c",
+      "additions": 16,
+      "deletions": 17
+    },
+    {
+      "path": "mm/umm_heap/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 23
+    },
+    {
+      "path": "mm/umm_heap/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "b66b7670f3f8a02d41798e49f7bb97b271995969",
+  "headRepository": {
+    "id": "R_kgDOQ8jgDg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB84a4g",
+    "name": "GanJing<Saiyan>",
+    "login": "Shanks0224"
+  },
+  "id": "PR_kwDODZiUac6_Tpf0",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "206aaa86125c36e62b3c5701335bd0a3df112c38"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T13:27:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18152,
+  "state": "MERGED",
+  "title": "mm: implement custom umm heap, and enable heap management on the simulator",
+  "updatedAt": "2026-01-27T13:27:54Z",
+  "url": "https://github.com/apache/nuttx/pull/18152"
+}

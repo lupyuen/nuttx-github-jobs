@@ -1,0 +1,281 @@
+{
+  "additions": 307,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 29,
+  "closed": true,
+  "closedAt": "2025-12-22T09:55:45Z",
+  "createdAt": "2025-12-17T12:27:50Z",
+  "deletions": 335,
+  "files": [
+    {
+      "path": "Documentation/guides/kernel_threads_with_custom_stacks.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/common/arm_fork.c",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fork.c",
+      "additions": 40,
+      "deletions": 40
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_fork.c",
+      "additions": 13,
+      "deletions": 13
+    },
+    {
+      "path": "arch/mips/src/mips32/mips_fork.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_fork.c",
+      "additions": 43,
+      "deletions": 43
+    },
+    {
+      "path": "arch/sim/src/sim/sim_fork.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_fork.c",
+      "additions": 16,
+      "deletions": 16
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "binfmt/binfmt_execmodule.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 6,
+      "deletions": 29
+    },
+    {
+      "path": "sched/group/group.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "sched/group/group_join.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "sched/group/group_setuptaskfiles.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "sched/pthread/pthread.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 38,
+      "deletions": 36
+    },
+    {
+      "path": "sched/task/task.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_argvstr.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_create.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_fork.c",
+      "additions": 17,
+      "deletions": 18
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 16,
+      "deletions": 17
+    },
+    {
+      "path": "sched/task/task_setup.c",
+      "additions": 10,
+      "deletions": 12
+    },
+    {
+      "path": "sched/task/task_spawn.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/utils.py",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "20251217_tcb_cast",
+  "headRefOid": "8ea7e0c773e62c2e7b892344bfc55b01674c862f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac65XEnX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0e92053bd9d6a1415db43860bf82353d00e0989a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-22T09:55:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17545,
+  "state": "MERGED",
+  "title": "sched: merge task_tcb_s and pthread_tcb_s into tcb to simplify the code.",
+  "updatedAt": "2025-12-22T09:55:45Z",
+  "url": "https://github.com/apache/nuttx/pull/17545"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 32,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-09T08:21:51Z",
+  "createdAt": "2026-02-05T20:52:20Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "testing/ostest/sporadic.c",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/sporadic2.c",
+      "additions": 11,
+      "deletions": 5
+    },
+    {
+      "path": "testing/sched/smp/smp_main.c",
+      "additions": 11,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "remove-loopspermsec",
+  "headRefOid": "9531eceef6ef53a92e836bbd607d0ef337b619b6",
+  "headRepository": {
+    "id": "R_kgDOMXy84w",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiT487B1Hc7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7289c27a8509c4943ee359644067b9e9326e93eb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-09T08:21:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 3401,
+  "state": "MERGED",
+  "title": "testing/{ostest,sched/smp}: Remove BOARD_LOOPSPERMSEC references",
+  "updatedAt": "2026-02-09T08:21:51Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3401"
+}

@@ -1,0 +1,68 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "is_bot": false,
+    "login": "wenquan2015",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-29T13:33:19Z",
+  "createdAt": "2025-12-29T08:17:16Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "6174609",
+  "headRefOid": "a01a5b63393dc03b81de2352523139649894b38c",
+  "headRepository": {
+    "id": "R_kgDOQu98Tw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "login": "wenquan2015"
+  },
+  "id": "PR_kwDODZiUac66ypt8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "11ea1de01dd34b91aa23c745999e87102c37c748"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T13:33:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "milestone": null,
+  "number": 17714,
+  "state": "MERGED",
+  "title": "net/tcp: fix tcp conn lock leak when port in use in tcp_selectport",
+  "updatedAt": "2025-12-29T13:33:19Z",
+  "url": "https://github.com/apache/nuttx/pull/17714"
+}

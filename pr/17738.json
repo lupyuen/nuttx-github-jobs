@@ -1,0 +1,104 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-12-30T14:26:28Z",
+  "createdAt": "2025-12-30T11:54:54Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "boards/arm/nrf53/common/scripts/flash_app.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-audio-dk/scripts/flash_app.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/scripts/flash_app.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/scripts/flash_app.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h745zi/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "boards_openamp_bin",
+  "headRefOid": "4b4bdea7a32dac08c5abfa8e59a7b0e2541f798c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac669PTb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "53fccb56c955d971c45feaedcac482be2e623eac"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T14:26:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17738,
+  "state": "MERGED",
+  "title": "boards/{nrf53|stm32h7}: mark shmem region as NOLOAD",
+  "updatedAt": "2025-12-30T14:26:28Z",
+  "url": "https://github.com/apache/nuttx/pull/17738"
+}

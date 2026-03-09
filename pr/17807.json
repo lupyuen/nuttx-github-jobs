@@ -1,0 +1,115 @@
+{
+  "additions": 357,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-01-08T14:44:35Z",
+  "createdAt": "2026-01-08T11:27:15Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/sim/sim/sim/configs/rpproxy/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rpserver/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_test.c",
+      "additions": 281,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_test.h",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg.h",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-test",
+  "headRefOid": "80e35af3960123dca84fb7c900b75e79d963e3f7",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac68Gclk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "45f6d86f37fceed4e0267bb05ef22a6f2344b6bf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-08T14:44:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17807,
+  "state": "MERGED",
+  "title": "Rpmsg test: add rpmsg test service to test the rpmsg apis",
+  "updatedAt": "2026-01-08T14:44:35Z",
+  "url": "https://github.com/apache/nuttx/pull/17807"
+}

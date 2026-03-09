@@ -1,0 +1,164 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 20,
+  "closed": true,
+  "closedAt": "2025-12-23T02:24:00Z",
+  "createdAt": "2025-12-22T12:02:43Z",
+  "deletions": 58,
+  "files": [
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/src/k64_bringup.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k66f/src/k66_bringup.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/nrf52/arduino-nano-33ble-rev2/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/arduino-nano-33ble/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-dk/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-mdk/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-sparkfun/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dongle/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/xiao-nrf52840/src/nrf52_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-audio-dk/src/nrf53_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/nrf53_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf91/nrf9160-dk/src/nrf91_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_board.h",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/samv71-xult.h",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f401re/src/stm32_bringup.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f411re/src/stm32_bringup.c",
+      "additions": 1,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "bp-17576",
+  "headRefOid": "dcf72af495e8385e5286951db607991d9d438952",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66IMnE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fa2d9e555a7e2696f344e1d95731437e6fc21828"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T02:24:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17637,
+  "state": "MERGED",
+  "title": "{bp-17576} boards/leds: remove dependency on leds example for some boards",
+  "updatedAt": "2025-12-23T05:31:52Z",
+  "url": "https://github.com/apache/nuttx/pull/17637"
+}

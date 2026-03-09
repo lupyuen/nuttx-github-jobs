@@ -1,0 +1,89 @@
+{
+  "additions": 195,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC1JDKw",
+    "is_bot": false,
+    "login": "yangsong8-a1",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-05T01:59:07Z",
+  "createdAt": "2025-12-12T07:14:04Z",
+  "deletions": 37,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/posix/sim_libusb.c",
+      "additions": 90,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usbhost.c",
+      "additions": 87,
+      "deletions": 35
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usbhost.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/usb/usb.h",
+      "additions": 8,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "usbhostiso",
+  "headRefOid": "f37e0995aaa1b5a30ac113b82b6789a99a583585",
+  "headRepository": {
+    "id": "R_kgDONV3wlw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC1JDKw",
+    "login": "yangsong8-a1"
+  },
+  "id": "PR_kwDODZiUac64gggN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "59f200ac4fe6c940dc0eab2155bb3cb566724082"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-05T01:59:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17484,
+  "state": "MERGED",
+  "title": "arch/sim: USB host support isochronous transfer endpoint",
+  "updatedAt": "2026-01-05T01:59:07Z",
+  "url": "https://github.com/apache/nuttx/pull/17484"
+}

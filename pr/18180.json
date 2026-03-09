@@ -1,0 +1,94 @@
+{
+  "additions": 56,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "is_bot": false,
+    "login": "Otpvondoiats",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-27T11:34:33Z",
+  "createdAt": "2026-01-27T03:57:03Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "drivers/sensors/bmi160_uorb.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/sensors/goldfish_sensor_uorb.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/sensors/l3gd20_uorb.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/sensor.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/uorb.h",
+      "additions": 37,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "lk_fe",
+  "headRefOid": "f0e60fe7038097086b081e3f0a0cb4ba1a5450db",
+  "headRepository": {
+    "id": "R_kgDOKDOGGg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "login": "Otpvondoiats"
+  },
+  "id": "PR_kwDODZiUac6_gWSa",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c52d54d500c3fe28d32adcfdee19c86108cf53a0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T11:34:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18180,
+  "state": "MERGED",
+  "title": "drivers/sensors: Remove the uncalibrated member of the sensor lowerhalf layer part 5",
+  "updatedAt": "2026-01-27T11:34:33Z",
+  "url": "https://github.com/apache/nuttx/pull/18180"
+}

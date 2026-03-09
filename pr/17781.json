@@ -1,0 +1,89 @@
+{
+  "additions": 19,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-08T14:47:17Z",
+  "createdAt": "2026-01-07T02:53:58Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "sched/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 8,
+      "deletions": 11
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_initialize.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 6,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "hrtimer_non_smp",
+  "headRefOid": "0fc8797e85a2dff33d087a90df4d9ceddb6d149f",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac670302",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "96e8fce4dedf0ea8bc2272eb28a15f7ce889be58"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-08T14:47:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17781,
+  "state": "MERGED",
+  "title": "sched/hrtimer: isolate SMP logic in hrtimer",
+  "updatedAt": "2026-01-08T23:23:51Z",
+  "url": "https://github.com/apache/nuttx/pull/17781"
+}

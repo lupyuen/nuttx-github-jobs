@@ -1,0 +1,272 @@
+{
+  "additions": 4987,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 43,
+  "closed": true,
+  "closedAt": "2026-02-03T19:28:48Z",
+  "createdAt": "2026-01-16T03:38:59Z",
+  "deletions": 192,
+  "files": [
+    {
+      "path": "testing/ltp/CMakeLists.txt",
+      "additions": 599,
+      "deletions": 132
+    },
+    {
+      "path": "testing/ltp/Makefile",
+      "additions": 480,
+      "deletions": 60
+    },
+    {
+      "path": "testing/ltp/include/asm/posix_types.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/asm/types.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/features.h",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/grp.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/lapi/posix_clocks.h",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/lapi/syscalls.h",
+      "additions": 563,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/libaio.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/errno.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/fs.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/futex.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/if_tun.h",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/input.h",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/kernel.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/limits.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/loop.h",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/mman.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/net.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/random.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/rtc.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/types.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/linux/unistd.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/ltp_priv.h",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/mntent.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sched.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/endian.h",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/fsuid.h",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/mman.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/param.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/personality.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/ptrace.h",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/quota.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/sem.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/timex.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/ttydefaults.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/user.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/sys/xattr.h",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/ulimit.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/unistd.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/include/values.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/src/dummy.c",
+      "additions": 142,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ltp/src/nx_syscall.c",
+      "additions": 1764,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ltp_linux_kernel_build_support",
+  "headRefOid": "c8175c8510988f1b3e8b5d7e23fd6e3c3ccdc5f1",
+  "headRepository": {
+    "id": "R_kgDOKC0MMA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiT4869hTjO",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3336,
+  "state": "CLOSED",
+  "title": "Ltp linux kernel testcases build and running support",
+  "updatedAt": "2026-02-03T19:28:48Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3336"
+}

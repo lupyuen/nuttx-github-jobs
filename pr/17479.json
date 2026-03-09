@@ -1,0 +1,95 @@
+{
+  "additions": 151,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "is_bot": false,
+    "login": "chirping78",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-13T05:31:47Z",
+  "createdAt": "2025-12-11T08:30:29Z",
+  "deletions": 42,
+  "files": [
+    {
+      "path": "Documentation/applications/system/gprof/index.rst",
+      "additions": 75,
+      "deletions": 42
+    },
+    {
+      "path": "libs/libc/machine/xtensa/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/xtensa/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/xtensa/arch_mcount.c",
+      "additions": 68,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "xtensa-mcount",
+  "headRefOid": "3ce5e544d12b6054920ad8f2eb35d2ccedd636d7",
+  "headRepository": {
+    "id": "R_kgDOKFafoQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "login": "chirping78"
+  },
+  "id": "PR_kwDODZiUac64TXoS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "43405d34c4950fb25c17ca16d120fe824c7da1ea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-13T05:31:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17479,
+  "state": "MERGED",
+  "title": "libc/machine/xtensa: add mcount implementation for gprof",
+  "updatedAt": "2025-12-13T05:31:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17479"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 57,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-02-26T09:04:48Z",
+  "createdAt": "2026-02-26T03:00:19Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "Documentation/reference/os/sleep.rst",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_sleep.c",
+      "additions": 26,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "improve_nxsched_sleep",
+  "headRefOid": "3e20e5f8c8c9b48361a516750f7430ebdcd375d3",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac7GaQWg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c7b2313cdd20bbf88cb7a7219238fd51e22cf36d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-26T09:04:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 18444,
+  "state": "MERGED",
+  "title": "sched/sched: Add nxsched_abstick_sleep() and make nxsched_ticksleep() a wrapper around it",
+  "updatedAt": "2026-02-27T01:02:50Z",
+  "url": "https://github.com/apache/nuttx/pull/18444"
+}

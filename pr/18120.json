@@ -1,0 +1,181 @@
+{
+  "additions": 85,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCe4Y1A",
+    "is_bot": false,
+    "login": "zhaoxingyu12",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 20,
+  "closed": true,
+  "closedAt": "2026-01-26T02:52:51Z",
+  "createdAt": "2026-01-23T02:43:27Z",
+  "deletions": 52,
+  "files": [
+    {
+      "path": "boards/arm/samd5e5/metro-m4/src/sam_smartfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/same70-xplained/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/same70-xplained/src/same70-xplained.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/samv71-xult.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/Kconfig",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/configs/demo/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/src/stm32_flash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/src/esp32c3_board_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/nvcfgdata/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_spiflash.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_spiflash.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/mtd/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/mtd/Kconfig",
+      "additions": 20,
+      "deletions": 13
+    },
+    {
+      "path": "drivers/mtd/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/mtd/filemtd.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/mtd/mtd_config.c",
+      "additions": 37,
+      "deletions": 10
+    },
+    {
+      "path": "drivers/mtd/mtd_config_nvs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/fs/loopmtd.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "mtdconfig_name",
+  "headRefOid": "29acffb8c4fbbd400a6ef10ed8684a930884684c",
+  "headRepository": {
+    "id": "R_kgDOLsTOhw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCe4Y1A",
+    "login": "zhaoxingyu12"
+  },
+  "id": "PR_kwDODZiUac6-1VQn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "58ae8e9605f2c347759b8a0951fcf8bd011c6079"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T02:52:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18120,
+  "state": "MERGED",
+  "title": "Modify the Kconfig name of the mtdconfig module",
+  "updatedAt": "2026-01-26T02:52:52Z",
+  "url": "https://github.com/apache/nuttx/pull/18120"
+}

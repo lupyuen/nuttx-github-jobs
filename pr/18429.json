@@ -1,0 +1,79 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-02-24T11:57:46Z",
+  "createdAt": "2026-02-24T08:36:20Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_crypto.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_crypto.c",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/esp_crypto_bugfix",
+  "headRefOid": "3a79d7c2550d54781fe2bc205abe3da0ea4a3905",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac7F283R",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "90147a72c2c2edcbc92620306a222017d63b119c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-24T11:57:46Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18429,
+  "state": "MERGED",
+  "title": "arch/risc-v/espressif: Fix SHA errors",
+  "updatedAt": "2026-02-24T11:57:46Z",
+  "url": "https://github.com/apache/nuttx/pull/18429"
+}

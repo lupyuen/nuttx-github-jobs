@@ -1,0 +1,107 @@
+{
+  "additions": 78,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NDY5NjA1",
+    "is_bot": false,
+    "login": "adwait-godbole",
+    "name": "Adwait Godbole"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-02-05T13:23:19Z",
+  "createdAt": "2026-02-01T19:05:25Z",
+  "deletions": 54,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 19,
+      "deletions": 14
+    },
+    {
+      "path": "include/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/Unix.mk",
+      "additions": 3,
+      "deletions": 6
+    },
+    {
+      "path": "tools/host_info_dump.py",
+      "additions": 34,
+      "deletions": 20
+    },
+    {
+      "path": "tools/host_info_parse.py",
+      "additions": 21,
+      "deletions": 14
+    }
+  ],
+  "headRefName": "tools/host_info-fix",
+  "headRefOid": "061c4c79a0eef16b3468115d41f1802eed6f7596",
+  "headRepository": {
+    "id": "R_kgDORFWekw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NDY5NjA1",
+    "name": "Adwait Godbole",
+    "login": "adwait-godbole"
+  },
+  "id": "PR_kwDODZiUac7Av3iM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "83c11b29a9edf0c7719d463f39cabfa16e445744"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-05T13:23:19Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18299,
+  "state": "MERGED",
+  "title": "tools: fix `make host_info` flag parsing and config string escaping",
+  "updatedAt": "2026-02-05T13:23:20Z",
+  "url": "https://github.com/apache/nuttx/pull/18299"
+}

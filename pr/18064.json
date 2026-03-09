@@ -1,0 +1,100 @@
+{
+  "additions": 2014,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-26T02:55:58Z",
+  "createdAt": "2026-01-21T06:49:44Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/crypto.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/cryptosoft.c",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/ecc.c",
+      "additions": 1780,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/ecc.h",
+      "additions": 149,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "crypto-ecc-docs-only-20260121",
+  "headRefOid": "db29f5e6e7d8fdd73385c2670544acf798cdecdd",
+  "headRepository": {
+    "id": "R_kgDOKAa8wg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiUac6-YMru",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "85ba80a90e4f0049178be15d5f350af2a0c0ed22"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T02:55:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18064,
+  "state": "MERGED",
+  "title": "Crypto: export ecc software",
+  "updatedAt": "2026-01-26T02:55:58Z",
+  "url": "https://github.com/apache/nuttx/pull/18064"
+}

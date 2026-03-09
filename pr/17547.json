@@ -1,0 +1,120 @@
+{
+  "additions": 566,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-12-18T14:19:44Z",
+  "createdAt": "2025-12-17T12:47:49Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/arm/src/armv8-m/arm_mpu.c",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/mpu.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mps/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mps/hardware/mps_memorymap.h",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/mps/mps_allocateheap.c",
+      "additions": 26,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/knsh/defconfig",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/kernel/Makefile",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/kernel/mps_userspace.c",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/scripts/memory.ld",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/scripts/user-space.ld",
+      "additions": 107,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "20251217_mps_knsh",
+  "headRefOid": "571283a31f6bc683f2f5f733ab1ead2812a0fb26",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac65XSte",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb8da4b89d8c7fe86975644188e74df2b28d134e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-18T14:19:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17547,
+  "state": "MERGED",
+  "title": "boards/arm/mps3-an547: enable protected mode support",
+  "updatedAt": "2025-12-18T14:19:44Z",
+  "url": "https://github.com/apache/nuttx/pull/17547"
+}

@@ -1,0 +1,127 @@
+{
+  "additions": 130,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2026-02-03T19:43:06Z",
+  "createdAt": "2026-01-28T10:57:38Z",
+  "deletions": 124,
+  "files": [
+    {
+      "path": "drivers/power/pm/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/power/pm/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/power/pm/activity_governor.c",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/power/pm/pm.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/power/pm/pm_activity.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/power/pm/pm_autoupdate.c",
+      "additions": 2,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/power/pm/pm_changestate.c",
+      "additions": 94,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/power/pm/pm_checkstate.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/power/pm/pm_initialize.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/power/pm/pm_lock.c",
+      "additions": 0,
+      "deletions": 75
+    },
+    {
+      "path": "drivers/power/pm/pm_procfs.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/power/pm/pm_register.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/power/pm/pm_unregister.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/power/pm.h",
+      "additions": 23,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pm",
+  "headRefOid": "45c9207b20f9ad019ac2a285837ed6c47769304d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6_0wk6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18234,
+  "state": "CLOSED",
+  "title": "driver/power: three improvements to the pm subsystem",
+  "updatedAt": "2026-02-03T19:43:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18234"
+}

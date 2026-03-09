@@ -1,0 +1,99 @@
+{
+  "additions": 90,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-12-21T13:23:39Z",
+  "createdAt": "2025-12-19T09:01:28Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "Documentation/reference/os/hrtimer_state_machine.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/reference/os/time_clock.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 51,
+      "deletions": 14
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_start.c",
+      "additions": 16,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "fix_hrtimer_bug_on_smp",
+  "headRefOid": "b5a9df7db5b8340f88f06eb005db22a23b449454",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac65x92I",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17570,
+  "state": "CLOSED",
+  "title": "sched/hrtimr: Update hrtimer state-machine to allow RUNNING/ARMED hrtimer to be restarted",
+  "updatedAt": "2026-01-11T07:40:37Z",
+  "url": "https://github.com/apache/nuttx/pull/17570"
+}

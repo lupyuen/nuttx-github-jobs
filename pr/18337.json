@@ -1,0 +1,432 @@
+{
+  "additions": 6368,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 51,
+  "closed": true,
+  "closedAt": "2026-02-03T19:25:37Z",
+  "createdAt": "2026-02-03T09:39:08Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/arm/include/arm/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv6-m/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-a/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-m/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-r/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv8-m/irq.h",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/armv8-r/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/tlsr82/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_initialize.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_pmuv3.c",
+      "additions": 1069,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_pmuv3.h",
+      "additions": 452,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/include/avr/irq.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/include/avr32/irq.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "arch/ceva/include/xc5/irq.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "arch/ceva/include/xm6/irq.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "arch/hc/include/irq.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/mips/include/irq.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/misoc/include/irq.h",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/or1k/include/irq.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/include/m16c/irq.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/include/rx65n/irq.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/include/sh1/irq.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/irq.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/include/irq.h",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sparc/include/irq.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/irq.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86/include/i486/irq.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/include/intel64/irq.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/include/irq.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z16/include/irq.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z80/include/irq.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/perf.h",
+      "additions": 897,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sched_note.h",
+      "additions": 5,
+      "deletions": 7
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_perf.c",
+      "additions": 3025,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_switchcontext.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_activate.c",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task_exithook.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/perfaddmmap.py",
+      "additions": 292,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "perf",
+  "headRefOid": "48a024cdf3b9dc9a97e3cd157088edac8fe90895",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7BI_dX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP2Vg",
+      "name": "Arch: hc",
+      "description": "Issues related to HC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18337,
+  "state": "CLOSED",
+  "title": "perf: Supports implementations of perf and arm64 PMU.",
+  "updatedAt": "2026-02-03T19:25:37Z",
+  "url": "https://github.com/apache/nuttx/pull/18337"
+}

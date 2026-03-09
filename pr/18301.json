@@ -1,0 +1,106 @@
+{
+  "additions": 1199,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC7cL0w",
+    "is_bot": false,
+    "login": "vrmay23",
+    "name": "vinicius"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-02-19T12:19:14Z",
+  "createdAt": "2026-02-01T19:42:31Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/lcd/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/lcd/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/lcd/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/lcd/st7796.c",
+      "additions": 999,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/lcd/st7796.h",
+      "additions": 178,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/video/fb.h",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "up_st7796_driver",
+  "headRefOid": "8f4fedd33611170c0c199bf6dbf7f2736f33a790",
+  "headRepository": {
+    "id": "R_kgDOOh7X8Q",
+    "name": "my_nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC7cL0w",
+    "name": "vinicius",
+    "login": "vrmay23"
+  },
+  "id": "PR_kwDODZiUac7AwFMg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "96a49bc7f78b2ca6271e919e16327253d06ec3e3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-19T12:19:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18301,
+  "state": "MERGED",
+  "title": "drivers/lcd: Add ST7796 TFT LCD framebuffer driver",
+  "updatedAt": "2026-02-19T12:19:14Z",
+  "url": "https://github.com/apache/nuttx/pull/18301"
+}

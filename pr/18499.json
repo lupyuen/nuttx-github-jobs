@@ -1,0 +1,74 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0ODk3MDA4",
+    "is_bot": false,
+    "login": "resyfer",
+    "name": "Saurav Pal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-03-08T18:30:40Z",
+  "createdAt": "2026-03-05T17:52:47Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "arch/arm64/include/bcm2711/chip.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_gpio.c",
+      "additions": 6,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "rpi",
+  "headRefOid": "797a9b5104a1ca603373f6617399cd723373ffa4",
+  "headRepository": {
+    "id": "R_kgDOLK57Ig",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0ODk3MDA4",
+    "name": "Saurav Pal",
+    "login": "resyfer"
+  },
+  "id": "PR_kwDODZiUac7IR4C-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8ddcf8148458e9cbdf761069688bd6f8cb756330"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-08T18:30:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18499,
+  "state": "MERGED",
+  "title": "boards/arm64/bcm2711/raspberrypi-4b: Fix GPIO",
+  "updatedAt": "2026-03-08T19:05:47Z",
+  "url": "https://github.com/apache/nuttx/pull/18499"
+}

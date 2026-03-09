@@ -1,0 +1,84 @@
+{
+  "additions": 46,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-26T11:43:54Z",
+  "createdAt": "2026-01-26T09:08:14Z",
+  "deletions": 15,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_arch.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_gicv3.c",
+      "additions": 0,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_mpu.c",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_mpu.h",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "apache_arm64_enhancement",
+  "headRefOid": "50be91c24c973d572a69ec91641f2218484ecbd2",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_Umbd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0383808b325086d3a097a2d5909b7a42060e183b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T11:43:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18158,
+  "state": "MERGED",
+  "title": "arch/arm64: Enhance MPU with background region and region query interface",
+  "updatedAt": "2026-01-26T11:43:54Z",
+  "url": "https://github.com/apache/nuttx/pull/18158"
+}

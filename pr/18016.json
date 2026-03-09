@@ -1,0 +1,109 @@
+{
+  "additions": 106,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEyMDY5Njc4",
+    "is_bot": false,
+    "login": "fxysunshine",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-01-21T12:31:35Z",
+  "createdAt": "2026-01-19T12:15:05Z",
+  "deletions": 104,
+  "files": [
+    {
+      "path": "arch/arm/include/armv8-r/irq.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/init.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/spawn/lib_psa_init.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task_cancelpt.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_getpid.c",
+      "additions": 3,
+      "deletions": 6
+    },
+    {
+      "path": "sched/task/task_setup.c",
+      "additions": 69,
+      "deletions": 57
+    },
+    {
+      "path": "sched/task/task_spawnparms.c",
+      "additions": 24,
+      "deletions": 32
+    }
+  ],
+  "headRefName": "misra-fixes-20260119",
+  "headRefOid": "79151bbc912b58f90fe6a84905b77513f21b4fa2",
+  "headRepository": {
+    "id": "R_kgDOJLyY7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEyMDY5Njc4",
+    "login": "fxysunshine"
+  },
+  "id": "PR_kwDODZiUac69_njx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cd958831d8ed7563de05ce2d4accebb78188c012"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-21T12:31:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18016,
+  "state": "MERGED",
+  "title": "sched/task: MISRA/Coverity cleanups in scheduler, init, libc spawn, and ARMv8-R IRQ helpers",
+  "updatedAt": "2026-01-21T13:51:30Z",
+  "url": "https://github.com/apache/nuttx/pull/18016"
+}

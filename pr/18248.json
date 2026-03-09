@@ -1,0 +1,84 @@
+{
+  "additions": 158,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-29T12:26:50Z",
+  "createdAt": "2026-01-28T14:06:21Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "openamp/0016-lib-rpmsg_virtio-support-release-the-name-service-me.patch",
+      "additions": 148,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/open-amp.cmake",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "openamp/open-amp.defs",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-release-earlier",
+  "headRefOid": "1aee52957223179e479f2c9da6186ef9d2e806e0",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac6_3byw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "16763e4c67cf70e7a003d604e53d8c573bf4062c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-29T12:26:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18248,
+  "state": "MERGED",
+  "title": "drivers/rpmsg: support release the rx buffer early in endpoint callback",
+  "updatedAt": "2026-01-29T12:26:50Z",
+  "url": "https://github.com/apache/nuttx/pull/18248"
+}

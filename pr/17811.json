@@ -1,0 +1,88 @@
+{
+  "additions": 90,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODtEzxg",
+    "is_bot": false,
+    "login": "Zfeather914",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-09T09:11:25Z",
+  "createdAt": "2026-01-09T04:01:28Z",
+  "deletions": 152,
+  "files": [
+    {
+      "path": "fs/inode/fs_files.c",
+      "additions": 35,
+      "deletions": 80
+    },
+    {
+      "path": "fs/mqueue/mq_open.c",
+      "additions": 11,
+      "deletions": 5
+    },
+    {
+      "path": "fs/shm/shm_open.c",
+      "additions": 13,
+      "deletions": 5
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 11,
+      "deletions": 9
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 20,
+      "deletions": 53
+    }
+  ],
+  "headRefName": "work",
+  "headRefOid": "7ab413030ee44c67929c88b18ed2d59ad6bef6ab",
+  "headRepository": {
+    "id": "R_kgDOQlLwvg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODtEzxg",
+    "login": "Zfeather914"
+  },
+  "id": "PR_kwDODZiUac68QD7P",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "148f0ce7dd0fcf01547899ce0591234a2346edb4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-09T09:11:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17811,
+  "state": "MERGED",
+  "title": "fs/inode: using file_allocate and file_dup to avoid racecondition to allocate new fd",
+  "updatedAt": "2026-01-09T09:11:25Z",
+  "url": "https://github.com/apache/nuttx/pull/17811"
+}

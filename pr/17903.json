@@ -1,0 +1,137 @@
+{
+  "additions": 106,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODylToQ",
+    "is_bot": false,
+    "login": "zhangyu-duck",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2026-01-14T12:05:40Z",
+  "createdAt": "2026-01-14T12:01:39Z",
+  "deletions": 188,
+  "files": [
+    {
+      "path": "arch/tricore/include/inttypes.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/include/irq.h",
+      "additions": 43,
+      "deletions": 30
+    },
+    {
+      "path": "arch/tricore/src/common/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/Make.defs",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_csa.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_doirq.c",
+      "additions": 16,
+      "deletions": 28
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_exit.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_initialize.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 1,
+      "deletions": 21
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_schedulesigaction.c",
+      "additions": 10,
+      "deletions": 9
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_sigdeliver.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_svcall.c",
+      "additions": 22,
+      "deletions": 56
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_switchcontext.c",
+      "additions": 1,
+      "deletions": 26
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_trapcall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "tricore_sched",
+  "headRefOid": "18845038c8a875246f357b01470ae6d367e2dc61",
+  "headRepository": {
+    "id": "R_kgDOQ4CDWw",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODylToQ",
+    "login": "zhangyu-duck"
+  },
+  "id": "PR_kwDODZiUac69JASv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17903,
+  "state": "CLOSED",
+  "title": "Tricore sched optimization",
+  "updatedAt": "2026-01-14T12:18:20Z",
+  "url": "https://github.com/apache/nuttx/pull/17903"
+}

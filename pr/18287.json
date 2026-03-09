@@ -1,0 +1,89 @@
+{
+  "additions": 38,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI5NjE3MDg=",
+    "is_bot": false,
+    "login": "paolovolpi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-30T18:43:52Z",
+  "createdAt": "2026-01-30T13:47:19Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_gpio.c",
+      "additions": 15,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_gpio.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_gpio.c",
+      "additions": 15,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_gpio.h",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix-rp2350b-gpio",
+  "headRefOid": "744192cc9361b52bea74e75e85bd423b414a8df4",
+  "headRepository": {
+    "id": "R_kgDOJngOng",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI5NjE3MDg=",
+    "login": "paolovolpi"
+  },
+  "id": "PR_kwDODZiUac7AZiGd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c63b0510fb4f922638d7537ce8f1a0baf4e24a40"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-30T18:43:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18287,
+  "state": "MERGED",
+  "title": "rp23xx/rp23xx-rv: Fix GPIO interrupt handler for RP2350B variant.",
+  "updatedAt": "2026-01-30T18:43:52Z",
+  "url": "https://github.com/apache/nuttx/pull/18287"
+}

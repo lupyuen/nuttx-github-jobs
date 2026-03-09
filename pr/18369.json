@@ -1,0 +1,69 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgwNzUyMjY1",
+    "is_bot": false,
+    "login": "nyh163925",
+    "name": "niyinghao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-10T21:20:21Z",
+  "createdAt": "2026-02-09T06:36:03Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "drivers/video/v4l2_cap.c",
+      "additions": 8,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "split_fix_bug",
+  "headRefOid": "2a43f3644cc02c88d383963bd9baff20fe1acc16",
+  "headRepository": {
+    "id": "R_kgDONtO6Fg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjgwNzUyMjY1",
+    "name": "niyinghao",
+    "login": "nyh163925"
+  },
+  "id": "PR_kwDODZiUac7CZXt7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "24a18d33af943988965e713e072fc623c946f596"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-10T21:20:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18369,
+  "state": "MERGED",
+  "title": "video/v4l2: fix leaks and out of bounds bugs in v4l2",
+  "updatedAt": "2026-02-10T21:20:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18369"
+}

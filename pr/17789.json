@@ -1,0 +1,74 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "is_bot": false,
+    "login": "PetervdPerk-NXP",
+    "name": "Peter van der Perk"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-07T18:37:22Z",
+  "createdAt": "2026-01-07T10:17:09Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "libs/libc/stdlib/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stdlib/lib_strtold.c",
+      "additions": 8,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "pr-libc-hexstr",
+  "headRefOid": "5d11ef0d72db685ae9ea266c8e79e82b33614b15",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDIxNzAxMTM=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "name": "Peter van der Perk",
+    "login": "PetervdPerk-NXP"
+  },
+  "id": "PR_kwDODZiUac674FmA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0fed06190b2be0837039bc2593ee472766a48565"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-07T18:37:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17789,
+  "state": "MERGED",
+  "title": "libc: Add Kconfig option to disable hex-string to float parsing",
+  "updatedAt": "2026-01-07T21:00:10Z",
+  "url": "https://github.com/apache/nuttx/pull/17789"
+}

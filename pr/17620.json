@@ -1,0 +1,69 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-12-22T22:37:21Z",
+  "createdAt": "2025-12-22T11:31:48Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-17513",
+  "headRefOid": "89196de77b82c437e90d46f399a0d0924d381c58",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66H472",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4782ee939459562af274b8bfb087a430955cbe56"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-22T22:37:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17620,
+  "state": "MERGED",
+  "title": "{bp-17513} bugfix/fs:write Bad buf addr should return EINVAL",
+  "updatedAt": "2025-12-23T05:30:41Z",
+  "url": "https://github.com/apache/nuttx/pull/17620"
+}

@@ -1,0 +1,99 @@
+{
+  "additions": 56,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-26T19:18:11Z",
+  "createdAt": "2026-01-22T13:56:06Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/debugging/tasktraceuser.rst",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "boards/boardctl.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/init.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/init/nx_bringup.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improve-trace-bringup",
+  "headRefOid": "5cb1c24738a911ecc29d28a521596a1061f06040",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac6-tEtc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "890f2e4625a6ae632f8837ffc8bea03544a202e9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T19:18:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18114,
+  "state": "MERGED",
+  "title": "sched: add trace points during system startup and board initialization",
+  "updatedAt": "2026-01-26T19:18:12Z",
+  "url": "https://github.com/apache/nuttx/pull/18114"
+}

@@ -1,0 +1,266 @@
+{
+  "additions": 169,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 38,
+  "closed": true,
+  "closedAt": "2026-01-10T15:59:15Z",
+  "createdAt": "2026-01-10T08:13:49Z",
+  "deletions": 155,
+  "files": [
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/at32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/efm32/efm32-g8xx-stk/src/efm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/mbed/src/lpc17_40_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/src/rp2040_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp2040/seeed-xiao-rp2040/src/rp2040_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp2040/w5500-evb-pico/src/rp2040_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/src/rp23xx_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/src/rp23xx_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/samd5e5/metro-m4/src/sam_autoleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/samd5e5/metro-m4/src/sam_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/samd5e5/same54-xplained-pro/src/sam_autoleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/samd5e5/same54-xplained-pro/src/sam_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/cloudctrl/src/stm32_autoleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/fire-stm32v2/src/stm32_autoleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f401re/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f410rb/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f411re/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/omnibusf4/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/shenzhou/src/stm32_autoleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_lcd.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_leds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/stm32f429i-disco/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-f072rb/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-f091rc/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l452re/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/src/stm32_buttons.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/src/stm32_buttons.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32wb/nucleo-wb55rg/src/stm32_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/src/rp23xx_userleds.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "tools/rp2040/make_flash_fs.c",
+      "additions": 21,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "style",
+  "headRefOid": "6467a4810d1d990566fe6df479b414458c07161b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac68c-Mn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8b3862d19bfddd2c6f136662c26de492014c215d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-10T15:59:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17820,
+  "state": "MERGED",
+  "title": "style: Fix case statement formatting in power management callbacks.",
+  "updatedAt": "2026-01-10T15:59:15Z",
+  "url": "https://github.com/apache/nuttx/pull/17820"
+}

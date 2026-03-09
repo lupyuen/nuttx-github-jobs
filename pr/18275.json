@@ -1,0 +1,124 @@
+{
+  "additions": 379,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-02-03T19:40:07Z",
+  "createdAt": "2026-01-30T08:57:24Z",
+  "deletions": 27,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 15,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/cmake/Toolchain.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cmake/armclang.cmake",
+      "additions": 25,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/cmake/armv8-m.cmake",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cmake/platform.cmake",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/Toolchain.defs",
+      "additions": 10,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 52,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm64/src/cmake/Toolchain.cmake",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/cmake/armclang.cmake",
+      "additions": 256,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "cmake",
+  "headRefOid": "6358911bc6aadb3fd01f5720288f5ef2185644d8",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7AV8Y1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18275,
+  "state": "CLOSED",
+  "title": "Cmake",
+  "updatedAt": "2026-02-03T19:40:07Z",
+  "url": "https://github.com/apache/nuttx/pull/18275"
+}

@@ -1,0 +1,115 @@
+{
+  "additions": 50,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-02-03T18:33:36Z",
+  "createdAt": "2026-02-03T03:19:47Z",
+  "deletions": 137,
+  "files": [
+    {
+      "path": "arch/arm/src/armv6-m/Toolchain.defs",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-m/Toolchain.defs",
+      "additions": 1,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/armv8-m/Toolchain.defs",
+      "additions": 1,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/cmake/armv8-m.cmake",
+      "additions": 0,
+      "deletions": 30
+    },
+    {
+      "path": "arch/arm/src/cmake/clang.cmake",
+      "additions": 1,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/common/Toolchain.defs",
+      "additions": 6,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/tlsr82/Toolchain.defs",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/CMakeLists.txt",
+      "additions": 31,
+      "deletions": 9
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/Make.defs",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "clang-toolchain",
+  "headRefOid": "b47023f629e4efb371111a59ae279a4b82e2cac9",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac7BEJuT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6301af9a4405702e51714946dd705fadd08ef3cd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-03T18:33:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18318,
+  "state": "MERGED",
+  "title": "toolchain/clang: improve clang toolchain",
+  "updatedAt": "2026-02-03T18:33:37Z",
+  "url": "https://github.com/apache/nuttx/pull/18318"
+}

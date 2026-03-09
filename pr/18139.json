@@ -1,0 +1,189 @@
+{
+  "additions": 209,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 25,
+  "closed": true,
+  "closedAt": "2026-01-26T08:26:39Z",
+  "createdAt": "2026-01-25T03:51:14Z",
+  "deletions": 172,
+  "files": [
+    {
+      "path": "include/nuttx/pthread.h",
+      "additions": 0,
+      "deletions": 54
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/pthread/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/pthread/pthread.h",
+      "additions": 99,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_condbroadcast.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/pthread/pthread_condclockwait.c",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/pthread/pthread_condsignal.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/pthread/pthread_condwait.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_consistent.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_destroy.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_inconsistent.c",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_init.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_timedlock.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_trylock.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_unlock.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/semaphore/sem_wait.c",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "sched/pthread/Make.defs",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "sched/pthread/pthread.h",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "sched/semaphore/sem_clockwait.c",
+      "additions": 0,
+      "deletions": 39
+    },
+    {
+      "path": "sched/semaphore/sem_wait.c",
+      "additions": 0,
+      "deletions": 32
+    },
+    {
+      "path": "sched/task/task_recover.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 0,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "apache_pthread_move_pthread_cond_to_userspace",
+  "headRefOid": "6cc0e76542c50c2f731c1f0b0041bb8ede5b2e2d",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_MhSb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "217e685bebca4a399b20a6ec334a1b8cc5443148"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T08:26:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18139,
+  "state": "MERGED",
+  "title": "pthread: Move condition variable implementation to userspace",
+  "updatedAt": "2026-01-26T08:26:39Z",
+  "url": "https://github.com/apache/nuttx/pull/18139"
+}

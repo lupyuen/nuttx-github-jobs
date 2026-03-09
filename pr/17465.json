@@ -1,0 +1,327 @@
+{
+  "additions": 226,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 42,
+  "closed": true,
+  "closedAt": "2025-12-14T02:01:23Z",
+  "createdAt": "2025-12-09T13:15:31Z",
+  "deletions": 255,
+  "files": [
+    {
+      "path": "Documentation/components/net/netdriver.rst",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_openeth.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx95-evk/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-dk/configs/mrf24j40_6lowpan/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/configs/ieee802154_6lowpan/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf9160-dk-nrf52/configs/ieee802154_6lowpan/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf91/nrf9160-dk/configs/modem_ns/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/full/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/w5500-evb-pico/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/configs/oa_tc6/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/koptee/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/mcuboot_update_agent/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/mcuboot_update_agent/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-xiao/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/matter/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/jumbo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/qemu_openeth/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/mbedtls/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/python/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/qemu_openeth/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/net/Kconfig",
+      "additions": 0,
+      "deletions": 39
+    },
+    {
+      "path": "drivers/net/e1000.c",
+      "additions": 19,
+      "deletions": 31
+    },
+    {
+      "path": "drivers/net/netdev_upperhalf.c",
+      "additions": 179,
+      "deletions": 145
+    },
+    {
+      "path": "include/nuttx/net/netdev_lowerhalf.h",
+      "additions": 10,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "upstream-10",
+  "headRefOid": "b3b84269e2d5d453b2b8eda5ca4156e567fe5986",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac636oBQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "aa8ffea3cfdae1e27877b586d2c2f19de313ee26"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-14T02:01:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17465,
+  "state": "MERGED",
+  "title": "netdev_upperhalf: convert Kconfig to variable",
+  "updatedAt": "2025-12-14T02:01:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17465"
+}

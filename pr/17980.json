@@ -1,0 +1,108 @@
+{
+  "additions": 71,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-02-03T19:42:58Z",
+  "createdAt": "2026-01-17T07:55:02Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "arch/sim/src/nuttx-names.in",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostirq.c",
+      "additions": 25,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostuart.c",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_x11framebuffer.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_netdriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_wifihost.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libxx/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mine4",
+  "headRefOid": "5da905bc96911b4392a8f402f4f3c948a2d3361e",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTQzMzM1MTg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "login": "GUIDINGLI"
+  },
+  "id": "PR_kwDODZiUac69wTje",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17980,
+  "state": "CLOSED",
+  "title": "libc: backtrace improvements and fixes",
+  "updatedAt": "2026-02-03T19:42:58Z",
+  "url": "https://github.com/apache/nuttx/pull/17980"
+}

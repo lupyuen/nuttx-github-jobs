@@ -1,0 +1,73 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0OTQxNjUx",
+    "is_bot": false,
+    "login": "zkkkk12",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-05T14:03:13Z",
+  "createdAt": "2026-01-05T02:08:34Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "drivers/analog/adc.c",
+      "additions": 15,
+      "deletions": 10
+    },
+    {
+      "path": "include/nuttx/analog/adc.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "adc",
+  "headRefOid": "ae58d6b31c7ed02617978846c49c68feac8a3033",
+  "headRepository": {
+    "id": "R_kgDOQu-I3Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0OTQxNjUx",
+    "login": "zkkkk12"
+  },
+  "id": "PR_kwDODZiUac67dDZb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "daf57158108618fd46b797f7d88d31b2ca294ea0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-05T14:03:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17764,
+  "state": "MERGED",
+  "title": "drivers/adc: Use mutexlock to replace critical section protection",
+  "updatedAt": "2026-01-05T14:03:13Z",
+  "url": "https://github.com/apache/nuttx/pull/17764"
+}

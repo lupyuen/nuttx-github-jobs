@@ -1,0 +1,135 @@
+{
+  "additions": 476,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODylToQ",
+    "is_bot": false,
+    "login": "zhangyu-duck",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-01-15T19:09:14Z",
+  "createdAt": "2026-01-15T09:44:17Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/irq.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/tricore/include/tc3xx/irq.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_csa.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_initialize.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_registerdump.c",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_saveusercontext.c",
+      "additions": 29,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_trapcall.c",
+      "additions": 310,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "tricore_trap_dump_register",
+  "headRefOid": "92100c797bd630e110125ff15e3a69d5b6f61c5c",
+  "headRepository": {
+    "id": "R_kgDOQ4CDWw",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODylToQ",
+    "login": "zhangyu-duck"
+  },
+  "id": "PR_kwDODZiUac69V-yM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4e40393cc49881cb2b1eb958878d092447aca9ce"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T19:09:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17938,
+  "state": "MERGED",
+  "title": "Tricore trap dump register",
+  "updatedAt": "2026-01-15T19:09:14Z",
+  "url": "https://github.com/apache/nuttx/pull/17938"
+}

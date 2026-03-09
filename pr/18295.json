@@ -1,0 +1,90 @@
+{
+  "additions": 206,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NDY5NjA1",
+    "is_bot": false,
+    "login": "adwait-godbole",
+    "name": "Adwait Godbole"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-31T17:05:26Z",
+  "createdAt": "2026-01-31T16:06:05Z",
+  "deletions": 206,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/stm32f10xxf30xx_flash.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/virtio/virtio.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_waitid.c",
+      "additions": 204,
+      "deletions": 206
+    }
+  ],
+  "headRefName": "arch/stm32-fix-dualbank-flash-page",
+  "headRefOid": "920858ade3945559268943ae7369ffaae775af62",
+  "headRepository": {
+    "id": "R_kgDORFWekw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NDY5NjA1",
+    "name": "Adwait Godbole",
+    "login": "adwait-godbole"
+  },
+  "id": "PR_kwDODZiUac7AlRZf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18295,
+  "state": "CLOSED",
+  "title": "arch/arm/stm32: fix undeclared page variable in flash write",
+  "updatedAt": "2026-01-31T18:34:54Z",
+  "url": "https://github.com/apache/nuttx/pull/18295"
+}

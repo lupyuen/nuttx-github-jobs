@@ -1,0 +1,118 @@
+{
+  "additions": 116,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "is_bot": false,
+    "login": "zzby0",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-01-16T01:39:02Z",
+  "createdAt": "2026-01-14T10:09:43Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/posix/sim_alsa.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostirq.c",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/sim/src/sim/sim_initialize.c",
+      "additions": 38,
+      "deletions": 12
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_netdriver.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sim/src/sim/sim_rpmsg_virtio.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "arch/sim/src/sim/sim_rptun.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usbdev.c",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usbhost.c",
+      "additions": 8,
+      "deletions": 5
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usrsock.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sim/src/sim/win/sim_hostirq.c",
+      "additions": 8,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "sim_workqueue",
+  "headRefOid": "f9cc8fabd5e359498aa7af446ad90a125229feb4",
+  "headRepository": {
+    "id": "R_kgDOJ5zdIQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "login": "zzby0"
+  },
+  "id": "PR_kwDODZiUac69HlG2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f99dd20c4e204d3b5fe3dda2b0db71d7923c8630"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T01:39:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17900,
+  "state": "MERGED",
+  "title": "sim: replace wdog with work queue in periodic work to avoid deadlock",
+  "updatedAt": "2026-01-16T01:39:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17900"
+}

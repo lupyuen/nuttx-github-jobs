@@ -1,0 +1,125 @@
+{
+  "additions": 45,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-12-23T02:24:43Z",
+  "createdAt": "2025-12-22T11:59:30Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "include/nuttx/mm/map.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/group/group.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 19,
+      "deletions": 11
+    },
+    {
+      "path": "sched/group/group_foreachchild.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 14,
+      "deletions": 27
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_releasetcb.c",
+      "additions": 0,
+      "deletions": 22
+    },
+    {
+      "path": "sched/task/task_fork.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "bp-17564",
+  "headRefOid": "06e801a391f1c0df53af86cf24089f27155ef175",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66IKOb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "678f69b32a4825c5df8d5a56afb4f63bac3e7ca8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T02:24:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17634,
+  "state": "MERGED",
+  "title": "{bp17564} Revert \"sched/group: move task group into task_tcb_s to improve performance",
+  "updatedAt": "2025-12-23T05:31:45Z",
+  "url": "https://github.com/apache/nuttx/pull/17634"
+}

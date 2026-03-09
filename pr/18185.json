@@ -1,0 +1,77 @@
+{
+  "additions": 282,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-02-03T19:38:50Z",
+  "createdAt": "2026-01-27T04:25:19Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "arch/arm64/include/arch.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_addrenv_mpu.c",
+      "additions": 243,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_mpu.h",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/fvp_boot.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "apache_arm64_Armvs",
+  "headRefOid": "6d64b2cfe274d7ed147c0bf2be3e64151fbf10e1",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_gkbL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18185,
+  "state": "CLOSED",
+  "title": "arm64: Implement dynamic MPU-based memory protection for stack and heap on Armv8-R AArch64",
+  "updatedAt": "2026-02-03T19:38:50Z",
+  "url": "https://github.com/apache/nuttx/pull/18185"
+}

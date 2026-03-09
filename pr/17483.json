@@ -1,0 +1,109 @@
+{
+  "additions": 215,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-12-23T12:21:18Z",
+  "createdAt": "2025-12-12T04:05:05Z",
+  "deletions": 86,
+  "files": [
+    {
+      "path": "Documentation/components/net/pkt.rst",
+      "additions": 23,
+      "deletions": 1
+    },
+    {
+      "path": "net/pkt/pkt.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_conn.c",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_recvmsg.c",
+      "additions": 29,
+      "deletions": 6
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_buffered.c",
+      "additions": 28,
+      "deletions": 38
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_unbuffered.c",
+      "additions": 33,
+      "deletions": 37
+    },
+    {
+      "path": "net/pkt/pkt_setsockopt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/pkt/pkt_sockif.c",
+      "additions": 5,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "upstream-4",
+  "headRefOid": "2d6734b555e2a335a6f43b4c3c9571e673cf6607",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac64fH_e",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "37381a9e7dad3608a708b676deabcb228f0b6dec"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T12:21:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17483,
+  "state": "MERGED",
+  "title": "net/pkt: add SOCK_DGRAM support",
+  "updatedAt": "2025-12-23T12:21:19Z",
+  "url": "https://github.com/apache/nuttx/pull/17483"
+}

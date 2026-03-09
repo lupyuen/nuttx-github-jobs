@@ -1,0 +1,74 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-03-03T16:55:34Z",
+  "createdAt": "2026-03-03T10:26:32Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "drivers/serial/uart_rpmsg.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/serial/uart_rpmsg_raw.c",
+      "additions": 0,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "26030303",
+  "headRefOid": "6f68a334e5a229e372868950c5f48be26f6435c6",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac7HkVvK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0a6a2e5e043a2647990c2b9c4688cdcdf48b1561"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-03T16:55:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18487,
+  "state": "MERGED",
+  "title": "serial/uart_rpmsg: Remove redundant CONFIG_RPMSG_UART_CONSOLE macro check",
+  "updatedAt": "2026-03-03T16:55:34Z",
+  "url": "https://github.com/apache/nuttx/pull/18487"
+}

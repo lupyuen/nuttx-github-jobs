@@ -1,0 +1,84 @@
+{
+  "additions": 131,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-16T02:03:53Z",
+  "createdAt": "2026-01-15T08:11:53Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "include/ulimit.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/unistd/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/unistd/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/unistd/lib_ulimit.c",
+      "additions": 76,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pse52_add_ulimit_impl",
+  "headRefOid": "33eca0cf69e5f167035329765496bc37ab70353d",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac69U6VI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ab572fe1cf74c3269df96127bd8f65af1436a0c1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T02:03:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17930,
+  "state": "MERGED",
+  "title": "ulimit: add ulimit implementation",
+  "updatedAt": "2026-01-16T02:03:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17930"
+}

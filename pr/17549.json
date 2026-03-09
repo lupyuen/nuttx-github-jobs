@@ -1,0 +1,129 @@
+{
+  "additions": 359,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-12-24T01:49:52Z",
+  "createdAt": "2025-12-17T12:59:32Z",
+  "deletions": 200,
+  "files": [
+    {
+      "path": "arch/arm/src/armv6-m/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv6-m/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_dispatch_syscall.S",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_svcall.c",
+      "additions": 9,
+      "deletions": 62
+    },
+    {
+      "path": "arch/arm/src/armv7-m/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-m/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_dispatch_syscall.S",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_svcall.c",
+      "additions": 9,
+      "deletions": 69
+    },
+    {
+      "path": "arch/arm/src/armv8-m/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_dispatch_syscall.S",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_svcall.c",
+      "additions": 9,
+      "deletions": 69
+    },
+    {
+      "path": "arch/arm/src/common/arm_internal.h",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "20251217_cfi_syscall",
+  "headRefOid": "2b7ba48790aa12e39a139b05f4a3bf043e44e8d0",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac65Xbz6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "28298b9d5e3e0c132446e57841f1f0634ba0aef1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-24T01:49:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17549,
+  "state": "MERGED",
+  "title": "arch/arm: use cfi to debug syscall",
+  "updatedAt": "2025-12-24T01:49:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17549"
+}

@@ -1,0 +1,194 @@
+{
+  "additions": 425,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 26,
+  "closed": true,
+  "closedAt": "2026-02-26T12:03:06Z",
+  "createdAt": "2026-01-18T14:23:05Z",
+  "deletions": 263,
+  "files": [
+    {
+      "path": "drivers/input/ajoystick.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/button_upper.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/djoystick.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/ioexpander/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ft80x.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ft80x.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/modem/alt1250/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/modem/alt1250/Make.defs",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/modem/alt1250/altmdm_timer.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/net/phy_notify.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/zerocross.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/oneshot.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/timer.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/wireless/ieee802154/xbee/xbee_netdev.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "fs/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/aio/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_destroy.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/signal/CMakeLists.txt",
+      "additions": 18,
+      "deletions": 17
+    },
+    {
+      "path": "sched/signal/Make.defs",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "sched/signal/sig_clockwait.c",
+      "additions": 297,
+      "deletions": 0
+    },
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 0,
+      "deletions": 231
+    },
+    {
+      "path": "wireless/ieee802154/mac802154_device.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "wireless/ieee802154/mac802154_netdev.c",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_disable_all_signals_issue",
+  "headRefOid": "b8b00ec9f360fdae63091029fa80810a8c2ccf8b",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac693RKS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5060ee80d17f45d56fecf1795048bb9e5c908334"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-26T12:03:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17991,
+  "state": "MERGED",
+  "title": "sched/signals: improvements for when all signals are disabled",
+  "updatedAt": "2026-02-26T12:05:20Z",
+  "url": "https://github.com/apache/nuttx/pull/17991"
+}

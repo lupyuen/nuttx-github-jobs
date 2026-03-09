@@ -1,0 +1,79 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsgVg",
+    "is_bot": false,
+    "login": "wangzhi16",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-01-27T11:33:59Z",
+  "createdAt": "2026-01-27T06:14:30Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/stm32_hciuart.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 2,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "nopreempt01",
+  "headRefOid": "5b40b451d9767080a71010dcc2f6108032c17c13",
+  "headRepository": {
+    "id": "R_kgDOMmQ4Gw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsgVg",
+    "login": "wangzhi16"
+  },
+  "id": "PR_kwDODZiUac6_hZN3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c7e7711db590ffb81de5c7cbcaca1028ba46a358"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T11:33:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18187,
+  "state": "MERGED",
+  "title": "sched: call spinlock nopreempt when need disable context swi…",
+  "updatedAt": "2026-01-27T11:33:59Z",
+  "url": "https://github.com/apache/nuttx/pull/18187"
+}

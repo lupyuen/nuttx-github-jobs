@@ -1,0 +1,94 @@
+{
+  "additions": 94,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-31T17:14:49Z",
+  "createdAt": "2026-01-31T13:06:07Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 59,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.h",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi_slave.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/rpmsg/rpmsg.h",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-timestamp",
+  "headRefOid": "4b4ce7a50cc4d5f4c41c5883c0973b2507ea8955",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac7AkQ3h",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "425a760799353f601c5c6e54b43d9ce390355465"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-31T17:14:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18294,
+  "state": "MERGED",
+  "title": "drivers/rpmsg: add timestamp support for rpmsg buffer latency measurement",
+  "updatedAt": "2026-01-31T17:14:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18294"
+}

@@ -1,0 +1,113 @@
+{
+  "additions": 105,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCeG-zg",
+    "is_bot": false,
+    "login": "HedongGao",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-12-29T06:38:15Z",
+  "createdAt": "2025-12-28T10:25:54Z",
+  "deletions": 157,
+  "files": [
+    {
+      "path": "net/bluetooth/bluetooth_sockif.c",
+      "additions": 8,
+      "deletions": 11
+    },
+    {
+      "path": "net/can/can_sockif.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "net/icmp/icmp_sockif.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/icmpv6/icmpv6_sockif.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/ieee802154/ieee802154_sockif.c",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "net/inet/inet_sockif.c",
+      "additions": 10,
+      "deletions": 102
+    },
+    {
+      "path": "net/local/local_sockif.c",
+      "additions": 0,
+      "deletions": 21
+    },
+    {
+      "path": "net/netlink/netlink_sockif.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "net/pkt/pkt_sockif.c",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "net/socket/net_sockif.c",
+      "additions": 71,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ffa5b34_add_ioctl",
+  "headRefOid": "525f12e76d9e1bd3e722156a9e0af2ad4e8f7856",
+  "headRepository": {
+    "id": "R_kgDOLouYIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCeG-zg",
+    "login": "HedongGao"
+  },
+  "id": "PR_kwDODZiUac66u5or",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7e6138f258080840c938e179c585b30c27a12a50"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-29T06:38:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17705,
+  "state": "MERGED",
+  "title": "net/ioctl: add a socket interface for ioctl",
+  "updatedAt": "2026-01-06T14:34:10Z",
+  "url": "https://github.com/apache/nuttx/pull/17705"
+}

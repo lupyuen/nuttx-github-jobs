@@ -1,0 +1,153 @@
+{
+  "additions": 973,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2026-01-28T11:23:42Z",
+  "createdAt": "2026-01-26T13:16:57Z",
+  "deletions": 183,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/rpmsg/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rpmsg/rpmsg_port.rst",
+      "additions": 184,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/rpmsg/rpmsg_port_uart.rst",
+      "additions": 190,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rpproxy_uart/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rpserver_uart/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 27,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.h",
+      "additions": 15,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi_slave.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_uart.c",
+      "additions": 548,
+      "deletions": 179
+    }
+  ],
+  "headRefName": "rpmsg-port-uart-part2",
+  "headRefOid": "0240fc5df46b0f398b33e4f064a11764eea48386",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac6_XVeg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0a96f116bb3fb2762b5659d2f0f661422bf596dd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T11:23:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 18163,
+  "state": "MERGED",
+  "title": "drivers/rpmsg_port_uart: Improvements and bug fixes for stability and power management",
+  "updatedAt": "2026-01-28T11:23:42Z",
+  "url": "https://github.com/apache/nuttx/pull/18163"
+}

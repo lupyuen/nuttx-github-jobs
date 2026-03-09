@@ -1,0 +1,89 @@
+{
+  "additions": 28,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-17T21:29:18Z",
+  "createdAt": "2026-01-16T07:16:02Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "sched/signal/sig_action.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "sched/signal/sig_cleanup.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "sched/signal/sig_pending.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/signal/sig_removependingsignal.c",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "apache_use_small_lock",
+  "headRefOid": "60f9a21a387629f24e4de0d24e6a400bbc6e13ee",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69jTUB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "29bc8c7b155cae947fa0846e90f21ef36ac0558e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-17T21:29:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17959,
+  "state": "MERGED",
+  "title": "sched/signal: use spinlock to protect signal queues",
+  "updatedAt": "2026-01-17T21:29:18Z",
+  "url": "https://github.com/apache/nuttx/pull/17959"
+}

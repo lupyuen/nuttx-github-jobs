@@ -1,0 +1,85 @@
+{
+  "additions": 202,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBq4kmg",
+    "is_bot": false,
+    "login": "cuiziweizw",
+    "name": "czw"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-15T16:40:43Z",
+  "createdAt": "2026-01-12T14:09:40Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/sim/src/cmake/Toolchain.cmake",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libxx/libcxx/CMakeLists.txt",
+      "additions": 193,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "add_libcxx_test",
+  "headRefOid": "22b1b8a1ae292ebe1301f79091ccbd63197f2ead",
+  "headRepository": {
+    "id": "R_kgDOM-pM8w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBq4kmg",
+    "name": "czw",
+    "login": "cuiziweizw"
+  },
+  "id": "PR_kwDODZiUac68tZUY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e9bbf2928b78b46834d859af8c099be6900d62c3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T16:40:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17838,
+  "state": "MERGED",
+  "title": "libcxx: porting libcxx test.",
+  "updatedAt": "2026-01-15T16:40:43Z",
+  "url": "https://github.com/apache/nuttx/pull/17838"
+}

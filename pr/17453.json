@@ -1,0 +1,246 @@
+{
+  "additions": 226,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 33,
+  "closed": true,
+  "closedAt": "2025-12-18T14:05:12Z",
+  "createdAt": "2025-12-08T13:31:42Z",
+  "deletions": 26,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/scripts/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/elf.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/Kconfig",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/arch_libc.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_memcpy.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_memmove.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_memset.S",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/arch_memset.S",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memchr.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memcmp.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memcpy.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memmove.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memset.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strchr.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strchrnul.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strcmp.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strcpy.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strlen.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strncmp.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strnlen.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strrchr.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_elf.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_memcpy.S",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_memset.S",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_strcmp.S",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mine1",
+  "headRefOid": "656d80f0f03d13ce6f81ea2f8f7c4ff488c1a194",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTQzMzM1MTg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "login": "GUIDINGLI"
+  },
+  "id": "PR_kwDODZiUac63rpIZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "011fd50bcd15501873a6f3605eea7e0e0a153d7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-18T14:05:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17453,
+  "state": "MERGED",
+  "title": "libs/libc: machine code update",
+  "updatedAt": "2025-12-18T14:05:12Z",
+  "url": "https://github.com/apache/nuttx/pull/17453"
+}

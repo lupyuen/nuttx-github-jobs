@@ -1,0 +1,110 @@
+{
+  "additions": 204,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-02-03T19:40:04Z",
+  "createdAt": "2026-01-28T10:48:47Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/timers/pwm.rst",
+      "additions": 142,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/i2c/i2c_slave_driver.c",
+      "additions": 28,
+      "deletions": 22
+    },
+    {
+      "path": "drivers/pci/pci.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/pwm.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/spi/spi.h",
+      "additions": 13,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/timers/pwm.h",
+      "additions": 7,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "driver",
+  "headRefOid": "22b641be6403045daabfdca1387fc53e37a36569",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6_0ov2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorlqw",
+      "name": "Area: PCI",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18233,
+  "state": "CLOSED",
+  "title": "drivers/i2c/spi/pci/pwm: fix minor issue about some driver model",
+  "updatedAt": "2026-02-03T19:40:04Z",
+  "url": "https://github.com/apache/nuttx/pull/18233"
+}

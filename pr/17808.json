@@ -1,0 +1,89 @@
+{
+  "additions": 166,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-09T01:48:18Z",
+  "createdAt": "2026-01-08T12:12:48Z",
+  "deletions": 107,
+  "files": [
+    {
+      "path": "drivers/rpmsg/rpmsg_port.c",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port.h",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi.c",
+      "additions": 2,
+      "deletions": 32
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi_slave.c",
+      "additions": 3,
+      "deletions": 33
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_uart.c",
+      "additions": 122,
+      "deletions": 42
+    }
+  ],
+  "headRefName": "rpmsg-port-uart",
+  "headRefOid": "6e06512b4f904453a05a3a5d6356c40fbd1a66f1",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac68G6Iu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2a8acac15934e091e98969e51939041c09c2eff9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-09T01:48:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17808,
+  "state": "MERGED",
+  "title": "Rpmsg port uart: add low power support for rpmsg port uart",
+  "updatedAt": "2026-01-09T01:48:18Z",
+  "url": "https://github.com/apache/nuttx/pull/17808"
+}

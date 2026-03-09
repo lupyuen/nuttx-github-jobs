@@ -1,0 +1,88 @@
+{
+  "additions": 126,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "is_bot": false,
+    "login": "wenquan2015",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-12-30T13:04:53Z",
+  "createdAt": "2025-12-26T09:03:19Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "net/tcp/tcp.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "net/tcp/tcp_conn.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_input.c",
+      "additions": 126,
+      "deletions": 9
+    },
+    {
+      "path": "net/tcp/tcp_send.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "net/tcp/tcp_timer.c",
+      "additions": 0,
+      "deletions": 12
+    }
+  ],
+  "headRefName": "6174677",
+  "headRefOid": "47b9cb37701c1c2151f71fbc4c0158f1af9b5d9a",
+  "headRepository": {
+    "id": "R_kgDOQu98Tw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE1MTM5NDMx",
+    "login": "wenquan2015"
+  },
+  "id": "PR_kwDODZiUac66nTvI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d2887ef15fd0e934cc6d418c626e9d7379510ce9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T13:04:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17691,
+  "state": "MERGED",
+  "title": "net/tcp:  tcp header seq check",
+  "updatedAt": "2025-12-30T13:04:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17691"
+}

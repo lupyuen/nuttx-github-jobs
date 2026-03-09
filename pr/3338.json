@@ -1,0 +1,169 @@
+{
+  "additions": 1561,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 21,
+  "closed": true,
+  "closedAt": "2026-01-19T14:51:14Z",
+  "createdAt": "2026-01-16T06:07:25Z",
+  "deletions": 182,
+  "files": [
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/Kconfig",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/bio.h",
+      "additions": 71,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/crypto.h",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/err.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/evp.h",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/ssl.h",
+      "additions": 200,
+      "deletions": 42
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/ssl_local.h",
+      "additions": 39,
+      "deletions": 9
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/tls1.h",
+      "additions": 37,
+      "deletions": 16
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/types.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/include/openssl/x509.h",
+      "additions": 15,
+      "deletions": 5
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/bio_b64.c",
+      "additions": 147,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/bio_lib.c",
+      "additions": 151,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/bss_mem.c",
+      "additions": 236,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/err.c",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/evp.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/ssl_lib.c",
+      "additions": 397,
+      "deletions": 7
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/ssl_methods.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/ssl_methods.h",
+      "additions": 21,
+      "deletions": 9
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/ssl_pm.c",
+      "additions": 104,
+      "deletions": 80
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/ssl_pm.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/openssl_mbedtls_wrapper/mbedtls/ssl_rsa.c",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mbedtls-wrapper-fix",
+  "headRefOid": "8e2c96ae644a30e35ed7749c74bea6d157108f68",
+  "headRepository": {
+    "id": "R_kgDOKAa8bg",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiT4869iphb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7ksA",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d2902008fe9ec6ac48884b40b9ef63585cf524b3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T14:51:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 3338,
+  "state": "MERGED",
+  "title": "Mbedtls wrapper fix",
+  "updatedAt": "2026-01-19T14:51:14Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3338"
+}

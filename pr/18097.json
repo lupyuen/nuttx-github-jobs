@@ -1,0 +1,88 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "is_bot": false,
+    "login": "chirping78",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-23T02:52:43Z",
+  "createdAt": "2026-01-22T08:19:04Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "arch/xtensa/include/esp32/core-isa.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/include/esp32s2/core-isa.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/include/esp32s3/core-isa.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/include/xtensa/core.h",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_irq.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "remove-syscall-level",
+  "headRefOid": "083dd940d11c99837979bf93bc6cdc2b1381911f",
+  "headRepository": {
+    "id": "R_kgDOKFafoQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "login": "chirping78"
+  },
+  "id": "PR_kwDODZiUac6-o0NX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dbbcd7c88ce1360e11773299657097fb39121c0a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-23T02:52:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18097,
+  "state": "MERGED",
+  "title": "arch/xtensa: remove XCHAL_SYSCALL_LEVEL",
+  "updatedAt": "2026-01-23T02:52:43Z",
+  "url": "https://github.com/apache/nuttx/pull/18097"
+}

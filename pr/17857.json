@@ -1,0 +1,100 @@
+{
+  "additions": 511,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMxODgxMjc4",
+    "is_bot": false,
+    "login": "xuxin930",
+    "name": "Xin Xu"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-15T18:42:18Z",
+  "createdAt": "2026-01-13T08:50:38Z",
+  "deletions": 42,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 1,
+      "deletions": 12
+    },
+    {
+      "path": "cmake/menuconfig.cmake",
+      "additions": 9,
+      "deletions": 2
+    },
+    {
+      "path": "cmake/nuttx_kconfig.cmake",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_process_config.cmake",
+      "additions": 36,
+      "deletions": 4
+    },
+    {
+      "path": "cmake/savedefconfig.cmake",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "tools/process_config.py",
+      "additions": 448,
+      "deletions": 22
+    }
+  ],
+  "headRefName": "0113_02",
+  "headRefOid": "83bc92d966d7e2518c92d2b81b2a881210bd2d32",
+  "headRepository": {
+    "id": "R_kgDOJWSgig",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMxODgxMjc4",
+    "name": "Xin Xu",
+    "login": "xuxin930"
+  },
+  "id": "PR_kwDODZiUac684KN9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e9e9c76a76312aa730a8fe8e475078c0ed4bf085"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T18:42:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17857,
+  "state": "MERGED",
+  "title": "CMake(enhance): Complete defconfig include support with menuconfig writeback capability",
+  "updatedAt": "2026-01-15T18:42:18Z",
+  "url": "https://github.com/apache/nuttx/pull/17857"
+}

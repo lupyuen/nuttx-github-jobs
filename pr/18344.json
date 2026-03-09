@@ -1,0 +1,61 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-03T19:24:43Z",
+  "createdAt": "2026-02-03T15:26:24Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "libs/libc/pthread/pthread_mutex_init.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "pthread_mutex_robust",
+  "headRefOid": "e6989ce212e039b7e22bbd68add7a4492fb94506",
+  "headRepository": {
+    "id": "R_kgDOLHs-vw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiUac7BOQvW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18344,
+  "state": "CLOSED",
+  "title": "libc/mutex: fix when choose CONFIG_PTHREAD_MUTEX_ROBUST flag skipped",
+  "updatedAt": "2026-02-03T19:24:43Z",
+  "url": "https://github.com/apache/nuttx/pull/18344"
+}

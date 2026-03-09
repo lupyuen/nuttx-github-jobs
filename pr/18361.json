@@ -1,0 +1,74 @@
+{
+  "additions": 96,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIyNzk3MzAw",
+    "is_bot": false,
+    "login": "arikimari",
+    "name": "Ari Kimari"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-12T13:29:15Z",
+  "createdAt": "2026-02-06T12:10:46Z",
+  "deletions": 72,
+  "files": [
+    {
+      "path": "drivers/usbdev/usbmsc.c",
+      "additions": 96,
+      "deletions": 72
+    }
+  ],
+  "headRefName": "fix_usbmsc_unbind",
+  "headRefOid": "513ca8af8594fefca6b5d0d5b5f2f22c5e2a2cad",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac7B-yu1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1c36ba764f068352627a766675bd572ef9a4a0e4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-12T13:29:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18361,
+  "state": "MERGED",
+  "title": "drivers/usbdev: Fix usbmsc_unbind() function for USB composite device",
+  "updatedAt": "2026-02-13T08:33:29Z",
+  "url": "https://github.com/apache/nuttx/pull/18361"
+}

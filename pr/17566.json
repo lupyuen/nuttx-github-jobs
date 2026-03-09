@@ -1,0 +1,179 @@
+{
+  "additions": 2566,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2025-12-18T23:14:22Z",
+  "createdAt": "2025-12-18T17:38:44Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32-c3-zero/ESP32-C3-Zero.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32-c3-zero/index.rst",
+      "additions": 285,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/include/esp_board_bmp280.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_bmp280.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/jumbo/defconfig",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/nsh/defconfig",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/sta_softap/defconfig",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/usbnsh/defconfig",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/configs/wifi/defconfig",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/include/board.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/scripts/Make.defs",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/Make.defs",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32-c3-zero.h",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32c3_appinit.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32c3_boot.c",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32c3_bringup.c",
+      "additions": 492,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32c3_buttons.c",
+      "additions": 200,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32c3_gpio.c",
+      "additions": 558,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32-c3-zero/src/esp32c3_reset.c",
+      "additions": 83,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-c3",
+  "headRefOid": "408fdc8c3f814bec52df1a6e36f06b32c6817867",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac65pVms",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "946bd2b36e7790fcc33b4151b937a2ac3a095661"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-18T23:14:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 17566,
+  "state": "MERGED",
+  "title": "boards/risc-v/esp32c3: add Waveshare ESP32-C3-Zero",
+  "updatedAt": "2025-12-20T14:04:45Z",
+  "url": "https://github.com/apache/nuttx/pull/17566"
+}

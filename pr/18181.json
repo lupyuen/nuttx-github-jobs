@@ -1,0 +1,77 @@
+{
+  "additions": 488,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCqsgVg",
+    "is_bot": false,
+    "login": "wangzhi16",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-27T05:52:18Z",
+  "createdAt": "2026-01-27T04:00:01Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/stm32_hciuart.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/safety/safety.c",
+      "additions": 485,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 2,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "nopreempt01",
+  "headRefOid": "402bbddf39fda513ab6f375f5c69bf6077a1f138",
+  "headRepository": {
+    "id": "R_kgDOMmQ4Gw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCqsgVg",
+    "login": "wangzhi16"
+  },
+  "id": "PR_kwDODZiUac6_gXZH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18181,
+  "state": "CLOSED",
+  "title": "Call spinlock nopreempt when need disable context switch",
+  "updatedAt": "2026-01-27T05:52:36Z",
+  "url": "https://github.com/apache/nuttx/pull/18181"
+}

@@ -1,0 +1,105 @@
+{
+  "additions": 116,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "is_bot": false,
+    "login": "Barto22",
+    "name": "Bartosz "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-02-02T05:24:34Z",
+  "createdAt": "2026-01-29T11:50:02Z",
+  "deletions": 44,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 26,
+      "deletions": 19
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/kostest/Make.defs",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/kostest/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/kernel/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/scripts/memory.ld",
+      "additions": 16,
+      "deletions": 15
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/scripts/user-space.ld",
+      "additions": 14,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/CMakeLists.txt",
+      "additions": 14,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "feature/fix-protected-build",
+  "headRefOid": "d4c0e6de008678d326f0763becd06768faf6700e",
+  "headRepository": {
+    "id": "R_kgDOQ1YDIw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQzMDY1Mjgx",
+    "name": "Bartosz ",
+    "login": "Barto22"
+  },
+  "id": "PR_kwDODZiUac7AG_uD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fe184f79f36cf116acbf53a8d19109e1a7591940"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T05:24:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18262,
+  "state": "MERGED",
+  "title": "kernel/build: Fix the protected build ",
+  "updatedAt": "2026-02-02T05:24:34Z",
+  "url": "https://github.com/apache/nuttx/pull/18262"
+}

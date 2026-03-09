@@ -1,0 +1,99 @@
+{
+  "additions": 123,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-10T09:30:25Z",
+  "createdAt": "2026-01-08T06:21:33Z",
+  "deletions": 261,
+  "files": [
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 0,
+      "deletions": 67
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 28,
+      "deletions": 132
+    },
+    {
+      "path": "sched/wdog/wd_cancel.c",
+      "additions": 9,
+      "deletions": 2
+    },
+    {
+      "path": "sched/wdog/wd_gettime.c",
+      "additions": 8,
+      "deletions": 10
+    },
+    {
+      "path": "sched/wdog/wd_initialize.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 14,
+      "deletions": 46
+    },
+    {
+      "path": "sched/wdog/wdog.h",
+      "additions": 60,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "wdog_improve",
+  "headRefOid": "29a4620e56baf1fef6c30617307851938586ef65",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac68DIou",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4c1228059fc4fea6a5bd51a17a381dc55dcae279"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-10T09:30:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17796,
+  "state": "MERGED",
+  "title": "sched/wdog: Simplify the wdog expiration handling.",
+  "updatedAt": "2026-01-10T09:30:25Z",
+  "url": "https://github.com/apache/nuttx/pull/17796"
+}

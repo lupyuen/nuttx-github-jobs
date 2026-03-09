@@ -1,0 +1,84 @@
+{
+  "additions": 340,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "is_bot": false,
+    "login": "CV-Bowen",
+    "name": "Bowen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-26T13:17:27Z",
+  "createdAt": "2026-01-26T09:10:18Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "drivers/rpmsg/Kconfig",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi.c",
+      "additions": 139,
+      "deletions": 9
+    },
+    {
+      "path": "drivers/rpmsg/rpmsg_port_spi_slave.c",
+      "additions": 169,
+      "deletions": 9
+    },
+    {
+      "path": "include/nuttx/spi/slave.h",
+      "additions": 26,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpmsg-port-spi-pm",
+  "headRefOid": "44f46f40b40eb8e75bdba75f801c59193b931f4a",
+  "headRepository": {
+    "id": "R_kgDOHBgOhA",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5Mjg2MzYx",
+    "name": "Bowen",
+    "login": "CV-Bowen"
+  },
+  "id": "PR_kwDODZiUac6_Un_9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ae6ad9c193c7f9f61d20803b2bfb69446dfce6f9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T13:17:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18159,
+  "state": "MERGED",
+  "title": "drivers/rpmsg_port_spi: add PM support and stability improvements",
+  "updatedAt": "2026-01-26T13:17:27Z",
+  "url": "https://github.com/apache/nuttx/pull/18159"
+}

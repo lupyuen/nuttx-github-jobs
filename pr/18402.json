@@ -1,0 +1,297 @@
+{
+  "additions": 671295,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODarM1Q",
+    "is_bot": false,
+    "login": "Akashmgw",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 47,
+  "closed": true,
+  "closedAt": "2026-02-17T08:00:39Z",
+  "createdAt": "2026-02-16T08:48:53Z",
+  "deletions": 375,
+  "files": [
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 18,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/include/mindgrove/chip.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/mindgrove/irq.h",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/.vscode-ctags",
+      "additions": 916,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/Kconfig",
+      "additions": 127,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/Make.defs",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/chip.h",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/defines.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/hardware/mindgrove_uart.h",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_clockconfig.c",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_clockconfig.h",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_config.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_gpio.c",
+      "additions": 311,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_gpio.h",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_i2c.c",
+      "additions": 264,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_i2c.h",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_idle.c",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_irq.c",
+      "additions": 188,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_irq_dispatch.c",
+      "additions": 162,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_lowputc.c",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_lowputc.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_memorymap.h",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_pwm.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_pwm.h",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_serial.c",
+      "additions": 1001,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_spi.c",
+      "additions": 727,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_spi.h",
+      "additions": 131,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_start.c",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/mindgrove_timerisr.c",
+      "additions": 174,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/plic.h",
+      "additions": 180,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/plic_driver.c",
+      "additions": 363,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/secure_iot_reg.h",
+      "additions": 4372,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mindgrove/start.S",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_spi.c",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 370,
+      "deletions": 368
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/configs/nsh/defconfig",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/include/board.h",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/scripts/Make.defs",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/scripts/link.ld",
+      "additions": 99,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/src/Makefile",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/src/mindgrove_appinit.c",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/src/mindgrove_boot.c",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/src/mindgrove_bringup.c",
+      "additions": 283,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mindgrove/secure-iot/src/secure-iot.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "dump.txt",
+      "additions": 660333,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "i2c_driver",
+  "headRefOid": "f420029cfcf4459e88ebf5388a0d76b85295871a",
+  "headRepository": {
+    "id": "R_kgDOO67W3w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjg3ODA4NjE1",
+    "login": "Mindgrove-Technologies"
+  },
+  "id": "PR_kwDODZiUac7ECfQz",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18402,
+  "state": "CLOSED",
+  "title": "arch/risc-v/mindgrove: add I2c driver",
+  "updatedAt": "2026-02-19T15:46:38Z",
+  "url": "https://github.com/apache/nuttx/pull/18402"
+}

@@ -1,0 +1,100 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-01-18T11:30:15Z",
+  "createdAt": "2026-01-16T05:40:08Z",
+  "deletions": 157,
+  "files": [
+    {
+      "path": "binfmt/binfmt_exec.c",
+      "additions": 0,
+      "deletions": 27
+    },
+    {
+      "path": "binfmt/binfmt_execmodule.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 0,
+      "deletions": 25
+    },
+    {
+      "path": "sched/group/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/group/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/group/group_exitinfo.c",
+      "additions": 0,
+      "deletions": 97
+    }
+  ],
+  "headRefName": "apache_remove_group_exitinfo",
+  "headRefOid": "f7df317901fc094addb2a2cfbaadd00edb83920a",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69iXPM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "835c9c0f77792f788ef7c6ae7b89633986c3c0f0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-18T11:30:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17954,
+  "state": "MERGED",
+  "title": "binfmt: refactor loadable module cleanup mechanism",
+  "updatedAt": "2026-01-18T11:30:15Z",
+  "url": "https://github.com/apache/nuttx/pull/17954"
+}

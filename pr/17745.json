@@ -1,0 +1,74 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-30T18:29:47Z",
+  "createdAt": "2025-12-30T13:21:49Z",
+  "deletions": 22,
+  "files": [
+    {
+      "path": "net/local/local_recvmsg.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "net/local/local_sendmsg.c",
+      "additions": 2,
+      "deletions": 20
+    }
+  ],
+  "headRefName": "local",
+  "headRefOid": "4d63596c16609790a90110dc76853c542f0620a1",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac66-Gr-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d1bc2800e3c989dec3c3311ddf014c39eb61fe6b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-30T18:29:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17745,
+  "state": "MERGED",
+  "title": "net/local: simplify file descriptor passing using shared filep references",
+  "updatedAt": "2025-12-30T18:29:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17745"
+}

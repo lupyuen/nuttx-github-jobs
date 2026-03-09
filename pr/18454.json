@@ -1,0 +1,84 @@
+{
+  "additions": 133,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-02-27T11:09:31Z",
+  "createdAt": "2026-02-26T09:53:28Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/image/syslog-overview.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/syslog.rst",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/vsyslog.c",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "26022609",
+  "headRefOid": "bbeb09f104b401fa16c303c5058f15107b7d1b81",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac7GfOjl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0acf6f02f370ddc2a6171f9f519fd1c078d55d3b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-27T11:09:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18454,
+  "state": "MERGED",
+  "title": "drivers/syslog: add millisecond option for syslog timestamp formatting",
+  "updatedAt": "2026-02-27T13:38:10Z",
+  "url": "https://github.com/apache/nuttx/pull/18454"
+}

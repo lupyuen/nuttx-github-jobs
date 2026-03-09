@@ -1,0 +1,69 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-28T14:01:46Z",
+  "createdAt": "2026-01-28T06:09:36Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "sched/sched/sched_profil.c",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "apache_sched_profil_misra_c_2012_rule_8_9_violation",
+  "headRefOid": "9db7b5619878adf5569642f56cc5d4e2761bb888",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_xKJn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c7bb7ece8ef9838ff49aa1152eeb377e9192eccb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-28T14:01:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18215,
+  "state": "MERGED",
+  "title": "sched_profil: Move static variable to block scope for MISRA C 2012 compliance",
+  "updatedAt": "2026-01-28T14:01:46Z",
+  "url": "https://github.com/apache/nuttx/pull/18215"
+}

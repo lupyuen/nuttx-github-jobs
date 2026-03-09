@@ -1,0 +1,125 @@
+{
+  "additions": 153,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODylToQ",
+    "is_bot": false,
+    "login": "zhangyu-duck",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-19T09:51:48Z",
+  "createdAt": "2026-01-16T12:54:54Z",
+  "deletions": 81,
+  "files": [
+    {
+      "path": "arch/tricore/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/tc3xx/irq.h",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_doirq.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_irq.c",
+      "additions": 74,
+      "deletions": 21
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/tc3xx_timerisr.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/irq.h",
+      "additions": 40,
+      "deletions": 22
+    },
+    {
+      "path": "sched/irq/irq.h",
+      "additions": 0,
+      "deletions": 34
+    },
+    {
+      "path": "sched/irq/irq_attach.c",
+      "additions": 19,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "tricore_irq_process",
+  "headRefOid": "8dd2beb77f3623e310f8a17fa197beaef4175665",
+  "headRepository": {
+    "id": "R_kgDOQ4CDWw",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODylToQ",
+    "login": "zhangyu-duck"
+  },
+  "id": "PR_kwDODZiUac69nN-5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9685403038fc36013b98fab2572dfaa6afd45e60"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T09:51:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17975,
+  "state": "MERGED",
+  "title": "arch/tricore: enhanced irq handling",
+  "updatedAt": "2026-01-19T09:51:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17975"
+}

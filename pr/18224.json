@@ -1,0 +1,155 @@
+{
+  "additions": 347,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2026-02-02T05:26:22Z",
+  "createdAt": "2026-01-28T08:39:40Z",
+  "deletions": 415,
+  "files": [
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 51,
+      "deletions": 35
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 95,
+      "deletions": 71
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 5,
+      "deletions": 13
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_initialize.c",
+      "additions": 27,
+      "deletions": 13
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 20,
+      "deletions": 30
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_start.c",
+      "additions": 18,
+      "deletions": 36
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_processtick.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_processtickless.c",
+      "additions": 27,
+      "deletions": 9
+    },
+    {
+      "path": "sched/sched/sched_timer.c",
+      "additions": 0,
+      "deletions": 154
+    },
+    {
+      "path": "sched/wdog/wd_cancel.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/wd_initialize.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 18,
+      "deletions": 4
+    },
+    {
+      "path": "sched/wdog/wdog.h",
+      "additions": 65,
+      "deletions": 37
+    }
+  ],
+  "headRefName": "hrtimer_refactor_p2.6",
+  "headRefOid": "9c8a9f37fe2ba3873bf6caa3d4e4806e5b8da708",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6_yw5W",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5b978a7f9b82169da4c4010b2a400b41526bd16e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-02T05:26:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18224,
+  "state": "MERGED",
+  "title": "sched/hrtimer: Fix functional correctness issues and improve the performance.",
+  "updatedAt": "2026-02-02T05:26:22Z",
+  "url": "https://github.com/apache/nuttx/pull/18224"
+}

@@ -1,0 +1,90 @@
+{
+  "additions": 99,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-27T11:30:14Z",
+  "createdAt": "2026-01-26T15:57:30Z",
+  "deletions": 88,
+  "files": [
+    {
+      "path": "Documentation/components/crypto.rst",
+      "additions": 22,
+      "deletions": 33
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 48,
+      "deletions": 36
+    },
+    {
+      "path": "crypto/cryptosoft.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "include/crypto/cryptodev.h",
+      "additions": 25,
+      "deletions": 17
+    }
+  ],
+  "headRefName": "crypto-pr-submit",
+  "headRefOid": "3de3b8c7cad72680706dec6d14cb61d094045091",
+  "headRepository": {
+    "id": "R_kgDOKAa8wg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiUac6_ZZRG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5331d5a9050b97ae0c20c91d6552564b575107e5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-27T11:30:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18167,
+  "state": "MERGED",
+  "title": "crypto: fixes for cryptodev, cryptosoft and RSA export updates",
+  "updatedAt": "2026-01-27T11:30:14Z",
+  "url": "https://github.com/apache/nuttx/pull/18167"
+}

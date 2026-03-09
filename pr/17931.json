@@ -1,0 +1,84 @@
+{
+  "additions": 58,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-01-15T17:37:39Z",
+  "createdAt": "2026-01-15T08:18:55Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "include/pthread.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/pthread_equal.c",
+      "additions": 55,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pse52_pthread_equal_modify",
+  "headRefOid": "22b697b33471eb2c0cb250424d8c621adad19d1f",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac69U_uX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4ce802900f0a957a6face3c993a251a7668a186b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-15T17:37:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17931,
+  "state": "MERGED",
+  "title": "pthead: change the pthread_equal implementation from macro to function",
+  "updatedAt": "2026-01-15T17:37:39Z",
+  "url": "https://github.com/apache/nuttx/pull/17931"
+}

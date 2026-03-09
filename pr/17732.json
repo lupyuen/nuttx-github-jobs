@@ -1,0 +1,88 @@
+{
+  "additions": 81,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-01T16:00:55Z",
+  "createdAt": "2025-12-30T08:59:11Z",
+  "deletions": 36,
+  "files": [
+    {
+      "path": "net/netdev/netdev_foreach.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "net/netlink/netlink.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "net/netlink/netlink_conn.c",
+      "additions": 42,
+      "deletions": 8
+    },
+    {
+      "path": "net/netlink/netlink_route.c",
+      "additions": 10,
+      "deletions": 22
+    },
+    {
+      "path": "net/netlink/netlink_sockif.c",
+      "additions": 6,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "upstream-1",
+  "headRefOid": "d20264525b88337ad78da2116223884182b279d7",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac6673lj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "eb5c8f4e9c5e02622b8db2305d70701ce005c53c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-01T16:00:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17732,
+  "state": "MERGED",
+  "title": "net/netlink: replace net_lock with netlink_lock",
+  "updatedAt": "2026-01-01T16:00:55Z",
+  "url": "https://github.com/apache/nuttx/pull/17732"
+}

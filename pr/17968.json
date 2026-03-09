@@ -1,0 +1,203 @@
+{
+  "additions": 85,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "is_bot": false,
+    "login": "trns1997",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2026-01-24T11:30:21Z",
+  "createdAt": "2026-01-16T09:52:51Z",
+  "deletions": 90,
+  "files": [
+    {
+      "path": "arch/arm/src/cmake/platform.cmake",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/platform.cmake",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr32/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/mips/src/mips32/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/misoc/src/lm32/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/misoc/src/minerva/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/or1k/src/mor1kx/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/cmake/platform.cmake",
+      "additions": 9,
+      "deletions": 27
+    },
+    {
+      "path": "arch/risc-v/src/common/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/cmake/platform.cmake",
+      "additions": 8,
+      "deletions": 26
+    },
+    {
+      "path": "arch/x86_64/src/cmake/platform.cmake",
+      "additions": 10,
+      "deletions": 33
+    },
+    {
+      "path": "arch/xtensa/src/cmake/platform.cmake",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/lx6/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/lx7/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add-missing-libcxxtoolchain-support",
+  "headRefOid": "322185dd1f1ea90ad0c7033acab420142ac2035b",
+  "headRepository": {
+    "id": "R_kgDOJ0OTLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "login": "trns1997"
+  },
+  "id": "PR_kwDODZiUac69lAHm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9159f6e353e5a0ee4f069aa0b0683cae065a68e3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-24T11:30:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17968,
+  "state": "MERGED",
+  "title": "build/cmake: add missing libcxxtoolchain support",
+  "updatedAt": "2026-01-24T11:30:21Z",
+  "url": "https://github.com/apache/nuttx/pull/17968"
+}

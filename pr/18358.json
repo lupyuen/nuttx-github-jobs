@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MjcxNTgy",
+    "is_bot": false,
+    "login": "hitHuang",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-02-06T13:16:34Z",
+  "createdAt": "2026-02-06T02:28:24Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "mm/mm_gran/mm_graninit.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix/mm_graninit",
+  "headRefOid": "abf6cc168135a1df8f2bb8a736bc1f23b9b7f5ec",
+  "headRepository": {
+    "id": "R_kgDORIGoVw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MjcxNTgy",
+    "login": "hitHuang"
+  },
+  "id": "PR_kwDODZiUac7B4VQx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "64d191d32e3008866f4fd06b22db4a53b163098d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-06T13:16:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18358,
+  "state": "MERGED",
+  "title": "mm/mm_gran: fix data truncation on 64-bit systems by using size_t for mask",
+  "updatedAt": "2026-02-06T13:16:34Z",
+  "url": "https://github.com/apache/nuttx/pull/18358"
+}

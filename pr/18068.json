@@ -1,0 +1,128 @@
+{
+  "additions": 1582,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOD0NxaQ",
+    "is_bot": false,
+    "login": "Kaben123",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2026-01-30T09:32:15Z",
+  "createdAt": "2026-01-21T07:30:27Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "include/nuttx/crc16.h",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/crc32.h",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/crc64.h",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/crc8.h",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/Make.defs",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/misc/lib_crc16h1021.c",
+      "additions": 178,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc16h8005.c",
+      "additions": 178,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc32h04c11db7.c",
+      "additions": 211,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc32hf4acfb13.c",
+      "additions": 211,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc64emac.c",
+      "additions": 292,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc8h1d.c",
+      "additions": 170,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc8h2f.c",
+      "additions": 171,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature-libs-crc",
+  "headRefOid": "c4a8a8e43a7810e637d4b06bc95485fa5d0097d1",
+  "headRepository": {
+    "id": "R_kgDOQ9bv7g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOD0NxaQ",
+    "login": "Kaben123"
+  },
+  "id": "PR_kwDODZiUac6-YkC2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "31b0d79b44f7ab0f6ee2e24d1735bd04094bddd6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-30T09:32:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18068,
+  "state": "MERGED",
+  "title": "libs/crc: implement AUTOSAR-compatible CRC algorithm",
+  "updatedAt": "2026-01-30T09:32:15Z",
+  "url": "https://github.com/apache/nuttx/pull/18068"
+}

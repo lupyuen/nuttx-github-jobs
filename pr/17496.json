@@ -1,0 +1,108 @@
+{
+  "additions": 99,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC1JDKw",
+    "is_bot": false,
+    "login": "yangsong8-a1",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-12-13T04:39:48Z",
+  "createdAt": "2025-12-12T16:11:30Z",
+  "deletions": 77,
+  "files": [
+    {
+      "path": "drivers/usbhost/usbhost_bthci.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "drivers/usbhost/usbhost_cdcacm.c",
+      "additions": 31,
+      "deletions": 26
+    },
+    {
+      "path": "drivers/usbhost/usbhost_cdcmbim.c",
+      "additions": 20,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/usbhost/usbhost_findclass.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/usbhost/usbhost_registerclass.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/usbhost/usbhost_registry.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_registry.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_storage.c",
+      "additions": 28,
+      "deletions": 24
+    },
+    {
+      "path": "drivers/usbhost/usbhost_trace.c",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "usbhostspinlock",
+  "headRefOid": "f8cdb1597f6784a6c19541c6ff40a9a2a9b5688b",
+  "headRepository": {
+    "id": "R_kgDONV3wlw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC1JDKw",
+    "login": "yangsong8-a1"
+  },
+  "id": "PR_kwDODZiUac64mQhJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a7af894cd390b575d8b077337d7950d92c17cd7e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-13T04:39:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17496,
+  "state": "MERGED",
+  "title": "usbhost: replace critical_section with spinlock",
+  "updatedAt": "2025-12-13T04:39:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17496"
+}

@@ -1,0 +1,92 @@
+{
+  "additions": 506,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCannfA",
+    "is_bot": false,
+    "login": "chenzihan0416",
+    "name": "Hibana"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-05T11:53:33Z",
+  "createdAt": "2026-01-05T11:50:57Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/drivers_initialize.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/gnss_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/sensor_monitor.c",
+      "additions": 439,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/sensor.h",
+      "additions": 30,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "gnss_uorb",
+  "headRefOid": "6378fc29fec2618eaf08a097a14537baef608877",
+  "headRepository": {
+    "id": "R_kgDOLbaZXw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCannfA",
+    "name": "Hibana",
+    "login": "chenzihan0416"
+  },
+  "id": "PR_kwDODZiUac67hOEx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17768,
+  "state": "CLOSED",
+  "title": "drivers/sensors: update upper->parsebuffer every new line",
+  "updatedAt": "2026-01-05T17:52:54Z",
+  "url": "https://github.com/apache/nuttx/pull/17768"
+}

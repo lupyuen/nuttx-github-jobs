@@ -1,0 +1,69 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-01-16T13:34:42Z",
+  "createdAt": "2026-01-16T09:24:13Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_syscall.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "apache_arm64_When_returning",
+  "headRefOid": "14a51aeb35e03261a99d3d13ec9cfd8ee577bad4",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac69kno2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "79b6d270182b5fbb787b2be3fab044dc53e4b815"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T13:34:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17966,
+  "state": "MERGED",
+  "title": "arm64: When returning from a system call, regs[REG_SP_EL0] will overw…",
+  "updatedAt": "2026-01-16T13:34:42Z",
+  "url": "https://github.com/apache/nuttx/pull/17966"
+}

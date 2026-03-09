@@ -1,0 +1,80 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIwMjczNDQ=",
+    "is_bot": false,
+    "login": "jerenkrantz",
+    "name": "Justin Erenkrantz"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-20T03:09:38Z",
+  "createdAt": "2025-12-12T14:34:04Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/litex/cores/vexriscv_smp/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/litex/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "litex-opensbi-fdt-address",
+  "headRefOid": "ec9dabc3f87edb0cb36dba3797379ee280f84485",
+  "headRepository": {
+    "id": "R_kgDOQnkSfw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIwMjczNDQ=",
+    "name": "Justin Erenkrantz",
+    "login": "jerenkrantz"
+  },
+  "id": "PR_kwDODZiUac64lEWJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "18a1d159a7997c334eb2ba9aa932813fb304f42a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-20T03:09:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17490,
+  "state": "MERGED",
+  "title": "risc-v/litex: For vexriscv_smp, match default FDT address set by upstream opensbi.",
+  "updatedAt": "2025-12-20T03:09:38Z",
+  "url": "https://github.com/apache/nuttx/pull/17490"
+}

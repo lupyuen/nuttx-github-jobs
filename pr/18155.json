@@ -1,0 +1,99 @@
+{
+  "additions": 101,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-01-26T13:14:38Z",
+  "createdAt": "2026-01-26T07:39:09Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/sched/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/sched/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/sched/clock_perf.c",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/clock_perf.c",
+      "additions": 36,
+      "deletions": 67
+    }
+  ],
+  "headRefName": "apache_clock_opt",
+  "headRefOid": "1eb52e22b6442cda59aaebd7ec7122cc5b03cc95",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6_TvPp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a89b7f7add20594258c30b995b3e6527c9839a94"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-26T13:14:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 18155,
+  "state": "MERGED",
+  "title": "clock: Optimize performance counter infrastructure with userspace access and multi-architecture support",
+  "updatedAt": "2026-01-26T13:14:38Z",
+  "url": "https://github.com/apache/nuttx/pull/18155"
+}

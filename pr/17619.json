@@ -1,0 +1,74 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.12",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-23T02:27:55Z",
+  "createdAt": "2025-12-22T10:24:45Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "fs/mqueue/mq_unlink.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "fs/semaphore/sem_unlink.c",
+      "additions": 6,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "bp-17509",
+  "headRefOid": "290bedf0f48d612085e242c5e52eea42b5edf1c5",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac66HKco",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7713e88871345559fe9a26411f386dedf6b2f037"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-23T02:27:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17619,
+  "state": "MERGED",
+  "title": "{bp-17509} bugfix:the inode may have been removed by other core in SMP",
+  "updatedAt": "2025-12-23T05:30:35Z",
+  "url": "https://github.com/apache/nuttx/pull/17619"
+}

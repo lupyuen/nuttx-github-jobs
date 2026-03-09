@@ -1,0 +1,166 @@
+{
+  "additions": 99,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "is_bot": false,
+    "login": "zzby0",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2026-02-03T19:29:17Z",
+  "createdAt": "2026-01-14T15:41:32Z",
+  "deletions": 99,
+  "files": [
+    {
+      "path": "testing/ostest/CMakeLists.txt",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/cancel.c",
+      "additions": 15,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/cond.c",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "testing/ostest/fpu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/mqueue.c",
+      "additions": 5,
+      "deletions": 6
+    },
+    {
+      "path": "testing/ostest/nsem.c",
+      "additions": 3,
+      "deletions": 7
+    },
+    {
+      "path": "testing/ostest/nxevent.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/ostest.h",
+      "additions": 15,
+      "deletions": 5
+    },
+    {
+      "path": "testing/ostest/ostest_main.c",
+      "additions": 6,
+      "deletions": 14
+    },
+    {
+      "path": "testing/ostest/prioinherit.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/pthread_exit.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "testing/ostest/restart.c",
+      "additions": 4,
+      "deletions": 11
+    },
+    {
+      "path": "testing/ostest/schedlock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/sem.c",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "testing/ostest/semtimed.c",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "testing/ostest/sighand.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/signest.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/suspend.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/timedwait.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/waitpid.c",
+      "additions": 1,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "ostest",
+  "headRefOid": "d3419a96eed598054b56814794aba32eb7609594",
+  "headRepository": {
+    "id": "R_kgDOKAmvcQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "login": "zzby0"
+  },
+  "id": "PR_kwDODZiT4869L1sc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3330,
+  "state": "CLOSED",
+  "title": "ostest: add kconfig to set priority",
+  "updatedAt": "2026-02-03T19:29:17Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3330"
+}

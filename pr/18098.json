@@ -1,0 +1,215 @@
+{
+  "additions": 219,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 29,
+  "closed": true,
+  "closedAt": "2026-01-22T15:40:49Z",
+  "createdAt": "2026-01-22T08:24:26Z",
+  "deletions": 188,
+  "files": [
+    {
+      "path": "include/nuttx/mutex.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/pthread.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "include/nuttx/tls.h",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 1,
+      "deletions": 8
+    },
+    {
+      "path": "libs/libc/pthread/CMakeLists.txt",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex.c",
+      "additions": 15,
+      "deletions": 62
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_consistent.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_destroy.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_init.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_timedlock.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_trylock.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_unlock.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/pthread/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "sched/pthread/Make.defs",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "sched/pthread/pthread.h",
+      "additions": 0,
+      "deletions": 53
+    },
+    {
+      "path": "sched/pthread/pthread_condclockwait.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_condwait.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/pthread/pthread_mutexinconsistent.c",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_releasetcb.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_fork.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/tls/tls_dupinfo.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/tls/tls_initinfo.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/protocols/thread.py",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_pthread_remove_syscall",
+  "headRefOid": "3d75633fa90aaf056f3550f8a33a14e5587eceed",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6-o39n",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5051721298dd2d3383d80ab88d0295ce94af7929"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-22T15:40:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18098,
+  "state": "MERGED",
+  "title": "sched/pthread: move pthread mutex from syscall to user-space",
+  "updatedAt": "2026-01-22T15:40:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18098"
+}
