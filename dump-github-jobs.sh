@@ -265,6 +265,7 @@ function dump_duration {
   local file=duration/$run_id.txt
   echo "$duration" >$file
   echo "Duration for $run_id: $file"
+  sleep 1
 }
 
 ## Result:
