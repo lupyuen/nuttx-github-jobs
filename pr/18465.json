@@ -1,0 +1,123 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCZ0p9w",
+    "is_bot": false,
+    "login": "arjav1528",
+    "name": "Arjav Patel"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-27T10:37:05Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm/src/cmake/platform.cmake",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/platform.cmake",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/cmake/platform.cmake",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/cmake/platform.cmake",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/cmake/platform.cmake",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "tools/Config.mk",
+      "additions": 3,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "dev-issue-18088",
+  "headRefOid": "e40e0f8d81388d6066c116835a88cc00f6820de9",
+  "headRepository": {
+    "id": "R_kgDORHYmBw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCZ0p9w",
+    "name": "Arjav Patel",
+    "login": "arjav1528"
+  },
+  "id": "PR_kwDODZiUac7GyjVj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18465,
+  "state": "OPEN",
+  "title": "Guard include/cxx with CONFIG_LIBMINIABI for C++ builds",
+  "updatedAt": "2026-03-08T16:48:07Z",
+  "url": "https://github.com/apache/nuttx/pull/18465"
+}

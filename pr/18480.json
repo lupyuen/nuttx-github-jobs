@@ -1,0 +1,62 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM4MTE5MDA=",
+    "is_bot": false,
+    "login": "Cynerd",
+    "name": "Karel Kočí"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-02T13:25:19Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "libs/libm/libm/lib_truncl.c",
+      "additions": 13,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "truncl-arm",
+  "headRefOid": "bab1e1f21d3aedba31e46ed67f73fcd87e36a167",
+  "headRepository": {
+    "id": "R_kgDOHXjc8w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM4MTE5MDA=",
+    "name": "Karel Kočí",
+    "login": "Cynerd"
+  },
+  "id": "PR_kwDODZiUac7HVOCl",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18480,
+  "state": "OPEN",
+  "title": "libm: fix truncl when long double has same size as double",
+  "updatedAt": "2026-03-02T16:29:24Z",
+  "url": "https://github.com/apache/nuttx/pull/18480"
+}
