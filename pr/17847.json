@@ -1,0 +1,98 @@
+{
+  "additions": 347,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "is_bot": false,
+    "login": "PetervdPerk-NXP",
+    "name": "Peter van der Perk"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-01-12T16:39:32Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "fs/procfs/fs_procfsiobinfo.c",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/iob.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "mm/iob/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "mm/iob/iob_alloc.c",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "mm/iob/iob_free.c",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "mm/iob/iob_free.c.orig",
+      "additions": 222,
+      "deletions": 0
+    },
+    {
+      "path": "mm/iob/iob_initialize.c",
+      "additions": 17,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pr-mm-iob-info",
+  "headRefOid": "15756da9c3da26c12dab68d4316fbad86f893bed",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDIxNzAxMTM=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "name": "Peter van der Perk",
+    "login": "PetervdPerk-NXP"
+  },
+  "id": "PR_kwDODZiUac68vatC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17847,
+  "state": "OPEN",
+  "title": "net/iob: Add CONFIG_IOB_OWNER_TRACKING to record IOB owner for debugging",
+  "updatedAt": "2026-01-13T14:49:35Z",
+  "url": "https://github.com/apache/nuttx/pull/17847"
+}
