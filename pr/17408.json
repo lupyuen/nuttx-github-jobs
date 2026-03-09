@@ -1,0 +1,244 @@
+{
+  "additions": 538,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 34,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-11-29T20:58:31Z",
+  "deletions": 221,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/sensors/sensors_uorb.rst",
+      "additions": 56,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/adxl362_uorb.c",
+      "additions": 16,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/sensors/adxl372_uorb.c",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/bh1749nuc_uorb.c",
+      "additions": 16,
+      "deletions": 16
+    },
+    {
+      "path": "drivers/sensors/bme680_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bme688_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmi088_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmi160_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmi270_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmm150_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bmp180_base.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmp180_base.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmp180_uorb.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmp280_uorb.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/sensors/ds18b20_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/fakesensor_uorb.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/fs3000_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/gnss_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/goldfish_gnss_uorb.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/goldfish_sensor_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/hyt271_uorb.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/sensors/l3gd20_uorb.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/l86xxx_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lis2mdl_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm6dso32_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm9ds1_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ltr308_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mcp9600_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mpu9250_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/ms56xx_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/sht4x_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/wtgahrs2_uorb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/uorb.h",
+      "additions": 242,
+      "deletions": 168
+    }
+  ],
+  "headRefName": "sensors_fixedmath",
+  "headRefOid": "dde5a820b2528d4a14a54472593cbae5e7dd3552",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac62JPjN",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": {
+    "number": 3,
+    "title": "v13.0.0",
+    "description": "NuttX version 13.0.0 release, including new breaking changes.",
+    "dueOn": "2026-06-01T00:00:00Z"
+  },
+  "number": 17408,
+  "state": "OPEN",
+  "title": "WIP: initial support for fixed-point data for sensors",
+  "updatedAt": "2026-03-01T08:20:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17408"
+}

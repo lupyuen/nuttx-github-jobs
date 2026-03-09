@@ -1,0 +1,77 @@
+{
+  "additions": 213,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-08-12T17:41:59Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/rp2040/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp2040/hardware/rp2040_syscfg.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_syscfg.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_syscfg.h",
+      "additions": 78,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nm_rp2040_custom_swd_dap_ids",
+  "headRefOid": "a561c1af90e12d54a67921a923a30a8d92a74057",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6jUbR5",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16841,
+  "state": "OPEN",
+  "title": "arch/arm/rp2040: Implement support for custom SWD DAP instance IDs",
+  "updatedAt": "2026-01-16T11:38:28Z",
+  "url": "https://github.com/apache/nuttx/pull/16841"
+}

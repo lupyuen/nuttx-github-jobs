@@ -1,0 +1,129 @@
+{
+  "additions": 1044,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-09-02T12:39:46Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/rp2040/boards/raspberrypi-pico/index.rst",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/include/rp2040_husb238.h",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_common_bringup.c",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_husb238.c",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/husb238/defconfig",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/power/supply/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/power/supply/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/power/supply/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/power/supply/husb238.c",
+      "additions": 467,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/power/husb238.h",
+      "additions": 216,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/power/power_ioctl.h",
+      "additions": 21,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nm_husb238",
+  "headRefOid": "d5df9ad561f4b2721527d485adebc6df22e58606",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6mco6i",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16963,
+  "state": "OPEN",
+  "title": "drivers/power/supply/husb238: Add support for HUSB238 USB-PD Sink Controller",
+  "updatedAt": "2026-01-20T12:45:30Z",
+  "url": "https://github.com/apache/nuttx/pull/16963"
+}

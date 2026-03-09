@@ -1,0 +1,73 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-08-28T07:01:01Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix-rwx-warn",
+  "headRefOid": "dc921836b97a15a13a4fb0bfe304ad99e5291220",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6lvePZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16930,
+  "state": "OPEN",
+  "title": "arch/arm,riscv/rp23xx: Silence \"LOAD segment with RWX permissions\" linker warnings",
+  "updatedAt": "2026-02-05T06:40:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16930"
+}

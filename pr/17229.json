@@ -1,0 +1,231 @@
+{
+  "additions": 3093,
+  "assignees": [],
+  "author": {
+    "is_bot": true,
+    "login": "app/"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 33,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-10-22T15:05:38Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/am67/boards/t3-gem-o1/index.rst",
+      "additions": 153,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/am67/boards/t3-gem-o1/t3-gem-o1-back.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/am67/boards/t3-gem-o1/t3-gem-o1-front.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/am67/index.rst",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/am67/irq.h",
+      "additions": 319,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/CMakeLists.txt",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/Make.defs",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_boot.c",
+      "additions": 178,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_irq.c",
+      "additions": 325,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_mpuinit.c",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_mpuinit.h",
+      "additions": 196,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_pinmux.c",
+      "additions": 148,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_pinmux.h",
+      "additions": 316,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_serial.c",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/am67_timer.c",
+      "additions": 504,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/am67/chip.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_mpu.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/configs/nsh/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/include/board.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/scripts/Make.defs",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/scripts/sdram.ld",
+      "additions": 172,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/src/CMakeLists.txt",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/src/Makefile",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/src/am67_appinit.c",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/src/am67_bringup.c",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/am67/t3-gem-o1/src/t3-gem-o1.h",
+      "additions": 55,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pr-t3-gem-o1-board",
+  "headRefOid": "e0570dd521551f5185d2d9608b2f883252351f32",
+  "headRepository": {
+    "id": "R_kgDOPMyAHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "O_kgDODANMMg",
+    "login": "t3gemstone"
+  },
+  "id": "PR_kwDODZiUac6vFwGh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17229,
+  "state": "OPEN",
+  "title": "boards/arm/am67: Add support for T3 Gemstone O1 board",
+  "updatedAt": "2026-02-25T13:23:07Z",
+  "url": "https://github.com/apache/nuttx/pull/17229"
+}

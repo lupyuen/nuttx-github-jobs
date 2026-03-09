@@ -1,0 +1,258 @@
+{
+  "additions": 294,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-12-21T12:14:11Z",
+  "deletions": 307,
+  "files": [
+    {
+      "path": "Documentation/guides/kernel_threads_with_custom_stacks.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/common/arm_fork.c",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fork.c",
+      "additions": 40,
+      "deletions": 40
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_fork.c",
+      "additions": 13,
+      "deletions": 13
+    },
+    {
+      "path": "arch/mips/src/mips32/mips_fork.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_fork.c",
+      "additions": 43,
+      "deletions": 43
+    },
+    {
+      "path": "arch/sim/src/sim/sim_fork.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_fork.c",
+      "additions": 16,
+      "deletions": 16
+    },
+    {
+      "path": "binfmt/binfmt_execmodule.c",
+      "additions": 17,
+      "deletions": 15
+    },
+    {
+      "path": "include/nuttx/mm/map.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 5,
+      "deletions": 24
+    },
+    {
+      "path": "sched/group/group.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 24,
+      "deletions": 26
+    },
+    {
+      "path": "sched/group/group_foreachchild.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 9,
+      "deletions": 8
+    },
+    {
+      "path": "sched/group/group_setuptaskfiles.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_releasetcb.c",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_create.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_exithook.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/task/task_fork.c",
+      "additions": 21,
+      "deletions": 20
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 17,
+      "deletions": 18
+    },
+    {
+      "path": "sched/task/task_setup.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "sched/task/task_spawn.c",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/utils.py",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "25122101",
+  "headRefOid": "2a0345ef03e89078dda8a3ad1fc403244b3b3f38",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac66ALqP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17578,
+  "state": "OPEN",
+  "title": "sched/task: Relocate the group ahead of the tcb to ensure the group drop logic",
+  "updatedAt": "2025-12-22T03:39:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17578"
+}

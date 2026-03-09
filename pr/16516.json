@@ -1,0 +1,87 @@
+{
+  "additions": 184,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU1NjA1NTg=",
+    "is_bot": false,
+    "login": "LightDestory",
+    "name": "Alessio Tudisco"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-06-11T20:38:37Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/configs/can/defconfig",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/include/board.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/src/nucleo-l432kc.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/src/stm32_bringup.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/src/stm32_can.c",
+      "additions": 89,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32l4kc_can",
+  "headRefOid": "b540a51498938e20ceaa719290ebfc54462f1af1",
+  "headRepository": {
+    "id": "R_kgDOO6G4sQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU1NjA1NTg=",
+    "name": "Alessio Tudisco",
+    "login": "LightDestory"
+  },
+  "id": "PR_kwDODZiUac6aGV1s",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16516,
+  "state": "OPEN",
+  "title": "Add CAN support for STM32L4KC",
+  "updatedAt": "2025-07-31T12:01:32Z",
+  "url": "https://github.com/apache/nuttx/pull/16516"
+}

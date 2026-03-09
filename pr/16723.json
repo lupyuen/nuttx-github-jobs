@@ -1,0 +1,119 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEzMDMyMDM=",
+    "is_bot": false,
+    "login": "bl4kraven",
+    "name": "Leo Chung"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-07-14T08:52:33Z",
+  "deletions": 43,
+  "files": [
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/Bootloader.mk",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Bootloader.mk",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Bootloader.mk",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "tools/esp32/Config.mk",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "tools/esp32c3/Config.mk",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "tools/esp32s2/Config.mk",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "tools/esp32s3/Config.mk",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "tools/espressif/Config.mk",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "tools/espressif/check_esptool.py",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "tools/espressif/chip_info.py",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_esptool_warnning",
+  "headRefOid": "fb43d956553f8ce881999aa06c4becdabd8cb981",
+  "headRepository": {
+    "id": "R_kgDONDcmLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEzMDMyMDM=",
+    "name": "Leo Chung",
+    "login": "bl4kraven"
+  },
+  "id": "PR_kwDODZiUac6ewiLl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16723,
+  "state": "OPEN",
+  "title": "tools: Fix esptool.py and espsecure.py warnning",
+  "updatedAt": "2025-07-15T19:25:45Z",
+  "url": "https://github.com/apache/nuttx/pull/16723"
+}

@@ -1,0 +1,108 @@
+{
+  "additions": 1490,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-11-29T01:41:36Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/sensors.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/sensors_legacy.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/tc74ax.rst",
+      "additions": 180,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/tc74ax.c",
+      "additions": 1078,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/ioctl.h",
+      "additions": 14,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sensors/tc74ax.h",
+      "additions": 106,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "avrdx_twi_rfc1-3",
+  "headRefOid": "ae0d0cadee3099a34d7a0f0cc78001aaf6867d1e",
+  "headRepository": {
+    "id": "R_kgDOGLlPEA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "name": "CeDeROM",
+    "login": "cederom"
+  },
+  "id": "PR_kwDODZiUac62Gl-G",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17405,
+  "state": "OPEN",
+  "title": "drivers/sensors/tc74ax: add driver for TC74Ax thermal sensor",
+  "updatedAt": "2025-12-03T11:45:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17405"
+}
