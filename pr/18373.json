@@ -1,0 +1,78 @@
+{
+  "additions": 726,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBkM3nQ",
+    "is_bot": false,
+    "login": "aviralgarg05",
+    "name": "Aviral Garg"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-09T13:11:39Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-devkitc/index.rst",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_boot_image.c",
+      "additions": 716,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "esp32-boot-image-impl",
+  "headRefOid": "a4cdbdf84f8d01f9212cbf52694ec1aada4e4e26",
+  "headRepository": {
+    "id": "R_kgDOQ70AiA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBkM3nQ",
+    "name": "Aviral Garg",
+    "login": "aviralgarg05"
+  },
+  "id": "PR_kwDODZiUac7CerPY",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18373,
+  "state": "OPEN",
+  "title": "arch/xtensa/esp32: Implement board_boot_image for mcuboot/nxboot support",
+  "updatedAt": "2026-02-27T10:10:28Z",
+  "url": "https://github.com/apache/nuttx/pull/18373"
+}

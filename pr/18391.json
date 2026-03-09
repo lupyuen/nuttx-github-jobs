@@ -1,0 +1,433 @@
+{
+  "additions": 7522,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODylToQ",
+    "is_bot": false,
+    "login": "zhangyu-duck",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 73,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-13T08:11:26Z",
+  "deletions": 4724,
+  "files": [
+    {
+      "path": "Documentation/platforms/tricore/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc4d9/boards/triboard_tc4x9_com/index.rst",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc4d9/index.rst",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/Kconfig",
+      "additions": 74,
+      "deletions": 13
+    },
+    {
+      "path": "arch/tricore/include/irq.h",
+      "additions": 106,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/include/tc397/irq.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/tc3xx/irq.h",
+      "additions": 0,
+      "deletions": 145
+    },
+    {
+      "path": "arch/tricore/include/tc4da/chip.h",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/tc4da/irq.h",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/Makefile",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/cmake/ToolchainGnuc.cmake",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/src/cmake/ToolchainTasking.cmake",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/src/cmake/chip.cmake",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_cache.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 3,
+      "deletions": 14
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_irq.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_main.c",
+      "additions": 13,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_mpu.c",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/Configurations/Ifx_Cfg.h",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/Configurations/Ifx_Cfg_Ssw.c",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/Configurations/Ifx_Cfg_Ssw.h",
+      "additions": 111,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/patches/change_illd.patch",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/Configurations/Ifx_Cfg.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/Configurations/Ifx_Cfg_Ssw.c",
+      "additions": 211,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/Configurations/Ifx_Cfg_Ssw.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/patches/change_illd.patch",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc397/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 16
+    },
+    {
+      "path": "arch/tricore/src/tc397/Make.defs",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/CMakeLists.txt",
+      "additions": 128,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/Make.defs",
+      "additions": 96,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/Toolchain.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/tc4da/CMakeLists.txt",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4da/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4da/Make.defs",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4da/chip.h",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/CMakeLists.txt",
+      "additions": 192,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/Make.defs",
+      "additions": 180,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/Toolchain.defs",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/tc4xx_dummy.c",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/tc4xx_libc.c",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/tc4xx_serial.c",
+      "additions": 732,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc4xx/tc4xx_timerisr.c",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/include/board_memorymap.h",
+      "additions": 305,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Gnuc_Tricore_Tc.lsl",
+      "additions": 0,
+      "deletions": 2983
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Gnuc_Tricore_Tc.lsl.kernel",
+      "additions": 554,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Gnuc_Tricore_Tc.lsl.user",
+      "additions": 264,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Tasking_Tricore_Tc.lsl",
+      "additions": 0,
+      "deletions": 1478
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Tasking_Tricore_Tc.lsl.kernel",
+      "additions": 633,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Tasking_Tricore_Tc.lsl.user",
+      "additions": 189,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Make.defs",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/src/CMakeLists.txt",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/configs/nsh/defconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/include/board.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/include/board_memorymap.h",
+      "additions": 457,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/scripts/Lcf_Gnuc_Tricore_Tc.lsl.kernel",
+      "additions": 590,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/scripts/Lcf_Gnuc_Tricore_Tc.lsl.user",
+      "additions": 264,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/scripts/Lcf_Tasking_Tricore_Tc.lsl.kernel",
+      "additions": 639,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/scripts/Lcf_Tasking_Tricore_Tc.lsl.user",
+      "additions": 204,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/scripts/Make.defs",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/src/CMakeLists.txt",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/src/Makefile",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/src/tc4da.h",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/src/tc4da_appinit.c",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/src/tc4da_boardinit.c",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/src/tc4da_bringup.c",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "tricore_tc4_board",
+  "headRefOid": "26ba8297385e139d4d73dd69dd120795cf0efafa",
+  "headRepository": {
+    "id": "R_kgDOQ4CDWw",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODylToQ",
+    "login": "zhangyu-duck"
+  },
+  "id": "PR_kwDODZiUac7DfeMk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18391,
+  "state": "OPEN",
+  "title": "arch/tricore: add support for tc4xx series chips and boards",
+  "updatedAt": "2026-03-09T11:39:05Z",
+  "url": "https://github.com/apache/nuttx/pull/18391"
+}

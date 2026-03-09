@@ -1,0 +1,196 @@
+{
+  "additions": 17,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 23,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-19T05:07:57Z",
+  "deletions": 211,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boot/miniboot/miniboot_main.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "boot/nxboot/nxboot_main.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "examples/foc/foc_main.c",
+      "additions": 2,
+      "deletions": 8
+    },
+    {
+      "path": "examples/lvgldemo/lvgldemo.c",
+      "additions": 0,
+      "deletions": 24
+    },
+    {
+      "path": "examples/lvglterm/lvglterm.c",
+      "additions": 0,
+      "deletions": 23
+    },
+    {
+      "path": "examples/nimble/nimble_main.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "examples/nimble_blecent/nimble_blecent_main.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "examples/nimble_bleprph/nimble_bleprph_main.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "examples/nxscope/nxscope_main.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "examples/powerled/powerled_main.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "examples/smps/smps_main.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "graphics/nxwm/src/nxwm_main.cxx",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "graphics/twm4nx/Kconfig",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "graphics/twm4nx/src/twm4nx_main.cxx",
+      "additions": 0,
+      "deletions": 17
+    },
+    {
+      "path": "nshlib/Kconfig",
+      "additions": 1,
+      "deletions": 11
+    },
+    {
+      "path": "nshlib/nsh.h",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "nshlib/nsh_init.c",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "system/adb/Kconfig",
+      "additions": 1,
+      "deletions": 8
+    },
+    {
+      "path": "system/adb/adb_main.c",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "system/adcscope/adcscope_main.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "system/ofloader/ofloader.c",
+      "additions": 2,
+      "deletions": 8
+    },
+    {
+      "path": "system/sensorscope/sensorscope_main.c",
+      "additions": 3,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "byebye-archinit",
+  "headRefOid": "50679c8f890790cbb615e4b6ec33d2f7357fcf43",
+  "headRepository": {
+    "id": "R_kgDOMXy84w",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiT487Ex69u",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7M-w",
+      "name": "Area: Boot",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7X-w",
+      "name": "Area: NSH",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABxJhmxQ",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3405,
+  "state": "OPEN",
+  "title": "!apps: Simplify NuttX initialization",
+  "updatedAt": "2026-03-03T19:09:26Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3405"
+}

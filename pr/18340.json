@@ -1,0 +1,81 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC2sdrQ",
+    "is_bot": false,
+    "login": "txy-21",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-03T13:45:55Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "include/nuttx/lib/lib.h",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/netdb/lib_getaddrinfo.c",
+      "additions": 18,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/netdb/lib_gethostentbynamer.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/netdb/lib_netdb.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "libc/add-rexec-implementation",
+  "headRefOid": "61fe6aee44977ba3b33fab4a0f1729b694a4468d",
+  "headRepository": {
+    "id": "R_kgDONc8U5Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC2sdrQ",
+    "login": "txy-21"
+  },
+  "id": "PR_kwDODZiUac7BMulM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18340,
+  "state": "OPEN",
+  "title": "libc: Add library support for rexec",
+  "updatedAt": "2026-02-12T19:30:35Z",
+  "url": "https://github.com/apache/nuttx/pull/18340"
+}

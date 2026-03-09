@@ -1,0 +1,118 @@
+{
+  "additions": 472,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgwNzUyMjY1",
+    "is_bot": false,
+    "login": "nyh163925",
+    "name": "niyinghao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-05T08:54:07Z",
+  "deletions": 43,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/sim_decoder.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sim/src/sim/sim_encoder.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/video/v4l2_cap.c",
+      "additions": 23,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/video/v4l2_m2m.c",
+      "additions": 210,
+      "deletions": 31
+    },
+    {
+      "path": "drivers/video/video_framebuff.c",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/video_framebuff.h",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/video/imgdata.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/video/imgsensor.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/video/v4l2_m2m.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/video_controls.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/videoio.h",
+      "additions": 144,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "sync_v4l2_form_vela",
+  "headRefOid": "3e97d31759f6cd4ea70fce788a4e99866cbd523a",
+  "headRepository": {
+    "id": "R_kgDONtO6Fg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjgwNzUyMjY1",
+    "name": "niyinghao",
+    "login": "nyh163925"
+  },
+  "id": "PR_kwDODZiUac7Bqusa",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18353,
+  "state": "OPEN",
+  "title": "v4l2/video: expansion of V4L2 functionality and improvement",
+  "updatedAt": "2026-02-19T18:25:04Z",
+  "url": "https://github.com/apache/nuttx/pull/18353"
+}

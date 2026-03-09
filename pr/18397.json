@@ -1,0 +1,302 @@
+{
+  "additions": 15504,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC7cL0w",
+    "is_bot": false,
+    "login": "vrmay23",
+    "name": "vinicius"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 49,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-15T15:03:11Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/Kconfig",
+      "additions": 1285,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/configs/button_driver/defconfig",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/configs/nsh/defconfig",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/configs/socketcan/defconfig",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/include/board.h",
+      "additions": 1309,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/include/readme.txt",
+      "additions": 420,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/kernel/Makefile",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/kernel/stm32_userspace.c",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/scripts/Make.defs",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/scripts/flash-mcuboot-app.ld",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/scripts/flash-mcuboot-loader.ld",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/scripts/flash.ld",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/scripts/kernel.space.ld",
+      "additions": 112,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/scripts/memory.ld",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/scripts/user-space.ld",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/CMakeLists.txt",
+      "additions": 127,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/Makefile",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/nucleo-h753zi.h",
+      "additions": 1236,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_adc.c",
+      "additions": 270,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_appinitialize.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_autoleds.c",
+      "additions": 179,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_boot.c",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_boot_image.c",
+      "additions": 185,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_bringup.c",
+      "additions": 1547,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_buttons.c",
+      "additions": 806,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_composite.c",
+      "additions": 349,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_gpio.c",
+      "additions": 953,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_i2c.c",
+      "additions": 646,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_lsm303agr.c",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_lsm6dsl.c",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_lsm9ds1.c",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_mfrc522.c",
+      "additions": 270,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_mmcsd.c",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_nrf24l01.c",
+      "additions": 123,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_pca9635.c",
+      "additions": 84,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_progmem.c",
+      "additions": 254,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_pwm.c",
+      "additions": 110,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_reset.c",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_romfs.h",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_romfs_initialize.c",
+      "additions": 139,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_spi.c",
+      "additions": 1037,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_ssd1306.c",
+      "additions": 760,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_st7796.c",
+      "additions": 700,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_uid.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_usb.c",
+      "additions": 322,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_usbmsc.c",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_userleds.c",
+      "additions": 129,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "port_stm32h753zi",
+  "headRefOid": "ede3ab18896cd9a9a96d82c657004159fb3a55e3",
+  "headRepository": {
+    "id": "R_kgDOOh7X8Q",
+    "name": "my_nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC7cL0w",
+    "name": "vinicius",
+    "login": "vrmay23"
+  },
+  "id": "PR_kwDODZiUac7D7B89",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18397,
+  "state": "OPEN",
+  "title": "boards/arm/stm32h7: Add support for ST Nucleo-H753ZI board",
+  "updatedAt": "2026-02-28T18:19:26Z",
+  "url": "https://github.com/apache/nuttx/pull/18397"
+}

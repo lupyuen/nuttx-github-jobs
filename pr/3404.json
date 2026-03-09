@@ -1,0 +1,102 @@
+{
+  "additions": 213,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3ODkzNzUz",
+    "is_bot": false,
+    "login": "masc2008",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-17T12:20:58Z",
+  "deletions": 147,
+  "files": [
+    {
+      "path": "include/netutils/icmp_ping.h",
+      "additions": 1,
+      "deletions": 46
+    },
+    {
+      "path": "include/netutils/icmp_pub.h",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "include/netutils/icmpv6_ping.h",
+      "additions": 1,
+      "deletions": 46
+    },
+    {
+      "path": "include/netutils/ping_pub.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ping/icmp_ping.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/ping/icmpv6_ping.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "system/ping/ping.c",
+      "additions": 37,
+      "deletions": 24
+    },
+    {
+      "path": "system/ping6/ping6.c",
+      "additions": 33,
+      "deletions": 24
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "14f1554dbbfa640c0f87ffb3b118a816b2f10f5e",
+  "headRepository": {
+    "id": "R_kgDOQx5IlA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3ODkzNzUz",
+    "login": "masc2008"
+  },
+  "id": "PR_kwDODZiT487EWHby",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3404,
+  "state": "OPEN",
+  "title": "netutils/ping: improve ping and ping6 for get_host error handling",
+  "updatedAt": "2026-02-27T00:34:53Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3404"
+}
