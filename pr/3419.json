@@ -1,0 +1,72 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NjU3",
+    "is_bot": false,
+    "login": "neilberkman",
+    "name": "Neil Berkman"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-09T00:23:02Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "boot/nxboot/include/nxboot.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boot/nxboot/loader/flash.c",
+      "additions": 8,
+      "deletions": 5
+    },
+    {
+      "path": "boot/nxboot/nxboot_main.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix/nxboot-clang-warnings",
+  "headRefOid": "fc3ff2c065fc9d12cf73b2179ff4b4173e522661",
+  "headRepository": {
+    "id": "R_kgDORh3u5w",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NjU3",
+    "name": "Neil Berkman",
+    "login": "neilberkman"
+  },
+  "id": "PR_kwDODZiT487I61Lk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7M-w",
+      "name": "Area: Boot",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3419,
+  "state": "OPEN",
+  "title": "boot/nxboot: fix Clang warnings for format and va_start",
+  "updatedAt": "2026-03-09T10:01:02Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3419"
+}

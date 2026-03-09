@@ -1,0 +1,71 @@
+{
+  "additions": 236,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQyOTIzNDE=",
+    "is_bot": false,
+    "login": "AuroraRAS",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-09T02:26:39Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "drivers/wireless/cc1101.c",
+      "additions": 199,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/wireless/cc1101.h",
+      "additions": 31,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/wireless/ioctl.h",
+      "additions": 6,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "wlioc_rx_hdr_s",
+  "headRefOid": "5eacc6f91b2803802adccb07aea5c72d33afb259",
+  "headRepository": {
+    "id": "R_kgDOHhSKhg",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQyOTIzNDE=",
+    "login": "AuroraRAS"
+  },
+  "id": "PR_kwDODZiUac7I7_sJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18510,
+  "state": "OPEN",
+  "title": "wireless/cc1101: migrate to wlioc_rx_hdr_s and add operation modes",
+  "updatedAt": "2026-03-09T07:56:53Z",
+  "url": "https://github.com/apache/nuttx/pull/18510"
+}

@@ -1,0 +1,72 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE2NjczMzUw",
+    "is_bot": false,
+    "login": "mzanders",
+    "name": "Maarten Zanders"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-09T12:57:04Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "prevent_free_kthread_group",
+  "headRefOid": "d5ecb719f3a85979ab5e6fd7c3b214574c1ea15c",
+  "headRepository": {
+    "id": "R_kgDORCnCQw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE2NjczMzUw",
+    "name": "Maarten Zanders",
+    "login": "mzanders"
+  },
+  "id": "PR_kwDODZiUac7JEOno",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18517,
+  "state": "OPEN",
+  "title": "sched/group: prevent mm_free() of static g_kthread_group",
+  "updatedAt": "2026-03-09T12:57:48Z",
+  "url": "https://github.com/apache/nuttx/pull/18517"
+}

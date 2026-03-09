@@ -1,0 +1,569 @@
+{
+  "additions": 10319,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 101,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-09T11:28:00Z",
+  "deletions": 46,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/esp32-p4-function-ev-board-isometric_v1.5.2.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/index.rst",
+      "additions": 321,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/index.rst",
+      "additions": 330,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 36,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/include/esp32p4/.gitignore",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/esp32p4/chip.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 282,
+      "deletions": 32
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_adc.c",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_serial.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_start.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_timerisr.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_twai.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_vectors.S",
+      "additions": 126,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wdt.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_exception_common.S",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_chip_rev.c",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_chip_rev.c",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/esp_chip_rev.c",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/.gitignore",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/Kconfig",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/Make.defs",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/esp_chip_rev.c",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.mk",
+      "additions": 369,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/.gitignore",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/Kconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/Makefile",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_adc.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_bmp180.h",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_i2c.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_i2s.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_ledc.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_mcpwm.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_pcnt.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_rmt.h",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_spidev.h",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_spiflash.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_spislavedev.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/common.ld",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_aliases.ld",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_flat_memory.ld",
+      "additions": 182,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_sections.ld",
+      "additions": 755,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_sections.rev3.ld",
+      "additions": 758,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/Make.defs",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_adc.c",
+      "additions": 234,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_bmp180.c",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_i2c.c",
+      "additions": 168,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_i2s.c",
+      "additions": 200,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_ledc.c",
+      "additions": 148,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_mcpwm.c",
+      "additions": 174,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_pcnt.c",
+      "additions": 365,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_rmt.c",
+      "additions": 150,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_spi.c",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_spidev.c",
+      "additions": 193,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_spiflash.c",
+      "additions": 424,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_spislavedev.c",
+      "additions": 84,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_twai.c",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/adc/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/bmp180/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/buttons/defconfig",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/capture/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/crypto/defconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/efuse/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/gpio/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/i2c/defconfig",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/i2schar/defconfig",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/motor/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/nsh/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/ostest/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/pwm/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/qencoder/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/random/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/rmt/defconfig",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/rtc/defconfig",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/sdm/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/spi/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/spiflash/defconfig",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/spislv/defconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/temperature_sensor/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/tickless/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/timers/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/twai/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/usbconsole/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/watchdog/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/include/board.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/scripts/Make.defs",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/Make.defs",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4-function-ev-board.h",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_appinit.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_boot.c",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_bringup.c",
+      "additions": 441,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_buttons.c",
+      "additions": 169,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_gpio.c",
+      "additions": 564,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_reset.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "tools/btdecode.sh",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp32-p4_support",
+  "headRefOid": "de2c4aedbe2020dcbf86abf5d6e1dbe1b9ea9ec5",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7JC1ye",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18516,
+  "state": "OPEN",
+  "title": "arch/risc-v/espressif/esp32p4: Support ESP32-P4 on NuttX",
+  "updatedAt": "2026-03-09T12:01:08Z",
+  "url": "https://github.com/apache/nuttx/pull/18516"
+}
