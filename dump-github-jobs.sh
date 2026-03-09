@@ -14,6 +14,7 @@ function dump_pr_list {
     gh pr list \
       --repo $repo \
       --limit 1000 \
+      --state all \
       --search "created:$date" \
       --json id,url,updatedAt,title,additions,assignees,author,autoMergeRequest,baseRefName,changedFiles,closed,closedAt,createdAt,deletions,files,headRefName,headRefOid,headRepository,headRepositoryOwner,isDraft,labels,mergeCommit,mergeStateStatus,mergeable,mergedAt,mergedBy,milestone,number,state \
       | jq
@@ -274,8 +275,8 @@ function dump_duration {
 ## Dump the PRs, Jobs and Durations for the NuttX Repo and NuttX Apps Repo
 function dump_repo {
   ## Backtrack for 365 days
-  ## for days in {0..365}; do
-  for days in {59..365}; do
+  for days in {0..365}; do
+  ## for days in {85..365}; do
     echo "days=$days"
     if [ "`uname`" == "Darwin" ]; then
       date=$(date -v-${days}d +"%Y-%m-%d")
