@@ -1,0 +1,665 @@
+{
+  "additions": 8742,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2787,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-02-19T05:24:40Z",
+  "deletions": 37723,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/examples/lvglterm/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/nsh/config.rst",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/applications/nsh/customizing.rst",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/applications/nsh/installation.rst",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/timer.rst",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/special/usbhost.rst",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/faq/index.rst",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/guides/protected_build.rst",
+      "additions": 212,
+      "deletions": 216
+    },
+    {
+      "path": "Documentation/guides/usbtrace.rst",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/arm/kinetis/boards/freedom-k64f/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/kinetis/boards/freedom-k66f/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/kinetis/boards/twr-k60n512/README.txt",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/kinetis/boards/twr-k64f120m/README.txt",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/lpc43xx/boards/bambino-200e/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/sam34/boards/arduino-due/index.rst",
+      "additions": 164,
+      "deletions": 169
+    },
+    {
+      "path": "Documentation/platforms/arm/sam34/boards/sam3u-ek/index.rst",
+      "additions": 7,
+      "deletions": 11
+    },
+    {
+      "path": "Documentation/platforms/arm/sam34/boards/sam4e-ek/index.rst",
+      "additions": 31,
+      "deletions": 41
+    },
+    {
+      "path": "Documentation/platforms/arm/sam34/boards/sam4l-xplained/index.rst",
+      "additions": 7,
+      "deletions": 15
+    },
+    {
+      "path": "Documentation/platforms/arm/sama5/boards/sama5d3-xplained/README.txt",
+      "additions": 0,
+      "deletions": 20
+    },
+    {
+      "path": "Documentation/platforms/arm/sama5/boards/sama5d3x-ek/README.txt",
+      "additions": 0,
+      "deletions": 23
+    },
+    {
+      "path": "Documentation/platforms/arm/sama5/boards/sama5d4-ek/README.txt",
+      "additions": 0,
+      "deletions": 18
+    },
+    {
+      "path": "Documentation/platforms/arm/samd2l2/boards/samd20-xplained/README.txt",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/arm/samd2l2/boards/samd21-xplained/README.txt",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/arm/samd2l2/boards/saml21-xplained/README.txt",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/arm/samv7/boards/same70-qmtech/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/samv7/boards/same70-xplained/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/samv7/boards/samv71-xult/index.rst",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/samv7/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/hymini-stm32/index.rst",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/stm3210e-eval/index.rst",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/stm32_tiny/index.rst",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/stm32f103-minimum/index.rst",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/viewtool-stm32f107/index.rst",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f2/boards/stm3220g-eval/index.rst",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f3/boards/stm32f3discovery/index.rst",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/clicker2-stm32/index.rst",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/mikroe-stm32f4/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/nucleo-f401re/index.rst",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/nucleo-f411re/index.rst",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/nucleo-f446re/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/olimex-stm32-p407/index.rst",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm3240g-eval/index.rst",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f429i-disco/index.rst",
+      "additions": 4,
+      "deletions": 9
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f4discovery/index.rst",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f7/boards/nucleo-f722ze/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f7/boards/nucleo-f746zg/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f7/boards/nucleo-f767zi/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f7/index.rst",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32l1/boards/stm32ldiscovery/index.rst",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32l4/boards/nucleo-l476rg/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32l4/boards/nucleo-l496zg/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32l4/boards/stm32l476vg-disco/index.rst",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/arm/tiva/boards/dk-tm4c129x/README.txt",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/platforms/arm/tiva/boards/tm4c123g-launchpad/README.txt",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mx/boards/mirtoo/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mx/boards/pic32mx7mmb/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mx/boards/sure-pic32mx/README.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/reference/user/13_boardctl.rst",
+      "additions": 59,
+      "deletions": 77
+    },
+    {
+      "path": "LICENSE",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/cxd56xx/scu.h",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_board.c",
+      "additions": 2,
+      "deletions": 48
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/a1x/pcduino-a10/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/a1x/pcduino-a10/src/Makefile",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/a1x/pcduino-a10/src/a1x_appinit.c",
+      "additions": 0,
+      "deletions": 80
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/src/Makefile",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/src/am335x_appinit.c",
+      "additions": 0,
+      "deletions": 78
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/can_char/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/can_socket/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/eth/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/msc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/rtc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/sdcard/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/systemview/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/configs/usbserial/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/Makefile",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/at32_appinit.c",
+      "additions": 0,
+      "deletions": 78
+    },
+    {
+      "path": "boards/arm/c5471/c5471evm/src/c5471_leds.c",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/csk6/csk6011a-nano/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/csk6/csk6011a-nano/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/csk6/csk6011a-nano/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/csk6/csk6011a-nano/src/csk6011a_nano_boardinit.c",
+      "additions": 8,
+      "deletions": 31
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_usbmsc.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/audio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/audio_sdk/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/camera/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/charger/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/example_camera/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/example_lcd/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/fmsynth/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/lcd/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/lte/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/mpy/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "byebye-archinit",
+  "headRefOid": "0c904fec99e5616d9ec4d73818906593106ec652",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac7EyCf5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LwVA",
+      "name": "Board: avr",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lx7w",
+      "name": "Board: hc",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L19g",
+      "name": "Board: openrisc",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L3cA",
+      "name": "Board: renesas",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MARg",
+      "name": "Board: sparc",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MEmQ",
+      "name": "Board: x86",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MKuw",
+      "name": "Board: z16",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MMEA",
+      "name": "Board: z80",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18408,
+  "state": "OPEN",
+  "title": "!boards: Simplify NuttX initialization",
+  "updatedAt": "2026-03-02T15:30:52Z",
+  "url": "https://github.com/apache/nuttx/pull/18408"
+}
