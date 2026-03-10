@@ -1,0 +1,144 @@
+{
+  "additions": 1723,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "is_bot": false,
+    "login": "rcsim",
+    "name": "Rodrigo Chaves Sim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-04-28T06:46:10Z",
+  "createdAt": "2025-04-27T15:14:06Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/configs/ble/defconfig",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/configs/gpio/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/configs/nsh/defconfig",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/configs/usbnsh/defconfig",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/configs/wifi/defconfig",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/include/board.h",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/scripts/Make.defs",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/src/Make.defs",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/src/esp32c3-xiao.h",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/src/esp32c3_appinit.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/src/esp32c3_boot.c",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/src/esp32c3_bringup.c",
+      "additions": 394,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/src/esp32c3_gpio.c",
+      "additions": 513,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/src/esp32c3_reset.c",
+      "additions": 83,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "seeed_xiao_esp32c3",
+  "headRefOid": "eea5f0e89a74b916c77bd438b28e43e2eeddff02",
+  "headRepository": {
+    "id": "R_kgDOKjRl1g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "name": "Rodrigo Chaves Sim",
+    "login": "rcsim"
+  },
+  "id": "PR_kwDODZiUac6UEvuD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bab3d8892b848af55d52c124c629b4cdb8ea7192"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-28T06:46:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16274,
+  "state": "MERGED",
+  "title": "boards/risc-v/esp32c3 Add initial support to Seeed Studio XIAO ESP32C3",
+  "updatedAt": "2025-04-28T06:46:10Z",
+  "url": "https://github.com/apache/nuttx/pull/16274"
+}

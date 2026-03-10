@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-28T14:23:16Z",
+  "createdAt": "2025-04-25T06:00:36Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32/esp32_partition.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/fix-esp32-ota-boot-sequence-error",
+  "headRefOid": "cec69921289e68b33367f3bec33d73c9b986fdee",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac6T3Lqa",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c4506929e94b14f36669689872ed1d0e1a2270de"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-28T14:23:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16260,
+  "state": "MERGED",
+  "title": "arch/esp32_partition.c:  fix the incorrect boot sequence when switching from Factory to OTA_1",
+  "updatedAt": "2025-04-28T14:23:16Z",
+  "url": "https://github.com/apache/nuttx/pull/16260"
+}

@@ -1,0 +1,94 @@
+{
+  "additions": 112,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-04-26T13:48:15Z",
+  "createdAt": "2025-04-25T10:57:56Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": "system/uorb/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/Makefile",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/uORB/epoll.c",
+      "additions": 5,
+      "deletions": 9
+    },
+    {
+      "path": "system/uorb/uORB/loop.c",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "system/uorb/uORB/uORB.h",
+      "additions": 36,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "br_uorb_eventfd_250425",
+  "headRefOid": "94ad6334893d7ea71aa2faefa857d73b7980f35d",
+  "headRepository": {
+    "id": "R_kgDOKAnCFQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiT486T5WyG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f14249d1d341fb1345e74b257bdea636a1777996"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-26T13:48:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
+  "milestone": null,
+  "number": 3064,
+  "state": "MERGED",
+  "title": "system/uORB: Add support for exiting loop by writing eventfd",
+  "updatedAt": "2025-04-26T13:48:15Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3064"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEzMDMyMDM=",
+    "is_bot": false,
+    "login": "bl4kraven",
+    "name": "Leo Chung"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-04-23T08:16:47Z",
+  "createdAt": "2025-04-23T01:51:54Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_bootloader_flash",
+  "headRefOid": "13c3c4ad3285807fa642f4ce96532118183283b2",
+  "headRepository": {
+    "id": "R_kgDONDcmLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEzMDMyMDM=",
+    "name": "Leo Chung",
+    "login": "bl4kraven"
+  },
+  "id": "PR_kwDODZiUac6Tg18S",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5a1426d6326b04f341e44fbc68a51364031adf39"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-23T08:16:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16252,
+  "state": "MERGED",
+  "title": "risc-v/esp32{c6,c3,h2}: Fix bootloader flash compiler error",
+  "updatedAt": "2025-04-23T08:16:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16252"
+}

@@ -1,0 +1,105 @@
+{
+  "additions": 235,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "is_bot": false,
+    "login": "rcsim",
+    "name": "Rodrigo Chaves Sim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-04-27T05:07:30Z",
+  "createdAt": "2025-04-26T18:55:28Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f401rc-rs485/index.rst",
+      "additions": 84,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/CMakeLists.txt",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/Make.defs",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_lcd_ssd1306.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_lcd_st7735.c",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_spi.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32f401rc-rs485.h",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "stm32f401rc_rs485_st7735",
+  "headRefOid": "2014f714f8f05ece0db21d66df253483dd40c006",
+  "headRepository": {
+    "id": "R_kgDOKjRl1g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "name": "Rodrigo Chaves Sim",
+    "login": "rcsim"
+  },
+  "id": "PR_kwDODZiUac6UBuib",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb29f568d1bfeb4fceec22b8f311d291bc7209f5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-27T05:07:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16270,
+  "state": "MERGED",
+  "title": "boards/arm/stm32f401rc-rs485: Add support to ST7735 LCD",
+  "updatedAt": "2025-04-27T05:07:31Z",
+  "url": "https://github.com/apache/nuttx/pull/16270"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 31,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-04-22T23:59:23Z",
+  "createdAt": "2025-04-21T11:36:02Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_start.c",
+      "additions": 24,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_testset.c",
+      "additions": 7,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "RP2350-E2",
+  "headRefOid": "bf2c3f2aa3473742dc34276ec17e310afdbbec4c",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6TSfgJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c531de3329596517f7d12916a122d877630dc6d3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-22T23:59:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16244,
+  "state": "MERGED",
+  "title": "arch/arm/rp23xx: Address the spinlock errata RP2350-E2",
+  "updatedAt": "2025-04-23T05:24:28Z",
+  "url": "https://github.com/apache/nuttx/pull/16244"
+}

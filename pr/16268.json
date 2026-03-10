@@ -1,0 +1,136 @@
+{
+  "additions": 134,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-04-27T05:07:45Z",
+  "createdAt": "2025-04-26T11:09:19Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "Documentation/reference/user/02_task_scheduling.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/avr/include/atmega/irq.h",
+      "additions": 21,
+      "deletions": 3
+    },
+    {
+      "path": "arch/avr/include/avr/irq.h",
+      "additions": 17,
+      "deletions": 6
+    },
+    {
+      "path": "arch/avr/src/atmega/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/atmega/atmega_head.S",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avr/Kconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avr/avr_initialstate.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/avr_registerdump.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/avr_schedulesigaction.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/avr_sigdeliver.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/excptmacros.h",
+      "additions": 32,
+      "deletions": 7
+    },
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 31,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "e68508274c067674bd59a8669cc6ea6b39227b17",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6UAQhZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dd828c8920cf7b43a89ece3cf10697963519d3e9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-27T05:07:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16268,
+  "state": "MERGED",
+  "title": "arch/avr: Fixes before adding support to AVRDB",
+  "updatedAt": "2025-04-27T05:07:45Z",
+  "url": "https://github.com/apache/nuttx/pull/16268"
+}

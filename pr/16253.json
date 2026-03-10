@@ -1,0 +1,79 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-04-23T14:02:22Z",
+  "createdAt": "2025-04-23T11:49:53Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_copy_to_ram.ld",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_default.ld",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_no_flash.ld",
+      "additions": 3,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "linkerscript",
+  "headRefOid": "614d5b2dd3c748cd4992acedc93a3edc52aa3da9",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6TlFpO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "420868d3083cd405c43a6ff9eabf1cb9723cdac9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-23T14:02:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16253,
+  "state": "MERGED",
+  "title": "arch/arm/rp23xx: fix linker scripts 100% RAM usage bug",
+  "updatedAt": "2025-04-23T16:02:11Z",
+  "url": "https://github.com/apache/nuttx/pull/16253"
+}

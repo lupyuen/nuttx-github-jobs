@@ -1,0 +1,93 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYzMzAwNTA=",
+    "is_bot": false,
+    "login": "pussuw",
+    "name": "Ville Juven"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-04-26T05:56:27Z",
+  "createdAt": "2025-04-25T08:55:26Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "sched/sched/sched_backtrace.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_setpriority.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_suspend.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_restart.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_terminate.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_smp_call",
+  "headRefOid": "0e80da3aecb78ff0894c9c310afcd9ddd2a0eb7f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6T4XO2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c12aa5663d3046138eb975a8bc872d8348c73e21"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-26T05:56:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16262,
+  "state": "MERGED",
+  "title": "sched/affinity: Fix CPU_LOCKED functionality for some SMP calls",
+  "updatedAt": "2025-04-26T06:14:58Z",
+  "url": "https://github.com/apache/nuttx/pull/16262"
+}

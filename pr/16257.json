@@ -1,0 +1,140 @@
+{
+  "additions": 614428,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU2NzI2Njk3",
+    "is_bot": false,
+    "login": "TimJTi",
+    "name": "Tim Hardisty"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2025-04-30T09:38:05Z",
+  "createdAt": "2025-04-24T17:39:33Z",
+  "deletions": 69,
+  "files": [
+    {
+      "path": "drivers/video/Kconfig",
+      "additions": 96,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/Make.defs",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/fb.c",
+      "additions": 262,
+      "deletions": 69
+    },
+    {
+      "path": "drivers/video/new_logo.c",
+      "additions": 532740,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/new_nx_logo.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/nxlogo160.c",
+      "additions": 27636,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/nxlogo160.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/nxlogo320.c",
+      "additions": 41913,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/nxlogo320.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/nxlogo80.c",
+      "additions": 11439,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/nxlogo80.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/video/fb.h",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/video/rgbcolors.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "tools/splashscreen_converter.py",
+      "additions": 256,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "Add-splashscreen-option-for-framebuffer-driver",
+  "headRefOid": "13efe683d3482542148add889b3e75bc31d29887",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzNjIxMDY4MTM=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU2NzI2Njk3",
+    "name": "Tim Hardisty",
+    "login": "TimJTi"
+  },
+  "id": "PR_kwDODZiUac6TzmXN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ed0c18c66cb77050528b97f18c68df83f0d1e0d6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-30T09:38:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16257,
+  "state": "MERGED",
+  "title": "drivers/video/fb.c: Add startup splashscreen option",
+  "updatedAt": "2025-04-30T17:51:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16257"
+}

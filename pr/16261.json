@@ -1,0 +1,68 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCMobsA",
+    "is_bot": false,
+    "login": "Kevin-Zhou11",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-28T14:13:52Z",
+  "createdAt": "2025-04-25T07:54:13Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_tickless.c",
+      "additions": 18,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix/tickless_timer",
+  "headRefOid": "7dea653baf7e8bfb1f1860eadd1ae578b6dd922c",
+  "headRepository": {
+    "id": "R_kgDOMkOmog",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCMobsA",
+    "login": "Kevin-Zhou11"
+  },
+  "id": "PR_kwDODZiUac6T35Rp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb5f27e984705b3cc7fdffaa26b7c2c518ac1637"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-28T14:13:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16261,
+  "state": "MERGED",
+  "title": "xtensa/esp32s3: fix tickless mode timer unexpect interrupt handle",
+  "updatedAt": "2025-04-28T16:35:17Z",
+  "url": "https://github.com/apache/nuttx/pull/16261"
+}
