@@ -1,0 +1,284 @@
+{
+  "additions": 414,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 37,
+  "closed": true,
+  "closedAt": "2025-05-12T07:01:37Z",
+  "createdAt": "2025-05-08T13:13:58Z",
+  "deletions": 569,
+  "files": [
+    {
+      "path": "arch/arm/include/arch.h",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/include/armv7-a/irq.h",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/a1x/a1x_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/addrenv.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv.c",
+      "additions": 35,
+      "deletions": 181
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv_shm.c",
+      "additions": 16,
+      "deletions": 46
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv_ustack.c",
+      "additions": 14,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv_utils.c",
+      "additions": 20,
+      "deletions": 25
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_cache.c",
+      "additions": 5,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_mmu.c",
+      "additions": 19,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_pgalloc.c",
+      "additions": 1,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_physpgaddr.c",
+      "additions": 14,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_virtpgaddr.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv7-a/mmu.h",
+      "additions": 60,
+      "deletions": 29
+    },
+    {
+      "path": "arch/arm/src/armv7-a/pgalloc.h",
+      "additions": 3,
+      "deletions": 25
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_cache.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_cache.c",
+      "additions": 5,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_cache.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_cache.c",
+      "additions": 5,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/imx6/imx_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_memories.c",
+      "additions": 43,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_pgalloc.c",
+      "additions": 0,
+      "deletions": 37
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_pgalloc.h",
+      "additions": 0,
+      "deletions": 90
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_cache.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_cache.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/z16/src/z16f/z16f_serial.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "graphics/nxterm/nxterm_kbdin.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/mm/gran.h",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/pgalloc.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stdio/lib_vfprintf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_vfscanf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/mm_gran/mm_granalloc.c",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_gran/mm_pgalloc.c",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_addreadytorun.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/signal/sig_default.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "mmu",
+  "headRefOid": "95b3bb30a6d9809464bdad9a441c65244d08dc40",
+  "headRepository": {
+    "id": "R_kgDOLHs-vw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiUac6VbxBt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5d9a1aaf75039d4b67075e94ea96dd5f6949f0de"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-12T07:01:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16344,
+  "state": "MERGED",
+  "title": "arch/arm: fix arm-7a mmu using l1entry swap, we should use per-process mmu table, can speed up for above 10 times.",
+  "updatedAt": "2025-05-12T07:01:37Z",
+  "url": "https://github.com/apache/nuttx/pull/16344"
+}

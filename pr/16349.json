@@ -1,0 +1,69 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-05-09T11:21:51Z",
+  "createdAt": "2025-05-09T05:08:51Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_serial.c",
+      "additions": 3,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "serialtxint",
+  "headRefOid": "957036d5e0598f19a8feebcfce5dbf1ed8f1165a",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6Vhvt6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "185c55e16d8c179990616f94c1415aa79ba58a3d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-09T11:21:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16349,
+  "state": "MERGED",
+  "title": "arch/arm/rp23xx: remove spinlock from up_txint",
+  "updatedAt": "2025-05-09T19:00:29Z",
+  "url": "https://github.com/apache/nuttx/pull/16349"
+}

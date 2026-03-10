@@ -1,0 +1,144 @@
+{
+  "additions": 657,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-05-13T13:17:51Z",
+  "createdAt": "2025-05-11T01:19:21Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "examples/optee/optee_main.c",
+      "additions": 23,
+      "deletions": 19
+    },
+    {
+      "path": "examples/optee_gp/CMakeLists.txt",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "examples/optee_gp/Kconfig",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "examples/optee_gp/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/optee_gp/Makefile",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "examples/optee_gp/optee_gp_main.c",
+      "additions": 190,
+      "deletions": 0
+    },
+    {
+      "path": "tee/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tee/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "tee/Make.defs",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "tee/Makefile",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "tee/libteec/.gitignore",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "tee/libteec/0001-libteec-NuttX.patch",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "tee/libteec/CMakeLists.txt",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "tee/libteec/Kconfig",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "tee/libteec/Make.defs",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "tee/libteec/Makefile",
+      "additions": 52,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feat/libteec_and_example",
+  "headRefOid": "8477505e75fb78ab238f9d3316df165244d8cd27",
+  "headRepository": {
+    "id": "R_kgDOOjvYJw",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiT486Vt34U",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7b383d05625de11f4d8173252e37920aa905d423"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-13T13:17:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3074,
+  "state": "MERGED",
+  "title": "Add GlobalPlatform API client library (libteec) and example app (optee_gp)",
+  "updatedAt": "2025-05-13T15:17:20Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3074"
+}

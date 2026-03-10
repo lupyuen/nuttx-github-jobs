@@ -1,0 +1,98 @@
+{
+  "additions": 41,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-05-08T13:32:35Z",
+  "createdAt": "2025-05-07T08:49:42Z",
+  "deletions": 40,
+  "files": [
+    {
+      "path": "sched/group/group_signal.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 17,
+      "deletions": 9
+    },
+    {
+      "path": "sched/signal/sig_pending.c",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "sched/signal/sig_removependingsignal.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_tgkill.c",
+      "additions": 1,
+      "deletions": 22
+    },
+    {
+      "path": "sched/signal/sig_unmaskpendingsignal.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/signal.h",
+      "additions": 3,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_signal_delivered_to_wrong_thread",
+  "headRefOid": "35db949ea8fd6ba4e448a854a8f944ee83389cc9",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6VO7gr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e4d5c780086d3966cb4c05a0d9c242958cfb5f0e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-08T13:32:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16334,
+  "state": "MERGED",
+  "title": "sched/signal: Fix signal delivered to a wrong thread",
+  "updatedAt": "2025-05-08T13:32:35Z",
+  "url": "https://github.com/apache/nuttx/pull/16334"
+}

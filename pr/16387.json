@@ -1,0 +1,78 @@
+{
+  "additions": 203,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBmFUMA",
+    "is_bot": false,
+    "login": "tkaratapanis",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-05-16T09:30:18Z",
+  "createdAt": "2025-05-14T20:21:50Z",
+  "deletions": 34,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_ele.h",
+      "additions": 25,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_ele.c",
+      "additions": 129,
+      "deletions": 25
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_ele.h",
+      "additions": 49,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "imx9-ele-rng",
+  "headRefOid": "cc4e7a12a2784552eede2b47cd6a2e618fdedee4",
+  "headRepository": {
+    "id": "R_kgDOOlihPg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBmFUMA",
+    "login": "tkaratapanis"
+  },
+  "id": "PR_kwDODZiUac6WOFVD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fcbd3099aa83c91e108ac0e0a07cae1184fd4eae"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-16T09:30:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16387,
+  "state": "MERGED",
+  "title": "arch/arm64/imx9: Extend ELE API with RNG support",
+  "updatedAt": "2025-07-16T09:26:56Z",
+  "url": "https://github.com/apache/nuttx/pull/16387"
+}

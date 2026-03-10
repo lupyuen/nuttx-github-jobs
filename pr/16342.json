@@ -1,0 +1,84 @@
+{
+  "additions": 110,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-05-11T02:47:14Z",
+  "createdAt": "2025-05-08T07:56:25Z",
+  "deletions": 55,
+  "files": [
+    {
+      "path": "libs/libc/wqueue/work_queue.c",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "sched/wqueue/kwork_cancel.c",
+      "additions": 22,
+      "deletions": 31
+    },
+    {
+      "path": "sched/wqueue/kwork_queue.c",
+      "additions": 22,
+      "deletions": 14
+    },
+    {
+      "path": "sched/wqueue/wqueue.h",
+      "additions": 66,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "wqueue-opt",
+  "headRefOid": "b105a187d550b05060e088ef922b62a7cac7c100",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6VY8ZX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "36a4d5feaf5d511fb489148dbc366d5d4aba0afc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-11T02:47:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 16342,
+  "state": "MERGED",
+  "title": "sched/wqueue: Fix wd_cancel_sync and improve work_queue performance.",
+  "updatedAt": "2025-05-11T02:47:14Z",
+  "url": "https://github.com/apache/nuttx/pull/16342"
+}

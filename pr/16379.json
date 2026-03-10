@@ -1,0 +1,114 @@
+{
+  "additions": 270,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-05-14T13:30:25Z",
+  "createdAt": "2025-05-14T10:58:32Z",
+  "deletions": 169,
+  "files": [
+    {
+      "path": "drivers/can/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/can/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/can/can.c",
+      "additions": 4,
+      "deletions": 120
+    },
+    {
+      "path": "drivers/can/can_common.c",
+      "additions": 149,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/can/ctucanfd_pci.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/can/kvaser_pci.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/can.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/can/can.h",
+      "additions": 2,
+      "deletions": 40
+    },
+    {
+      "path": "include/nuttx/can/can_common.h",
+      "additions": 92,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "can_common",
+  "headRefOid": "bf7f493d7fbe8cf1a8fb5bfc83f65e64d10fb491",
+  "headRepository": {
+    "id": "R_kgDOKIIgJQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjEzOTgyMjgy",
+    "login": "railab"
+  },
+  "id": "PR_kwDODZiUac6WJEfU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dc73324ed09e72c6739f09e2b4c239911547ed16"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-14T13:30:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16379,
+  "state": "MERGED",
+  "title": "drivers/can: move CAN utils to CAN common files",
+  "updatedAt": "2025-05-14T13:30:26Z",
+  "url": "https://github.com/apache/nuttx/pull/16379"
+}

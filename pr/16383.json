@@ -1,0 +1,69 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-05-15T11:36:18Z",
+  "createdAt": "2025-05-14T15:55:31Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 7,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "sigtimeout",
+  "headRefOid": "0edfe39f8f03d680a9520bbe3e1542aa79794856",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6WMGWA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c5757ed71f0a2e79771695b3e2ea9c2a459e9dc6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-15T11:36:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16383,
+  "state": "MERGED",
+  "title": "sched/timedwait: Ensure critical section for nxsig_timeout",
+  "updatedAt": "2025-05-15T15:32:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16383"
+}

@@ -1,0 +1,139 @@
+{
+  "additions": 836,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBmFUMA",
+    "is_bot": false,
+    "login": "tkaratapanis",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2025-05-09T11:21:18Z",
+  "createdAt": "2025-05-07T06:39:46Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/imx9/imx9_ahab.h",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/imx9/imx9_romapi.h",
+      "additions": 153,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/Toolchain.cmake",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 27,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/imx9/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_ele.h",
+      "additions": 13,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_ahab.c",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_boot.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_ele.c",
+      "additions": 72,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_ele.h",
+      "additions": 58,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_romapi.c",
+      "additions": 171,
+      "deletions": 0
+    },
+    {
+      "path": "include/imx_container.h",
+      "additions": 129,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "imx9-ahab-romapi",
+  "headRefOid": "db252c5e1bdd80c4e6710d22f156291feb0372e6",
+  "headRepository": {
+    "id": "R_kgDOOlihPg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBmFUMA",
+    "login": "tkaratapanis"
+  },
+  "id": "PR_kwDODZiUac6VNwGe",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0011f165fff570119a270ca36c3beff929dd74c7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-09T11:21:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16332,
+  "state": "MERGED",
+  "title": "arch/arm64/imx9: Support for AHAB authentication + ROMAPI",
+  "updatedAt": "2025-05-14T18:26:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16332"
+}

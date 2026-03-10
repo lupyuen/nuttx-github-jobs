@@ -1,0 +1,123 @@
+{
+  "additions": 517,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-05-13T02:14:01Z",
+  "createdAt": "2025-05-11T01:17:28Z",
+  "deletions": 232,
+  "files": [
+    {
+      "path": "Documentation/guides/optee.rst",
+      "additions": 24,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/koptee/defconfig",
+      "additions": 179,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee.c",
+      "additions": 274,
+      "deletions": 179
+    },
+    {
+      "path": "drivers/misc/optee.h",
+      "additions": 14,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/misc/optee_smc.c",
+      "additions": 10,
+      "deletions": 12
+    },
+    {
+      "path": "include/nuttx/tee.h",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 13,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix/arm/optee-gp-api-compat",
+  "headRefOid": "e47f19be250199f828393dc7febecf955f09eb76",
+  "headRepository": {
+    "id": "R_kgDONfoTqA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiUac6Vt3wB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "70b595146bec486dd5282238b8778339625b3705"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-13T02:14:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16356,
+  "state": "MERGED",
+  "title": "Fix OP-TEE driver compatibility issues",
+  "updatedAt": "2025-05-13T15:17:10Z",
+  "url": "https://github.com/apache/nuttx/pull/16356"
+}

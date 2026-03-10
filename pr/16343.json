@@ -1,0 +1,130 @@
+{
+  "additions": 107,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-05-12T11:56:30Z",
+  "createdAt": "2025-05-08T11:41:28Z",
+  "deletions": 83,
+  "files": [
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 41,
+      "deletions": 14
+    },
+    {
+      "path": "include/nuttx/timers/oneshot.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/time/lib_daysbeforemonth.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 13,
+      "deletions": 3
+    },
+    {
+      "path": "sched/clock/clock_systime_ticks.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_continue.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 35,
+      "deletions": 17
+    },
+    {
+      "path": "sched/semaphore/sem_tickwait.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/timer/timer_settime.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 2,
+      "deletions": 24
+    },
+    {
+      "path": "sched/wqueue/kwork_queue.c",
+      "additions": 1,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "timer-improve",
+  "headRefOid": "f30d7b45043b3a74e1004f88443948586ea4c0a4",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6Va8T1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "64a7049decb0671a76e7a6d1585eed8bece344df"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-12T11:56:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16343,
+  "state": "MERGED",
+  "title": "sched/wdog: watchdog timer improvements.",
+  "updatedAt": "2025-05-13T13:05:30Z",
+  "url": "https://github.com/apache/nuttx/pull/16343"
+}

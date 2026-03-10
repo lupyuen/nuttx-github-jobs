@@ -1,0 +1,178 @@
+{
+  "additions": 1209,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYzMzAwNTA=",
+    "is_bot": false,
+    "login": "pussuw",
+    "name": "Ville Juven"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2025-06-09T15:55:56Z",
+  "createdAt": "2025-05-12T13:12:01Z",
+  "deletions": 740,
+  "files": [
+    {
+      "path": "fs/inode/fs_files.c",
+      "additions": 679,
+      "deletions": 436
+    },
+    {
+      "path": "fs/inode/inode.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "fs/procfs/fs_procfsproc.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_close.c",
+      "additions": 69,
+      "deletions": 22
+    },
+    {
+      "path": "fs/vfs/fs_dup.c",
+      "additions": 20,
+      "deletions": 41
+    },
+    {
+      "path": "fs/vfs/fs_dup2.c",
+      "additions": 43,
+      "deletions": 45
+    },
+    {
+      "path": "fs/vfs/fs_dup3.c",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_fcntl.c",
+      "additions": 50,
+      "deletions": 36
+    },
+    {
+      "path": "fs/vfs/fs_ioctl.c",
+      "additions": 115,
+      "deletions": 54
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "fs/vfs/fs_pseudofile.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 128,
+      "deletions": 63
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "include/nuttx/spinlock.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_setuptaskfiles.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/sched/sched_getfiles.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/protocols/fs.py",
+      "additions": 0,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fs_fdlist_rewrite",
+  "headRefOid": "825ab63cb425272daa29b33a5dae4c10f833aa54",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6V1hyd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16361,
+  "state": "CLOSED",
+  "title": "fs/vfs: Separate file descriptors from file descriptions",
+  "updatedAt": "2025-06-09T15:55:56Z",
+  "url": "https://github.com/apache/nuttx/pull/16361"
+}

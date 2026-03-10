@@ -1,0 +1,162 @@
+{
+  "additions": 6109,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-05-15T13:58:58Z",
+  "createdAt": "2025-05-14T07:27:15Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/pci/index.rst",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/x86_64/intel64/boards/qemu-intel64/index.rst",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/jumbo/defconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/drivers_initialize.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/pci_drivers.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/Kconfig",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_drivers.c",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_waiter.c",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_xhci.h",
+      "additions": 635,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_xhci_pci.c",
+      "additions": 4852,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_xhci_trace.c",
+      "additions": 140,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_xhci_trace.h",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/usb/usbhost.h",
+      "additions": 24,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/usb/xhci_pci.h",
+      "additions": 51,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "xhci_upstream",
+  "headRefOid": "d266c1c09c529bb7b888c988409fae6fe82ee17f",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6WHB1Q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorlqw",
+      "name": "Area: PCI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "54510c5f94b33a60428521ffe1de3e46398a90a1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-15T13:58:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16376,
+  "state": "MERGED",
+  "title": "drivers/usbhost: add xHCI PCI support",
+  "updatedAt": "2026-03-02T14:23:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16376"
+}

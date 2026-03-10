@@ -1,0 +1,95 @@
+{
+  "additions": 520,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc5NzkyNTgw",
+    "is_bot": false,
+    "login": "robertc2000",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-05-28T13:49:08Z",
+  "createdAt": "2025-05-13T04:00:41Z",
+  "deletions": 93,
+  "files": [
+    {
+      "path": "wireless/bluetooth/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "wireless/bluetooth/bt_att.c",
+      "additions": 14,
+      "deletions": 5
+    },
+    {
+      "path": "wireless/bluetooth/bt_conn.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "wireless/bluetooth/bt_conn.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "wireless/bluetooth/bt_keys.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "wireless/bluetooth/bt_smp.c",
+      "additions": 458,
+      "deletions": 86
+    },
+    {
+      "path": "wireless/bluetooth/bt_smp.h",
+      "additions": 24,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "fb98c63c672f8af6307fac47826967a34fec630e",
+  "headRepository": null,
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc5NzkyNTgw",
+    "login": "robertc2000"
+  },
+  "id": "PR_kwDODZiUac6V7fMz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzEwMDg2Njc4",
+      "name": "Area: Bluetooth",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "df058b462e67352251f9e69ec920a46f19741943"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-28T13:49:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16364,
+  "state": "MERGED",
+  "title": "Bluetooth SMP: added support for Legacy pairing (MITM) with passkey",
+  "updatedAt": "2025-05-28T13:49:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16364"
+}

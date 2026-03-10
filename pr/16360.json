@@ -1,0 +1,78 @@
+{
+  "additions": 158,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-05-13T12:52:24Z",
+  "createdAt": "2025-05-12T12:27:33Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "libs/libc/semaphore/sem_post.c",
+      "additions": 49,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/semaphore/sem_trywait.c",
+      "additions": 60,
+      "deletions": 7
+    },
+    {
+      "path": "libs/libc/semaphore/sem_wait.c",
+      "additions": 49,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "enable_semaphore_fast_path_for_counting_semaphores",
+  "headRefOid": "c7a93484ffd50be070f46a87c2a62640c2bf1936",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6V1ERH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "55913d16ad941b3668d12fdf3bc5d8a7dce31963"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-13T12:52:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16360,
+  "state": "MERGED",
+  "title": "libs/libc/semaphore: Enable semaphore fast wait/post paths for counting semaphores",
+  "updatedAt": "2025-05-14T08:11:42Z",
+  "url": "https://github.com/apache/nuttx/pull/16360"
+}

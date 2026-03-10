@@ -1,0 +1,99 @@
+{
+  "additions": 1393,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCSIZTg",
+    "is_bot": false,
+    "login": "stbenn",
+    "name": "Tyler Bennett"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-05-08T00:37:25Z",
+  "createdAt": "2025-05-07T13:22:31Z",
+  "deletions": 41,
+  "files": [
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 181,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_flash.h",
+      "additions": 208,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_flash.c",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_flash.h",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32g0_flash.c",
+      "additions": 894,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "g0-flash",
+  "headRefOid": "c9bbb2df9259779eb433b6a422b71d4a432dcbb3",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6VRekQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9fca766bd4cab759d54956a21b3687033b29b48b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-08T00:37:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16338,
+  "state": "MERGED",
+  "title": "arch/arm/stm32f0l0g0: Add STM32G0 Flash driver.",
+  "updatedAt": "2025-05-08T13:10:00Z",
+  "url": "https://github.com/apache/nuttx/pull/16338"
+}
