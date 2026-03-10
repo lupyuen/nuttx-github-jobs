@@ -1,0 +1,144 @@
+{
+  "additions": 1514,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "is_bot": false,
+    "login": "rcsim",
+    "name": "Rodrigo Chaves Sim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-04-10T02:52:05Z",
+  "createdAt": "2025-04-09T01:19:33Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/configs/combo/defconfig",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/configs/usbnsh/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/include/board.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/include/board_memorymap.h",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/scripts/Make.defs",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/Make.defs",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3-xiao.h",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3_appinit.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3_autoleds.c",
+      "additions": 134,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3_boot.c",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3_bringup.c",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3_gpio.c",
+      "additions": 390,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3_reset.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-xiao/src/esp32s3_userleds.c",
+      "additions": 93,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "seeed_xiao_esp32s3",
+  "headRefOid": "c2537e4c6ec066005d1778cea8373f5aa5dc09c7",
+  "headRepository": {
+    "id": "R_kgDOKjRl1g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "name": "Rodrigo Chaves Sim",
+    "login": "rcsim"
+  },
+  "id": "PR_kwDODZiUac6R3htf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d2405775439c4e5f85075e587c468640a3223b21"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-10T02:52:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16161,
+  "state": "MERGED",
+  "title": "boards/xtensa/esp32s3: Add initial support for Seeed Studio XIAO ESP32S3",
+  "updatedAt": "2025-04-10T02:52:05Z",
+  "url": "https://github.com/apache/nuttx/pull/16161"
+}

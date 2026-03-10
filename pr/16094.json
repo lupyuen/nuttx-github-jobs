@@ -1,0 +1,142 @@
+{
+  "additions": 464,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-03-31T13:06:45Z",
+  "createdAt": "2025-03-29T05:06:16Z",
+  "deletions": 34,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/index.rst",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/lckfb-szpi-esp32s3-lcd.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/gpio/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/lcd/defconfig",
+      "additions": 84,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3-szpi.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_board_lcd.c",
+      "additions": 167,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_board_spi.c",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_gpio.c",
+      "additions": 17,
+      "deletions": 29
+    },
+    {
+      "path": "drivers/lcd/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/lcd/st7789.c",
+      "additions": 34,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "br_wjy_esp32s3_lcd_250329",
+  "headRefOid": "928b27293d85996f0a8df87475422db374aee672",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6QpLFJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a834540f42c8b9090aa74f717d700c9648c6d1c0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-31T13:06:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16094,
+  "state": "MERGED",
+  "title": "boards/szpi-esp32s3: Add support for LCD",
+  "updatedAt": "2025-04-01T10:34:09Z",
+  "url": "https://github.com/apache/nuttx/pull/16094"
+}

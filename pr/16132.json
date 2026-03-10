@@ -1,0 +1,95 @@
+{
+  "additions": 104,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-04T12:50:19Z",
+  "createdAt": "2025-04-03T15:25:00Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3-szpi.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_ft5x06.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/ft5x06.c",
+      "additions": 2,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "br_wjy_boards_szpi_ft5x06_250403",
+  "headRefOid": "dffd14b22a0d369c5ecd4c0260a9f3d678b86646",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6RR8aD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "586d216a40a81663792808ecc4d1ecb62e1d4d61"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-04T12:50:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16132,
+  "state": "MERGED",
+  "title": "Add FT5X06 support for szpi-esp32s3",
+  "updatedAt": "2025-04-04T12:50:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16132"
+}

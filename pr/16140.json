@@ -1,0 +1,89 @@
+{
+  "additions": 62,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-07T08:26:16Z",
+  "createdAt": "2025-04-05T14:35:20Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3-szpi.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_board_lcd.c",
+      "additions": 50,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_board_spi.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_ft5x06.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_pca9557.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "br_wjy_esp32s3_szpi_backlight_10percent_250405",
+  "headRefOid": "cfcdf980f2a810996b61a0fe7692857cc099dc7b",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6RgXiP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0a74293f117b2bb336692b5b29459d809819c572"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-07T08:26:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16140,
+  "state": "MERGED",
+  "title": "boards/szpi-esp32s3: Set LCD default backlight brightness",
+  "updatedAt": "2025-04-07T08:26:16Z",
+  "url": "https://github.com/apache/nuttx/pull/16140"
+}

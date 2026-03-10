@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYzMzAwNTA=",
+    "is_bot": false,
+    "login": "pussuw",
+    "name": "Ville Juven"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-03T10:34:11Z",
+  "createdAt": "2025-04-03T07:36:24Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_entrypoints.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "mpfs_entrypoint_atomicload",
+  "headRefOid": "76fe4dde77f2a71653f1cd0ac7c001a7443485ab",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6RNVKn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cc64c026d9e18926f58f66fb3ee7235fca219bf0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-03T10:34:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16126,
+  "state": "MERGED",
+  "title": "mpfs/mpfs_entrypoints.c: Change atomic_load > atomic_read",
+  "updatedAt": "2025-04-03T10:40:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16126"
+}

@@ -1,0 +1,176 @@
+{
+  "additions": 1767,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 20,
+  "closed": true,
+  "closedAt": "2025-04-07T15:28:48Z",
+  "createdAt": "2025-04-07T09:38:31Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32c0/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f0/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32g0/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32l0/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/CMakeLists.txt",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Make.defs",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_dbgmcu.h",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_wdg.h",
+      "additions": 141,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_pwr.h",
+      "additions": 2,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32f0_pwr.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_pwr.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32l0_pwr.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_iwdg.c",
+      "additions": 593,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_lse.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_lsi.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_rcc.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_wdg.h",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_wwdg.c",
+      "additions": 684,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/jumbo/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32m0_wdog",
+  "headRefOid": "7fce1b71ac18aef1e8163dab642a0dabb8043bdb",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6Rmbl0",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b81c4d3aa6ab2ffe490bae498bfc74f056bf26d6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-07T15:28:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16150,
+  "state": "MERGED",
+  "title": "arch/stm32f0l0g0: add watchdog support",
+  "updatedAt": "2025-04-30T07:43:11Z",
+  "url": "https://github.com/apache/nuttx/pull/16150"
+}

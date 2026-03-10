@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.9",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-03T22:51:15Z",
+  "createdAt": "2025-04-03T10:53:20Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_entrypoints.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-16126",
+  "headRefOid": "90f36b63e1d88f60813fa0bb79439eb7865358e2",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6RPMQk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e7cc8ac713b1bd928670c05fbc8f6bc1bf92c113"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-03T22:51:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16128,
+  "state": "MERGED",
+  "title": "{bp-16126} mpfs/mpfs_entrypoints.c: Change atomic_load > atomic_read",
+  "updatedAt": "2025-06-23T08:09:17Z",
+  "url": "https://github.com/apache/nuttx/pull/16128"
+}

@@ -1,0 +1,106 @@
+{
+  "additions": 1032,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCSIZTg",
+    "is_bot": false,
+    "login": "stbenn",
+    "name": "Tyler Bennett"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-07-07T12:49:52Z",
+  "createdAt": "2025-04-15T14:30:14Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/leds/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/leds/ktd2052.rst",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/leds/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/leds/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/leds/ktd2052.c",
+      "additions": 753,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/leds/ktd2052.h",
+      "additions": 149,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ktd2052",
+  "headRefOid": "dca1592f2e03f1b300bd9a6cfa53f0f5c69b3680",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6SrnoE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d5eda10cad580119efc54b5642824545d3da4d16"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-07T12:49:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16217,
+  "state": "MERGED",
+  "title": "drivers/leds: Add support for KTD2052",
+  "updatedAt": "2025-07-08T17:16:20Z",
+  "url": "https://github.com/apache/nuttx/pull/16217"
+}

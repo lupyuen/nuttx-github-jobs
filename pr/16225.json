@@ -1,0 +1,115 @@
+{
+  "additions": 30,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "is_bot": false,
+    "login": "csanchezdll",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-04-16T14:07:28Z",
+  "createdAt": "2025-04-16T08:29:32Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "arch/arm/src/imx9/imx9_flexcan.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_flexcan.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_flexcan.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/s32k1xx/s32k1xx_flexcan.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/s32k3xx/s32k3xx_flexcan.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_fdcan_sock.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_flexcan.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "include/net/if.h",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "can_bitrate_in_bps",
+  "headRefOid": "f4a208b6e1863ae6df79ec0042ecbcaba7c14e01",
+  "headRepository": {
+    "id": "R_kgDOIGBIlw",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "login": "csanchezdll"
+  },
+  "id": "PR_kwDODZiUac6SzMmn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d976c66edfbcb26312ea8a841f4ffa191f53d769"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-16T14:07:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16225,
+  "state": "MERGED",
+  "title": "net: use bps units for bitrate in SocketCAN interfaces.",
+  "updatedAt": "2025-07-03T06:52:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16225"
+}

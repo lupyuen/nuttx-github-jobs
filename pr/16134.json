@@ -1,0 +1,118 @@
+{
+  "additions": 89,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYzMzAwNTA=",
+    "is_bot": false,
+    "login": "pussuw",
+    "name": "Ville Juven"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-04-08T14:53:11Z",
+  "createdAt": "2025-04-04T10:52:43Z",
+  "deletions": 43,
+  "files": [
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/tls.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/sched/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/sched/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/sched/task_gettid.c",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "sched/task/task_gettid.c",
+      "additions": 0,
+      "deletions": 19
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "sched/tls/tls_initinfo.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "gettid_to_tls",
+  "headRefOid": "7fa293bff99beb944e1135f50ee4127d695c49d2",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6RY2gO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "850cfb545a9d2c099076dee3c503bfdd90456c04"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-08T14:53:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16134,
+  "state": "MERGED",
+  "title": "sched/gettid: Move thread ID to TLS",
+  "updatedAt": "2025-04-09T09:45:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16134"
+}

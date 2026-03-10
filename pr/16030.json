@@ -1,0 +1,113 @@
+{
+  "additions": 212,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-04-01T12:37:23Z",
+  "createdAt": "2025-03-21T10:40:10Z",
+  "deletions": 186,
+  "files": [
+    {
+      "path": "include/nuttx/semaphore.h",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/semaphore/sem_post.c",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/semaphore/sem_trywait.c",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/semaphore/sem_wait.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 2,
+      "deletions": 57
+    },
+    {
+      "path": "sched/semaphore/sem_trywait.c",
+      "additions": 2,
+      "deletions": 58
+    },
+    {
+      "path": "sched/semaphore/sem_wait.c",
+      "additions": 2,
+      "deletions": 59
+    },
+    {
+      "path": "sched/semaphore/semaphore.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "optimze_mutex_atomic_fast_path",
+  "headRefOid": "2c8f0cf57465f7751eac07e5aade0cb5ae2c3b01",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6PmKHj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "19a8e2403f4d49c3655a9db43d1abc589ae6204e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-01T12:37:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16030,
+  "state": "MERGED",
+  "title": "Optimize mutex atomic fast path",
+  "updatedAt": "2025-04-01T12:37:23Z",
+  "url": "https://github.com/apache/nuttx/pull/16030"
+}

@@ -1,0 +1,131 @@
+{
+  "additions": 59,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.9",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-04-11T13:03:08Z",
+  "createdAt": "2025-04-11T08:35:44Z",
+  "deletions": 42,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Bootloader.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 32,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Bootloader.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Bootloader.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Bootloader.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/esp32/Config.mk",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "tools/esp32s2/Config.mk",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "tools/esp32s3/Config.mk",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "tools/espressif/Config.mk",
+      "additions": 1,
+      "deletions": 13
+    },
+    {
+      "path": "tools/espressif/build_mcuboot.sh",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-16131",
+  "headRefOid": "3dc15708c304122a261af3581a1c5b02359c5480",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6SOOhd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7c95e3c613820adf9802ba2fea0806333c02a553"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-11T13:03:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16184,
+  "state": "MERGED",
+  "title": "{bp-16131} espressif: Simplify the selection of the SPI flash frequency",
+  "updatedAt": "2025-06-23T08:09:13Z",
+  "url": "https://github.com/apache/nuttx/pull/16184"
+}

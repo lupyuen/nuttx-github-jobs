@@ -1,0 +1,198 @@
+{
+  "additions": 322,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2025-04-17T18:25:14Z",
+  "createdAt": "2025-04-17T12:32:14Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_flat_memory.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_sections.ld",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_flat_memory.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_sections.ld",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/scripts/esp32h2_flat_memory.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/scripts/esp32h2_sections.ld",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/esp32_sections.ld",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/flat_memory.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/esp32s2_sections.ld",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/flat_memory.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/flat_memory.ld",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix/openocd-esp32_flash_mappings",
+  "headRefOid": "217886330a9f732739d75d3af555278316a96114",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6S-80k",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ca664fd431b8f8b8f8f329e840757ba834795a04"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-17T18:25:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16234,
+  "state": "MERGED",
+  "title": "boards/[xtensa|risc-v]/esp32[|s2|s3|c3|c6|h2]: Update flash mappings for MCUboot",
+  "updatedAt": "2025-04-17T18:25:14Z",
+  "url": "https://github.com/apache/nuttx/pull/16234"
+}

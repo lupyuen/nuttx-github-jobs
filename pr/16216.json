@@ -1,0 +1,74 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-04-16T02:10:57Z",
+  "createdAt": "2025-04-15T12:58:13Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "libs/libc/semaphore/sem_trywait.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/semaphore/sem_wait.c",
+      "additions": 4,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "bugfix/esp32-devkitc_blewifi_debugassert",
+  "headRefOid": "48c216706a7450340c5a48256fb74381fc769cc3",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6Sqi0_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "40c6af6dec0d769ac57f69e89709f9d6310ee0c6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-16T02:10:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16216,
+  "state": "MERGED",
+  "title": "Revert \"libs/libc/semaphore: Fix DEBUGASSERTS\"",
+  "updatedAt": "2025-04-16T02:10:57Z",
+  "url": "https://github.com/apache/nuttx/pull/16216"
+}

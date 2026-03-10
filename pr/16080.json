@@ -1,0 +1,317 @@
+{
+  "additions": 343,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC1JDKw",
+    "is_bot": false,
+    "login": "yangsong8-a1",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 46,
+  "closed": true,
+  "closedAt": "2025-03-28T00:52:42Z",
+  "createdAt": "2025-03-27T06:56:40Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/kinetis/boards/freedom-k64f/README.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/kinetis/boards/freedom-k66f/README.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/sam34/boards/sam4e-ek/README.txt",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/arm/samv7/boards/same70-xplained/README.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/samv7/boards/samv71-xult/README.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32l4/boards/stm32l476vg-disco/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32l4/boards/stm32l4r9ai-disco/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1170-evk/configs/netnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc214x/mcu123-lpc214x/configs/composite/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4337-ws/configs/nsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4370-link2/configs/nsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/configs/cdcacm/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/configs/rgbled_cpuapp/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/configs/fs/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/configs/nsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-6lowpan/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-starhub/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-starpoint/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/xbee-6lowpan/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/nx/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/fulldemo/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/kostest/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/odrive36/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-e407/configs/ina219/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-e407/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-h405/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/composite/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/configs/composite/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32_tiny/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/sensors/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f3discovery/configs/nsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f3discovery/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f429i-disco/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/nxscope_cdcacm/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/steval-stlcs01v1/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/mips/pic32mx/sure-pic32mx/configs/usbnsh/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/hwtest/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbdev/Kconfig",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbdev/cdcacm.c",
+      "additions": 201,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "i_master",
+  "headRefOid": "7b6fd3be2f14d1a270501eff00b26186ffbd87f7",
+  "headRepository": {
+    "id": "R_kgDONV3wlw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC1JDKw",
+    "login": "yangsong8-a1"
+  },
+  "id": "PR_kwDODZiUac6QVBw2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c4001b2433bdb7f2a0db38598929a0e08db9858f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-28T00:52:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16080,
+  "state": "MERGED",
+  "title": "driver/serial/cdcacm: config to enable or disable reduce one copy",
+  "updatedAt": "2025-12-09T07:46:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16080"
+}

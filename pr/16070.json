@@ -1,0 +1,94 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.9",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-03-26T11:25:33Z",
+  "createdAt": "2025-03-25T11:14:29Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/at32/at32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd32xx/cxd32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/eoss3/eoss3_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_start.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-16018",
+  "headRefOid": "285060acb36445b92f43863cc2e91dc06e2f2a58",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6QBmqW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1c509faa0c851075c8f67ed6d1c6049e3fcf7681"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-26T11:25:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16070,
+  "state": "MERGED",
+  "title": "{bp-16018} arch/arm: add missing itm_syslog.h include",
+  "updatedAt": "2025-06-23T08:09:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16070"
+}

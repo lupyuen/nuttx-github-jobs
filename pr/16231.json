@@ -1,0 +1,125 @@
+{
+  "additions": 370,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-05-06T18:02:10Z",
+  "createdAt": "2025-04-17T06:59:08Z",
+  "deletions": 303,
+  "files": [
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 3,
+      "deletions": 8
+    },
+    {
+      "path": "include/nuttx/wqueue.h",
+      "additions": 7,
+      "deletions": 19
+    },
+    {
+      "path": "libs/libc/wqueue/work_cancel.c",
+      "additions": 3,
+      "deletions": 26
+    },
+    {
+      "path": "libs/libc/wqueue/work_queue.c",
+      "additions": 37,
+      "deletions": 46
+    },
+    {
+      "path": "libs/libc/wqueue/work_usrthread.c",
+      "additions": 13,
+      "deletions": 14
+    },
+    {
+      "path": "libs/libc/wqueue/wqueue.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "sched/wqueue/kwork_cancel.c",
+      "additions": 28,
+      "deletions": 11
+    },
+    {
+      "path": "sched/wqueue/kwork_queue.c",
+      "additions": 38,
+      "deletions": 99
+    },
+    {
+      "path": "sched/wqueue/kwork_thread.c",
+      "additions": 143,
+      "deletions": 46
+    },
+    {
+      "path": "sched/wqueue/wqueue.h",
+      "additions": 82,
+      "deletions": 25
+    }
+  ],
+  "headRefName": "wqueue-fix",
+  "headRefOid": "5fd32a2e725a3badc01dff5cd1a204bbc73d3dde",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6S8bEx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb592064cb22ef7f1c30a457912e6a30546d9892"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-06T18:02:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16231,
+  "state": "MERGED",
+  "title": "sched/wqueue: Refactor delayed and periodic workqueue.",
+  "updatedAt": "2025-05-06T18:02:10Z",
+  "url": "https://github.com/apache/nuttx/pull/16231"
+}

@@ -1,0 +1,85 @@
+{
+  "additions": 112,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "is_bot": false,
+    "login": "rcsim",
+    "name": "Rodrigo Chaves Sim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-04-07T02:45:05Z",
+  "createdAt": "2025-04-06T23:21:51Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f401rc-rs485/index.rst",
+      "additions": 89,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/common/src/stm32_bmp180.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_bringup.c",
+      "additions": 15,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32f401rc_rs485_bmp180_uorb",
+  "headRefOid": "34f3f4c006436de041789d4c045c058e75d9d5ec",
+  "headRepository": {
+    "id": "R_kgDOKjRl1g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "name": "Rodrigo Chaves Sim",
+    "login": "rcsim"
+  },
+  "id": "PR_kwDODZiUac6RjPQ7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b28bb29bf9a9f17ff2b7af78a8e3e9a05477331a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-07T02:45:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16146,
+  "state": "MERGED",
+  "title": "boards/arm/stm32f401rc-rs485: Add support to BMP180 Sensor",
+  "updatedAt": "2025-04-07T02:45:05Z",
+  "url": "https://github.com/apache/nuttx/pull/16146"
+}

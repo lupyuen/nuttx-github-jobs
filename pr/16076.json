@@ -1,0 +1,125 @@
+{
+  "additions": 168,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-03-28T00:50:08Z",
+  "createdAt": "2025-03-26T07:03:51Z",
+  "deletions": 23,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/index.rst",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/include/esp32s3_board_ledc.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_ledc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3-devkit.h",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/pwm/defconfig",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "br_wjy_boards_szpi-esp32s3_en_pwm_250326",
+  "headRefOid": "08a5a3dc53538a9d15f4f2d2361e01ad5f07f4e4",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6QJ4RV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9206abc28a3cbc7d86ed74f4b647fe4849cd34a9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-28T00:50:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16076,
+  "state": "MERGED",
+  "title": "boards/szpi-esp32s3: Enable LCD backlight (LEDC/PWM)",
+  "updatedAt": "2025-03-28T00:50:09Z",
+  "url": "https://github.com/apache/nuttx/pull/16076"
+}

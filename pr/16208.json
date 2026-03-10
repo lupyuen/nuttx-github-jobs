@@ -1,0 +1,89 @@
+{
+  "additions": 172,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "is_bot": false,
+    "login": "anjiahao1",
+    "name": "anjiahao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-15T17:24:57Z",
+  "createdAt": "2025-04-15T03:16:42Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/xtensa/src/Makefile",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/crt0.c",
+      "additions": 153,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/lx6/Toolchain.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/lx7/Toolchain.defs",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "20250415_xtensa_elf",
+  "headRefOid": "b2e39ae08b8669a41e3cfc76ce9fe6364d889ee9",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnk0MDU4MzM4Mjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1MDU2OTU1",
+    "name": "anjiahao",
+    "login": "anjiahao1"
+  },
+  "id": "PR_kwDODZiUac6Slsqg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "28ad852a6cfa80dc5f31c67087bc884b2496e506"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-15T17:24:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16208,
+  "state": "MERGED",
+  "title": "arch/xtensa: add crt0 to initialize environment",
+  "updatedAt": "2025-04-15T17:24:57Z",
+  "url": "https://github.com/apache/nuttx/pull/16208"
+}

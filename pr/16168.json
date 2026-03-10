@@ -1,0 +1,175 @@
+{
+  "additions": 1544,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 21,
+  "closed": true,
+  "closedAt": "2025-04-10T14:37:13Z",
+  "createdAt": "2025-04-09T13:22:03Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32c0/boards/nucleo-c071rb/index.rst",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32c0/boards/nucleo-c092rc/index.rst",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/nsh/defconfig",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/jumbo/defconfig",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/nsh/defconfig",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/include/board.h",
+      "additions": 162,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/scripts/Make.defs",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/scripts/flash.ld",
+      "additions": 111,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/CMakeLists.txt",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/Make.defs",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/nucleo-c092rc.h",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_adc.c",
+      "additions": 129,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_appinit.c",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_autoleds.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_boot.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_bringup.c",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_buttons.c",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_userleds.c",
+      "additions": 165,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32c0-92",
+  "headRefOid": "0f4c6a9474e1e62b4bc123138b247bbe040fb39f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6R8rpY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1b9e6a8563b02ccaae3f7f3914858d266ebcd67a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-10T14:37:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16168,
+  "state": "MERGED",
+  "title": "boards/arm: add nucleo-c092rc support",
+  "updatedAt": "2025-04-30T07:33:33Z",
+  "url": "https://github.com/apache/nuttx/pull/16168"
+}

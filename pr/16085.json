@@ -1,0 +1,74 @@
+{
+  "additions": 97,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-03-29T02:33:46Z",
+  "createdAt": "2025-03-27T13:10:42Z",
+  "deletions": 25,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spi.c",
+      "additions": 91,
+      "deletions": 19
+    }
+  ],
+  "headRefName": "br_wjy_esp32s3_spi_cs_miso_optional_250327",
+  "headRefOid": "66c3131aebb036d67ec7795bcb32393ec48aca87",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6QY5kV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cc23e06ea2c338f095180a971e2df8ca524c83d5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-29T02:33:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16085,
+  "state": "MERGED",
+  "title": "arch/esp32s3: The MISO and C/S pins are optional",
+  "updatedAt": "2025-03-29T02:33:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16085"
+}

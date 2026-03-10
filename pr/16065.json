@@ -1,0 +1,79 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.9",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-03-26T11:24:06Z",
+  "createdAt": "2025-03-25T10:45:33Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "bp-15992",
+  "headRefOid": "543b29c6c247f8bd3580a1bd20c54149292013a2",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6QBV6e",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dcb7869db60525f725ddab6bb4d9e5b939a56cec"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-26T11:24:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16065,
+  "state": "MERGED",
+  "title": "{bp-15992} arch/esp32[c3|c6|h2]: Fix efuse issue on MCUBoot",
+  "updatedAt": "2025-06-23T08:09:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16065"
+}

@@ -1,0 +1,109 @@
+{
+  "additions": 348,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-04-19T11:53:18Z",
+  "createdAt": "2025-04-18T15:31:32Z",
+  "deletions": 135,
+  "files": [
+    {
+      "path": "arch/arm/src/tiva/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 116
+    },
+    {
+      "path": "arch/arm/src/tiva/cc13xx/CMakeLists.txt",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/common/CMakeLists.txt",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/lm/CMakeLists.txt",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/tm4c/CMakeLists.txt",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/tiva/tm4c123g-launchpad/src/CMakeLists.txt",
+      "additions": 17,
+      "deletions": 19
+    },
+    {
+      "path": "boards/arm/tiva/tm4c1294-launchpad/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/tiva/tm4c1294-launchpad/src/CMakeLists.txt",
+      "additions": 63,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-tiva",
+  "headRefOid": "6c9551eb3953822f2779df566ac6fe45ad854765",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6TInco",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "047a40917ce42ba64f4d6606f5c3d5111c6d847e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-19T11:53:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16238,
+  "state": "MERGED",
+  "title": "Cmake: Implement CMake build of Tiva arch",
+  "updatedAt": "2025-04-21T15:22:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16238"
+}

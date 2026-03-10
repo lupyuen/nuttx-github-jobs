@@ -1,0 +1,131 @@
+{
+  "additions": 257,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-04-08T06:44:39Z",
+  "createdAt": "2025-04-07T16:34:25Z",
+  "deletions": 121,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_psram_octal.c",
+      "additions": 1,
+      "deletions": 67
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spiflash.c",
+      "additions": 189,
+      "deletions": 44
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 38,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_rom_aliases.ld",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/python/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/toywasm/defconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "tools/esp32s3/Config.mk",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improvement/esp32s3_octal_spi_flash",
+  "headRefOid": "b0731af58079a155f1d15d170848f3e5fc44326d",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6RqaM3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "996759300901ab53b7f2bc0c1625942302fd67f1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-08T06:44:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16152,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32s3: Fix bug regarding SPI flash operation mode",
+  "updatedAt": "2025-04-08T06:44:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16152"
+}

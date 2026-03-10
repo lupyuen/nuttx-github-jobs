@@ -1,0 +1,73 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "is_bot": false,
+    "login": "chirping78",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-04-08T14:44:59Z",
+  "createdAt": "2025-04-08T12:24:38Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_lowputc.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_serial.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "esp32s2-uart1",
+  "headRefOid": "6975dcca943785e73d908edafb1e691c147ec49e",
+  "headRepository": {
+    "id": "R_kgDOKFafoQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "login": "chirping78"
+  },
+  "id": "PR_kwDODZiUac6Rx4ir",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b3567fe964777951d9cf6faf94977467a871068a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-08T14:44:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16156,
+  "state": "MERGED",
+  "title": "xtensa/esp32s2: enable sysclk and deassert reset signal for uart1",
+  "updatedAt": "2025-04-08T14:44:59Z",
+  "url": "https://github.com/apache/nuttx/pull/16156"
+}

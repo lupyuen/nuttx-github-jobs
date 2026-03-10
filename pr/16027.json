@@ -1,0 +1,185 @@
+{
+  "additions": 2187,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 23,
+  "closed": true,
+  "closedAt": "2025-03-22T00:40:41Z",
+  "createdAt": "2025-03-20T12:41:35Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/index.rst",
+      "additions": 226,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/lckfb-szpi-esp32s3-white.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/adb/defconfig",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/fastboot/defconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/nsh/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/txtable/defconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/usb_device/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/include/board.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/include/board_memorymap.h",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/scripts/Make.defs",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/Make.defs",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3-szpi.h",
+      "additions": 181,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_appinit.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_board_spi.c",
+      "additions": 128,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_boot.c",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 499,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_gpio.c",
+      "additions": 390,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_reset.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/etc/init.d/rc.sysinit",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/etc/init.d/rcS",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/etc/txtable.txt",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "br_wjy_esp32s3_new_board_szpi_250320",
+  "headRefOid": "999f353cefc4f662b29f2603e208a1277adef9f4",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6Pdbkh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a99c1839f1d7293e27bdbf126578ac557ac8a388"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-22T00:40:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16027,
+  "state": "MERGED",
+  "title": "boards/xtensa: Add support for szpi-esp32s3",
+  "updatedAt": "2025-03-22T00:40:41Z",
+  "url": "https://github.com/apache/nuttx/pull/16027"
+}

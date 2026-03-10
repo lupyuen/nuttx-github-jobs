@@ -1,0 +1,94 @@
+{
+  "additions": 224,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY5NDk5ODM=",
+    "is_bot": false,
+    "login": "jinliangli",
+    "name": "Jinliang Li"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-04-04T12:51:50Z",
+  "createdAt": "2025-04-03T11:49:39Z",
+  "deletions": 69,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/arch_crc32.c",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc32.c",
+      "additions": 88,
+      "deletions": 69
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "79ae52f008a80c18df98458c902d91791c794e52",
+  "headRepository": {
+    "id": "R_kgDOM3m9gw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY5NDk5ODM=",
+    "name": "Jinliang Li",
+    "login": "jinliangli"
+  },
+  "id": "PR_kwDODZiUac6RPszr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d5db7d1cee491b6b024857f05bfbe77c8a324fa6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-04T12:51:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16130,
+  "state": "MERGED",
+  "title": "libc/arm: optimize crc32/crc32c for arm",
+  "updatedAt": "2025-04-04T12:51:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16130"
+}

@@ -1,0 +1,100 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-11T12:59:33Z",
+  "createdAt": "2025-04-11T10:29:37Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/arm/src/ra4/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/nuttsbi/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mcx-nxxx/frdm-mcxn236/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "simbit18-20250411",
+  "headRefOid": "292c72a36e6840e3ba9e6d875a90a60bfe3b3a03",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6SPNGT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "97155ae09d045c8a03bff66e91355deaa1d2a589"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-11T12:59:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16191,
+  "state": "MERGED",
+  "title": "[nxstyle] fix Relative files path",
+  "updatedAt": "2025-04-11T15:01:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16191"
+}

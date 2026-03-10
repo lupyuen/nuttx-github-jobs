@@ -1,0 +1,116 @@
+{
+  "additions": 152,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-04-19T16:41:18Z",
+  "createdAt": "2025-04-13T15:07:31Z",
+  "deletions": 560,
+  "files": [
+    {
+      "path": "nshlib/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "nshlib/Kconfig",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "nshlib/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "nshlib/nsh.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "nshlib/nsh_command.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "nshlib/nsh_ddcmd.c",
+      "additions": 0,
+      "deletions": 505
+    },
+    {
+      "path": "system/dd/Kconfig",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "system/dd/dd_main.c",
+      "additions": 146,
+      "deletions": 33
+    }
+  ],
+  "headRefName": "system_dd",
+  "headRefOid": "4ed499db3a344363323208bc798e6131f19a66d5",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTU2MzQ3Nzc=",
+    "name": "incubator-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiT486SZW0Y",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT4875dPyB",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7X-w",
+      "name": "Area: NSH",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5585c9d347ccc0d14b909eb8a8e0e74ad81bb04e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-19T16:41:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 3057,
+  "state": "MERGED",
+  "title": "[BREAKING] system/dd: using system dd to instead nsh dd, avoid duplicate code",
+  "updatedAt": "2025-04-19T16:41:18Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3057"
+}

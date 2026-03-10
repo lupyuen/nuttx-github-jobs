@@ -1,0 +1,95 @@
+{
+  "additions": 33,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-05T03:24:58Z",
+  "createdAt": "2025-04-04T15:57:20Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spiram.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 13,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/flat_memory.ld",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/python/defconfig",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improvement/esp32s3_move_bss_data_to_external_psram",
+  "headRefOid": "f0fb654fde8dfc4be482d0d7ab111a91df6f8627",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6Rblv7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1e8250d9187b9ecb23695195f6abdc35456b6299"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-05T03:24:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16136,
+  "state": "MERGED",
+  "title": "boards/xtensa/esp32s3: Move some .bss sections to the external RAM",
+  "updatedAt": "2025-04-05T03:24:59Z",
+  "url": "https://github.com/apache/nuttx/pull/16136"
+}

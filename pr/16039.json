@@ -1,0 +1,149 @@
+{
+  "additions": 1271,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "is_bot": false,
+    "login": "rcsim",
+    "name": "Rodrigo Chaves Sim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-03-24T12:21:11Z",
+  "createdAt": "2025-03-23T21:28:33Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/CMakeLists.txt",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/configs/combo/defconfig",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/configs/nsh/defconfig",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/include/board.h",
+      "additions": 130,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/scripts/Make.defs",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/scripts/xiao-ra4m1.ld",
+      "additions": 128,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/CMakeLists.txt",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/ra4m1_appinit.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/ra4m1_autoleds.c",
+      "additions": 139,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/ra4m1_boot.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/ra4m1_bringup.c",
+      "additions": 84,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/ra4m1_gpio.c",
+      "additions": 220,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/ra4m1_userleds.c",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/xiao-ra4m1.h",
+      "additions": 86,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "seeed_xiao_ra4m1_board_support",
+  "headRefOid": "4f46d3b41cc6d53662eeb576886812b2be967a47",
+  "headRepository": {
+    "id": "R_kgDOKjRl1g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "name": "Rodrigo Chaves Sim",
+    "login": "rcsim"
+  },
+  "id": "PR_kwDODZiUac6Px-9C",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a4777f153b05d429d75f60eb8615c07bcd7696ba"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-24T12:21:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16039,
+  "state": "MERGED",
+  "title": "boards/arm/ra4: Add support for Seeed Xiao RA4M1 Board",
+  "updatedAt": "2025-03-24T12:21:11Z",
+  "url": "https://github.com/apache/nuttx/pull/16039"
+}

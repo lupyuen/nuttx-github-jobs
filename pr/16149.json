@@ -1,0 +1,68 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-08T08:12:17Z",
+  "createdAt": "2025-04-07T06:34:29Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "libs/libc/semaphore/sem_getvalue.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "libc_small_semaphore_cleanup",
+  "headRefOid": "27d09ac9529da3f3ec961996ed06b271e7dede64",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6RkzxV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "84cb21791face87ba8633b03582e9f4d4bc9bb18"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-08T08:12:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16149,
+  "state": "MERGED",
+  "title": "libc/semaphore: Read semaphore value by using NXSEM_COUNT macro",
+  "updatedAt": "2025-04-08T08:12:17Z",
+  "url": "https://github.com/apache/nuttx/pull/16149"
+}

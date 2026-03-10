@@ -1,0 +1,100 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-04-01T01:38:04Z",
+  "createdAt": "2025-03-31T14:57:25Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_spiflash.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spiflash.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_spiflash.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_spiflash.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_spiflash.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_spiflash.c",
+      "additions": 8,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improvement/espressif_spiflash_mtd",
+  "headRefOid": "7aec8ae686f5b102a9be5d08c9f1c4e824291538",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6QynCI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7482170f3fd797820b052c6d41c6ee9817c1baaf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-01T01:38:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16098,
+  "state": "MERGED",
+  "title": "espressif: Enable SPI Flash's MTD block driver for all supported SoCs",
+  "updatedAt": "2025-04-01T01:38:04Z",
+  "url": "https://github.com/apache/nuttx/pull/16098"
+}

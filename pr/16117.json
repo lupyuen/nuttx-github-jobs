@@ -1,0 +1,69 @@
+{
+  "additions": 61,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.9",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-02T22:15:52Z",
+  "createdAt": "2025-04-02T10:26:11Z",
+  "deletions": 57,
+  "files": [
+    {
+      "path": "drivers/serial/serial.c",
+      "additions": 61,
+      "deletions": 57
+    }
+  ],
+  "headRefName": "bp-16086",
+  "headRefOid": "19b7dc0369d2127d15d78c6e7c227adbb32d093f",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6RENEP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "560c603a6df2a8df80fcc40d74f678d393a72fdf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-02T22:15:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16117,
+  "state": "MERGED",
+  "title": "{bp-16086} driver/serial: Check again the RX buffer, then check file flags",
+  "updatedAt": "2025-06-23T08:09:21Z",
+  "url": "https://github.com/apache/nuttx/pull/16117"
+}

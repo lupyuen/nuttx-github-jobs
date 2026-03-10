@@ -1,0 +1,68 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-16T10:11:01Z",
+  "createdAt": "2025-04-16T05:21:56Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "drivers/video/vnc/vnc_updater.c",
+      "additions": 10,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "replace_direct_sem_access_with_nxsem_get_value_in_video",
+  "headRefOid": "570da7235cdde60fe4d7ea6530e2e69254ccaf40",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6Sxmih",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b5144afd03d32ab2805026d9c56576fa821481a7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-16T10:11:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16222,
+  "state": "MERGED",
+  "title": "drivers/video/vnc: Replace direct semcount access with nxsem_get_value",
+  "updatedAt": "2025-04-16T10:11:01Z",
+  "url": "https://github.com/apache/nuttx/pull/16222"
+}

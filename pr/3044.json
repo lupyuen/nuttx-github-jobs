@@ -1,0 +1,150 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-03-30T06:20:21Z",
+  "createdAt": "2025-03-28T12:53:17Z",
+  "deletions": 91,
+  "files": [
+    {
+      "path": "boot/mcuboot/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "crypto/tinydtls/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "graphics/lvgl/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 12
+    },
+    {
+      "path": "netutils/cjson/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "netutils/wakaama/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "system/adb/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 12
+    },
+    {
+      "path": "system/argtable3/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "testing/mm/stressapptest/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "testing/unity/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 11
+    },
+    {
+      "path": "wireless/bluetooth/nimble/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "cmake_warnings",
+  "headRefOid": "3dd014a65c5d70ec9e49155780a4c797d3ca2824",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU1NzA=",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiT486QjhuW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7M-w",
+      "name": "Area: Boot",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7ksA",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABxJhmxQ",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABxJh4SA",
+      "name": "Area: Wireless",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3764ab041aea97f261e4d18b7635a860cdf4963e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-30T06:20:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3044,
+  "state": "MERGED",
+  "title": "cmake: remove empty strings from FetchContent",
+  "updatedAt": "2025-04-30T06:58:04Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3044"
+}

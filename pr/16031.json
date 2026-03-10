@@ -1,0 +1,98 @@
+{
+  "additions": 140,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYzMzAwNTA=",
+    "is_bot": false,
+    "login": "pussuw",
+    "name": "Ville Juven"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-04-01T12:49:43Z",
+  "createdAt": "2025-03-21T11:35:41Z",
+  "deletions": 95,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/hardware/mpfs_usb.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_coremmc.c",
+      "additions": 9,
+      "deletions": 13
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_dsn.c",
+      "additions": 11,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_emmcsd.c",
+      "additions": 9,
+      "deletions": 21
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_ethernet.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_sdio_dev.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_usb.c",
+      "additions": 97,
+      "deletions": 55
+    }
+  ],
+  "headRefName": "mpfs_remove_big_kernel_lock",
+  "headRefOid": "892fee95c549c09d7eeb93fd9a8870741211b728",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6PmoW1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "04df2cceade7defa4b8defed1895bd7221e6cc2b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-01T12:49:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16031,
+  "state": "MERGED",
+  "title": "arch/risc-v/mpfs: Remove big kernel lock from several drivers",
+  "updatedAt": "2025-04-01T16:56:49Z",
+  "url": "https://github.com/apache/nuttx/pull/16031"
+}

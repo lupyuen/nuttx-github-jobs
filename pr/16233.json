@@ -1,0 +1,68 @@
+{
+  "additions": 17,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-17T12:14:15Z",
+  "createdAt": "2025-04-17T09:22:38Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "include/nuttx/atomic.h",
+      "additions": 17,
+      "deletions": 17
+    }
+  ],
+  "headRefName": "cast_atomic_operation_paramters_to_int",
+  "headRefOid": "6510c9c4284431156d39649446de790521c97541",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6S9fwt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "edaa074e5160357f1b2f9a14c91af26d382df34e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-17T12:14:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16233,
+  "state": "MERGED",
+  "title": "include/nuttx/atomic.h: For each ATOMIC func, cast the parameter to (FAR intXX_t *) of correct size",
+  "updatedAt": "2025-04-17T12:14:16Z",
+  "url": "https://github.com/apache/nuttx/pull/16233"
+}

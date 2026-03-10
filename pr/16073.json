@@ -1,0 +1,210 @@
+{
+  "additions": 42,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": true,
+  "closedAt": "2025-03-26T14:36:48Z",
+  "createdAt": "2025-03-25T13:28:00Z",
+  "deletions": 36,
+  "files": [
+    {
+      "path": "boards/arm/imxrt/teensy-4.x/configs/pikron-bb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k28f/configs/nshsdusb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k66f/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k66f/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lx_cpu/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g474re/configs/lpuartnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g474re/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g474re/configs/usbserial/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/composite/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/smallnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/tiny/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/configs/evalos/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/configs/note/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/configs/pysim/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/configs/evalos/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/lvgl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/nsh_pci/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/nsh_pci_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "include/pthread.h",
+      "additions": 27,
+      "deletions": 6
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/pthread/pthread_mutexinit.c",
+      "additions": 14,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix_pthread_mutex_prio_flags",
+  "headRefOid": "10e064c539ec1a33553fff7da7bfda8185be5678",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6QC45T",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b83493d8a0706f3ce24cce4372c19f0a7288000c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-26T14:36:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16073,
+  "state": "MERGED",
+  "title": "Correct the pthread mutex priority inheritance default setting",
+  "updatedAt": "2025-03-26T14:36:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16073"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.9",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-04-02T22:16:36Z",
+  "createdAt": "2025-04-02T10:17:19Z",
+  "deletions": 29,
+  "files": [
+    {
+      "path": "arch/arm/src/samv7/sam_gpio.c",
+      "additions": 18,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_gpio.h",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_gpioirq.c",
+      "additions": 0,
+      "deletions": 21
+    }
+  ],
+  "headRefName": "bp-16079",
+  "headRefOid": "d376b19ac72f3220a065716a31bb4ec5d5eeca35",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6REIgA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "526a8eaabe7aa77cc42f08bfae2059d41414ff98"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-02T22:16:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16114,
+  "state": "MERGED",
+  "title": "[bp-16079} arch/arm/src/samv7: enable GPIO clock even if interrupt not enabled",
+  "updatedAt": "2025-06-23T08:09:22Z",
+  "url": "https://github.com/apache/nuttx/pull/16114"
+}

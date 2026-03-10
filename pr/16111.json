@@ -1,0 +1,205 @@
+{
+  "additions": 3393,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMxMTI2Nzg3",
+    "is_bot": false,
+    "login": "liujp-arch",
+    "name": "Lemon"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": true,
+  "closedAt": "2025-04-07T08:28:30Z",
+  "createdAt": "2025-04-02T07:06:31Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm/include/stm32h7/chip.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ltdc.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/CMakeLists.txt",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/configs/lvgl/defconfig",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/include/board.h",
+      "additions": 614,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/scripts/Make.defs",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/scripts/flash.ld",
+      "additions": 230,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/scripts/flash_m4.ld",
+      "additions": 123,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/scripts/gnu-elf.ld",
+      "additions": 126,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/scripts/memory.ld",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/scripts/user-space.ld",
+      "additions": 99,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/CMakeLists.txt",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/Makefile",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_appinitialize.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_autoleds.c",
+      "additions": 173,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_boot.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_bringup.c",
+      "additions": 267,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_ft5x06.c",
+      "additions": 301,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_lcd.c",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_ostest.c",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_reset.c",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_usb.c",
+      "additions": 324,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_userleds.c",
+      "additions": 130,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32h750b-dk.h",
+      "additions": 217,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "dev_stm32h750",
+  "headRefOid": "c1e01a5507956a570e3c4cc67d62f36c57872f09",
+  "headRepository": {
+    "id": "R_kgDOOSJIkw",
+    "name": "nuttx_apache"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMxMTI2Nzg3",
+    "name": "Lemon",
+    "login": "liujp-arch"
+  },
+  "id": "PR_kwDODZiUac6RCWoQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "32c5667d5d8a536cc59480f82039b5ad934d2ce8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-07T08:28:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16111,
+  "state": "MERGED",
+  "title": "boards/arm/stm32h750b-dk: adapt to stm32h750b-dk development board",
+  "updatedAt": "2025-04-07T08:28:31Z",
+  "url": "https://github.com/apache/nuttx/pull/16111"
+}

@@ -1,0 +1,433 @@
+{
+  "additions": 19,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 69,
+  "closed": true,
+  "closedAt": "2025-04-19T16:41:26Z",
+  "createdAt": "2025-04-13T15:11:40Z",
+  "deletions": 68,
+  "files": [
+    {
+      "path": "Documentation/applications/nsh/config.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/lpc31xx/boards/olimex-lpc-h3131/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/mips/pic32mx/boards/mirtoo/README.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1020-evk/configs/usdhc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/audio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/bt/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/krndis/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/rndis/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/usb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-devkit/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-quickstart/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/open1788/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/moxart/moxa/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/ap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/bl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/full/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/configs/ramtest/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/arduino-m0/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/arduino-m0/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/circuit-express/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/circuit-express/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/samd20-xplained/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/samd21-xplained/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/saml21-xplained/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/xiao-seeeduino/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/nx/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/qenco/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/configs/adc/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g431rb/configs/adc/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/composite/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32_tiny/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32_tiny/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/adb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/apds9960/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/audio_tone/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/buttons/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/jlx12864g/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/lcd1602/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/mcp2515/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/nrf24/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/rfid-rc522/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/rgbled/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/ssd1306/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/userled/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/veml6070/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f334-disco/configs/buckboost/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f334-disco/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/max7219/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32vldiscovery/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32l0538-disco/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/or1k/mor1kx/or1k/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/z80/z80/z80sim/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "sem",
+  "headRefOid": "81afa9f7608fb522496ba042cde6eb7eaa5156f2",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6SZXP2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L19g",
+      "name": "Board: openrisc",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MMEA",
+      "name": "Board: z80",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b233d1494d4f76a6ff4fabb7c0a375161472cc2a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-19T16:41:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16198,
+  "state": "MERGED",
+  "title": "[BREAKING] boards/defconfig: remove unused config about dd",
+  "updatedAt": "2025-04-19T16:44:21Z",
+  "url": "https://github.com/apache/nuttx/pull/16198"
+}

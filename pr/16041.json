@@ -1,0 +1,129 @@
+{
+  "additions": 2423,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQxMzEyMDY3",
+    "is_bot": false,
+    "login": "SPRESENSE",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-03-24T19:07:45Z",
+  "createdAt": "2025-03-24T07:22:29Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/cxd56xx/common/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_cxd5602pwbimu.c",
+      "additions": 261,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/include/board.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/include/cxd56_cxd5602pwbimu.h",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/src/cxd56_bringup.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/cxd5602pwbimu.c",
+      "additions": 1815,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/cxd5602pwbimu.h",
+      "additions": 172,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pullrequest-1006",
+  "headRefOid": "8aea91f47c4c77d44d418fe187534d41345608c8",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODAwNjE4OTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQxMzEyMDY3",
+    "login": "SPRESENSE"
+  },
+  "id": "PR_kwDODZiUac6P0Vor",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "64b97bda5d428bc210b1046c2e2d16e3d02f33a5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-24T19:07:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16041,
+  "state": "MERGED",
+  "title": "drivers/sensors: Add CXD5602PWBIMU driver for IMU Add-on board",
+  "updatedAt": "2025-03-24T19:07:45Z",
+  "url": "https://github.com/apache/nuttx/pull/16041"
+}

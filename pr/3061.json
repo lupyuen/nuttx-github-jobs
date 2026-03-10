@@ -1,0 +1,73 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "is_bot": false,
+    "login": "csanchezdll",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-04-17T07:39:44Z",
+  "createdAt": "2025-04-16T08:38:41Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "canutils/lely-canopen/0005-add-NuttX-support.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "canutils/slcan/slcan.c",
+      "additions": 1,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "can_bitrate_in_bps",
+  "headRefOid": "9af45769d6d2e43bbd0411dae0005ac94c756f87",
+  "headRepository": {
+    "id": "R_kgDOOZSFmw",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "login": "csanchezdll"
+  },
+  "id": "PR_kwDODZiT486SzSKN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7EsA",
+      "name": "Area: CAN",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8d89d73bb8e56859ff961381fd975597d90c1196"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-17T07:39:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3061,
+  "state": "MERGED",
+  "title": "canutils: use bps units for bitrate in SocketCAN interfaces.",
+  "updatedAt": "2025-07-03T07:19:20Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3061"
+}

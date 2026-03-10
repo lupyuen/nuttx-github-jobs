@@ -1,0 +1,179 @@
+{
+  "additions": 773,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2025-05-08T08:00:05Z",
+  "createdAt": "2025-04-11T12:52:06Z",
+  "deletions": 942,
+  "files": [
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/qenco/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/mutex.h",
+      "additions": 390,
+      "deletions": 266
+    },
+    {
+      "path": "include/nuttx/semaphore.h",
+      "additions": 25,
+      "deletions": 6
+    },
+    {
+      "path": "include/pthread.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/semaphore.h",
+      "additions": 15,
+      "deletions": 7
+    },
+    {
+      "path": "libs/libc/misc/lib_mutex.c",
+      "additions": 11,
+      "deletions": 554
+    },
+    {
+      "path": "libs/libc/semaphore/sem_getvalue.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/semaphore/sem_init.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/semaphore/sem_post.c",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/semaphore/sem_trywait.c",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/semaphore/sem_wait.c",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "sched/misc/deadlock.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/pthread/pthread_mutexinit.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_get_stateinfo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/semaphore/sem_destroy.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "sched/semaphore/sem_holder.c",
+      "additions": 10,
+      "deletions": 5
+    },
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 62,
+      "deletions": 21
+    },
+    {
+      "path": "sched/semaphore/sem_recover.c",
+      "additions": 23,
+      "deletions": 3
+    },
+    {
+      "path": "sched/semaphore/sem_reset.c",
+      "additions": 55,
+      "deletions": 23
+    },
+    {
+      "path": "sched/semaphore/sem_trywait.c",
+      "additions": 42,
+      "deletions": 11
+    },
+    {
+      "path": "sched/semaphore/sem_wait.c",
+      "additions": 67,
+      "deletions": 5
+    },
+    {
+      "path": "sched/semaphore/sem_waitirq.c",
+      "additions": 32,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "enable_mutex_functionality_in_nxsem",
+  "headRefOid": "185cb70eda4cccf9b7f62632a8402fb0677c0b8b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6SQXl5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "156469f158753db41d39d08008aa1ae978af1a47"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-08T08:00:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16194,
+  "state": "MERGED",
+  "title": "Enable mutex functionality in nxsem",
+  "updatedAt": "2025-05-08T08:00:05Z",
+  "url": "https://github.com/apache/nuttx/pull/16194"
+}

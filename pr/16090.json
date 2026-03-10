@@ -1,0 +1,94 @@
+{
+  "additions": 78,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-03-30T03:36:19Z",
+  "createdAt": "2025-03-28T09:21:26Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "drivers/syslog/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/syslog/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/syslog/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/syslog/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/syslog/lib_syslog_none.c",
+      "additions": 59,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "syslog_none_upstream",
+  "headRefOid": "185d86862572d0ccd7b78431c9941a7f85f85b29",
+  "headRepository": {
+    "id": "R_kgDOKIIgJQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjEzOTgyMjgy",
+    "login": "railab"
+  },
+  "id": "PR_kwDODZiUac6Qhhpq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c4f142e45c05983976ae4eadbde4135246e3b29f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-30T03:36:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16090,
+  "state": "MERGED",
+  "title": "syslog: add an option to completely disable syslog logic",
+  "updatedAt": "2025-03-31T03:26:05Z",
+  "url": "https://github.com/apache/nuttx/pull/16090"
+}

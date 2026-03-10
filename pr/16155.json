@@ -1,0 +1,440 @@
+{
+  "additions": 1939,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 73,
+  "closed": true,
+  "closedAt": "2025-04-08T14:53:59Z",
+  "createdAt": "2025-04-08T07:09:46Z",
+  "deletions": 7241,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 327,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2s.c",
+      "additions": 881,
+      "deletions": 837
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2s.h",
+      "additions": 21,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_i2s.c",
+      "additions": 0,
+      "deletions": 3117
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_i2s.h",
+      "additions": 0,
+      "deletions": 75
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_i2s.c",
+      "additions": 0,
+      "deletions": 2747
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_i2s.h",
+      "additions": 0,
+      "deletions": 74
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_dma.c",
+      "additions": 156,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_dma.h",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_i2sdev.c",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_cs4344.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_es8388.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/configs/audio/defconfig",
+      "additions": 6,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/src/esp32-audio-kit.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/src/esp32_bringup.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/audio/defconfig",
+      "additions": 3,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/i2schar/defconfig",
+      "additions": 3,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/nxlooper/defconfig",
+      "additions": 5,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32-devkitc.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32_bringup.c",
+      "additions": 24,
+      "deletions": 20
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/configs/audio/defconfig",
+      "additions": 6,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/configs/nxrecorder/defconfig",
+      "additions": 6,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/configs/rtptools/defconfig",
+      "additions": 6,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/src/esp32-lyrat.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/src/esp32_bringup.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-pico-kit/src/esp32-pico-kit.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-pico-kit/src/esp32_bringup.c",
+      "additions": 19,
+      "deletions": 19
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/configs/mqttc/defconfig",
+      "additions": 6,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/configs/nsh/defconfig",
+      "additions": 6,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/configs/wifi/defconfig",
+      "additions": 6,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/src/esp32-sparrow-kit.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/src/esp32_bringup.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_i2sdev.c",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_cs4344.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_es8311.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-kaluga-1/configs/audio/defconfig",
+      "additions": 8,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-kaluga-1/configs/nxlooper/defconfig",
+      "additions": 8,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-kaluga-1/src/esp32s2-kaluga-1.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-kaluga-1/src/esp32s2_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/audio/defconfig",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/i2schar/defconfig",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/nxlooper/defconfig",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2-saola-1.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_i2s.c",
+      "additions": 9,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_cs4344.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_es8311.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/audio/defconfig",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/i2schar/defconfig",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/nxlooper/defconfig",
+      "additions": 13,
+      "deletions": 14
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3-devkit.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 21,
+      "deletions": 17
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/configs/audio/defconfig",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/configs/rtptools/defconfig",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3_bringup.c",
+      "additions": 19,
+      "deletions": 19
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/configs/audio/defconfig",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/src/esp32s3_bringup.c",
+      "additions": 19,
+      "deletions": 19
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3-szpi.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 17,
+      "deletions": 17
+    }
+  ],
+  "headRefName": "feature/esp_xtensa_i2s",
+  "headRefOid": "ae977ffbb103fabab12e7a9cd3550295fbc12936",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6RvJLK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8a835dd545f8047386bcad725f8a44eb984177c0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-08T14:53:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16155,
+  "state": "MERGED",
+  "title": "arch/xtensa: Add common I2S support for esp32[- |-s2|-s3]",
+  "updatedAt": "2025-04-08T14:53:59Z",
+  "url": "https://github.com/apache/nuttx/pull/16155"
+}

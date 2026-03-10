@@ -1,0 +1,346 @@
+{
+  "additions": 4977,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 54,
+  "closed": true,
+  "closedAt": "2025-04-05T14:23:40Z",
+  "createdAt": "2025-04-04T18:06:44Z",
+  "deletions": 34,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32c0/boards/nucleo-c071rb/index.rst",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32c0/index.rst",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32g0/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/chip.h",
+      "additions": 101,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/stm32c0_irq.h",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 203,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Make.defs",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_adc.h",
+      "additions": 19,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_dma_v1.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_dmamux.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_exti.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_flash.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_gpio.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_memorymap.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_pinmap.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_pwr.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_rcc.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_spi.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_dmamux.h",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_exti.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_flash.h",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_memorymap.h",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_pinmap.h",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_pwr.h",
+      "additions": 165,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_rcc.h",
+      "additions": 368,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.c",
+      "additions": 12,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_dma.c",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_dma.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_dma_v1.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_dma_v1mux.c",
+      "additions": 1441,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_lse.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_rcc.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32c0_rcc.c",
+      "additions": 495,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/jumbo/defconfig",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/include/board.h",
+      "additions": 162,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/scripts/Make.defs",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/scripts/flash.ld",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/CMakeLists.txt",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/Make.defs",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/nucleo-c071rb.h",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_adc.c",
+      "additions": 129,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_appinit.c",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_autoleds.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_boot.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_bringup.c",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_buttons.c",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_userleds.c",
+      "additions": 165,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32c0_port",
+  "headRefOid": "dc2621824e39691dbb46cc5d6b3db1bb465cd96c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6Rcc8Z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c061bb08c419c8e02b2ef2bb330fe5a0fc07c34a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-05T14:23:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16138,
+  "state": "MERGED",
+  "title": "arch/arm: add stm32c0 support",
+  "updatedAt": "2025-04-30T07:33:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16138"
+}

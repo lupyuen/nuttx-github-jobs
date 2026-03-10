@@ -1,0 +1,421 @@
+{
+  "additions": 2183,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjk5NDE3NTE=",
+    "is_bot": false,
+    "login": "pryre",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 61,
+  "closed": true,
+  "closedAt": "2025-04-01T02:54:20Z",
+  "createdAt": "2025-04-01T02:52:15Z",
+  "deletions": 269,
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "additions": 379,
+      "deletions": 67
+    },
+    {
+      "path": "Documentation/applications/system/uorb/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/lpc31xx/boards/olimex-lpc-h3131/README.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/at32/at32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cxd32xx/cxd32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/eoss3/eoss3_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/qemu/qemu_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_spi.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_spi.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_spi.c",
+      "additions": 33,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/CMakeLists.txt",
+      "additions": 206,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/bl808/bl808_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/bl808/bl808_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/bl808/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/c906/c906_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.c",
+      "additions": 50,
+      "deletions": 26
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_usbserial.c",
+      "additions": 2,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_exception_common.S",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/jh7110/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/jh7110/jh7110_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/jh7110/jh7110_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/k210/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/k230/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/k230/k230_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/litex/chip.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/qemu-rv/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/qemu-rv/qemu_rv_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/qemu-rv/qemu_rv_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/sg2000/chip.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/sg2000/sg2000_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/sg2000/sg2000_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2c_slave.c",
+      "additions": 1056,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2c_slave.h",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "audio/pcm_decode.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/src/CMakeLists.txt",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/at45db.c",
+      "additions": 21,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/lan9250.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/serial/ptmx.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/serial/serial_gdbstub.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/v9fs/virtio_9p.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/uio.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/lib/math.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/strings.h",
+      "additions": 23,
+      "deletions": 48
+    },
+    {
+      "path": "net/can/can_callback.c",
+      "additions": 18,
+      "deletions": 22
+    },
+    {
+      "path": "net/devif/ipv6_input.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "net/udp/udp_input.c",
+      "additions": 23,
+      "deletions": 16
+    },
+    {
+      "path": "sched/init/nx_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/bdf-converter.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "tools/checkpatch.sh",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "tools/csvparser.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "patch/stm32l476rg-cmakelists",
+  "headRefOid": "e025c4099befcd47d7605038a69353f03afd143e",
+  "headRepository": {
+    "id": "R_kgDOOR30ig",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "O_kgDOBoAhuw",
+    "login": "V-TOL-Aerospace"
+  },
+  "id": "PR_kwDODZiUac6Q3Aq4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16101,
+  "state": "CLOSED",
+  "title": "Add CMakeLists for STM32L4 / Nucleo-l476rg board",
+  "updatedAt": "2025-04-01T03:22:00Z",
+  "url": "https://github.com/apache/nuttx/pull/16101"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 57,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMxMTI2Nzg3",
+    "is_bot": false,
+    "login": "liujp-arch",
+    "name": "Lemon"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-04-01T20:00:03Z",
+  "createdAt": "2025-04-01T11:50:31Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ltdc.c",
+      "additions": 48,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "dev",
+  "headRefOid": "552574a48e361ab846b7596a216d668b55d75633",
+  "headRepository": {
+    "id": "R_kgDOOSJIkw",
+    "name": "nuttx_apache"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMxMTI2Nzg3",
+    "name": "Lemon",
+    "login": "liujp-arch"
+  },
+  "id": "PR_kwDODZiUac6Q68Ny",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c4b81bb92221f696aaf335c343e8aa14f0d317e1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-01T20:00:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16105,
+  "state": "MERGED",
+  "title": "feat(nuttx): implement stm32h7 ltdc double buffer on layer 1",
+  "updatedAt": "2025-04-01T20:00:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16105"
+}

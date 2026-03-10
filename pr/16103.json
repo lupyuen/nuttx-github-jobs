@@ -1,0 +1,95 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-02T11:29:00Z",
+  "createdAt": "2025-04-01T07:52:42Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ble_adapter.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wdt_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ble_adapter.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wdt_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "avr_fix",
+  "headRefOid": "ec6df4cb7382f60e058a00bc3e85add5996ac904",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6Q46jy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5d2e0f8c80cb0f64040d80ca0b1dbbdb21095574"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-02T11:29:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16103,
+  "state": "MERGED",
+  "title": "nuttx/clock: make NSEC_PER_USEC and others long",
+  "updatedAt": "2025-04-30T07:34:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16103"
+}

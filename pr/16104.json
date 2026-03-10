@@ -1,0 +1,75 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-01T17:03:48Z",
+  "createdAt": "2025-04-01T10:26:47Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "drivers/lcd/st7789.c",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "br_wjy_lcd_st7789_ramctrl_fix_250401",
+  "headRefOid": "4ada453106b97c7bab3c84275d3487ea4a670a6e",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6Q6QO8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c5afcd78f1dc03b94af59463a9736075826c9914"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-01T17:03:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 16104,
+  "state": "MERGED",
+  "title": "drivers/lcd/st7789: Send RAMCTRL if little endian",
+  "updatedAt": "2025-04-01T17:03:49Z",
+  "url": "https://github.com/apache/nuttx/pull/16104"
+}

@@ -1,0 +1,109 @@
+{
+  "additions": 1288,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU0Njc0NTU2",
+    "is_bot": false,
+    "login": "bskdany",
+    "name": "Daniel Byshkin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-04-01T01:38:37Z",
+  "createdAt": "2025-03-27T19:12:18Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/sensors.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/nau7802.rst",
+      "additions": 211,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/sensors_uorb.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/nau7802.c",
+      "additions": 937,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/ioctl.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/nau7802.h",
+      "additions": 108,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nau7802_pr_ready",
+  "headRefOid": "62c1b19ef2e1f9e0b567373e435f4ca0220afd7b",
+  "headRepository": {
+    "id": "R_kgDOM69a6w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjMzMTgyODIy",
+    "login": "CarletonURocketry"
+  },
+  "id": "PR_kwDODZiUac6QdEVU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "504f838577fef42069d1f10f62eca58f15183b4f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-01T01:38:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16087,
+  "state": "MERGED",
+  "title": "drivers/sensors/nau7802: Add support for the NAU7802",
+  "updatedAt": "2025-04-01T01:38:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16087"
+}

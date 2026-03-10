@@ -1,0 +1,76 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-04-13T18:17:33Z",
+  "createdAt": "2025-04-13T06:19:56Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "sched/semaphore/sem_destroy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/semaphore/sem_reset.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/semaphore/sem_trywait.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_smp_acquire_release_pattern_in_sem_post",
+  "headRefOid": "ce82aa5e7219fe9ad7fbdae88c8e71d22609c153",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6SYlm9",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16197,
+  "state": "CLOSED",
+  "title": "Fix the SMP acquire/release pattern in nxsem",
+  "updatedAt": "2025-04-13T18:17:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16197"
+}

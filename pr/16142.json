@@ -1,0 +1,79 @@
+{
+  "additions": 42,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-04-07T01:02:02Z",
+  "createdAt": "2025-04-06T10:59:10Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "include/nuttx/crc16.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc16.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/misc/lib_crc16ccitt.c",
+      "additions": 21,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "25040601",
+  "headRefOid": "a1f5561f1e0ddc32ac8736ffb712fa126d8d9057",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6Rh9x6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "921ffc731979726c26d75397111ec6e86a7cdcee"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-07T01:02:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16142,
+  "state": "MERGED",
+  "title": "libs/libc/crc16: add some comments for crc16ccitt",
+  "updatedAt": "2025-04-07T01:02:02Z",
+  "url": "https://github.com/apache/nuttx/pull/16142"
+}

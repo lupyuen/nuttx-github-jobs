@@ -1,0 +1,78 @@
+{
+  "additions": 120,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-03-24T12:24:57Z",
+  "createdAt": "2025-03-22T11:53:42Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/src/stm32_adc.c",
+      "additions": 112,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nucleo_adc",
+  "headRefOid": "44bdba8c2bdbcef009e1228909f19b6bb611bd1d",
+  "headRepository": {
+    "id": "R_kgDOKIIgJQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjEzOTgyMjgy",
+    "login": "railab"
+  },
+  "id": "PR_kwDODZiUac6PuFDB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6443b33a39fba9f706fa379978b6767544dd55a5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-24T12:24:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16034,
+  "state": "MERGED",
+  "title": "boards/nucleo-f302r8: add ADC support",
+  "updatedAt": "2025-03-25T10:01:34Z",
+  "url": "https://github.com/apache/nuttx/pull/16034"
+}

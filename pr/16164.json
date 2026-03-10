@@ -1,0 +1,69 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4MTU5Mw==",
+    "is_bot": false,
+    "login": "bkueng",
+    "name": "Beat Küng"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-04-09T14:50:35Z",
+  "createdAt": "2025-04-09T09:22:59Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "fs/procfs/fs_procfs.c",
+      "additions": 6,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix_procfs_opendir",
+  "headRefOid": "f4fdb05d740d5cb472becfa6abf019ae032cafd7",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMzgzOTMyNTg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4MTU5Mw==",
+    "name": "Beat Küng",
+    "login": "bkueng"
+  },
+  "id": "PR_kwDODZiUac6R6cAA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ac2078a8bf5abcf87bddca393290cb9e0c151de5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-09T14:50:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16164,
+  "state": "MERGED",
+  "title": "fs/procfs: fix potential null pointer access in procfs_opendir",
+  "updatedAt": "2025-04-09T14:50:35Z",
+  "url": "https://github.com/apache/nuttx/pull/16164"
+}

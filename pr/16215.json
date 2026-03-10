@@ -1,0 +1,74 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc2NDczMzg=",
+    "is_bot": false,
+    "login": "azerupi",
+    "name": "Mathieu David"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-04-15T17:22:25Z",
+  "createdAt": "2025-04-15T12:47:32Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/stm32_ethernet.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ethernet.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "eth-no-mdio",
+  "headRefOid": "51f78b44bd350e543820f2e2283543c247265a3d",
+  "headRepository": {
+    "id": "R_kgDOOZ-s_w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc2NDczMzg=",
+    "name": "Mathieu David",
+    "login": "azerupi"
+  },
+  "id": "PR_kwDODZiUac6SqcHM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7281d91fbc39928f123901a166565c1a39b3fa60"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-15T17:22:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16215,
+  "state": "MERGED",
+  "title": "Support ethernet without MDIO & MDC lines",
+  "updatedAt": "2025-04-15T17:25:59Z",
+  "url": "https://github.com/apache/nuttx/pull/16215"
+}

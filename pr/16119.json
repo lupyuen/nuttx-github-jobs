@@ -1,0 +1,85 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.9",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-04-02T22:15:24Z",
+  "createdAt": "2025-04-02T10:30:13Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Bootloader.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "tools/espressif/Config.mk",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-16108",
+  "headRefOid": "48aa1b13a0e1ae5fef5e722d9df7ae79201e5a4c",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6REPG6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "46c72c6738a299cf386a8c7d3afdcaa48cc7d60d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-02T22:15:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16119,
+  "state": "MERGED",
+  "title": "{bp-16108} arch/risc-v/esp32h2: Set the default SPI flash frequency to 64MHz",
+  "updatedAt": "2025-06-23T08:09:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16119"
+}

@@ -1,0 +1,403 @@
+{
+  "additions": 4675,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 63,
+  "closed": true,
+  "closedAt": "2025-04-17T05:56:40Z",
+  "createdAt": "2025-04-16T11:52:04Z",
+  "deletions": 1150,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-generic/index.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 34,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 25,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 29,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/boards/esp32h2-devkit/index.rst",
+      "additions": 22,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/index.rst",
+      "additions": 27,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-devkitc/index.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 38,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/boards/esp32s2-saola-1/index.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 35,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 35,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 106,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_adc.c",
+      "additions": 774,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_adc.h",
+      "additions": 15,
+      "deletions": 23
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_adc.c",
+      "additions": 844,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_adc.h",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 187,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 195,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 257,
+      "deletions": 71
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_adc.c",
+      "additions": 0,
+      "deletions": 944
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/include/esp_board_adc.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_adc.c",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/configs/adc/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/src/esp32c3_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/include/esp_board_adc.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_adc.c",
+      "additions": 141,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/adc/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/include/esp_board_adc.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_adc.c",
+      "additions": 135,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/adc/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/src/esp32h2_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/include/esp32_board_adc.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_adc.c",
+      "additions": 248,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/adc/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/include/esp32s2_board_adc.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_adc.c",
+      "additions": 253,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/adc/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/include/esp32s3_board_adc.h",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_adc.c",
+      "additions": 142,
+      "deletions": 83
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/adc/defconfig",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/adc-support-common",
+  "headRefOid": "f0e2dbdd1695bdc469c575e1c7f83977e739005b",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6S09SV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2ff8199d90a80b6208dfbb1e5076a9567977f9e0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-17T05:56:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16228,
+  "state": "MERGED",
+  "title": "Add ADC support on ESP32|S2|S3|C3|C6|H2",
+  "updatedAt": "2025-04-17T05:56:40Z",
+  "url": "https://github.com/apache/nuttx/pull/16228"
+}

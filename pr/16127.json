@@ -1,0 +1,110 @@
+{
+  "additions": 63,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU3OTAwNA==",
+    "is_bot": false,
+    "login": "Laczen",
+    "name": "Jehudi Maes"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-04-03T22:49:50Z",
+  "createdAt": "2025-04-03T08:31:12Z",
+  "deletions": 64,
+  "files": [
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_espnow_pktradio.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_espnow_pktradio.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 0,
+      "deletions": 40
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/espnow/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32_bringup.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "espnow_wlan_separation",
+  "headRefOid": "c6985879fdb3d73a3183475705986f9536965095",
+  "headRepository": {
+    "id": "R_kgDONc9eyw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU3OTAwNA==",
+    "name": "Jehudi Maes",
+    "login": "Laczen"
+  },
+  "id": "PR_kwDODZiUac6RNyNo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dfc0053c2dc3418cf88eceee017e960417c1accf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-03T22:49:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16127,
+  "state": "MERGED",
+  "title": "arch/xtensa: move espnow from esp32 to common/espressif",
+  "updatedAt": "2025-04-03T22:49:51Z",
+  "url": "https://github.com/apache/nuttx/pull/16127"
+}

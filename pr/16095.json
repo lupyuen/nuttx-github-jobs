@@ -1,0 +1,124 @@
+{
+  "additions": 220,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "is_bot": false,
+    "login": "chirping78",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-04-01T09:45:09Z",
+  "createdAt": "2025-03-30T09:19:49Z",
+  "deletions": 43,
+  "files": [
+    {
+      "path": "arch/xtensa/include/esp32/core-isa.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/include/esp32s2/core-isa.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/include/esp32s3/core-isa.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_debug.c",
+      "additions": 96,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_macros.S",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_tcbinfo.c",
+      "additions": 19,
+      "deletions": 29
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_irq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/gdbstub/defconfig",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/serial_gdbstub.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/gdbstub/lib_gdbstub.c",
+      "additions": 35,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "gdbstub",
+  "headRefOid": "a492c42525fa7fa9dcea8706cdb32aa32751d0c5",
+  "headRepository": {
+    "id": "R_kgDOKFafoQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "login": "chirping78"
+  },
+  "id": "PR_kwDODZiUac6QsCny",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16095,
+  "state": "CLOSED",
+  "title": "arch/xtensa: add gdbstub support ",
+  "updatedAt": "2025-04-01T09:45:09Z",
+  "url": "https://github.com/apache/nuttx/pull/16095"
+}

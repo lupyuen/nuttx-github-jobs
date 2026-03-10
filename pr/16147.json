@@ -1,0 +1,89 @@
+{
+  "additions": 214,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-10T08:47:28Z",
+  "createdAt": "2025-04-07T04:37:31Z",
+  "deletions": 77,
+  "files": [
+    {
+      "path": "include/nuttx/crc16.h",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/misc/lib_crc16.c",
+      "additions": 18,
+      "deletions": 76
+    },
+    {
+      "path": "libs/libc/misc/lib_crc16xmodem.c",
+      "additions": 146,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "25040701",
+  "headRefOid": "6c02000325817eb3d9f33e40a061c0053b5a1e5f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6RkNzB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "59da455fea95ec1de2a8ad7695fb75db8e0e78fd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-10T08:47:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16147,
+  "state": "MERGED",
+  "title": "libs/libc/crc16: Separate implementation of crc16xmodem from crc16",
+  "updatedAt": "2025-04-10T08:47:28Z",
+  "url": "https://github.com/apache/nuttx/pull/16147"
+}
