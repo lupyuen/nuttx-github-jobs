@@ -1,0 +1,113 @@
+{
+  "additions": 436,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "is_bot": false,
+    "login": "chirping78",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-07-04T14:26:07Z",
+  "createdAt": "2025-07-04T07:01:12Z",
+  "deletions": 190,
+  "files": [
+    {
+      "path": "arch/xtensa/include/irq.h",
+      "additions": 63,
+      "deletions": 10
+    },
+    {
+      "path": "arch/xtensa/src/common/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_cpuint.S",
+      "additions": 0,
+      "deletions": 128
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_cpuint.c",
+      "additions": 183,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_int_handlers.S",
+      "additions": 111,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_irq.c",
+      "additions": 33,
+      "deletions": 15
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_irq.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_irq.c",
+      "additions": 30,
+      "deletions": 12
+    }
+  ],
+  "headRefName": "more-than-32-ints",
+  "headRefOid": "b87bda0609486f9006e9c5f714fd27910ae23eee",
+  "headRepository": {
+    "id": "R_kgDOKFafoQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "login": "chirping78"
+  },
+  "id": "PR_kwDODZiUac6dYnBD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "886718ade15c43d479ca5f9cdaa713826b473308"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-04T14:26:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16672,
+  "state": "MERGED",
+  "title": "arch/xtensa: support more than 32 cpu interrupts",
+  "updatedAt": "2025-07-10T06:51:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16672"
+}

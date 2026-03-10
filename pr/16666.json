@@ -1,0 +1,140 @@
+{
+  "additions": 613,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-02-03T19:46:07Z",
+  "createdAt": "2025-07-03T05:12:27Z",
+  "deletions": 435,
+  "files": [
+    {
+      "path": "arch/sim/include/setjmp.h",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sim/src/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_errno.c",
+      "additions": 341,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 12,
+      "deletions": 7
+    },
+    {
+      "path": "arch/sim/src/sim/win/sim_errno.c",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/mtd_nandram.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "include/errno.h",
+      "additions": 0,
+      "deletions": 140
+    },
+    {
+      "path": "include/nuttx/errno_lookup.h",
+      "additions": 179,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/string/lib_strerror.c",
+      "additions": 8,
+      "deletions": 276
+    },
+    {
+      "path": "net/arp/arp_send.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "errno",
+  "headRefOid": "94171860ea45d13259ef98a4aaef5c2c700967ec",
+  "headRepository": {
+    "id": "R_kgDOLHs-vw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiUac6dMr_3",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16666,
+  "state": "CLOSED",
+  "title": "reduce the dup of errno and errno str, add host_errno_convert method, save errno when sim context switch",
+  "updatedAt": "2026-02-03T19:46:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16666"
+}

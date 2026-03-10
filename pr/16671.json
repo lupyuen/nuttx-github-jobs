@@ -1,0 +1,84 @@
+{
+  "additions": 49,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-08T12:47:44Z",
+  "createdAt": "2025-07-04T06:59:01Z",
+  "deletions": 93,
+  "files": [
+    {
+      "path": "libs/libc/semaphore/sem_post.c",
+      "additions": 14,
+      "deletions": 26
+    },
+    {
+      "path": "libs/libc/semaphore/sem_trywait.c",
+      "additions": 21,
+      "deletions": 41
+    },
+    {
+      "path": "libs/libc/semaphore/sem_wait.c",
+      "additions": 14,
+      "deletions": 26
+    }
+  ],
+  "headRefName": "trywait",
+  "headRefOid": "fff39a6542a9748660985059cc5a690183dd75b0",
+  "headRepository": {
+    "id": "R_kgDOLHs-vw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiUac6dYl90",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4c7366045ce3381384d63f14e153a320a2e7e363"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-08T12:47:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16671,
+  "state": "MERGED",
+  "title": "sem/trywait/atomic: Fix the try wait abort by interrupted caused false failure report.",
+  "updatedAt": "2025-07-08T12:47:44Z",
+  "url": "https://github.com/apache/nuttx/pull/16671"
+}

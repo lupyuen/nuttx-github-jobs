@@ -1,0 +1,79 @@
+{
+  "additions": 83,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI5NjE3MDg=",
+    "is_bot": false,
+    "login": "paolovolpi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-10T05:45:33Z",
+  "createdAt": "2025-07-09T07:17:17Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_gpio.h",
+      "additions": 70,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_dedic_gpio.c",
+      "additions": 13,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "paolovolpi-rp23xx_gpio",
+  "headRefOid": "35f650793da3e7f58129d8e5f1900f8fa8ab0de8",
+  "headRepository": {
+    "id": "R_kgDOJngOng",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI5NjE3MDg=",
+    "login": "paolovolpi"
+  },
+  "id": "PR_kwDODZiUac6eEQWn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e1e9ea2e815c5058c462f3bd7b543219c915b19e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-10T05:45:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16703,
+  "state": "MERGED",
+  "title": "arch/arm/rp23xx :  Fix gpio  for RP2350B",
+  "updatedAt": "2025-07-24T08:16:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16703"
+}

@@ -1,0 +1,78 @@
+{
+  "additions": 48,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-16T02:32:16Z",
+  "createdAt": "2025-07-11T12:05:13Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "games/snake/snake_input_console.h",
+      "additions": 28,
+      "deletions": 6
+    },
+    {
+      "path": "games/snake/snake_input_gpio.h",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "games/snake/snake_main.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/snake_game_return",
+  "headRefOid": "6a988dfcfadd0de2259971644f2d0beb5449a9cf",
+  "headRepository": {
+    "id": "R_kgDOKIO0bA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiT486ee8oy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7gUg",
+      "name": "Area: Games",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f3e1985b1e3d421d65eac66ac1d54f077c5dac97"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-16T02:32:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3126,
+  "state": "MERGED",
+  "title": "games/snake: Fix terminal issue after returning back from snake game",
+  "updatedAt": "2025-07-16T02:32:16Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3126"
+}

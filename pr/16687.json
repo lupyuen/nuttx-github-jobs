@@ -1,0 +1,121 @@
+{
+  "additions": 449,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-07-10T15:21:40Z",
+  "createdAt": "2025-07-07T11:03:20Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "Documentation/platforms/avr/avrdx/boards/breadxavr/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/common/constants-in-progmem.rst",
+      "additions": 225,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/Kconfig",
+      "additions": 100,
+      "deletions": 5
+    },
+    {
+      "path": "arch/avr/src/avr/Toolchain.defs",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_head.S",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/scripts/breadxavr.ld",
+      "additions": 54,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "AVR",
+  "headRefOid": "4e56f43f15d87740317e7dc31305370b2f3caea3",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6dvGfO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LwVA",
+      "name": "Board: avr",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d3da5e633ce56785423f7576fc17314648c6905f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-10T15:21:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16687,
+  "state": "MERGED",
+  "title": "arch/avr: do not copy const variables to RAM",
+  "updatedAt": "2025-07-16T08:46:13Z",
+  "url": "https://github.com/apache/nuttx/pull/16687"
+}

@@ -1,0 +1,246 @@
+{
+  "additions": 260,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 34,
+  "closed": true,
+  "closedAt": "2025-07-07T11:46:58Z",
+  "createdAt": "2025-07-04T20:37:42Z",
+  "deletions": 469,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1060-evk/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1060-evk/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1060-evk/src/imxrt_ft5x06.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1064-evk/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1064-evk/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/imxrt1064-evk/src/imxrt_ft5x06.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/Kconfig",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/configs/fb/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/configs/nxwm/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/configs/twm4nx1/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/configs/twm4nx2/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/src/lpc54_ft5x06.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/src/stm32_touchscreen.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/configs/touchtest/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/src/stm32_ft5x06.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_ft5x06.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/lvgl/defconfig",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_ft5x06.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/etc/init.d/rcS",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/Kconfig",
+      "additions": 5,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/input/ft5x06.c",
+      "additions": 33,
+      "deletions": 420
+    },
+    {
+      "path": "drivers/input/touchscreen_upper.c",
+      "additions": 45,
+      "deletions": 10
+    },
+    {
+      "path": "drivers/input/uinput.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/input/ft5x06.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/input/touchscreen.h",
+      "additions": 43,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "br_wjy_touchscreen_swap_mirror_szpi_250705",
+  "headRefOid": "d1d03d50b240a852d2d59ca99062b2aac683893f",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6dfjRT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e5b138dee0d1ed607ec92a02ce98ff1cb0840e9c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-07T11:46:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16677,
+  "state": "MERGED",
+  "title": "driver/touchscreen: Add support for mirror/swap",
+  "updatedAt": "2025-07-07T11:46:58Z",
+  "url": "https://github.com/apache/nuttx/pull/16677"
+}

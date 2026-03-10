@@ -1,0 +1,100 @@
+{
+  "additions": 199,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "is_bot": false,
+    "login": "rcsim",
+    "name": "Rodrigo Chaves Sim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-07-12T04:26:07Z",
+  "createdAt": "2025-07-09T19:49:05Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f401rc-rs485/index.rst",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_bringup.c",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_hx711.c",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32f401rc-rs485.h",
+      "additions": 21,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32f401rc_rs485_hx711",
+  "headRefOid": "914df267cd420fdcfc60a0c9887eaf6a91468365",
+  "headRepository": {
+    "id": "R_kgDOKjRl1g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "name": "Rodrigo Chaves Sim",
+    "login": "rcsim"
+  },
+  "id": "PR_kwDODZiUac6eLh56",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "95c9525c0d5d528b146eadd692f4003e796267ff"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-12T04:26:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16707,
+  "state": "MERGED",
+  "title": "boards/arm/stm32f401rc-rs485: Add support to HX711 ADC",
+  "updatedAt": "2025-07-12T04:26:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16707"
+}

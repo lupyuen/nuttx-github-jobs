@@ -1,0 +1,115 @@
+{
+  "additions": 493,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "is_bot": false,
+    "login": "JorgeGzm",
+    "name": "Jorge Guzman"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-07-07T15:43:32Z",
+  "createdAt": "2025-07-07T03:07:54Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/weact-stm32h743/index.rst",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/configs/sdcard/defconfig",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/include/board.h",
+      "additions": 43,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/Makefile",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_bringup.c",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_dma_alloc.c",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_sdmmc.c",
+      "additions": 158,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/weact-stm32h743.h",
+      "additions": 45,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "weact-stm32h743-sdcard",
+  "headRefOid": "fa3ce58f6b9b3558c70259c5aac5ef91fb6098b0",
+  "headRepository": {
+    "id": "R_kgDOKmt3PQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "name": "Jorge Guzman",
+    "login": "JorgeGzm"
+  },
+  "id": "PR_kwDODZiUac6drNtw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ec84502e805657c23e4d4082838be7dfd00cebb8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-07T15:43:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16681,
+  "state": "MERGED",
+  "title": "board/weact-stm32h743 Add sdcard support",
+  "updatedAt": "2025-07-07T15:43:32Z",
+  "url": "https://github.com/apache/nuttx/pull/16681"
+}

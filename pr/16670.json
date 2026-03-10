@@ -1,0 +1,74 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-04T10:14:31Z",
+  "createdAt": "2025-07-03T16:37:32Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.c",
+      "additions": 4,
+      "deletions": 18
+    }
+  ],
+  "headRefName": "stm32_c0_adc",
+  "headRefOid": "a2380afc64d4b4dcb0008447e46271c19fb1840e",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6dTP4D",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b2158c8e3ce535b870cf477fcc6d467734f0d65b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-04T10:14:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16670,
+  "state": "MERGED",
+  "title": "arch/arm/stm32f0l0g0/adc: move ADC_MAX_SAMPLES to Kconfig",
+  "updatedAt": "2025-07-05T12:35:53Z",
+  "url": "https://github.com/apache/nuttx/pull/16670"
+}

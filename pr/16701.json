@@ -1,0 +1,85 @@
+{
+  "additions": 96,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-09T07:45:21Z",
+  "createdAt": "2025-07-09T01:05:48Z",
+  "deletions": 61,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/sensors/l86xxx.rst",
+      "additions": 53,
+      "deletions": 29
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/sensors/l86xxx_uorb.c",
+      "additions": 40,
+      "deletions": 29
+    }
+  ],
+  "headRefName": "l86-fixes",
+  "headRefOid": "28df6393415eabf6db28e39108e9f27effd83c22",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6eCAG5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6ae3cc90827b32f71fe82e00d74e5d827ac7af54"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-09T07:45:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16701,
+  "state": "MERGED",
+  "title": "drivers/sensors/l86xxx: Fix Kconfig options and dependencies",
+  "updatedAt": "2025-11-09T21:30:58Z",
+  "url": "https://github.com/apache/nuttx/pull/16701"
+}

@@ -1,0 +1,68 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-07-01T18:02:54Z",
+  "createdAt": "2025-07-01T12:27:30Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/imx9_lpuart.c",
+      "additions": 7,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "imx9_lpuart_fix",
+  "headRefOid": "2911b4afcc45319b84fb4dd5795831f9ae7eb0df",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6c5ayW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5594c2e8875730f2f65b9fab57806e4c3c046379"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-01T18:02:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16654,
+  "state": "MERGED",
+  "title": "imx9/lpuart: Fix race condition / regression in imx9_txint",
+  "updatedAt": "2025-07-01T18:02:55Z",
+  "url": "https://github.com/apache/nuttx/pull/16654"
+}

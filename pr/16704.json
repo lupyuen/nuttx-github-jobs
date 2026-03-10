@@ -1,0 +1,68 @@
+{
+  "additions": 71,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI5NjE3MDg=",
+    "is_bot": false,
+    "login": "paolovolpi",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-07-12T23:11:13Z",
+  "createdAt": "2025-07-09T07:19:06Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_spi.c",
+      "additions": 71,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "paolovolpi-patch-rp23xx_spi",
+  "headRefOid": "3b5df1325a593bffe2c7f903534bd7f19283c01d",
+  "headRepository": {
+    "id": "R_kgDOJngOng",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI5NjE3MDg=",
+    "login": "paolovolpi"
+  },
+  "id": "PR_kwDODZiUac6eERXL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b628aec268f61797242964bd41ef22d7f006b1d1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-12T23:11:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16704,
+  "state": "MERGED",
+  "title": "arch/arm/rp23xx: spi unset peripheral before  to modify Spi parameters",
+  "updatedAt": "2025-07-12T23:11:13Z",
+  "url": "https://github.com/apache/nuttx/pull/16704"
+}

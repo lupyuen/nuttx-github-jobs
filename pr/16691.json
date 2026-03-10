@@ -1,0 +1,255 @@
+{
+  "additions": 3909,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 35,
+  "closed": true,
+  "closedAt": "2025-07-08T09:59:00Z",
+  "createdAt": "2025-07-08T09:55:35Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-generic/index.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/boards/esp32h2-devkit/index.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/boards/esp32s2-saola-1/index.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_crypto.c",
+      "additions": 605,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_sha.c",
+      "additions": 607,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_sha.h",
+      "additions": 258,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_crypto.c",
+      "additions": 729,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_sha.c",
+      "additions": 866,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_sha.h",
+      "additions": 360,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/configs/crypto/defconfig",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/src/esp32c3_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/crypto/defconfig",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/crypto/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/src/esp32h2_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/crypto/defconfig",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/crypto/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp_sha_accl",
+  "headRefOid": "2f768cba6b8638f5ecf48c48ee336df3135e257e",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6d6OCj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16691,
+  "state": "CLOSED",
+  "title": "arch/[risc-v/xtensa]: Add SHA accelerator support for esp32[-s2|-s3|-c3|-c6|-h2]",
+  "updatedAt": "2025-07-08T09:59:00Z",
+  "url": "https://github.com/apache/nuttx/pull/16691"
+}

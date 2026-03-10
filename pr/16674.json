@@ -1,0 +1,194 @@
+{
+  "additions": 2022,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 25,
+  "closed": true,
+  "closedAt": "2025-07-05T03:12:06Z",
+  "createdAt": "2025-07-04T16:06:43Z",
+  "deletions": 1797,
+  "files": [
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 168,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ledc.c",
+      "additions": 1787,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ledc.h",
+      "additions": 9,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_ledc.c",
+      "additions": 0,
+      "deletions": 810
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ledc.c",
+      "additions": 0,
+      "deletions": 865
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ledc.h",
+      "additions": 0,
+      "deletions": 52
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/pwm/defconfig",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2-saola-1.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_ledc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/include/esp32s3_board_ledc.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_ledc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/pwm/defconfig",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3_bringup.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/lcd/defconfig",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/lvgl/defconfig",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/pwm/defconfig",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/xtensa_common_ledc",
+  "headRefOid": "d08d7ca1bbeecd5028679fc21ddcea9bb64fc7b5",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6deEL8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5991a8c4cc1152039e1167d6f6bfb25346f1c387"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-05T03:12:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16674,
+  "state": "MERGED",
+  "title": "xtensa/espressif: Change LEDC implementation to common one",
+  "updatedAt": "2025-07-05T03:12:06Z",
+  "url": "https://github.com/apache/nuttx/pull/16674"
+}

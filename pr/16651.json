@@ -1,0 +1,80 @@
+{
+  "additions": 65,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY2MTUwNzE3",
+    "is_bot": false,
+    "login": "zhongzhijie1",
+    "name": "Zhijie Zhong"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-01T12:06:44Z",
+  "createdAt": "2025-07-01T04:19:10Z",
+  "deletions": 69,
+  "files": [
+    {
+      "path": "drivers/wireless/bluetooth/bt_uart.c",
+      "additions": 62,
+      "deletions": 69
+    },
+    {
+      "path": "drivers/wireless/bluetooth/bt_uart.h",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "dev-apache",
+  "headRefOid": "0c8e77a7db0b177a70c6efe4e8bfa79e3b255605",
+  "headRepository": {
+    "id": "R_kgDOPEthpA",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY2MTUwNzE3",
+    "name": "Zhijie Zhong",
+    "login": "zhongzhijie1"
+  },
+  "id": "PR_kwDODZiUac6czuO9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzEwMDg2Njc4",
+      "name": "Area: Bluetooth",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3d37e85b13fb57ae8f1b8f6917e5aaac918d0982"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-01T12:06:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16651,
+  "state": "MERGED",
+  "title": "Refactored the btuart_rxwork function to improve data reception stability.",
+  "updatedAt": "2025-07-01T14:37:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16651"
+}

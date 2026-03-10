@@ -1,0 +1,215 @@
+{
+  "additions": 308,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 28,
+  "closed": true,
+  "closedAt": "2025-08-20T02:16:43Z",
+  "createdAt": "2025-07-04T09:57:30Z",
+  "deletions": 906,
+  "files": [
+    {
+      "path": "sched/group/group_continue.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 18,
+      "deletions": 43
+    },
+    {
+      "path": "sched/mqueue/mq_rcvinternal.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/mq_sndinternal.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/mq_waitirq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/msgrcv.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/msgsnd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/paging/pg_worker.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 70,
+      "deletions": 33
+    },
+    {
+      "path": "sched/sched/sched_addreadytorun.c",
+      "additions": 108,
+      "deletions": 119
+    },
+    {
+      "path": "sched/sched/sched_backtrace.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "sched/sched/sched_mergepending.c",
+      "additions": 0,
+      "deletions": 133
+    },
+    {
+      "path": "sched/sched/sched_mergeprioritized.c",
+      "additions": 0,
+      "deletions": 162
+    },
+    {
+      "path": "sched/sched/sched_process_delivered.c",
+      "additions": 25,
+      "deletions": 61
+    },
+    {
+      "path": "sched/sched/sched_removereadytorun.c",
+      "additions": 12,
+      "deletions": 145
+    },
+    {
+      "path": "sched/sched/sched_roundrobin.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "sched/sched/sched_setpriority.c",
+      "additions": 16,
+      "deletions": 144
+    },
+    {
+      "path": "sched/sched/sched_suspend.c",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "sched/sched/sched_unlock.c",
+      "additions": 19,
+      "deletions": 7
+    },
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/semaphore/sem_waitirq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 3,
+      "deletions": 9
+    },
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_activate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task_restart.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "sched/task/task_terminate.c",
+      "additions": 0,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix_smp_scheduling",
+  "headRefOid": "017981b46b7506c87b8503e0658e14104104a6d0",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6daNZM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0dbbce3a8fef199b024fb15fa96462f6d6c5141e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-20T02:16:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 16673,
+  "state": "MERGED",
+  "title": "sched: Fix smp scheduling",
+  "updatedAt": "2025-08-22T15:08:57Z",
+  "url": "https://github.com/apache/nuttx/pull/16673"
+}

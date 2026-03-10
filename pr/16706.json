@@ -1,0 +1,109 @@
+{
+  "additions": 1589,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-07-10T12:51:23Z",
+  "createdAt": "2025-07-09T14:31:54Z",
+  "deletions": 178,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 69,
+      "deletions": 54
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_gpdma.h",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h56x_dmasigmap.h",
+      "additions": 218,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 169,
+      "deletions": 26
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.h",
+      "additions": 48,
+      "deletions": 95
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_dma.c",
+      "additions": 763,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_dma.h",
+      "additions": 307,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h5xx_rcc.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "adc_dma",
+  "headRefOid": "1f7bf37afdda1a667343936c96e81221cf38531a",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6eIzhN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0c1f9d482dbb8a9d6247335d7484afaad24baec2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-10T12:51:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16706,
+  "state": "MERGED",
+  "title": "arch/arm/STM32H5: Add DMA and ADC DMA support",
+  "updatedAt": "2025-07-24T07:36:43Z",
+  "url": "https://github.com/apache/nuttx/pull/16706"
+}

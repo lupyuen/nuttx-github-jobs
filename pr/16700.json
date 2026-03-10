@@ -1,0 +1,73 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQxMzEyMDY3",
+    "is_bot": false,
+    "login": "SPRESENSE",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-09T07:50:18Z",
+  "createdAt": "2025-07-09T00:35:52Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "drivers/sensors/bmi160.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/sensors/bmi270.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "pullrequest-1019",
+  "headRefOid": "8d4f17331a6578556841b560efbfc06d32c820a2",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODAwNjE4OTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQxMzEyMDY3",
+    "login": "SPRESENSE"
+  },
+  "id": "PR_kwDODZiUac6eB4JH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a20ac0fe7c579ed8db15e3348acd81865bc53e4f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-09T07:50:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16700,
+  "state": "MERGED",
+  "title": "sensors/bmi160,270: Fix a bug sensor_time is truncated",
+  "updatedAt": "2025-07-09T07:50:18Z",
+  "url": "https://github.com/apache/nuttx/pull/16700"
+}

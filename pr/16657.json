@@ -1,0 +1,80 @@
+{
+  "additions": 37,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI5MTkyNjg5",
+    "is_bot": false,
+    "login": "caoshen000",
+    "name": "Shen Cao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-03T22:02:50Z",
+  "createdAt": "2025-07-02T02:31:24Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/armv8-r/arm_gicv3.c",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_gicv3.c",
+      "additions": 19,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "2152dfababe43849481564c0a0232a243ee97467",
+  "headRepository": {
+    "id": "R_kgDOPEyM9g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI5MTkyNjg5",
+    "name": "Shen Cao",
+    "login": "caoshen000"
+  },
+  "id": "PR_kwDODZiUac6dAIYi",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8e68c7a8107fcdafb329b8d2a760996e52e09777"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-03T22:02:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16657,
+  "state": "MERGED",
+  "title": "arch/arm: Add gic lock for GICD_ICFGR RMW operations.",
+  "updatedAt": "2025-07-03T22:02:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16657"
+}

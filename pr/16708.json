@@ -1,0 +1,79 @@
+{
+  "additions": 241,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-11T01:59:31Z",
+  "createdAt": "2025-07-10T21:07:23Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 131,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.h",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "h5_adc_features",
+  "headRefOid": "b3af2167c826264f8e2006689b2541017eda876d",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6eYTrv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7abfbddb2f1b13696687be51e874db2c0b198b62"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-11T01:59:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16708,
+  "state": "MERGED",
+  "title": "arch/arm/STM32H5: Add oversampling and resolution support for ADC",
+  "updatedAt": "2025-07-24T07:35:42Z",
+  "url": "https://github.com/apache/nuttx/pull/16708"
+}

@@ -1,0 +1,84 @@
+{
+  "additions": 397,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwODU2MTM1",
+    "is_bot": false,
+    "login": "sanezek",
+    "name": "sanezek"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-07-10T12:52:58Z",
+  "createdAt": "2025-07-09T14:19:41Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_rng.h",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_rng.c",
+      "additions": 314,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/stm32h7_rng",
+  "headRefOid": "283685c0d60428a9beae3602a4c25eac447cd521",
+  "headRepository": {
+    "id": "R_kgDOPI6OwQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwODU2MTM1",
+    "name": "sanezek",
+    "login": "sanezek"
+  },
+  "id": "PR_kwDODZiUac6eIrRE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7a32fed563733456cfc596d8d53f27c48fc98b7b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-10T12:52:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16705,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h7: support for /dev/random device",
+  "updatedAt": "2025-07-10T12:52:58Z",
+  "url": "https://github.com/apache/nuttx/pull/16705"
+}

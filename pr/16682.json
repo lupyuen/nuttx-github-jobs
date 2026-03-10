@@ -1,0 +1,73 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-07T15:45:36Z",
+  "createdAt": "2025-07-07T03:44:26Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "net/local/local_recvmsg.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "net/local/local_sendmsg.c",
+      "additions": 1,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "mine",
+  "headRefOid": "f1be12b0fa2b7f740523eee1221e6c94170958ef",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTQzMzM1MTg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "login": "GUIDINGLI"
+  },
+  "id": "PR_kwDODZiUac6drXex",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "230714bd23d4e3f6da6be6ac86828ce77f35077a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-07T15:45:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16682,
+  "state": "MERGED",
+  "title": "net/local: correct shutdown state when use UDP mode (To fix issue: https://github.com/apache/nuttx/issues/16555)",
+  "updatedAt": "2025-07-07T15:45:36Z",
+  "url": "https://github.com/apache/nuttx/pull/16682"
+}

@@ -1,0 +1,190 @@
+{
+  "additions": 159,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 24,
+  "closed": true,
+  "closedAt": "2025-07-08T03:04:06Z",
+  "createdAt": "2025-07-04T18:15:26Z",
+  "deletions": 114,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
+      "additions": 13,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/include/esp_board_i2c.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/include/esp_board_spidev.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/Make.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_i2c.c",
+      "additions": 16,
+      "deletions": 10
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_spidev.c",
+      "additions": 11,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_spislavedev.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/src/esp32c3_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/include/esp_board_i2c.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/include/esp_board_spidev.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_i2c.c",
+      "additions": 16,
+      "deletions": 10
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spidev.c",
+      "additions": 12,
+      "deletions": 8
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spislavedev.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/src/esp32c6_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-xiao/src/esp32c6_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/include/esp_board_i2c.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/include/esp_board_spidev.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/Make.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_i2c.c",
+      "additions": 15,
+      "deletions": 9
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_spidev.c",
+      "additions": 12,
+      "deletions": 8
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_spislavedev.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/src/esp32h2_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "bugfix/change-i2c-requirement-build",
+  "headRefOid": "a5d7731ecac96afae9b0346290dcdfe9b716f210",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6dezAl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "06b37fe6aaa827ed8eb96efda37d39efb08754d3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-08T03:04:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16676,
+  "state": "MERGED",
+  "title": "arch/risc-v: fix I2C timeout and board compilation requirements",
+  "updatedAt": "2025-07-08T03:04:06Z",
+  "url": "https://github.com/apache/nuttx/pull/16676"
+}
