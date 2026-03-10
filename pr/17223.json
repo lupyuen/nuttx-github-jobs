@@ -1,0 +1,92 @@
+{
+  "additions": 148,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-10-30T15:51:18Z",
+  "createdAt": "2025-10-21T14:33:33Z",
+  "deletions": 42,
+  "files": [
+    {
+      "path": "include/nuttx/event.h",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/event_clear.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/event/event_getmask.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/event/event_init.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/event_post.c",
+      "additions": 36,
+      "deletions": 8
+    },
+    {
+      "path": "sched/event/event_wait.c",
+      "additions": 104,
+      "deletions": 25
+    }
+  ],
+  "headRefName": "improve_event_1021",
+  "headRefOid": "7fcfeaed6502787cfc553b109e794023f740507a",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6u3DKI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17223,
+  "state": "CLOSED",
+  "title": "[!] sched/event: Replace semaphore with direct scheduler operations in event implementation to improve performance",
+  "updatedAt": "2026-01-11T07:41:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17223"
+}

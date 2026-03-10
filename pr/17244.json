@@ -1,0 +1,174 @@
+{
+  "additions": 293,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-10-31T22:56:33Z",
+  "createdAt": "2025-10-24T15:08:46Z",
+  "deletions": 210,
+  "files": [
+    {
+      "path": "Documentation/reference/os/events.rst",
+      "additions": 0,
+      "deletions": 16
+    },
+    {
+      "path": "include/nuttx/event.h",
+      "additions": 6,
+      "deletions": 50
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/event.h",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "sched/event/event_clear.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/event/event_getmask.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/event/event_init.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "sched/event/event_post.c",
+      "additions": 71,
+      "deletions": 59
+    },
+    {
+      "path": "sched/event/event_wait.c",
+      "additions": 93,
+      "deletions": 74
+    },
+    {
+      "path": "sched/event/event_waitirq.c",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_get_stateinfo.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "sched/task/task_cancelpt.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/thread.py",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improve_event_new_1024",
+  "headRefOid": "58cb3e2773d4a94e2b83e3edc2d78c72500d5893",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6viqpy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5a6242aac8069c86241131e4e1772be242b97ba9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-31T22:56:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17244,
+  "state": "MERGED",
+  "title": "[!] sched/event: removed event_tickwait_wait() and added TSTATE_WAIT_EVENT",
+  "updatedAt": "2025-11-01T01:59:08Z",
+  "url": "https://github.com/apache/nuttx/pull/17244"
+}

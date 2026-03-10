@@ -1,0 +1,170 @@
+{
+  "additions": 86,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODe3FTA",
+    "is_bot": false,
+    "login": "suoyuanG",
+    "name": "suoyuan"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2025-09-30T15:26:28Z",
+  "createdAt": "2025-09-25T12:23:04Z",
+  "deletions": 239,
+  "files": [
+    {
+      "path": "Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sparc/src/s698pm/s698pm_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 0,
+      "deletions": 67
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 0,
+      "deletions": 14
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 11
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 1,
+      "deletions": 10
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_critmonitor.c",
+      "additions": 56,
+      "deletions": 73
+    },
+    {
+      "path": "sched/sched/sched_switchcontext.c",
+      "additions": 23,
+      "deletions": 37
+    }
+  ],
+  "headRefName": "merge-nxsched",
+  "headRefOid": "ae845d70a2034cb54dceadd66070579d40cd2d36",
+  "headRepository": {
+    "id": "R_kgDOP0acSg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODe3FTA",
+    "name": "suoyuan",
+    "login": "suoyuanG"
+  },
+  "id": "PR_kwDODZiUac6qfvgV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3f55710184a65b86835d1f7dc7d7fb76f4991cdc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-30T15:26:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17075,
+  "state": "MERGED",
+  "title": "sched: merge nxsched_switch_context and add nxsched_switch_critmon",
+  "updatedAt": "2026-01-09T02:04:11Z",
+  "url": "https://github.com/apache/nuttx/pull/17075"
+}

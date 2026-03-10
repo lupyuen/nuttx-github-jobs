@@ -1,0 +1,80 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.11",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-09-27T13:41:06Z",
+  "createdAt": "2025-09-26T10:41:40Z",
+  "deletions": 22,
+  "files": [
+    {
+      "path": "arch/arm/src/common/arm_usestack.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    }
+  ],
+  "headRefName": "bp-17029",
+  "headRefOid": "cdbd9a477867fa28607c3c7ab70a5bb561443ebc",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6qruqX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a039fc7097b4534aed0c9d89c9b38ec910992788"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-27T13:41:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17090,
+  "state": "MERGED",
+  "title": "{bp-17029} arch: fix stack alignment bug for arm and tricore arch",
+  "updatedAt": "2025-09-28T06:52:07Z",
+  "url": "https://github.com/apache/nuttx/pull/17090"
+}

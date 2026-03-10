@@ -1,0 +1,95 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-11-13T21:40:16Z",
+  "createdAt": "2025-11-13T09:46:12Z",
+  "deletions": 23,
+  "files": [
+    {
+      "path": "arch/arm/src/lc823450/lc823450_timer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/clock_sched_ticks.c",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "g_system_ticks_static",
+  "headRefOid": "b699eb9838a7474990bbecf177165f273fde509d",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6zLzot",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "63f081cbf2a76b1e00d087ce5416c8c29dfde068"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-13T21:40:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17326,
+  "state": "MERGED",
+  "title": "sched/clock: Only allow clock_systime_ticks() to access g_system_ticks",
+  "updatedAt": "2025-11-13T22:18:22Z",
+  "url": "https://github.com/apache/nuttx/pull/17326"
+}

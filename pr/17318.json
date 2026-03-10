@@ -1,0 +1,100 @@
+{
+  "additions": 89,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-11-12T15:27:24Z",
+  "createdAt": "2025-11-12T08:33:55Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/armv8-r/arm_arch_timer.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_systimer.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_timer.c",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 21,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "introduce_timer_irq_trigger",
+  "headRefOid": "ac94725f32e9d82e31957eebfd524b6e5e35e4e6",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6y7Wg2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17318,
+  "state": "CLOSED",
+  "title": "arch: introduce up_timer_trigger for fast timer irq trigger",
+  "updatedAt": "2026-01-11T07:40:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17318"
+}

@@ -1,0 +1,85 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-31T07:02:56Z",
+  "createdAt": "2025-10-30T11:59:21Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "sched/clock/clock_adjtime.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "sched/wqueue/kwork_notifier.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "sched/wqueue/kwork_thread.c",
+      "additions": 4,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "sched_lock_improve",
+  "headRefOid": "79c23b8a356a0512053df08e4997f4a3f8c8e415",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6wmmDn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a04f257d4bfe5fb6f224b2746c68fb9329d6eca9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-31T07:02:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17266,
+  "state": "MERGED",
+  "title": "sched: replace spinlock/sched_lock with spin_lock_irqsave_nopreempt",
+  "updatedAt": "2025-10-31T11:55:31Z",
+  "url": "https://github.com/apache/nuttx/pull/17266"
+}

@@ -1,0 +1,90 @@
+{
+  "additions": 221,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-11-11T14:15:52Z",
+  "createdAt": "2025-11-10T15:33:07Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/kinetis/CMakeLists.txt",
+      "additions": 128,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/src/CMakeLists.txt",
+      "additions": 70,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-kinetis",
+  "headRefOid": "6fa556d803d0d84441114ed6d5d7f406a7b4edd6",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6yj891",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "12cee023b22ae5fb6e6ff4634ec84f1a4c3a99d3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-11T14:15:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17307,
+  "state": "MERGED",
+  "title": "arch/arm/src/kinetis: CMake build implemented for NXP Kinetis MCUs",
+  "updatedAt": "2025-11-11T15:02:51Z",
+  "url": "https://github.com/apache/nuttx/pull/17307"
+}

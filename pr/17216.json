@@ -1,0 +1,77 @@
+{
+  "additions": 25,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-10-28T05:49:44Z",
+  "createdAt": "2025-10-20T10:47:01Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/fastboot/defconfig",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/src/etc/init.d/init.rc",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "boards_qemu_fastboot_switch_init",
+  "headRefOid": "6bac66b23743cf46cf33b374b71fc80efe65ff49",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6um3To",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17216,
+  "state": "CLOSED",
+  "title": "qemu-armv8a/fastboot: Add startup script (NxInit init.rc)",
+  "updatedAt": "2025-10-28T14:15:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17216"
+}

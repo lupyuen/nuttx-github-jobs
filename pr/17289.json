@@ -1,0 +1,69 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-11-07T12:04:21Z",
+  "createdAt": "2025-11-07T08:50:46Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "libs/libc/machine/arm/armv8-r/Kconfig",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix_memcpy_memset",
+  "headRefOid": "52b8808582a383847309124324fe900f6364bda6",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6yFQL5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f82f71d180ea900d84e9619934f04aba0aa16b7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-07T12:04:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17289,
+  "state": "MERGED",
+  "title": "libs/libc: Fix Kconfig issue for ARMv8-R assembly implementations of memcpy and memset",
+  "updatedAt": "2025-11-07T12:22:54Z",
+  "url": "https://github.com/apache/nuttx/pull/17289"
+}

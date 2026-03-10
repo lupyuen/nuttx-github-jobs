@@ -1,0 +1,68 @@
+{
+  "additions": 31,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-09T15:51:35Z",
+  "createdAt": "2025-09-09T10:19:09Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "libs/libc/stdio/lib_fclose.c",
+      "additions": 31,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "libc_fclose_validate_stream_pointer",
+  "headRefOid": "97d214518be33ebc03f2bd263aa3842a80cf2065",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6nkqZC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c9776bf8a698d5b871522deeb0340f2b741ca6a4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-09T15:51:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16994,
+  "state": "MERGED",
+  "title": "libc/fclose: Validate the user provided stream pointer",
+  "updatedAt": "2025-09-09T15:51:35Z",
+  "url": "https://github.com/apache/nuttx/pull/16994"
+}

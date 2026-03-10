@@ -1,0 +1,461 @@
+{
+  "additions": 246,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 71,
+  "closed": true,
+  "closedAt": "2026-02-25T18:00:04Z",
+  "createdAt": "2025-09-12T15:34:10Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/at32/at32_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32f43xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_rcu.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32f10xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32f20xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32f30xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32f33xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32f37xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32f40xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32g4xxxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32l15xxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32c0_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32g0_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32l0_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_lse.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f72xx73xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f74xx75xx_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f76xx77xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_lse.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pwr.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h5xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_lse.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7x3xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7x7xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4x3xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4x5xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4x6xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4xrxx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l562xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l5_lse.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l5_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_lse.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_pwr.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32u5xx_rcc.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_rcc.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/stm32wl5_lse.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rv32m1/rv32m1_delay.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/phy62xx/phy6222/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/phy62xx/phy6222/configs/phy_sbp/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/full/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/gdbstub/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/knsh_smp/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/smp/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/configs/ostest/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g474re/configs/lpuartnsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g474re/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g474re/configs/usbserial/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/configs/demo/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/configs/fb/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/tms570/launchxl-tms57004/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/tms570/tms570ls31x-usb-kit/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/arch_timer.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/clock_delay.c",
+      "additions": 15,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "loopspermsec",
+  "headRefOid": "2323797a1600220d44d0432f2886ed02f18cfc61",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6oRXbK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6d092be2b13415ab3c9bc356bfa3d9f54e137168"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-02-25T18:00:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17011,
+  "state": "MERGED",
+  "title": "arch: Remove default value for BOARD_LOOPSPERMSEC",
+  "updatedAt": "2026-02-27T15:15:18Z",
+  "url": "https://github.com/apache/nuttx/pull/17011"
+}

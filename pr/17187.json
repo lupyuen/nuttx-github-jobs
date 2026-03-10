@@ -1,0 +1,142 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-10-14T12:36:45Z",
+  "createdAt": "2025-10-11T19:15:36Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "arch/arm/src/common/arm_nputs.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/configs/ethernet-over-usb-2-high-speed/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-6lowpan/defconfig",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-starhub/defconfig",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-starpoint/defconfig",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/xbee-6lowpan/defconfig",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/can/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/lwl/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/configs/chrono/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/misc/lwl_console.c",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "66ea0ce8a9e373eacc3449db529f14be24db3483",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6tRG_o",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2b2afeec4c7641058e57f2286e20586f4bb42116"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-14T12:36:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17187,
+  "state": "MERGED",
+  "title": "arch/arm/stm32: Prepare files to support semihosting syslog",
+  "updatedAt": "2025-10-14T12:36:45Z",
+  "url": "https://github.com/apache/nuttx/pull/17187"
+}

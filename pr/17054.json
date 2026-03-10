@@ -1,0 +1,469 @@
+{
+  "additions": 318,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODe3FTA",
+    "is_bot": false,
+    "login": "suoyuanG",
+    "name": "suoyuan"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 85,
+  "closed": true,
+  "closedAt": "2025-09-22T07:09:02Z",
+  "createdAt": "2025-09-22T06:49:28Z",
+  "deletions": 456,
+  "files": [
+    {
+      "path": "Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/arm/arm_doirq.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/arm/arm_syscall.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_doirq.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_doirq.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_syscall.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_doirq.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_cpustart.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_doirq.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_syscall.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_doirq.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_doirq.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_syscall.c",
+      "additions": 11,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/common/arm_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_doirq.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_syscall.c",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "arch/avr/src/avr/avr_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/avr/src/avr/avr_doirq.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avr/avr_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/avr/src/avr32/avr_doirq.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr32/avr_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/avr/src/common/avr_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_doirq.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_switchcontext.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/hc/src/common/hc_doirq.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/hc/src/common/hc_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/hc/src/common/hc_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/mips/src/mips32/mips_doirq.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/mips/src/mips32/mips_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_doirq.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_doirq.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_doirq.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_doirq.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_doirq.c",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_switchcontext.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/supervisor/riscv_perform_syscall.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sim/src/sim/sim_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sim/src/sim/sim_doirq.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_exit.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sparc/src/sparc_v8/sparc_v8_doirq.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sparc/src/sparc_v8/sparc_v8_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_doirq.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/x86/src/common/x86_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86/src/common/x86_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/x86/src/qemu/qemu_handlers.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_switchcontext.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_handlers.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_irqdispatch.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/z16/src/common/z16_doirq.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z16/src/common/z16_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z16/src/common/z16_switchcontext.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/z80/src/common/z80_doirq.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z80/src/common/z80_exit.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/common/z80_switchcontext.c",
+      "additions": 2,
+      "deletions": 9
+    },
+    {
+      "path": "fs/procfs/fs_procfsproc.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 0,
+      "deletions": 46
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 0,
+      "deletions": 14
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/misc/coredump.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 11
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 1,
+      "deletions": 10
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_critmonitor.c",
+      "additions": 53,
+      "deletions": 77
+    },
+    {
+      "path": "sched/sched/sched_switchcontext.c",
+      "additions": 27,
+      "deletions": 32
+    },
+    {
+      "path": "sched/task/task_exit.c",
+      "additions": 8,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "add-stack-overflow-check-on-switch-context",
+  "headRefOid": "2a6a8f5484d4204972c96af2b919a47ab4f0bdb6",
+  "headRepository": {
+    "id": "R_kgDOP0acSg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODe3FTA",
+    "name": "suoyuan",
+    "login": "suoyuanG"
+  },
+  "id": "PR_kwDODZiUac6pwyY-",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17054,
+  "state": "CLOSED",
+  "title": "sched: add nxsched_context_switch to unify context switching, then add stack overflow check on switch context",
+  "updatedAt": "2025-09-22T07:09:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17054"
+}

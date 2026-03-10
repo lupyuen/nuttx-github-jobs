@@ -1,0 +1,91 @@
+{
+  "additions": 152,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-11-10T15:16:58Z",
+  "createdAt": "2025-11-08T05:46:49Z",
+  "deletions": 61,
+  "files": [
+    {
+      "path": "Documentation/reference/os/time_clock.rst",
+      "additions": 63,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 89,
+      "deletions": 11
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 0,
+      "deletions": 49
+    }
+  ],
+  "headRefName": "add_wd_reload",
+  "headRefOid": "a9b21edfb1beded55b8b8bc495c274333723f959",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6yRfdY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9053b60eb2c5aeb0b613776e50a7e0ad64a1d4ce"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-10T15:16:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17295,
+  "state": "MERGED",
+  "title": "sched/wdog: Introduce wd_restart()/wd_restart_next() for convenient watchdog restart",
+  "updatedAt": "2025-11-10T15:43:59Z",
+  "url": "https://github.com/apache/nuttx/pull/17295"
+}

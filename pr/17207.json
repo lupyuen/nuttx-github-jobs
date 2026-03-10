@@ -1,0 +1,84 @@
+{
+  "additions": 328,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-10-16T21:06:06Z",
+  "createdAt": "2025-10-16T13:55:03Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/xtensa/include/esp32s2/irq.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_irq.c",
+      "additions": 219,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_irq.h",
+      "additions": 86,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hardware/esp32s2_soc.h",
+      "additions": 13,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp32s2-iram-intr",
+  "headRefOid": "3046a35795d526ec4b2f204794878cad318cf25e",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6uF9J3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7297ecc02ea9e40d126a83913819a6a5d2b8c6db"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-16T21:06:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17207,
+  "state": "MERGED",
+  "title": "arch/xtensa: add non-iram interrupt support for ESP32-S2",
+  "updatedAt": "2025-10-16T21:06:06Z",
+  "url": "https://github.com/apache/nuttx/pull/17207"
+}

@@ -1,0 +1,106 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-10-14T09:40:18Z",
+  "createdAt": "2025-10-14T05:48:34Z",
+  "deletions": 38,
+  "files": [
+    {
+      "path": "Documentation/reference/os/app_vs_os.rst",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "fs/vfs/fs_signalfd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/signal.h",
+      "additions": 0,
+      "deletions": 26
+    },
+    {
+      "path": "sched/sched/sched_waitid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_waitpid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_pause.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "25101401",
+  "headRefOid": "e1b37c995862ac0da0906c6521e9f6b0232bb8ca",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6tlwQJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "10fd3094526d7d4bc2b2d80589e5028ec8ea984b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-14T09:40:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17196,
+  "state": "MERGED",
+  "title": "sched/signal: Remove shadow definitions to reduce unnecessary API",
+  "updatedAt": "2025-10-14T09:40:19Z",
+  "url": "https://github.com/apache/nuttx/pull/17196"
+}

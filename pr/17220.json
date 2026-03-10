@@ -1,0 +1,91 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-20T17:05:33Z",
+  "createdAt": "2025-10-20T13:09:07Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/riscv_switchcontext.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "sched/sched/sched_sleep.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "riscv_arch_1020",
+  "headRefOid": "014f19a9f71187f620a30d9fe8fbcc0864ce7df0",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6uoQn5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fca1010a5bd2c38b441be92e7edad2c63865527e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-20T17:05:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17220,
+  "state": "MERGED",
+  "title": "arch/risc-v: remove duplicated nxsched_switch_context() call",
+  "updatedAt": "2025-10-21T12:23:14Z",
+  "url": "https://github.com/apache/nuttx/pull/17220"
+}

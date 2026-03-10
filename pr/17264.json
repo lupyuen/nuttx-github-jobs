@@ -1,0 +1,157 @@
+{
+  "additions": 502,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "is_bot": false,
+    "login": "ajuckler",
+    "name": "Antoine Juckler"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2025-11-13T11:57:52Z",
+  "createdAt": "2025-10-30T07:49:32Z",
+  "deletions": 236,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/block/eeprom.rst",
+      "additions": 0,
+      "deletions": 97
+    },
+    {
+      "path": "Documentation/components/drivers/block/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/character/eeprom.rst",
+      "additions": 169,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/index.rst",
+      "additions": 4,
+      "deletions": 14
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd.rst",
+      "additions": 17,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/eeprom/i2c_xx24xx.c",
+      "additions": 28,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/eeprom/spi_xx25xx.c",
+      "additions": 121,
+      "deletions": 90
+    },
+    {
+      "path": "drivers/mtd/at25ee.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_registerdriver.c",
+      "additions": 41,
+      "deletions": 6
+    },
+    {
+      "path": "fs/vfs/fs_stat.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/eeprom/eeprom.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/eeprom/spi_xx25xx.h",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 29,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 9,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "stat_eeprom",
+  "headRefOid": "6a3aec59d96b50382fac13a242d12404eabd6104",
+  "headRepository": {
+    "id": "R_kgDONaihnQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "name": "Antoine Juckler",
+    "login": "ajuckler"
+  },
+  "id": "PR_kwDODZiUac6wjAyp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d996c2e75804e5a0fdc5561b7e3645b287059e2a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-13T11:57:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17264,
+  "state": "MERGED",
+  "title": "vfs/fs_stat: set st_size on EEPROM character drivers",
+  "updatedAt": "2025-11-25T14:09:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17264"
+}

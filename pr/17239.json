@@ -1,0 +1,146 @@
+{
+  "additions": 5871,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2025-10-25T04:48:34Z",
+  "createdAt": "2025-10-23T17:57:45Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h5/boards/nucleo-h563zi/index.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_tim.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h56xxx_pinmap.h",
+      "additions": 159,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pwm.c",
+      "additions": 4424,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pwm.h",
+      "additions": 1061,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/configs/pwm/defconfig",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/include/board.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/nucleo-h563zi.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_bringup.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_pwm.c",
+      "additions": 110,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32h5_pwm",
+  "headRefOid": "cecc8742e92510126085fc3dc577b754c2ed9915",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6vVEuk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "35d1aaafda3eecc03a355b8cc4487771c7de7b0c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-25T04:48:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17239,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h5: STM32H5 PWM Driver (STM32H7 port)",
+  "updatedAt": "2025-10-25T04:48:34Z",
+  "url": "https://github.com/apache/nuttx/pull/17239"
+}

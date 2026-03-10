@@ -1,0 +1,94 @@
+{
+  "additions": 14,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-11-01T14:52:07Z",
+  "createdAt": "2025-09-28T08:57:43Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/pthread/pthread_mutex.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "sched/task/task_fork.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_init.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "25092802",
+  "headRefOid": "41643c9dc5133ffa61dbb716f262f8dd9bdc170d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6q6UQ8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "62660a692dc1629e309e3e7e7c00110ed0bc07a5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-01T14:52:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17106,
+  "state": "MERGED",
+  "title": "sched/task: move lock to mhead scope",
+  "updatedAt": "2025-11-01T14:52:07Z",
+  "url": "https://github.com/apache/nuttx/pull/17106"
+}

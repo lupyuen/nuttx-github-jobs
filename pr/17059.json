@@ -1,0 +1,79 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-09-23T12:17:57Z",
+  "createdAt": "2025-09-22T20:16:58Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-xiao/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "improvement/remove_werror",
+  "headRefOid": "ccc72e102d5f69cc4b5a64bcdda1dfe2c3f469b8",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6p7tzH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "851f1fd43944a534415e4afe025476e91390f3ba"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-23T12:17:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17059,
+  "state": "MERGED",
+  "title": "boards/risc-v/esp32[c3|h2]/<board>: Unset `-Werror` flag by default",
+  "updatedAt": "2025-09-23T12:17:57Z",
+  "url": "https://github.com/apache/nuttx/pull/17059"
+}

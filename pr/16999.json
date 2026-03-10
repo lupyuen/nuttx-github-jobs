@@ -1,0 +1,141 @@
+{
+  "additions": 881,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzNTY0NDc3",
+    "is_bot": false,
+    "login": "tinnedkarma",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-09-25T08:24:18Z",
+  "createdAt": "2025-09-10T10:11:36Z",
+  "deletions": 165,
+  "files": [
+    {
+      "path": "Documentation/components/net/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/net/mdio.rst",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ethernet.c",
+      "additions": 42,
+      "deletions": 165
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_mdio.c",
+      "additions": 232,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_mdio.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/mdio.c",
+      "additions": 253,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/mdio.h",
+      "additions": 192,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add-mdio-bus",
+  "headRefOid": "fdcaa064b7021316cf3b91c7246632645a8b4b38",
+  "headRepository": {
+    "id": "R_kgDOMN3abA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIzNTY0NDc3",
+    "login": "tinnedkarma"
+  },
+  "id": "PR_kwDODZiUac6nyMUm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "95efa6f7cf8162139b9c5dac21f20d2f299bf305"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-25T08:24:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16999,
+  "state": "MERGED",
+  "title": "drivers/net/mdio: add mdio bus",
+  "updatedAt": "2025-10-10T11:29:25Z",
+  "url": "https://github.com/apache/nuttx/pull/16999"
+}

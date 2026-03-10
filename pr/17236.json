@@ -1,0 +1,113 @@
+{
+  "additions": 79,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODH41jA",
+    "is_bot": false,
+    "login": "TangMeng12",
+    "name": "TangMeng12"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-11-18T13:46:50Z",
+  "createdAt": "2025-10-23T10:49:48Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/Make.defs",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 17,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "57f0609e0f6ca0dc1674c716d5f90c4577403bae",
+  "headRepository": {
+    "id": "R_kgDOPCy29w",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODH41jA",
+    "name": "TangMeng12",
+    "login": "TangMeng12"
+  },
+  "id": "PR_kwDODZiUac6vPN26",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a221df7175a048030b94e11770421023abfb87b8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-18T13:46:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17236,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32[-s2|-s3]: Modify the method of downloading the repository",
+  "updatedAt": "2025-12-23T06:30:03Z",
+  "url": "https://github.com/apache/nuttx/pull/17236"
+}

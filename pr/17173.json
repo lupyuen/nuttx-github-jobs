@@ -1,0 +1,78 @@
+{
+  "additions": 86,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-08T14:46:25Z",
+  "createdAt": "2025-10-08T10:46:47Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_e51_csr.h",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_head.S",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mpfs_enable_caches_on_e51_monitor_core",
+  "headRefOid": "0510c90e63577ad2699a8e0164ed8a230fc6b7f6",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6srHoA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "480cd623d9649a5452e8706f18de749b00b1e288"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-08T14:46:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17173,
+  "state": "MERGED",
+  "title": "arch/risc-v/Mpfs: enable caches on e51 monitor core",
+  "updatedAt": "2025-10-20T06:48:27Z",
+  "url": "https://github.com/apache/nuttx/pull/17173"
+}

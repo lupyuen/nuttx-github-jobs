@@ -1,0 +1,510 @@
+{
+  "additions": 5020,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 88,
+  "closed": true,
+  "closedAt": "2025-09-14T02:41:15Z",
+  "createdAt": "2025-09-11T19:23:58Z",
+  "deletions": 12648,
+  "files": [
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 193,
+      "deletions": 36
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Wireless.mk",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_api.c",
+      "additions": 2158,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_api.h",
+      "additions": 143,
+      "deletions": 230
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_event_handler.c",
+      "additions": 359,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_utils.c",
+      "additions": 126,
+      "deletions": 501
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_utils.h",
+      "additions": 106,
+      "deletions": 50
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wireless.c",
+      "additions": 2,
+      "deletions": 82
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan.c",
+      "additions": 0,
+      "deletions": 1902
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 1405,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.h",
+      "additions": 82,
+      "deletions": 64
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ble_adapter.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.c",
+      "additions": 25,
+      "deletions": 2686
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.h",
+      "additions": 1,
+      "deletions": 749
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wifi_adapter.c",
+      "additions": 11,
+      "deletions": 2701
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ble_adapter.c",
+      "additions": 66,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.c",
+      "additions": 25,
+      "deletions": 2700
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.h",
+      "additions": 2,
+      "deletions": 736
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_wlan.c",
+      "additions": 8,
+      "deletions": 17
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-2432S028/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/configs/audio/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/configs/wifi/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/audio/defconfig",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/autopm/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/blewifi/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/efuse/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/mcuboot_update_agent/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/mqttc/defconfig",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/nxlooper/defconfig",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/softap/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/sta_softap/defconfig",
+      "additions": 13,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/wamr_wasi_debug/defconfig",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/wifi/defconfig",
+      "additions": 9,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/wifi_smp/defconfig",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/wifinsh/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/wifishare/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-ethernet-kit/configs/autopm/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-ethernet-kit/configs/wifi/defconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-ethernet-kit/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/configs/audio/defconfig",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/configs/rtptools/defconfig",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/configs/wifi/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-pico-kit/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/configs/mqttc/defconfig",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/configs/wifi/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/configs/autopm/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/configs/wifi/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/lilygo_tbeam_lora_gps/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_eink5_v2/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_lora_esp32/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_t_display_esp32/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_wlan.c",
+      "additions": 8,
+      "deletions": 16
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/mcuboot_update_agent/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/sta_softap/defconfig",
+      "additions": 6,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/wifi/defconfig",
+      "additions": 8,
+      "deletions": 11
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_wlan.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/audio/defconfig",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/ble/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/blewifi/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/fastboot/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/fastboot_tcp/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/ksta_softap/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/mbedtls/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/mcuboot_update_agent/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/python/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/qemu_debug/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/qemu_toywasm/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/sta_softap/defconfig",
+      "additions": 9,
+      "deletions": 17
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/toywasm/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/wifi/defconfig",
+      "additions": 9,
+      "deletions": 15
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-eye/configs/wifi/defconfig",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/configs/audio/defconfig",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/configs/rtptools/defconfig",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/configs/audio/defconfig",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/fastboot/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/fastboot_tcp/defconfig",
+      "additions": 3,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/xtensa-wifi-refactor-join",
+  "headRefOid": "1bb191f23dc2308628b918cacc8820f47b2ce455",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6oGnX7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "662c1e0bbb7fd65075f3aaf97086ba7b4c9eead6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-14T02:41:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17008,
+  "state": "MERGED",
+  "title": "arch/xtensa: refactor Wi-Fi driver for ESP32|S2|S3 ",
+  "updatedAt": "2025-09-14T02:41:16Z",
+  "url": "https://github.com/apache/nuttx/pull/17008"
+}

@@ -1,0 +1,73 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-09-10T13:56:16Z",
+  "createdAt": "2025-09-10T11:25:18Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32/common/scripts/legacy_sections.ld",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/legacy_sections.ld",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/fix-xtensa-scripts-legacy-sections-build-error",
+  "headRefOid": "cd95dc92fcc6ca233efae15dd6b8b74fd93b313f",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac6ny-px",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d09b6a9f51c84f191b14e1e0b66e48b15ac160f0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-10T13:56:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17001,
+  "state": "MERGED",
+  "title": "boards/xtensa: fix the issue of undefined symbol reference errors",
+  "updatedAt": "2025-09-10T13:56:16Z",
+  "url": "https://github.com/apache/nuttx/pull/17001"
+}

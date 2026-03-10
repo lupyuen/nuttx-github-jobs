@@ -1,0 +1,82 @@
+{
+  "additions": 122,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-09-30T05:44:30Z",
+  "createdAt": "2025-09-30T05:32:07Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/nxsched_checkstackoverflow.c",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_suspendscheduler.c",
+      "additions": 0,
+      "deletions": 15
+    }
+  ],
+  "headRefName": "improve_stack_overflow_check",
+  "headRefOid": "234070670b0f98366440325f1c4b9cdcdcdf35ff",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6rPfNY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17119,
+  "state": "CLOSED",
+  "title": "sched: Improve nxsched stack overflow checking implementation",
+  "updatedAt": "2025-09-30T05:45:08Z",
+  "url": "https://github.com/apache/nuttx/pull/17119"
+}

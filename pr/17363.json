@@ -1,0 +1,110 @@
+{
+  "additions": 2159,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-11-30T12:44:43Z",
+  "createdAt": "2025-11-22T15:17:11Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/sensors.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/qmi8658.rst",
+      "additions": 232,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/sensors_uorb.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/qmi8658_uorb.c",
+      "additions": 1750,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/qmi8658.h",
+      "additions": 132,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "lc",
+  "headRefOid": "8271117841de5218ef53c2dfed7d0930b99d8f9c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac60_S3v",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3a6865aef50b825a386229dd7ec67790d06d1c96"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-30T12:44:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17363,
+  "state": "MERGED",
+  "title": "drivers/sensors: Add QST QMI8658 6-axis IMU sensor driver",
+  "updatedAt": "2025-11-30T12:44:44Z",
+  "url": "https://github.com/apache/nuttx/pull/17363"
+}

@@ -1,0 +1,110 @@
+{
+  "additions": 187,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-10-10T16:47:02Z",
+  "createdAt": "2025-09-12T13:31:26Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "boards/boardctl.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/usbdev/cdcacm.c",
+      "additions": 71,
+      "deletions": 3
+    },
+    {
+      "path": "fs/driver/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/driver/Make.defs",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "fs/driver/fs_finddriver.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/usb/cdcacm.h",
+      "additions": 19,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "store_system_cdcacm_in_kernel",
+  "headRefOid": "eff673e61f3306384e1289a651b79d6d5f64b27b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6oP7RM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1210dc491937563fd7ccbeab24f2b96912a4642e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-10T16:47:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17010,
+  "state": "MERGED",
+  "title": "cdcacm: Enable using the device pointer stored in filesystem for cdcam_uninitialize",
+  "updatedAt": "2025-10-10T16:47:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17010"
+}

@@ -1,0 +1,265 @@
+{
+  "additions": 2191,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 38,
+  "closed": true,
+  "closedAt": "2025-10-01T18:16:55Z",
+  "createdAt": "2025-10-01T10:09:04Z",
+  "deletions": 129,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/boards/esp32s2-saola-1/index.rst",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 161,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/ulp_riscv_blink.bin",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 164,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ulp.c",
+      "additions": 206,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ulp.h",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ulp.mk",
+      "additions": 267,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 46,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_i2c.c",
+      "additions": 225,
+      "deletions": 60
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_i2c.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_rtc_gpio.c",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_rtc_gpio.h",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 48,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_i2c.c",
+      "additions": 226,
+      "deletions": 62
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_i2c.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_rtc_gpio.c",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_rtc_gpio.h",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/esp32s2_ulp_riscv_sections.ld",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/Make.defs",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/ulp/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_board_i2c.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_gpio.c",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_ulp_riscv_sections.ld",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_i2c.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/ulp/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_gpio.c",
+      "additions": 102,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp_ulp_riscv_core",
+  "headRefOid": "ac800d7a9e4dd5f585d6bdd923c2100756882b43",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6rhUlh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f0668089213d548f525dde3cbd22a97924c670cd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-01T18:16:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17140,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32[-s2|-s3]: Add ulp riscv coprocessor support",
+  "updatedAt": "2025-10-01T18:16:55Z",
+  "url": "https://github.com/apache/nuttx/pull/17140"
+}

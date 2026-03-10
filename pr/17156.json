@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5ODIwODgx",
+    "is_bot": false,
+    "login": "thiagofinelon",
+    "name": "Thiago Finelon"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-10-06T12:03:03Z",
+  "createdAt": "2025-10-03T19:21:40Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_pm.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "esp32s3_pm_suspend_uart_fix",
+  "headRefOid": "00623c8fc4ae5ce3f5bd69a78c758ce6526c5829",
+  "headRepository": {
+    "id": "R_kgDOOaSfJA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5ODIwODgx",
+    "name": "Thiago Finelon",
+    "login": "thiagofinelon"
+  },
+  "id": "PR_kwDODZiUac6sBJ9P",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7fe0fbd9b8922e8efcd97f992499853a2bd049d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-06T12:03:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17156,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32s3: fix FSM check to avoid PM deadlocks",
+  "updatedAt": "2025-10-06T13:14:36Z",
+  "url": "https://github.com/apache/nuttx/pull/17156"
+}

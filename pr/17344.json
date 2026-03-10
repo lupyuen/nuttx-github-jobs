@@ -1,0 +1,107 @@
+{
+  "additions": 142,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjYyODUwMDkx",
+      "login": "linguini1",
+      "name": "Matteo Golin"
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "is_bot": false,
+    "login": "ajuckler",
+    "name": "Antoine Juckler"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-11-25T01:49:27Z",
+  "createdAt": "2025-11-18T23:49:17Z",
+  "deletions": 56,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/eeprom.rst",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/eeprom/Kconfig",
+      "additions": 38,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/eeprom/i2c_xx24xx.c",
+      "additions": 22,
+      "deletions": 15
+    },
+    {
+      "path": "drivers/eeprom/spi_xx25xx.c",
+      "additions": 59,
+      "deletions": 29
+    },
+    {
+      "path": "include/nuttx/eeprom/eeprom.h",
+      "additions": 14,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "eeprom_setspeed",
+  "headRefOid": "57985c95e2772186188ce8feb6baf988d881cdf8",
+  "headRepository": {
+    "id": "R_kgDONaihnQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "name": "Antoine Juckler",
+    "login": "ajuckler"
+  },
+  "id": "PR_kwDODZiUac60O5MG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "02db473e97ba3199ee3be80f835b3db40abaec0b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-25T01:49:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17344,
+  "state": "MERGED",
+  "title": "drivers/eeprom: Set the bus frequency",
+  "updatedAt": "2025-11-25T14:10:30Z",
+  "url": "https://github.com/apache/nuttx/pull/17344"
+}

@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-10-02T11:34:04Z",
+  "createdAt": "2025-10-02T08:18:32Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_pwr.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "stm32c0_pwr_fix",
+  "headRefOid": "a32423a2476ba39a864e8752ccd7ab30b462e7cc",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6rt3Lt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c558047dc126aa7ce3f97efa84f863ddec617825"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-02T11:34:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17149,
+  "state": "MERGED",
+  "title": "arch/arm/src/stm32f0l0g0: don't compile stm32_pwr.c for STM32C0",
+  "updatedAt": "2025-10-02T11:34:04Z",
+  "url": "https://github.com/apache/nuttx/pull/17149"
+}

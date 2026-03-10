@@ -1,0 +1,73 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-11-19T00:50:22Z",
+  "createdAt": "2025-11-11T02:56:33Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_wd_start_abstick",
+  "headRefOid": "728baf9c1f8d95c953c8259032d8425f049b0ce5",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6yqYTj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17308,
+  "state": "CLOSED",
+  "title": "sched/wdog: Fix tickless watchdog handling issue",
+  "updatedAt": "2025-11-22T08:08:39Z",
+  "url": "https://github.com/apache/nuttx/pull/17308"
+}

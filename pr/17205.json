@@ -1,0 +1,162 @@
+{
+  "additions": 31,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-11-10T09:56:29Z",
+  "createdAt": "2025-10-16T03:51:32Z",
+  "deletions": 31,
+  "files": [
+    {
+      "path": "include/locale.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "include/nuttx/mm/mm.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/modem/u-blox.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/net/dns.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/net/netdev.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/pthread.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/locale/lib_gettext.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/netdb/lib_dnsquery.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/netdb/lib_getaddrinfo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/netdb/lib_parsehostfile.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/unistd/lib_getoptvars.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/userfs/lib_userfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libnx/nxfonts/nxfonts_cache.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_waitpid.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "25101602",
+  "headRefOid": "2e5f74503c5462cda5750b187ceda354bee80fb7",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6t_93W",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8847389886c068c81c2db574763bda92db8bfa91"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-10T09:56:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17205,
+  "state": "MERGED",
+  "title": "style/FAR: remove FAR qualifier",
+  "updatedAt": "2025-11-10T09:56:29Z",
+  "url": "https://github.com/apache/nuttx/pull/17205"
+}

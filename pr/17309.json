@@ -1,0 +1,79 @@
+{
+  "additions": 37,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgxMjQ0NTI5",
+    "is_bot": false,
+    "login": "jpaali",
+    "name": "Jani Paalijärvi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-11-12T12:39:01Z",
+  "createdAt": "2025-11-11T06:50:59Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/imx9_flexspi_nor.c",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "up_imx9_reset_flexspi_nor",
+  "headRefOid": "eb5778ba895b998f45d118015dbcb16f59e14055",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6yr8-N",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "97c228c517ddf9604f6cd20f070d6ca973ee06bc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-12T12:39:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17309,
+  "state": "MERGED",
+  "title": "nuttx/mtd: Add MTDIOC_RESET command and implementation for imx9 FlexSPI NOR flash",
+  "updatedAt": "2025-11-13T07:22:22Z",
+  "url": "https://github.com/apache/nuttx/pull/17309"
+}

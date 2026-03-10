@@ -1,0 +1,114 @@
+{
+  "additions": 1067,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4ODQzNTg5",
+    "is_bot": false,
+    "login": "zdebanos",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-10-10T06:55:45Z",
+  "createdAt": "2025-10-09T17:43:40Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/1wire/1wire.c",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/1wire/1wire_ds2xxx.c",
+      "additions": 829,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/1wire/1wire_internal.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/1wire/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/1wire/Kconfig",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/1wire/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/1wire/1wire.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/1wire/1wire_ds2xxx.h",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 8,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "1wire-ds2xxx-driver",
+  "headRefOid": "c0df869263dc5c1b5f6f8f600ed9bbab913b8302",
+  "headRepository": {
+    "id": "R_kgDOLREP7Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4ODQzNTg5",
+    "login": "zdebanos"
+  },
+  "id": "PR_kwDODZiUac6s8e8z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "84b0492fbd87e6fd00387fe91c28d3e6ab76d371"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-10T06:55:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17182,
+  "state": "MERGED",
+  "title": "drivers/1Wire: DS2XXX driver for various Maxim/Analog devices memories",
+  "updatedAt": "2025-10-20T06:47:52Z",
+  "url": "https://github.com/apache/nuttx/pull/17182"
+}

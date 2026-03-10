@@ -1,0 +1,110 @@
+{
+  "additions": 119,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-10-11T10:00:45Z",
+  "createdAt": "2025-09-30T05:46:58Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "Documentation/debugging/stackcheck.rst",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "Kconfig",
+      "additions": 3,
+      "deletions": 13
+    },
+    {
+      "path": "sched/irq/irq_dispatch.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/nxsched_checkstackoverflow.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_switchcontext.c",
+      "additions": 1,
+      "deletions": 14
+    }
+  ],
+  "headRefName": "improve_stack_overflow_check_01",
+  "headRefOid": "56e556ead7f658e447aa90e9a1f64ab06e21e75b",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6rPlcw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "07a470f6966622b4a4f3b59fb86c292139329062"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-11T10:00:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17121,
+  "state": "MERGED",
+  "title": "sched: Improve nxsched stack overflow checking implementation",
+  "updatedAt": "2025-10-13T02:25:53Z",
+  "url": "https://github.com/apache/nuttx/pull/17121"
+}

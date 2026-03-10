@@ -1,0 +1,155 @@
+{
+  "additions": 1634,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-11-10T10:13:47Z",
+  "createdAt": "2025-11-08T17:47:19Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/portenta-h7/index.rst",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/Kconfig",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/configs/jumbo_cm7/defconfig",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/configs/nsh_cm7/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/include/board.h",
+      "additions": 363,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/scripts/Make.defs",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/scripts/flash.ld",
+      "additions": 160,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/scripts/flash_m4.ld",
+      "additions": 126,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/Makefile",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/portenta-h7.h",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/stm32_appinitialize.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/stm32_autoleds.c",
+      "additions": 175,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/stm32_boot.c",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/stm32_bringup.c",
+      "additions": 155,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "portenta_port",
+  "headRefOid": "79932c03f91993276e44f666a383f641e15545f5",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6yUL6R",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "44a924ab427c33968141814be38d74503168d217"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-10T10:13:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17298,
+  "state": "MERGED",
+  "title": "boards/stm32h7: add Arduino Portenta H7",
+  "updatedAt": "2025-11-10T10:13:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17298"
+}

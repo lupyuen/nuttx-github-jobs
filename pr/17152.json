@@ -1,0 +1,105 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "is_bot": false,
+    "login": "trns1997",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-11-12T10:24:03Z",
+  "createdAt": "2025-10-02T16:18:56Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "arch/arm/src/kinetis/kinetis_spi.c",
+      "additions": 49,
+      "deletions": 16
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/include/board.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/src/freedom-k64f.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/src/k64_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/src/k64_bringup.c",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k64f/src/k64_spi.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "frdm_k64f_map_spi0",
+  "headRefOid": "88bd8a13232bdbc2851a0282620ff126cea1f4b8",
+  "headRepository": {
+    "id": "R_kgDOJ0OTLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "login": "trns1997"
+  },
+  "id": "PR_kwDODZiUac6rzLDX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "22bc630d9f94d0eb4a38a0adc0910a70570f7500"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-12T10:24:03Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 17152,
+  "state": "MERGED",
+  "title": "freedom-k64f map and configure spi 0 driver",
+  "updatedAt": "2025-11-12T10:24:03Z",
+  "url": "https://github.com/apache/nuttx/pull/17152"
+}

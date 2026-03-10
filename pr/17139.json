@@ -1,0 +1,74 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQxMzA3Mzg1",
+    "is_bot": false,
+    "login": "halyssonJr",
+    "name": "Halysson Carvalho"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-09-30T20:30:46Z",
+  "createdAt": "2025-09-30T16:30:41Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/nuttx/crc8.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc8rohc.c",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "crc8-incr",
+  "headRefOid": "00b80faaaf4acd3497725885713c69198960107f",
+  "headRepository": {
+    "id": "R_kgDOIorr7Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQxMzA3Mzg1",
+    "name": "Halysson Carvalho",
+    "login": "halyssonJr"
+  },
+  "id": "PR_kwDODZiUac6rYMRT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9014af9ae76fee333bd15529b19bdb0a51d7cf2d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-30T20:30:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17139,
+  "state": "MERGED",
+  "title": "libc/crc: Add crc8rohcincr for incremental CRC8 ROHC calculation",
+  "updatedAt": "2025-09-30T20:30:46Z",
+  "url": "https://github.com/apache/nuttx/pull/17139"
+}

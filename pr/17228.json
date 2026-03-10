@@ -1,0 +1,76 @@
+{
+  "additions": 76,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB204aA",
+    "is_bot": false,
+    "login": "adriendesp",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-10-24T15:01:56Z",
+  "createdAt": "2025-10-22T14:53:51Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/arm/src/xmc4/Kconfig",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_lowputc.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_lowputc.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_serial.c",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "xmc4_uart_limit",
+  "headRefOid": "9cb0ece9b44e46d999c4cdae78bd4d59b914e002",
+  "headRepository": {
+    "id": "R_kgDOMBu0Rw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB204aA",
+    "login": "adriendesp"
+  },
+  "id": "PR_kwDODZiUac6vFl5Z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17228,
+  "state": "CLOSED",
+  "title": "arch/xmc4 : add configurable UART RX buffer event trigger threshold",
+  "updatedAt": "2025-10-24T15:01:56Z",
+  "url": "https://github.com/apache/nuttx/pull/17228"
+}

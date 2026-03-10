@@ -1,0 +1,74 @@
+{
+  "additions": 63,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjk1MjQzMQ==",
+    "is_bot": false,
+    "login": "alexcekay",
+    "name": "Alexander Lerach"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-10-20T17:10:06Z",
+  "createdAt": "2025-10-15T16:55:04Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/stm32_dma.c",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_serial.c",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "boards_stm32h7_uart_dma_stuck",
+  "headRefOid": "6785fb49cdb06d4d273e58300e90a80a2106f86b",
+  "headRepository": {
+    "id": "R_kgDOOHbLSA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjk1MjQzMQ==",
+    "name": "Alexander Lerach",
+    "login": "alexcekay"
+  },
+  "id": "PR_kwDODZiUac6t7c_E",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a9b258aa685aeb184134a632d7d1e7f0272638ca"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-20T17:10:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17203,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h7: Fix UART TX DMA getting stuck",
+  "updatedAt": "2025-10-20T17:10:06Z",
+  "url": "https://github.com/apache/nuttx/pull/17203"
+}

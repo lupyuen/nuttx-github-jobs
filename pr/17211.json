@@ -1,0 +1,94 @@
+{
+  "additions": 1045,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-10-17T20:05:38Z",
+  "createdAt": "2025-10-17T17:02:00Z",
+  "deletions": 465,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2s.c",
+      "additions": 1027,
+      "deletions": 464
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2s.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improvement/espressif_i2s",
+  "headRefOid": "893e304dc7695d46c73939a82447ffa07d2f156e",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6uWYjG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb93a9e4d0e039403ebb7b3a2b9da9408c977957"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-17T20:05:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17211,
+  "state": "MERGED",
+  "title": "arch/risc-v/espressif/i2s: Fix common driver issues",
+  "updatedAt": "2025-10-17T20:05:38Z",
+  "url": "https://github.com/apache/nuttx/pull/17211"
+}

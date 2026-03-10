@@ -1,0 +1,170 @@
+{
+  "additions": 1532,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": true,
+  "closedAt": "2026-01-07T04:07:54Z",
+  "createdAt": "2025-09-24T04:25:53Z",
+  "deletions": 40,
+  "files": [
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_systimer.c",
+      "additions": 47,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/tc3xx_timerisr.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 99,
+      "deletions": 19
+    },
+    {
+      "path": "include/nuttx/hrtimer.h",
+      "additions": 302,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/arch_alarm.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/Make.defs",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer.h",
+      "additions": 290,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_add.c",
+      "additions": 170,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_cancel.c",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_init.c",
+      "additions": 160,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_process.c",
+      "additions": 155,
+      "deletions": 0
+    },
+    {
+      "path": "sched/hrtimer/hrtimer_reload.c",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 11,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "add_hrtimer_0923",
+  "headRefOid": "86689bd2f06d3393df912ff69cbb0c73c7b5bff5",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6qMTv6",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17065,
+  "state": "CLOSED",
+  "title": "sched/hrtimer: add a high resolution timer module in sched  and tricore porting to support hard real time cases",
+  "updatedAt": "2026-01-11T07:42:10Z",
+  "url": "https://github.com/apache/nuttx/pull/17065"
+}

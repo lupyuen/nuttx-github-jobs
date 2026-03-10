@@ -1,0 +1,86 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-11T12:07:01Z",
+  "createdAt": "2025-11-07T03:16:30Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/ihm07m1_b16/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 4,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix_clock_init",
+  "headRefOid": "cafe09492a9fb05ae66456b5d142c8cbf6e23653",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6yCdHd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e2703c3f4aa3a73b0ee603f8f3c956ca13bd6d6f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-11T12:07:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17287,
+  "state": "MERGED",
+  "title": "sched/clock: Fix missing clock_inittime() call",
+  "updatedAt": "2025-12-11T12:23:46Z",
+  "url": "https://github.com/apache/nuttx/pull/17287"
+}

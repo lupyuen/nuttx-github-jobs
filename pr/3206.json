@@ -1,0 +1,134 @@
+{
+  "additions": 326,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-11-10T10:10:16Z",
+  "createdAt": "2025-11-06T04:13:12Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "examples/bridge/bridge_main.c",
+      "additions": 22,
+      "deletions": 4
+    },
+    {
+      "path": "examples/discover/discover_main.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "examples/tcpecho/tcpecho_main.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "examples/webserver/webserver_main.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "examples/xmlrpc/xmlrpc_main.c",
+      "additions": 12,
+      "deletions": 2
+    },
+    {
+      "path": "include/netutils/dhcpc.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "include/netutils/netlib.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dhcpc/dhcpc.c",
+      "additions": 40,
+      "deletions": 8
+    },
+    {
+      "path": "netutils/netlib/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/netlib/Makefile",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/netlib/netlib_delipv4dnsaddr.c",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/netlib_delipv6dnsaddr.c",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/netlib_obtainipv4addr.c",
+      "additions": 15,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "feature/support-delete-DNS-server-by-index-or-address",
+  "headRefOid": "0e5674c77fbd52f7789696f603a1ca98c4dac77e",
+  "headRepository": {
+    "id": "R_kgDOKeVwjQ",
+    "name": "apache-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiT486xzOBI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "92269be92af9107bb6e62c100270c592214bb53d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-10T10:10:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3206,
+  "state": "MERGED",
+  "title": "netutils/netlib: support delete the DNS server address by index or address",
+  "updatedAt": "2025-12-24T15:42:07Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3206"
+}

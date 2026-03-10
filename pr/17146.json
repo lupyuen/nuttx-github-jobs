@@ -1,0 +1,84 @@
+{
+  "additions": 180,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-10-03T03:30:57Z",
+  "createdAt": "2025-10-01T12:24:11Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_flash.h",
+      "additions": 114,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_flash.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32g0c0_flash.c",
+      "additions": 21,
+      "deletions": 16
+    }
+  ],
+  "headRefName": "stm32c0_flash",
+  "headRefOid": "7388ebdcc2315b8a042db701b18d1bf7aff321f0",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6ri3jX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "251b19272fef71144635935f96fe2da132969b9d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-03T03:30:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17146,
+  "state": "MERGED",
+  "title": "arch/arm/src/stm32f0l0g0: add FLASH support for STM32C0",
+  "updatedAt": "2025-10-03T03:30:57Z",
+  "url": "https://github.com/apache/nuttx/pull/17146"
+}

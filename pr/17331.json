@@ -1,0 +1,84 @@
+{
+  "additions": 66,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "is_bot": false,
+    "login": "ajuckler",
+    "name": "Antoine Juckler"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-11-18T12:37:07Z",
+  "createdAt": "2025-11-14T02:58:42Z",
+  "deletions": 36,
+  "files": [
+    {
+      "path": "drivers/eeprom/spi_xx25xx.c",
+      "additions": 32,
+      "deletions": 19
+    },
+    {
+      "path": "drivers/mtd/at25ee.c",
+      "additions": 14,
+      "deletions": 10
+    },
+    {
+      "path": "include/nuttx/eeprom/spi_xx25xx.h",
+      "additions": 16,
+      "deletions": 5
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "multidevice_xx25xx",
+  "headRefOid": "f480dc59c9564b3b3bd06e92f5a6bcbd633c922e",
+  "headRepository": {
+    "id": "R_kgDONaihnQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "name": "Antoine Juckler",
+    "login": "ajuckler"
+  },
+  "id": "PR_kwDODZiUac6zWzjt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "224afcb77bcab88ef2f47822d92b6eb39e407dc7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-18T12:37:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17331,
+  "state": "MERGED",
+  "title": "driver: AT25EE multi-device support",
+  "updatedAt": "2025-11-25T14:10:43Z",
+  "url": "https://github.com/apache/nuttx/pull/17331"
+}

@@ -1,0 +1,147 @@
+{
+  "additions": 153,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-10-18T12:07:59Z",
+  "createdAt": "2025-10-15T10:29:57Z",
+  "deletions": 91,
+  "files": [
+    {
+      "path": "boards/arm/sam34/sam3u-ek/scripts/memory.ld",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "sched/clock/clock_gettime.c",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 1,
+      "deletions": 32
+    },
+    {
+      "path": "sched/clock/clock_sched_ticks.c",
+      "additions": 111,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_systime_ticks.c",
+      "additions": 1,
+      "deletions": 29
+    },
+    {
+      "path": "sched/clock/clock_systime_timespec.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_processtimer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 14,
+      "deletions": 15
+    }
+  ],
+  "headRefName": "tick_less_improve",
+  "headRefOid": "da57f1bfe3fca3b4b7424ebdaab06ae442d9aa79",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6t2e93",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "519ffe66d0cfdc6eda27e962bb26b10658afe5fe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-18T12:07:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17199,
+  "state": "MERGED",
+  "title": "sched/sched: Replace nxsched_alarm_tick_expiration() with nxsched_tick_expiration()",
+  "updatedAt": "2025-10-20T05:46:30Z",
+  "url": "https://github.com/apache/nuttx/pull/17199"
+}

@@ -1,0 +1,232 @@
+{
+  "additions": 87,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODe3FTA",
+    "is_bot": false,
+    "login": "suoyuanG",
+    "name": "suoyuan"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": true,
+  "closedAt": "2025-09-27T04:56:11Z",
+  "createdAt": "2025-09-22T11:39:08Z",
+  "deletions": 43,
+  "files": [
+    {
+      "path": "Documentation/debugging/stackcheck.rst",
+      "additions": 21,
+      "deletions": 6
+    },
+    {
+      "path": "Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/arm_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/avr/src/avr/avr_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sim/src/sim/sim_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_checkstack.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_checkstack.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "fs/procfs/fs_procfsproc.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/misc/coredump.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_suspendscheduler.c",
+      "additions": 15,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add-stack-overflow-check-on-switch-context",
+  "headRefOid": "8d2f51d05d2d4a456e17871fbf72b2393456e40c",
+  "headRepository": {
+    "id": "R_kgDOP0acSg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODe3FTA",
+    "name": "suoyuan",
+    "login": "suoyuanG"
+  },
+  "id": "PR_kwDODZiUac6p0dYP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a3e63c44dd34bd0a8ed6b5e683ee4b7998a5b3a8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-27T04:56:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17056,
+  "state": "MERGED",
+  "title": "sched: add stack overflow check on switch context",
+  "updatedAt": "2026-01-09T02:05:12Z",
+  "url": "https://github.com/apache/nuttx/pull/17056"
+}

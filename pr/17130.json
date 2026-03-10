@@ -1,0 +1,75 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-30T20:15:50Z",
+  "createdAt": "2025-09-30T11:01:42Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "sched/signal/sig_pending.c",
+      "additions": 3,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "pse52_sigpending",
+  "headRefOid": "825facc55eb061ad973d9d72237d2d9cd4aa944a",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6rTjg1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0c9d0b3f8481b27db6a55fc2d0682aedfbbe3587"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-30T20:15:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17130,
+  "state": "MERGED",
+  "title": "sched/sig_pending: sigpending() should return caller pending signals only",
+  "updatedAt": "2026-03-02T14:23:57Z",
+  "url": "https://github.com/apache/nuttx/pull/17130"
+}

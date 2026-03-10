@@ -1,0 +1,86 @@
+{
+  "additions": 514,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-11-17T06:15:44Z",
+  "createdAt": "2025-11-12T03:15:32Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/clkcnt.h",
+      "additions": 464,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "clkdev-push-p2",
+  "headRefOid": "b05f0e4842b84964ca2fcddb316d2288985b8f90",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6y4lve",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dd88c998635cac2f1a8b9cbf128b55fa499a852f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-17T06:15:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17316,
+  "state": "MERGED",
+  "title": "driver/timers: Introduce clockcount, the time conversion API. [ClockDevice Part II] ",
+  "updatedAt": "2025-11-17T06:15:44Z",
+  "url": "https://github.com/apache/nuttx/pull/17316"
+}

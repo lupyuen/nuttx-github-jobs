@@ -1,0 +1,165 @@
+{
+  "additions": 1809,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU0NzE2MTI=",
+    "is_bot": false,
+    "login": "leocafonso",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": true,
+  "closedAt": "2025-11-17T12:01:31Z",
+  "createdAt": "2025-11-16T22:45:53Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/ra4m1/boards/arduino-r4-minima/index.rst",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/ra4m1/index.rst",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/ra4/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/ra4/Kconfig",
+      "additions": 386,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ra4/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ra4/hardware/ra4m1_mstp.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/ra4/hardware/ra4m1_pinmap.h",
+      "additions": 72,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/ra4/hardware/ra_gpio.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ra4/hardware/ra_gpt.h",
+      "additions": 224,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ra4/ra_pwm.c",
+      "additions": 751,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ra4/ra_pwm.h",
+      "additions": 129,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/configs/pwm/defconfig",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/include/board.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/src/ra4m1_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/src/ra4m1_pwm.c",
+      "additions": 117,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/arduino-r4-minima-timer",
+  "headRefOid": "bac08444185c7b00ba6e3b8c9baffb4b8fd3c46e",
+  "headRepository": {
+    "id": "R_kgDOMM1QmA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU0NzE2MTI=",
+    "login": "leocafonso"
+  },
+  "id": "PR_kwDODZiUac6zv6Ec",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9e573371bbef266329273d020ef6a93d3f0191ad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-17T12:01:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17336,
+  "state": "MERGED",
+  "title": "Feature/arduino r4 minima timer",
+  "updatedAt": "2025-11-18T01:31:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17336"
+}

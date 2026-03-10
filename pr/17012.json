@@ -1,0 +1,122 @@
+{
+  "additions": 533,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjYyODUwMDkx",
+      "login": "linguini1",
+      "name": "Matteo Golin"
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-09-14T02:40:36Z",
+  "createdAt": "2025-09-13T01:31:01Z",
+  "deletions": 372,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Kconfig",
+      "additions": 94,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_i2c.c",
+      "additions": 419,
+      "deletions": 354
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_i2c.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_bsc.h",
+      "additions": 10,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_bringup.c",
+      "additions": 7,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "rpi4b-i2c",
+  "headRefOid": "ee2e7e192e7030123c60fd49883aa977c2ad52e3",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6oWUjQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "903b6b168e1710692e6bc621547c3de1dc322a94"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-14T02:40:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": {
+    "number": 7,
+    "title": "RPi4B",
+    "description": "Apache NuttX RTOS on RaspberryPi 4B.",
+    "dueOn": null
+  },
+  "number": 17012,
+  "state": "MERGED",
+  "title": "arch/arm64/bcm2711: Implement I2C support for all user-accessible interfaces",
+  "updatedAt": "2026-02-25T17:19:18Z",
+  "url": "https://github.com/apache/nuttx/pull/17012"
+}

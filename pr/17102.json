@@ -1,0 +1,135 @@
+{
+  "additions": 1044,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-09-28T02:06:02Z",
+  "createdAt": "2025-09-27T05:29:52Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/arm64/src/bcm2711/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_mailbox.c",
+      "additions": 550,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_mailbox.h",
+      "additions": 283,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_mailbox.h",
+      "additions": 57,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_memmap.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/include/board.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_autoleds.c",
+      "additions": 113,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_boardinitialize.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_bringup.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bcm2711-mailbox",
+  "headRefOid": "88d676c5b6ccfd0105d388c6bbba2a01b69cb128",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6q1ReR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e10c79b744f01bfa1ad77608718c76e742ba4350"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-28T02:06:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17102,
+  "state": "MERGED",
+  "title": "arch/arm64/bcm2711: BCM2711 VideoCore mailbox API implementation",
+  "updatedAt": "2025-09-29T14:51:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17102"
+}

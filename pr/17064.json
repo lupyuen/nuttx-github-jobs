@@ -1,0 +1,110 @@
+{
+  "additions": 64,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-09-24T06:18:46Z",
+  "createdAt": "2025-09-23T19:33:47Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-generic/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitm/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/boards/esp32h2-devkit/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/src/esp32c3_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/src/esp32c6_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/src/esp32h2_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix/button_function",
+  "headRefOid": "e58ee27ace73aefc719e1de3b5023613c9f0eba4",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6qIgdN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2080617a8ef83ed2d0d34e7ffa3bb05f82d2d362"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-24T06:18:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17064,
+  "state": "MERGED",
+  "title": "boards/esp32[c3|c6|h2]: Fix GPIO function used by the button",
+  "updatedAt": "2025-09-24T06:18:47Z",
+  "url": "https://github.com/apache/nuttx/pull/17064"
+}

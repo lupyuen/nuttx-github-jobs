@@ -1,0 +1,570 @@
+{
+  "additions": 110,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 104,
+  "closed": true,
+  "closedAt": "2025-09-22T19:34:06Z",
+  "createdAt": "2025-09-22T14:31:01Z",
+  "deletions": 227,
+  "files": [
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 85,
+      "deletions": 109
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2s.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ledc.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_twai.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/bmp180/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/buttons/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/capture/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/crypto/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/efuse/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/gpio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/i2c/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/i2schar/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/mcuboot_nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/mcuboot_update_agent/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/motor/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/mpu60x0/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/oa_tc6/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/random/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/rmt/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/romfs/defconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/rtc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/sdm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/sdmmc_spi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/spi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/spiflash/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/spislv/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/temperature_sensor/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/tickless/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/timers/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/twai/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/ulp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/usbconsole/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/watchdog/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/bmp180/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/buttons/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/efuse/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/gpio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/i2c/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/i2schar/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/mcuboot_nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/oa_tc6/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/random/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/rmt/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/romfs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/rtc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/sdmmc_spi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/spi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/spiflash/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/spislv/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/tickless/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/timers/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/twai/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/usbconsole/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/watchdog/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-xiao/configs/gpio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-xiao/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-xiao/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-xiao/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/bmp180/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/buttons/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/capture/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/crypto/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/efuse/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/gpio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/i2c/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/i2schar/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/mcuboot_nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/motor/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/random/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/rmt/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/romfs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/rtc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/sdm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/sdmmc_spi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/spi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/spiflash/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/temperature_sensor/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/tickless/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "improvement/remove_duplicated_kconfig",
+  "headRefOid": "93812daf5b75be05f595ba02f45de01ab2668b38",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6p3GDM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1fb7899a01b5d078e73e744e346f3f0225df4b7d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-22T19:34:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17057,
+  "state": "MERGED",
+  "title": "risc-v/espressif: Remove duplicated Kconfig entry ESPRESSIF_<chip>",
+  "updatedAt": "2025-09-22T19:34:06Z",
+  "url": "https://github.com/apache/nuttx/pull/17057"
+}

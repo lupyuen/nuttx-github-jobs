@@ -1,0 +1,413 @@
+{
+  "additions": 1139,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 59,
+  "closed": true,
+  "closedAt": "2025-11-24T11:43:07Z",
+  "createdAt": "2025-11-19T07:06:30Z",
+  "deletions": 2378,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/timers/index.rst",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/oneshot.rst",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/timer.svg",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_timer.c",
+      "additions": 50,
+      "deletions": 136
+    },
+    {
+      "path": "arch/arm/src/armv7-r/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_timer.c",
+      "additions": 51,
+      "deletions": 130
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_timer.c",
+      "additions": 58,
+      "deletions": 216
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch_timer.c",
+      "additions": 48,
+      "deletions": 190
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 40,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/bl602/bl602_oneshot_lowerhalf.c",
+      "additions": 76,
+      "deletions": 141
+    },
+    {
+      "path": "arch/risc-v/src/common/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_oneshot.c",
+      "additions": 52,
+      "deletions": 122
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mtimer.c",
+      "additions": 48,
+      "deletions": 170
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mtimer.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_oneshot_lowerhalf.c",
+      "additions": 68,
+      "deletions": 139
+    },
+    {
+      "path": "arch/sim/src/nuttx-names.in",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hosttime.c",
+      "additions": 40,
+      "deletions": 20
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_oneshot.c",
+      "additions": 110,
+      "deletions": 305
+    },
+    {
+      "path": "arch/sim/src/sim/win/sim_hosttime.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/Kconfig",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_oneshot_lower.c",
+      "additions": 58,
+      "deletions": 147
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_tsc_oneshot.c",
+      "additions": 280,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_tsc_tickless.c",
+      "additions": 0,
+      "deletions": 513
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/ap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/bl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/full/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/gdbstub/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/knsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy_ivshmem/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver_ivshmem/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7r/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7r/configs/pnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/bl602/bl602evb/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/earlyfb/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/jumbo/defconfig",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/knsh_romfs/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/knsh_romfs_pci/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/lvgl/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/nsh_pci/defconfig",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/nsh_pci_smp/defconfig",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/x86_64/intel64/qemu-intel64/src/qemu_bringup.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/goldfish_timer.c",
+      "additions": 81,
+      "deletions": 93
+    },
+    {
+      "path": "drivers/timers/oneshot.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "clkdev-arch",
+  "headRefOid": "f14df6349cdd19b5708a1859ecc271ac23802978",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac60SAM5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6689a408f324e276939578a5293af8a153d4a916"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-24T11:43:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17345,
+  "state": "MERGED",
+  "title": "driver/timers: Re-implemented timer drivers with the count-based oneshot API [ClockDevice Part V]",
+  "updatedAt": "2025-11-24T11:43:07Z",
+  "url": "https://github.com/apache/nuttx/pull/17345"
+}

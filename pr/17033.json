@@ -1,0 +1,74 @@
+{
+  "additions": 170,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "is_bot": false,
+    "login": "sumpfralle",
+    "name": "Lars Kruse"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-09-18T14:13:16Z",
+  "createdAt": "2025-09-17T21:27:57Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/rp2040/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_boot_image.c",
+      "additions": 166,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rp2040-board-boot-image",
+  "headRefOid": "dc54e7638e8b3853b66c809ecf8a53ad7cb6dc23",
+  "headRepository": {
+    "id": "R_kgDOMSGLsw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "name": "Lars Kruse",
+    "login": "sumpfralle"
+  },
+  "id": "PR_kwDODZiUac6pKJ1E",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2477914ea62b6baf1f7dcc4950ea28f689fbe919"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-18T14:13:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17033,
+  "state": "MERGED",
+  "title": "board/arm/rp2040: implement \"board_boot_image\" for bootloader support",
+  "updatedAt": "2025-09-20T17:46:42Z",
+  "url": "https://github.com/apache/nuttx/pull/17033"
+}

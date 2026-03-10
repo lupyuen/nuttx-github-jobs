@@ -1,0 +1,74 @@
+{
+  "additions": 70,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-10-28T02:43:25Z",
+  "createdAt": "2025-10-21T13:11:29Z",
+  "deletions": 39,
+  "files": [
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 22,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_sleep.c",
+      "additions": 48,
+      "deletions": 38
+    }
+  ],
+  "headRefName": "sched_sleeping_improve",
+  "headRefOid": "b61e67677bbd26dd8fe356e01f1637bc939f5036",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6u10LO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ace17ad9022b7d0041319484ab1d09c7c44ad3ee"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-28T02:43:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17222,
+  "state": "MERGED",
+  "title": "sched/sched: add nxsched_wakeup(), introduce TSTATE_SLEEPING and  improve nxsched_ticksleep()",
+  "updatedAt": "2025-10-29T03:07:39Z",
+  "url": "https://github.com/apache/nuttx/pull/17222"
+}

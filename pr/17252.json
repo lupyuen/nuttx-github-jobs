@@ -1,0 +1,85 @@
+{
+  "additions": 31,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-27T13:05:45Z",
+  "createdAt": "2025-10-27T08:12:32Z",
+  "deletions": 84,
+  "files": [
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 20,
+      "deletions": 80
+    },
+    {
+      "path": "sched/signal/signal.h",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_cancelpt.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "improve_signal_wait_irq",
+  "headRefOid": "bb226a15892509c92809ee46840f38fb039f5f24",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6v0-we",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "201406b22b8035763fe81752aad71a1fba394ee8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-27T13:05:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17252,
+  "state": "MERGED",
+  "title": "sched/signal: Improve nxsig_wait_irq() for performance enhancement and code duplication reduction",
+  "updatedAt": "2025-10-29T03:07:27Z",
+  "url": "https://github.com/apache/nuttx/pull/17252"
+}

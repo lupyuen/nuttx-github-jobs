@@ -1,0 +1,647 @@
+{
+  "additions": 2766,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 122,
+  "closed": true,
+  "closedAt": "2026-01-24T09:59:42Z",
+  "createdAt": "2025-11-04T03:27:51Z",
+  "deletions": 4124,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/timers/oneshot/index.rst",
+      "additions": 159,
+      "deletions": 0
+    },
+    {
+      "path": "arch/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-r/cp15.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/armv8-r/cp15.h",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/armv7-a/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_timer.c",
+      "additions": 79,
+      "deletions": 203
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_timer.h",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-r/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_timer.c",
+      "additions": 78,
+      "deletions": 203
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_timer.h",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-r/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_arch_timer.c",
+      "additions": 0,
+      "deletions": 419
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_arch_timer.h",
+      "additions": 0,
+      "deletions": 60
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_timer.c",
+      "additions": 283,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_timer.h",
+      "additions": 10,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/common/arm_internal.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/goldfish/goldfish_cpuboot.c",
+      "additions": 2,
+      "deletions": 27
+    },
+    {
+      "path": "arch/arm/src/imx6/imx_cpuboot.c",
+      "additions": 1,
+      "deletions": 28
+    },
+    {
+      "path": "arch/arm/src/qemu/qemu_cpuboot.c",
+      "additions": 3,
+      "deletions": 28
+    },
+    {
+      "path": "arch/arm/src/sam34/sam4cm_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_oneshot_lowerhalf.c",
+      "additions": 8,
+      "deletions": 32
+    },
+    {
+      "path": "arch/arm64/src/a527/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/a527/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_timer.c",
+      "additions": 0,
+      "deletions": 37
+    },
+    {
+      "path": "arch/arm64/src/a64/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/a64/a64_timer.c",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Make.defs",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_timer.c",
+      "additions": 0,
+      "deletions": 41
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch_timer.c",
+      "additions": 70,
+      "deletions": 292
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch_timer.h",
+      "additions": 2,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/fvp-v8r/fvp_timer.c",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm64/src/goldfish/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/goldfish/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/imx8/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/imx8/imx8_timer.c",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm64/src/imx9/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_timer.c",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm64/src/qemu/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/qemu/Make.defs",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/qemu/qemu_timer.c",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm64/src/rk3399/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/rk3399/rk3399_timer.c",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "arch/arm64/src/zynq-mpsoc/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/zynq-mpsoc/zynq_timer.c",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "arch/mips/src/pic32mz/pic32mz_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 32
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/bl602/bl602_oneshot_lowerhalf.c",
+      "additions": 3,
+      "deletions": 22
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_oneshot.c",
+      "additions": 5,
+      "deletions": 36
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mtimer.c",
+      "additions": 109,
+      "deletions": 295
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mtimer.h",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 32
+    },
+    {
+      "path": "arch/sim/src/nuttx-names.in",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hosttime.c",
+      "additions": 40,
+      "deletions": 20
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_oneshot.c",
+      "additions": 111,
+      "deletions": 324
+    },
+    {
+      "path": "arch/sim/src/sim/win/sim_hosttime.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sparc/src/bm3803/bm3803_oneshot_lowerhalf.c",
+      "additions": 9,
+      "deletions": 33
+    },
+    {
+      "path": "arch/tricore/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_systimer.c",
+      "additions": 97,
+      "deletions": 157
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/tc3xx_timerisr.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86_64/include/intel64/arch.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/Kconfig",
+      "additions": 14,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_cpustart.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_hpet_alarm.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_lowsetup.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_oneshot_lower.c",
+      "additions": 57,
+      "deletions": 321
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_restore_auxstate.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_tsc_oneshot.c",
+      "additions": 280,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_tsc_tickless.c",
+      "additions": 0,
+      "deletions": 479
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_tsc_timerisr.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_oneshot.c",
+      "additions": 1,
+      "deletions": 23
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 33
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 32
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 29
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/ap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/bl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/knsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpproxy_ivshmem/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/rpserver_ivshmem/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/configs/smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7r/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7r/configs/pnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "clkdev-push",
+  "headRefOid": "e2e988490c8dd00dca1cf3ce71d1b216c2e85cfc",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6xUVEB",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17276,
+  "state": "CLOSED",
+  "title": "driver/timers: ClockDevice, a new timer driver abstraction for NuttX.",
+  "updatedAt": "2026-01-24T09:59:42Z",
+  "url": "https://github.com/apache/nuttx/pull/17276"
+}

@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-11-10T02:45:15Z",
+  "createdAt": "2025-11-08T04:30:53Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_wd_start",
+  "headRefOid": "c90b48921b0d5ca5c91d5a08844f056ca235451a",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6yRHfc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "de0aead39f3acab7720c9469f552b02222dfb6de"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-10T02:45:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17293,
+  "state": "MERGED",
+  "title": "sched/wdog: Fix wd_start() boundary check for WDOG_MAX_DELAY",
+  "updatedAt": "2025-11-10T02:45:15Z",
+  "url": "https://github.com/apache/nuttx/pull/17293"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 552,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTg2OTgw",
+    "is_bot": false,
+    "login": "dirksavage88",
+    "name": "Andrew Brahim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-20T03:12:05Z",
+  "createdAt": "2025-09-29T21:43:03Z",
+  "deletions": 245,
+  "files": [
+    {
+      "path": "arch/arm/src/imxrt/hardware/rt106x/imxrt106x_pinmux.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_serial.c",
+      "additions": 552,
+      "deletions": 244
+    }
+  ],
+  "headRefName": "pr-imxrt106x_uartregistration",
+  "headRefOid": "c941c8ac2d7c14a94f4f278eb730af465bfda2cb",
+  "headRepository": {
+    "id": "R_kgDOI_UGLA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTg2OTgw",
+    "name": "Andrew Brahim",
+    "login": "dirksavage88"
+  },
+  "id": "PR_kwDODZiUac6rMZIg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c792601963be15f998c0bd1cf2784c74f0e8bfdd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-20T03:12:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17117,
+  "state": "MERGED",
+  "title": "arch/arm/imxrt: serial registration fixes when no dev console defined",
+  "updatedAt": "2025-12-20T03:12:05Z",
+  "url": "https://github.com/apache/nuttx/pull/17117"
+}

@@ -1,0 +1,99 @@
+{
+  "additions": 97,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-10-01T18:18:00Z",
+  "createdAt": "2025-10-01T10:28:05Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/scripts/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/scripts/raspberrypi-pico-w-flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/scripts/raspberrypi-pico-w-sram.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/src/CMakeLists.txt",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/lcd1602/defconfig",
+      "additions": 10,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "simbit18-rp2040-05",
+  "headRefOid": "90c5d0fafb425a5ddf9ce38fd6f0a5defe88bab7",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6rhihh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d598f97746efc5179621b35729dad09f83b1ef57"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-01T18:17:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17142,
+  "state": "MERGED",
+  "title": "boards/arm/rp2040: CMake added Raspberry Pi Pico W board",
+  "updatedAt": "2025-10-02T08:58:06Z",
+  "url": "https://github.com/apache/nuttx/pull/17142"
+}

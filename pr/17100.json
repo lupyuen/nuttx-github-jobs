@@ -1,0 +1,105 @@
+{
+  "additions": 244,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-09-27T13:43:33Z",
+  "createdAt": "2025-09-26T13:59:06Z",
+  "deletions": 202,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 67,
+      "deletions": 34
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
+      "additions": 101,
+      "deletions": 99
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.c",
+      "additions": 41,
+      "deletions": 48
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.h",
+      "additions": 2,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_i2c.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_i2c.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_i2c.c",
+      "additions": 20,
+      "deletions": 12
+    }
+  ],
+  "headRefName": "improvement/espressif_i2c",
+  "headRefOid": "3a8290ab70cef2f3dee0ee3571f54bd6914d11f0",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6quoK7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1519d6c80bd24ef4b8b61b7f32b047e0d9563aa8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-27T13:43:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17100,
+  "state": "MERGED",
+  "title": "risc-v/espressif/i2c: Update common source code functions",
+  "updatedAt": "2025-09-27T13:43:33Z",
+  "url": "https://github.com/apache/nuttx/pull/17100"
+}

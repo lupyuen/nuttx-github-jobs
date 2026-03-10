@@ -1,0 +1,91 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5MjM5NTYx",
+    "is_bot": false,
+    "login": "yushuailong",
+    "name": "yushuailong"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-14T09:50:42Z",
+  "createdAt": "2025-10-11T13:46:18Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/components/nxgraphics/framebuffer_char_driver.rst",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/video/fb.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/video/fb.h",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fb_modify",
+  "headRefOid": "7c873fbed402a1de6ab6ceca7f7e71e40348ac1d",
+  "headRepository": {
+    "id": "R_kgDOKBkh3w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5MjM5NTYx",
+    "name": "yushuailong",
+    "login": "yushuailong"
+  },
+  "id": "PR_kwDODZiUac6tP1SZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "097c594abaa051893efe6a0de6ba9427ffd6b229"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-14T09:50:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17186,
+  "state": "MERGED",
+  "title": "video/fb: add FBIOGET_PANINFOCNT ioctl",
+  "updatedAt": "2025-10-14T09:50:43Z",
+  "url": "https://github.com/apache/nuttx/pull/17186"
+}

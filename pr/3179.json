@@ -1,0 +1,88 @@
+{
+  "additions": 87,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-09-17T10:38:06Z",
+  "createdAt": "2025-09-12T13:34:13Z",
+  "deletions": 85,
+  "files": [
+    {
+      "path": "system/cdcacm/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "system/cdcacm/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/cdcacm/cdcacm.h",
+      "additions": 0,
+      "deletions": 18
+    },
+    {
+      "path": "system/cdcacm/sercon_main.c",
+      "additions": 2,
+      "deletions": 63
+    },
+    {
+      "path": "system/cdcacm/serdis_main.c",
+      "additions": 82,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "support_system_cdcacm_in_kernel_build",
+  "headRefOid": "12338f89bb0b65575fb033931df2bbb43d2e5112",
+  "headRepository": {
+    "id": "R_kgDOGbf5lg",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiT486oP9Cz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "479d206dff49c805f1cf820890ad3168477f5a3f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-17T10:38:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 3179,
+  "state": "MERGED",
+  "title": "system/cdcacm: Support sercon and serdis in CONFIG_BUILD_KERNEL",
+  "updatedAt": "2025-09-17T10:38:06Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3179"
+}

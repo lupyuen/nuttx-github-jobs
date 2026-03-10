@@ -1,0 +1,86 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-09-20T11:01:21Z",
+  "createdAt": "2025-09-20T03:55:39Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix",
+  "headRefOid": "588aa11bbb7973bfa9aa3254b50732038b5bdd33",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac6pnwPi",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "51482774c2dfbba6896bdd4d262c1f92c8e2b00e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-20T11:01:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17049,
+  "state": "MERGED",
+  "title": "arch/xtensa: espressif: temperature: Fix incorrect pointer casting",
+  "updatedAt": "2025-09-20T11:01:22Z",
+  "url": "https://github.com/apache/nuttx/pull/17049"
+}

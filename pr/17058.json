@@ -1,0 +1,197 @@
+{
+  "additions": 567,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2025-09-24T06:42:28Z",
+  "createdAt": "2025-09-22T15:07:26Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp2040/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp2040/CMakeLists.txt",
+      "additions": 123,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp2040/boot2/rp2040_boot_stage2.cmake",
+      "additions": 111,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/adafruit-kb2040/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/adafruit-qt-py-rp2040/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/common/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/include/rp2040_common_pico.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/CMakeLists.txt",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_common_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/src/CMakeLists.txt",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/seeed-xiao-rp2040/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/w5500-evb-pico/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/waveshare-rp2040-lcd-1.28/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp2040/waveshare-rp2040-zero/src/rp2040_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_process_config.cmake",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "tools/ci/testlist/arm-06.dat",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-arc-rp2040",
+  "headRefOid": "992ccd067ea9f107fe1c282e80fcb536c5f4b404",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6p3oeZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3a08a0e3fdf5c4bb0fe77dfcb16c1ead548dd5a5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-24T06:42:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17058,
+  "state": "MERGED",
+  "title": "arm/rp2040: CMake build for Raspberry Pi RP2040 implemented",
+  "updatedAt": "2025-09-24T09:42:07Z",
+  "url": "https://github.com/apache/nuttx/pull/17058"
+}

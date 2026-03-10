@@ -1,0 +1,84 @@
+{
+  "additions": 78,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "is_bot": false,
+    "login": "trns1997",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-11T10:47:49Z",
+  "createdAt": "2025-10-10T13:21:42Z",
+  "deletions": 91,
+  "files": [
+    {
+      "path": ".github/workflows/check.yml",
+      "additions": 0,
+      "deletions": 49
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "additions": 78,
+      "deletions": 8
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "additions": 0,
+      "deletions": 34
+    }
+  ],
+  "headRefName": "ci_orchestrator",
+  "headRefOid": "ebe223d1a194708b6c80378061da5602cd79d6b5",
+  "headRepository": {
+    "id": "R_kgDOJ0OTLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "login": "trns1997"
+  },
+  "id": "PR_kwDODZiUac6tF2gY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cb1b1863c06097d8d8e51961a93c60966064a85a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-11T10:47:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17184,
+  "state": "MERGED",
+  "title": " ci: Serialize CI jobs to avoid unnecessary pipeline execution ",
+  "updatedAt": "2025-10-12T06:19:20Z",
+  "url": "https://github.com/apache/nuttx/pull/17184"
+}

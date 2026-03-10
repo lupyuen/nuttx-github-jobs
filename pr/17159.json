@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-10-09T03:41:33Z",
+  "createdAt": "2025-10-05T04:21:49Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 2,
+      "deletions": 9
+    },
+    {
+      "path": "sched/wdog/wdog.h",
+      "additions": 0,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "improve_wdog",
+  "headRefOid": "6588e3ca044ff1023aad9fea7777460e8b417ab5",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6sH3EQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "08050f506c34ad99a1bd303840afc3f534733d5f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-09T03:41:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17159,
+  "state": "MERGED",
+  "title": "sched/wdog: remove unnecessary list_node redefinition",
+  "updatedAt": "2025-10-09T05:49:29Z",
+  "url": "https://github.com/apache/nuttx/pull/17159"
+}

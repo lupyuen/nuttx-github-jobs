@@ -1,0 +1,69 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-30T20:16:03Z",
+  "createdAt": "2025-09-30T10:30:47Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "fs/mmap/fs_mmap.c",
+      "additions": 2,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "pse52_mmap_fd",
+  "headRefOid": "aaaff2faf6aea48a0527ebd8fb1aff4659b35b23",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6rTHK_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "20c9ff679c394024d4173287e24144d5cc26bcf3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-30T20:16:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17126,
+  "state": "MERGED",
+  "title": "fs/mmap/fs_mmap.c: fix errno when fd is not valid",
+  "updatedAt": "2026-03-02T14:23:49Z",
+  "url": "https://github.com/apache/nuttx/pull/17126"
+}

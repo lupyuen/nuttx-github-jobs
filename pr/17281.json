@@ -1,0 +1,89 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-11-05T09:25:26Z",
+  "createdAt": "2025-11-05T06:52:00Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "boards/arm/imxrt/imxrt1064-evk/configs/mcuboot-loader/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-dk/configs/mcuboot_loader/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-dk/configs/mcuboot_loader_minimal/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/configs/mcuboot_loader/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/mcuboot-loader/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/remove-mcuboot-version",
+  "headRefOid": "770fe3f677365fff628f2592a1f68a84fa31e386",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6xkx49",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3577254d9f0f82b4c36a13777fcd36767bd262bf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-05T09:25:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17281,
+  "state": "MERGED",
+  "title": "boards/arm: remove custom MCUBoot version from defconfigs",
+  "updatedAt": "2025-11-05T09:25:26Z",
+  "url": "https://github.com/apache/nuttx/pull/17281"
+}

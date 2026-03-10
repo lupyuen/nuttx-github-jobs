@@ -1,0 +1,233 @@
+{
+  "additions": 81,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.11",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-09-27T13:40:58Z",
+  "createdAt": "2025-09-26T10:43:11Z",
+  "deletions": 318,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_usestack.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/avr/src/avr32/avr_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    },
+    {
+      "path": "arch/hc/src/common/hc_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/mips/src/common/mips_usestack.c",
+      "additions": 5,
+      "deletions": 28
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_usestack.c",
+      "additions": 5,
+      "deletions": 9
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_usestack.c",
+      "additions": 5,
+      "deletions": 20
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usestack.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_usestack.c",
+      "additions": 4,
+      "deletions": 20
+    },
+    {
+      "path": "arch/x86/src/i486/i486_usestack.c",
+      "additions": 4,
+      "deletions": 23
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_usestack.c",
+      "additions": 4,
+      "deletions": 22
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    },
+    {
+      "path": "arch/z16/src/common/z16_usestack.c",
+      "additions": 5,
+      "deletions": 20
+    },
+    {
+      "path": "arch/z80/src/common/z80_usestack.c",
+      "additions": 5,
+      "deletions": 20
+    }
+  ],
+  "headRefName": "bp-17034",
+  "headRefOid": "f98a7cce7661e5ce156229d20db280a590514094",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6qrv9u",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP2Vg",
+      "name": "Arch: hc",
+      "description": "Issues related to HC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "21e1596dffbfb2ad24fc64b255bbc2a8f0d904c0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-27T13:40:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17091,
+  "state": "MERGED",
+  "title": "[bp-17034} arch: fix alignment bug for archs that need stack alignment",
+  "updatedAt": "2025-09-28T06:52:16Z",
+  "url": "https://github.com/apache/nuttx/pull/17091"
+}

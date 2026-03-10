@@ -1,0 +1,296 @@
+{
+  "additions": 275,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 32,
+  "closed": true,
+  "closedAt": "2025-11-18T12:02:29Z",
+  "createdAt": "2025-11-17T11:43:19Z",
+  "deletions": 1312,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-a/arm_timer.c",
+      "additions": 2,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_timer.c",
+      "additions": 2,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_timer.c",
+      "additions": 52,
+      "deletions": 46
+    },
+    {
+      "path": "arch/arm/src/sam34/sam4cm_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_oneshot_lowerhalf.c",
+      "additions": 8,
+      "deletions": 32
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch_timer.c",
+      "additions": 35,
+      "deletions": 106
+    },
+    {
+      "path": "arch/mips/src/pic32mz/pic32mz_oneshot_lowerhalf.c",
+      "additions": 7,
+      "deletions": 32
+    },
+    {
+      "path": "arch/risc-v/src/bl602/bl602_oneshot_lowerhalf.c",
+      "additions": 3,
+      "deletions": 22
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_oneshot.c",
+      "additions": 5,
+      "deletions": 36
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mtimer.c",
+      "additions": 3,
+      "deletions": 185
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 32
+    },
+    {
+      "path": "arch/sim/src/sim/sim_oneshot.c",
+      "additions": 11,
+      "deletions": 29
+    },
+    {
+      "path": "arch/sparc/src/bm3803/bm3803_oneshot_lowerhalf.c",
+      "additions": 9,
+      "deletions": 33
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_systimer.c",
+      "additions": 2,
+      "deletions": 61
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_oneshot_lower.c",
+      "additions": 10,
+      "deletions": 185
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_oneshot.c",
+      "additions": 1,
+      "deletions": 23
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 33
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 32
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_oneshot_lowerhalf.c",
+      "additions": 6,
+      "deletions": 29
+    },
+    {
+      "path": "drivers/audio/tone.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/timers/goldfish_timer.c",
+      "additions": 1,
+      "deletions": 26
+    },
+    {
+      "path": "drivers/timers/oneshot.c",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/timers/watchdog.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/timers/oneshot.h",
+      "additions": 26,
+      "deletions": 98
+    },
+    {
+      "path": "sched/sched/sched_cpuload_oneshot.c",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "clkdev-push-p3.1",
+  "headRefOid": "8619e90b2a564270fb9f44cb254464e2be9905ce",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6z1l_N",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7e7828b3f67ca5bfe7b6caf023cf6baa8cecfe91"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-18T12:02:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17339,
+  "state": "MERGED",
+  "title": "! driver/timers: Remove oneshot callback, args and tick-based API. [ClockDevice Part III]",
+  "updatedAt": "2025-11-18T13:37:08Z",
+  "url": "https://github.com/apache/nuttx/pull/17339"
+}

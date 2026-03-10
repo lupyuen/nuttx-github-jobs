@@ -1,0 +1,74 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-10-13T18:47:29Z",
+  "createdAt": "2025-10-13T03:37:28Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/tricore/src/common/tricore_svcall.c",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_switchcontext.c",
+      "additions": 0,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "improve_tricore_task_switch",
+  "headRefOid": "57dd5d53f0a5ce0d619d81a4238f59d5dbad4c74",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6tX1ww",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4057d86e2b68128e81fa9bc65ba1e4131c1c021f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-13T18:47:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17191,
+  "state": "MERGED",
+  "title": "arch/tricore: Place nxsched_switch_context() at the correct location",
+  "updatedAt": "2025-10-14T00:59:11Z",
+  "url": "https://github.com/apache/nuttx/pull/17191"
+}

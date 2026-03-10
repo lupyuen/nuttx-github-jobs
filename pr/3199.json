@@ -1,0 +1,118 @@
+{
+  "additions": 175,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-10-30T13:46:57Z",
+  "createdAt": "2025-10-29T13:57:43Z",
+  "deletions": 345,
+  "files": [
+    {
+      "path": "tee/libteec/Makefile",
+      "additions": 0,
+      "deletions": 53
+    },
+    {
+      "path": "tee/optee_client/.gitignore",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "tee/optee_client/0001-libteec-NuttX.patch",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "tee/optee_client/0002-tee-supplicant-port-to-nuttx.patch",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "tee/optee_client/CMakeLists.txt",
+      "additions": 51,
+      "deletions": 7
+    },
+    {
+      "path": "tee/optee_client/Kconfig",
+      "additions": 33,
+      "deletions": 2
+    },
+    {
+      "path": "tee/optee_client/Make.defs",
+      "additions": 3,
+      "deletions": 8
+    },
+    {
+      "path": "tee/optee_client/Makefile",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "tee/optee_supplicant/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 117
+    },
+    {
+      "path": "tee/optee_supplicant/Kconfig",
+      "additions": 0,
+      "deletions": 54
+    },
+    {
+      "path": "tee/optee_supplicant/Make.defs",
+      "additions": 0,
+      "deletions": 25
+    },
+    {
+      "path": "tee/optee_supplicant/Makefile",
+      "additions": 0,
+      "deletions": 79
+    }
+  ],
+  "headRefName": "fix/optee-supp-build",
+  "headRefOid": "ce1ef214eab23d8eb52d311a3ba9319e8df18701",
+  "headRepository": {
+    "id": "R_kgDOOjvYJw",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiT486wYPrS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f3dc21755fae672d79097a1aba93b969730c1ac0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-30T13:46:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3199,
+  "state": "MERGED",
+  "title": "tee/optee_client: Consolidate libteec and optee_supplicant under tee/optee_client",
+  "updatedAt": "2025-10-30T13:46:57Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3199"
+}

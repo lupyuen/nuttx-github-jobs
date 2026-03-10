@@ -1,0 +1,701 @@
+{
+  "additions": 6729,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNTQ1NTI5",
+    "is_bot": false,
+    "login": "reza0310",
+    "name": "reza0310"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 174,
+  "closed": true,
+  "closedAt": "2025-10-22T15:56:32Z",
+  "createdAt": "2025-10-22T15:47:32Z",
+  "deletions": 19451,
+  "files": [
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.11.0",
+      "additions": 390,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/boot/nxboot/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-generic/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitm/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/boards/esp32h2-devkit/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_schedulesigaction.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_syscall.c",
+      "additions": 8,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/common/arm_usestack.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/rp2040/hardware/rp2040_address_mapped.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_gpio.h",
+      "additions": 1,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_wdg.h",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_wwdg.c",
+      "additions": 11,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7x3xx_rcc.c",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_usestack.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_usbdev.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr32/avr_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    },
+    {
+      "path": "arch/hc/src/common/hc_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/mips/src/common/mips_usestack.c",
+      "additions": 5,
+      "deletions": 28
+    },
+    {
+      "path": "arch/misoc/src/lm32/lm32_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/misoc/src/minerva/minerva_usestack.c",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_usestack.c",
+      "additions": 5,
+      "deletions": 9
+    },
+    {
+      "path": "arch/renesas/src/common/renesas_usestack.c",
+      "additions": 5,
+      "deletions": 20
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    },
+    {
+      "path": "arch/sim/src/sim/sim_canchar.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usestack.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_usestack.c",
+      "additions": 4,
+      "deletions": 20
+    },
+    {
+      "path": "arch/tricore/src/Makefile",
+      "additions": 4,
+      "deletions": 13
+    },
+    {
+      "path": "arch/tricore/src/cmake/ToolchainTasking.cmake",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "arch/tricore/src/common/Toolchain.defs",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/ToolchainTasking.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_doirq.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    },
+    {
+      "path": "arch/x86/src/i486/i486_usestack.c",
+      "additions": 4,
+      "deletions": 23
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_usestack.c",
+      "additions": 4,
+      "deletions": 22
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 237,
+      "deletions": 36
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Wireless.mk",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_efuse.c",
+      "additions": 379,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_efuse.h",
+      "additions": 162,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_api.c",
+      "additions": 2158,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_api.h",
+      "additions": 143,
+      "deletions": 230
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_event_handler.c",
+      "additions": 359,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_utils.c",
+      "additions": 126,
+      "deletions": 501
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_utils.h",
+      "additions": 106,
+      "deletions": 50
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wireless.c",
+      "additions": 2,
+      "deletions": 82
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan.c",
+      "additions": 0,
+      "deletions": 1902
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 1405,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.h",
+      "additions": 82,
+      "deletions": 64
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_usestack.c",
+      "additions": 4,
+      "deletions": 19
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ble_adapter.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_efuse.c",
+      "additions": 0,
+      "deletions": 605
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_efuse.h",
+      "additions": 0,
+      "deletions": 93
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_efuse_lowerhalf.c",
+      "additions": 0,
+      "deletions": 195
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_start.c",
+      "additions": 28,
+      "deletions": 22
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.c",
+      "additions": 25,
+      "deletions": 2686
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.h",
+      "additions": 1,
+      "deletions": 749
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse.c",
+      "additions": 0,
+      "deletions": 711
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse.h",
+      "additions": 0,
+      "deletions": 189
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse_lowerhalf.c",
+      "additions": 0,
+      "deletions": 241
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse_table.c",
+      "additions": 0,
+      "deletions": 1347
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_start.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wifi_adapter.c",
+      "additions": 11,
+      "deletions": 2701
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ble_adapter.c",
+      "additions": 66,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse.c",
+      "additions": 0,
+      "deletions": 709
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse.h",
+      "additions": 0,
+      "deletions": 224
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse_lowerhalf.c",
+      "additions": 0,
+      "deletions": 243
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse_table.c",
+      "additions": 0,
+      "deletions": 1425
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.c",
+      "additions": 25,
+      "deletions": 2700
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.h",
+      "additions": 2,
+      "deletions": 736
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z16/src/common/z16_usestack.c",
+      "additions": 5,
+      "deletions": 20
+    },
+    {
+      "path": "arch/z80/src/common/z80_usestack.c",
+      "additions": 5,
+      "deletions": 20
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_uniqueid.c",
+      "additions": 2,
+      "deletions": 36
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/src/esp32c3_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/src/esp32c6_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/src/esp32h2_buttons.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Tasking_Tricore_Tc.lsl",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/esp32_sections.ld",
+      "additions": 29,
+      "deletions": 13
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/kernel-space.ld",
+      "additions": 26,
+      "deletions": 13
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/legacy_sections.ld",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_wlan.c",
+      "additions": 8,
+      "deletions": 17
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-2432S028/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/configs/audio/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/configs/wifi/defconfig",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/src/esp32_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/audio/defconfig",
+      "additions": 5,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "patch-2",
+  "headRefOid": "a00ac581c5fcde6162db21029ffe422110ebe7d3",
+  "headRepository": {
+    "id": "R_kgDOQBn-nw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNTQ1NTI5",
+    "name": "reza0310",
+    "login": "reza0310"
+  },
+  "id": "PR_kwDODZiUac6vGSuD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP2Vg",
+      "name": "Arch: hc",
+      "description": "Issues related to HC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17230,
+  "state": "CLOSED",
+  "title": "docs/Kconfig: Wrong term.",
+  "updatedAt": "2025-10-22T15:59:31Z",
+  "url": "https://github.com/apache/nuttx/pull/17230"
+}

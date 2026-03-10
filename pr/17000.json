@@ -1,0 +1,205 @@
+{
+  "additions": 59,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 20,
+  "closed": true,
+  "closedAt": "2025-09-11T11:56:43Z",
+  "createdAt": "2025-09-10T11:03:06Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "Kconfig",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cmake/armclang.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cmake/clang.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cmake/gcc.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cmake/ghs.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/cmake/clang.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/cmake/gcc.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/cmake/Toolchain.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/cmake/Toolchain.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/cmake/ToolchainGnuc.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/ToolchainGnuc.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/cmake/Toolchain.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/common/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/cmake/Toolchain.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/lx6/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/lx7/Toolchain.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/add-stack-canaries-level-option",
+  "headRefOid": "5e6a146eb77e370f7a5a7732b04fad27242c293c",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac6nyvQW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a5b810bdb14ae45c58c22c526b21ed4a386f41f7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-11T11:56:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17000,
+  "state": "MERGED",
+  "title": "Kconfig: add stack-protector level options",
+  "updatedAt": "2025-09-11T11:56:43Z",
+  "url": "https://github.com/apache/nuttx/pull/17000"
+}

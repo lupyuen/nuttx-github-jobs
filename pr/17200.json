@@ -1,0 +1,84 @@
+{
+  "additions": 292,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-10-16T10:46:43Z",
+  "createdAt": "2025-10-15T14:04:04Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_sleep.c",
+      "additions": 213,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "25101501",
+  "headRefOid": "99e63e227c47b2db6ef934697dbf3a6e318f418e",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6t5RMh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "02bfd290ac79dca3483310cbf189502d87108f11"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-16T10:46:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17200,
+  "state": "MERGED",
+  "title": "sched/sleep: add support for scheduling sleep",
+  "updatedAt": "2025-10-16T10:46:43Z",
+  "url": "https://github.com/apache/nuttx/pull/17200"
+}

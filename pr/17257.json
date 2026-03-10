@@ -1,0 +1,302 @@
+{
+  "additions": 950,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 44,
+  "closed": true,
+  "closedAt": "2025-10-29T13:44:55Z",
+  "createdAt": "2025-10-29T06:46:54Z",
+  "deletions": 1356,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 36,
+      "deletions": 31
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash.c",
+      "additions": 149,
+      "deletions": 438
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash.h",
+      "additions": 18,
+      "deletions": 79
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash_mtd.c",
+      "additions": 6,
+      "deletions": 80
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_start.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 32,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 27,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 27,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 30,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash.c",
+      "additions": 176,
+      "deletions": 445
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash.h",
+      "additions": 16,
+      "deletions": 75
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash_mtd.c",
+      "additions": 6,
+      "deletions": 82
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 2,
+      "deletions": 13
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ble_adapter.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiram.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_user.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 34,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 28,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ble_adapter.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spi_timing.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_user.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 33,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_sections.ld",
+      "additions": 27,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_sections.ld",
+      "additions": 27,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spiflash.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/scripts/esp32h2_sections.ld",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/esp32_sections.ld",
+      "additions": 52,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/flat_memory.ld",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/kernel-space.ld",
+      "additions": 22,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_spiflash.c",
+      "additions": 6,
+      "deletions": 7
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/spiflash/defconfig",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/esp32s2_sections.ld",
+      "additions": 27,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_spiflash.c",
+      "additions": 2,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_spiflash.c",
+      "additions": 21,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/spiflash/defconfig",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/esp-refactor-spi-flash-merged",
+  "headRefOid": "cc638c59af689e2600eb602272284a37a2bc74fc",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6wTH9Y",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "680766d304071a590f76adb1e6d9b81189940a40"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-29T13:44:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17257,
+  "state": "MERGED",
+  "title": "espressif: update SPI Flash driver ",
+  "updatedAt": "2025-10-29T13:44:56Z",
+  "url": "https://github.com/apache/nuttx/pull/17257"
+}

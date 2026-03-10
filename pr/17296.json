@@ -1,0 +1,96 @@
+{
+  "additions": 125,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-11-09T14:45:26Z",
+  "createdAt": "2025-11-08T07:45:59Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/qemu/boards/qemu-armv8a/index.rst",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/gdbstub/defconfig",
+      "additions": 84,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "apache_4",
+  "headRefOid": "44dddd42c51d37edcef72c95636c0cc1f5fbabd0",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6yR2ed",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "aff64bb3dcbc2a80aedc9ba8594c740496d1048f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-09T14:45:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17296,
+  "state": "MERGED",
+  "title": "arm64: add demo for gdbstub",
+  "updatedAt": "2025-11-09T14:45:26Z",
+  "url": "https://github.com/apache/nuttx/pull/17296"
+}

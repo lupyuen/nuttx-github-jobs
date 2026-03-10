@@ -1,0 +1,110 @@
+{
+  "additions": 2834,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3Nzk1Mjk0",
+    "is_bot": false,
+    "login": "haitomatic",
+    "name": "To Doan Ngoc Hai"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-11-03T20:14:53Z",
+  "createdAt": "2025-10-06T10:11:05Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/mpfs/boards/icicle/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/Kconfig",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/hardware/mpfs_can.h",
+      "additions": 159,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_can.c",
+      "additions": 2536,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_can.h",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/hwtest/defconfig",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "upstream-mss-can-driver",
+  "headRefOid": "441f5591a26b93203fdb883dbdf2285ee03c0c98",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6sOzlV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e7ad870f18ec5b0a14052c99fa9414dab35b2278"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-03T20:14:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17161,
+  "state": "MERGED",
+  "title": "Add MSS CAN driver for MPFS",
+  "updatedAt": "2025-11-24T11:01:45Z",
+  "url": "https://github.com/apache/nuttx/pull/17161"
+}

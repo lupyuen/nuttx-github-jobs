@@ -1,0 +1,85 @@
+{
+  "additions": 124,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-11-25T14:33:48Z",
+  "createdAt": "2025-10-21T00:42:01Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/Make.defs",
+      "additions": 3,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "revert-ndelay-accurate",
+  "headRefOid": "88b302d654ba22361b897132b7abe7d7add68e82",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6uvMS4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3edf6de552d863e7a0c83305c84ce750948c2dfb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-25T14:33:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17221,
+  "state": "MERGED",
+  "title": "drivers/timers/arch_alarm: Revert removal of ndelay_accurate",
+  "updatedAt": "2025-11-25T14:33:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17221"
+}

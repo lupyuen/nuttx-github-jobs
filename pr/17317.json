@@ -1,0 +1,100 @@
+{
+  "additions": 60,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-11-12T12:39:54Z",
+  "createdAt": "2025-11-12T05:06:46Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "arch/arm/include/armv7-r/irq.h",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/include/armv8-r/irq.h",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 14,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_gicv3.c",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_vectors.S",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "apache_7",
+  "headRefOid": "f2aff7e1280c980289d4fc25cc355c664a71dd52",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6y5Wj_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f1506c6212c37f26472b40f9ac9158d65002c02f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-12T12:39:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17317,
+  "state": "MERGED",
+  "title": "fiq: fix some FIQ config in arm64/armv7-r/armv8-r",
+  "updatedAt": "2025-11-12T12:39:54Z",
+  "url": "https://github.com/apache/nuttx/pull/17317"
+}

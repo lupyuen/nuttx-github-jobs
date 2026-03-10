@@ -1,0 +1,659 @@
+{
+  "additions": 540,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 116,
+  "closed": true,
+  "closedAt": "2026-01-11T08:09:37Z",
+  "createdAt": "2025-11-20T13:08:47Z",
+  "deletions": 229,
+  "files": [
+    {
+      "path": "arch/arm/include/arm/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv6-m/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-a/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-m/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-r/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv8-m/irq.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/arm/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/arm/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/arm/arm_vectors.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv6-m/Make.defs",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_doirq.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_exception.S",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-a/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_syscall.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_vectors.S",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-m/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_doirq.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-r/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-r/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_syscall.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_vectors.S",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-m/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_doirq.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_exception.S",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-r/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_vectors.S",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/c5471/c5471_vectors.S",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/common/Make.defs",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/common/arm_signal_dispatch.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/common/gnu/arm_signal_handler.S",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tc32/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/common/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/Make.defs",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_signal_dispatch.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_syscall.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/avr/include/avr/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/include/avr32/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/at32uc3/Make.defs",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/avr/src/at90usb/Make.defs",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/avr/src/atmega/Make.defs",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/mips/include/mips32/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/mips/src/pic32mx/Make.defs",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "arch/mips/src/pic32mz/Make.defs",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "arch/misoc/include/lm32/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/misoc/include/minerva/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/misoc/src/lm32/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/misoc/src/minerva/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/or1k/include/mor1kx/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/or1k/src/mor1kx/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/renesas/include/m16c/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/include/rx65n/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/include/sh1/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/renesas/src/m16c/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/renesas/src/rx65n/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/renesas/src/sh1/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/include/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/CMakeLists.txt",
+      "additions": 9,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/common/Make.defs",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_exception_common.S",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_signal_dispatch.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sim/src/sim/sim_switchcontext.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sparc/include/sparc_v8/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sparc/src/sparc_v8/Make.defs",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/include/tc3xx/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86/include/i486/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86/src/qemu/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/include/intel64/irq.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/common/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "arch/x86_64/src/common/Make.defs",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_signal_dispatch.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_syscall.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/include/irq.h",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/common/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/common/Make.defs",
+      "additions": 10,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_int_handlers.S",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_signal_dispatch.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/z16/include/z16f/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z16/src/z16f/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/z80/include/ez80/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z80/include/z180/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z80/include/z8/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z80/include/z80/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/z80/src/ez80/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/z180/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/z8/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/z80/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/syslog/syslog_write.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "support_disable_signal",
+  "headRefOid": "6e5e377cf804cb8859adb92be79b277b869bc326",
+  "headRepository": {
+    "id": "R_kgDOJjN0xA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiUac60l5lH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17357,
+  "state": "CLOSED",
+  "title": "Support disable signal",
+  "updatedAt": "2026-01-11T08:09:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17357"
+}

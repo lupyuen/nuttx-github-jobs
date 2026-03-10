@@ -1,0 +1,124 @@
+{
+  "additions": 401,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-10-02T18:29:19Z",
+  "createdAt": "2025-10-02T14:27:02Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/CMakeLists.txt",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/common/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/common/include/rp23xx_common_pico.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/common/src/CMakeLists.txt",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/common/src/rp23xx_common_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/src/rp23xx_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_copy_to_ram.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/src/CMakeLists.txt",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/src/rp23xx_pico.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_pico.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "simbit-rp23xx",
+  "headRefOid": "00f3aaa308d55850d8cf5cededd6678bc0a8292e",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6rx7ni",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "92159bbdba622d3fe4c86af846629bba0351d8f5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-02T18:29:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17151,
+  "state": "MERGED",
+  "title": "arch/arm/rp23xx: CMake build for Raspberry Pi RP23xx implemented",
+  "updatedAt": "2025-10-03T13:03:02Z",
+  "url": "https://github.com/apache/nuttx/pull/17151"
+}

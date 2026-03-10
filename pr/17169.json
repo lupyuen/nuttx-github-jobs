@@ -1,0 +1,78 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-07T23:13:08Z",
+  "createdAt": "2025-10-07T18:39:09Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_copy_to_ram.ld",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_default.ld",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_no_flash.ld",
+      "additions": 3,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "simbit18-memory-02",
+  "headRefOid": "1752dc0d6190070c2c9a85d1a54097cec3b5fff4",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6sjdgw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ee8a23071d51e0f39528f7b55ab02825dce38e54"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-07T23:13:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 17169,
+  "state": "MERGED",
+  "title": "boards/arm/rp23xx/xiao-rp2350: fix linker scripts 100% RAM usage",
+  "updatedAt": "2025-10-08T13:09:38Z",
+  "url": "https://github.com/apache/nuttx/pull/17169"
+}

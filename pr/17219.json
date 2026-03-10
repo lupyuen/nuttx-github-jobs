@@ -1,0 +1,125 @@
+{
+  "additions": 932,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-10-20T17:03:37Z",
+  "createdAt": "2025-10-20T12:53:40Z",
+  "deletions": 282,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 59,
+      "deletions": 12
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi.c",
+      "additions": 410,
+      "deletions": 113
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi_bitbang.c",
+      "additions": 24,
+      "deletions": 9
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi_slave.c",
+      "additions": 414,
+      "deletions": 127
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/spislv/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 9,
+      "deletions": 11
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/spislv/defconfig",
+      "additions": 6,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "improvement/espressif_spi",
+  "headRefOid": "f5d656b963f0068cb320251c2739dbb75a9255ec",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6uoEFq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fcb96babc52f71d5735f80c110cb9622103d6a51"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-20T17:03:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17219,
+  "state": "MERGED",
+  "title": "risc-v/espressif/spi: Update common source code functions",
+  "updatedAt": "2025-10-20T17:03:37Z",
+  "url": "https://github.com/apache/nuttx/pull/17219"
+}

@@ -1,0 +1,84 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-09-29T13:56:58Z",
+  "createdAt": "2025-09-29T10:22:50Z",
+  "deletions": 35,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 29,
+      "deletions": 29
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "simbit18-kconfig",
+  "headRefOid": "3026ffff45bf25458c8735be1286eb95d02ebcbd",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6rECit",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4c545f1a636d3c4fcbda91ded3d7a0e9b6a78f56"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-29T13:56:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "milestone": null,
+  "number": 17111,
+  "state": "MERGED",
+  "title": "[Kconfig] Fix Kconfig style",
+  "updatedAt": "2025-09-29T14:24:54Z",
+  "url": "https://github.com/apache/nuttx/pull/17111"
+}

@@ -1,0 +1,89 @@
+{
+  "additions": 54,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-10-02T10:53:35Z",
+  "createdAt": "2025-10-01T14:42:31Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_es8311.c",
+      "additions": 6,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3-korvo-2.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3_bringup.c",
+      "additions": 20,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/src/esp32s3-lcd-ev.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/src/esp32s3_bringup.c",
+      "additions": 20,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix",
+  "headRefOid": "2b0c20b9378684723274cf475df5b1af433abfd0",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac6rk1yF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "98415626e305b2a2024a03f7efc902c5e7314383"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-02T10:53:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17148,
+  "state": "MERGED",
+  "title": "boards/xtensa/esp32s3: Refactor ES8311 initialization to use I2C handle",
+  "updatedAt": "2025-10-02T10:53:35Z",
+  "url": "https://github.com/apache/nuttx/pull/17148"
+}

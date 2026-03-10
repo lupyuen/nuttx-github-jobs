@@ -1,0 +1,341 @@
+{
+  "additions": 3147,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBel9LQ",
+    "is_bot": false,
+    "login": "rzsa",
+    "name": "Sergey Rzhevsky"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 53,
+  "closed": true,
+  "closedAt": "2025-09-21T19:11:40Z",
+  "createdAt": "2025-09-14T13:22:55Z",
+  "deletions": 47,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/weact-stm32h750/index.rst",
+      "additions": 275,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/stm32h7/chip.h",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/stm32h7/irq.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 48,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_dmamux.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_ethernet.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_exti.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_flash.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_gpio.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_i2c.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_memorymap.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_pinmap.h",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_pwr.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_rcc.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_sdmmc.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_spi.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_syscfg.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_uart.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_gpio.h",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_pinmap.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_pinmap_legacy.h",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_spi.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_uart.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_exti_gpio.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_flash.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_gpio.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_rcc.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 15,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/configs/lvgl/defconfig",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/configs/nsh/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/configs/sdcard/defconfig",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/configs/st7735/defconfig",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/configs/usbnsh/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/include/board.h",
+      "additions": 409,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/scripts/Make.defs",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/scripts/flash.ld",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/scripts/memory.ld",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/scripts/user-space.ld",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/CMakeLists.txt",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/Makefile",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_appinitialize.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_autoleds.c",
+      "additions": 113,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_boot.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_bringup.c",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_dma_alloc.c",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_ioctl.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_lcd_st7735.c",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_sdmmc.c",
+      "additions": 158,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_spi.c",
+      "additions": 152,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/stm32_usb.c",
+      "additions": 296,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/weact-stm32h750.h",
+      "additions": 206,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "weact-stm32h750",
+  "headRefOid": "4b741b1bc8ecb3abe2f908520c1ead7f830d4ede",
+  "headRepository": {
+    "id": "R_kgDOPtkZ3g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBel9LQ",
+    "name": "Sergey Rzhevsky",
+    "login": "rzsa"
+  },
+  "id": "PR_kwDODZiUac6ofBlG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0992d2466a68b7484c193c2657b5c5e6fc5f659c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-21T19:11:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17015,
+  "state": "MERGED",
+  "title": "boards/weact-stm32h750",
+  "updatedAt": "2025-09-21T19:11:56Z",
+  "url": "https://github.com/apache/nuttx/pull/17015"
+}

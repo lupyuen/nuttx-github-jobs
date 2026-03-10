@@ -1,0 +1,72 @@
+{
+  "additions": 45,
+  "assignees": [],
+  "author": {
+    "is_bot": true,
+    "login": "app/"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-09-20T01:09:42Z",
+  "createdAt": "2025-09-19T12:09:40Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_wdg.h",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_wwdg.c",
+      "additions": 11,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7x3xx_rcc.c",
+      "additions": 24,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32h7-wwdg-fixes",
+  "headRefOid": "64d3c18a77074fcd4128b7e9c0d28e4b7184ffbd",
+  "headRepository": null,
+  "headRepositoryOwner": {
+    "login": ""
+  },
+  "id": "PR_kwDODZiUac6pfmJ8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2e85eae6b2ecbdbdb4aef4de59aaa2cd1444ce20"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-20T01:09:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17045,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h7: Fix and enhance WWDG (Window Watchdog) support",
+  "updatedAt": "2025-09-20T01:09:42Z",
+  "url": "https://github.com/apache/nuttx/pull/17045"
+}

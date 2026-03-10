@@ -1,0 +1,121 @@
+{
+  "additions": 512,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-09-18T11:17:35Z",
+  "createdAt": "2025-09-15T19:45:38Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitm/index.rst",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/include/esp_board_oa_tc6.h",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_oa_tc6.c",
+      "additions": 212,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/oa_tc6/defconfig",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/oa_tc6/defconfig",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/src/esp32c6_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "oa-pr-esp",
+  "headRefOid": "36f57578d9b9c27b149faf01f8907e0174c10fe9",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac6otQ4V",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bd28635b689218eb6624a59b880be50f432bfb8c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-18T11:17:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "milestone": null,
+  "number": 17021,
+  "state": "MERGED",
+  "title": "boards/risc-v/esp32c6: Add support for the OA-TC6 10BASE-T1x MAC-PHYs",
+  "updatedAt": "2025-09-18T11:17:36Z",
+  "url": "https://github.com/apache/nuttx/pull/17021"
+}

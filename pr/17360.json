@@ -1,0 +1,95 @@
+{
+  "additions": 226,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM4MTE5MDA=",
+    "is_bot": false,
+    "login": "Cynerd",
+    "name": "Karel Kočí"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-11-24T06:11:42Z",
+  "createdAt": "2025-11-21T10:56:41Z",
+  "deletions": 46,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/can.rst",
+      "additions": 41,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/guides/reading_can_msgs.rst",
+      "additions": 56,
+      "deletions": 28
+    },
+    {
+      "path": "drivers/can/can.c",
+      "additions": 52,
+      "deletions": 7
+    },
+    {
+      "path": "include/nuttx/can/can.h",
+      "additions": 32,
+      "deletions": 4
+    },
+    {
+      "path": "include/sys/param.h",
+      "additions": 45,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "can-msgalign",
+  "headRefOid": "a9984267cdc873939d53200532d8e508d39fd6a5",
+  "headRepository": {
+    "id": "R_kgDOHXjc8w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM4MTE5MDA=",
+    "name": "Karel Kočí",
+    "login": "Cynerd"
+  },
+  "id": "PR_kwDODZiUac60zP9Q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c61d7c7e8de4406cf98246438caea8973f4dc297"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-24T06:11:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17360,
+  "state": "MERGED",
+  "title": "drivers/can: message alignment for read and write operations",
+  "updatedAt": "2025-11-24T06:11:42Z",
+  "url": "https://github.com/apache/nuttx/pull/17360"
+}

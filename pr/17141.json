@@ -1,0 +1,79 @@
+{
+  "additions": 128,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-10-02T13:12:31Z",
+  "createdAt": "2025-10-01T10:17:39Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ulp.c",
+      "additions": 102,
+      "deletions": 5
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ulp.mk",
+      "additions": 26,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp_riscv_ulp_memory_encapsulation",
+  "headRefOid": "035dbe4adcabdf86a71c2be00ca2e49d4c9679d7",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6rhbuo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e01f967c993d9ccb1ca6a89519d362fd19c8a239"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-02T13:12:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17141,
+  "state": "MERGED",
+  "title": "arch/risc-v/esp32c6: Add ULP shared memory encapsulation",
+  "updatedAt": "2025-10-02T13:12:31Z",
+  "url": "https://github.com/apache/nuttx/pull/17141"
+}

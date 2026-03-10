@@ -1,0 +1,101 @@
+{
+  "additions": 244,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "is_bot": false,
+    "login": "trns1997",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-09-27T13:36:22Z",
+  "createdAt": "2025-09-14T14:02:30Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/testing/cxx-oot-build/index.rst",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/cxx-oot-build/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/cibuild-oot.sh",
+      "additions": 76,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nuttx-oot-build-test",
+  "headRefOid": "df57b96747cee0d7de64b63d64cb8a9ffda66202",
+  "headRepository": {
+    "id": "R_kgDOJ0OTLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "login": "trns1997"
+  },
+  "id": "PR_kwDODZiUac6ofJti",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d7b2df6d8582210732acbebc93a8742ff14d533f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-27T13:36:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17017,
+  "state": "MERGED",
+  "title": "add cxx oot build test script to ci",
+  "updatedAt": "2025-09-27T13:36:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17017"
+}

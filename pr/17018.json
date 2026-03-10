@@ -1,0 +1,123 @@
+{
+  "additions": 339,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-10-30T15:52:35Z",
+  "createdAt": "2025-09-14T14:36:28Z",
+  "deletions": 31,
+  "files": [
+    {
+      "path": "drivers/syslog/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/syslog.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/vsyslog.c",
+      "additions": 38,
+      "deletions": 15
+    },
+    {
+      "path": "drivers/syslog/vsyslog_lowout.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/vsyslog_rfc5424.c",
+      "additions": 38,
+      "deletions": 15
+    },
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "include/syslog.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/lib_sysloglowoutstream.c",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/syslog/lib_syslog.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "add_syn_unicast_syslog",
+  "headRefOid": "e8785b1676263cc551a3672fb12fe0a48cfa8d68",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6ofTHI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17018,
+  "state": "CLOSED",
+  "title": "drivers/syslog: add light-weight, synchronous, unicast and lowlevel console output syslog function",
+  "updatedAt": "2026-01-11T07:41:09Z",
+  "url": "https://github.com/apache/nuttx/pull/17018"
+}

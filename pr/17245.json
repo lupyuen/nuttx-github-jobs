@@ -1,0 +1,181 @@
+{
+  "additions": 3239,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 21,
+  "closed": true,
+  "closedAt": "2025-10-28T19:21:53Z",
+  "createdAt": "2025-10-26T00:21:38Z",
+  "deletions": 63,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/boards/raspberrypi-4b/index.rst",
+      "additions": 77,
+      "deletions": 48
+    },
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/index.rst",
+      "additions": 38,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Kconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Make.defs",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_mailbox.c",
+      "additions": 201,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_mailbox.h",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_sdio.c",
+      "additions": 2154,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_sdio.h",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_memmap.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_sdio.h",
+      "additions": 312,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/sd/defconfig",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/include/board.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_appinit.c",
+      "additions": 19,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_bringup.c",
+      "additions": 14,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_sdmmc.c",
+      "additions": 72,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pi4b-sdmmc",
+  "headRefOid": "89e841fed454150cc4b79dbdd1fb81b8a0a06f65",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6vtL8y",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "11e81d1a89c8c7c7499f08cc972c38ac600ca6e5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-28T19:21:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17245,
+  "state": "MERGED",
+  "title": "bcm2711/sdio: Support for EMMC interfaces on the BCM2711",
+  "updatedAt": "2025-11-04T03:52:55Z",
+  "url": "https://github.com/apache/nuttx/pull/17245"
+}

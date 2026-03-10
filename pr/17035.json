@@ -1,0 +1,261 @@
+{
+  "additions": 959,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 37,
+  "closed": true,
+  "closedAt": "2025-09-19T10:18:54Z",
+  "createdAt": "2025-09-18T11:32:27Z",
+  "deletions": 74,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-generic/index.rst",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitm/index.rst",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/boards/esp32h2-devkit/index.rst",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-devkitc/index.rst",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/boards/esp32s2-saola-1/index.rst",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 56,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/etc/init.d/rc.sysinit",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/etc/init.d/rcS",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/configs/romfs/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/etc/init.d/rc.sysinit",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/etc/init.d/rcS",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/romfs/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/romfs/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/etc/init.d/rc.sysinit",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/etc/init.d/rcS",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/romfs/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/etc/init.d/rc.sysinit",
+      "additions": 3,
+      "deletions": 7
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/etc/init.d/rcS",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/romfs/defconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/etc/init.d/rc.sysinit",
+      "additions": 3,
+      "deletions": 7
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/etc/init.d/rcS",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/romfs/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/etc/init.d/rc.sysinit",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/etc/init.d/rcS",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/Make.defs",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/etc/txtable.txt",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/romfs/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/Make.defs",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/Make.defs",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/etc/init.d/rc.sysinit",
+      "additions": 0,
+      "deletions": 24
+    }
+  ],
+  "headRefName": "feature/add-init-script-support",
+  "headRefOid": "588c54afbaf3a82156db0ed71aa87172d96909ac",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6pRRLn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dda00d30bf8e5540b7cdd52954abd46ee48e7925"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-19T10:18:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17035,
+  "state": "MERGED",
+  "title": "boards/risc-v: add support for init script on ESP32-C3|C6|H2",
+  "updatedAt": "2025-09-19T10:18:54Z",
+  "url": "https://github.com/apache/nuttx/pull/17035"
+}

@@ -1,0 +1,90 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-09-24T03:25:56Z",
+  "createdAt": "2025-09-23T11:38:58Z",
+  "deletions": 15,
+  "files": [
+    {
+      "path": "arch/tricore/src/Makefile",
+      "additions": 4,
+      "deletions": 13
+    },
+    {
+      "path": "arch/tricore/src/common/Toolchain.defs",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/ToolchainTasking.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Tasking_Tricore_Tc.lsl",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "align_makefile_with_cmake_tasking",
+  "headRefOid": "45ae017f04a6d9c85e1dfeb7e794b4531f234bb6",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6qDbDA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "80cde18f07a2cb3355dd9794158d95ec18648364"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-24T03:25:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17062,
+  "state": "MERGED",
+  "title": "arch/tricore: Align Makefile with Cmake for tasking linker script preprocessing",
+  "updatedAt": "2025-09-25T04:45:57Z",
+  "url": "https://github.com/apache/nuttx/pull/17062"
+}

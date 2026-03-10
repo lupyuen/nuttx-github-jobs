@@ -1,0 +1,95 @@
+{
+  "additions": 243,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-10-31T11:29:18Z",
+  "createdAt": "2025-10-30T13:25:12Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/syslog.rst",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/syslog_early.c",
+      "additions": 173,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/syslog/syslog.h",
+      "additions": 42,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_early_syslog",
+  "headRefOid": "242b01bb1722de417c9afea206ac618958079b46",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6wnrAq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "76dcec8f4b2c21342e4514a07fd4138ccca8e7eb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-31T11:29:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17267,
+  "state": "MERGED",
+  "title": "drivers/syslog: Add early_syslog() for early boot or system down debugging",
+  "updatedAt": "2025-10-31T12:51:58Z",
+  "url": "https://github.com/apache/nuttx/pull/17267"
+}

@@ -1,0 +1,69 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-30T15:27:53Z",
+  "createdAt": "2025-09-30T10:32:36Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "fs/mmap/fs_msync.c",
+      "additions": 9,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "pse52_msync_flush",
+  "headRefOid": "9084702b5fbe743d62780b362f74d62215fb51b3",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6rTI5x",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a4c9fdc4472e13ac0c6aee8c3c301d07f71f11cc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-30T15:27:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17127,
+  "state": "MERGED",
+  "title": "fs/mmap/fs_msync.c: don't flush changes if MAP_PRIVATE",
+  "updatedAt": "2026-03-02T14:23:50Z",
+  "url": "https://github.com/apache/nuttx/pull/17127"
+}

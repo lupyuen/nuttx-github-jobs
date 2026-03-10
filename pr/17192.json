@@ -1,0 +1,118 @@
+{
+  "additions": 141,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-10-20T05:29:24Z",
+  "createdAt": "2025-10-13T06:18:58Z",
+  "deletions": 74,
+  "files": [
+    {
+      "path": "boards/arm/sam34/sam3u-ek/scripts/memory.ld",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 8,
+      "deletions": 6
+    },
+    {
+      "path": "sched/clock/clock_gettime.c",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 1,
+      "deletions": 32
+    },
+    {
+      "path": "sched/clock/clock_sched_ticks.c",
+      "additions": 111,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_systime_ticks.c",
+      "additions": 1,
+      "deletions": 29
+    },
+    {
+      "path": "sched/clock/clock_systime_timespec.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_processtimer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_timerexpiration.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_sched_ticks",
+  "headRefOid": "4738c71ec66e51b72f395ce815b0a44c6a3d379e",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6tY0cs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 17192,
+  "state": "CLOSED",
+  "title": "sched/clock: Add clock_increase_sched_ticks() and clock_get_sched_ticks()",
+  "updatedAt": "2025-10-20T05:46:16Z",
+  "url": "https://github.com/apache/nuttx/pull/17192"
+}

@@ -1,0 +1,142 @@
+{
+  "additions": 137,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2026-01-13T07:34:37Z",
+  "createdAt": "2025-11-20T13:16:10Z",
+  "deletions": 138,
+  "files": [
+    {
+      "path": "examples/buttons/buttons_main.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "examples/chrono/chrono_main.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "examples/timer/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/dhcpc/dhcpc.c",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ping/icmp_ping.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/telnetd/telnetd_daemon.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "nshlib/nsh_builtin.c",
+      "additions": 17,
+      "deletions": 6
+    },
+    {
+      "path": "nshlib/nsh_proccmds.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "system/cu/cu.h",
+      "additions": 0,
+      "deletions": 92
+    },
+    {
+      "path": "system/cu/cu_main.c",
+      "additions": 76,
+      "deletions": 33
+    },
+    {
+      "path": "testing/ostest/ostest_main.c",
+      "additions": 8,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "apps_signal_decouple",
+  "headRefOid": "15ca04b3821792fef84241d21e9189f68e982213",
+  "headRepository": {
+    "id": "R_kgDOKC0MMA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiT4860l_At",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7X-w",
+      "name": "Area: NSH",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3217,
+  "state": "CLOSED",
+  "title": "apps: decouple signal support",
+  "updatedAt": "2026-01-13T07:34:37Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3217"
+}

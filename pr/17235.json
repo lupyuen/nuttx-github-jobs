@@ -1,0 +1,73 @@
+{
+  "additions": 24,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-10-23T13:38:26Z",
+  "createdAt": "2025-10-23T08:48:48Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32/esp32_idle.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_idle.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/esp_pm_exception_fix",
+  "headRefOid": "fafc104935a90ed8992ac280bea9026048e84afd",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6vN07u",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "734068890a0f3a80071294404761b98e5edc319c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-23T13:38:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17235,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32[-|-s3]: Fix exception issue when pm active",
+  "updatedAt": "2025-10-23T13:38:26Z",
+  "url": "https://github.com/apache/nuttx/pull/17235"
+}

@@ -1,0 +1,80 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-09-26T11:26:31Z",
+  "createdAt": "2025-09-26T08:07:49Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "arch/tricore/src/cmake/ToolchainTasking.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_generate_outputs.cmake",
+      "additions": 12,
+      "deletions": 16
+    }
+  ],
+  "headRefName": "improve_tasking_cmake",
+  "headRefOid": "ee3622ecb6d7fd58e6fb5057a818f396ded0c4a0",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6qpbbK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "46292a9529c52742a02e9acd8d930f56b5276635"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-26T11:26:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 17079,
+  "state": "MERGED",
+  "title": "arch/tricore: Remove tasking compiler tool specific code from common Cmake scripts",
+  "updatedAt": "2025-09-26T13:08:48Z",
+  "url": "https://github.com/apache/nuttx/pull/17079"
+}

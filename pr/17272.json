@@ -1,0 +1,91 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-11-04T13:44:00Z",
+  "createdAt": "2025-11-03T09:28:10Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "boards/arm/a1x/pcduino-a10/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/c906/smartl-c906/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/event_post.c",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix_event_post_issue",
+  "headRefOid": "d89827a7ff934686b8f3fd713037e8ac88b9097c",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6xJVd-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "26af1fadc92402b76aae95b4a8ccc3b048b4a7d7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-04T13:44:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17272,
+  "state": "MERGED",
+  "title": "sched/event: Fix uninitialized need_switch flag issue in event_post()",
+  "updatedAt": "2025-11-04T13:52:26Z",
+  "url": "https://github.com/apache/nuttx/pull/17272"
+}

@@ -1,0 +1,95 @@
+{
+  "additions": 32,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-10-23T12:35:00Z",
+  "createdAt": "2025-10-22T14:49:16Z",
+  "deletions": 38,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_sections.ld",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_sections.ld",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/esp32_sections.ld",
+      "additions": 6,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/esp32s2_sections.ld",
+      "additions": 6,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 6,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "feature/esp-improve-linker-iram",
+  "headRefOid": "8ebd64bd70d06fa78089847124700ce9f7f787ff",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6vFiSb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fb4274187ba04c75ec4b0c793202afdf05935b55"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-23T12:35:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17227,
+  "state": "MERGED",
+  "title": " boards/xtensa: optimize linker script IRAM section ",
+  "updatedAt": "2025-10-23T12:35:00Z",
+  "url": "https://github.com/apache/nuttx/pull/17227"
+}

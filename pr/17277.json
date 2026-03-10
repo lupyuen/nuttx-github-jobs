@@ -1,0 +1,137 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-11-04T14:46:15Z",
+  "createdAt": "2025-11-04T05:31:59Z",
+  "deletions": 64,
+  "files": [
+    {
+      "path": "arch/arm/src/imx9/imx9_edma.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_flexcan.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_edma.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/s32k1xx/s32k1xx_edma.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/s32k3xx/s32k3xx_edma.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/sam34/sam_rtc.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_hciuart.c",
+      "additions": 6,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_edma.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/renesas/src/rx65n/rx65n_rtc.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rtc.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_rtc.c",
+      "additions": 2,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "fix_irq_sched_lock",
+  "headRefOid": "d3fe583f0a3ec57595231c85fe6f73f79c5af187",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6xVDtJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c342c0851f84bfefe4b8aec835625547a44f5e6b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-04T14:46:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17277,
+  "state": "MERGED",
+  "title": "arch: replace spinlock/sched_lock with spin_lock_irqsave_nopreempt ",
+  "updatedAt": "2025-11-04T15:48:39Z",
+  "url": "https://github.com/apache/nuttx/pull/17277"
+}

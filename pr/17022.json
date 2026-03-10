@@ -1,0 +1,94 @@
+{
+  "additions": 389,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-09-16T07:47:27Z",
+  "createdAt": "2025-09-15T20:02:25Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/samv7/common/include/board_oa_tc6.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/configs/oa_tc6/defconfig",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_oa_tc6.c",
+      "additions": 211,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_spi.c",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "oa-pr-sam",
+  "headRefOid": "bc6a154b6330c9fc2bae000e94ac7a9a351beff6",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac6otaRm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "12486d21dc7e749e5730db14e68aabe5e52d8710"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-16T07:47:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17022,
+  "state": "MERGED",
+  "title": "boards/arm/samv7/samv71-xult: Add support for the OA-TC6 10BASE-T1x M…",
+  "updatedAt": "2025-09-16T22:33:32Z",
+  "url": "https://github.com/apache/nuttx/pull/17022"
+}

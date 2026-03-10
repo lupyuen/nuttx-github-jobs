@@ -1,0 +1,151 @@
+{
+  "additions": 416,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2025-10-14T09:44:15Z",
+  "createdAt": "2025-10-13T23:11:30Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 110,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 109,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 13,
+      "deletions": 11
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Bootloader.mk",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Bootloader.mk",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/esp32/Config.mk",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "tools/esp32s2/Config.mk",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "tools/esp32s3/Config.mk",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/xtensa-upgrade-mcuboot",
+  "headRefOid": "0f208c17864e124012512939eb9f06da480b30f8",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6tjdCt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "632297a3ca5f119567062b65ace9119487f3de75"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-14T09:44:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17195,
+  "state": "MERGED",
+  "title": "arch/xtensa: update MCUBoot and virtual E-Fuse offset",
+  "updatedAt": "2025-10-14T09:44:15Z",
+  "url": "https://github.com/apache/nuttx/pull/17195"
+}

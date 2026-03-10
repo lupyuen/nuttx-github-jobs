@@ -1,0 +1,74 @@
+{
+  "additions": 109,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-10-29T05:37:14Z",
+  "createdAt": "2025-10-28T20:33:03Z",
+  "deletions": 49,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 105,
+      "deletions": 45
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.h",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "h5_adc_improvements",
+  "headRefOid": "5b743f4747a48c5a48d8156992731dcdab14a54f",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6wO4_V",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "94e12d0142dab39505697566900ac20c1cfbe43d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-29T05:37:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17254,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h5: Use au_receive_batch in adc_dmaconvcallback",
+  "updatedAt": "2025-10-29T10:08:20Z",
+  "url": "https://github.com/apache/nuttx/pull/17254"
+}

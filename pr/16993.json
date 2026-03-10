@@ -1,0 +1,95 @@
+{
+  "additions": 100,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-09-09T14:07:50Z",
+  "createdAt": "2025-09-09T10:04:54Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/reference/os/events.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/event.h",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/event_getmask.c",
+      "additions": 68,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_nxevent_get_mask_api",
+  "headRefOid": "971b76dd38902f8848a1e3948e3b8b64603da5aa",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6nkcKu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fc09640b285169ec897b836fc4dfef56893e842d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-09T14:07:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16993,
+  "state": "MERGED",
+  "title": "sched/event: add nxevent_getmask api",
+  "updatedAt": "2025-09-10T01:30:14Z",
+  "url": "https://github.com/apache/nuttx/pull/16993"
+}

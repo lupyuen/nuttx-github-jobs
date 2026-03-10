@@ -1,0 +1,600 @@
+{
+  "additions": 106,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 102,
+  "closed": true,
+  "closedAt": "2025-10-11T21:07:52Z",
+  "createdAt": "2025-10-11T11:39:32Z",
+  "deletions": 166,
+  "files": [
+    {
+      "path": "arch/arm/src/at32/at32_eth.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_enet.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_eth.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_ethernet.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_ethernet.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ethernet.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-devkit/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-quickstart/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lx_cpu/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/olimex-lpc1766stk/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/open1788/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc214x/zp214xpa/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc31xx/olimex-lpc-h3131/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/samv7/common/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/include/board.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/stm32f429i-disco/include/board.h",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/include/board.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/stm32_ssd1289.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/viewtool-stm32f107/src/viewtool_stm32f107.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/tiva/dk-tm4c129x/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/tiva/lm3s6965-ek/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/tiva/lm4f120-launchpad/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/tiva/tm4c123g-launchpad/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/tiva/tm4c1294-launchpad/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/tiva/tm4c129e-launchpad/tools/oocd.sh",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/mips/pic32mx/sure-pic32mx/src/pic32mx_lcd1602.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/mips/pic32mx/sure-pic32mx/src/sure-pic32mx.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/mmap/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sensors/adt7320.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sensors/adxl372.h",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/sensors/lsm330.h",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "include/strings.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libbuiltin/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "libs/libc/gnssutils/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdlib/lib_aligned_alloc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdlib/lib_atoi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdlib/lib_atol.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdlib/lib_posix_memalign.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdlib/lib_valloc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemccpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemcmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdmemrchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstpcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstpncpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcat.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrchrnul.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrlen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrncmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrncpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_bsdstrrchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_index.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memccpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memcmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memmem.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memmove.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_mempcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memrchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_memset.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_rindex.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_stpcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_stpncpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strcasecmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strcasestr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strcat.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strchrnul.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strcmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strcspn.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strdup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strlcat.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strlcpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strlen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strncasecmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strncat.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strncmp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strncpy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strndup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strnlen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strpbrk.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strrchr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strsep.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strspn.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strstr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strtok.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/string/lib_strtokr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libxx/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "mm/umm_heap/umm_calloc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/umm_heap/umm_free.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/umm_heap/umm_malloc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/umm_heap/umm_malloc_size.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/umm_heap/umm_memalign.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "doc_readme_cleanup",
+  "headRefOid": "e8a222dcd2d07eadb60802721d7ba61791fa09f6",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6tPOyj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3e6acfaf176265f8c0bbcd9acf4541df7d8257d6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-11T21:07:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17185,
+  "state": "MERGED",
+  "title": "Remove references to non-existent readme.txt files",
+  "updatedAt": "2025-10-11T21:07:52Z",
+  "url": "https://github.com/apache/nuttx/pull/17185"
+}

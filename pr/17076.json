@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-26T10:14:33Z",
+  "createdAt": "2025-09-26T00:25:34Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "drivers/sensors/ms56xx_uorb.c",
+      "additions": 1,
+      "deletions": 21
+    }
+  ],
+  "headRefName": "ms56xx-timestamp",
+  "headRefOid": "b5cd2c1f9fe4a3b1274674c3417e42cbb0f9d025",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6qmh6-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "615f1f3f466767013b0874c19682317fc0f9fbe6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-26T10:14:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "milestone": null,
+  "number": 17076,
+  "state": "MERGED",
+  "title": "drivers/sensors/ms56xx: Replace custom curtime with standard function",
+  "updatedAt": "2025-11-09T21:50:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17076"
+}

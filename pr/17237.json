@@ -1,0 +1,105 @@
+{
+  "additions": 78,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-10-24T03:16:12Z",
+  "createdAt": "2025-10-23T13:07:30Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_idle.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_idle.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_pm.c",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp_xtensa_pm_enchacements",
+  "headRefOid": "cb85df19e28e2070a21c31070b244ee1b620256a",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6vQ0Wp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3893350287ce41edcdc778ac3603971b616bf24e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-24T03:16:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17237,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32[-s3]: Add ULP RISCV coprocessor wakeup",
+  "updatedAt": "2025-10-24T03:16:12Z",
+  "url": "https://github.com/apache/nuttx/pull/17237"
+}

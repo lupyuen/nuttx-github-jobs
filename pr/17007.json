@@ -1,0 +1,122 @@
+{
+  "additions": 611,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-09-26T09:35:08Z",
+  "createdAt": "2025-09-11T18:59:05Z",
+  "deletions": 145,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h5/boards/nucleo-h563zi/index.rst",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_adc.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h56xxx_pinmap.h",
+      "additions": 54,
+      "deletions": 36
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 325,
+      "deletions": 91
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/configs/adc_watchdog/defconfig",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/include/board.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_adc.c",
+      "additions": 53,
+      "deletions": 14
+    }
+  ],
+  "headRefName": "h5_adc_watchdog",
+  "headRefOid": "e654d761b8135007ef8ce53fbbc2b4c59dfaa983",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6oGZtG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "09290b9254adf6d123b13eb2c32815fb15fe929d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-26T09:35:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17007,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h5: ADC Driver Improvements (Watchdog and Channel Structure)",
+  "updatedAt": "2025-09-26T09:35:08Z",
+  "url": "https://github.com/apache/nuttx/pull/17007"
+}

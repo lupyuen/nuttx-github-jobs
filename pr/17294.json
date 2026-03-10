@@ -1,0 +1,136 @@
+{
+  "additions": 1420,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-11-09T19:48:14Z",
+  "createdAt": "2025-11-08T05:26:45Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/boards/raspberrypi-4b/index.rst",
+      "additions": 54,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Kconfig",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_fb.c",
+      "additions": 494,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_mailbox.c",
+      "additions": 474,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_mailbox.h",
+      "additions": 209,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_mailbox.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/fb/defconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/lvgl/defconfig",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpi4b-framebuffer",
+  "headRefOid": "c7021ed85c969a129df9a8c025f6c38c6f9a3ed6",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6yRZsx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "00e287bb70e20c3f12797059b47e18d255db15d1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-09T19:48:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17294,
+  "state": "MERGED",
+  "title": "raspberrypi-4b/graphics: Add frame buffer graphics support",
+  "updatedAt": "2025-11-09T19:54:32Z",
+  "url": "https://github.com/apache/nuttx/pull/17294"
+}

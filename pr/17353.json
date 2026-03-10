@@ -1,0 +1,68 @@
+{
+  "additions": 23,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQxMzEyMDY3",
+    "is_bot": false,
+    "login": "SPRESENSE",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-11-20T12:56:06Z",
+  "createdAt": "2025-11-20T10:39:29Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_rtc.c",
+      "additions": 23,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pullrequest-1036",
+  "headRefOid": "0405252a43729463b17258e687047a832a87883b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODAwNjE4OTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQxMzEyMDY3",
+    "login": "SPRESENSE"
+  },
+  "id": "PR_kwDODZiUac60j6lO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b2b045252d1c000d356565e4b692d9bed251e815"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-20T12:56:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17353,
+  "state": "MERGED",
+  "title": "arch: cxd56xx: Fix failure to get RTC time in multi-core environment",
+  "updatedAt": "2025-11-20T12:56:06Z",
+  "url": "https://github.com/apache/nuttx/pull/17353"
+}

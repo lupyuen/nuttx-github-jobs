@@ -1,0 +1,195 @@
+{
+  "additions": 78,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODe3FTA",
+    "is_bot": false,
+    "login": "suoyuanG",
+    "name": "suoyuan"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-09-29T11:12:18Z",
+  "createdAt": "2025-09-29T03:27:09Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "arch/arm/src/common/arm_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/avr/src/avr/avr_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/ceva/src/common/ceva_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/or1k/src/common/or1k_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sparc/src/common/sparc_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_checkstack.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_checkstack.c",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/irq/irq_dispatch.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "local-add-irq-stack-check",
+  "headRefOid": "92dbcb0ea5ee282aa69b515a548ec8d7d7b140a2",
+  "headRepository": {
+    "id": "R_kgDOP0acSg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODe3FTA",
+    "name": "suoyuan",
+    "login": "suoyuanG"
+  },
+  "id": "PR_kwDODZiUac6q_74d",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ca7608c2ac3aeedefcf02817b5e466d3c53aba2c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-29T11:12:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17110,
+  "state": "MERGED",
+  "title": "sched/irq: add a check for the interrupt stack in irq_dispatch",
+  "updatedAt": "2026-01-09T02:04:23Z",
+  "url": "https://github.com/apache/nuttx/pull/17110"
+}

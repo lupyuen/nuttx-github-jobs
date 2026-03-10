@@ -1,0 +1,109 @@
+{
+  "additions": 400,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-10-22T13:01:39Z",
+  "createdAt": "2025-10-22T11:16:05Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/CMakeLists.txt",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/common/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/common/include/rp23xx_common_pico.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/common/src/CMakeLists.txt",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/common/src/rp23xx_common_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/src/CMakeLists.txt",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/src/rp23xx_pico.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "simbit18-rp23xx-rv-cmake",
+  "headRefOid": "bb54340c20cfb4f68cbe425e80bfefb932c34e2e",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6vC8Do",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bbe1d420a75c21dd62e13389d6eeb7c51301c0bf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-22T13:01:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 17226,
+  "state": "MERGED",
+  "title": "risc-v/rp23xx-rv: CMake build for Raspberry Pi RP23xx RISC-V implemented",
+  "updatedAt": "2025-10-23T08:51:16Z",
+  "url": "https://github.com/apache/nuttx/pull/17226"
+}

@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODM70Bg",
+    "is_bot": false,
+    "login": "daniel-geotab",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-11-11T19:05:47Z",
+  "createdAt": "2025-10-30T20:47:27Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "netutils/pppd/lcp.c",
+      "additions": 1,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "revert-2571-bugfix/ppp-reconnection",
+  "headRefOid": "fd0875100f1af1c400353dc698e780df4f1d6cda",
+  "headRepository": {
+    "id": "R_kgDOQMY1Kw",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODM70Bg",
+    "login": "daniel-geotab"
+  },
+  "id": "PR_kwDODZiT486wtLcE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6Uug",
+      "name": "Size: XS",
+      "description": "",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9bbc2fe1e4220094206c9f5b19e8090ec80c4871"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-11T19:05:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 3203,
+  "state": "MERGED",
+  "title": "Revert \"ppp: Fix wrong lcp_state handling on peer reconnection\"",
+  "updatedAt": "2025-11-11T19:05:47Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3203"
+}

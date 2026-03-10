@@ -1,0 +1,90 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.11",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-09-27T13:40:12Z",
+  "createdAt": "2025-09-26T10:54:14Z",
+  "deletions": 15,
+  "files": [
+    {
+      "path": "arch/tricore/src/Makefile",
+      "additions": 4,
+      "deletions": 13
+    },
+    {
+      "path": "arch/tricore/src/common/Toolchain.defs",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/ToolchainTasking.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Tasking_Tricore_Tc.lsl",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-17062",
+  "headRefOid": "3f9c70793edd6e352d14e0f80a9858e5be96ac9d",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6qr5oh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "80f5a06c06091935b8ed3d61ba6a0e7e660eb3d8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-27T13:40:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17097,
+  "state": "MERGED",
+  "title": "{bp-17062} arch/tricore: Align Makefile with Cmake for tasking linker script pre…",
+  "updatedAt": "2025-09-28T06:54:40Z",
+  "url": "https://github.com/apache/nuttx/pull/17097"
+}

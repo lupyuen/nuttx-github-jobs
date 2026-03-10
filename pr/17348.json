@@ -1,0 +1,68 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-11-27T14:26:57Z",
+  "createdAt": "2025-11-19T12:07:53Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "fs/fat/fs_fat32dirent.c",
+      "additions": 7,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_multiple_slashes_in_fat_long_filenames",
+  "headRefOid": "f8712652cc081221459b6f41b6668901f3c5989e",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac60Vrh_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "58978490ade6ac5e55cd8b76f422bc88d01f982d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-27T14:26:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17348,
+  "state": "MERGED",
+  "title": "fs/fat: Ignore multiple consecutive slashes in long file names",
+  "updatedAt": "2025-11-27T14:26:57Z",
+  "url": "https://github.com/apache/nuttx/pull/17348"
+}

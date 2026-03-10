@@ -1,0 +1,84 @@
+{
+  "additions": 34,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY5MDA1MTI4",
+    "is_bot": false,
+    "login": "PruteanuVlad",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-10-24T14:20:04Z",
+  "createdAt": "2025-10-23T18:44:27Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32/esp32_aes.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_crypto.c",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/crypto/defconfig",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "esp32_crypto_aes",
+  "headRefOid": "df6bb5873e6e0e1e610074fc2b75bec597dbc5e0",
+  "headRepository": {
+    "id": "R_kgDOOFLOjw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY5MDA1MTI4",
+    "login": "PruteanuVlad"
+  },
+  "id": "PR_kwDODZiUac6vVqGL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8a10e35c0bd74f6fb27edc8d328294ccdfb0fe41"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-10-24T14:20:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17241,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32: Fix support for hardware accelerated AES",
+  "updatedAt": "2025-10-24T14:20:04Z",
+  "url": "https://github.com/apache/nuttx/pull/17241"
+}
