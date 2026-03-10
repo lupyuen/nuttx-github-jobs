@@ -1,0 +1,135 @@
+{
+  "additions": 2412,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-12-01T11:12:26Z",
+  "createdAt": "2025-11-29T01:36:45Z",
+  "deletions": 59,
+  "files": [
+    {
+      "path": "Documentation/platforms/avr/avrdx/docs/twi.rst",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/avrdx/index.rst",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "arch/avr/src/avrdx/Kconfig",
+      "additions": 367,
+      "deletions": 28
+    },
+    {
+      "path": "arch/avr/src/avrdx/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_lowconsole.c",
+      "additions": 40,
+      "deletions": 13
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_peripherals.c",
+      "additions": 127,
+      "deletions": 6
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_serial.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_serial.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_twi.c",
+      "additions": 1393,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_twi.h",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128da28.h",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128da64.h",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128db64.h",
+      "additions": 95,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "avrdx_twi_rfc1-2",
+  "headRefOid": "1a11d6f5418b6b6660201a3ec566bc03605d6dbc",
+  "headRepository": {
+    "id": "R_kgDOGLlPEA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "name": "CeDeROM",
+    "login": "cederom"
+  },
+  "id": "PR_kwDODZiUac62GknA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5318c1aa78622781325fe2d8345c3d426baf78b6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-01T11:12:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17404,
+  "state": "MERGED",
+  "title": "arch/avr/src/avrdx: Add TWI support, fix missing pins code, doc update.",
+  "updatedAt": "2025-12-01T11:12:27Z",
+  "url": "https://github.com/apache/nuttx/pull/17404"
+}

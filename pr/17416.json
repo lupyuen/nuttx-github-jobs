@@ -1,0 +1,74 @@
+{
+  "additions": 528,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-06T14:35:53Z",
+  "createdAt": "2025-12-01T15:19:40Z",
+  "deletions": 38,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 169,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_serial.c",
+      "additions": 359,
+      "deletions": 38
+    }
+  ],
+  "headRefName": "stm32h5_serial_rs485",
+  "headRefOid": "383242d3112812c771654bcc4bfc4d4fc195d8f6",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac62X6hr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2c0e105cadb7ea7fdf0c28ee10e1f9737b5b9445"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-06T14:35:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17416,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h5: Add RS-485 support to serial driver",
+  "updatedAt": "2025-12-06T14:35:54Z",
+  "url": "https://github.com/apache/nuttx/pull/17416"
+}

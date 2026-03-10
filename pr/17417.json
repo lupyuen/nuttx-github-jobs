@@ -1,0 +1,576 @@
+{
+  "additions": 771,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 137,
+  "closed": true,
+  "closedAt": "2025-12-03T05:45:13Z",
+  "createdAt": "2025-12-01T17:49:32Z",
+  "deletions": 774,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit-rust-1/esp32c3-devkit-rust-1.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit-rust-1/index.rst",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/ESP32-C3-DevKitC-02-v1.1.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/ESP32-C3-DevKitM-1-v1.0.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/ROMFS.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/index.rst",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-devkit/ESP32-C3-DevKitC-02-v1.1.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-devkit/ESP32-C3-DevKitM-1-v1.0.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-devkit/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-devkit/rmt_symbol.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 52,
+      "deletions": 52
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc_gpio.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_twai.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 381,
+      "deletions": 381
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/configs/brickmatch/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/configs/nsh/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/include/board.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/include/board_memorymap.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/esp32c3-legacy-devkit-rust-1.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/esp32c3_appinit.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/esp32c3_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/esp32c3_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/esp32c3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/esp32c3_ioctl.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit-rust-1/src/esp32c3_reset.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/adc/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/autopm/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/ble/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/bmp180/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/coremark/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/crypto/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/cxx/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/efuse/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/elf/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/gdbstub/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/gpio/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/knsh/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/lvgl/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/mcuboot_slot_confirm/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/module/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/nsh/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/nvcfgdata/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/oneshot/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/ostest/defconfig",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/pm/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/pwm/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/random/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/romfs/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/rtc/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/sotest/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/spiflash/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/sta_softap/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/tickless/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/timer/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/twai/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/uid/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/usbconsole/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/watchdog/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/watcher/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/configs/wifi/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/include/board.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/include/board_memorymap.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3-legacy-devkit.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3_appinit.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3_gpio.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3_ioctl.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3_reset.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/esp32c3_uid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/group",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/init.d/rc.sysinit",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/init.d/rcS",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/passwd",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/adc/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/ble/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/bmp180/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/buttons/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/crypto/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/efuse/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/gpio/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/i2c/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/i2schar/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/mcuboot_nsh/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/mcuboot_update_agent/defconfig",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "feature/rename-esp32c3-legacy",
+  "headRefOid": "0686d72b2cea3326bf3f7dec78cc7a385898ee90",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac62aKY5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2b39147fe2f0cee0ca84be57f894b01df41ca399"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-03T05:45:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17417,
+  "state": "MERGED",
+  "title": "arch/risc-v: rename ESP32-C3 boards",
+  "updatedAt": "2025-12-03T05:45:13Z",
+  "url": "https://github.com/apache/nuttx/pull/17417"
+}
