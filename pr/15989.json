@@ -1,0 +1,94 @@
+{
+  "additions": 1005,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-03-19T11:59:44Z",
+  "createdAt": "2025-03-13T16:51:31Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "tools/ci/cibuild.ps1",
+      "additions": 165,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/platforms/windows.ps1",
+      "additions": 307,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testlist/windows.dat",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "tools/testbuild.ps1",
+      "additions": 500,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-ci-native",
+  "headRefOid": "266da68de88c1d3d81e44b0530b8edc689ec1cd1",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6OjEyV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "34c4b15b4d9752119044984f36eeb35c21b04ee5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-19T11:59:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 15989,
+  "state": "MERGED",
+  "title": "tools/ci: Added CI system on Windows Native",
+  "updatedAt": "2025-03-20T14:20:22Z",
+  "url": "https://github.com/apache/nuttx/pull/15989"
+}

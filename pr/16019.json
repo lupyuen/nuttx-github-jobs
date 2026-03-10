@@ -1,0 +1,155 @@
+{
+  "additions": 24,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjk1MjQzMQ==",
+    "is_bot": false,
+    "login": "alexcekay",
+    "name": "Alexander Lerach"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-03-26T18:17:14Z",
+  "createdAt": "2025-03-19T12:08:42Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/imx6/imx_boot.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imx9/imx9_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lc823450/lc823450_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mcx-nxxx/nxxx_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mx8mp/mx8mp_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/s32k1xx/s32k1xx_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/s32k3xx/s32k3xx_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sam34/sam_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_boot.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_start.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 8,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "startup_ramfuncs",
+  "headRefOid": "6c6f42692b7baaa4553922f25acacecb4972e95a",
+  "headRepository": {
+    "id": "R_kgDOOHbLSA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjk1MjQzMQ==",
+    "name": "Alexander Lerach",
+    "login": "alexcekay"
+  },
+  "id": "PR_kwDODZiUac6PQ9e3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d1be7690386f322cb06c51d36b491311075adbe2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-26T18:17:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16019,
+  "state": "MERGED",
+  "title": "arch/arm: Fix crash when using memcpy/memset as RAMFUNCS",
+  "updatedAt": "2025-03-26T18:17:14Z",
+  "url": "https://github.com/apache/nuttx/pull/16019"
+}

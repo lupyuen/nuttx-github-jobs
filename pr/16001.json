@@ -1,0 +1,164 @@
+{
+  "additions": 1303,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": true,
+  "closedAt": "2025-03-20T23:17:07Z",
+  "createdAt": "2025-03-17T09:05:56Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/a527/boards/avaota-a1/avaota-a1.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm64/a527/boards/avaota-a1/index.rst",
+      "additions": 151,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm64/a527/index.rst",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/Kconfig",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/configs/nsh/defconfig",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/include/board.h",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/include/board_memorymap.h",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/scripts/Make.defs",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/scripts/gnu-elf.ld",
+      "additions": 134,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/scripts/ld.script",
+      "additions": 163,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/src/CMakeLists.txt",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/src/Makefile",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/src/a527_appinit.c",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/src/a527_boardinit.c",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/src/a527_bringup.c",
+      "additions": 136,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/src/a527_power.c",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/src/avaota-a1.h",
+      "additions": 60,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "avaota-board",
+  "headRefOid": "03d8151e24bc27caa9d04f2d9c43a51deac25e40",
+  "headRepository": {
+    "id": "R_kgDOIcavfQ",
+    "name": "wip-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjg4NzY1Njgy",
+    "login": "lupyuen2"
+  },
+  "id": "PR_kwDODZiUac6O4e02",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cf6781efade76f7f369673d7e83c3f9728de408e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-20T23:17:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 16001,
+  "state": "MERGED",
+  "title": "boards/arm64/a527/avaota-a1: Add support for PINE64 Yuzuki Avaota-A1 SBC (Allwinner A527 SoC)",
+  "updatedAt": "2025-03-20T23:38:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16001"
+}

@@ -1,0 +1,214 @@
+{
+  "additions": 2919,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "is_bot": false,
+    "login": "rcsim",
+    "name": "Rodrigo Chaves Sim"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 30,
+  "closed": true,
+  "closedAt": "2025-03-14T22:16:28Z",
+  "createdAt": "2025-03-11T00:12:41Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/scripts/memmap_copy_to_ram.ld",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/scripts/memmap_default.ld",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/scripts/memmap_no_flash.ld",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_copy_to_ram.ld",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_default.ld",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_no_flash.ld",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/configs/combo/defconfig",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/configs/nsh/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/configs/usbnsh/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/include/board.h",
+      "additions": 175,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/include/rp23xx_i2cdev.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/include/rp23xx_i2sdev.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/include/rp23xx_spidev.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/include/rp23xx_spisd.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/Make.defs",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_copy_to_ram.ld",
+      "additions": 331,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_default.ld",
+      "additions": 344,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_no_flash.ld",
+      "additions": 285,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/Make.defs",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/etc/init.d/rc.sysinit",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/etc/init.d/rcS",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_appinit.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_autoleds.c",
+      "additions": 167,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_boardinitialize.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_bringup.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_gpio.c",
+      "additions": 377,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_pico.h",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/src/rp23xx_userleds.c",
+      "additions": 214,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "seeed_xiao_rp2350_board_support",
+  "headRefOid": "01d0dbb3dace20f4d5c57bf8764bb58364795067",
+  "headRepository": {
+    "id": "R_kgDOKjRl1g",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMwMzAxNTMx",
+    "name": "Rodrigo Chaves Sim",
+    "login": "rcsim"
+  },
+  "id": "PR_kwDODZiUac6OEdZ6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c42431a01f652f9b611a41f234f5dc600d1ed5a5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-14T22:16:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 15968,
+  "state": "MERGED",
+  "title": "boards/arm/rp23xx/xiao-rp2350 Add support to XIAO RP2350 Board",
+  "updatedAt": "2025-03-14T22:16:28Z",
+  "url": "https://github.com/apache/nuttx/pull/15968"
+}

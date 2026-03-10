@@ -1,0 +1,144 @@
+{
+  "additions": 1059,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2025-03-17T07:58:29Z",
+  "createdAt": "2025-03-15T21:40:32Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/a527/index.rst",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/a527/chip.h",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/a527/irq.h",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/CMakeLists.txt",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/Kconfig",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/Make.defs",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_boot.c",
+      "additions": 268,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_boot.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_initialize.c",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_lowputc.S",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_serial.c",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_textheap.c",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_timer.c",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/chip.h",
+      "additions": 44,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "avaota-arch",
+  "headRefOid": "8cba4d2d21afbb794a4498f1b52290d039f32e3a",
+  "headRepository": {
+    "id": "R_kgDOIcavfQ",
+    "name": "wip-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjg4NzY1Njgy",
+    "login": "lupyuen2"
+  },
+  "id": "PR_kwDODZiUac6Oy_gp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9d80d6bb4f613cd4f9a1d2add513f1426edaf945"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-17T07:58:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 15996,
+  "state": "MERGED",
+  "title": "arch/arm64/a527: Add support for Allwinner A527 SoC",
+  "updatedAt": "2025-03-17T07:58:30Z",
+  "url": "https://github.com/apache/nuttx/pull/15996"
+}

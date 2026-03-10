@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-03-18T01:17:52Z",
+  "createdAt": "2025-03-11T12:45:15Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "fs/vfs/fs_poll.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/instrumentation_vfs",
+  "headRefOid": "9107f96424bb2af03ca02a21f27f9e97d2a69cc5",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6OKIb3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b1bab5c7837f9bbb9981a3dbb21a1b6beed8276e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-18T01:17:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 15971,
+  "state": "MERGED",
+  "title": "fs/vfs/fs_poll: Add noinstrument_function to poll_notify function",
+  "updatedAt": "2025-03-18T10:17:32Z",
+  "url": "https://github.com/apache/nuttx/pull/15971"
+}

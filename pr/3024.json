@@ -1,0 +1,94 @@
+{
+  "additions": 409,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-03-14T13:35:49Z",
+  "createdAt": "2025-03-12T11:00:05Z",
+  "deletions": 271,
+  "files": [
+    {
+      "path": "boot/nxboot/Kconfig",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "boot/nxboot/include/nxboot.h",
+      "additions": 64,
+      "deletions": 22
+    },
+    {
+      "path": "boot/nxboot/loader/boot.c",
+      "additions": 289,
+      "deletions": 210
+    },
+    {
+      "path": "boot/nxboot/loader/flash.c",
+      "additions": 5,
+      "deletions": 10
+    },
+    {
+      "path": "boot/nxboot/loader/flash.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "boot/nxboot/tools/nximage.py",
+      "additions": 37,
+      "deletions": 25
+    }
+  ],
+  "headRefName": "nxboot-enhancements",
+  "headRefOid": "54751b3dac7879a80234b2034c5d95772b2a8d9d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMzk0NTg5MTM=",
+    "name": "incubator-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiT486OUuOT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7M-w",
+      "name": "Area: Boot",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0639a2ad7ba473463923ce377b0227763bf051f9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-14T13:35:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 3024,
+  "state": "MERGED",
+  "title": "[BREAKING] boot/nxboot: enhance bootloader capabilities and decision logic",
+  "updatedAt": "2025-06-27T07:03:49Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3024"
+}

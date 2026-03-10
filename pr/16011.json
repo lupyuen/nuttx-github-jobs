@@ -1,0 +1,99 @@
+{
+  "additions": 1330,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBegMdA",
+    "is_bot": false,
+    "login": "justapotato213",
+    "name": "T. L."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-03-25T08:49:51Z",
+  "createdAt": "2025-03-18T05:13:59Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/analog/adc/ads1115/index.rst",
+      "additions": 232,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/Kconfig",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/ads1115.c",
+      "additions": 827,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/analog/ads1115.h",
+      "additions": 159,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/analog/ioctl.h",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ads1115",
+  "headRefOid": "6be453bd5a1406cbb7b5362e94b7a249751c02c3",
+  "headRepository": {
+    "id": "R_kgDOM69a6w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjMzMTgyODIy",
+    "login": "CarletonURocketry"
+  },
+  "id": "PR_kwDODZiUac6PCVIg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "10d46929b93b108cd3216007b6d022b2b62b549b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-25T08:49:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16011,
+  "state": "MERGED",
+  "title": "drivers/analog/ads1115: Add support for TI ADS1115",
+  "updatedAt": "2025-03-25T08:49:52Z",
+  "url": "https://github.com/apache/nuttx/pull/16011"
+}

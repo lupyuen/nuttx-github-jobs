@@ -1,0 +1,69 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTgxMDg1",
+    "is_bot": false,
+    "login": "sdc-g",
+    "name": "Gao Feng"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-03-15T03:39:24Z",
+  "createdAt": "2025-03-13T08:04:22Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/xtensa/src/common/xtensa_initialstate.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "bugfix/xtensa-ps_excm",
+  "headRefOid": "9d61d8ce60d60ff6dd4b2bab640604b2f0a74a6e",
+  "headRepository": {
+    "id": "R_kgDOIhH2DA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTgxMDg1",
+    "name": "Gao Feng",
+    "login": "sdc-g"
+  },
+  "id": "PR_kwDODZiUac6OdnMP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3194ef0e7cb98e2d737eb6fbfcdfcd63959b1c5f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-15T03:39:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 15985,
+  "state": "MERGED",
+  "title": "arch/xtensa: set PS.EXCM initial value to 1 while new thread created",
+  "updatedAt": "2025-03-19T08:11:23Z",
+  "url": "https://github.com/apache/nuttx/pull/15985"
+}

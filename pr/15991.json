@@ -1,0 +1,76 @@
+{
+  "additions": 80,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxNTMxNTM1",
+    "is_bot": false,
+    "login": "lipan118",
+    "name": "lpxiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-03-26T18:22:51Z",
+  "createdAt": "2025-03-14T03:01:15Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/stm32_alarm.h",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_rtc_lowerhalf.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_rtcounter.c",
+      "additions": 49,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/stm32alarm",
+  "headRefOid": "e6564067d13e1a2031d1f98a1bab5c146eb352c9",
+  "headRepository": null,
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxNTMxNTM1",
+    "name": "lpxiao",
+    "login": "lipan118"
+  },
+  "id": "PR_kwDODZiUac6OmkeP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9e07b4a924be9e68b4ad79e4258c92fe783c40d4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-26T18:22:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 15991,
+  "state": "MERGED",
+  "title": " arch/arm/stm32: fix stm32f1xx alarm support ",
+  "updatedAt": "2025-03-26T18:22:51Z",
+  "url": "https://github.com/apache/nuttx/pull/15991"
+}

@@ -1,0 +1,82 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2025-03-10T02:00:39Z",
+  "deletions": 53,
+  "files": [
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 2,
+      "deletions": 33
+    },
+    {
+      "path": "include/nuttx/wqueue.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/wd_cancel.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 11,
+      "deletions": 18
+    },
+    {
+      "path": "sched/wqueue/kwork_queue.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "25031002",
+  "headRefOid": "fbd990f5688d2fa1edefdff9d56eba193e82268f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6N67OU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 15959,
+  "state": "OPEN",
+  "title": "sched/wdog: merge wdog_periods_s into wdog_s",
+  "updatedAt": "2025-03-14T13:20:46Z",
+  "url": "https://github.com/apache/nuttx/pull/15959"
+}

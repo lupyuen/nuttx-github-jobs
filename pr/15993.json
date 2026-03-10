@@ -1,0 +1,89 @@
+{
+  "additions": 1200,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-03-23T09:48:18Z",
+  "createdAt": "2025-03-14T13:55:33Z",
+  "deletions": 28,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.c",
+      "additions": 50,
+      "deletions": 26
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2c_slave.c",
+      "additions": 1056,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2c_slave.h",
+      "additions": 92,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/esp_i2c_slave_fix",
+  "headRefOid": "f4deceb3ce4c622959d134a4f38294a3e75a00f5",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6OrXiA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "141d5f80653274b1d949f449bc4a4f8d475d0f79"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-23T09:48:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 15993,
+  "state": "MERGED",
+  "title": "arch/xtensa/espressif: Fix I2C Slave driver error",
+  "updatedAt": "2025-03-23T09:48:19Z",
+  "url": "https://github.com/apache/nuttx/pull/15993"
+}

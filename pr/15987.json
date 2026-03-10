@@ -1,0 +1,74 @@
+{
+  "additions": 34,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCSIZTg",
+    "is_bot": false,
+    "login": "stbenn",
+    "name": "Tyler Bennett"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-03-26T11:26:02Z",
+  "createdAt": "2025-03-13T14:16:16Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "drivers/mtd/ramtron.c",
+      "additions": 30,
+      "deletions": 13
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 4,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "ramtron-fix",
+  "headRefOid": "eedd5ca3b5f58261dfad34c5f7b342ea98d73abd",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6OhYFo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c4a84e30b74c1841a353be4a38aa7b904035c3be"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-26T11:26:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 15987,
+  "state": "MERGED",
+  "title": "driver/mtd: ramtron multi-device spi bus support",
+  "updatedAt": "2025-03-27T13:43:44Z",
+  "url": "https://github.com/apache/nuttx/pull/15987"
+}

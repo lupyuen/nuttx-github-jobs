@@ -1,0 +1,96 @@
+{
+  "additions": 242,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU3OTAwNA==",
+    "is_bot": false,
+    "login": "Laczen",
+    "name": "Jehudi Maes"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-03-17T08:15:10Z",
+  "createdAt": "2025-03-10T09:34:01Z",
+  "deletions": 315,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-devkitc/index.rst",
+      "additions": 71,
+      "deletions": 14
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 18,
+      "deletions": 80
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_espnow_pktradio.c",
+      "additions": 149,
+      "deletions": 210
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/espnow/defconfig",
+      "additions": 4,
+      "deletions": 11
+    }
+  ],
+  "headRefName": "espnow_improvements",
+  "headRefOid": "6fb315a08b78ad3237a303b7c2f13de5cf118a50",
+  "headRepository": {
+    "id": "R_kgDONc9eyw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU3OTAwNA==",
+    "name": "Jehudi Maes",
+    "login": "Laczen"
+  },
+  "id": "PR_kwDODZiUac6N9dsQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "24221b611f06cbf79de4e0d0dea3899915418542"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-17T08:15:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 15962,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32: espnow improvements",
+  "updatedAt": "2025-03-17T08:15:10Z",
+  "url": "https://github.com/apache/nuttx/pull/15962"
+}

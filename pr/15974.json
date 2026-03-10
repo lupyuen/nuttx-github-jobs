@@ -1,0 +1,99 @@
+{
+  "additions": 229,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-03-26T15:16:27Z",
+  "createdAt": "2025-03-11T14:26:15Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52840-dk.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52_bringup.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52_gpio.c",
+      "additions": 191,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52_userleds.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "nrf52_gpio",
+  "headRefOid": "1fdb4378f3f3109c4d7734f063ae56915df01c83",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6OLTP1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ae1950ebd9031b1d8a64f0f2f68bf8e25bb65f92"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-03-26T15:16:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 15974,
+  "state": "MERGED",
+  "title": "boards/arm/nrf52/nrf52840-dk: add GPIO driver based on leds and buttons",
+  "updatedAt": "2025-04-30T07:43:02Z",
+  "url": "https://github.com/apache/nuttx/pull/15974"
+}

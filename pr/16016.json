@@ -1,0 +1,120 @@
+{
+  "additions": 1272,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY5MDA1MTI4",
+    "is_bot": false,
+    "login": "PruteanuVlad",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-05-26T07:23:51Z",
+  "createdAt": "2025-03-18T22:40:27Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-devkitc/index.rst",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_crypto.c",
+      "additions": 567,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_sha.c",
+      "additions": 399,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_sha.h",
+      "additions": 226,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/crypto/defconfig",
+      "additions": 57,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "esp32_crypto_acc",
+  "headRefOid": "a44364aac6969f5ebee1de0f4485def6b881306c",
+  "headRepository": {
+    "id": "R_kgDOOFLOjw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY5MDA1MTI4",
+    "login": "PruteanuVlad"
+  },
+  "id": "PR_kwDODZiUac6PL13m",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "82effd4b2f3e9ad78f38e41beb22b7703a4e6986"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-26T07:23:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16016,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32: Add support for hardware accelerated SHA",
+  "updatedAt": "2025-05-26T07:23:51Z",
+  "url": "https://github.com/apache/nuttx/pull/16016"
+}
