@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 101,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-09T20:40:25Z",
   "createdAt": "2026-03-09T11:28:00Z",
   "deletions": 46,
   "files": [
@@ -555,15 +555,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a8495b118c0b83c27e99998858a74232398ca9c2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-09T20:40:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 18516,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif/esp32p4: Support ESP32-P4 on NuttX",
-  "updatedAt": "2026-03-09T14:05:12Z",
+  "updatedAt": "2026-03-09T20:40:25Z",
   "url": "https://github.com/apache/nuttx/pull/18516"
 }
