@@ -218,7 +218,7 @@ function dump_job_list {
       --repo $repo \
       --limit 1000 \
       --created $date \
-      --json attempt,conclusion,createdAt,databaseId,displayTitle,event,headBranch,headSha,name,number,startedAt,status,updatedAt,url,workflowDatabaseId,workflowName
+      --json conclusion,createdAt,databaseId,displayTitle,event,headBranch,headSha,name,number,startedAt,status,updatedAt,url,workflowDatabaseId,workflowName
   )
 
   local len=$( echo "$job_list" | jq '. | length' )
@@ -234,7 +234,6 @@ function dump_job_list {
 }
 
 ## Result:
-# "attempt": 1,
 # "conclusion": "success",
 # "createdAt": "2026-03-09T04:01:49Z",
 # "databaseId": 22837803838,
