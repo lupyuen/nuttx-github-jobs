@@ -1,0 +1,90 @@
+{
+  "additions": 141,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-05-23T18:04:16Z",
+  "createdAt": "2025-05-16T13:12:44Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/nrf53/boards/thingy53/index.rst",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/configs/rpmsghci_nimble_cpuapp/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/configs/rpmsghci_nimble_cpuapp/defconfig",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/configs/rpmsghci_sdc_cpunet/defconfig",
+      "additions": 54,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "thingy53_ble",
+  "headRefOid": "94b388b6eb98d85d2360c7a6d0156d3292a89024",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6WeRoe",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6a0a01a4e9c0561cbaafc74166a58ee972331aad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-23T18:04:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16399,
+  "state": "MERGED",
+  "title": "boards/thingy53: add RPMSG HCI example with nimble",
+  "updatedAt": "2025-06-15T06:54:21Z",
+  "url": "https://github.com/apache/nuttx/pull/16399"
+}

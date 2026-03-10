@@ -1,0 +1,95 @@
+{
+  "additions": 118,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjg3ODE1",
+    "is_bot": false,
+    "login": "ldube",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-05-17T16:56:46Z",
+  "createdAt": "2025-05-16T16:26:10Z",
+  "deletions": 57,
+  "files": [
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/Kconfig",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/configs/nsh/defconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/include/boot_romfsimg.h",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sam_appinit.c",
+      "additions": 2,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sam_boot.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sam_bringup.c",
+      "additions": 29,
+      "deletions": 37
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sama5d3-xplained.h",
+      "additions": 11,
+      "deletions": 11
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "79bfb18531adfddd885c4f549dcc159337ebe0c8",
+  "headRepository": null,
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjg3ODE1",
+    "login": "ldube"
+  },
+  "id": "PR_kwDODZiUac6WfxiP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "accfb3609b72baf42dc7ed572c5a0a258bb23677"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-17T16:56:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16403,
+  "state": "MERGED",
+  "title": "boards/sama5d3-xplained: Fix mmc card detection.",
+  "updatedAt": "2025-05-17T16:56:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16403"
+}

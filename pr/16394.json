@@ -1,0 +1,90 @@
+{
+  "additions": 23,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-05-27T10:10:39Z",
+  "createdAt": "2025-05-16T12:08:05Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "Documentation/reference/os/time_clock.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 16,
+      "deletions": 2
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/wqueue/kwork_queue.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix-wdog-delay",
+  "headRefOid": "1d3e4b877dc99c47cda44f890b57cfeab9cf17d4",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6WdwsT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "947856efe0eb24988880cfdd69eeb8e0635cd8c5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-27T10:10:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16394,
+  "state": "MERGED",
+  "title": "sched: Add max delay tick limitation for wdog/wqueue.",
+  "updatedAt": "2025-05-27T10:10:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16394"
+}

@@ -1,0 +1,93 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-05-19T12:34:32Z",
+  "createdAt": "2025-05-15T09:20:45Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "sched/mqueue/mq_rcvinternal.c",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "sched/mqueue/mq_sndinternal.c",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "sched/mqueue/msgrcv.c",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "sched/mqueue/msgsnd.c",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 2,
+      "deletions": 10
+    }
+  ],
+  "headRefName": "watchdog_race_fixes",
+  "headRefOid": "c86dee07abfe91ce0bd18f8cf8017a1c4aaeb018",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6WSsdw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6ed21ec1afa90a2b2ddfd958fde0f587ee045926"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-19T12:34:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16389,
+  "state": "MERGED",
+  "title": "sched: Remove checking of WDOG_ISACTIVE when cancelling wdog",
+  "updatedAt": "2025-05-19T12:34:32Z",
+  "url": "https://github.com/apache/nuttx/pull/16389"
+}

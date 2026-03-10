@@ -1,0 +1,816 @@
+{
+  "additions": 3238,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "is_bot": false,
+    "login": "sumpfralle",
+    "name": "Lars Kruse"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1681,
+  "closed": true,
+  "closedAt": "2025-05-23T02:48:41Z",
+  "createdAt": "2025-05-16T14:40:14Z",
+  "deletions": 3059,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 154,
+      "deletions": 0
+    },
+    {
+      "path": ".codespellrc",
+      "additions": 18,
+      "deletions": 6
+    },
+    {
+      "path": "CMakeLists.txt",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.19",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "LICENSE",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/include/dm320/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/gd32f4/gd32f4xx_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/gd32f4/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/kinetis/chip.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/include/mx8mp/mx8mp_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/s32k3xx/s32k3x4_irq.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32g4xxxx_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/a1x/a1x_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_allocpage.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/arm/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_ramvec_attach.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_allocpage.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_smpcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_vectors.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/gic.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_exception.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_ramvec_attach.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/etm.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/nvic.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_mpu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_smpcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/gic.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/mpu.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-r/scu.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_exception.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_gen_nonsecfault.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_ramvec_attach.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/etm.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-m/nvic.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/at32/Kconfig",
+      "additions": 24,
+      "deletions": 24
+    },
+    {
+      "path": "arch/arm/src/at32/at32_eth.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/at32/at32_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/at32/at32_otgfsdev.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/at32/at32_otgfshost.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/at32/at32_pwm.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/at32/at32_sdio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/at32/at32_serial.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/at32/hardware/at32f43xxx_rcc.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/c5471/c5471_irq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/c5471/c5471_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/c5471/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/arm_backtrace_sp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/arm_backtrace_unwind.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/csk6/csk6_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd32xx/cxd32_serial.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/cxd32xx/cxd32_timerisr.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/cxd32xx/cxd32_uart.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd32xx/hardware/cxd32_timer.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_clock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_cpu1signal.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_nxaudio.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_pwm.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_rtc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_sdhci.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_sdhci.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_usbdev.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/hardware/cxd5602_pinconfig.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/dm320/dm320_framebuffer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/dm320/dm320_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/dm320/dm320_usbdev.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_leserial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_usbdev.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_usbhost.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/eoss3/eoss3_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_dma.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_dma.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_enet.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_gpio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_sdio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_serial.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_syscfg.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/gd32f4xx_usart.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/gd32f4/hardware/gd32f4xx_dma.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/gd32f4/hardware/gd32f4xx_enet.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/gd32f4/hardware/gd32f4xx_gpio.h",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/goldfish/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx1/imx_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx1/imx_uart.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/imx6/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx6/hardware/imx_enet.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/imx6/imx_enet.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix-spelling-comments-and-strings",
+  "headRefOid": "623c23ebf8517bb92c14b7ee29c9b5d465722795",
+  "headRepository": {
+    "id": "R_kgDOMSGLsw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "name": "Lars Kruse",
+    "login": "sumpfralle"
+  },
+  "id": "PR_kwDODZiUac6WfATR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzEwMDg2Njc4",
+      "name": "Area: Bluetooth",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPv_w",
+      "name": "Arch: ceva",
+      "description": "Issues related to CEVA architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP2Vg",
+      "name": "Arch: hc",
+      "description": "Issues related to HC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQQPw",
+      "name": "Arch: openrisc",
+      "description": "Issues related to the OpenRISC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRRTg",
+      "name": "Arch: z16",
+      "description": "Issues related to the Z16 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorlqw",
+      "name": "Area: PCI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LwVA",
+      "name": "Board: avr",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L3cA",
+      "name": "Board: renesas",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MARg",
+      "name": "Board: sparc",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f4cc2c262853bce7321bf82661a93426eedfd854"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-23T02:48:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16401,
+  "state": "MERGED",
+  "title": "Fix spelling in comments and strings",
+  "updatedAt": "2025-05-23T23:31:57Z",
+  "url": "https://github.com/apache/nuttx/pull/16401"
+}

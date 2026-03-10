@@ -1,0 +1,84 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-05-17T04:02:33Z",
+  "createdAt": "2025-05-16T16:46:27Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "include/logging/nxscope/nxscope_chan.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "logging/nxscope/nxscope.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "logging/nxscope/nxscope_chan.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "logging/nxscope/nxscope_pser.c",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nxscope_cppcheck",
+  "headRefOid": "9bcb1a6fa025d0e4f73b016e63d4a3eb4620b73d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU1NzA=",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiT486Wf6rj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7wNg",
+      "name": "Area: Logging",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a8740c260223cc65ee13a37009fa4b10514ed8ed"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-17T04:02:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3077,
+  "state": "MERGED",
+  "title": "logging/nxscope: fix various warnings reported by CodeChekcer",
+  "updatedAt": "2025-05-17T04:02:34Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3077"
+}

@@ -1,0 +1,142 @@
+{
+  "additions": 187,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "is_bot": false,
+    "login": "Vajnar",
+    "name": "Martin Vajnar"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-05-16T14:10:29Z",
+  "createdAt": "2025-05-15T13:41:27Z",
+  "deletions": 33,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_pcnt.c",
+      "additions": 35,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_pcnt.c",
+      "additions": 35,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_pcnt.c",
+      "additions": 35,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_pcnt.c",
+      "additions": 35,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_pcnt.c",
+      "additions": 35,
+      "deletions": 3
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix-qe",
+  "headRefOid": "0ba8fd451349bcaa15db78ac7c0b97154f86cd6d",
+  "headRepository": {
+    "id": "R_kgDOMtLutw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "name": "Martin Vajnar",
+    "login": "Vajnar"
+  },
+  "id": "PR_kwDODZiUac6WVOrs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "68b22fee3cf164bf502a497558478ed9be9a5650"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-16T14:10:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16391,
+  "state": "MERGED",
+  "title": "espressif: Fixes for Quadrature Encoder mode of PCNT peripheral",
+  "updatedAt": "2025-05-16T14:10:30Z",
+  "url": "https://github.com/apache/nuttx/pull/16391"
+}

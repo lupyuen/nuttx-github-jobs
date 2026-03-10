@@ -1,0 +1,136 @@
+{
+  "additions": 2177,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-05-17T04:16:55Z",
+  "createdAt": "2025-05-16T13:03:00Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/nrf53/boards/thingy53/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf53/common/include/nrf53_bme688.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/common/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/common/src/nrf53_bme688.c",
+      "additions": 110,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/src/nrf53_sensors.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/bme688_uorb.c",
+      "additions": 1783,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/bme688.h",
+      "additions": 139,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bme688",
+  "headRefOid": "c086c2560aae743bc25834fe7c93dc9938e85c73",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6WeMbS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0ecaeb7efe0ea5c4692904a3ad488c1c0f732320"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-17T04:16:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16397,
+  "state": "MERGED",
+  "title": "sensors: add BME688 gas sensor",
+  "updatedAt": "2025-06-15T06:53:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16397"
+}

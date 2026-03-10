@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-05-16T02:30:41Z",
+  "createdAt": "2025-05-15T13:08:50Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "sched/wdog/wd_cancel.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "revert-16377-fix_wd_cancel",
+  "headRefOid": "19041c0e4d14226dba4fe98c348e9cf1c06245b3",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6WU5iJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "466525891d596727d30a92dbb33ecd7be7eb2b96"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-16T02:30:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16390,
+  "state": "MERGED",
+  "title": "Revert \"sched/wdog/wd_cancel: Return 0 (OK) when cancelling an inactive wdog\"",
+  "updatedAt": "2025-05-16T02:30:41Z",
+  "url": "https://github.com/apache/nuttx/pull/16390"
+}
