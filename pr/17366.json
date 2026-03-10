@@ -1,0 +1,79 @@
+{
+  "additions": 31,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-11-25T02:02:24Z",
+  "createdAt": "2025-11-23T08:14:52Z",
+  "deletions": 22,
+  "files": [
+    {
+      "path": "sched/signal/sig_action.c",
+      "additions": 0,
+      "deletions": 22
+    },
+    {
+      "path": "sched/signal/sig_initialize.c",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "sched/signal/signal.h",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improve_sigact_pool",
+  "headRefOid": "e5a7b97b08c42149dc8a749690cbf95fb79f82ac",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac61CCgq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "817e4ee35419ed57aeb895d40dc1f5324058ad7f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-25T02:02:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17366,
+  "state": "MERGED",
+  "title": "sched/signal: Initialize signal action pool during init phase",
+  "updatedAt": "2025-12-02T13:37:19Z",
+  "url": "https://github.com/apache/nuttx/pull/17366"
+}
