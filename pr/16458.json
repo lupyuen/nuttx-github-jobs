@@ -1,0 +1,73 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBmFUMA",
+    "is_bot": false,
+    "login": "tkaratapanis",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-28T17:39:55Z",
+  "createdAt": "2025-05-28T11:13:25Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_boot.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "imx9-el1-bl",
+  "headRefOid": "4ba5e6e5454c6c49d50fa2b1b202e2be471592e4",
+  "headRepository": {
+    "id": "R_kgDOOlihPg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBmFUMA",
+    "login": "tkaratapanis"
+  },
+  "id": "PR_kwDODZiUac6X8bGD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c6f431033138873fe911e6f844767efaecd4778a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-28T17:39:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16458,
+  "state": "MERGED",
+  "title": "arch/arm64/imx9: Guard EL3-only features when booting at EL1",
+  "updatedAt": "2025-06-02T07:25:58Z",
+  "url": "https://github.com/apache/nuttx/pull/16458"
+}

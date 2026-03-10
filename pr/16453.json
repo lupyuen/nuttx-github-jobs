@@ -1,0 +1,74 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-27T15:11:38Z",
+  "createdAt": "2025-05-27T12:40:09Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/Toolchain.cmake",
+      "additions": 8,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "br_wjy_arm64_stack_usage_250527",
+  "headRefOid": "76e0114b4fbecde1a72177ee859c23888c884e19",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6Xxop4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e57cfc3778224f5c00af061aae88120d1c027ea7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-27T15:11:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16453,
+  "state": "MERGED",
+  "title": "arm64/toolchain: Add -fstack-usage for stack analysis",
+  "updatedAt": "2025-05-27T15:11:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16453"
+}

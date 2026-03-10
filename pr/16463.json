@@ -1,0 +1,213 @@
+{
+  "additions": 884,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIwODMwNDM1",
+    "is_bot": false,
+    "login": "snikeguo",
+    "name": "达文西"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": true,
+  "closedAt": "2025-06-01T10:13:13Z",
+  "createdAt": "2025-06-01T07:32:52Z",
+  "deletions": 587,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/stm32h7/chip.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32h7/stm32h7x3xx_irq.h",
+      "additions": 16,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_vectors.c",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 36,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_fdcan_sock.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_irq.c",
+      "additions": 34,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_sdmmc.c",
+      "additions": 251,
+      "deletions": 147
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_serial.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_start.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_generate_outputs.cmake",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_kconfig.cmake",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/dma/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/dma/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/dma/dma_align_manager.c",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mmcsd/mmcsd.h",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/mmcsd/mmcsd_sdio.c",
+      "additions": 363,
+      "deletions": 166
+    },
+    {
+      "path": "fs/fat/Kconfig",
+      "additions": 0,
+      "deletions": 129
+    },
+    {
+      "path": "fs/fat/fs_fat32.c",
+      "additions": 8,
+      "deletions": 61
+    },
+    {
+      "path": "fs/fat/fs_fat32.h",
+      "additions": 2,
+      "deletions": 25
+    },
+    {
+      "path": "fs/fat/fs_fat32util.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "fs/mmap/fs_anonmap.c",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/dma/dma_align_manager.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/fat.h",
+      "additions": 0,
+      "deletions": 26
+    },
+    {
+      "path": "include/nuttx/sdio.h",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "5e2e75b2c3298df495e0d2dabcdffe0f85c94953",
+  "headRepository": null,
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIwODMwNDM1",
+    "name": "达文西",
+    "login": "snikeguo"
+  },
+  "id": "PR_kwDODZiUac6YdMx0",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16463,
+  "state": "CLOSED",
+  "title": "Add STM32H723 Support, Improve Interrupt Initialization, Drivers, and Optimize FAT/DMA Handling",
+  "updatedAt": "2025-06-01T10:13:13Z",
+  "url": "https://github.com/apache/nuttx/pull/16463"
+}

@@ -1,0 +1,120 @@
+{
+  "additions": 121,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-06-10T14:02:45Z",
+  "createdAt": "2025-06-04T03:41:55Z",
+  "deletions": 201,
+  "files": [
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 25,
+      "deletions": 42
+    },
+    {
+      "path": "include/nuttx/wqueue.h",
+      "additions": 12,
+      "deletions": 17
+    },
+    {
+      "path": "sched/clock/clock_adjtime.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/clock/clock_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_cpuload.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_profil.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/timer/timer_settime.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wdog/wd_start.c",
+      "additions": 1,
+      "deletions": 72
+    },
+    {
+      "path": "sched/wqueue/kwork_queue.c",
+      "additions": 76,
+      "deletions": 42
+    },
+    {
+      "path": "sched/wqueue/kwork_thread.c",
+      "additions": 2,
+      "deletions": 23
+    }
+  ],
+  "headRefName": "remove-wdog-period",
+  "headRefOid": "1b19aa15e39df76d6a089f9bed8b6de198115899",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6Y8b1m",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "19eac98526beb7a76152564fe848c4a003dd70da"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-10T14:02:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16481,
+  "state": "MERGED",
+  "title": "sched/wdog: Replace periodical timer with the wd_start_next.",
+  "updatedAt": "2025-06-10T14:02:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16481"
+}

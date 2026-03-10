@@ -1,0 +1,95 @@
+{
+  "additions": 89,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-06-09T07:49:26Z",
+  "createdAt": "2025-06-05T18:43:32Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_memorymap.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_uid.c",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_uid.h",
+      "additions": 38,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32g0b1re_uid",
+  "headRefOid": "67aa2db5bd65ba19bd3c2ff79e095578e492b05b",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6ZQYrh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "60c9c66839be433a0848916e4bf20dc711d3ca4e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-09T07:49:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "milestone": null,
+  "number": 16489,
+  "state": "MERGED",
+  "title": "Added support obtaining the unique id for the stm32f0l0g0 family",
+  "updatedAt": "2025-06-09T07:49:26Z",
+  "url": "https://github.com/apache/nuttx/pull/16489"
+}

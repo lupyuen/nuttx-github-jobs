@@ -1,0 +1,95 @@
+{
+  "additions": 485,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIwODMwNDM1",
+    "is_bot": false,
+    "login": "snikeguo",
+    "name": "达文西"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-06-02T10:32:22Z",
+  "createdAt": "2025-06-01T11:08:30Z",
+  "deletions": 172,
+  "files": [
+    {
+      "path": "drivers/dma/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/dma/Make.defs",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/dma/dma_align_manager.c",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mmcsd/mmcsd.h",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/mmcsd/mmcsd_sdio.c",
+      "additions": 363,
+      "deletions": 166
+    },
+    {
+      "path": "include/nuttx/dma/dma_align_manager.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sdio.h",
+      "additions": 8,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "f76902ddd082244996a37fe20d49f278bdeb262d",
+  "headRepository": null,
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIwODMwNDM1",
+    "name": "达文西",
+    "login": "snikeguo"
+  },
+  "id": "PR_kwDODZiUac6YeGQF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16464,
+  "state": "CLOSED",
+  "title": "Add DMA Alignment Component and Integrate It into the MMC Driver",
+  "updatedAt": "2025-06-02T10:32:22Z",
+  "url": "https://github.com/apache/nuttx/pull/16464"
+}

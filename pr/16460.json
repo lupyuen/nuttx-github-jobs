@@ -1,0 +1,74 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "is_bot": false,
+    "login": "PetervdPerk-NXP",
+    "name": "Peter van der Perk"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-30T00:51:46Z",
+  "createdAt": "2025-05-29T15:19:33Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm/src/imxrt/hardware/rt117x/imxrt117x_iomuxc.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_clockconfig_ver2.c",
+      "additions": 9,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "pr-rt117x-flexram-fix",
+  "headRefOid": "2793958fcf3ae5057f4b8c97f7a33a2f0fdc896b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDIxNzAxMTM=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU3MTMwODQ0",
+    "name": "Peter van der Perk",
+    "login": "PetervdPerk-NXP"
+  },
+  "id": "PR_kwDODZiUac6YI-tQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7104a51411426c2e2979e4ab7c6c9c242fb11b4c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-30T00:51:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16460,
+  "state": "MERGED",
+  "title": "arch/arm/imxrt: rt117x fix TCM/OCRAM ECC backdoor access",
+  "updatedAt": "2025-05-30T00:51:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16460"
+}

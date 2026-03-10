@@ -1,0 +1,169 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2025-06-06T09:31:10Z",
+  "createdAt": "2025-06-05T05:44:42Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-a/arm_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_perf_cycle.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_perf_time.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/arch_timer.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_arch_perf_events_ifdef_in_alarm",
+  "headRefOid": "8ed4139904c052e8a5d0ea99e3aa1e880c37d95c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6ZIpqR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dd07367f4eeb5ebe785c601e84143cfaf6ad411a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-06T09:31:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16487,
+  "state": "MERGED",
+  "title": "Fix arch perf events ifdef in alarm",
+  "updatedAt": "2025-06-06T09:31:10Z",
+  "url": "https://github.com/apache/nuttx/pull/16487"
+}

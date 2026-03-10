@@ -1,0 +1,263 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 35,
+  "closed": true,
+  "closedAt": "2025-05-28T02:16:50Z",
+  "createdAt": "2025-05-27T16:34:24Z",
+  "deletions": 35,
+  "files": [
+    {
+      "path": "examples/foc/foc_fixed16_thr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/foc/foc_float_thr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/foc/foc_intf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/foc/foc_motor_b16.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/foc/foc_motor_f32.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/ipforward/ipforward.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/lvgldemo/lvgldemo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/nxscope/nxscope_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/powerled/powerled_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/smps/smps_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "logging/nxscope/nxscope_idummy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "logging/nxscope/nxscope_iser.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "logging/nxscope/nxscope_pser.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "modbus/ascii/mbascii.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "modbus/rtu/mbrtu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "modbus/rtu/mbrtu_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/monkey/monkey_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/monkey/monkey_utils.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxcamera/nxcamera_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxlooper/nxlooper_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxplayer/nxplayer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxplayer/nxplayer_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxplayer/nxplayer_mp3.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxplayer/nxplayer_sbc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxrecorder/nxrecorder.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxrecorder/nxrecorder_amr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxrecorder/nxrecorder_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/ofloader/ofloader.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/ofloader/segger.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/readline/readline_fd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/resmonitor/showinfo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/sensorscope/sensorscope_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/ymodem/sb_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/drivers/drivertest/drivertest_i2c_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/drivers/drivertest/drivertest_uart.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_private_banners",
+  "headRefOid": "4131000688b48725d2bdc8b9252e5c3aad12f07b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU1NzA=",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiT486X0JOj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7Ksg",
+      "name": "Area: Modbus",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7wNg",
+      "name": "Area: Logging",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "44eeb1c7c8acf04ddeaff2cd07f7215570f1b891"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-28T02:16:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3086,
+  "state": "MERGED",
+  "title": "Fix private types banners according to coding standard ",
+  "updatedAt": "2025-05-28T02:16:50Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3086"
+}

@@ -1,0 +1,78 @@
+{
+  "additions": 112,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-06-04T23:48:04Z",
+  "createdAt": "2025-06-04T15:13:19Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_perf.c",
+      "additions": 109,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mpfs_optimize_perf_gettime_and_udelay",
+  "headRefOid": "01892ce6b77f8afbda8b51f75613c5e4d21970dd",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6ZC2IN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0ac580cb7a06d142cb5304d7cd4e5e60cc355fe3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-04T23:48:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16485,
+  "state": "MERGED",
+  "title": "arch/risc-v/mpfs: Add optimized perf timer functions",
+  "updatedAt": "2025-06-05T09:45:42Z",
+  "url": "https://github.com/apache/nuttx/pull/16485"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 49,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-06-10T01:58:25Z",
+  "createdAt": "2025-06-06T11:40:53Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "fs/vfs/fs_read.c",
+      "additions": 25,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 24,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "br_wjy_fs_vfs_check_iov_base_250606",
+  "headRefOid": "3ba45de425e06dfcee9a3dd4864f52a3af44b0a9",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6ZYOPv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5e94d4482bf4a7aa40fd89700ffca3be9ca2d9ee"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-10T01:58:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16490,
+  "state": "MERGED",
+  "title": "fs/vfs: check if all `iov_base` are accessible",
+  "updatedAt": "2025-06-10T01:58:26Z",
+  "url": "https://github.com/apache/nuttx/pull/16490"
+}

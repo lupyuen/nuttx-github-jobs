@@ -1,0 +1,80 @@
+{
+  "additions": 63,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "is_bot": false,
+    "login": "Vajnar",
+    "name": "Martin Vajnar"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-06-20T12:51:49Z",
+  "createdAt": "2025-06-06T15:29:32Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_pcnt.c",
+      "additions": 29,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_pcnt.c",
+      "additions": 34,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix-pcnt-count",
+  "headRefOid": "529a62f62170fd642cac82b481e996ff194c8374",
+  "headRepository": {
+    "id": "R_kgDOMtLutw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "name": "Martin Vajnar",
+    "login": "Vajnar"
+  },
+  "id": "PR_kwDODZiUac6ZaONY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0c9931cc9926e4c9fb19da8db232e0d1de1fc281"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-20T12:51:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16491,
+  "state": "MERGED",
+  "title": "espressif[risc-v|xtensa]: Check events when reading PCNT counter value",
+  "updatedAt": "2025-06-20T12:51:49Z",
+  "url": "https://github.com/apache/nuttx/pull/16491"
+}

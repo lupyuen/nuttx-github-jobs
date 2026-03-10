@@ -1,0 +1,648 @@
+{
+  "additions": 130,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 130,
+  "closed": true,
+  "closedAt": "2025-05-28T02:17:15Z",
+  "createdAt": "2025-05-27T16:28:20Z",
+  "deletions": 130,
+  "files": [
+    {
+      "path": "arch/arm/src/imx1/imx_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imx6/imx_ecspi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/nrf52/nrf52_usbd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/nrf53/nrf53_usbd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_adc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_cyw43439.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_ws2812.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_adc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_ws2812.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sam34/sam_udp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_sfc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_udphs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samd2l2/sam_usb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_usb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_usbdevhs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_usbfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_usbfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/tiva/common/tiva_ssi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fatal.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/mips/src/pic32mx/pic32mx_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_misaligned.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_lcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usrsock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "audio/audio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_ili9340.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_lpm013m091a.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/ak09912_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/apds9930_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bh1721fvc_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bh1745nuc_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bm1383glv_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bm1422gmv_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bmp280_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/kx022_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/lt1pa01_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/rpr0521rs_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/s32k1xx/rddrone-bms772/src/s32k1xx_smbus_sbd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/src/sam_lcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/src/sam_ili9325.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/src/sam_ili9341.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4l-xplained/src/sam_slcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_ili9488.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/src/stm32_mio283qt2.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/src/stm32_mio283qt9a.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/shenzhou/src/stm32_ili93xx.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/shenzhou/src/stm32_ssd1289.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_lcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm3220g-eval/src/stm32_lcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm3240g-eval/src/stm32_lcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f334-disco/src/stm32_powerled.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f429i-disco/src/stm32_ili93414ws.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/src/stm32_lcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/mips/pic32mx/pic32mx7mmb/src/pic32_mio283qt2.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/mips/pic32mx/sure-pic32mx/src/pic32mx_lcd1602.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_ili9341.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_ili9341.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/curve25519.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/aie/ai_engine.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/efuse/efuse.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/apa102.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ili9340.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ili9341.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/lcddrv_spiif.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/max7219.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/memlcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/mio283qt2.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/mio283qt9a.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/p14201.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/pcd8544.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ra8875.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/skeleton.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ssd1289.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/st7565.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/st7567.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ug-2864ambag01.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/lcd/ug-9664hswag01.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/leds/lp503x.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/leds/ncp5623c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/leds/pca9635pw.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/leds/rgbled.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/math/math.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/modem/u-blox.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/power/pm/activity_governor.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/power/pm/pm_idle.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/power/pm/stability_governor.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/capture.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/oneshot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/pwm.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/timer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/watchdog.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfsproc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/wireless/ieee80211/bcmf_gpio.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/dlfcn/lib_dlfind_object.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/fixedmath/lib_fixedmath.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/locale/lib_catalog.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/misc/lib_backtrace.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix_private_types_baner",
+  "headRefOid": "24d36e5951a6c6297ca600b029cb90cba33f94ee",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6X0GNU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "302ceb701b2d28ab16aa421e2dc5c70ec0dd594e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-28T02:17:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16454,
+  "state": "MERGED",
+  "title": "Fix private types banners according to coding standard",
+  "updatedAt": "2025-06-15T06:52:17Z",
+  "url": "https://github.com/apache/nuttx/pull/16454"
+}

@@ -1,0 +1,95 @@
+{
+  "additions": 39,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-05-27T12:46:22Z",
+  "createdAt": "2025-05-27T08:22:54Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/avr/src/avr/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/avr_saveusercontext.S",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/excptmacros.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/include/board.h",
+      "additions": 7,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "AVR2",
+  "headRefOid": "b4f670c38a84f47d4a97bbfc777f60970a22db9b",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6XvNhj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LwVA",
+      "name": "Board: avr",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5f736ee1604c4b683eb31c72d511167553c8bd3a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-27T12:46:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16451,
+  "state": "MERGED",
+  "title": "arch/avr: fix up_saveusercontext and other smaller changes",
+  "updatedAt": "2025-05-27T12:47:41Z",
+  "url": "https://github.com/apache/nuttx/pull/16451"
+}

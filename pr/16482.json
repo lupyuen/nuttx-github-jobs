@@ -1,0 +1,111 @@
+{
+  "additions": 151,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-06-05T06:58:24Z",
+  "createdAt": "2025-06-04T09:25:43Z",
+  "deletions": 34,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_enet.c",
+      "additions": 113,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/koptee/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/include/board.h",
+      "additions": 16,
+      "deletions": 33
+    },
+    {
+      "path": "include/nuttx/net/gmii.h",
+      "additions": 4,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix/imx9-enet1-txc-rgmii-id",
+  "headRefOid": "ec2062e9a2c4f4b7940c721ff90f2982866a73f1",
+  "headRepository": {
+    "id": "R_kgDONfoTqA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiUac6Y_L5D",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "67c7a4018ad5a27b544353ac0549fa27c22605a2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-05T06:58:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16482,
+  "state": "MERGED",
+  "title": "Fix i.MX93 ENET1 (EMAC) TXC muxing and RGMII-ID setting",
+  "updatedAt": "2025-06-05T07:34:22Z",
+  "url": "https://github.com/apache/nuttx/pull/16482"
+}

@@ -1,0 +1,130 @@
+{
+  "additions": 736,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-05-30T16:29:18Z",
+  "createdAt": "2025-05-26T02:41:48Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/avr/atmega/boards/elegoo-mega2560r3/elegoo-mega2560r3.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/atmega/boards/elegoo-mega2560r3/index.rst",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/configs/nsh/defconfig",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/include/board.h",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/scripts/Make.defs",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/scripts/flash.ld",
+      "additions": 200,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/src/Makefile",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/src/avr_boot.c",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/src/avr_leds.c",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/elegoo-mega2560r3/src/elegoo_mega2560r3.h",
+      "additions": 53,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "elegoo-controller-board",
+  "headRefOid": "863759da1323832b244d84e273122b882a0dcac0",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6XkPuc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LwVA",
+      "name": "Board: avr",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ef04b4ccb64ecf9eb59b1dac8431a2234f06b960"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-30T16:29:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16443,
+  "state": "MERGED",
+  "title": "boards/avr/atmega: Added Elegoo Mega2560r3 board support",
+  "updatedAt": "2025-11-09T21:30:55Z",
+  "url": "https://github.com/apache/nuttx/pull/16443"
+}

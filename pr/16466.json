@@ -1,0 +1,106 @@
+{
+  "additions": 167,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-06-19T13:01:24Z",
+  "createdAt": "2025-06-02T07:38:11Z",
+  "deletions": 34,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Kconfig-usart",
+      "additions": 100,
+      "deletions": 20
+    },
+    {
+      "path": "drivers/serial/serial.c",
+      "additions": 21,
+      "deletions": 9
+    },
+    {
+      "path": "include/nuttx/serial/serial.h",
+      "additions": 19,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "RFC",
+  "headRefOid": "b8b5e52eb3c2a4eb65874ac6f14f67b66770e51f",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6YkKaT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a3f8b55143ad8ade1da2df0d848b5adb3a15cd9d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-19T13:01:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16466,
+  "state": "MERGED",
+  "title": "drivers/serial: fix race conditions ",
+  "updatedAt": "2025-06-23T08:09:43Z",
+  "url": "https://github.com/apache/nuttx/pull/16466"
+}

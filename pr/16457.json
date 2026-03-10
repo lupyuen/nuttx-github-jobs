@@ -1,0 +1,79 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-05-29T19:24:06Z",
+  "createdAt": "2025-05-28T05:02:37Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "boards/avr/atmega/arduino-mega2560/configs/hello/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/avr/atmega/arduino-mega2560/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/avr/atmega/arduino-mega2560/scripts/flash.ld",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "avr-bootup",
+  "headRefOid": "ab0e16a9de5a0d1185aacc6ff5a3e659a843e774",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6X5Me2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LwVA",
+      "name": "Board: avr",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "40ec988502cc6fd75522168f00dde49430e0666b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-29T19:24:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16457,
+  "state": "MERGED",
+  "title": "avr/atmega: Resolve memory corruption preventing boot",
+  "updatedAt": "2025-05-29T20:59:16Z",
+  "url": "https://github.com/apache/nuttx/pull/16457"
+}
