@@ -1,0 +1,68 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-08-15T01:59:19Z",
+  "createdAt": "2025-08-13T11:56:05Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "include/sys/socket.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix/fix-sockaddr-storage-8byte-alignment",
+  "headRefOid": "f38f713bd5327ba35e9baef3e83e8895b534787d",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac6jeK_Z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7470fd92748d25978a1236d02a9e060de13eb58b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-15T01:59:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16845,
+  "state": "MERGED",
+  "title": "sys/socket.h: wrap the outer layer of struct sockaddr_storage with aligned(SS_ALIGNSIZE)",
+  "updatedAt": "2025-08-15T01:59:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16845"
+}

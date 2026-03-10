@@ -1,0 +1,91 @@
+{
+  "additions": 36,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-20T15:24:35Z",
+  "createdAt": "2025-08-20T11:54:58Z",
+  "deletions": 24,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/rp2040/index.rst",
+      "additions": 22,
+      "deletions": 17
+    },
+    {
+      "path": "Documentation/platforms/arm/rp23xx/boards/raspberrypi-pico-2/index.rst",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/rp2040/boot2/Make.defs",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "nm_pico_sdk_220",
+  "headRefOid": "f7d6a6479963bb3708350be8065c86776e9e2bf5",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6ke0Ib",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "06cc058b61d0de240d901ac5b38f0c634adc7544"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-20T15:24:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16876,
+  "state": "MERGED",
+  "title": "arch/arm/rp2040: Support pico-sdk 2.2.0",
+  "updatedAt": "2025-08-20T23:37:05Z",
+  "url": "https://github.com/apache/nuttx/pull/16876"
+}

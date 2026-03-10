@@ -1,0 +1,73 @@
+{
+  "additions": 32,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-08T18:49:49Z",
+  "createdAt": "2025-08-08T01:11:24Z",
+  "deletions": 62,
+  "files": [
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "drivers/sensors/l86xxx_uorb.c",
+      "additions": 32,
+      "deletions": 53
+    }
+  ],
+  "headRefName": "fix-l86",
+  "headRefOid": "208bc5603d60d5c672af7d00862166c4268f78b2",
+  "headRepository": {
+    "id": "R_kgDOM69a6w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjMzMTgyODIy",
+    "login": "CarletonURocketry"
+  },
+  "id": "PR_kwDODZiUac6irl21",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4845eadaa9ac87d077344594fadf640a8ea00dd5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-08T18:49:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 16821,
+  "state": "MERGED",
+  "title": "drivers/l86xxx: Mutex fixes & performance improvements",
+  "updatedAt": "2025-08-08T18:49:56Z",
+  "url": "https://github.com/apache/nuttx/pull/16821"
+}

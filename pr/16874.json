@@ -1,0 +1,150 @@
+{
+  "additions": 570,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-08-22T12:50:13Z",
+  "createdAt": "2025-08-20T11:23:28Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "Documentation/reference/user/08_pthread.rst",
+      "additions": 47,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/standards/posix.rst",
+      "additions": 64,
+      "deletions": 64
+    },
+    {
+      "path": "include/nuttx/lib/setjmp.h",
+      "additions": 76,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/pthread.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/pthread.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "include/unistd.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_attr_getguardsize.c",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_attr_setguardsize.c",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/pthread_concurrency.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/unistd/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/unistd/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/unistd/lib_confstr.c",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "sched/pthread/pthread_create.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "pse52",
+  "headRefOid": "0a9e95d1dd1c0f5a90db6f29fe40ff8e56acd241",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6kecGC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "92186c194270fa57eed507381b901476e46c9d49"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-22T12:50:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16874,
+  "state": "MERGED",
+  "title": "Add missing PSE52 interfaces",
+  "updatedAt": "2026-03-02T14:23:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16874"
+}

@@ -1,0 +1,142 @@
+{
+  "additions": 704,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-08-21T16:29:55Z",
+  "createdAt": "2025-08-12T17:10:56Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/rp2040/boards/raspberrypi-pico/index.rst",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/include/rp2040_ads7046.h",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_ads7046.c",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_common_bringup.c",
+      "additions": 27,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/ads7046/defconfig",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/Kconfig",
+      "additions": 21,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/analog/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/ads7046.c",
+      "additions": 282,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/analog/ads7046.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/analog/ioctl.h",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nm_ads7046",
+  "headRefOid": "4aa70512c836291f4b6c8fd2aa78e0ea86b76344",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6jUH26",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3e70a7edc735b9c14228455d5bf9e78b68d5b978"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-21T16:29:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16836,
+  "state": "MERGED",
+  "title": "drivers/analog/ads7046: Add support for ADS7046 ADC",
+  "updatedAt": "2025-08-24T10:56:42Z",
+  "url": "https://github.com/apache/nuttx/pull/16836"
+}

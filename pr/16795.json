@@ -1,0 +1,113 @@
+{
+  "additions": 274,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-01-13T02:29:24Z",
+  "createdAt": "2025-07-29T15:52:05Z",
+  "deletions": 85,
+  "files": [
+    {
+      "path": "arch/sim/include/setjmp.h",
+      "additions": 12,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_errno.c",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostfs.c",
+      "additions": 118,
+      "deletions": 29
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostmisc.c",
+      "additions": 8,
+      "deletions": 14
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostuart.c",
+      "additions": 31,
+      "deletions": 18
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_rawgadget.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 9,
+      "deletions": 18
+    },
+    {
+      "path": "arch/sim/src/sim/win/sim_errno.c",
+      "additions": 46,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "sim_save_errno",
+  "headRefOid": "f8d10c8a9c76cf104d3c6c79020332e3bfe16df3",
+  "headRepository": {
+    "id": "R_kgDOLHs-vw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiUac6hNJd6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a938926b5209e99a2008fece5a2e39fc07c62067"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-13T02:29:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16795,
+  "state": "MERGED",
+  "title": "arch/sim: save errno in sim context switch to avoid coroutine make errno mess between host api calls.",
+  "updatedAt": "2026-01-13T02:29:24Z",
+  "url": "https://github.com/apache/nuttx/pull/16795"
+}

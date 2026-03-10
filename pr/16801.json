@@ -1,0 +1,86 @@
+{
+  "additions": 110,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-03T16:00:48Z",
+  "createdAt": "2025-07-31T14:49:42Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/optee/defconfig",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee_smc.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/optee_smc_yield_to_nw_tasks2",
+  "headRefOid": "952edaf4022cc1e02e931f2d0034c3f4d67a0df6",
+  "headRepository": {
+    "id": "R_kgDONfoTqA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiUac6hjWmu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ddf74ae0596c71f253aeb711d61eff9bb2aad7d7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-03T16:00:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16801,
+  "state": "MERGED",
+  "title": "drivers/misc/optee_smc: Fix sched_yield() on flat builds",
+  "updatedAt": "2025-08-03T16:00:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16801"
+}

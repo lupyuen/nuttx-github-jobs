@@ -1,0 +1,231 @@
+{
+  "additions": 2407,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 31,
+  "closed": true,
+  "closedAt": "2025-07-30T11:28:07Z",
+  "createdAt": "2025-07-28T09:39:15Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/samv7/boards/pic32czca70-curiosity/index.rst",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/samv7/index.rst",
+      "additions": 13,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/include/samv7/chip.h",
+      "additions": 123,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/samv7/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/Kconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samv7/hardware/sam_memorymap.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/hardware/sam_pinmap.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_emac.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_hsmci.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_mcan.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_periphclks.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/common/tools/pic32cz-curiosity-stlink.cfg",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/.gitignore",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/configs/max/defconfig",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/configs/nsh/defconfig",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/include/board.h",
+      "additions": 308,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/kernel/Makefile",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/kernel/sam_userspace.c",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/scripts/Make.defs",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/Make.defs",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_appinit.c",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_autoleds.c",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_board.h",
+      "additions": 273,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_boot.c",
+      "additions": 134,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_bringup.c",
+      "additions": 157,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_buttons.c",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_sdcard.c",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_usbdev.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_userleds.c",
+      "additions": 97,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pic32czca70",
+  "headRefOid": "99192e04acca4214b3c7a11b6c0f955f626384ee",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac6g7qos",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f43d0f03c05acd9a2f1e04ac936332f454806c7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-30T11:28:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16783,
+  "state": "MERGED",
+  "title": "arch/arm/samv7: add support for pin to pin compatible pic32cz ca70 series and its evaluation kit",
+  "updatedAt": "2025-07-30T11:28:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16783"
+}

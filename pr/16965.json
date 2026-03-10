@@ -1,0 +1,131 @@
+{
+  "additions": 370,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-09-03T12:01:44Z",
+  "createdAt": "2025-09-02T13:59:45Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Bootloader.mk",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 40,
+      "deletions": 8
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_efuse.c",
+      "additions": 50,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_efuse.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "tools/espressif/Config.mk",
+      "additions": 22,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp-efuse-virtual-encrypted",
+  "headRefOid": "d4dd7bcec690d0fe72a12b32ae11ec49c9a92e3f",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6mdsAU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b5f6620a4c85735b28bbfdf2a806f4f40ea4de95"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-03T12:01:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16965,
+  "state": "MERGED",
+  "title": " arch/risc-v: improve E-Fuse support for ESP32-C3|C6|H2 ",
+  "updatedAt": "2025-09-03T12:01:44Z",
+  "url": "https://github.com/apache/nuttx/pull/16965"
+}

@@ -1,0 +1,101 @@
+{
+  "additions": 103,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-09-08T11:48:35Z",
+  "createdAt": "2025-08-27T13:05:46Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/reference/os/events.rst",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/event.h",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/event_clear.c",
+      "additions": 71,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_even_clear_api",
+  "headRefOid": "d449064ad61fa45c42b9b9717bdeb1ebcbee3a9a",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6lmOkM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cac1cc896a41d7a629332d7b552593b5d73b6a8a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-08T11:48:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 16920,
+  "state": "MERGED",
+  "title": "sched/event: add nxevent_clear api",
+  "updatedAt": "2025-09-08T13:13:35Z",
+  "url": "https://github.com/apache/nuttx/pull/16920"
+}

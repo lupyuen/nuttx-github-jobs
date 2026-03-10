@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjc4NDI2OTg=",
+      "login": "jerpelea",
+      "name": "Alin Jerpelea"
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-08-13T15:12:30Z",
+  "createdAt": "2025-08-13T12:01:55Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_schedulesigaction.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "arm64_fix_schedulesigaction_with_mmu_enabled",
+  "headRefOid": "e91654a6999c481f594c3c4c97e493872a75d091",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6jePjS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8a157d7514b2e088b659acdd83d2964d670e4bec"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-13T15:12:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16846,
+  "state": "MERGED",
+  "title": "arch/arm64_schedulesigaction.c: Fix signal delivery in EL1 when MMU is enabled",
+  "updatedAt": "2025-08-26T14:12:33Z",
+  "url": "https://github.com/apache/nuttx/pull/16846"
+}

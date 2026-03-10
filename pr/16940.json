@@ -1,0 +1,142 @@
+{
+  "additions": 491,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "is_bot": false,
+    "login": "13627105546",
+    "name": "daichuan0525"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2026-01-19T15:22:47Z",
+  "createdAt": "2025-08-29T16:44:13Z",
+  "deletions": 105,
+  "files": [
+    {
+      "path": "Documentation/components/net/netdev.rst",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/netdev.h",
+      "additions": 60,
+      "deletions": 86
+    },
+    {
+      "path": "net/devif/ipv4_input.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "net/inet/ipv4_build_header.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/netdev.h",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "net/netdev/netdev_checksum.c",
+      "additions": 264,
+      "deletions": 0
+    },
+    {
+      "path": "net/tcp/tcp_input.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "net/tcp/tcp_send.c",
+      "additions": 16,
+      "deletions": 4
+    },
+    {
+      "path": "net/udp/udp_input.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "net/udp/udp_send.c",
+      "additions": 14,
+      "deletions": 11
+    }
+  ],
+  "headRefName": "hardware-checksum-offload",
+  "headRefOid": "522c033432a809824c453b697d25949dd05ead54",
+  "headRepository": {
+    "id": "R_kgDOMlMqqw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyODk0NTU0",
+    "name": "daichuan0525",
+    "login": "13627105546"
+  },
+  "id": "PR_kwDODZiUac6mBf0Q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b01f8b04e97893d61b17b6aa13909fc1fbc1709f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-19T15:22:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16940,
+  "state": "MERGED",
+  "title": "net: Hardware Checksum Offload Support for NuttX Network Stack",
+  "updatedAt": "2026-01-19T15:22:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16940"
+}

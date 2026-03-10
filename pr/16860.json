@@ -1,0 +1,74 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "is_bot": false,
+    "login": "ajuckler",
+    "name": "Antoine Juckler"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-17T13:41:33Z",
+  "createdAt": "2025-08-17T03:08:12Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f76xx77xx_pinmap.h",
+      "additions": 2,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f76xx77xx_pinmap_legacy.h",
+      "additions": 2,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "f7xx_i2c4_sda",
+  "headRefOid": "c6ce5f45e899ed6943710d075890f93c3b77bdad",
+  "headRepository": {
+    "id": "R_kgDONaihnQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "name": "Antoine Juckler",
+    "login": "ajuckler"
+  },
+  "id": "PR_kwDODZiUac6j-Gll",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "53d7fab3555c5db0bdcd096fd7d65181232693e4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-17T13:41:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16860,
+  "state": "MERGED",
+  "title": "arch/stm32f7: Fix I2C4 SDA pin assignment",
+  "updatedAt": "2025-11-25T14:09:33Z",
+  "url": "https://github.com/apache/nuttx/pull/16860"
+}

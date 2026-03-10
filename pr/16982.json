@@ -1,0 +1,75 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-14T15:08:35Z",
+  "createdAt": "2025-09-07T14:29:01Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "drivers/syslog/syslog_write.c",
+      "additions": 12,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "syslog_multiple_channel",
+  "headRefOid": "5d5214b3ef51c67e188a3c21cc157dcd1bdcfa0d",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6nQbbK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "474835eabe559e789396bdcfb2174a743767638a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-14T15:08:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 16982,
+  "state": "MERGED",
+  "title": "drivers/syslog: let syslog_write() return the maximum bytes writen through a channel",
+  "updatedAt": "2025-09-19T07:10:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16982"
+}

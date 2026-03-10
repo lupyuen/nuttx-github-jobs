@@ -1,0 +1,78 @@
+{
+  "additions": 174,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-24T13:21:27Z",
+  "createdAt": "2025-08-22T08:45:50Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 21,
+      "deletions": 11
+    },
+    {
+      "path": "cmake/nuttx_process_config.cmake",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "tools/process_config.py",
+      "additions": 105,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_cmake_process_config",
+  "headRefOid": "c8330ad29640a0e1e90500bce45d3baa1b5d23d5",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6k1_N1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16891,
+  "state": "CLOSED",
+  "title": "Cmake: add defconfig preprocess capability in Cmake build environment (recursively expand #include)",
+  "updatedAt": "2025-08-24T13:21:27Z",
+  "url": "https://github.com/apache/nuttx/pull/16891"
+}

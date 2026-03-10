@@ -1,0 +1,225 @@
+{
+  "additions": 2007,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcxMDU5OTM=",
+    "is_bot": false,
+    "login": "wengzhe",
+    "name": "Zhe Weng"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 31,
+  "closed": true,
+  "closedAt": "2025-08-12T12:20:01Z",
+  "createdAt": "2025-08-12T04:28:17Z",
+  "deletions": 580,
+  "files": [
+    {
+      "path": "graphics/input/CMakeLists.txt",
+      "additions": 34,
+      "deletions": 8
+    },
+    {
+      "path": "graphics/input/Kconfig",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "graphics/input/Make.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "graphics/input/Makefile",
+      "additions": 25,
+      "deletions": 8
+    },
+    {
+      "path": "graphics/input/generator/input.c",
+      "additions": 146,
+      "deletions": 167
+    },
+    {
+      "path": "graphics/input/generator/input_gen_ctx.c",
+      "additions": 304,
+      "deletions": 0
+    },
+    {
+      "path": "graphics/input/generator/input_gen_dev.c",
+      "additions": 228,
+      "deletions": 0
+    },
+    {
+      "path": "graphics/input/generator/input_gen_event.c",
+      "additions": 578,
+      "deletions": 0
+    },
+    {
+      "path": "graphics/input/generator/input_gen_internal.h",
+      "additions": 174,
+      "deletions": 0
+    },
+    {
+      "path": "graphics/input/monkey/monkey.c",
+      "additions": 34,
+      "deletions": 5
+    },
+    {
+      "path": "graphics/input/monkey/monkey.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "graphics/input/monkey/monkey_assert.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "graphics/input/monkey/monkey_dev.c",
+      "additions": 39,
+      "deletions": 48
+    },
+    {
+      "path": "graphics/input/monkey/monkey_dev.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "graphics/input/monkey/monkey_event.c",
+      "additions": 22,
+      "deletions": 71
+    },
+    {
+      "path": "graphics/input/monkey/monkey_event.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "graphics/input/monkey/monkey_log.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "graphics/input/monkey/monkey_log.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "graphics/input/monkey/monkey_main.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "graphics/input/monkey/monkey_proc.c",
+      "additions": 12,
+      "deletions": 38
+    },
+    {
+      "path": "graphics/input/monkey/monkey_recorder.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "graphics/input/monkey/monkey_recorder.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "graphics/input/monkey/monkey_type.h",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "graphics/input/monkey/monkey_utils.c",
+      "additions": 3,
+      "deletions": 41
+    },
+    {
+      "path": "graphics/input/monkey/monkey_utils.h",
+      "additions": 4,
+      "deletions": 10
+    },
+    {
+      "path": "include/graphics/input_gen.h",
+      "additions": 304,
+      "deletions": 0
+    },
+    {
+      "path": "system/input/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 35
+    },
+    {
+      "path": "system/input/Kconfig",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "system/input/Make.defs",
+      "additions": 0,
+      "deletions": 25
+    },
+    {
+      "path": "system/input/Makefile",
+      "additions": 0,
+      "deletions": 32
+    },
+    {
+      "path": "system/monkey/Kconfig",
+      "additions": 0,
+      "deletions": 27
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "11d0c09d8609abe113909a909a981cdd833a4b1b",
+  "headRepository": {
+    "id": "R_kgDOIr2SFw",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcxMDU5OTM=",
+    "name": "Zhe Weng",
+    "login": "wengzhe"
+  },
+  "id": "PR_kwDODZiT486jLK66",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABxJhmxQ",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "fdf6f57d6c99c3fb06885fca4ef22e4e7f5b7e48"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-12T12:20:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3156,
+  "state": "MERGED",
+  "title": "apps: Add input generator library and refactor monkey / input",
+  "updatedAt": "2025-08-12T12:20:01Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3156"
+}

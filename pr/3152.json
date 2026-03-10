@@ -1,0 +1,73 @@
+{
+  "additions": 37,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-06T02:54:18Z",
+  "createdAt": "2025-08-05T10:55:01Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "include/netutils/dhcpc.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dhcpc/dhcpc.c",
+      "additions": 35,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/get-t1-and-t2-from-dhcp-packet",
+  "headRefOid": "042da169409055f1e976d8b2e4f9fc1bac4536ef",
+  "headRepository": {
+    "id": "R_kgDOKeVwjQ",
+    "name": "apache-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiT486iLDQM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8f3c3c57f9997c8b01834292fbc034dc7775dffd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-06T02:54:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3152,
+  "state": "MERGED",
+  "title": "netutils/dhcpc/dhcpc: add implementation to get renewal (T1) time and rebinding (T2) time from DHCP packet",
+  "updatedAt": "2025-08-06T02:54:19Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3152"
+}

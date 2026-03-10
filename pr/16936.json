@@ -1,0 +1,129 @@
+{
+  "additions": 4526,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-09-02T16:53:04Z",
+  "createdAt": "2025-08-29T05:25:51Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/net/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/Kconfig",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/Make.defs",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/oa_tc6.c",
+      "additions": 2196,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/oa_tc6.h",
+      "additions": 513,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/oa_tc6_lan865x.c",
+      "additions": 724,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/oa_tc6_lan865x.h",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/oa_tc6_ncv7410.c",
+      "additions": 671,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/oa_tc6/oa_tc6_ncv7410.h",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/oa_tc6.h",
+      "additions": 144,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "oa-pr-driver",
+  "headRefOid": "25e463fa6fea88498410c514c7996028952e41a5",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac6l6-DS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0f498005f05061295547f4362e2201a5548f5220"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-02T16:53:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16936,
+  "state": "MERGED",
+  "title": "drivers/net: Add network driver for 10BASE-T1x SPI MAC-PHYs",
+  "updatedAt": "2025-09-02T16:53:04Z",
+  "url": "https://github.com/apache/nuttx/pull/16936"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 139,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-31T06:04:31Z",
+  "createdAt": "2025-07-29T21:20:38Z",
+  "deletions": 41,
+  "files": [
+    {
+      "path": "arch/arm/src/imxrt/Kconfig",
+      "additions": 82,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_clockconfig_ver1.c",
+      "additions": 26,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_ehci.c",
+      "additions": 31,
+      "deletions": 31
+    }
+  ],
+  "headRefName": "imxrt_dualusb",
+  "headRefOid": "840fe746b2dd47df3391da5f3b4c063e49c4573d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6hQHZ1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "59dc9a3884f06d122d752a735d3333f2bf51861a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-31T06:04:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16797,
+  "state": "MERGED",
+  "title": "arch/arm/imxrt: Initial modification to support two USB Controllers",
+  "updatedAt": "2025-07-31T06:04:32Z",
+  "url": "https://github.com/apache/nuttx/pull/16797"
+}

@@ -1,0 +1,89 @@
+{
+  "additions": 29,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-08-19T22:44:31Z",
+  "createdAt": "2025-08-19T13:54:00Z",
+  "deletions": 29,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "drivers/analog/Kconfig",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "simbit18-kconfig",
+  "headRefOid": "bfb4809927df9572a04ce455b430f756de077784",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6kTfxC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2b3741d08364fcb95e9bb93d31eee08aa950c174"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-19T22:44:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16865,
+  "state": "MERGED",
+  "title": "[Kconfig] Fix Kconfig style",
+  "updatedAt": "2025-08-20T08:08:51Z",
+  "url": "https://github.com/apache/nuttx/pull/16865"
+}

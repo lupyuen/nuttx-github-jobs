@@ -1,0 +1,78 @@
+{
+  "additions": 24,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE1ODY2NjE2",
+    "is_bot": false,
+    "login": "jnippula",
+    "name": "Jari Nippula"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-14T18:23:23Z",
+  "createdAt": "2025-08-14T08:42:12Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_coremmc.c",
+      "additions": 7,
+      "deletions": 12
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_emmcsd.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mpfs_coremmc_fixes",
+  "headRefOid": "0641f076ab13db72b13fbc97e5b578c1e6dd2358",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6jo27K",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "93c1e0c633ff3fe0da99ab29db03049d6a7c8730"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-14T18:23:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16850,
+  "state": "MERGED",
+  "title": "arch/risc-v/src/mpfs: fixes for coremmc and emmcsd",
+  "updatedAt": "2025-08-15T04:20:43Z",
+  "url": "https://github.com/apache/nuttx/pull/16850"
+}

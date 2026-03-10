@@ -1,0 +1,135 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-08-25T12:32:35Z",
+  "createdAt": "2025-08-25T06:59:40Z",
+  "deletions": 2431,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c6/common/include/esp_board_ncv7410.h",
+      "additions": 0,
+      "deletions": 75
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_ncv7410.c",
+      "additions": 0,
+      "deletions": 105
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/ncv7410/defconfig",
+      "additions": 0,
+      "deletions": 75
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/ncv7410/defconfig",
+      "additions": 0,
+      "deletions": 75
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/src/esp32c6_bringup.c",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/net/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/Kconfig",
+      "additions": 0,
+      "deletions": 24
+    },
+    {
+      "path": "drivers/net/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/net/ncv7410.c",
+      "additions": 0,
+      "deletions": 1662
+    },
+    {
+      "path": "drivers/net/ncv7410.h",
+      "additions": 0,
+      "deletions": 291
+    },
+    {
+      "path": "include/nuttx/net/ncv7410.h",
+      "additions": 0,
+      "deletions": 88
+    }
+  ],
+  "headRefName": "oa-pr-remove",
+  "headRefOid": "7a4e011d61b5ee9d5ab7bce8a06ef72685249ef8",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac6lJzcZ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4a4235b5a2c3f33b63fa3be1e7a61d51db07a54e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-25T12:32:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16899,
+  "state": "MERGED",
+  "title": "drivers/net: Remove NCV7410 driver and corresponding board support",
+  "updatedAt": "2025-08-25T12:32:35Z",
+  "url": "https://github.com/apache/nuttx/pull/16899"
+}

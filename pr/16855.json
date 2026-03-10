@@ -1,0 +1,80 @@
+{
+  "additions": 42,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-21T16:30:28Z",
+  "createdAt": "2025-08-14T16:40:53Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "tools/rp2040/Config.mk",
+      "additions": 20,
+      "deletions": 15
+    },
+    {
+      "path": "tools/rp23xx/Config.mk",
+      "additions": 22,
+      "deletions": 15
+    }
+  ],
+  "headRefName": "nm_rp2040_ensure_picosdk_picotool",
+  "headRefOid": "53c52825e64f6f00dd6c776b545a526bbba6a296",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6jt6AQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "86c466b6bcba398319a99f49c5bf24fc405949f3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-21T16:30:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16855,
+  "state": "MERGED",
+  "title": "tools/rp{2040,23xx}: Ensure that picotool is found or built",
+  "updatedAt": "2025-08-24T12:09:14Z",
+  "url": "https://github.com/apache/nuttx/pull/16855"
+}

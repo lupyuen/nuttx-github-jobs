@@ -1,0 +1,69 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-07-31T12:14:34Z",
+  "createdAt": "2025-07-31T06:56:18Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/misc/optee_smc.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/optee_smc_yield_to_nw_tasks",
+  "headRefOid": "cf566bdd33acb1ff3cef4405e85d71152047f44c",
+  "headRepository": {
+    "id": "R_kgDONfoTqA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiUac6hekJW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "199c301a8ef2138494fd573adb7935a395c49178"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-31T12:14:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16800,
+  "state": "MERGED",
+  "title": "drivers/misc/optee_smc: Explicitly yield during NW interrupts",
+  "updatedAt": "2025-07-31T18:57:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16800"
+}

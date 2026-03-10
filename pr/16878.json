@@ -1,0 +1,106 @@
+{
+  "additions": 341,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5ODIwODgx",
+    "is_bot": false,
+    "login": "thiagofinelon",
+    "name": "Thiago Finelon"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-08-24T14:32:10Z",
+  "createdAt": "2025-08-20T19:09:16Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_pm.c",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_rtc.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_rtc.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/Kconfig",
+      "additions": 152,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "esp32s3_ext1_wakeup",
+  "headRefOid": "47b039a321cf966db099548380c1637e83d1faf4",
+  "headRepository": {
+    "id": "R_kgDOOaSfJA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5ODIwODgx",
+    "name": "Thiago Finelon",
+    "login": "thiagofinelon"
+  },
+  "id": "PR_kwDODZiUac6kjnRX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e87c43b79842097e3d10d4d52f52f7182ad3f45c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-24T14:32:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16878,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32s3: Add EXT1 wakeup support in power management",
+  "updatedAt": "2025-08-24T14:32:10Z",
+  "url": "https://github.com/apache/nuttx/pull/16878"
+}

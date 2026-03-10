@@ -1,0 +1,85 @@
+{
+  "additions": 27,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-08T18:50:19Z",
+  "createdAt": "2025-08-07T03:18:05Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lis2mdl_uorb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/lsm6dso32_uorb.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "buffer-sizes",
+  "headRefOid": "78f284ac768b429257e3e0853ecf740ecdd104d2",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6ifu9i",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "41eaa50a5813d277089a32cfd4069bd06285eb03"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-08T18:50:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 16819,
+  "state": "MERGED",
+  "title": "Increase buffer sizes for uORB devices",
+  "updatedAt": "2025-08-08T18:50:22Z",
+  "url": "https://github.com/apache/nuttx/pull/16819"
+}

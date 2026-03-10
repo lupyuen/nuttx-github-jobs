@@ -1,0 +1,121 @@
+{
+  "additions": 119,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-09-04T01:48:35Z",
+  "createdAt": "2025-09-01T08:14:26Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/reference/user/05_counting_semaphore.rst",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/semaphore.h",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "include/semaphore.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/semaphore/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/semaphore/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/semaphore/sem_init.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/semaphore/sem_setmaxvalue.c",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_sema_set_maxvalue",
+  "headRefOid": "1f2c19297c58811832c7bb73751817db73bae3e4",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6mO_X4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7d0fb9d34f68ea704b93783f0064bcfc52420236"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-04T01:48:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16944,
+  "state": "MERGED",
+  "title": "sched/semaphore: add support to customize semaphore max allowed value",
+  "updatedAt": "2025-09-19T07:09:11Z",
+  "url": "https://github.com/apache/nuttx/pull/16944"
+}

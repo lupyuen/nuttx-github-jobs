@@ -1,0 +1,85 @@
+{
+  "additions": 169,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-25T12:30:16Z",
+  "createdAt": "2025-08-25T00:48:30Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_process_config.cmake",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "tools/process_config.py",
+      "additions": 105,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_cmake_defconfig_process",
+  "headRefOid": "0aa63c2356d2297699656dc6aae1fda420e9e40d",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6lHvXt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "be36d42da56de341eebe2f99f6ea4eea2b59a155"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-25T12:30:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16897,
+  "state": "MERGED",
+  "title": "Cmake: add defconfig preprocess capability in Cmake build environment(recursively expand #include)",
+  "updatedAt": "2025-08-26T00:51:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16897"
+}

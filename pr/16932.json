@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-31T10:38:03Z",
+  "createdAt": "2025-08-29T02:41:45Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "include/nuttx/semaphore.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/semaphore/sem_init.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "update_nxsem_init_api",
+  "headRefOid": "0e7bc8006b5e8d84cbdbea5016a6cffb1a374d6f",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6l6Gpw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8cfb9d70530f7c86072be1218de3d6fe1b8ab275"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-31T10:38:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 16932,
+  "state": "MERGED",
+  "title": "libs/libc/semaphore:  allow nxsem_init to negative value",
+  "updatedAt": "2025-08-31T13:17:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16932"
+}

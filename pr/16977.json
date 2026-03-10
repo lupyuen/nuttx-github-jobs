@@ -1,0 +1,87 @@
+{
+  "additions": 281,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-09-15T01:28:26Z",
+  "createdAt": "2025-09-05T07:30:35Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/nuttx/printk.h",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "sched/printk/CMakeLists.txt",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "sched/printk/Make.defs",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "sched/printk/printk.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "sched/printk/printk.h",
+      "additions": 38,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_printk",
+  "headRefOid": "845d42483751bcb83168bff1f2d5efa51b1fc824",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6m_zu5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16977,
+  "state": "CLOSED",
+  "title": "sched/printk: add nxprintk() to support syncronous printf function for kernel debug",
+  "updatedAt": "2025-09-18T13:00:37Z",
+  "url": "https://github.com/apache/nuttx/pull/16977"
+}

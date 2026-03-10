@@ -1,0 +1,103 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "is_bot": true,
+    "login": "app/dependabot"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-08-18T12:28:20Z",
+  "createdAt": "2025-08-18T03:27:07Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": ".github/workflows/docker_linux.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "dependabot/github_actions/actions/checkout-5",
+  "headRefOid": "6b8f7c844823f3c481c875e38be531a6c9b4d9fa",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjgxMDMyNzM=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjQ3MzU5",
+    "login": "apache"
+  },
+  "id": "PR_kwDODZiUac6kBeu1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvyZmuA",
+      "name": "github_actions",
+      "description": "Pull requests that update GitHub Actions code",
+      "color": "000000"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAAB67C3uQ",
+      "name": "dependencies",
+      "description": "Pull requests that update a dependency file",
+      "color": "0366d6"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f6585e82815e050bde09aaf9c969779d9033c656"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-18T12:28:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16861,
+  "state": "MERGED",
+  "title": "build(deps): bump actions/checkout from 4 to 5",
+  "updatedAt": "2025-08-18T12:28:28Z",
+  "url": "https://github.com/apache/nuttx/pull/16861"
+}

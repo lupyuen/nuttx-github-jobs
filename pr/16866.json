@@ -1,0 +1,100 @@
+{
+  "additions": 259,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5ODIwODgx",
+    "is_bot": false,
+    "login": "thiagofinelon",
+    "name": "Thiago Finelon"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-08-20T17:50:30Z",
+  "createdAt": "2025-08-19T14:06:49Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/include/esp32s3_board_spislavedev.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_spislavedev.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/spislv/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 26,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "esp32s3_spi_slave_bringup",
+  "headRefOid": "e4f5d50f2d891b9ad3d40fd0e419db024a5709c9",
+  "headRepository": {
+    "id": "R_kgDOOaSfJA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5ODIwODgx",
+    "name": "Thiago Finelon",
+    "login": "thiagofinelon"
+  },
+  "id": "PR_kwDODZiUac6kTpua",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2713c5e9dfdc5baf25272425314a42dc4e215cbb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-20T17:50:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "milestone": null,
+  "number": 16866,
+  "state": "MERGED",
+  "title": "boards/esp32s3: Add SPI slave device support",
+  "updatedAt": "2025-08-20T17:50:30Z",
+  "url": "https://github.com/apache/nuttx/pull/16866"
+}

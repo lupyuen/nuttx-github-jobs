@@ -1,0 +1,80 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-02T06:56:36Z",
+  "createdAt": "2025-08-29T15:15:44Z",
+  "deletions": 54,
+  "files": [
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 13,
+      "deletions": 54
+    }
+  ],
+  "headRefName": "fix_signal_not_delivered",
+  "headRefOid": "26bae56ac614cce168c7a7b6fa4d702a1e894965",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6mAvDs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a030e3c8ccbdd62e30c746eb675e76312064e63e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-02T06:56:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 16939,
+  "state": "MERGED",
+  "title": "sched/signal/sig_dispatch.c: Correct signal dispatch to specific thread",
+  "updatedAt": "2025-09-02T06:56:36Z",
+  "url": "https://github.com/apache/nuttx/pull/16939"
+}

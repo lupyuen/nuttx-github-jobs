@@ -1,0 +1,90 @@
+{
+  "additions": 32,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-08-13T11:18:32Z",
+  "createdAt": "2025-08-12T17:19:54Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "arch/arm/src/rp2040/Kconfig",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/rp2040/hardware/rp2040_adc.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/rp2040/hardware/rp2040_io_bank0.h",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_common_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "nm_rp2040_adc_gpio_macro_typos",
+  "headRefOid": "bba42e801e178978d10a1cfe56596c65a6d1fd69",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6jUNHy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1dfe1f16c6a969cf8e4df518ac5ae866aeaf6d65"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-13T11:18:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16837,
+  "state": "MERGED",
+  "title": "arch/arm/rp2040: Fix typos in ADC and GPIO macro names",
+  "updatedAt": "2025-08-13T11:18:32Z",
+  "url": "https://github.com/apache/nuttx/pull/16837"
+}

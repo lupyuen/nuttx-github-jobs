@@ -1,0 +1,73 @@
+{
+  "additions": 64,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-22T18:46:47Z",
+  "createdAt": "2025-08-22T14:36:52Z",
+  "deletions": 40,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiflash.c",
+      "additions": 32,
+      "deletions": 20
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spiflash.c",
+      "additions": 32,
+      "deletions": 20
+    }
+  ],
+  "headRefName": "esp32_start_kthreads_with_correct_affinity",
+  "headRefOid": "926a14229b0bd1568ca5f884e453cbe459a9c81f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6k5baE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "80cb2cf9c628df5e8d4ab62a996cbcd39d3e94c3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-22T18:46:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "milestone": null,
+  "number": 16894,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32,esp32s3: Start the \"spiflash_op\" thread with corret affinity",
+  "updatedAt": "2025-08-22T18:46:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16894"
+}

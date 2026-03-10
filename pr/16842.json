@@ -1,0 +1,85 @@
+{
+  "additions": 78,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-13T15:23:18Z",
+  "createdAt": "2025-08-12T17:53:41Z",
+  "deletions": 69,
+  "files": [
+    {
+      "path": "arch/arm/src/rp2040/rp2040_adc.c",
+      "additions": 69,
+      "deletions": 61
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_adc.h",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_common_bringup.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "nm_rp2040_adc_internal_function_names",
+  "headRefOid": "2444a2612c412cca3de16bad049b7b8638738fc1",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6jUiPA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7ea3f8e333f69104430a0663edaa252f42b78e3c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-13T15:23:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16842,
+  "state": "MERGED",
+  "title": "arch/arm/rp2040: Support non-sequential ADC channels and standardize internal function names",
+  "updatedAt": "2025-08-13T17:43:52Z",
+  "url": "https://github.com/apache/nuttx/pull/16842"
+}

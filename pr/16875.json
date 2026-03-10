@@ -1,0 +1,74 @@
+{
+  "additions": 51,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-22T07:34:38Z",
+  "createdAt": "2025-08-20T11:36:30Z",
+  "deletions": 39,
+  "files": [
+    {
+      "path": "drivers/can/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/can/kvaser_pci.c",
+      "additions": 41,
+      "deletions": 39
+    }
+  ],
+  "headRefName": "kvaser_fix",
+  "headRefOid": "b6a0a55f30a7d89b6120f9b3039beb76ee2945b7",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6kenE5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4ed174a7e02f052dbc06766aa489496130122484"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-22T07:34:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 16875,
+  "state": "MERGED",
+  "title": "drivers/can/kvaser_pci: configure number of passes in interrupt handler",
+  "updatedAt": "2026-03-02T14:23:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16875"
+}

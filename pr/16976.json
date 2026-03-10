@@ -1,0 +1,79 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "is_bot": false,
+    "login": "trns1997",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-09-14T02:44:51Z",
+  "createdAt": "2025-09-04T19:32:48Z",
+  "deletions": 53,
+  "files": [
+    {
+      "path": "tools/mkexport.sh",
+      "additions": 82,
+      "deletions": 48
+    },
+    {
+      "path": "tools/toolchain.cmake.export",
+      "additions": 2,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "fix-mkexport-missing-gnu",
+  "headRefOid": "648919c1a16131c475b454876edc28a9024346a1",
+  "headRepository": {
+    "id": "R_kgDOJ0OTLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3NjgyODQ2",
+    "login": "trns1997"
+  },
+  "id": "PR_kwDODZiUac6m7dwz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "918505e13d886f0e37e055a58303ae10b68758e6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-14T02:44:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16976,
+  "state": "MERGED",
+  "title": "fix missing gnu-elf.ld cp when generating export",
+  "updatedAt": "2025-09-14T02:44:51Z",
+  "url": "https://github.com/apache/nuttx/pull/16976"
+}

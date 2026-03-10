@@ -1,0 +1,80 @@
+{
+  "additions": 55,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-16T11:56:22Z",
+  "createdAt": "2025-08-13T14:03:26Z",
+  "deletions": 38,
+  "files": [
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_rom.h",
+      "additions": 41,
+      "deletions": 34
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/common/src/rp23xx_reset.c",
+      "additions": 14,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "rp23xx-risc-v-reset",
+  "headRefOid": "3887005b8c809a9921f0db6e09ab901dfc9830d2",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6jftV2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2437771de55a8cac25c3d8a9eba914b5ce938916"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-16T11:56:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16848,
+  "state": "MERGED",
+  "title": "boards/risc-v/rp23xx-rv/common: update board reset via BOOTROM functions",
+  "updatedAt": "2025-08-16T14:18:17Z",
+  "url": "https://github.com/apache/nuttx/pull/16848"
+}

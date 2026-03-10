@@ -1,0 +1,94 @@
+{
+  "additions": 1959,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE5MjkzMA==",
+    "is_bot": false,
+    "login": "zsaleeba",
+    "name": "Zik Saleeba"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-08-29T12:10:50Z",
+  "createdAt": "2025-08-29T03:59:49Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/ioexpander/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/ioexpander/Kconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/ioexpander/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/ioexpander/aw9523b.c",
+      "additions": 1529,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/ioexpander/aw9523b.h",
+      "additions": 188,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/ioexpander/aw9523b.h",
+      "additions": 177,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/aw9523b-driver",
+  "headRefOid": "6717e01be6a089297ed270199b7877c9a372c911",
+  "headRepository": {
+    "id": "R_kgDOPlva_A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE5MjkzMA==",
+    "name": "Zik Saleeba",
+    "login": "zsaleeba"
+  },
+  "id": "PR_kwDODZiUac6l6gMX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "835c535e1854f71dcc849dd33df653c7f2064782"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-29T12:10:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16934,
+  "state": "MERGED",
+  "title": "drivers/ioexpander/aw9523b: New driver for AW9523B i/o expander",
+  "updatedAt": "2025-08-29T12:10:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16934"
+}

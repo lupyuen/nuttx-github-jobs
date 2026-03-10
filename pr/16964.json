@@ -1,0 +1,69 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-09-02T16:52:38Z",
+  "createdAt": "2025-09-02T12:48:35Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/tricore/src/common/tricore_doirq.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix_tricore_local_var_issue",
+  "headRefOid": "add6fb548f36198c0b9eedb1e96ee8e9eac81185",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6mcwID",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f44766611af4eb42f60a5e4f01923d4079f2f418"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-02T16:52:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16964,
+  "state": "MERGED",
+  "title": "arch/tricore: fix tricore_doirq function local var \"regs\" not initialized issue",
+  "updatedAt": "2025-09-03T00:53:29Z",
+  "url": "https://github.com/apache/nuttx/pull/16964"
+}

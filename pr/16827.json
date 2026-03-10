@@ -1,0 +1,90 @@
+{
+  "additions": 48,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "is_bot": false,
+    "login": "comejv",
+    "name": "Côme"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-08-12T12:21:14Z",
+  "createdAt": "2025-08-11T16:46:18Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture.c",
+      "additions": 30,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/capture.c",
+      "additions": 14,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix/h743zicapture",
+  "headRefOid": "7bec634d8360275cd39bf702b8f279e0219a737e",
+  "headRepository": {
+    "id": "R_kgDOPSPQyg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "name": "Côme",
+    "login": "comejv"
+  },
+  "id": "PR_kwDODZiUac6jFwfU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "25fe6b07494a3fc5291c0c170637517aa2996954"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-12T12:21:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16827,
+  "state": "MERGED",
+  "title": "arch/stm32h7: Fix timer capture upper half driver registration",
+  "updatedAt": "2025-08-12T15:02:01Z",
+  "url": "https://github.com/apache/nuttx/pull/16827"
+}

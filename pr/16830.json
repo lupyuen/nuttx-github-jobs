@@ -1,0 +1,116 @@
+{
+  "additions": 227,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "is_bot": false,
+    "login": "comejv",
+    "name": "Côme"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-08-14T12:46:37Z",
+  "createdAt": "2025-08-11T20:33:05Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/timers/capture.rst",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/capture/defconfig",
+      "additions": 53,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "doc/h743zicapture",
+  "headRefOid": "86f911925d2fbf446097bfcb9e8f1cb138ac1c6d",
+  "headRepository": {
+    "id": "R_kgDOPSPQyg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "name": "Côme",
+    "login": "comejv"
+  },
+  "id": "PR_kwDODZiUac6jIO5A",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5cc01bb562c3559c28c500141b0ddfa025529bf1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-14T12:46:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16830,
+  "state": "MERGED",
+  "title": "h743zi/capture: add doc, defconfig & update make pipeline",
+  "updatedAt": "2025-08-14T12:46:37Z",
+  "url": "https://github.com/apache/nuttx/pull/16830"
+}

@@ -1,0 +1,143 @@
+{
+  "additions": 4953,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrKzqw",
+    "is_bot": false,
+    "login": "lipengfei28",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-08-22T12:54:06Z",
+  "createdAt": "2025-07-30T03:24:45Z",
+  "deletions": 277,
+  "files": [
+    {
+      "path": "arch/arm64/include/imx9/imx95_irq.h",
+      "additions": 377,
+      "deletions": 270
+    },
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Make.defs",
+      "additions": 12,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx95/imx95_clock.h",
+      "additions": 828,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx95/imx95_iomuxc.h",
+      "additions": 815,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx95/imx95_memorymap.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_iomuxc.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_mu.h",
+      "additions": 265,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_clockconfig.c",
+      "additions": 257,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_clockconfig.h",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_iomuxc.c",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_iomuxc.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_mu.c",
+      "additions": 392,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_mu.h",
+      "additions": 227,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_scmi.c",
+      "additions": 1274,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_scmi.h",
+      "additions": 334,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "imx95_1",
+  "headRefOid": "6b788380f8ba4c5c5a76d15c23b0ae8c890d9b11",
+  "headRepository": {
+    "id": "R_kgDOMoeIUQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrKzqw",
+    "login": "lipengfei28"
+  },
+  "id": "PR_kwDODZiUac6hRzmz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d45dfb8a9e717531c243870a3936404358c5d15f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-22T12:54:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16798,
+  "state": "MERGED",
+  "title": "arm64: porting mu drv and scmi from arm imx9",
+  "updatedAt": "2025-08-26T07:03:41Z",
+  "url": "https://github.com/apache/nuttx/pull/16798"
+}

@@ -1,0 +1,80 @@
+{
+  "additions": 82,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-28T14:04:09Z",
+  "createdAt": "2025-08-28T08:28:50Z",
+  "deletions": 37,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_rom.h",
+      "additions": 61,
+      "deletions": 36
+    },
+    {
+      "path": "boards/arm/rp23xx/common/src/rp23xx_reset.c",
+      "additions": 21,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "rp23xx-arm-reset",
+  "headRefOid": "95aacdad56dbd3951f088759409805a3033c4d95",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6lwaxG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "52d1877e2e7eea622060855e5806e13c39e6111d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-28T14:04:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16931,
+  "state": "MERGED",
+  "title": "boards/arm/rp23xx/common: update board reset via BOOTROM functions",
+  "updatedAt": "2025-08-28T14:04:09Z",
+  "url": "https://github.com/apache/nuttx/pull/16931"
+}

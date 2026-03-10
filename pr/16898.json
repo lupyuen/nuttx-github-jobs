@@ -1,0 +1,227 @@
+{
+  "additions": 360,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 29,
+  "closed": true,
+  "closedAt": "2025-08-26T08:09:35Z",
+  "createdAt": "2025-08-25T05:47:46Z",
+  "deletions": 188,
+  "files": [
+    {
+      "path": "Documentation/platforms/tricore/tc397/boards/kit_a2g_tc397_tft/index.rst",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/Kconfig",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/include/irq.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/tc397/chip.h",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/tc397/irq.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc397/.gitignore",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc397/CMakeLists.txt",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc397/Kconfig",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/tc397/Make.defs",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc397/chip.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 24
+    },
+    {
+      "path": "arch/tricore/src/tc3xx/Make.defs",
+      "additions": 0,
+      "deletions": 29
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/configs/nsh/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/include/board.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/include/board_memorymap.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Gnuc_Tricore_Tc.lsl",
+      "additions": 94,
+      "deletions": 94
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Lcf_Tasking_Tricore_Tc.lsl",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/src/tc397.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/src/tc397_appinit.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/src/tc397_boardinit.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/src/tc397_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "rename_tricore_tc397_board",
+  "headRefOid": "0bca2c9a4690c0b636cfdb89dce902f1b3d62a17",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6lJLeX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "28206007e0645a3d6c726323e35b199eedacafda"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-26T08:09:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16898,
+  "state": "MERGED",
+  "title": "board/tricore:  rename tc397 chip board name",
+  "updatedAt": "2025-08-26T09:46:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16898"
+}

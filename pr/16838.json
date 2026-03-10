@@ -1,0 +1,131 @@
+{
+  "additions": 765,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-08-19T22:45:32Z",
+  "createdAt": "2025-08-12T17:21:33Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/rp2040/boards/raspberrypi-pico/index.rst",
+      "additions": 47,
+      "deletions": 19
+    },
+    {
+      "path": "boards/arm/rp2040/common/include/rp2040_tmp112.h",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_common_bringup.c",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/common/src/rp2040_tmp112.c",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/tmp112/defconfig",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/tmp112.c",
+      "additions": 304,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/tmp112.h",
+      "additions": 117,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nm_tmp112",
+  "headRefOid": "81064e6de9e8136accd4d4748aaaa2ee8a57c3aa",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6jUOEU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3ba6047e2940f84d0e24bee2fb84be20cb5c8ef3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-19T22:45:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16838,
+  "state": "MERGED",
+  "title": "drivers/sensors/tmp112: Add support for TMP112 temperature sensor",
+  "updatedAt": "2025-08-20T10:27:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16838"
+}

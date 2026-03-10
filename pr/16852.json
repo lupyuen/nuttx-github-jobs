@@ -1,0 +1,68 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-08-16T11:41:59Z",
+  "createdAt": "2025-08-14T11:35:21Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_usb.c",
+      "additions": 15,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "mpfs_optimize_usb_driver",
+  "headRefOid": "f880db869936649961b87b0551277a2101804ff4",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6jquyG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "581d667f723070e0a6bf847a808b28222799f953"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-16T11:41:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16852,
+  "state": "MERGED",
+  "title": "risc-v/mpfs: usb: don't try nonexistent ep int flags",
+  "updatedAt": "2025-08-26T14:12:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16852"
+}

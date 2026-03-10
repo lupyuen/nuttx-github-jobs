@@ -1,0 +1,120 @@
+{
+  "additions": 229,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-08-08T17:50:28Z",
+  "createdAt": "2025-08-06T17:52:49Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5xxx_rcc.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h5xx_rcc.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/configs/fdcan1/defconfig",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/include/board.h",
+      "additions": 16,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/nucleo-h563zi.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_bringup.c",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_can.c",
+      "additions": 95,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32h5_fdcan_kconfig",
+  "headRefOid": "0d73bb479b31c2b0b1cb71259550bf327d5e4780",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6ibqfF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "821b067a6080f71fe08b6e10522537f4de0574d1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-08T17:50:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "milestone": null,
+  "number": 16818,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h5: Fix STM32H5 FDCAN Driver and Add Test Files",
+  "updatedAt": "2025-08-08T17:50:28Z",
+  "url": "https://github.com/apache/nuttx/pull/16818"
+}

@@ -1,0 +1,78 @@
+{
+  "additions": 57,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-18T12:27:20Z",
+  "createdAt": "2025-08-14T10:37:25Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_coremmc.c",
+      "additions": 33,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_emmcsd.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_usb.c",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mpfs_smp_interrupt_handling_fixes",
+  "headRefOid": "d27aff41f88093e65bcfc77b172a5f1618889632",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6jqJ7Q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "67b17cb4d781b8d19c19f76f60f48622fb157ed0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-18T12:27:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16851,
+  "state": "MERGED",
+  "title": " arch/risc-v/mpfs: SMP interrupt handling fixes",
+  "updatedAt": "2025-08-26T14:12:59Z",
+  "url": "https://github.com/apache/nuttx/pull/16851"
+}

@@ -1,0 +1,116 @@
+{
+  "additions": 3030,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "is_bot": false,
+    "login": "comejv",
+    "name": "Côme"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-08-07T13:46:39Z",
+  "createdAt": "2025-08-04T18:18:16Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 374,
+      "deletions": 49
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture.c",
+      "additions": 1625,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture.h",
+      "additions": 240,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture_lowerhalf.c",
+      "additions": 590,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/include/board.h",
+      "additions": 67,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_bringup.c",
+      "additions": 112,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/capture.c",
+      "additions": 17,
+      "deletions": 17
+    }
+  ],
+  "headRefName": "feat/h7cap",
+  "headRefOid": "069433462876da17803d74980b668d775f9830b5",
+  "headRepository": {
+    "id": "R_kgDOPSPQyg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "name": "Côme",
+    "login": "comejv"
+  },
+  "id": "PR_kwDODZiUac6iDgXz",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2771df625078ce309c2643ac5f1fcc0c5e2f4a7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-07T13:46:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16809,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h7: Port timer capture driver from stm32",
+  "updatedAt": "2025-08-07T13:46:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16809"
+}

@@ -1,0 +1,121 @@
+{
+  "additions": 956,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-09-01T14:58:02Z",
+  "createdAt": "2025-08-30T21:02:12Z",
+  "deletions": 473,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/imxrt/boards/arcx-socket-grid/index.rst",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/hardware/imxrt_usbotg.h",
+      "additions": 79,
+      "deletions": 64
+    },
+    {
+      "path": "arch/arm/src/imxrt/hardware/imxrt_usbphy.h",
+      "additions": 73,
+      "deletions": 33
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_ehci.c",
+      "additions": 629,
+      "deletions": 287
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_ehci.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_usbdev.c",
+      "additions": 73,
+      "deletions": 69
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/arcx-socket-grid.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_bringup.c",
+      "additions": 12,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_usbhost.c",
+      "additions": 76,
+      "deletions": 15
+    }
+  ],
+  "headRefName": "imxrt_dualusb",
+  "headRefOid": "6aa3bb1c1f6507d1c7223df2b3790c8c8a2288d0",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6mH-hu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a503fc6adb6792ab750015bb06c38f46a32cfcbe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-01T14:58:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16941,
+  "state": "MERGED",
+  "title": "arch/arm/imxrt: Add support to both USB Controllers of iMXRT",
+  "updatedAt": "2025-09-01T18:38:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16941"
+}

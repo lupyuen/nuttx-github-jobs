@@ -1,0 +1,72 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-13T18:16:01Z",
+  "createdAt": "2025-08-13T12:24:35Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_schedulesigaction.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_schedulesigaction.c",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "arm64_and_riscv_fix_race_in_schedulesigaction",
+  "headRefOid": "d6f8f6eef414381daf87e9563050c682845a4d5a",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6jegYd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16847,
+  "state": "CLOSED",
+  "title": "arm64/riscv schedulesigaction: Remove redundant zeroing of tcb->sigdeliver",
+  "updatedAt": "2025-08-13T18:16:18Z",
+  "url": "https://github.com/apache/nuttx/pull/16847"
+}

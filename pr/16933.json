@@ -1,0 +1,90 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-09-05T06:20:05Z",
+  "createdAt": "2025-08-29T03:31:05Z",
+  "deletions": 33,
+  "files": [
+    {
+      "path": "include/nuttx/event.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "sched/event/event_init.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/event_post.c",
+      "additions": 3,
+      "deletions": 28
+    },
+    {
+      "path": "sched/event/event_wait.c",
+      "additions": 10,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "apache_11",
+  "headRefOid": "f300b82a2601a075231c1a5500290c26a87d2a87",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6l6Vw5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4cea1480885cb33bdfe211df301c62b09651059e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-05T06:20:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 16933,
+  "state": "MERGED",
+  "title": "sched: remove csection in event",
+  "updatedAt": "2025-11-08T07:15:36Z",
+  "url": "https://github.com/apache/nuttx/pull/16933"
+}

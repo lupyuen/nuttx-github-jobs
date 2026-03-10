@@ -1,0 +1,89 @@
+{
+  "additions": 42,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-09-11T12:00:20Z",
+  "createdAt": "2025-08-27T06:04:18Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "nshlib/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "nshlib/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/Makefile",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_command.c",
+      "additions": 25,
+      "deletions": 4
+    },
+    {
+      "path": "nshlib/nsh_parse.c",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "run_builtin_apps_as_command",
+  "headRefOid": "912468a2002cd8f3e8c48cc893b4cf04319acc26",
+  "headRepository": {
+    "id": "R_kgDOPhDaTQ",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiT486liWhY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7X-w",
+      "name": "Area: NSH",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "93060aa59df830d2a4906138dec5253f161aeaf0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-11T12:00:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3168,
+  "state": "MERGED",
+  "title": "nshlib/nsh_builtin.c : Add support to run builtin dirrectly without creating a separate thread",
+  "updatedAt": "2025-09-11T14:13:52Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3168"
+}

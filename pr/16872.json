@@ -1,0 +1,78 @@
+{
+  "additions": 101,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-21T02:09:32Z",
+  "createdAt": "2025-08-20T09:19:35Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm64/src/bcm2711/CMakeLists.txt",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_raspberrypi_4b_cmake",
+  "headRefOid": "b36cd8784e6039674de3daf5ccbc07afe3c3a88c",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6kc66S",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16872,
+  "state": "CLOSED",
+  "title": "arch: Add Cmake build support for raspberrypi-4b board & bcm2711 chip",
+  "updatedAt": "2025-08-21T11:56:42Z",
+  "url": "https://github.com/apache/nuttx/pull/16872"
+}

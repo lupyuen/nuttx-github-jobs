@@ -1,0 +1,320 @@
+{
+  "additions": 950,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 50,
+  "closed": true,
+  "closedAt": "2025-09-06T17:46:32Z",
+  "createdAt": "2025-09-04T14:08:50Z",
+  "deletions": 6239,
+  "files": [
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_efuse.c",
+      "additions": 379,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_efuse.h",
+      "additions": 162,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_efuse.c",
+      "additions": 0,
+      "deletions": 605
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_efuse.h",
+      "additions": 0,
+      "deletions": 93
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_efuse_lowerhalf.c",
+      "additions": 0,
+      "deletions": 195
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_start.c",
+      "additions": 28,
+      "deletions": 22
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse.c",
+      "additions": 0,
+      "deletions": 711
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse.h",
+      "additions": 0,
+      "deletions": 189
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse_lowerhalf.c",
+      "additions": 0,
+      "deletions": 241
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_efuse_table.c",
+      "additions": 0,
+      "deletions": 1347
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_start.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 7,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse.c",
+      "additions": 0,
+      "deletions": 709
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse.h",
+      "additions": 0,
+      "deletions": 224
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse_lowerhalf.c",
+      "additions": 0,
+      "deletions": 243
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_efuse_table.c",
+      "additions": 0,
+      "deletions": 1425
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/esp32_sections.ld",
+      "additions": 29,
+      "deletions": 13
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/kernel-space.ld",
+      "additions": 26,
+      "deletions": 13
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/efuse/defconfig",
+      "additions": 4,
+      "deletions": 56
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/wamr_wasi_debug/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-pico-kit/src/esp32_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/lilygo_tbeam_lora_gps/src/esp32_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_eink5_v2/src/esp32_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_lora_esp32/src/esp32_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_t_display_esp32/src/esp32_bringup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/esp32s2_sections.ld",
+      "additions": 30,
+      "deletions": 13
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 30,
+      "deletions": 13
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/kernel-space.ld",
+      "additions": 27,
+      "deletions": 13
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_lan9250.c",
+      "additions": 42,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-box/src/esp32s3_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/efuse/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/eth_lan9250/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/src/esp32s3_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "feature/esp-xtensa-upgrade-efuse-driver",
+  "headRefOid": "23a907efbe32710f6d9c02c4fe7e1de91de9a0ea",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6m3uqN",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ed751889deac8b1c97899ebf8822e67abff9c8fe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-06T17:46:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16975,
+  "state": "MERGED",
+  "title": " arch/xtensa: update E-Fuse driver on ESP32|S2|S3",
+  "updatedAt": "2025-09-06T17:46:32Z",
+  "url": "https://github.com/apache/nuttx/pull/16975"
+}

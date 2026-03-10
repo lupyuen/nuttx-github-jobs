@@ -1,0 +1,115 @@
+{
+  "additions": 375,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-08-09T20:12:48Z",
+  "createdAt": "2025-08-05T10:43:41Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "arch/arm/src/imxrt/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_ehci.c",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/configs/usbdisk/defconfig",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/include/board.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/arcx-socket-grid.h",
+      "additions": 18,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_bringup.c",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_usbhost.c",
+      "additions": 249,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "imxrt_dualusb",
+  "headRefOid": "eafa14ead70e8aceae375eb7907e96546acab597",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6iK7nX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d218334baaf6151adad764d6fadada9d910759c4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-09T20:12:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16812,
+  "state": "MERGED",
+  "title": "boards/imxrt: Fix issues and add USBHOST support to arcx-socket-grid",
+  "updatedAt": "2025-08-09T20:12:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16812"
+}

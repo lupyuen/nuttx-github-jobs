@@ -1,0 +1,126 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-08-04T13:11:13Z",
+  "createdAt": "2025-08-04T07:09:32Z",
+  "deletions": 27,
+  "files": [
+    {
+      "path": "arch/arm/src/armv6-m/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sparc/src/sparc_v8/sparc_v8_sigdeliver.c",
+      "additions": 1,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix_signal_delivery_race_condition",
+  "headRefOid": "401369394a6bbbac604fae0e2e269450f8533bff",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6h8Ywa",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9cda3ce2165e30bd991ed5435b6a5d750447d717"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-04T13:11:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16806,
+  "state": "MERGED",
+  "title": "arch/*/*_sigdeliver.c: Fix a race condition is signal delivery for SMP",
+  "updatedAt": "2025-08-04T13:11:14Z",
+  "url": "https://github.com/apache/nuttx/pull/16806"
+}

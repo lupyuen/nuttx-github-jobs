@@ -1,0 +1,205 @@
+{
+  "additions": 4565,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": true,
+  "closedAt": "2025-08-28T13:52:03Z",
+  "createdAt": "2025-08-27T13:08:05Z",
+  "deletions": 8114,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 115,
+      "deletions": 8
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_api.c",
+      "additions": 2126,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_api.h",
+      "additions": 197,
+      "deletions": 147
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_event_handler.c",
+      "additions": 357,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_init.c",
+      "additions": 0,
+      "deletions": 467
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_utils.c",
+      "additions": 107,
+      "deletions": 453
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_utils.h",
+      "additions": 65,
+      "deletions": 72
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan.c",
+      "additions": 0,
+      "deletions": 1772
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 1402,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan_netdev.h",
+      "additions": 54,
+      "deletions": 75
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_coex_adapter.c",
+      "additions": 8,
+      "deletions": 5
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_coex_adapter.h",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_wifi_adapter.c",
+      "additions": 7,
+      "deletions": 2257
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_coex_adapter.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_wifi_adapter.c",
+      "additions": 4,
+      "deletions": 2220
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_wifi_adapter.h",
+      "additions": 0,
+      "deletions": 617
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_wlan.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/configs/mcuboot_update_agent/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/configs/sta_softap/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/configs/wifi/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_wlan.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/mcuboot_update_agent/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/sta_softap/defconfig",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/wifi/defconfig",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/sta_softap/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/wifi/defconfig",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/riscv-wifi-refactor",
+  "headRefOid": "aea3d3f6e898bbde11403ccfa8043b2946b26207",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6lmQCs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c15521af912ba9db59f49484d93efc4bbdc8449f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-28T13:52:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16921,
+  "state": "MERGED",
+  "title": "arch/risc-v: Refactor Wi-Fi driver for ESP32-C3|C6",
+  "updatedAt": "2025-08-28T13:52:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16921"
+}

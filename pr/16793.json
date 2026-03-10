@@ -1,0 +1,95 @@
+{
+  "additions": 17,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-02-03T19:45:27Z",
+  "createdAt": "2025-07-29T14:14:58Z",
+  "deletions": 55,
+  "files": [
+    {
+      "path": "Documentation/applications/examples/media/index.rst",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/mtd/ftl.c",
+      "additions": 3,
+      "deletions": 35
+    },
+    {
+      "path": "fs/driver/fs_mtdproxy.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 3,
+      "deletions": 17
+    }
+  ],
+  "headRefName": "ftl",
+  "headRefOid": "eb0d8d9914981ae4d2dadf611efac37a2e94d04f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac6hMEGu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16793,
+  "state": "CLOSED",
+  "title": "mtd/ftl: Rename ftl_initialize_by_path to ftl_initialize",
+  "updatedAt": "2026-02-03T19:45:27Z",
+  "url": "https://github.com/apache/nuttx/pull/16793"
+}

@@ -1,0 +1,88 @@
+{
+  "additions": 100,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-09-07T09:25:27Z",
+  "createdAt": "2025-09-07T09:19:31Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/reference/os/events.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/event.h",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/event/event_getmask.c",
+      "additions": 68,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_event_get_mask",
+  "headRefOid": "c0d4e689742a13eb9644cccab807fb591319e2f3",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6nPqvi",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16980,
+  "state": "CLOSED",
+  "title": "sched/event: add nxevent_getmask api",
+  "updatedAt": "2025-09-07T09:26:06Z",
+  "url": "https://github.com/apache/nuttx/pull/16980"
+}

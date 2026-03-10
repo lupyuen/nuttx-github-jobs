@@ -1,0 +1,137 @@
+{
+  "additions": 437,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": true,
+  "closedAt": "2025-07-29T11:18:30Z",
+  "createdAt": "2025-07-28T15:29:07Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/weact-stm32h743/index.rst",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/configs/st7735/defconfig",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/include/board.h",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/Makefile",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_boot.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_lcd_st7735.c",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_spi.c",
+      "additions": 152,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/weact-stm32h743.h",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/lcd/st7735.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32h743_display",
+  "headRefOid": "d2a150ca300afbad00ce4d58186bd304c810209a",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6hAR7r",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvon4kg",
+      "name": "Area: Graphics",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "934b7b4bf5a4660933ac4640451cc12c9f24532a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-29T11:18:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16785,
+  "state": "MERGED",
+  "title": "boards/weact-stm32h743: Add support to ST7735 display",
+  "updatedAt": "2025-07-29T11:18:30Z",
+  "url": "https://github.com/apache/nuttx/pull/16785"
+}

@@ -1,0 +1,79 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-08-05T11:00:12Z",
+  "createdAt": "2025-08-04T13:10:50Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_i2c.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix/build_fix_esp32c6_lp_i2c",
+  "headRefOid": "6d1a70e901d2b17bcb7543087a20eef9b4500edd",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac6iAG9m",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1c0e1698cdfce2db8a8967526eb8ce3091989473"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-05T11:00:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16807,
+  "state": "MERGED",
+  "title": "bugix/risc-v/esp32c6: Fix build error of LP_I2C",
+  "updatedAt": "2025-08-05T11:00:12Z",
+  "url": "https://github.com/apache/nuttx/pull/16807"
+}

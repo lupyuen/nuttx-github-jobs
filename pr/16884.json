@@ -1,0 +1,78 @@
+{
+  "additions": 72,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-24T14:31:38Z",
+  "createdAt": "2025-08-21T11:30:44Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "arch/arm64/src/common/arm64_arch.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_gic.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_gicv3.c",
+      "additions": 68,
+      "deletions": 18
+    }
+  ],
+  "headRefName": "improve_arm64_gicv3_init",
+  "headRefOid": "48ad416791483e5ee11fe801dd9b37ab7bc1becb",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6kquGr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "67d0b975a58cd8429a55684aa985f05930091032"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-24T14:31:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16884,
+  "state": "MERGED",
+  "title": "arch/arm64/gicv3: Improve initialization in warm reboot case",
+  "updatedAt": "2025-08-26T14:11:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16884"
+}

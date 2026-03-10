@@ -1,0 +1,85 @@
+{
+  "additions": 58,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "is_bot": false,
+    "login": "nmaggioni",
+    "name": "Niccolò Maggioni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-19T18:23:37Z",
+  "createdAt": "2025-08-18T10:54:28Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "tools/ci/docker/linux/Dockerfile",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/platforms/linux.sh",
+      "additions": 22,
+      "deletions": 1
+    },
+    {
+      "path": "tools/ci/platforms/ubuntu.sh",
+      "additions": 22,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "nm_ci_docker_picosdk",
+  "headRefOid": "f79bbe8d687368c58a37b0e51a8457d29c79abb5",
+  "headRepository": {
+    "id": "R_kgDOO5foYg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1OTQ1Mjg=",
+    "name": "Niccolò Maggioni",
+    "login": "nmaggioni"
+  },
+  "id": "PR_kwDODZiUac6kFRUL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0f005b7b8cdb8422cc36b322cb22efdce2e5688f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-19T18:23:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16862,
+  "state": "MERGED",
+  "title": "tools/ci: Include fetching pico-sdk in the CI environment setup",
+  "updatedAt": "2025-08-19T18:40:54Z",
+  "url": "https://github.com/apache/nuttx/pull/16862"
+}

@@ -1,0 +1,94 @@
+{
+  "additions": 26,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-08-15T12:18:34Z",
+  "createdAt": "2025-08-14T11:44:53Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/mpfs/hardware/mpfs_clint.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_userspace.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/include/board_memorymap.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/scripts/kernel-space.ld",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/scripts/memory.ld",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mpfs_map_mtime_in_userspace",
+  "headRefOid": "c34023eea18d968e2870d69cc43adfd1b3639633",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6jq00Z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "85f6f4bca29b2d9c7554250591fbc60bde8a1139"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-15T12:18:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16853,
+  "state": "MERGED",
+  "title": "Mpfs map mtime in userspace",
+  "updatedAt": "2025-08-26T14:11:52Z",
+  "url": "https://github.com/apache/nuttx/pull/16853"
+}

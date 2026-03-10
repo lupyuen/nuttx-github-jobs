@@ -1,0 +1,68 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-08-01T11:54:39Z",
+  "createdAt": "2025-08-01T06:36:04Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/xtensa/src/common/xtensa_sigdeliver.c",
+      "additions": 2,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix_xtensa_signal_delivery_race_condition",
+  "headRefOid": "7eeb3b5393ba4ba448b9f44bcb27af2be9078aac",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6hqJar",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "50d94863f27bff62a45777942d5d18e9d256784f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-01T11:54:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "milestone": null,
+  "number": 16804,
+  "state": "MERGED",
+  "title": "arch/xtensa: Fix a race condition in xtensa_sig_deliver for SMP",
+  "updatedAt": "2025-08-01T11:54:39Z",
+  "url": "https://github.com/apache/nuttx/pull/16804"
+}

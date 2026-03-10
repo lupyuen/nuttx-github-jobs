@@ -1,0 +1,89 @@
+{
+  "additions": 60,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB6gH8g",
+    "is_bot": false,
+    "login": "hujun260",
+    "name": "hujun5"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-09-01T14:58:36Z",
+  "createdAt": "2025-08-28T04:56:41Z",
+  "deletions": 15,
+  "files": [
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/Kconfig",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_head.S",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_head.S",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_head.S",
+      "additions": 17,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "apache_10",
+  "headRefOid": "086ca9018c8e947eb2bb1244b106bf70add3fc71",
+  "headRepository": {
+    "id": "R_kgDOJWvdIA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB6gH8g",
+    "name": "hujun5",
+    "login": "hujun260"
+  },
+  "id": "PR_kwDODZiUac6lug2j",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f59510ec62802cfdd4409ca2a8d9bebce7fe6cfa"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-01T14:58:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16928,
+  "state": "MERGED",
+  "title": "In multicore system, We add a busywait flag to synchronize the startup of other cores.",
+  "updatedAt": "2025-11-08T07:15:36Z",
+  "url": "https://github.com/apache/nuttx/pull/16928"
+}

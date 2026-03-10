@@ -1,0 +1,96 @@
+{
+  "additions": 114,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-09-04T01:47:50Z",
+  "createdAt": "2025-08-31T14:53:05Z",
+  "deletions": 24,
+  "files": [
+    {
+      "path": "Documentation/reference/os/events.rst",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/event.h",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "sched/event/event.h",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "sched/event/event_wait.c",
+      "additions": 53,
+      "deletions": 14
+    }
+  ],
+  "headRefName": "nxevent_tickwait_update",
+  "headRefOid": "71808475a014616ec876b170094d381552f77b38",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac6mKsCd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5676bf82270e5a5351e84eb37b990591d0104619"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-04T01:47:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16942,
+  "state": "MERGED",
+  "title": "sched/event: move the temporary even_wait variable out of nxevent_tickwait",
+  "updatedAt": "2025-09-19T07:10:34Z",
+  "url": "https://github.com/apache/nuttx/pull/16942"
+}

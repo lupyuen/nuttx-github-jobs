@@ -1,0 +1,79 @@
+{
+  "additions": 48,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-09-08T13:41:19Z",
+  "createdAt": "2025-09-08T09:51:48Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostcan.c",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_canchar.c",
+      "additions": 15,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hostcan.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "sim_loopback",
+  "headRefOid": "81901fbf4ed7d2eda1a4ff0b71a1b59e96ec2114",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6nWHWU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "67eb2bfd2942b7d5ce7d036d2f68538fef4ce75e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-09-08T13:41:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16987,
+  "state": "MERGED",
+  "title": "arch/sim/can: add loopback support for CAN character dev",
+  "updatedAt": "2025-09-08T13:41:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16987"
+}

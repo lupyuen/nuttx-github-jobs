@@ -1,0 +1,91 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDODH41jA",
+    "is_bot": false,
+    "login": "TangMeng12",
+    "name": "TangMeng12"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-28T07:21:05Z",
+  "createdAt": "2025-08-26T09:26:59Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "arch/tricore/src/cmake/ToolchainTasking.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/ToolchainTasking.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/jupiter-nano/scripts/Make.defs",
+      "additions": 0,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "86bc268d8c48da3209a4628e57ef7a247519a74a",
+  "headRepository": {
+    "id": "R_kgDOPCy29w",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDODH41jA",
+    "name": "TangMeng12",
+    "login": "TangMeng12"
+  },
+  "id": "PR_kwDODZiUac6lXwws",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ3tg",
+      "name": "Arch: tricore",
+      "description": "Issues related to the TriCore architecture from Infineon",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e1b442b0e8b4a346b0c5a114264f00e1e5f96ae2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-28T07:21:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16910,
+  "state": "MERGED",
+  "title": "arch/tricore: fix ld unrecognized option '-g3'",
+  "updatedAt": "2025-08-28T08:12:06Z",
+  "url": "https://github.com/apache/nuttx/pull/16910"
+}

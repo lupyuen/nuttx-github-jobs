@@ -1,0 +1,91 @@
+{
+  "additions": 385,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-08-27T03:07:05Z",
+  "createdAt": "2025-08-26T14:25:46Z",
+  "deletions": 42,
+  "files": [
+    {
+      "path": "drivers/i2s/i2schar.c",
+      "additions": 264,
+      "deletions": 40
+    },
+    {
+      "path": "include/nuttx/audio/i2s.h",
+      "additions": 113,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 8,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improvement/i2schar",
+  "headRefOid": "d25e8cfc67e1ef695bd24bc8a2b02f9f6d40e77f",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac6lbKWg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "585c25bac0099367553a0c53ee5bbd011baf2b56"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-27T03:07:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16914,
+  "state": "MERGED",
+  "title": "drivers/i2s/i2schar: Implement ioctl commands and blocking read/write operations",
+  "updatedAt": "2025-08-28T19:19:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16914"
+}

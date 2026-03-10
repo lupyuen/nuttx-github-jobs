@@ -1,0 +1,105 @@
+{
+  "additions": 702,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU3OTAwNA==",
+    "is_bot": false,
+    "login": "Laczen",
+    "name": "Jehudi Maes"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-08-05T17:53:57Z",
+  "createdAt": "2025-07-29T09:03:30Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_spiflash.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/nvblk/defconfig",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/Make.defs",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/nvblk.c",
+      "additions": 559,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 23,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nvblk_support",
+  "headRefOid": "1671302068f5681927fbba71e97127bb8737e2bf",
+  "headRepository": {
+    "id": "R_kgDONc9eyw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU3OTAwNA==",
+    "name": "Jehudi Maes",
+    "login": "Laczen"
+  },
+  "id": "PR_kwDODZiUac6hIePO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c506c25f195213ea6a07905f42587d836a3b6d9a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-05T17:53:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16789,
+  "state": "MERGED",
+  "title": "drivers/mtd: introduce nvblk",
+  "updatedAt": "2025-08-05T17:53:57Z",
+  "url": "https://github.com/apache/nuttx/pull/16789"
+}
