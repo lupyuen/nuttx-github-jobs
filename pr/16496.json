@@ -1,0 +1,115 @@
+{
+  "additions": 786,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-06-17T12:58:13Z",
+  "createdAt": "2025-06-09T07:57:50Z",
+  "deletions": 177,
+  "files": [
+    {
+      "path": "drivers/note/notestream_driver.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 85,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stream/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/Make.defs",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_blkoutstream.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/stream/lib_fileinstream.c",
+      "additions": 133,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/lib_fileoutstream.c",
+      "additions": 45,
+      "deletions": 8
+    },
+    {
+      "path": "libs/libc/stream/lib_mtdoutstream.c",
+      "additions": 151,
+      "deletions": 155
+    },
+    {
+      "path": "libs/libc/stream/lib_mtdsostream.c",
+      "additions": 359,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stream2",
+  "headRefOid": "76b0260889285d434a989d55e828c94139817b32",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac6ZpHX9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "99bd3d0f73b537e5d320f2ae6594fa122db7bde4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-17T12:58:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 16496,
+  "state": "MERGED",
+  "title": "improve libc/stream subsystem",
+  "updatedAt": "2025-06-17T13:54:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16496"
+}

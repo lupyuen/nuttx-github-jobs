@@ -1,0 +1,121 @@
+{
+  "additions": 402,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-06-13T12:26:57Z",
+  "createdAt": "2025-06-08T18:05:52Z",
+  "deletions": 42,
+  "files": [
+    {
+      "path": "Documentation/applications/system/syslogd/index.rst",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/syslog.rst",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/syslog/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/syslog/Kconfig",
+      "additions": 53,
+      "deletions": 16
+    },
+    {
+      "path": "drivers/syslog/Make.defs",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/syslog/vsyslog.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/syslog/vsyslog_rfc5424.c",
+      "additions": 238,
+      "deletions": 0
+    },
+    {
+      "path": "include/syslog.h",
+      "additions": 24,
+      "deletions": 20
+    },
+    {
+      "path": "libs/libc/syslog/lib_syslog.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "rfc5424-impl",
+  "headRefOid": "8578f0b913df8d889cba1596de03c7a03bd263fb",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6ZmB1E",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a5f43aa8e864d4f449b2f93a095dcf468dd7e206"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-13T12:26:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16493,
+  "state": "MERGED",
+  "title": "RFC 5424 implementation for SYSLOG",
+  "updatedAt": "2025-11-09T21:30:56Z",
+  "url": "https://github.com/apache/nuttx/pull/16493"
+}

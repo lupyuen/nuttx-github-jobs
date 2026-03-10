@@ -1,0 +1,141 @@
+{
+  "additions": 535,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-06-17T13:25:40Z",
+  "createdAt": "2025-06-09T18:35:22Z",
+  "deletions": 36,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_adc.h",
+      "additions": 77,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_pinmap.h",
+      "additions": 23,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_pinmap_legacy.h",
+      "additions": 23,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_rcc.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.c",
+      "additions": 126,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32g0_rcc.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/configs/adc/defconfig",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/include/board.h",
+      "additions": 20,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/nucleo-g0b1re.h",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_adc.c",
+      "additions": 131,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_bringup.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "g0-adchw",
+  "headRefOid": "0ebfa71a61f0a152a27046d20936f9600c7c7369",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6ZuoeU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "54b7bf6e367ab8e5dbdd73747e1efc18cdd35e3f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-17T13:25:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16500,
+  "state": "MERGED",
+  "title": "Add ADC support for STM32G0 (along with oversampling)",
+  "updatedAt": "2025-06-17T13:25:40Z",
+  "url": "https://github.com/apache/nuttx/pull/16500"
+}

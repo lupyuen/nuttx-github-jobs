@@ -1,0 +1,135 @@
+{
+  "additions": 52,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-06-18T01:24:39Z",
+  "createdAt": "2025-06-09T06:54:05Z",
+  "deletions": 84,
+  "files": [
+    {
+      "path": "libs/libc/stdio/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 10
+    },
+    {
+      "path": "libs/libc/stdio/Make.defs",
+      "additions": 4,
+      "deletions": 9
+    },
+    {
+      "path": "libs/libc/stdio/lib_libsprintf.c",
+      "additions": 0,
+      "deletions": 49
+    },
+    {
+      "path": "libs/libc/stream/CMakeLists.txt",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/Make.defs",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_dtoa_data.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_dtoa_engine.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_dtoa_engine.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/stream/lib_libbsprintf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_libvscanf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_libvsprintf.c",
+      "additions": 19,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_ultoa_invert.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stream/lib_ultoa_invert.h",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "stream",
+  "headRefOid": "155e33fbda1370f390de553d90a00d27cf4d4f85",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac6Zolpk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "025af9d28167afe00e4e2edd4ca1cfddaec70950"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-18T01:24:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 16495,
+  "state": "MERGED",
+  "title": "minor stream improvement",
+  "updatedAt": "2025-06-18T01:41:48Z",
+  "url": "https://github.com/apache/nuttx/pull/16495"
+}

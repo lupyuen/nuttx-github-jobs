@@ -1,0 +1,75 @@
+{
+  "additions": 20,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-06-12T02:00:31Z",
+  "createdAt": "2025-06-11T14:44:09Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_tim.c",
+      "additions": 20,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "stm32c0_tim",
+  "headRefOid": "716341268aabc9e192a8eaa6a3aeffd9e608d02f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6aDHAd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c37a270cdabc3296c82f138080bba6d6439b2524"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-12T02:00:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16514,
+  "state": "MERGED",
+  "title": "arch/stm32f0l0g0/stm32_tim.c: fix compilation when TIM6/TIM7 is missing",
+  "updatedAt": "2025-06-15T06:50:55Z",
+  "url": "https://github.com/apache/nuttx/pull/16514"
+}

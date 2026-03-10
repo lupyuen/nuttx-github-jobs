@@ -1,0 +1,94 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-06-14T16:07:26Z",
+  "createdAt": "2025-06-11T08:48:18Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "drivers/segger/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/segger/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/segger/config/SEGGER_RTT_Conf.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/segger/note_sysview.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/segger/segger.c",
+      "additions": 37,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "change_segger_sysview_lock_into_rspinlock",
+  "headRefOid": "db9ffe50bf3615024e0244bf10d3f7e954dcc250",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6Z_VAP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "42b1ac90fb61f32b465058ac83fb0a9f429e5be3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-14T16:07:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16510,
+  "state": "MERGED",
+  "title": "drivers/segger: Change SEGGER_RTT_LOCK into rspinlock",
+  "updatedAt": "2025-06-14T16:07:26Z",
+  "url": "https://github.com/apache/nuttx/pull/16510"
+}
