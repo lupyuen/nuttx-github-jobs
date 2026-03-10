@@ -1,0 +1,117 @@
+{
+  "additions": 42,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "is_bot": false,
+    "login": "Vajnar",
+    "name": "Martin Vajnar"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-07-22T16:09:02Z",
+  "createdAt": "2025-07-22T11:52:23Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_pcnt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_pcnt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_pcnt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_pcnt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_pcnt.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "pcnt-limits-kconfig",
+  "headRefOid": "d05a0a116a3eab6a59e973eb8c60bcc69530fd0e",
+  "headRepository": {
+    "id": "R_kgDOMtLutw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "name": "Martin Vajnar",
+    "login": "Vajnar"
+  },
+  "id": "PR_kwDODZiUac6gDhCd",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "150854c6f24c5cd0fd6abd08aeece3b2c8f1f576"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-22T16:09:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16754,
+  "state": "MERGED",
+  "title": "espressif: PCNT: add high and low limit Kconfig options",
+  "updatedAt": "2025-07-22T16:09:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16754"
+}

@@ -1,0 +1,73 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-18T14:34:13Z",
+  "createdAt": "2025-07-18T10:29:09Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spiflash_mtd.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix/fix-esp32-async-op-spi-flash-EINTR",
+  "headRefOid": "cd110b567e0520d299d44928d10c93c4b23be069",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac6fjPFw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d1fababfc5e4cc2221adb04bece89809024a55f2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-18T14:34:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16744,
+  "state": "MERGED",
+  "title": "arch/xtensa/esp32: fix esp32(s3)_async_op() asynchronous operation race issue",
+  "updatedAt": "2025-07-18T14:34:13Z",
+  "url": "https://github.com/apache/nuttx/pull/16744"
+}

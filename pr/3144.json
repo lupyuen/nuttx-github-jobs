@@ -1,0 +1,89 @@
+{
+  "additions": 89,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-07-30T07:41:50Z",
+  "createdAt": "2025-07-28T07:28:06Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "crypto/mbedtls/source/cmac_alt.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/mbedtls/source/poly1305_alt.c",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "crypto/mbedtls/source/sha1_alt.c",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "crypto/mbedtls/source/sha256_alt.c",
+      "additions": 22,
+      "deletions": 2
+    },
+    {
+      "path": "crypto/mbedtls/source/sha512_alt.c",
+      "additions": 22,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "shax-alt",
+  "headRefOid": "bc78ab2217481cf7aef43ad82f50df69df16c112",
+  "headRepository": {
+    "id": "R_kgDOKAa8bg",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiT486g50kU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7ksA",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "08fdbb03bb973d8b194f1ee420d662d27434170f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-30T07:41:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3144,
+  "state": "MERGED",
+  "title": "crypto/mbedtls-alt: aligned shax return value with mbedtls test",
+  "updatedAt": "2025-07-30T07:41:50Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3144"
+}

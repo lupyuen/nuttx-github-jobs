@@ -1,0 +1,139 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2025-07-22T06:18:24Z",
+  "createdAt": "2025-07-21T19:57:26Z",
+  "deletions": 39,
+  "files": [
+    {
+      "path": "interpreters/python/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/patch/0001-workaround-newlib-resource.h-limitations.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0002-fix-various-uint32_t-unsigned-int-type-mismatch-issu.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0003-reuse-wasm_assets.py-for-generating-an-archive-of-py.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0004-recognize-nuttx-as-a-supported-OS.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0005-gh-122907-Fix-Builds-Without-HAVE_DYNAMIC_LOADING-Se.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0006-change-var-name-to-avoid-conflict-with-nuttx-unused_.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0007-undef-atexit_register.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0008-declare-struct-timeval.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0009-include-nuttx-sys-select-header-to-define-FD_SETSIZE.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0010-check-for-the-d_ino-member-of-the-structure-dirent.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0011-avoid-redefinition-warning-if-UNUSED-is-already-defi.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0012-hack-place-_PyRuntime-structure-into-PSRAM-bss-regio.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0013-transform-functions-used-by-NuttX-to-lowercase.patch",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "interpreters/python/patch/0014-insert-prefix-to-list_length-to-avoid-symbol-collisi.patch",
+      "additions": 44,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/python_list_length",
+  "headRefOid": "4780d4c68fab1bbfce89140bcc0c1b5d8bf3bc76",
+  "headRepository": {
+    "id": "R_kgDOIFfryw",
+    "name": "incubator-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiT486f655v",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7eSw",
+      "name": "Area: Interpreters",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c83e17c083737eb8b1cdc2c7d4679504f43c6137"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-22T06:18:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3139,
+  "state": "MERGED",
+  "title": "interpreters/python: Fix symbol collision with list_length function",
+  "updatedAt": "2025-07-22T11:50:11Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3139"
+}

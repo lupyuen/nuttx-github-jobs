@@ -1,0 +1,79 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-21T10:56:31Z",
+  "createdAt": "2025-07-19T08:03:05Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/xtensa/include/irq.h",
+      "additions": 9,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_context.S",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_saveusercontext.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "25071901",
+  "headRefOid": "2413edf9345172878b4bb57365bf86a21d81ec9c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNDE2MzUzNTc=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "name": "archer",
+    "login": "anchao"
+  },
+  "id": "PR_kwDODZiUac6frFp1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9e53aab5b35167d7284cfcae951b8a300b7dfb06"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-21T10:56:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16750,
+  "state": "MERGED",
+  "title": "arch/xtensa: fix build break if compiler without ISA - XCHAL_HAVE_THREADPTR support",
+  "updatedAt": "2025-07-21T10:56:31Z",
+  "url": "https://github.com/apache/nuttx/pull/16750"
+}

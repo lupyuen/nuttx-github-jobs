@@ -1,0 +1,89 @@
+{
+  "additions": 301,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-07-26T12:57:26Z",
+  "createdAt": "2025-07-25T20:32:56Z",
+  "deletions": 219,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h56x_dmasigmap.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_dma.c",
+      "additions": 27,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_serial.c",
+      "additions": 164,
+      "deletions": 211
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_uart.h",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "stm32h5_serial_improvements",
+  "headRefOid": "f7128ff9258c2feaa993cf1a6536523d0758c39f",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6gsKB3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4995c836f30fdfb338bef3a25680e2595b6ebc4e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-26T12:57:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16776,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h5: Add DMA Support to STM32H5 Serial Driver",
+  "updatedAt": "2025-07-26T12:57:26Z",
+  "url": "https://github.com/apache/nuttx/pull/16776"
+}

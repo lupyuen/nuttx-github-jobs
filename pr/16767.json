@@ -1,0 +1,83 @@
+{
+  "additions": 179,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrKzqw",
+    "is_bot": false,
+    "login": "lipengfei28",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-08-01T12:47:44Z",
+  "createdAt": "2025-07-25T02:53:31Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "drivers/pci/pci_epc.c",
+      "additions": 108,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/pci/pci_epf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/pci/pci_qemu_epc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/pci/pci_epc.h",
+      "additions": 68,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "pci_epc_dma",
+  "headRefOid": "0e681ad92f8c22d5ed37e7c688dc47eb894e3c85",
+  "headRepository": {
+    "id": "R_kgDOMoeIUQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrKzqw",
+    "login": "lipengfei28"
+  },
+  "id": "PR_kwDODZiUac6gjvDu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorlqw",
+      "name": "Area: PCI",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4fa6d4b7912c7d44d47bfc63c8ba9c549c10633c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-01T12:47:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16767,
+  "state": "MERGED",
+  "title": "drivers/pci: epc add dma heap",
+  "updatedAt": "2025-08-01T12:47:44Z",
+  "url": "https://github.com/apache/nuttx/pull/16767"
+}

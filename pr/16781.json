@@ -1,0 +1,210 @@
+{
+  "additions": 4611,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 28,
+  "closed": true,
+  "closedAt": "2025-07-28T14:13:08Z",
+  "createdAt": "2025-07-26T20:23:29Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/imxrt/boards/arcx-socket-grid/arc_socket_grid.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/imxrt/boards/arcx-socket-grid/index.rst",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/configs/nsh/defconfig",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/include/board.h",
+      "additions": 363,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/kernel/Makefile",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/kernel/imxrt_userspace.c",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/scripts/Make.defs",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/scripts/flash-ocram.ld",
+      "additions": 143,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/scripts/kernel-space.ld",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/scripts/memory.ld",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/scripts/user-space.ld",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/Makefile",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/arcx-socket-grid.h",
+      "additions": 195,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_appinit.c",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_autoleds.c",
+      "additions": 168,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_boot.c",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_bringup.c",
+      "additions": 136,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_ethernet.c",
+      "additions": 294,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_flexspi_nor_boot.c",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_flexspi_nor_boot.h",
+      "additions": 144,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_flexspi_nor_flash.c",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_flexspi_nor_flash.h",
+      "additions": 352,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_gpio.c",
+      "additions": 217,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_sdram_ini_dcd.c",
+      "additions": 1258,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_spi.c",
+      "additions": 212,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imxrt/arcx-socket-grid/src/imxrt_userleds.c",
+      "additions": 87,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "board_arcx",
+  "headRefOid": "d3563fa0a911087c44026a0b1fd0338606d5c913",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6gx1QJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4a90c179f8ea2b788c901d9139a8a0d23c601a18"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-28T14:13:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16781,
+  "state": "MERGED",
+  "title": "boards/imxrt: Add support to ARCX Socket Grid board",
+  "updatedAt": "2025-07-29T11:21:02Z",
+  "url": "https://github.com/apache/nuttx/pull/16781"
+}

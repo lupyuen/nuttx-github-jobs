@@ -1,0 +1,73 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-28T08:46:55Z",
+  "createdAt": "2025-07-26T04:13:56Z",
+  "deletions": 180,
+  "files": [
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/l86xxx_uorb.c",
+      "additions": 83,
+      "deletions": 179
+    }
+  ],
+  "headRefName": "l86-gnss-lowerhalf",
+  "headRefOid": "d827d05453c4265f64cc244678d77cfbe9a938f2",
+  "headRepository": {
+    "id": "R_kgDOM69a6w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjMzMTgyODIy",
+    "login": "CarletonURocketry"
+  },
+  "id": "PR_kwDODZiUac6guoBS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b0760dceb6fb7e7cdb20f034630fb35c0d61dd60"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-28T08:46:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16778,
+  "state": "MERGED",
+  "title": "drivers/sensors/l86xxx: Use uORB GNSS lower-half",
+  "updatedAt": "2025-07-28T14:32:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16778"
+}

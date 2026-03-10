@@ -1,0 +1,127 @@
+{
+  "additions": 3420,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrKzqw",
+    "is_bot": false,
+    "login": "lipengfei28",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-08-19T02:12:07Z",
+  "createdAt": "2025-07-25T08:46:18Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx95_pcie.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx95_pci.c",
+      "additions": 391,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx95_pci.h",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/pcie_dw.c",
+      "additions": 1058,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/pcie_dw.h",
+      "additions": 348,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/pcie_dw_ep.c",
+      "additions": 1181,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/pci/pci_regs.h",
+      "additions": 46,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/pci/pcie_dw.h",
+      "additions": 235,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "imx9_pcie",
+  "headRefOid": "152ac620c28999561e91e89e6c0c469c23248c43",
+  "headRepository": {
+    "id": "R_kgDOMoeIUQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrKzqw",
+    "login": "lipengfei28"
+  },
+  "id": "PR_kwDODZiUac6gl7Nl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorlqw",
+      "name": "Area: PCI",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16772,
+  "state": "CLOSED",
+  "title": "pci: imx95 add pcie ep support",
+  "updatedAt": "2025-08-19T02:12:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16772"
+}

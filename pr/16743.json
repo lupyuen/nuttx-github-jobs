@@ -1,0 +1,220 @@
+{
+  "additions": 1647,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrKzqw",
+    "is_bot": false,
+    "login": "lipengfei28",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 29,
+  "closed": true,
+  "closedAt": "2025-07-28T12:58:03Z",
+  "createdAt": "2025-07-18T09:27:56Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/imx9/boards/imx95-a55-evk/index.rst",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/imx9/chip.h",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/include/imx9/imx95_irq.h",
+      "additions": 304,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/imx9/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Make.defs",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx95/imx95_memorymap.h",
+      "additions": 181,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_ccm.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_dmamux.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_edma.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_gpio.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_iomuxc.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_memorymap.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_pinmux.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_boot.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_gpiobase.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_lowputc.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/configs/nsh/defconfig",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/include/board.h",
+      "additions": 263,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/include/board_memorymap.h",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/scripts/Make.defs",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/scripts/dramboot.ld",
+      "additions": 159,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/src/Makefile",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/src/imx95-evk.h",
+      "additions": 127,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/src/imx9_appinit.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/src/imx9_boardinit.c",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/src/imx9_bringup.c",
+      "additions": 66,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "imx95",
+  "headRefOid": "f0fba13b88b88e7fdccbf4201bc5ac6909a94f75",
+  "headRepository": {
+    "id": "R_kgDOMoeIUQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrKzqw",
+    "login": "lipengfei28"
+  },
+  "id": "PR_kwDODZiUac6fio0x",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5eea680e44118aa964dcf086069bf72107beb563"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-28T12:58:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16743,
+  "state": "MERGED",
+  "title": "arch/arm64/imx9: add support for imx95",
+  "updatedAt": "2025-07-28T12:58:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16743"
+}

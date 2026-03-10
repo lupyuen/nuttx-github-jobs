@@ -1,0 +1,151 @@
+{
+  "additions": 904,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2025-07-23T07:08:03Z",
+  "createdAt": "2025-07-18T12:57:46Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h5/boards/nucleo-h563zi/index.rst",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32h5/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_dts.h",
+      "additions": 8,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5xxx_rcc.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_dts.c",
+      "additions": 556,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_dts.h",
+      "additions": 45,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/configs/dts/defconfig",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/include/board.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/nucleo-h563zi.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_bringup.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_dts.c",
+      "additions": 91,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32h5_dts",
+  "headRefOid": "55efa5250cc1e203f84dd5a0c7bc0397ace2f775",
+  "headRepository": {
+    "id": "R_kgDOM3pcNQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCuguSg",
+    "name": "Kyle Wilson",
+    "login": "kywwilson11"
+  },
+  "id": "PR_kwDODZiUac6fkn5o",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cbd033ae90981bf49ca3804a5502bf6ce60ed2cf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-23T07:08:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16746,
+  "state": "MERGED",
+  "title": "arch/arm/stm32h5: Initial Driver for STM32H5 Digital Temperature Sensor (DTS)",
+  "updatedAt": "2025-07-23T07:08:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16746"
+}

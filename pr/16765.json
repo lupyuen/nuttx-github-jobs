@@ -1,0 +1,74 @@
+{
+  "additions": 89,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "is_bot": false,
+    "login": "comejv",
+    "name": "Côme"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-26T13:02:32Z",
+  "createdAt": "2025-07-24T20:13:43Z",
+  "deletions": 24,
+  "files": [
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/include/board.h",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_adc.c",
+      "additions": 72,
+      "deletions": 24
+    }
+  ],
+  "headRefName": "stm32h743zi/adc",
+  "headRefOid": "cb0ccc88bce6bd6077cb619616f069f39e42879c",
+  "headRepository": {
+    "id": "R_kgDOPSPQyg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTU0Njky",
+    "name": "Côme",
+    "login": "comejv"
+  },
+  "id": "PR_kwDODZiUac6ghYhk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "596a425066e6602768d00d945da3114920e8fa35"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-26T13:02:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16765,
+  "state": "MERGED",
+  "title": "nucleo-h743zi: Add ADC2 support and expand ADC channel list",
+  "updatedAt": "2025-07-26T16:36:43Z",
+  "url": "https://github.com/apache/nuttx/pull/16765"
+}

@@ -1,0 +1,83 @@
+{
+  "additions": 83,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "is_bot": false,
+    "login": "zzby0",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-07-21T22:19:05Z",
+  "createdAt": "2025-07-18T07:38:34Z",
+  "deletions": 174,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostfs.c",
+      "additions": 30,
+      "deletions": 131
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostmisc.c",
+      "additions": 14,
+      "deletions": 8
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostuart.c",
+      "additions": 18,
+      "deletions": 31
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 21,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "errno",
+  "headRefOid": "7a1e3f590cf0900428c6343ac89baf8f54c0c09c",
+  "headRepository": {
+    "id": "R_kgDOJ5zdIQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ0NTI3MDQ3",
+    "login": "zzby0"
+  },
+  "id": "PR_kwDODZiUac6fhf_3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ac5b38c9e545b5c51a199d0f98162b4206795ad2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-21T22:19:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16742,
+  "state": "MERGED",
+  "title": "arch/sim: avoid host-call being interrupted before getting errno",
+  "updatedAt": "2025-07-29T15:53:35Z",
+  "url": "https://github.com/apache/nuttx/pull/16742"
+}
