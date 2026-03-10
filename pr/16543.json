@@ -1,0 +1,84 @@
+{
+  "additions": 280,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-06-18T13:31:09Z",
+  "createdAt": "2025-06-17T20:29:17Z",
+  "deletions": 54,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 272,
+      "deletions": 53
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_memorymap.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_rcc.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_hsi48.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32g0_chip_kconfig",
+  "headRefOid": "7fccf4c4526371855efb176ff7ed075137c8c55f",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6a9stF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6c1781d523cc9d6ab1c1cee0a2403facad74743f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-18T13:31:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16543,
+  "state": "MERGED",
+  "title": "arch/stm32f0l0g0: Improve STM32G0 peripheral config granularity",
+  "updatedAt": "2025-06-18T13:31:09Z",
+  "url": "https://github.com/apache/nuttx/pull/16543"
+}

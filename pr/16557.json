@@ -1,0 +1,135 @@
+{
+  "additions": 540,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCuguSg",
+    "is_bot": false,
+    "login": "kywwilson11",
+    "name": "Kyle Wilson"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-06-23T07:46:29Z",
+  "createdAt": "2025-06-19T14:39:17Z",
+  "deletions": 119,
+  "files": [
+    {
+      "path": "arch/arm/include/stm32f0l0g0/stm32g0_irq.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 47,
+      "deletions": 41
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_adc.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_dmamux.h",
+      "additions": 280,
+      "deletions": 16
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_memorymap.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_rcc.h",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.c",
+      "additions": 72,
+      "deletions": 23
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.h",
+      "additions": 3,
+      "deletions": 22
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_dma_v1mux.c",
+      "additions": 26,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32g0_rcc.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/configs/adc_dma/defconfig",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/include/board.h",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_adc.c",
+      "additions": 11,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "stm32g0_dma",
+  "headRefOid": "59cc651970587b20f4634adb73c96286795d553b",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6bRd5Q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "04c4f5d229408fc85d90b553fc003bb0306981f5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T07:46:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16557,
+  "state": "MERGED",
+  "title": "arch/arm/*/stm32f0l0g0: STM32G0 DMA and ADC Support",
+  "updatedAt": "2025-06-23T07:46:29Z",
+  "url": "https://github.com/apache/nuttx/pull/16557"
+}

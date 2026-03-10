@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-06-14T13:44:37Z",
+  "createdAt": "2025-06-14T07:39:28Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/configs/adc/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_adc.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "stm32f446_adc",
+  "headRefOid": "03051de5abceaa95a20e28d3cae766d64bd8b070",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6agT35",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b37e8ecf3cb7ec0d1e3a22ae8d48ad5ddfa03bd2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-14T13:44:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16535,
+  "state": "MERGED",
+  "title": "boards/nucleo-f446re: fix adc example",
+  "updatedAt": "2025-06-15T06:51:54Z",
+  "url": "https://github.com/apache/nuttx/pull/16535"
+}

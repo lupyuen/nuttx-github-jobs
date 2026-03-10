@@ -1,0 +1,185 @@
+{
+  "additions": 248,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2025-06-20T20:22:31Z",
+  "createdAt": "2025-06-18T01:45:08Z",
+  "deletions": 247,
+  "files": [
+    {
+      "path": "drivers/note/noteram_driver.c",
+      "additions": 55,
+      "deletions": 55
+    },
+    {
+      "path": "drivers/note/notesnap_driver.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/syslog/vsyslog.c",
+      "additions": 24,
+      "deletions": 24
+    },
+    {
+      "path": "drivers/syslog/vsyslog_rfc5424.c",
+      "additions": 39,
+      "deletions": 38
+    },
+    {
+      "path": "include/debug.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/streams.h",
+      "additions": 24,
+      "deletions": 24
+    },
+    {
+      "path": "libs/libc/gdbstub/lib_gdbstub.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/obstack/lib_obstack_vprintf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/README.md",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "libs/libc/stdio/lib_snprintf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdio/lib_sprintf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdio/lib_vasprintf.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "libs/libc/stdio/lib_vdprintf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdio/lib_vfprintf.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stdio/lib_vsnprintf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdio/lib_vsprintf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stream/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stream/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stream/lib_liboprintf.c",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "libs/libc/stream/lib_libvprintf.c",
+      "additions": 35,
+      "deletions": 35
+    },
+    {
+      "path": "libs/libc/stream/lib_libvscanf.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/wchar/lib_swprintf.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "stream2",
+  "headRefOid": "2b54dd1629dc4cba22bda4d99d9ef975394f6969",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac6a_RR1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16544,
+  "state": "CLOSED",
+  "title": "libc/stream: Rename lib_xsprintfyyy to lib_xprintfyyy ",
+  "updatedAt": "2025-06-20T20:22:31Z",
+  "url": "https://github.com/apache/nuttx/pull/16544"
+}

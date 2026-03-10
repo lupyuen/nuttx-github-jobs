@@ -1,0 +1,79 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-06-17T13:25:22Z",
+  "createdAt": "2025-06-16T08:29:33Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boot/nxboot/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boot/nxboot/include/nxboot.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boot/nxboot/nxboot_main.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nxboot-fixes",
+  "headRefOid": "c57951a3c125cbd5f7ba66a4d847aaf73a08900d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMzk0NTg5MTM=",
+    "name": "incubator-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiT486aqqbt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7M-w",
+      "name": "Area: Boot",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7b42dfc53ecbd9f1bc6ab93ed4eeeed2c88f772d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-17T13:25:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3097,
+  "state": "MERGED",
+  "title": "boot/nxboot: fix compile errors caused by nxboot_progress",
+  "updatedAt": "2025-06-27T07:04:10Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3097"
+}

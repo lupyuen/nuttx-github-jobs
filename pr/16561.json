@@ -1,0 +1,79 @@
+{
+  "additions": 92,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-06-21T13:15:54Z",
+  "createdAt": "2025-06-20T08:25:47Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": ".github/workflows/check.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/checkpatch.sh",
+      "additions": 91,
+      "deletions": 16
+    }
+  ],
+  "headRefName": "simbit18-checkpatch",
+  "headRefOid": "56ee51e36aca751338ae5772e413cb69970a92b2",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac6bXaxg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9f84695ef700ee2d1e0a289b10df865e59ea2e4d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-21T13:15:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16561,
+  "state": "MERGED",
+  "title": "CI checkpatch: fix cvt2utf not found and add check of all necessary tools",
+  "updatedAt": "2025-06-23T09:40:29Z",
+  "url": "https://github.com/apache/nuttx/pull/16561"
+}

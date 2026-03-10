@@ -1,0 +1,110 @@
+{
+  "additions": 542,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-06-20T20:21:29Z",
+  "createdAt": "2025-06-20T10:54:16Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 68,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/index.rst",
+      "additions": 68,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/fastboot/defconfig",
+      "additions": 91,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/fastboot_tcp/defconfig",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/fastboot_usb/defconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/fastboot/defconfig",
+      "additions": 91,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/fastboot_tcp/defconfig",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/fastboot_usb/defconfig",
+      "additions": 18,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "br_wjy_doc_esp32s3_fastboot_tcp_usb_250620",
+  "headRefOid": "e2169f09a4ef84d46ab38f446493ba0423bde096",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac6bZNoX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "db1a14adac91528f89dcafb1cd93cdcb03458555"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-20T20:21:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16562,
+  "state": "MERGED",
+  "title": "esp32s3: update config and doc for fastboot",
+  "updatedAt": "2025-06-20T20:21:29Z",
+  "url": "https://github.com/apache/nuttx/pull/16562"
+}

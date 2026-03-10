@@ -1,0 +1,100 @@
+{
+  "additions": 578,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-06-13T15:10:13Z",
+  "createdAt": "2025-06-13T10:18:37Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_tim.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.c",
+      "additions": 312,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.h",
+      "additions": 131,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/include/board.h",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/include/board.h",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32_adctim",
+  "headRefOid": "cc80bfb9724f6c4d5fc5aad068bda640ea16b662",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6aXYCy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "89e8c0c425839af3b3e30397bbce5c3970c40170"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-13T15:10:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16530,
+  "state": "MERGED",
+  "title": "arch/stm32f0l0g0: add TIMER trigger for ADC",
+  "updatedAt": "2025-06-15T06:51:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16530"
+}

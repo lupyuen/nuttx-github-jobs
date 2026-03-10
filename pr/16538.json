@@ -1,0 +1,69 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-06-16T12:23:53Z",
+  "createdAt": "2025-06-16T07:43:32Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "fs/vfs/fs_close.c",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fs-close-fix",
+  "headRefOid": "983f08fac5d3a2d5cbe75e087d25c0e4b745f46c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac6aqOVc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "01bfa1a5007cfc416750eacd28b749e8830edfde"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-16T12:23:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16538,
+  "state": "MERGED",
+  "title": "fs/vfs/fs_close.c: avoid double free if CONFIG_FS_NOTIFY is set",
+  "updatedAt": "2025-06-16T12:23:53Z",
+  "url": "https://github.com/apache/nuttx/pull/16538"
+}

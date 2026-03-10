@@ -1,0 +1,85 @@
+{
+  "additions": 44,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-06-15T10:12:44Z",
+  "createdAt": "2025-06-14T15:34:10Z",
+  "deletions": 46,
+  "files": [
+    {
+      "path": "fs/shm/shm_open.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_fcntl.c",
+      "additions": 41,
+      "deletions": 43
+    },
+    {
+      "path": "fs/vfs/fs_ioctl.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fs_fdlist_rewrite",
+  "headRefOid": "5cef3a0ff4bdb4568a01a8374186996fe25dd768",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6aiV0Q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b0904e7c399c1003be30301183d942779ea45fd9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-15T10:12:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16536,
+  "state": "MERGED",
+  "title": "fs/fcntl: using ioctl to implement FIOGCLEX/FIOCLEX/FIONCLEX",
+  "updatedAt": "2025-06-15T10:12:45Z",
+  "url": "https://github.com/apache/nuttx/pull/16536"
+}

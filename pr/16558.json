@@ -1,0 +1,200 @@
+{
+  "additions": 2618,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQxMzA3Mzg1",
+    "is_bot": false,
+    "login": "halyssonJr",
+    "name": "Halysson Carvalho"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 26,
+  "closed": true,
+  "closedAt": "2025-06-23T17:10:49Z",
+  "createdAt": "2025-06-19T20:54:46Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-8048S043/esp32s3-8048S043.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-8048S043/index.rst",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/Kconfig",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/configs/gpio/defconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/configs/i2c/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/configs/nsh/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/configs/sdmmc/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/configs/spi/defconfig",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/configs/touchscreen/defconfig",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/include/board.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/include/board_memorymap.h",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/scripts/Make.defs",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/Make.defs",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3-8048S043.h",
+      "additions": 148,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_appinit.c",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_board_spi.c",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_board_touchsceen.c",
+      "additions": 450,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_boot.c",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_bringup.c",
+      "additions": 265,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_buttons.c",
+      "additions": 166,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_gpio.c",
+      "additions": 435,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/esp32s3_reset.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/etc/init.d/rc.sysinit",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/etc/init.d/rcS",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-8048S043/src/etc/txtable.txt",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "board/esp32s3-8048s043",
+  "headRefOid": "e1b33c5dd51a631ce631958e80e3ddd2fbd8358e",
+  "headRepository": {
+    "id": "R_kgDOIorr7Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQxMzA3Mzg1",
+    "name": "Halysson Carvalho",
+    "login": "halyssonJr"
+  },
+  "id": "PR_kwDODZiUac6bT8jB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4193fe6e2b5b72b302572a6f8f8811750084fa5d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T17:10:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16558,
+  "state": "MERGED",
+  "title": "boards/xtensa/esp32s3: add new esp32s3-8048S043 board",
+  "updatedAt": "2025-06-26T11:16:41Z",
+  "url": "https://github.com/apache/nuttx/pull/16558"
+}

@@ -1,0 +1,110 @@
+{
+  "additions": 80,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-06-14T09:11:58Z",
+  "createdAt": "2025-06-13T16:35:06Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Bootloader.mk",
+      "additions": 18,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Bootloader.mk",
+      "additions": 19,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Bootloader.mk",
+      "additions": 20,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Bootloader.mk",
+      "additions": 19,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/use-different-mcuboot-hal",
+  "headRefOid": "9833d548a149afbfd694f30a1cca0c849617906c",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6aa9Ys",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2912b3347c553e790e9f498496a212b1a03ec4b9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-14T09:11:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16533,
+  "state": "MERGED",
+  "title": "Update MCUBoot build process for Espressif devices",
+  "updatedAt": "2025-06-14T09:11:58Z",
+  "url": "https://github.com/apache/nuttx/pull/16533"
+}

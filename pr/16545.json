@@ -1,0 +1,79 @@
+{
+  "additions": 20,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-06-18T11:57:20Z",
+  "createdAt": "2025-06-18T02:30:50Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "sched/wqueue/kwork_cancel.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/wqueue/kwork_thread.c",
+      "additions": 9,
+      "deletions": 4
+    },
+    {
+      "path": "sched/wqueue/wqueue.h",
+      "additions": 7,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix-wqueue-compilation",
+  "headRefOid": "11c45bff6f98b28e02f747400d38277377ae56f4",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6a_f3N",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a0aa654c701d94a1313cf54bde7e6e578c4788f8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-18T11:57:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 16545,
+  "state": "MERGED",
+  "title": "sched/wqueue: Fix windows compilation errors.",
+  "updatedAt": "2025-06-18T11:57:21Z",
+  "url": "https://github.com/apache/nuttx/pull/16545"
+}

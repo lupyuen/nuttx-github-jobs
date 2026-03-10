@@ -1,0 +1,99 @@
+{
+  "additions": 934,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4ODQzNTg5",
+    "is_bot": false,
+    "login": "zdebanos",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-07-01T17:59:47Z",
+  "createdAt": "2025-06-17T14:15:55Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/i2c.rst",
+      "additions": 54,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/Kconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/Make.defs",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_i2c.h",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_i2cslave_v2.c",
+      "additions": 793,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32_i2cslave_v2",
+  "headRefOid": "36bdfc147f404ddf2429a3f7c6069e82caef8c29",
+  "headRepository": {
+    "id": "R_kgDOLREP7Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4ODQzNTg5",
+    "login": "zdebanos"
+  },
+  "id": "PR_kwDODZiUac6a6U3z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "55bef681e12caa18046a4258f6060489bced046e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-01T17:59:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16541,
+  "state": "MERGED",
+  "title": "arch/arm/src/stm32/stm32_i2cslave_v2.c: add STM32 I2C Slave support f…",
+  "updatedAt": "2025-07-01T17:59:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16541"
+}

@@ -1,0 +1,130 @@
+{
+  "additions": 428,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-06-16T13:58:48Z",
+  "createdAt": "2025-06-14T07:26:19Z",
+  "deletions": 73,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/Kconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_adc.c",
+      "additions": 37,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_adc.c",
+      "additions": 13,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Kconfig",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_adc.c",
+      "additions": 26,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 27,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_adc.c",
+      "additions": 43,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/stm32l4/Kconfig",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_adc.c",
+      "additions": 57,
+      "deletions": 32
+    }
+  ],
+  "headRefName": "stm32_adc_batch",
+  "headRefOid": "e6e41b19562ff070fd9ccc9ead32e92e72c0e59b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6agObM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0a23b0c14ed4dfd9ff173f3cb30f404ac38833a1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-16T13:58:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16534,
+  "state": "MERGED",
+  "title": "arch/stm32/stm32_adc.c: add support for batch DMA transfer",
+  "updatedAt": "2025-07-24T06:41:41Z",
+  "url": "https://github.com/apache/nuttx/pull/16534"
+}

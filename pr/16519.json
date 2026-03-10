@@ -1,0 +1,83 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYzMzAwNTA=",
+    "is_bot": false,
+    "login": "pussuw",
+    "name": "Ville Juven"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-06-12T18:28:18Z",
+  "createdAt": "2025-06-12T08:06:15Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm64/include/imx9/chip.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/imx9/imx93_irq.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_boot.c",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_lpuart.c",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "imx9_smp_support",
+  "headRefOid": "1ca2f8c9a34ccbdf892fab654c1d07b40f233485",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6aKhxE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d8c907dfc74fc09a3b88dbdc553c6001dda5a477"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-12T18:28:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16519,
+  "state": "MERGED",
+  "title": "imx9/smp: Add SMP support for imx93",
+  "updatedAt": "2025-06-13T06:44:37Z",
+  "url": "https://github.com/apache/nuttx/pull/16519"
+}

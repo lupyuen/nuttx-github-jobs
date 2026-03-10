@@ -1,0 +1,121 @@
+{
+  "additions": 73,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCiLuoQ",
+    "is_bot": false,
+    "login": "Fix-Point",
+    "name": "Xiangzhen Ouyang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-06-25T14:13:01Z",
+  "createdAt": "2025-06-19T03:05:25Z",
+  "deletions": 54,
+  "files": [
+    {
+      "path": "drivers/input/button_upper.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/segger/config/SEGGER_RTT_Conf.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/segger/segger.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/notifier.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/sched_note.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/spinlock.h",
+      "additions": 47,
+      "deletions": 42
+    },
+    {
+      "path": "include/nuttx/spinlock_type.h",
+      "additions": 18,
+      "deletions": 7
+    },
+    {
+      "path": "sched/clock/clock_initialize.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/misc/panic_notifier.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rspinlock",
+  "headRefOid": "1e3cf0fa66e88328244bc7768afa2c1a902dda50",
+  "headRepository": {
+    "id": "R_kgDOMtvn1A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCiLuoQ",
+    "name": "Xiangzhen Ouyang",
+    "login": "Fix-Point"
+  },
+  "id": "PR_kwDODZiUac6bLOyC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "42ebe289b08f9c9da0ca2b0d0f85f4a9749d704d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-25T14:13:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16552,
+  "state": "MERGED",
+  "title": "spinlock: Better recursive spinlock implementation.",
+  "updatedAt": "2025-06-25T14:13:01Z",
+  "url": "https://github.com/apache/nuttx/pull/16552"
+}
