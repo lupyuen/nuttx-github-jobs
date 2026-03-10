@@ -1,0 +1,108 @@
+{
+  "additions": 155,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-12-07T03:11:21Z",
+  "createdAt": "2025-12-06T08:15:46Z",
+  "deletions": 55,
+  "files": [
+    {
+      "path": "net/can/can_conn.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/icmp/icmp_conn.c",
+      "additions": 10,
+      "deletions": 14
+    },
+    {
+      "path": "net/icmpv6/icmpv6_conn.c",
+      "additions": 10,
+      "deletions": 14
+    },
+    {
+      "path": "net/netlink/netlink_conn.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/pkt/pkt_conn.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/udp/udp_conn.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/usrsock/usrsock_conn.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "net/utils/net_bufpool.c",
+      "additions": 71,
+      "deletions": 2
+    },
+    {
+      "path": "net/utils/utils.h",
+      "additions": 44,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "upstream-8",
+  "headRefOid": "509de9a656646e83335e5f9ca62e3e24eee0f678",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac63aoRA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e87082b195a1b4c7c3a300bbc8cc5f6c259f37ab"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-07T03:11:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17440,
+  "state": "MERGED",
+  "title": "net/utils/net_bufpool: add lock to struct net_bufpool_s and bufpool_navail",
+  "updatedAt": "2025-12-07T03:11:21Z",
+  "url": "https://github.com/apache/nuttx/pull/17440"
+}

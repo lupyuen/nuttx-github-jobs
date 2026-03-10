@@ -1,0 +1,89 @@
+{
+  "additions": 89,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-25T02:08:49Z",
+  "createdAt": "2025-12-06T07:29:27Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "Documentation/components/mm/index.rst",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/iob.h",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "mm/iob/iob_alloc.c",
+      "additions": 43,
+      "deletions": 1
+    },
+    {
+      "path": "mm/iob/iob_free.c",
+      "additions": 13,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "upstream-7",
+  "headRefOid": "2295bcf23e2714c8febdf60ddbf860b01b96a558",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac63adOD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6ad864ff0c2a1fc33cba3adc69356164bf5c6a9f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-25T02:08:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 17439,
+  "state": "MERGED",
+  "title": "mm/iob: add iob_init method to support external buffer init as iob structure",
+  "updatedAt": "2025-12-25T02:08:49Z",
+  "url": "https://github.com/apache/nuttx/pull/17439"
+}

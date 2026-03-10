@@ -1,0 +1,109 @@
+{
+  "additions": 387,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB204aA",
+    "is_bot": false,
+    "login": "adriendesp",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-12-03T05:47:35Z",
+  "createdAt": "2025-12-02T13:37:45Z",
+  "deletions": 651,
+  "files": [
+    {
+      "path": "arch/arm/src/xmc4/hardware/xmc4_pinmux.h",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/xmc4/hardware/xmc4_scu.h",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_clockconfig.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_ecat.c",
+      "additions": 300,
+      "deletions": 570
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_gpio.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/xmc4/xmc4500-relax/include/board.h",
+      "additions": 11,
+      "deletions": 16
+    },
+    {
+      "path": "boards/arm/xmc4/xmc4700-relax/include/board.h",
+      "additions": 14,
+      "deletions": 18
+    },
+    {
+      "path": "boards/arm/xmc4/xmc4800-relax/include/board.h",
+      "additions": 30,
+      "deletions": 23
+    }
+  ],
+  "headRefName": "xmc4_ecat_clocks",
+  "headRefOid": "95359e3bfc4b0a2f1a2eb630aeaae24ddc7a7d71",
+  "headRepository": {
+    "id": "R_kgDOMBu0Rw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB204aA",
+    "login": "adriendesp"
+  },
+  "id": "PR_kwDODZiUac62myP6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ec04ef9ccfd1998896509c3231e4f7e7b40508b7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-03T05:47:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17420,
+  "state": "MERGED",
+  "title": "arch/xmc4 : various fixes and clean",
+  "updatedAt": "2025-12-03T05:47:35Z",
+  "url": "https://github.com/apache/nuttx/pull/17420"
+}

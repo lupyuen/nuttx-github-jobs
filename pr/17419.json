@@ -1,0 +1,91 @@
+{
+  "additions": 81,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-12-03T05:44:25Z",
+  "createdAt": "2025-12-02T12:07:30Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_mcpwm.c",
+      "additions": 40,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_mcpwm.c",
+      "additions": 40,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/capture/defconfig",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/esp-pwm-capture",
+  "headRefOid": "7513aaa9c6b28c1bbff3d990ad4b00b84ea96d88",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac62le1q",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ea1d59e89c7eb82f754589669041781e954116e4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-03T05:44:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17419,
+  "state": "MERGED",
+  "title": "arch/xtensa/espressif: fix capture driver missing 'getedges'",
+  "updatedAt": "2025-12-03T05:44:25Z",
+  "url": "https://github.com/apache/nuttx/pull/17419"
+}

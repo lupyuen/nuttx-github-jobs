@@ -1,0 +1,79 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-12-03T00:36:06Z",
+  "createdAt": "2025-12-02T16:43:47Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32l4/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/src/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "simbit18-stm32l4",
+  "headRefOid": "614004d990edddb34c6bae3e2cfab1289f7ae9c1",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac62pamD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b3caa6717fef0e8462d6d95a4975c3de67164a70"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-03T00:36:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 17421,
+  "state": "MERGED",
+  "title": "boards/arm/stm32l4/nucleo-l476rg: CMake fix addition of HTS221 and LSM6DSL sensors",
+  "updatedAt": "2025-12-04T15:42:27Z",
+  "url": "https://github.com/apache/nuttx/pull/17421"
+}

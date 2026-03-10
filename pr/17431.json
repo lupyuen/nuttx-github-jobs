@@ -1,0 +1,210 @@
+{
+  "additions": 1493,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 27,
+  "closed": true,
+  "closedAt": "2025-12-10T15:44:14Z",
+  "createdAt": "2025-12-05T09:57:52Z",
+  "deletions": 101,
+  "files": [
+    {
+      "path": "Documentation/components/net/pkt.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/net/if.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "include/netinet/if_ether.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/net/net.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/sys/socket.h",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "include/termios.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 12
+    },
+    {
+      "path": "net/pkt/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/Make.defs",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "net/pkt/pkt.h",
+      "additions": 136,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_conn.c",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "net/pkt/pkt_getsockopt.c",
+      "additions": 125,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_input.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_netpoll.c",
+      "additions": 332,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_recvmsg.c",
+      "additions": 101,
+      "deletions": 43
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_buffered.c",
+      "additions": 408,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_sendmsg_unbuffered.c",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "net/pkt/pkt_setsockopt.c",
+      "additions": 133,
+      "deletions": 0
+    },
+    {
+      "path": "net/pkt/pkt_sockif.c",
+      "additions": 92,
+      "deletions": 6
+    },
+    {
+      "path": "net/procfs/net_udp.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/socket/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "net/socket/getsockopt.c",
+      "additions": 9,
+      "deletions": 8
+    },
+    {
+      "path": "net/socket/setsockopt.c",
+      "additions": 9,
+      "deletions": 8
+    },
+    {
+      "path": "net/socket/socket.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "net/udp/udp.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "net/udp/udp_ioctl.c",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "net/udp/udp_wrbuffer.c",
+      "additions": 0,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "upstream-4",
+  "headRefOid": "7f8342e3ca534f576eedc6901d3cb224031f2146",
+  "headRepository": {
+    "id": "R_kgDOHGg9pQ",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiUac63Qp2m",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "150e52769ba25148ab8dfe165871036801356ad9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-10T15:44:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17431,
+  "state": "MERGED",
+  "title": "net/pkt: Add some feature support",
+  "updatedAt": "2025-12-10T15:44:15Z",
+  "url": "https://github.com/apache/nuttx/pull/17431"
+}
