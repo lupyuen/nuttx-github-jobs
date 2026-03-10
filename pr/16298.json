@@ -1,0 +1,121 @@
+{
+  "additions": 579,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-05-03T03:25:54Z",
+  "createdAt": "2025-05-01T20:17:54Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/imx9/boards/imx93-evk/README.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/knsh/defconfig",
+      "additions": 174,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/include/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/include/bin_romfsimg.h",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/scripts/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/scripts/gnu-elf.ld",
+      "additions": 131,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/scripts/kernel.ld",
+      "additions": 163,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/src/imx9_bringup.c",
+      "additions": 23,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "ce176f61cd2ce34fa8e950daa03d1671db9066ed",
+  "headRepository": {
+    "id": "R_kgDONfoTqA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiUac6UrprG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7ea8b59a59785cf9107c204d8d38eb61a5f0df70"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-03T03:25:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16298,
+  "state": "MERGED",
+  "title": "boards/imx93-evk: kernel build for AHAB boot",
+  "updatedAt": "2025-05-03T03:25:54Z",
+  "url": "https://github.com/apache/nuttx/pull/16298"
+}

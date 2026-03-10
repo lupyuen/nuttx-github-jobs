@@ -1,0 +1,89 @@
+{
+  "additions": 254,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-05-02T12:31:52Z",
+  "createdAt": "2025-04-30T18:56:50Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c6/common/include/esp_board_mpu60x0.h",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_mpu60x0.c",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/mpu60x0/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/support-mpu-esp32c6",
+  "headRefOid": "d69c237e5a3d3989de194c01881aa1b9cc1230bb",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6Uja6F",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9e8197ad499f626895e50aa70e453140c1f943b7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-02T12:31:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16294,
+  "state": "MERGED",
+  "title": "boards/risc-v: add MPU60x0 bringup support to ESP32C6",
+  "updatedAt": "2025-05-02T12:31:52Z",
+  "url": "https://github.com/apache/nuttx/pull/16294"
+}

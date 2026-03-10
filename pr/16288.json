@@ -1,0 +1,99 @@
+{
+  "additions": 75,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-04-30T05:42:56Z",
+  "createdAt": "2025-04-29T09:20:36Z",
+  "deletions": 38,
+  "files": [
+    {
+      "path": "arch/x86_64/include/intel64/irq.h",
+      "additions": 28,
+      "deletions": 26
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_checkstack.c",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_cpustart.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_fullcontextrestore.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_initialstate.c",
+      "additions": 13,
+      "deletions": 6
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_start.c",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_vectors.S",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "x86_canaries",
+  "headRefOid": "99a04183bbcf376ccf3ae207c8ac514e01ed4817",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6UT5vh",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "09a5a0e72e9972d7ba37fe57438561ef56b57ead"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-30T05:42:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16288,
+  "state": "MERGED",
+  "title": "x86_64: support for stack canaries",
+  "updatedAt": "2026-03-02T14:23:35Z",
+  "url": "https://github.com/apache/nuttx/pull/16288"
+}

@@ -1,0 +1,68 @@
+{
+  "additions": 29,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-05-02T12:21:14Z",
+  "createdAt": "2025-05-02T08:14:24Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 29,
+      "deletions": 32
+    }
+  ],
+  "headRefName": "fix_race_conditions_between_signal_dispatch_and_delivery",
+  "headRefOid": "feb1becb8f2ad9feb0c99fff14ba0d393be6359e",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6UuUa6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2b513af2c310f2789e2d1317b2b77ca966aab849"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-02T12:21:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16301,
+  "state": "MERGED",
+  "title": "sched/signal/sig_dispatch: Fix a race condition between nxsig_tcbdispatch and nxsig_deliver",
+  "updatedAt": "2025-05-07T04:37:24Z",
+  "url": "https://github.com/apache/nuttx/pull/16301"
+}

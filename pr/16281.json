@@ -1,0 +1,73 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-05T15:48:21Z",
+  "createdAt": "2025-04-29T00:18:44Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "arch/arm/src/rp2040/rp2040_gpio.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_gpio.h",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "rp2040-all-interrupts",
+  "headRefOid": "d9d1013061bb3234bae97ff8174c2a76e7ccd241",
+  "headRepository": {
+    "id": "R_kgDOM69a6w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjMzMTgyODIy",
+    "login": "CarletonURocketry"
+  },
+  "id": "PR_kwDODZiUac6UQbS7",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ac583fc585260748da33ea1df8e8a8c2c0c52ede"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-05T15:48:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16281,
+  "state": "MERGED",
+  "title": "RP2040: Allow simultaneous selection of multiple interrupt modes",
+  "updatedAt": "2025-05-06T01:15:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16281"
+}

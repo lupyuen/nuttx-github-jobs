@@ -1,0 +1,89 @@
+{
+  "additions": 5,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjk2NzkyNzI=",
+    "is_bot": false,
+    "login": "keever50",
+    "name": "Kevin Witteveen (MartiniMarter)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-04-29T05:34:09Z",
+  "createdAt": "2025-04-28T17:46:56Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_usb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_usb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/openh743i/src/stm32_usb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h747i-disco/src/stm32_usb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/stm32_usb.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "stm32h7_usbhost_stacksize_fix",
+  "headRefOid": "17991ca7698bd711b19ded317da33f7274cd2dd2",
+  "headRepository": {
+    "id": "R_kgDOMcGBXw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjk2NzkyNzI=",
+    "name": "Kevin Witteveen (MartiniMarter)",
+    "login": "keever50"
+  },
+  "id": "PR_kwDODZiUac6UNRa4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8c593268792b80dafa3236389ab9be4cfc3038d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-29T05:34:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16279,
+  "state": "MERGED",
+  "title": "boards/arm/stm32h7: Fix too small usbhost stack size",
+  "updatedAt": "2025-04-29T05:34:09Z",
+  "url": "https://github.com/apache/nuttx/pull/16279"
+}

@@ -1,0 +1,115 @@
+{
+  "additions": 669,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "is_bot": false,
+    "login": "sumpfralle",
+    "name": "Lars Kruse"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-04-29T19:17:44Z",
+  "createdAt": "2025-04-28T09:45:24Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/analog/dac/index.rst",
+      "additions": 18,
+      "deletions": 8
+    },
+    {
+      "path": "Documentation/components/drivers/character/analog/dac/mcp47x6/index.rst",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/Kconfig",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/mcp47x6.c",
+      "additions": 459,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/analog/dac.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/analog/ioctl.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/analog/mcp47x6.h",
+      "additions": 81,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add-dac-mcp47x6",
+  "headRefOid": "2e29242215f871c413cc81f4408492e5b76a9270",
+  "headRepository": {
+    "id": "R_kgDOMSGLsw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "name": "Lars Kruse",
+    "login": "sumpfralle"
+  },
+  "id": "PR_kwDODZiUac6UIwRM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "797cc869ae25f9c64cba69b7175dc9e73e39e80e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-29T19:17:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16276,
+  "state": "MERGED",
+  "title": "drivers/analog/mcp47x6: Add support for MCP47X6 DAC series",
+  "updatedAt": "2025-04-29T20:04:23Z",
+  "url": "https://github.com/apache/nuttx/pull/16276"
+}

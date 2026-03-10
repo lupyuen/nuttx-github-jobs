@@ -1,0 +1,141 @@
+{
+  "additions": 1105,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCX5e6w",
+    "is_bot": false,
+    "login": "szafonimateusz-mi",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-05-03T03:26:08Z",
+  "createdAt": "2025-04-29T08:56:30Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/sim/sim/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostcan.c",
+      "additions": 186,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_canchar.c",
+      "additions": 373,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_cansock.c",
+      "additions": 258,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hostcan.h",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/Kconfig",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/can/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/src/sim_bringup.c",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "sim_can",
+  "headRefOid": "54041b0376a64c32027e518cd2a802ee0df7478d",
+  "headRepository": {
+    "id": "R_kgDOLV4f0Q",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCX5e6w",
+    "name": "Mateusz Szafoni",
+    "login": "szafonimateusz-mi"
+  },
+  "id": "PR_kwDODZiUac6UTqgq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7e99c9582bc2ea7269348f1fee1f49f6ad48d1dc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-03T03:26:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16285,
+  "state": "MERGED",
+  "title": "add CAN interface support for arch/sim",
+  "updatedAt": "2026-03-02T14:23:36Z",
+  "url": "https://github.com/apache/nuttx/pull/16285"
+}

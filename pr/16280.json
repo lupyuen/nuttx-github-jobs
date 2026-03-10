@@ -1,0 +1,74 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-02T14:29:08Z",
+  "createdAt": "2025-04-28T18:19:29Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "include/syslog.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/syslog/lib_setlogmask.c",
+      "additions": 7,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "syslog-fix",
+  "headRefOid": "d56373ae708aa883c088998fb45752cf244ef9ac",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac6UNirx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "eeb4a0de83951719b1f67df6e2c631d759869716"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-02T14:29:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
+  "milestone": null,
+  "number": 16280,
+  "state": "MERGED",
+  "title": "[BREAKING] setlogmask: fix setlogmask behavior according to POSIX standard",
+  "updatedAt": "2025-05-02T14:29:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16280"
+}

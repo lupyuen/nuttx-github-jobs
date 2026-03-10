@@ -1,0 +1,564 @@
+{
+  "additions": 395,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "is_bot": false,
+    "login": "sumpfralle",
+    "name": "Lars Kruse"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 172,
+  "closed": true,
+  "closedAt": "2025-04-30T05:45:47Z",
+  "createdAt": "2025-04-29T02:41:04Z",
+  "deletions": 395,
+  "files": [
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-10.0.0",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-10.1.0",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-10.2.0",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-10.3.0",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-11.0.0",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.0.0",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.1.0",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.2.0",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.3.0",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.4.0",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.5.0",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.6.0",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.7.0",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.8.0",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.9.0",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-5.15",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-6.13",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-6.24",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-6.25",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-6.26",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-6.27",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-6.32",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.10",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.12",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.17",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.18",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.19",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.20",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.21",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.22",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.23",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.25",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.26",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.28",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.29",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-7.8",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-8.1",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-9.1.0",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/applications/boot/nxboot/index.rst",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/applications/examples/apds9960/index.rst",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/applications/examples/random/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/examples/usbserial/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/industry/abnt_codi/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/applications/nsh/commands.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/system/crimon/index.rst",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/applications/system/i2c/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/system/nxcodec/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/system/spi/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/testing/cxxtest/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/testing/nand_sim/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/applications/wireless/i8sak/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/binfmt.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/character/analog/adc/ads1115/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/character/analog/adc/hx711/index.rst",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/components/drivers/character/analog/dac/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/character/leds/userled.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/character/note.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/character/quadrature.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/pwm.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/character/wireless/lpwan/sx126x.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/special/lcd.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/nau7802.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/sensors_cluster.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/sensors_legacy.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/sensors_uorb.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/syslog.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/usbhost.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/drivers/special/usbmonitor.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/drivers/thermal/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/filesystem/fat.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/filesystem/index.rst",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/components/filesystem/mnemofs.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/components/filesystem/smartfs.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/net/slip.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/nxflat.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/nxgraphics/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/nxgraphics/nxgl.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/paging.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/contributing/coding_style.rst",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/debugging/coresight.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/debugging/debuggingflash_nuttxonarm.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/guides/changing_systemclockconfig.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/guides/citests.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/guides/integrate_newlib.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/guides/platform_directories.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/guides/port.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/guides/porting-case-studies/port_arm_cm4.rst",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/guides/pysimcoder.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/guides/renode.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/guides/rndis.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/guides/usbtrace.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/implementation/critical_sections.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/implementation/simulation.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/introduction/about.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/introduction/development_environments.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/legacy_README.md",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/logos/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/am335x/index.rst",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix-spelling",
+  "headRefOid": "f3ecbd5748576c896c00d2cf566c91845c1dbb6f",
+  "headRepository": {
+    "id": "R_kgDOMSGLsw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "name": "Lars Kruse",
+    "login": "sumpfralle"
+  },
+  "id": "PR_kwDODZiUac6UROZL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b333ad3ab557f9150aab9d79b575cdb529100292"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-30T05:45:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16282,
+  "state": "MERGED",
+  "title": "style: fix typos in documentation",
+  "updatedAt": "2025-04-30T21:23:36Z",
+  "url": "https://github.com/apache/nuttx/pull/16282"
+}

@@ -1,0 +1,155 @@
+{
+  "additions": 1211,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCSIZTg",
+    "is_bot": false,
+    "login": "stbenn",
+    "name": "Tyler Bennett"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": true,
+  "closedAt": "2025-05-06T18:03:20Z",
+  "createdAt": "2025-04-30T18:48:53Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32g0/boards/nucleo-g0b1re/index.rst",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32g0/boards/nucleo-g0b1re/nucleo-g0b1re.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/configs/nsh/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/include/board.h",
+      "additions": 210,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/scripts/Make.defs",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/scripts/ld.script",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/CMakeLists.txt",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/Make.defs",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/nucleo-g0b1re.h",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_appinit.c",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_autoleds.c",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_boot.c",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_bringup.c",
+      "additions": 155,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/stm32_buttons.c",
+      "additions": 118,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nucleo-g0b1",
+  "headRefOid": "39dc62adbe2ada85aa250376aaad5feacf43aeae",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6UjXFC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6ef5dab1600230cb008f348b165effc16373e11c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-06T18:03:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16293,
+  "state": "MERGED",
+  "title": "boards/stm32f0l0g0: Add Nucleo G0B1RE support.",
+  "updatedAt": "2025-05-06T22:54:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16293"
+}

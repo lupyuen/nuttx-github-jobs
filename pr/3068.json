@@ -1,0 +1,89 @@
+{
+  "additions": 454,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU2NzI2Njk3",
+    "is_bot": false,
+    "login": "TimJTi",
+    "name": "Tim Hardisty"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-06-05T12:06:51Z",
+  "createdAt": "2025-05-02T14:24:17Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": "boot/nxboot/Kconfig",
+      "additions": 54,
+      "deletions": 1
+    },
+    {
+      "path": "boot/nxboot/include/nxboot.h",
+      "additions": 60,
+      "deletions": 6
+    },
+    {
+      "path": "boot/nxboot/loader/boot.c",
+      "additions": 107,
+      "deletions": 4
+    },
+    {
+      "path": "boot/nxboot/loader/flash.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "boot/nxboot/nxboot_main.c",
+      "additions": 228,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "NXBoot-Add-Progress-Reporting-and-copy-to-ram",
+  "headRefOid": "cf653a7a073b408cf7bc67eeb80dfb1c1000adc2",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzNjE3MjYxNjU=",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU2NzI2Njk3",
+    "name": "Tim Hardisty",
+    "login": "TimJTi"
+  },
+  "id": "PR_kwDODZiT486UwuFB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7M-w",
+      "name": "Area: Boot",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bcd1b46946dc8d2ff86f8edbd59f880fd6556a94"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-05T12:06:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3068,
+  "state": "MERGED",
+  "title": "boot/nxboot: Enhancements to add progress messages and copy-to-RAM",
+  "updatedAt": "2025-06-05T12:40:57Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3068"
+}

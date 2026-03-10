@@ -1,0 +1,97 @@
+{
+  "additions": 21,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-05-06T05:48:00Z",
+  "createdAt": "2025-04-29T04:26:28Z",
+  "deletions": 32,
+  "files": [
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/wqueue.h",
+      "additions": 6,
+      "deletions": 12
+    },
+    {
+      "path": "libs/libc/wqueue/work_cancel.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/wqueue/work_queue.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "libs/libc/wqueue/work_usrthread.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/wqueue/kwork_cancel.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/wqueue/kwork_queue.c",
+      "additions": 3,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "mine",
+  "headRefOid": "4ac232099a194fb396e161f00aaccab81e116e71",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTQzMzM1MTg=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "login": "GUIDINGLI"
+  },
+  "id": "PR_kwDODZiUac6UR086",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQxMjcyODYw",
+      "name": "State: Needs more testing",
+      "description": "",
+      "color": "D89E1C"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16283,
+  "state": "CLOSED",
+  "title": "wqueue: improve the robustness of the work",
+  "updatedAt": "2025-05-06T05:48:00Z",
+  "url": "https://github.com/apache/nuttx/pull/16283"
+}

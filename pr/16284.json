@@ -1,0 +1,79 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEzMDMyMDM=",
+    "is_bot": false,
+    "login": "bl4kraven",
+    "name": "Leo Chung"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-04-29T12:20:15Z",
+  "createdAt": "2025-04-29T06:45:48Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_sections.ld",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_sections.ld",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/scripts/esp32h2_sections.ld",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_bootloader_flash_hangup",
+  "headRefOid": "4113b970da7152125697b43583eef3eeb4f61445",
+  "headRepository": {
+    "id": "R_kgDONDcmLw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEzMDMyMDM=",
+    "name": "Leo Chung",
+    "login": "bl4kraven"
+  },
+  "id": "PR_kwDODZiUac6USlju",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "61f205f1d4ecaf50dba41b102074290e5b63f6e3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-04-29T12:20:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "milestone": null,
+  "number": 16284,
+  "state": "MERGED",
+  "title": "risc-v/esp32{c6,c3,h2}: Fix bootloader crash when flash QIO is enabled",
+  "updatedAt": "2025-04-29T12:20:16Z",
+  "url": "https://github.com/apache/nuttx/pull/16284"
+}
