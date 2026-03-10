@@ -1,0 +1,74 @@
+{
+  "additions": 49,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-06-23T12:33:05Z",
+  "createdAt": "2025-06-23T08:53:47Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "fs/vfs/fs_read.c",
+      "additions": 25,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 24,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-16490",
+  "headRefOid": "1ed77a808a094c0adbe10dbca61ceae8b00252f7",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6bn2op",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ea3ce977ec32c68f329e715359eb0b9cba92b8c4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T12:33:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16584,
+  "state": "MERGED",
+  "title": "{bp-16490} fs/vfs: check if all iov_base are accessible",
+  "updatedAt": "2025-06-23T12:33:05Z",
+  "url": "https://github.com/apache/nuttx/pull/16584"
+}

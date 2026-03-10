@@ -1,0 +1,335 @@
+{
+  "additions": 568,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 53,
+  "closed": true,
+  "closedAt": "2025-06-24T00:08:55Z",
+  "createdAt": "2025-06-23T17:19:18Z",
+  "deletions": 617,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-devkitc/index.rst",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-lyrat/index.rst",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-wrover-kit/index.rst",
+      "additions": 5,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/boards/esp32s2-saola-1/index.rst",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/include/esp32_board_sdmmc.h",
+      "additions": 28,
+      "deletions": 43
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_sdmmc.c",
+      "additions": 25,
+      "deletions": 18
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/src/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/src/esp32-audio-kit.h",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-audio-kit/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/sdmmc_spi/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32-devkitc.h",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-ethernet-kit/src/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-ethernet-kit/src/esp32-ethernet-kit.h",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-ethernet-kit/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/configs/sdmmc_spi/defconfig",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/src/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/src/esp32-lyrat.h",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-lyrat/src/esp32_mmcsd.c",
+      "additions": 0,
+      "deletions": 86
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/src/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/src/esp32-sparrow-kit.h",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-sparrow-kit/src/esp32_mmcsd.c",
+      "additions": 0,
+      "deletions": 86
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/configs/sdmmc_spi/defconfig",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/src/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/src/esp32-wrover-kit.h",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-wrover-kit/src/esp32_mmcsd.c",
+      "additions": 0,
+      "deletions": 86
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_eink5_v2/src/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_eink5_v2/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_eink5_v2/src/ttgo_eink5_v2.h",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_t_display_esp32/src/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_t_display_esp32/src/esp32_bringup.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_t_display_esp32/src/esp32_mmcsd.c",
+      "additions": 0,
+      "deletions": 86
+    },
+    {
+      "path": "boards/xtensa/esp32/ttgo_t_display_esp32/src/ttgo_t_display_esp32.h",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/include/esp32s2_board_sdmmc.h",
+      "additions": 31,
+      "deletions": 43
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_sdmmc.c",
+      "additions": 27,
+      "deletions": 20
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_spi.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/sdmmc_spi/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/src/esp32s2_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/include/esp32s3_board_sdmmc.h",
+      "additions": 20,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_sdmmc.c",
+      "additions": 56,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/sdmmc_spi/defconfig",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_board_spi.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/src/esp32s3_bringup.c",
+      "additions": 9,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/xtensa-sdmmc-spi",
+  "headRefOid": "f4398ee8dfd9c0111ea7b7ef9052ca0c79f60e6b",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6btGkb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2ddfab618b134d7b9b34e1207cce662467603f85"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-24T00:08:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16602,
+  "state": "MERGED",
+  "title": "boards/xtensa: support SDMMC over SPI on ESP32|S2|S3 ",
+  "updatedAt": "2025-06-24T00:08:55Z",
+  "url": "https://github.com/apache/nuttx/pull/16602"
+}

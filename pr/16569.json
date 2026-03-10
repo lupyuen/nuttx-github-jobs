@@ -1,0 +1,294 @@
+{
+  "additions": 87,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 46,
+  "closed": true,
+  "closedAt": "2025-06-23T21:17:10Z",
+  "createdAt": "2025-06-22T09:08:45Z",
+  "deletions": 208,
+  "files": [
+    {
+      "path": "fs/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "fs/Make.defs",
+      "additions": 0,
+      "deletions": 21
+    },
+    {
+      "path": "fs/Makefile",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_registerblockdriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_registerdriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_registermtddriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_registerpipedriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_unregisterblockdriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_unregisterdriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_unregistermtddriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/driver/fs_unregisterpipedriver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/event/event_close.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/event/event_open.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/fs_initialize.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "fs/mount/fs_mount.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/mount/fs_umount2.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/mqueue/mq_open.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/mqueue/mq_unlink.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/notify/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 25
+    },
+    {
+      "path": "fs/notify/Kconfig",
+      "additions": 0,
+      "deletions": 25
+    },
+    {
+      "path": "fs/notify/Make.defs",
+      "additions": 0,
+      "deletions": 31
+    },
+    {
+      "path": "fs/notify/notify.h",
+      "additions": 0,
+      "deletions": 60
+    },
+    {
+      "path": "fs/semaphore/sem_close.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/semaphore/sem_open.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/semaphore/sem_unlink.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/shm/shm_open.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/shm/shm_unlink.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/Kconfig",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/Make.defs",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_close.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_fchstat.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_inotify.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_ioctl.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_lock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_mkdir.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_pseudofile.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_read.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_rename.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_rmdir.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_symlink.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_truncate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_unlink.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/vfs.h",
+      "additions": 22,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "vfs",
+  "headRefOid": "93d57d454f2644ea7403d646437a753240c4b3ac",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac6bizuV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c9dc89142c38a1ed4e9a2bd566a9de9835eafe00"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T21:17:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16569,
+  "state": "MERGED",
+  "title": "Refine vfs source file layout",
+  "updatedAt": "2025-06-23T23:49:06Z",
+  "url": "https://github.com/apache/nuttx/pull/16569"
+}

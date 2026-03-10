@@ -1,0 +1,570 @@
+{
+  "additions": 262,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 107,
+  "closed": true,
+  "closedAt": "2025-06-30T01:56:27Z",
+  "createdAt": "2025-06-22T06:41:40Z",
+  "deletions": 497,
+  "files": [
+    {
+      "path": "arch/arm/src/common/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/common/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/machine/arm/CMakeLists.txt",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/machine/arm/Make.defs",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "libs/libc/machine/arm/arch_atexit.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/arch_dummy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/arch_mcount.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/arch_setjmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/arch_unwind_find_exidx.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 10
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/acle-compat.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_memchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_memcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_memmove.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_memset.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-a/arch_strlen.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 11
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/acle-compat.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_memchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_memcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_memmove.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_memset.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_strcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-m/arch_strlen.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 13
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/acle-compat.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/arch_memchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/arch_memcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/arch_memmove.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/arch_memset.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv7-r/arch_strlen.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 11
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/acle-compat.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/arch_memchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/arch_memcpy.S",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/arch_memmove.S",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/arch_memset.S",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/arch_strcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-m/arch_strlen.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 10
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/acle-compat.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/arch_memchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/arch_memcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/arch_memmove.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/arch_memset.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/armv8-r/arch_strlen.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm/tc32_setjmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/CMakeLists.txt",
+      "additions": 60,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/Make.defs",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_mcount.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memmove.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_memset.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_setjmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strchrnul.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strlen.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strncmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strnlen.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_strrchr.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/arm64/gnu/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 85
+    },
+    {
+      "path": "libs/libc/machine/renesas/Kconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/renesas/rx/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 21
+    },
+    {
+      "path": "libs/libc/machine/renesas/rx/Kconfig",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/renesas/rx/Make.defs",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/renesas/rx/arch_setjmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/risc-v/CMakeLists.txt",
+      "additions": 13,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/machine/risc-v/Make.defs",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_memcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_memset.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_setjmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/risc-v/arch_strcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/risc-v/asm.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/risc-v/common/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 21
+    },
+    {
+      "path": "libs/libc/machine/risc-v/gnu/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 41
+    },
+    {
+      "path": "libs/libc/machine/risc-v/rv32/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 21
+    },
+    {
+      "path": "libs/libc/machine/risc-v/rv64/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 22
+    },
+    {
+      "path": "libs/libc/machine/x86_64/CMakeLists.txt",
+      "additions": 48,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/machine/x86_64/Make.defs",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/machine/x86_64/arch_memcmp.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/x86_64/arch_memmove.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/x86_64/arch_memset_avx2.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/x86_64/arch_memset_sse2.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/x86_64/arch_stpcpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/x86_64/arch_stpncpy.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/machine/x86_64/arch_strcat.S",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "rename",
+  "headRefOid": "394ceabf3b01d19314577cee84620c1cb91aae48",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac6bikEU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2b360c826cd8015dd5701fb0d625e85a6652f40c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-30T01:56:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "milestone": null,
+  "number": 16567,
+  "state": "MERGED",
+  "title": "Move assemble soure files out off gnu folder",
+  "updatedAt": "2025-06-30T04:14:51Z",
+  "url": "https://github.com/apache/nuttx/pull/16567"
+}

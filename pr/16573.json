@@ -1,0 +1,100 @@
+{
+  "additions": 167,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-06-23T12:34:17Z",
+  "createdAt": "2025-06-23T08:31:22Z",
+  "deletions": 34,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/Kconfig-usart",
+      "additions": 100,
+      "deletions": 20
+    },
+    {
+      "path": "drivers/serial/serial.c",
+      "additions": 21,
+      "deletions": 9
+    },
+    {
+      "path": "include/nuttx/serial/serial.h",
+      "additions": 19,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "bp-16466",
+  "headRefOid": "422194014d181ccbb2544290acccffe7b684f17b",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6bnmsr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c241137c51805e772b5567b1724c2144019941d7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T12:34:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16573,
+  "state": "MERGED",
+  "title": "{bp-16466} drivers/serial: fix race conditions",
+  "updatedAt": "2025-06-23T12:34:17Z",
+  "url": "https://github.com/apache/nuttx/pull/16573"
+}

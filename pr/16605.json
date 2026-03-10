@@ -1,0 +1,116 @@
+{
+  "additions": 1150,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4NTI5MDI5",
+    "is_bot": false,
+    "login": "EliasJRH",
+    "name": "Elias Hawa"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-07-08T00:18:15Z",
+  "createdAt": "2025-06-24T00:07:23Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/sensors.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/l86xxx.rst",
+      "additions": 177,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/l86xxx_uorb.c",
+      "additions": 840,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/ioctl.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/l86xxx.h",
+      "additions": 82,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "quectel-l86-m33",
+  "headRefOid": "1bd74af9fdf98862061d348a29de7136f3aa855e",
+  "headRepository": {
+    "id": "R_kgDOO2M73w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4NTI5MDI5",
+    "name": "Elias Hawa",
+    "login": "EliasJRH"
+  },
+  "id": "PR_kwDODZiUac6bwIcK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0ce9e82d739fd9ed5fa887ef64ea4ba32f48f75c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-08T00:18:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16605,
+  "state": "MERGED",
+  "title": "drivers/sensors: add Quectel L86-XXX GNSS uORB sensor driver",
+  "updatedAt": "2025-07-08T00:18:15Z",
+  "url": "https://github.com/apache/nuttx/pull/16605"
+}

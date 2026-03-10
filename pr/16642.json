@@ -1,0 +1,269 @@
+{
+  "additions": 330,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDxz3Q",
+    "is_bot": false,
+    "login": "jingfei195887",
+    "name": "Jing Fei"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 29,
+  "closed": true,
+  "closedAt": "2025-07-16T06:11:41Z",
+  "createdAt": "2025-06-27T11:22:20Z",
+  "deletions": 340,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/mtd.rst",
+      "additions": 76,
+      "deletions": 3
+    },
+    {
+      "path": "Documentation/components/drivers/special/mtd_open_flow.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/src/s32k3xx_bringup.c",
+      "additions": 11,
+      "deletions": 33
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/Kconfig",
+      "additions": 6,
+      "deletions": 15
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/configs/at25boot/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/src/at25_main.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/src/sam_at25.c",
+      "additions": 7,
+      "deletions": 34
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/src/sam_usbmsc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/src/sama5d4-ek.h",
+      "additions": 3,
+      "deletions": 16
+    },
+    {
+      "path": "boards/arm/samv7/common/src/sam_progmem.c",
+      "additions": 6,
+      "deletions": 21
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_bringup.c",
+      "additions": 6,
+      "deletions": 23
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/src/stm32_bringup.c",
+      "additions": 5,
+      "deletions": 21
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/common/src/esp32c3_board_spiflash.c",
+      "additions": 3,
+      "deletions": 16
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spiflash.c",
+      "additions": 3,
+      "deletions": 17
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_spiflash.c",
+      "additions": 2,
+      "deletions": 17
+    },
+    {
+      "path": "boards/z80/ez80/z20x/Kconfig",
+      "additions": 2,
+      "deletions": 13
+    },
+    {
+      "path": "boards/z80/ez80/z20x/src/ez80_w25.c",
+      "additions": 3,
+      "deletions": 26
+    },
+    {
+      "path": "boards/z80/ez80/z20x/src/w25_main.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/z80/ez80/z20x/src/z20x.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/bch/bchdev_register.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/bch/bchlib_setup.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/mtd/ftl.c",
+      "additions": 119,
+      "deletions": 23
+    },
+    {
+      "path": "fs/driver/fs_blockproxy.c",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "fs/driver/fs_mtdproxy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "include/fcntl.h",
+      "additions": 26,
+      "deletions": 20
+    },
+    {
+      "path": "include/nuttx/drivers/drivers.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 16,
+      "deletions": 2
+    },
+    {
+      "path": "include/sys/mount.h",
+      "additions": 11,
+      "deletions": 10
+    }
+  ],
+  "headRefName": "mtd_optimize",
+  "headRefOid": "9e1177a98e109cc6c52c0bcedbdd3fee53fc4174",
+  "headRepository": {
+    "id": "R_kgDOPCxhcQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDxz3Q",
+    "name": "Jing Fei",
+    "login": "jingfei195887"
+  },
+  "id": "PR_kwDODZiUac6caCdM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac7fs7sy",
+      "name": "breaking change",
+      "description": "This change requires a mitigation entry in the release notes.",
+      "color": "B60205"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MMEA",
+      "name": "Board: z80",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4a765b557ffc0f7b6471483b266869016161be2f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-16T06:11:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16642,
+  "state": "MERGED",
+  "title": "drivers/mtd/ftl/bch: Add direct writing method for FTL",
+  "updatedAt": "2025-07-18T14:31:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16642"
+}

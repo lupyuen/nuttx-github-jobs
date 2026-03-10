@@ -1,0 +1,99 @@
+{
+  "additions": 358,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-06-29T12:11:46Z",
+  "createdAt": "2025-06-28T18:42:33Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c6/common/include/esp_board_ncv7410.h",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_ncv7410.c",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/ncv7410/defconfig",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/ncv7410/defconfig",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/src/esp32c6_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ncv7410-esp32c6",
+  "headRefOid": "53de72fb0fe5f5d88226d28ede39fbc65f30d9b4",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac6ci7ii",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e0ba2efdca2917f66dfadacc326b4362e0095a96"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-29T12:11:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16646,
+  "state": "MERGED",
+  "title": "boards/riscv-v/esp32c6: Add the NCV7410 10BASE-T1S SPI MAC-PHY support",
+  "updatedAt": "2025-07-10T06:53:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16646"
+}

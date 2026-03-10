@@ -1,0 +1,110 @@
+{
+  "additions": 425,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2025-07-02T16:17:58Z",
+  "createdAt": "2025-06-25T09:00:56Z",
+  "deletions": 429,
+  "files": [
+    {
+      "path": "include/gcov.h",
+      "additions": 0,
+      "deletions": 114
+    },
+    {
+      "path": "libs/libbuiltin/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/Make.defs",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/coverage.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libbuiltin/libgcc/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libbuiltin/libgcc/gcov.c",
+      "additions": 253,
+      "deletions": 187
+    },
+    {
+      "path": "tools/gcov.py",
+      "additions": 153,
+      "deletions": 118
+    }
+  ],
+  "headRefName": "libs",
+  "headRefOid": "c0dafcc9bcd6896ddd8da939d13ba83358d05627",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cBAkU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "10a13b98eef584c9101b72e0f6b9f2a3cd3af9cf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-02T16:17:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16614,
+  "state": "MERGED",
+  "title": "libbuiltin/gcov: Upgrade gcov function",
+  "updatedAt": "2026-01-19T03:02:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16614"
+}

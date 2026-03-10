@@ -1,0 +1,489 @@
+{
+  "additions": 1156,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 78,
+  "closed": true,
+  "closedAt": "2025-06-29T18:58:17Z",
+  "createdAt": "2025-06-27T07:18:53Z",
+  "deletions": 1090,
+  "files": [
+    {
+      "path": "audio/audio.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/configs/kmodule/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm3240g-eval/configs/knxwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/misc/optee.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/net/telnet.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/Kconfig",
+      "additions": 0,
+      "deletions": 13
+    },
+    {
+      "path": "fs/aio/aioc_contain.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/inode/fs_files.c",
+      "additions": 371,
+      "deletions": 465
+    },
+    {
+      "path": "fs/inode/inode.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "fs/mmap/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "fs/mmap/fs_mmap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/mmap/fs_rammap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/mqueue/mq_open.c",
+      "additions": 10,
+      "deletions": 14
+    },
+    {
+      "path": "fs/notify/inotify.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "fs/procfs/fs_procfsproc.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "fs/shm/shm_open.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "fs/socket/accept.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/socket/socket.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_close.c",
+      "additions": 69,
+      "deletions": 21
+    },
+    {
+      "path": "fs/vfs/fs_dup.c",
+      "additions": 6,
+      "deletions": 48
+    },
+    {
+      "path": "fs/vfs/fs_dup2.c",
+      "additions": 41,
+      "deletions": 47
+    },
+    {
+      "path": "fs/vfs/fs_dup3.c",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_epoll.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "fs/vfs/fs_eventfd.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_fchstat.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/fs_fcntl.c",
+      "additions": 85,
+      "deletions": 76
+    },
+    {
+      "path": "fs/vfs/fs_fstat.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/fs_fstatfs.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/fs_fsync.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_ioctl.c",
+      "additions": 65,
+      "deletions": 58
+    },
+    {
+      "path": "fs/vfs/fs_lock.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/fs_lseek.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 20,
+      "deletions": 25
+    },
+    {
+      "path": "fs/vfs/fs_poll.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "fs/vfs/fs_pread.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_pseudofile.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_pwrite.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_read.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/fs_sendfile.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "fs/vfs/fs_signalfd.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "fs/vfs/fs_syncfs.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_timerfd.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "fs/vfs/fs_truncate.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 196,
+      "deletions": 113
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "include/nuttx/spinlock.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "net/local/local_sendmsg.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "net/socket/bind.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/connect.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/getpeername.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/getsockname.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/getsockopt.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/listen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/recvfrom.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/recvmsg.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/sendmsg.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/sendto.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/setsockopt.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/socket/shutdown.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_setuptaskfiles.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/mqueue/mq_getattr.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/mqueue/mq_notify.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/mqueue/mq_receive.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/mqueue/mq_send.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "sched/mqueue/mq_setattr.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "sched/sched/sched_getfiles.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "sched/task/task_spawnparms.c",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/fs.py",
+      "additions": 17,
+      "deletions": 16
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/protocols/fs.py",
+      "additions": 14,
+      "deletions": 7
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/protocols/thread.py",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "bp-16499",
+  "headRefOid": "1da9a472c1af6af4928d8adc57e7376b535c387d",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6cXblr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16631,
+  "state": "CLOSED",
+  "title": "{bp-16499} [BREAKING] fs/vfs: Separate file descriptors from file descriptions",
+  "updatedAt": "2025-06-29T18:58:17Z",
+  "url": "https://github.com/apache/nuttx/pull/16631"
+}

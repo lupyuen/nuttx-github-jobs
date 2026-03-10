@@ -1,0 +1,69 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-06-23T10:38:50Z",
+  "createdAt": "2025-06-23T09:15:16Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "arch/risc-v/src/qemu-rv/qemu_rv_mm_init.c",
+      "additions": 7,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "bp-16556",
+  "headRefOid": "3e42b5b40b69097b92355cb5a629ef222b196092",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6boFF-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9653e5d6d7b23d509990fc40c745696108b86a41"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T10:38:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16595,
+  "state": "MERGED",
+  "title": "{bp-16556} risc-v/mmu: Fix map_region() for incorrect page table setup when vadd…",
+  "updatedAt": "2025-06-23T10:38:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16595"
+}

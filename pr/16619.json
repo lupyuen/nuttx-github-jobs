@@ -1,0 +1,230 @@
+{
+  "additions": 432,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 26,
+  "closed": true,
+  "closedAt": "2025-06-26T12:31:19Z",
+  "createdAt": "2025-06-25T09:39:22Z",
+  "deletions": 202,
+  "files": [
+    {
+      "path": "arch/arm/include/armv7-a/cp15.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-r/cp15.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv8-r/cp15.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_gicv3.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/cmake/clang.cmake",
+      "additions": 13,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/common/Toolchain.defs",
+      "additions": 19,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/common/arm_internal.h",
+      "additions": 0,
+      "deletions": 39
+    },
+    {
+      "path": "arch/arm64/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/include/spinlock.h",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 50,
+      "deletions": 30
+    },
+    {
+      "path": "arch/arm64/src/cmake/Toolchain.cmake",
+      "additions": 30,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm64/src/common/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch_timer.c",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_cache.c",
+      "additions": 1,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_gicv3.c",
+      "additions": 5,
+      "deletions": 16
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_head.S",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/cmake/Toolchain.cmake",
+      "additions": 26,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/Toolchain.defs",
+      "additions": 19,
+      "deletions": 9
+    },
+    {
+      "path": "arch/x86/src/common/Toolchain.defs",
+      "additions": 22,
+      "deletions": 12
+    },
+    {
+      "path": "arch/x86_64/src/common/Toolchain.defs",
+      "additions": 22,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/src/cmake/Toolchain.cmake",
+      "additions": 26,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/lx6/Toolchain.defs",
+      "additions": 20,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/lx7/Toolchain.defs",
+      "additions": 20,
+      "deletions": 6
+    },
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 21,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "clang",
+  "headRefOid": "873223b211e9f845269bad13d65d583606b4c7bc",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cBbnP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3ca0d1e478b34836e12908b7195a49eb1fcacd1a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-26T12:31:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16619,
+  "state": "MERGED",
+  "title": "arm64/v8r: support clang compilation",
+  "updatedAt": "2025-06-26T12:31:19Z",
+  "url": "https://github.com/apache/nuttx/pull/16619"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-06-23T12:31:57Z",
+  "createdAt": "2025-06-23T09:09:46Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/configs/adc/defconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_adc.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-16535",
+  "headRefOid": "26a2a2ccd7c840cc1b545ebd3971bbe5a8aadebb",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6boBdU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4f39f79a617de0960c7893cf285efa3c49acccc9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T12:31:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16592,
+  "state": "MERGED",
+  "title": "{bp-16535} boards/nucleo-f446re: fix adc example",
+  "updatedAt": "2025-06-23T12:31:57Z",
+  "url": "https://github.com/apache/nuttx/pull/16592"
+}

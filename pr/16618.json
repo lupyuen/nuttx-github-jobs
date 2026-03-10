@@ -1,0 +1,207 @@
+{
+  "additions": 421,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 25,
+  "closed": true,
+  "closedAt": "2025-06-30T10:19:38Z",
+  "createdAt": "2025-06-25T09:28:56Z",
+  "deletions": 58,
+  "files": [
+    {
+      "path": "arch/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/a527/a527_boot.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch.h",
+      "additions": 9,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_mmu.h",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_mte.c",
+      "additions": 73,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/src/qemu/qemu_boot.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/virtio/virtio-mmio.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mm/kasan.h",
+      "additions": 39,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/machine/arm64/arch_elf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "mm/kasan/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "mm/kasan/Kconfig",
+      "additions": 19,
+      "deletions": 4
+    },
+    {
+      "path": "mm/kasan/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "mm/kasan/generic.c",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "mm/kasan/hook.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "mm/kasan/hw_tags.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "mm/kasan/sw_tags.c",
+      "additions": 20,
+      "deletions": 11
+    },
+    {
+      "path": "mm/mempool/mempool_multiple.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "mm/mm_heap/mm_free.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/mm_heap/mm_heapmember.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/mm_heap/mm_lock.c",
+      "additions": 26,
+      "deletions": 3
+    },
+    {
+      "path": "mm/mm_heap/mm_malloc_size.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "mm/mm_heap/mm_memalign.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/mm_heap/mm_realloc.c",
+      "additions": 7,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "kasan",
+  "headRefOid": "226edb2800432762bb832bfc917eddd76e399187",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cBTsn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "0a71cbe5422d10754c2a41fe134449bed9123af5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-30T10:19:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16618,
+  "state": "MERGED",
+  "title": "Enhanced Kasan",
+  "updatedAt": "2025-06-30T10:19:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16618"
+}

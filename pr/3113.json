@@ -1,0 +1,72 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-06-29T18:58:56Z",
+  "createdAt": "2025-06-27T07:27:32Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "testing/testsuites/kernel/fs/cases/fs_file_get_test.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/cmocka_fs_test.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/fs/include/fstest.h",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "bp-3091",
+  "headRefOid": "027a759111f2bc9bb7ee08d4b53e071c13a78230",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT486cXhgJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3113,
+  "state": "CLOSED",
+  "title": "{bp-3091} testing/fs: update api name fs_getfilep/fs_putfilep to file_get/file_put",
+  "updatedAt": "2025-06-29T18:58:56Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3113"
+}

@@ -1,0 +1,103 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-18T14:37:37Z",
+  "createdAt": "2025-06-26T08:46:32Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "arch/arm/src/cmake/clang.cmake",
+      "additions": 10,
+      "deletions": 9
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/ci/testlist/arm-05.dat",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "arm32-clang",
+  "headRefOid": "6d41228a9753d81a63d475770a218601f51560e3",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cMiHC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cbdc1a4108853f002dded4a11ce1d5a20f373ed6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-18T14:37:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16627,
+  "state": "MERGED",
+  "title": "Arm32 v8m support cmake clang compile",
+  "updatedAt": "2026-01-19T03:02:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16627"
+}

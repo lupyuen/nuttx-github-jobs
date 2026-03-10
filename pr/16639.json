@@ -1,0 +1,127 @@
+{
+  "additions": 408,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-06-27T12:44:41Z",
+  "createdAt": "2025-06-27T09:57:44Z",
+  "deletions": 208,
+  "files": [
+    {
+      "path": "arch/arm64/src/Toolchain.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/Toolchain.cmake",
+      "additions": 5,
+      "deletions": 196
+    },
+    {
+      "path": "arch/arm64/src/cmake/clang.cmake",
+      "additions": 171,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/gcc.cmake",
+      "additions": 220,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/platform.cmake",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch_timer.c",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_fiq/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_gicv2/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testlist/arm64-01.dat",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "clang",
+  "headRefOid": "3b46cd0d361507d2b66881817da3746d7b1cff20",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cZL60",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ecd6a1db1a382de10d109ba142a006a1069613ef"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-27T12:44:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16639,
+  "state": "MERGED",
+  "title": "cmake/arm64:   support clang compile",
+  "updatedAt": "2025-06-27T12:44:42Z",
+  "url": "https://github.com/apache/nuttx/pull/16639"
+}

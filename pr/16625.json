@@ -1,0 +1,82 @@
+{
+  "additions": 572,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-07-17T15:03:28Z",
+  "createdAt": "2025-06-25T13:08:50Z",
+  "deletions": 102,
+  "files": [
+    {
+      "path": "boards/arm/samv7/samv71-xult/configs/mtd/defconfig",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_bringup.c",
+      "additions": 4,
+      "deletions": 96
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_s25fl1.c",
+      "additions": 454,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/samv71-xult.h",
+      "additions": 17,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "samv71-xult-s25fl1",
+  "headRefOid": "17680faaa8cbafa3451a2783fb36bac747f1a091",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac6cDi1J",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16625,
+  "state": "CLOSED",
+  "title": "boards/arm/samv7/samv71-xult: initialize s25fl1 NOR flash",
+  "updatedAt": "2025-07-17T15:03:28Z",
+  "url": "https://github.com/apache/nuttx/pull/16625"
+}

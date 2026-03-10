@@ -1,0 +1,109 @@
+{
+  "additions": 1078,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-06-30T09:18:57Z",
+  "createdAt": "2025-06-25T07:26:22Z",
+  "deletions": 35,
+  "files": [
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/armv7-a/cp14.h",
+      "additions": 476,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_dataabort.c",
+      "additions": 44,
+      "deletions": 26
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_hwdebug.c",
+      "additions": 497,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_prefetchabort.c",
+      "additions": 22,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/armv7-a/mmu.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/arm_internal.h",
+      "additions": 5,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "arm32-hwdebug",
+  "headRefOid": "b6a662b5bfbc703627cef47ce83d1f559d50711e",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cABki",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8f6be9a9b5ff34570e45cd54f5aa362c4a67505a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-30T09:18:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16611,
+  "state": "MERGED",
+  "title": "arch/arm/armv7-a: Support hardware debugpoint to  enhance gdbstub",
+  "updatedAt": "2026-01-19T03:02:49Z",
+  "url": "https://github.com/apache/nuttx/pull/16611"
+}

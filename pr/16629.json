@@ -1,0 +1,75 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-06-27T13:45:33Z",
+  "createdAt": "2025-06-26T14:53:50Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "sched/group/group_setuptaskfiles.c",
+      "additions": 7,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fs_fdlist_rewrite",
+  "headRefOid": "ad2b47a2f5ef4b70d6f8d73f2e70b37b81611281",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6cQEOY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "57d83907ddf2faaf3efdbf6d586bb330bc748fe1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-27T13:45:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16629,
+  "state": "MERGED",
+  "title": "bugfix: share kernel thread group should not dup files from caller group",
+  "updatedAt": "2025-06-27T13:45:33Z",
+  "url": "https://github.com/apache/nuttx/pull/16629"
+}

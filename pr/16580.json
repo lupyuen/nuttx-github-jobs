@@ -1,0 +1,105 @@
+{
+  "additions": 3436,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-06-23T10:35:38Z",
+  "createdAt": "2025-06-23T08:45:18Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/mcx-nxxx/Kconfig",
+      "additions": 250,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mcx-nxxx/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mcx-nxxx/hardware/nxxx_lpi2c.h",
+      "additions": 627,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mcx-nxxx/nxxx_lpi2c.c",
+      "additions": 2478,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/mcx-nxxx/nxxx_lpi2c.h",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mcx-nxxx/frdm-mcxn236/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/mcx-nxxx/frdm-mcxn236/include/board.h",
+      "additions": 3,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-16469",
+  "headRefOid": "8507d017235799d024aabb19c1e93c6fa64ccbc6",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6bnwkf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "a9819bf319f94aa7e264f2a92ac4e0e79b066410"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T10:35:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16580,
+  "state": "MERGED",
+  "title": "{bp-16469} mcx-nxxx: Add LPI2C driver for mcx-nxxx architecture",
+  "updatedAt": "2025-06-23T10:35:38Z",
+  "url": "https://github.com/apache/nuttx/pull/16580"
+}

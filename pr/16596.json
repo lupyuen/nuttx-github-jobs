@@ -1,0 +1,91 @@
+{
+  "additions": 41,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-06-23T10:38:46Z",
+  "createdAt": "2025-06-23T09:17:38Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/qemu-rv/boards/rv-virt/index.rst",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_swint.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/scripts/ld-nuttsbi.script",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-16565",
+  "headRefOid": "aa2d0c69ac9828c590a70db8f11a3d428505a9dd",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6boGny",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3f42b383d19731aa98bbae8d434d0235297a0ab9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T10:38:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16596,
+  "state": "MERGED",
+  "title": "{bp-16565} Fix arch perf events ifdef in alarm ",
+  "updatedAt": "2025-06-23T10:38:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16596"
+}

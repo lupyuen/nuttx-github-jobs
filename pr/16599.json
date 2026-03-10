@@ -1,0 +1,68 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-06-23T14:56:15Z",
+  "createdAt": "2025-06-23T10:04:51Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "libs/libc/netdb/lib_dnsquery.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/fix-lib-dnsquery-close-lost",
+  "headRefOid": "1fd17fba6ce7c522ed0e44f4a2a9a60f38cb7891",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac6bom4d",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "26e02700dd476e75787d9f0dadd979864c8cdafe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T14:56:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16599,
+  "state": "MERGED",
+  "title": "netdb/lib_dnsquery.c: prevent file descriptor leakage",
+  "updatedAt": "2025-06-23T14:56:15Z",
+  "url": "https://github.com/apache/nuttx/pull/16599"
+}

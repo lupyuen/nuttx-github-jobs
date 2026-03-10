@@ -1,0 +1,69 @@
+{
+  "additions": 20,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.10",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2025-06-23T12:32:43Z",
+  "createdAt": "2025-06-23T09:03:56Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_tim.c",
+      "additions": 20,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "bp-16514",
+  "headRefOid": "23dbe8d0d4a772ff6e07e04109c56ffd33d56f7f",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac6bn9Vp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "6e2ef4c0aa3dd4cf45f63f9e46f52709e1e75858"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-23T12:32:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16589,
+  "state": "MERGED",
+  "title": "{bp-16514} arch/stm32f0l0g0/stm32_tim.c: fix compilation when TIM6/TIM7 is missing",
+  "updatedAt": "2025-06-23T12:32:43Z",
+  "url": "https://github.com/apache/nuttx/pull/16589"
+}

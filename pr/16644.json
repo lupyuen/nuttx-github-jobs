@@ -1,0 +1,588 @@
+{
+  "additions": 3107,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 100,
+  "closed": true,
+  "closedAt": "2025-06-30T14:40:26Z",
+  "createdAt": "2025-06-27T17:30:36Z",
+  "deletions": 3227,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Bootloader.mk",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Wireless.mk",
+      "additions": 15,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_dma.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_gpio.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_hr_timer.c",
+      "additions": 46,
+      "deletions": 17
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_hr_timer.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
+      "additions": 37,
+      "deletions": 12
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2s.c",
+      "additions": 10,
+      "deletions": 12
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_irq.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ledc.c",
+      "additions": 33,
+      "deletions": 10
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_mcpwm.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_oneshot.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_pcnt.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rmt.c",
+      "additions": 25,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi.c",
+      "additions": 85,
+      "deletions": 33
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_start.c",
+      "additions": 46,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 41,
+      "deletions": 7
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_timer.c",
+      "additions": 31,
+      "deletions": 20
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_timer.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_twai.c",
+      "additions": 39,
+      "deletions": 11
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_usbserial.c",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_utils.c",
+      "additions": 474,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wifi_utils.h",
+      "additions": 135,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan.c",
+      "additions": 38,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan.h",
+      "additions": 30,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_ble_adapter.c",
+      "additions": 132,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_wifi_adapter.c",
+      "additions": 7,
+      "deletions": 471
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_wireless.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 32,
+      "deletions": 10
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_wifi_adapter.c",
+      "additions": 7,
+      "deletions": 471
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 36,
+      "deletions": 12
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 39,
+      "deletions": 14
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 17,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Wireless.mk",
+      "additions": 22,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_espnow_pktradio.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2s.c",
+      "additions": 20,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_loader.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_pcnt.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rmt.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 42,
+      "deletions": 8
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_utils.c",
+      "additions": 581,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wifi_utils.h",
+      "additions": 97,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wireless.c",
+      "additions": 0,
+      "deletions": 150
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wireless.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan.c",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan.h",
+      "additions": 46,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Bootloader.mk",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ble_adapter.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ble_adapter.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_pm.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_tickless.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.c",
+      "additions": 64,
+      "deletions": 508
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.h",
+      "additions": 0,
+      "deletions": 56
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 39,
+      "deletions": 8
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Bootloader.mk",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_start.c",
+      "additions": 1,
+      "deletions": 84
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_touch.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_twai.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_twai.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wifi_adapter.c",
+      "additions": 65,
+      "deletions": 484
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wifi_adapter.h",
+      "additions": 0,
+      "deletions": 56
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 47,
+      "deletions": 8
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Bootloader.mk",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ble_adapter.c",
+      "additions": 192,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_ble_adapter.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_dma.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spiflash.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_spiram.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_start.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_textheap.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_userspace.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.c",
+      "additions": 66,
+      "deletions": 506
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.h",
+      "additions": 0,
+      "deletions": 60
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 37,
+      "deletions": 9
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_aliases.ld",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/scripts/esp32c3_sections.ld",
+      "additions": 38,
+      "deletions": 11
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_sections.ld",
+      "additions": 38,
+      "deletions": 11
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/scripts/esp32h2_sections.ld",
+      "additions": 37,
+      "deletions": 12
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/esp32_sections.ld",
+      "additions": 19,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/kernel-space.ld",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32/common/scripts/legacy_sections.ld",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/esp32s2_sections.ld",
+      "additions": 39,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/scripts/flat_memory.ld",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-kaluga-1/src/esp32s2_buttons.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_aliases.ld",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/esp32s3_sections.ld",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/kernel-space.ld",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/scripts/legacy_sections.ld",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "tools/espressif/Config.mk",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/espressif-upgrade-rc3",
+  "headRefOid": "89bc00a272f6edb920ce0f797893f5278fb3a599",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6cdoMt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e57d2a5247413658f9e7569caf3cc5e5b0fc9e24"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-30T14:40:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16644,
+  "state": "MERGED",
+  "title": "espressif: update lower-half drivers",
+  "updatedAt": "2025-06-30T14:40:26Z",
+  "url": "https://github.com/apache/nuttx/pull/16644"
+}

@@ -1,0 +1,98 @@
+{
+  "additions": 594,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2025-07-17T15:03:06Z",
+  "createdAt": "2025-06-25T13:08:34Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/mtd.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/implementation/drivers_design.rst",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/Kconfig",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/mtd_register.c",
+      "additions": 516,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mtd/mtd.h",
+      "additions": 24,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mtd_direct_access",
+  "headRefOid": "e343b8ebf58e851127495b3b579c90852d5cba13",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac6cDiqx",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16624,
+  "state": "CLOSED",
+  "title": "drivers/mtd: add support for direct MTD access to raw flash",
+  "updatedAt": "2025-07-17T15:03:06Z",
+  "url": "https://github.com/apache/nuttx/pull/16624"
+}

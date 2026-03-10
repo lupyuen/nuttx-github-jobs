@@ -1,0 +1,94 @@
+{
+  "additions": 2073,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "is_bot": false,
+    "login": "matiamic",
+    "name": "michal"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-06-28T11:49:46Z",
+  "createdAt": "2025-06-25T11:44:13Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/net/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Kconfig",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/ncv7410.c",
+      "additions": 1662,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/ncv7410.h",
+      "additions": 291,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/net/ncv7410.h",
+      "additions": 88,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ncv7410",
+  "headRefOid": "47f8305f799408368d6386b916a6d24592ffb865",
+  "headRepository": {
+    "id": "R_kgDONP7pOA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyNTA3MjU3",
+    "name": "michal",
+    "login": "matiamic"
+  },
+  "id": "PR_kwDODZiUac6cCqp6",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c5a3089e87792228be37ac03cd195fc91cb90fd6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-28T11:49:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16623,
+  "state": "MERGED",
+  "title": "drivers/net: add support for the NCV7410 10BASE-T1S SPI MAC-PHY",
+  "updatedAt": "2025-07-17T13:51:13Z",
+  "url": "https://github.com/apache/nuttx/pull/16623"
+}

@@ -1,0 +1,114 @@
+{
+  "additions": 609,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2025-07-02T16:20:54Z",
+  "createdAt": "2025-06-25T07:31:54Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fatal.c",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fatal.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_hwdebug.c",
+      "additions": 460,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_hwdebug.h",
+      "additions": 124,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_initialize.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_internal.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_vectors.S",
+      "additions": 3,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "arm64-hwdebug",
+  "headRefOid": "3ea4c7f41da7a91df5b59a41e396381583b5a6eb",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cAEiA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1df6aa92f9da4930e651658b17b068c44e3a0da2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-02T16:20:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16612,
+  "state": "MERGED",
+  "title": "arch/arm64: enable arm64 hardware breakpoints",
+  "updatedAt": "2026-01-19T03:02:45Z",
+  "url": "https://github.com/apache/nuttx/pull/16612"
+}

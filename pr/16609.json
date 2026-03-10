@@ -1,0 +1,90 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-06-26T12:31:14Z",
+  "createdAt": "2025-06-24T13:45:54Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "drivers/serial/ptmx.c",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "fs/inode/fs_files.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "fs/mqueue/mq_open.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fs_fdlist_rewrite",
+  "headRefOid": "473a3a100fbc571175187637eb16ccd7bb068ede",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6b31ye",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "7ecfbcdaabac48e51d621ee4eb4d06a96516ee44"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-26T12:31:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16609,
+  "state": "MERGED",
+  "title": "fs/vfs: clear filep when call file_open/file_mq_open to avoid random value[bug fix]",
+  "updatedAt": "2025-06-27T13:35:50Z",
+  "url": "https://github.com/apache/nuttx/pull/16609"
+}

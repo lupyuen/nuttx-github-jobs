@@ -1,0 +1,84 @@
+{
+  "additions": 31,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-06-26T12:33:29Z",
+  "createdAt": "2025-06-25T09:18:06Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "mm/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mempool/mempool.c",
+      "additions": 20,
+      "deletions": 17
+    },
+    {
+      "path": "mm/mm_heap/mm.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "mm/mm_heap/mm_realloc.c",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "mmguardsize",
+  "headRefOid": "02eb38d65140e0c0a94fb7de0500165fe5761760",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6cBMOy",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSGjA",
+      "name": "Area: Memory Management",
+      "description": "Memory Management issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9af2f0ee8247b730522d023903a5882bd845993a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-26T12:33:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16617,
+  "state": "MERGED",
+  "title": "mm: add CONFIG_MM_NODE_GUARDSIZE option",
+  "updatedAt": "2026-01-19T03:02:47Z",
+  "url": "https://github.com/apache/nuttx/pull/16617"
+}
