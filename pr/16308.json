@@ -1,0 +1,80 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-05T01:28:35Z",
+  "createdAt": "2025-05-03T17:23:10Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/nrf53/nrf53_sdc.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/configs/rpmsghci_nimble_cpuapp/defconfig",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nrf53_fix",
+  "headRefOid": "0dfe9440836d6088bee9799a4f45420e71cb40d6",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6U1F2x",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "5d2f121231a4ef935af4489bf4a5076a1cb78dea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-05T01:28:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16308,
+  "state": "MERGED",
+  "title": "arch/nrf53: fix broken RPMSG HCI server",
+  "updatedAt": "2025-06-15T06:53:56Z",
+  "url": "https://github.com/apache/nuttx/pull/16308"
+}

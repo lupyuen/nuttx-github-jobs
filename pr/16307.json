@@ -1,0 +1,84 @@
+{
+  "additions": 145,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOC7cL0w",
+    "is_bot": false,
+    "login": "vrmay23",
+    "name": "vinicius"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-05-05T23:14:23Z",
+  "createdAt": "2025-05-03T13:02:51Z",
+  "deletions": 19,
+  "files": [
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/include/board.h",
+      "additions": 37,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/src/nucleo-f767zi.h",
+      "additions": 34,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/src/stm32_bringup.c",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/src/stm32_buttons.c",
+      "additions": 59,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "nucleo-767zi_fix_buttons",
+  "headRefOid": "c5cd342d62c840893936e30eea6f646191d6920e",
+  "headRepository": {
+    "id": "R_kgDOOh7X8Q",
+    "name": "my_nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOC7cL0w",
+    "name": "vinicius",
+    "login": "vrmay23"
+  },
+  "id": "PR_kwDODZiUac6U0u_O",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e086ef2d029fbceb2a3d9bea070f3d286535aa29"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-05T23:14:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16307,
+  "state": "MERGED",
+  "title": "boards/arm/stm32f7/nucleo-f767zi: enhance button support",
+  "updatedAt": "2025-05-05T23:14:23Z",
+  "url": "https://github.com/apache/nuttx/pull/16307"
+}

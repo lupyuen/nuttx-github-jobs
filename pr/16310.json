@@ -1,0 +1,96 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "is_bot": false,
+    "login": "sumpfralle",
+    "name": "Lars Kruse"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-05-05T01:32:31Z",
+  "createdAt": "2025-05-04T00:38:24Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "arch/arm/include/kinetis/chip.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_rptun.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/locale/lib_langinfo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/simwifi/udhcpc.script",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix-problematic-spelling-issues",
+  "headRefOid": "b2f71d6885107df4b0d6bb849f7b7dd3c91d8373",
+  "headRepository": {
+    "id": "R_kgDOMSGLsw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "name": "Lars Kruse",
+    "login": "sumpfralle"
+  },
+  "id": "PR_kwDODZiUac6U1kdm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "10c39302796811911fe239cf20085ee4c7d48cdb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-05T01:32:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16310,
+  "state": "MERGED",
+  "title": "Fix problematic spelling issues",
+  "updatedAt": "2025-05-05T11:19:31Z",
+  "url": "https://github.com/apache/nuttx/pull/16310"
+}

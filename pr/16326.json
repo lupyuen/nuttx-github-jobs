@@ -1,0 +1,66 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYzMzAwNTA=",
+    "is_bot": false,
+    "login": "pussuw",
+    "name": "Ville Juven"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-07T08:15:22Z",
+  "createdAt": "2025-05-06T14:28:32Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "fs/inode/fs_files.c",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_dup_syscall",
+  "headRefOid": "c86a7f507511f8b589a6c8e7fa0be804f4e6c424",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6VHnnY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 16326,
+  "state": "CLOSED",
+  "title": "fs/dup3: If \"newfd\" is open, close it gracefully to prevent panic",
+  "updatedAt": "2025-05-07T08:56:37Z",
+  "url": "https://github.com/apache/nuttx/pull/16326"
+}

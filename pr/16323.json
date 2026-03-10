@@ -1,0 +1,359 @@
+{
+  "additions": 7720,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjM3MDAw",
+      "login": "acassis",
+      "name": "Alan C. Assis"
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 53,
+  "closed": true,
+  "closedAt": "2025-05-08T07:58:18Z",
+  "createdAt": "2025-05-06T00:59:47Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/avrdx/boards/breadxavr/index.rst",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/avrdx/gpio_intr_mux.rst",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/avrdx/index.rst",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/context-switch-notes.rst",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/include/avrdx/irq.h",
+      "additions": 318,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/Kconfig",
+      "additions": 41,
+      "deletions": 11
+    },
+    {
+      "path": "arch/avr/src/avr/Toolchain.defs",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avr/excptmacros.h",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/Kconfig",
+      "additions": 247,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/Make.defs",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx.h",
+      "additions": 144,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_config.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_exceptions.S",
+      "additions": 318,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_gpio.h",
+      "additions": 155,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_gpio_isr_mux.c",
+      "additions": 418,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_head.S",
+      "additions": 578,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_init.c",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_iodefs.h",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_lowconsole.c",
+      "additions": 528,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_lowinit.c",
+      "additions": 125,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_memorymap.h",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_peripherals.c",
+      "additions": 233,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_serial.c",
+      "additions": 792,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_serial.h",
+      "additions": 135,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_serial_early.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_timerisr.c",
+      "additions": 164,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_timerisr_tickless_alarm.c",
+      "additions": 1096,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/chip.h",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128da28.h",
+      "additions": 145,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128da64.h",
+      "additions": 145,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128db64.h",
+      "additions": 145,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/common/avr_initialize.c",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/common/avr_internal.h",
+      "additions": 17,
+      "deletions": 8
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/at90usb/teensy-2.0/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/arduino-mega2560/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/mega1284p-xplained/scripts/ld.script",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/atmega/moteino-mega/scripts/ld.script",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/configs/hello/defconfig",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/include/board.h",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/scripts/Make.defs",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/scripts/breadxavr.ld",
+      "additions": 202,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/avr_leds.c",
+      "additions": 153,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/avrdx_boot.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/avrdx_buttons.c",
+      "additions": 185,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/avrdx_init.c",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/breadxavr.h",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testlist/other.dat",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 9,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "bdbf04d359d6a655fb9fd6c4e7710578b849c59b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6VBPlQ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LwVA",
+      "name": "Board: avr",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1a8fba827a73bb842a60f86b610470c2f38ad4f4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-08T07:58:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16323,
+  "state": "MERGED",
+  "title": "Patches to support AVRDA/DB created by KR",
+  "updatedAt": "2025-05-08T07:58:18Z",
+  "url": "https://github.com/apache/nuttx/pull/16323"
+}

@@ -1,0 +1,142 @@
+{
+  "additions": 2322,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": true,
+  "closedAt": "2025-05-09T02:29:26Z",
+  "createdAt": "2025-05-03T17:57:15Z",
+  "deletions": 187,
+  "files": [
+    {
+      "path": "Documentation/guides/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/guides/optee.rst",
+      "additions": 307,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/syscall.h",
+      "additions": 46,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/misc/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/Kconfig",
+      "additions": 36,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/misc/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee.c",
+      "additions": 740,
+      "deletions": 181
+    },
+    {
+      "path": "drivers/misc/optee.h",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee_smc.c",
+      "additions": 343,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee_smc.h",
+      "additions": 448,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee_socket.c",
+      "additions": 285,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/tee.h",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feat/arm64/optee-smc64-driver",
+  "headRefOid": "c59d3a7d686aab5459073879c680368c35f3fc64",
+  "headRepository": {
+    "id": "R_kgDONfoTqA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiUac6U1Irf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "16143b82b3a5b71ffbf98639cf5c859a82fae198"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-09T02:29:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16309,
+  "state": "MERGED",
+  "title": "drivers/misc/optee.c: Add an SMC driver for arm",
+  "updatedAt": "2025-05-09T07:36:20Z",
+  "url": "https://github.com/apache/nuttx/pull/16309"
+}
