@@ -1,0 +1,454 @@
+{
+  "additions": 128,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 78,
+  "closed": true,
+  "closedAt": "2025-05-23T14:29:58Z",
+  "createdAt": "2025-05-22T14:26:06Z",
+  "deletions": 353,
+  "files": [
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 31,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/adt7320.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/adxl345_base.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/adxl372.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/aht10.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/ak09912.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/amg88xx.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/apds9922.c",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/sensors/apds9960.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/as726x.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/bh1749nuc_base.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/bh1749nuc_uorb.c",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "drivers/sensors/bh1750fvi.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/bme680_uorb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bme688_uorb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmg160.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmi088.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/bmi088_base.c",
+      "additions": 0,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/sensors/bmi160.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/bmi160_base.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/bmm150_uorb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmp180.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/bmp180_base.c",
+      "additions": 1,
+      "deletions": 19
+    },
+    {
+      "path": "drivers/sensors/bmp180_base.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmp180_uorb.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bmp280_uorb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/dhtxx.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/fs3000_uorb.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/hall3ph.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/hdc1008.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/hts221.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/ina219.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/ina226.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/ina3221.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/isl29023.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/kxtj9.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/sensors/l3gd20_uorb.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/lis2dh.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/lis2mdl_uorb.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/sensors/lis331dl.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/lis3dsh.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/lis3mdl.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/lm75.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/lm92.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/lps25h.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/lsm303agr.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/lsm330_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/lsm6dsl.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/lsm6dso32_uorb.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/lsm9ds1_base.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/ltc4151.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/ltr308_uorb.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/max31855.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/max31865.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/max44009.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/max6675.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/mb7040.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/mcp9600_uorb.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/sensors/mcp9844.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/mlx90393.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/mlx90614.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/mpl115a.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/ms56xx_uorb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/ms58xx.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/msa301.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/nau7802.c",
+      "additions": 28,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/sensors/qencoder.c",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/sensors/scd30.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/scd41.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/sgp30.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/sht21.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/sht3x.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/sht4x_uorb.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/sps30.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/sensors/veml6070.c",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "drivers/sensors/vl53l1x.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/wtgahrs2_uorb.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/zerocross.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "define_fix_sensors",
+  "headRefOid": "527fd73c98bea7aacf2154830ecd7db94a5294d5",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac6XPWdw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d68476796ac508e969956aab5d365507d9f32fa0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-23T14:29:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16425,
+  "state": "MERGED",
+  "title": "drivers/sensors: fix various coding style issues",
+  "updatedAt": "2025-05-24T17:33:12Z",
+  "url": "https://github.com/apache/nuttx/pull/16425"
+}

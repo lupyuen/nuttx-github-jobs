@@ -1,0 +1,118 @@
+{
+  "additions": 18,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "is_bot": false,
+    "login": "sumpfralle",
+    "name": "Lars Kruse"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2025-05-24T12:44:23Z",
+  "createdAt": "2025-05-23T23:39:27Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "arch/arm/src/phy62xx/mcu_phy_bumbee.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tlsr82_adc.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/renesas/src/rx65n/rx65n_dtc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/v9fs/client.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "tools/pynuttx/nxgdb/stack.py",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix-spelling-private-fieldnames",
+  "headRefOid": "8f75dd18abb3f2097b5859377db37a3f47a9d697",
+  "headRepository": {
+    "id": "R_kgDOMSGLsw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0NzQxNDE=",
+    "name": "Lars Kruse",
+    "login": "sumpfralle"
+  },
+  "id": "PR_kwDODZiUac6XdeZm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e5b675d4dc099b55fe5b0924ffe230cf6f51ccaf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-24T12:44:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16436,
+  "state": "MERGED",
+  "title": "refactor: fix spelling in private field names",
+  "updatedAt": "2025-05-24T16:13:57Z",
+  "url": "https://github.com/apache/nuttx/pull/16436"
+}

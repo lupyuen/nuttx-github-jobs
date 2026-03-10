@@ -1,0 +1,84 @@
+{
+  "additions": 65,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-05-26T10:49:45Z",
+  "createdAt": "2025-05-23T08:38:47Z",
+  "deletions": 57,
+  "files": [
+    {
+      "path": "fs/vfs/fs_epoll.c",
+      "additions": 25,
+      "deletions": 14
+    },
+    {
+      "path": "fs/vfs/fs_poll.c",
+      "additions": 38,
+      "deletions": 39
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "include/sys/poll.h",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fdcheck",
+  "headRefOid": "90a6ce05dea4203d55798a9871be96ad6f528516",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6XWXJw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4f57ebce66adda3a6904ec098f76117821923497"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-26T10:49:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16431,
+  "state": "MERGED",
+  "title": "Resolving the issue of fdcheck reporting errors when an epoll file descriptor (fd) is closed",
+  "updatedAt": "2025-05-26T10:49:46Z",
+  "url": "https://github.com/apache/nuttx/pull/16431"
+}

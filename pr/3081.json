@@ -1,0 +1,135 @@
+{
+  "additions": 810,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU2NzI2Njk3",
+    "is_bot": false,
+    "login": "TimJTi",
+    "name": "Tim Hardisty"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2025-06-02T15:18:24Z",
+  "createdAt": "2025-05-23T14:50:51Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "examples/mdnsd/Kconfig",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mdnsd/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mdnsd/Makefile",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mdnsd/mdnsd_daemon.c",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mdnsd/mdnsd_daemon.h",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mdnsd/mdnsd_start.c",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mdnsd/mdnsd_stop.c",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "include/netutils/mdnsd.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/mdns/Kconfig",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/mdns/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/mdns/Makefile",
+      "additions": 106,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/mdns/mdnsd.c",
+      "additions": 182,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/mdns/verbose_option.patch",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "examples-add-mdnsd-example-app",
+  "headRefOid": "261ee13100ff589883664740a2b94cf803023bc5",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzNjE3MjYxNjU=",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU2NzI2Njk3",
+    "name": "Tim Hardisty",
+    "login": "TimJTi"
+  },
+  "id": "PR_kwDODZiT486XZt34",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "f0eb00ffd99d6a520348c2ae552fff77e851957d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-06-02T15:18:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3081,
+  "state": "MERGED",
+  "title": "netutils: add mDNS library support",
+  "updatedAt": "2025-06-04T09:46:44Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3081"
+}

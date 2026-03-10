@@ -1,0 +1,74 @@
+{
+  "additions": 28,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCSIZTg",
+    "is_bot": false,
+    "login": "stbenn",
+    "name": "Tyler Bennett"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-22T01:47:15Z",
+  "createdAt": "2025-05-21T20:17:04Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/stm32_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h563xx_flash.c",
+      "additions": 27,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "h5-flashbankbug",
+  "headRefOid": "d65c2737386f57c596cb79c140f5e4103287407b",
+  "headRepository": {
+    "id": "R_kgDOM4CSHw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCSIZTg",
+    "name": "Tyler Bennett",
+    "login": "stbenn"
+  },
+  "id": "PR_kwDODZiUac6XHrgV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3cf0abbfeef8c77a31b7f3a36828fc7430cc094b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-22T01:47:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16422,
+  "state": "MERGED",
+  "title": "arch/stm32h5: Fix FLASH bank logic during erase operations.",
+  "updatedAt": "2025-05-22T13:11:42Z",
+  "url": "https://github.com/apache/nuttx/pull/16422"
+}

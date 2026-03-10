@@ -1,0 +1,78 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-05-22T17:39:54Z",
+  "createdAt": "2025-05-22T05:18:19Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "sched/semaphore/sem_holder.c",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "sched/semaphore/sem_post.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/semaphore/sem_waitirq.c",
+      "additions": 4,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "semaphore_corrections",
+  "headRefOid": "dd5666b8c68ff247d069f93ac059426e34de729c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac6XKOwf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b2315e98c44e91cfd26de2c8c1e2b1dbe47e06b5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-22T17:39:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16423,
+  "state": "MERGED",
+  "title": "Semaphore corrections",
+  "updatedAt": "2025-05-22T17:39:54Z",
+  "url": "https://github.com/apache/nuttx/pull/16423"
+}

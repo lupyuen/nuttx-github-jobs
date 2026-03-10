@@ -1,0 +1,576 @@
+{
+  "additions": 41402,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "is_bot": false,
+    "login": "shtirlic",
+    "name": "Serg Podtynnyi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 154,
+  "closed": true,
+  "closedAt": "2025-08-11T00:56:27Z",
+  "createdAt": "2025-05-22T08:58:39Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/rp23xx/boards/raspberrypi-pico-2/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/rp23xx/index.rst",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/rp23xx-rv/boards/raspberrypi-pico-2-rv/index.rst",
+      "additions": 230,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/rp23xx-rv/boards/raspberrypi-pico-2-rv/pico-2.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/rp23xx-rv/index.rst",
+      "additions": 219,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/arch.h",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/rp23xx-rv/chip.h",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/rp23xx-rv/i2c_slave.h",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/rp23xx-rv/irq.h",
+      "additions": 134,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/rp23xx-rv/watchdog.h",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_internal.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/Kconfig",
+      "additions": 816,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/Make.defs",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/chip.h",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_accessctrl.h",
+      "additions": 665,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_adc.h",
+      "additions": 99,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_bootram.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_busctrl.h",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_clocks.h",
+      "additions": 618,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_coresight_trace.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_dma.h",
+      "additions": 244,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_dreq.h",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_glitch_detector.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_hazard3.h",
+      "additions": 651,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_hstx_ctrl.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_hstx_fifo.h",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_i2c.h",
+      "additions": 307,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_intctrl.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_io_bank0.h",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_io_qspi.h",
+      "additions": 581,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_memorymap.h",
+      "additions": 161,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_otp.h",
+      "additions": 191,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_otp_data.h",
+      "additions": 7319,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_pads_bank0.h",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_pads_qspi.h",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_pio.h",
+      "additions": 238,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_pll.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_powman.h",
+      "additions": 348,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_psm.h",
+      "additions": 80,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_pwm.h",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_qmi.h",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_resets.h",
+      "additions": 141,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_rosc.h",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_rp_ap.h",
+      "additions": 429,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_sha256.h",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_sio.h",
+      "additions": 379,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_spi.h",
+      "additions": 145,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_tbman.h",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_ticks.h",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_timer.h",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_trng.h",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_uart.h",
+      "additions": 237,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_usbctrl_dpsram.h",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_usbctrl_regs.h",
+      "additions": 526,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_watchdog.h",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_xip.h",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_xip_aux.h",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_xosc.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_adc.c",
+      "additions": 655,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_adc.h",
+      "additions": 110,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_clock.c",
+      "additions": 471,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_clock.h",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_config.h",
+      "additions": 99,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_cpuidlestack.c",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_cpustart.c",
+      "additions": 259,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_dmac.c",
+      "additions": 620,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_dmac.h",
+      "additions": 303,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_gpio.c",
+      "additions": 467,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_gpio.h",
+      "additions": 365,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_head.S",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_heaps.c",
+      "additions": 104,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2c.c",
+      "additions": 952,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2c.h",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2c_slave.c",
+      "additions": 600,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2s.c",
+      "additions": 1343,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2s.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2s_pio.c",
+      "additions": 384,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2s_pio.h",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_idle.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_irq.c",
+      "additions": 184,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_irq_dispatch.c",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pio.c",
+      "additions": 465,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pio.h",
+      "additions": 1984,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pio_instructions.h",
+      "additions": 327,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pll.c",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pll.h",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pwm.c",
+      "additions": 598,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_pwm.h",
+      "additions": 122,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_rom.h",
+      "additions": 130,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_serial.c",
+      "additions": 1072,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_serial.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_smpcall.c",
+      "additions": 215,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_spi.c",
+      "additions": 1223,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_spi.h",
+      "additions": 201,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_start.c",
+      "additions": 167,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_timerisr.c",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_uart.c",
+      "additions": 222,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_uart.h",
+      "additions": 58,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "riscvrp23xx",
+  "headRefOid": "35fdf7e4955eca2691fb3f4a835d662164eb075a",
+  "headRepository": {
+    "id": "R_kgDOOZyxlA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc0MDgw",
+    "name": "Serg Podtynnyi",
+    "login": "shtirlic"
+  },
+  "id": "PR_kwDODZiUac6XMBI5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2e7f75f6e03036ef3539e52842846f9a9e937b55"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-11T00:56:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16424,
+  "state": "MERGED",
+  "title": "arch/risc-v/rp23xx-riscv: Add rp23xx(rp2350)  (Pico 2 board)  RISC-V support",
+  "updatedAt": "2025-08-20T00:22:07Z",
+  "url": "https://github.com/apache/nuttx/pull/16424"
+}

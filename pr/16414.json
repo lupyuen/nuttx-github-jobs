@@ -1,0 +1,76 @@
+{
+  "additions": 20,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjg3ODE1",
+    "is_bot": false,
+    "login": "ldube",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-05-20T07:32:22Z",
+  "createdAt": "2025-05-19T20:57:43Z",
+  "deletions": 110,
+  "files": [
+    {
+      "path": "arch/arm/src/sama5/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sam_usb.c",
+      "additions": 18,
+      "deletions": 110
+    }
+  ],
+  "headRefName": "xplain",
+  "headRefOid": "ad7af0d27467a441e54873604a278ed56c7a4d21",
+  "headRepository": null,
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjg3ODE1",
+    "login": "ldube"
+  },
+  "id": "PR_kwDODZiUac6WyT60",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "2a7174601fc751d7fd44a71dbbc64229223437af"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-20T07:32:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "milestone": null,
+  "number": 16414,
+  "state": "MERGED",
+  "title": "boards/sama5d3-xplained: Use common usb host waiter.",
+  "updatedAt": "2025-05-20T07:32:22Z",
+  "url": "https://github.com/apache/nuttx/pull/16414"
+}

@@ -1,0 +1,115 @@
+{
+  "additions": 1120,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2025-05-24T15:47:43Z",
+  "createdAt": "2025-05-23T02:09:18Z",
+  "deletions": 217,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/boards/raspberrypi-4b/index.rst",
+      "additions": 23,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/index.rst",
+      "additions": 28,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/include/bcm2711/irq.h",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Kconfig",
+      "additions": 77,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_gpio.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_spi.c",
+      "additions": 942,
+      "deletions": 61
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_irq.h",
+      "additions": 25,
+      "deletions": 102
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_memmap.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_spi.h",
+      "additions": 10,
+      "deletions": 34
+    }
+  ],
+  "headRefName": "bcm2711-spi",
+  "headRefOid": "492937c2738d2af7d0e7dfd153a2c05c1c18fc85",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac6XT-1y",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "3feb9985a50dfc1b1a0faee4ad6a336e87bedda2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-05-24T15:47:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16428,
+  "state": "MERGED",
+  "title": "bcm2711/spi: Create interrupt-based SPI driver",
+  "updatedAt": "2025-11-09T21:30:53Z",
+  "url": "https://github.com/apache/nuttx/pull/16428"
+}
