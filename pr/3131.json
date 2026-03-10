@@ -1,0 +1,78 @@
+{
+  "additions": 150,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-14T18:49:30Z",
+  "createdAt": "2025-07-14T06:20:32Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/netutils/dhcpc.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dhcpc/Kconfig",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dhcpc/dhcpc.c",
+      "additions": 111,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/add-dhcpc-release-interface",
+  "headRefOid": "f9dd50c30b63392054a3a6468f1f6d73971962a5",
+  "headRepository": {
+    "id": "R_kgDOKeVwjQ",
+    "name": "apache-nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiT486evGhs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "dfeeef41ed9bfed8951d1d42d9b84b833a4d129d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-14T18:49:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 3131,
+  "state": "MERGED",
+  "title": "netutils/dhcpc/dhcpc.c: Implement the interface to send DHCPRELEASE",
+  "updatedAt": "2025-07-14T18:49:30Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3131"
+}

@@ -1,0 +1,74 @@
+{
+  "additions": 28,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "is_bot": false,
+    "login": "gpoulios",
+    "name": "George Poulios"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-16T07:35:00Z",
+  "createdAt": "2025-07-15T15:14:50Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "drivers/misc/optee.c",
+      "additions": 18,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/misc/optee_smc.c",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/optee_cache_coh_wo_mmu",
+  "headRefOid": "987d0470c4dc69d27a2d4e7a1c39f3b6bfb37eba",
+  "headRepository": {
+    "id": "R_kgDONfoTqA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0MDU3Mjgw",
+    "name": "George Poulios",
+    "login": "gpoulios"
+  },
+  "id": "PR_kwDODZiUac6fAvrR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "589c0e13b8bba8b9d74a7dd7dc3448a1b5eac41c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-16T07:35:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16729,
+  "state": "MERGED",
+  "title": "drivers/misc/optee: Cache coherency when MMU is disabled",
+  "updatedAt": "2025-07-16T10:46:03Z",
+  "url": "https://github.com/apache/nuttx/pull/16729"
+}

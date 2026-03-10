@@ -1,0 +1,283 @@
+{
+  "additions": 230,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDxz3Q",
+    "is_bot": false,
+    "login": "jingfei195887",
+    "name": "Jing Fei"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 39,
+  "closed": true,
+  "closedAt": "2025-07-21T18:15:30Z",
+  "createdAt": "2025-07-17T16:53:16Z",
+  "deletions": 155,
+  "files": [
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/at32_at24.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/at32_w25.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_flash.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f450zk-eval/src/gd32f4xx_gd25.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470ik-eval/src/gd32f4xx_gd25.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-aiotbox/src/gd32f4xx_gd25.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-eval/src/gd32f4xx_gd25.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/lpc43xx/bambino-200e/src/lpc43_appinit.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4330-xplorer/src/lpc43_appinit.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4357-evb/src/lpc43_appinit.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/src/sam_at25.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/src/sam_nandflash.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sama5/jupiter-nano/src/sam_at25.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/sama5/jupiter-nano/src/sam_nandflash.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sama5/sama5d2-xult/src/sam_at25.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/sama5/sama5d2-xult/src/sam_nandflash.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sam_at25.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sam_nandflash.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3x-ek/src/sam_at24.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3x-ek/src/sam_at25.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3x-ek/src/sam_nandflash.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/src/sam_nandflash.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/samd5e5/metro-m4/src/sam_at24.c",
+      "additions": 6,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/stm32/cloudctrl/src/stm32_w25.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/fire-stm32v2/src/stm32_w25.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/shenzhou/src/stm32_w25.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_at24.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_w25.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/stm32f411-minimum/src/stm32_w25.c",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/src/stm32_boot.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/src/stm32_flash.c",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/tiva/tm4c123g-launchpad/src/tm4c_at24.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "boards/mips/pic32mx/mirtoo/src/pic32_appinit.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_spiflash.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spiflash.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_spiflash.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_spiflash.c",
+      "additions": 8,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_spiflash.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_spiflash.c",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "mtd_optimize",
+  "headRefOid": "93b0a7c15a4f8134a21d9d76e5d135cb5be5cf61",
+  "headRepository": {
+    "id": "R_kgDOPCxhcQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDxz3Q",
+    "name": "Jing Fei",
+    "login": "jingfei195887"
+  },
+  "id": "PR_kwDODZiUac6faqWT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "db543314794d9c968350a557691356489a76d877"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-21T18:15:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "milestone": null,
+  "number": 16738,
+  "state": "MERGED",
+  "title": "drivers/fs:Always use register_mtddriver() to register the MTD device (patch2)",
+  "updatedAt": "2025-07-21T18:15:31Z",
+  "url": "https://github.com/apache/nuttx/pull/16738"
+}

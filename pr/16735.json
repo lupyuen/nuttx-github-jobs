@@ -1,0 +1,213 @@
+{
+  "additions": 1276,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 25,
+  "closed": true,
+  "closedAt": "2025-07-22T13:55:08Z",
+  "createdAt": "2025-07-16T15:55:22Z",
+  "deletions": 180,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-generic/index.rst",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 94,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/boards/esp32-devkitc/index.rst",
+      "additions": 9,
+      "deletions": 23
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32/index.rst",
+      "additions": 94,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/boards/esp32s2-saola-1/index.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s2/index.rst",
+      "additions": 94,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-devkit/index.rst",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/index.rst",
+      "additions": 90,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/.gitignore",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/bootloader/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_spiflash.c",
+      "additions": 86,
+      "deletions": 15
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-generic/configs/mcuboot_update_agent/defconfig",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_spiflash.c",
+      "additions": 19,
+      "deletions": 32
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/mcuboot_update_agent/defconfig",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_spiflash.c",
+      "additions": 76,
+      "deletions": 10
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_spiflash.c",
+      "additions": 18,
+      "deletions": 41
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/mcuboot_update_agent/defconfig",
+      "additions": 24,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_spiflash.c",
+      "additions": 88,
+      "deletions": 9
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/mcuboot_update_agent/defconfig",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_spiflash.c",
+      "additions": 94,
+      "deletions": 22
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/mcuboot_update_agent/defconfig",
+      "additions": 97,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp-mcuboot-fix",
+  "headRefOid": "463506dcae8b0df3ef1967a54807cd6ab35015d6",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac6fN019",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bbdb75b1f7cfb9aadf99204ab9636b6eaac6de66"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-22T13:55:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16735,
+  "state": "MERGED",
+  "title": "espressif: fix MCUBoot OTA on Espressif devices.",
+  "updatedAt": "2025-07-22T13:55:08Z",
+  "url": "https://github.com/apache/nuttx/pull/16735"
+}

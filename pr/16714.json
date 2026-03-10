@@ -1,0 +1,151 @@
+{
+  "additions": 849,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": true,
+  "closedAt": "2025-07-15T21:39:59Z",
+  "createdAt": "2025-07-11T19:16:27Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/input/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/input/sbutton.rst",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f4discovery/index.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/include/board_sbutton.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/stm32_sbutton.c",
+      "additions": 182,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/sbutton/defconfig",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/include/board.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/stm32_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/Kconfig",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/sbutton.c",
+      "additions": 278,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/input/sbutton.h",
+      "additions": 113,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "singlebutton",
+  "headRefOid": "7c046c054aa9b99391379530b188f51c05abb74d",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac6ejbgw",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "54b2381c421cee8bb3b853fd1bc5ae1f0a0e862a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-15T21:39:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 16714,
+  "state": "MERGED",
+  "title": "drivers/input: Create Single Button Multi Actions",
+  "updatedAt": "2025-07-15T21:39:59Z",
+  "url": "https://github.com/apache/nuttx/pull/16714"
+}

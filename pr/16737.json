@@ -1,0 +1,79 @@
+{
+  "additions": 54,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCDtPdw",
+    "is_bot": false,
+    "login": "W-M-R",
+    "name": "Mike."
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-17T11:17:55Z",
+  "createdAt": "2025-07-17T08:57:14Z",
+  "deletions": 29,
+  "files": [
+    {
+      "path": "arch/arm64/src/cmake/clang.cmake",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/gcc.cmake",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/cmake/platform.cmake",
+      "additions": 9,
+      "deletions": 29
+    }
+  ],
+  "headRefName": "arm64-clang",
+  "headRefOid": "37a928d1c708d4d9c725691dcc29966ed68c9439",
+  "headRepository": {
+    "id": "R_kgDONjz3bg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCDtPdw",
+    "name": "Mike.",
+    "login": "W-M-R"
+  },
+  "id": "PR_kwDODZiUac6fVeeI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1bdbf0effde8fb5ec3ffa7f0686b6a3a53b25117"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-17T11:17:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16737,
+  "state": "MERGED",
+  "title": "toolchain/arm64/cmake: Corrected the writing of arm64 cmake search library",
+  "updatedAt": "2026-01-19T03:02:37Z",
+  "url": "https://github.com/apache/nuttx/pull/16737"
+}

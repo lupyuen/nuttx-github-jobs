@@ -1,0 +1,161 @@
+{
+  "additions": 1918,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBmFUMA",
+    "is_bot": false,
+    "login": "tkaratapanis",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 16,
+  "closed": true,
+  "closedAt": "2025-08-05T18:29:33Z",
+  "createdAt": "2025-07-16T15:33:55Z",
+  "deletions": 286,
+  "files": [
+    {
+      "path": "Documentation/guides/optee.rst",
+      "additions": 73,
+      "deletions": 10
+    },
+    {
+      "path": "drivers/misc/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/Kconfig",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/misc/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee.c",
+      "additions": 584,
+      "deletions": 233
+    },
+    {
+      "path": "drivers/misc/optee.h",
+      "additions": 39,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/misc/optee_msg.h",
+      "additions": 134,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee_rpc.c",
+      "additions": 341,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee_rpc.h",
+      "additions": 21,
+      "deletions": 31
+    },
+    {
+      "path": "drivers/misc/optee_smc.c",
+      "additions": 13,
+      "deletions": 5
+    },
+    {
+      "path": "drivers/misc/optee_supplicant.c",
+      "additions": 599,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/misc/optee_supplicant.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "fs/mmap/fs_anonmap.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/mmap/fs_mmap.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/fs/fs.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/tee.h",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "imx9-optee-rpc",
+  "headRefOid": "dab4af32eb6c58f34e522eb4f7507c9812565232",
+  "headRepository": {
+    "id": "R_kgDOOlihPg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBmFUMA",
+    "login": "tkaratapanis"
+  },
+  "id": "PR_kwDODZiUac6fNmKs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9970e6a54ed5100599050ad63a6ae86456223c3a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-08-05T18:29:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16734,
+  "state": "MERGED",
+  "title": "drivers/misc/optee: expand RPC suppport for IMX9",
+  "updatedAt": "2025-08-05T18:29:33Z",
+  "url": "https://github.com/apache/nuttx/pull/16734"
+}

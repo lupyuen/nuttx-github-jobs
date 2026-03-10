@@ -1,0 +1,74 @@
+{
+  "additions": 14,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "is_bot": false,
+    "login": "Donny9",
+    "name": "Donny(董九柱)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2025-07-15T11:46:24Z",
+  "createdAt": "2025-07-14T08:52:14Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "fs/driver/fs_blockproxy.c",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_dup2.c",
+      "additions": 4,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fs_fdlist_rewrite",
+  "headRefOid": "a8d354255454287c20264c225008e2cfa370fd9f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyOTQ4NTMwNjc=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjcwNzQ4NTkw",
+    "name": "Donny(董九柱)",
+    "login": "Donny9"
+  },
+  "id": "PR_kwDODZiUac6ewh4M",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "338132af8fe9f70589809606df0311e56aa0fbc4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-15T11:46:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 16722,
+  "state": "MERGED",
+  "title": "fs/block_proxy: fix the issue of the refs count for filep being zeroed out by utilizing dup2",
+  "updatedAt": "2025-07-15T11:46:24Z",
+  "url": "https://github.com/apache/nuttx/pull/16722"
+}

@@ -1,0 +1,90 @@
+{
+  "additions": 280,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-07-14T14:22:33Z",
+  "createdAt": "2025-07-11T19:56:08Z",
+  "deletions": 242,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/analog/adc/ads1115/index.rst",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/analog/ads1115.c",
+      "additions": 246,
+      "deletions": 222
+    },
+    {
+      "path": "include/nuttx/analog/ads1115.h",
+      "additions": 24,
+      "deletions": 20
+    }
+  ],
+  "headRefName": "ads1115_conversion_trigger",
+  "headRefOid": "a9267c03f2ac400c9cd8f8f29b47511fd50f903b",
+  "headRepository": {
+    "id": "R_kgDOM69a6w",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjMzMTgyODIy",
+    "login": "CarletonURocketry"
+  },
+  "id": "PR_kwDODZiUac6ejyY_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "953ab4e2879d97d53a4aa1b36ad7932046d48373"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-07-14T14:22:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 16715,
+  "state": "MERGED",
+  "title": "drivers/analog/ads1115.h: Add ioctl for conversion trigger",
+  "updatedAt": "2025-07-14T14:22:37Z",
+  "url": "https://github.com/apache/nuttx/pull/16715"
+}
