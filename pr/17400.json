@@ -1,0 +1,133 @@
+{
+  "additions": 424,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "is_bot": false,
+    "login": "chirping78",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2025-11-28T17:50:59Z",
+  "createdAt": "2025-11-28T12:47:36Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "libs/libc/machine/arm/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memclr.c",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memclr4.c",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memclr8.c",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memcpy.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memcpy4.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memcpy8.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memmove.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memmove4.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memmove8.c",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memset.c",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memset4.c",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/arm/aeabi_memset8.c",
+      "additions": 34,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "aeabi_mem",
+  "headRefOid": "1a237a765d148da7647b6d225296b53e5b70561e",
+  "headRepository": {
+    "id": "R_kgDOKFafoQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM5NDA5OQ==",
+    "login": "chirping78"
+  },
+  "id": "PR_kwDODZiUac62CCG4",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "09a71ec7c16c43398d5acbdcbeee7b08736c3170"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-28T17:50:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 17400,
+  "state": "MERGED",
+  "title": "libs/libc/arm: add back __aeabi_mem* functions",
+  "updatedAt": "2025-11-28T17:50:59Z",
+  "url": "https://github.com/apache/nuttx/pull/17400"
+}

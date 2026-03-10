@@ -1,0 +1,88 @@
+{
+  "additions": 85,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCrKzqw",
+    "is_bot": false,
+    "login": "lipengfei28",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-01-30T04:50:42Z",
+  "createdAt": "2025-11-25T08:22:11Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "drivers/pci/pci.c",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/pci_ep_test.c",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/pci/pci_epf_test.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/pci/pci_qemu_edu.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/pci/pci.h",
+      "additions": 27,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pci_legacy_irq",
+  "headRefOid": "02ec1c26ad61be31a1a4c037a325227f5f0e2c7c",
+  "headRepository": {
+    "id": "R_kgDOMoeIUQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCrKzqw",
+    "login": "lipengfei28"
+  },
+  "id": "PR_kwDODZiUac61XK9Z",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorlqw",
+      "name": "Area: PCI",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "edd86a5b59400778252bed2adc6f5b9636abe060"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-30T04:50:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17379,
+  "state": "MERGED",
+  "title": "drivers/pci: write legacy num to config sapce when enable legacy irq",
+  "updatedAt": "2026-01-30T04:50:42Z",
+  "url": "https://github.com/apache/nuttx/pull/17379"
+}

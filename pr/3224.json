@@ -1,0 +1,235 @@
+{
+  "additions": 417,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "is_bot": false,
+    "login": "extinguish",
+    "name": "guoshichao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 33,
+  "closed": true,
+  "closedAt": "2026-01-16T13:07:56Z",
+  "createdAt": "2025-11-28T02:03:24Z",
+  "deletions": 720,
+  "files": [
+    {
+      "path": "examples/elf/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 6
+    },
+    {
+      "path": "examples/elf/Make.defs",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "examples/elf/Makefile",
+      "additions": 2,
+      "deletions": 43
+    },
+    {
+      "path": "examples/elf/main/.gitignore",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/main/CMakeLists.txt",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/main/Kconfig",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/main/Make.defs",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/main/Makefile",
+      "additions": 112,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/main/elf_main.c",
+      "additions": 32,
+      "deletions": 3
+    },
+    {
+      "path": "examples/elf/tests/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/Make.defs",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/Makefile",
+      "additions": 2,
+      "deletions": 130
+    },
+    {
+      "path": "examples/elf/tests/errno/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/errno/Makefile",
+      "additions": 6,
+      "deletions": 45
+    },
+    {
+      "path": "examples/elf/tests/hello/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/hello/Makefile",
+      "additions": 6,
+      "deletions": 45
+    },
+    {
+      "path": "examples/elf/tests/helloxx/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/helloxx/Makefile",
+      "additions": 10,
+      "deletions": 147
+    },
+    {
+      "path": "examples/elf/tests/longjmp/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/longjmp/Makefile",
+      "additions": 6,
+      "deletions": 45
+    },
+    {
+      "path": "examples/elf/tests/mutex/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/mutex/Makefile",
+      "additions": 6,
+      "deletions": 45
+    },
+    {
+      "path": "examples/elf/tests/pthread/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/pthread/Makefile",
+      "additions": 6,
+      "deletions": 45
+    },
+    {
+      "path": "examples/elf/tests/signal/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/signal/Makefile",
+      "additions": 6,
+      "deletions": 45
+    },
+    {
+      "path": "examples/elf/tests/struct/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/struct/Makefile",
+      "additions": 8,
+      "deletions": 45
+    },
+    {
+      "path": "examples/elf/tests/task/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "examples/elf/tests/task/Makefile",
+      "additions": 6,
+      "deletions": 45
+    },
+    {
+      "path": "examples/module/main/Makefile",
+      "additions": 2,
+      "deletions": 3
+    },
+    {
+      "path": "tools/mksymtab.sh",
+      "additions": 72,
+      "deletions": 25
+    }
+  ],
+  "headRefName": "apps_examples_elf_refactor",
+  "headRefOid": "44023f0c083eef5d3f2eca065e496e79c86f09c4",
+  "headRepository": {
+    "id": "R_kgDOKC0MMA",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NDY2MTc=",
+    "name": "guoshichao",
+    "login": "extinguish"
+  },
+  "id": "PR_kwDODZiT48619PTT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABxJh8Ew",
+      "name": "Area: Tools",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "63e26504879e2b5abee7f210806a39375ed22331"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-16T13:07:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjQ5NTI0MDYy",
+    "is_bot": false,
+    "login": "GUIDINGLI",
+    "name": ""
+  },
+  "milestone": null,
+  "number": 3224,
+  "state": "MERGED",
+  "title": "refactor and modify the bugs of examples/elf project",
+  "updatedAt": "2026-01-16T13:07:56Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3224"
+}

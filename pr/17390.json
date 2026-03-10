@@ -1,0 +1,84 @@
+{
+  "additions": 25,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2025-11-28T03:04:22Z",
+  "createdAt": "2025-11-27T14:11:13Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/ci/platforms/darwin.sh",
+      "additions": 23,
+      "deletions": 3
+    },
+    {
+      "path": "tools/ci/platforms/darwin_arm64.sh",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "smbit18-macOS14",
+  "headRefOid": "56b7d0ed426dd085897f90182a2139b444a3cd19",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac613xNt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b749dfba237ebe87899b3c22761e292ffcf37ce8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-28T03:04:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 17390,
+  "state": "MERGED",
+  "title": "workflows/build.yml: macOS Workflow updated to macos-15-intel",
+  "updatedAt": "2025-11-28T16:23:21Z",
+  "url": "https://github.com/apache/nuttx/pull/17390"
+}

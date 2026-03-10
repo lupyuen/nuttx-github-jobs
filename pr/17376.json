@@ -1,0 +1,96 @@
+{
+  "additions": 458,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjY1NjMwNTU=",
+      "login": "raiden00pl",
+      "name": "Mateusz Szafoni"
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "is_bot": false,
+    "login": "ajuckler",
+    "name": "Antoine Juckler"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2025-12-03T14:05:45Z",
+  "createdAt": "2025-11-25T07:48:52Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/eeprom.rst",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/eeprom/i2c_xx24xx.c",
+      "additions": 150,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/eeprom/spi_xx25xx.c",
+      "additions": 266,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/eeprom/eeprom.h",
+      "additions": 23,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "eeprom_erase_ioctl",
+  "headRefOid": "429d7be9e069d4ff11c6f1125f89843b4f5fef01",
+  "headRepository": {
+    "id": "R_kgDONaihnQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY0NDU3NTc=",
+    "name": "Antoine Juckler",
+    "login": "ajuckler"
+  },
+  "id": "PR_kwDODZiUac61W283",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4863564d482962c70b2c17928c493aab4aec45b6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-12-03T14:05:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 17376,
+  "state": "MERGED",
+  "title": "drivers/eeprom: Support PE/SE/CE commands",
+  "updatedAt": "2025-12-23T05:44:00Z",
+  "url": "https://github.com/apache/nuttx/pull/17376"
+}

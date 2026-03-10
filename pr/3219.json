@@ -1,0 +1,90 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "is_bot": false,
+    "login": "jasonbu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-01-03T16:06:18Z",
+  "createdAt": "2025-11-25T06:16:02Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "netutils/iperf/iperf.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/iperf/iperf_main.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cmocka_syscall_test.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "tests",
+  "headRefOid": "9f0d0ddb4ffcb7e65fb3b53ac07e4917613e98ef",
+  "headRepository": {
+    "id": "R_kgDOL70M1Q",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1MzIwMjg=",
+    "login": "jasonbu"
+  },
+  "id": "PR_kwDODZiT4861WE9c",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "157ecb091d617cee84e2b5d7aa2c95af52a4c76c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-01-03T16:06:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 3219,
+  "state": "MERGED",
+  "title": "kernel/syscall: Fix if enable Net/socket/iperf but not enable iNet/IPv4.",
+  "updatedAt": "2026-01-03T16:06:18Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3219"
+}

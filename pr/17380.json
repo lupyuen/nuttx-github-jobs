@@ -1,0 +1,89 @@
+{
+  "additions": 70,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2025-11-26T09:18:13Z",
+  "createdAt": "2025-11-25T09:26:45Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "include/unistd.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/libc.csv",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/unistd/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/unistd/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/unistd/lib_pipe.c",
+      "additions": 60,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "libc",
+  "headRefOid": "627e1e6cfa228a1cf658e203d1ad7980d731c918",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac61X5TD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "311f42bbac333ece5dac5eaa7abf01ad26793afa"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2025-11-26T09:18:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
+  "milestone": null,
+  "number": 17380,
+  "state": "MERGED",
+  "title": "libc/unistd: Replace pipe() macro with proper function implementation",
+  "updatedAt": "2025-11-26T09:18:13Z",
+  "url": "https://github.com/apache/nuttx/pull/17380"
+}
