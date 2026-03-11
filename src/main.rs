@@ -1,8 +1,15 @@
 use std::io::BufReader;
 use std::fs::{File, read_to_string};
-#[allow(non_snake_case)]
+
+const OUTPUT_FILE: &str = "nuttx-github-jobs.tsv";
 
 fn main() {
+    // Init the Output File with the TSV Header: Job Fields and PR Fields
+    let mut output_file = std::fs::File::create(OUTPUT_FILE).unwrap();
+    use std::io::Write;
+    writeln!(output_file, "{}\t{}", JOB_FIELDS.iter().map(|f| format!("job_{}", f)).collect::<Vec<_>>().join("\t"), PR_FIELDS.iter().map(|f| format!("pr_{}", f)).collect::<Vec<_>>().join("\t")).unwrap();
+    output_file.flush().unwrap();
+
     // Map PR Title to PR Number, so that we can easily find the PR Number for a given PR Title when we read the Job JSON files
     let mut pr_title_to_number = std::collections::HashMap::new();
 
@@ -41,22 +48,38 @@ fn main() {
             let job_id = job["databaseId"].as_u64().unwrap();
             let pr_title = job["displayTitle"].as_str().unwrap();
             if let Some(pr_number) = pr_title_to_number.get(pr_title) {
+                // Dump the Job and PR JSONs into TSV
                 println!("Job #{} -> PR #{}: {}", job_id, pr_number, pr_title);
+                let job_tsv = dump_job(job_id);
+                let pr_tsv = dump_pr(*pr_number as u32);
+                println!("Job TSV: {}\nPR TSV: {}\n", job_tsv, pr_tsv);
+
+                // Append the Job TSV and PR TSV
+                let mut output_file = std::fs::OpenOptions::new()
+                    .create(true)
+                    .append(true)
+                    .open(OUTPUT_FILE)
+                    .unwrap();
+                use std::io::Write;
+                writeln!(output_file, "{}\t{}", job_tsv, pr_tsv).unwrap();
+                output_file.flush().unwrap();
             } else {
                 println!("PR Number not found: {}", pr_title);
             }
         }
     }
+}
 
+// Dump a Job JSON into TSV
+fn dump_job(job_id: u64) -> String {
     // Read a Job JSON
-    const JOB_ID: u64 = 20304392258;
-    let file = File::open(format!("job/{}.json", JOB_ID)).unwrap();
+    let file = File::open(format!("job/{}.json", job_id)).unwrap();
     let reader = BufReader::new(file);
     let job: serde_json::Value = serde_json::from_reader(reader).unwrap();
     // println!("\njob=\n{}", serde_json::to_string_pretty(&job).unwrap());
 
     // Read a Job Duration
-    let duration = read_to_string(format!("duration/{}.txt", JOB_ID)).unwrap();
+    let duration = read_to_string(format!("duration/{}.txt", job_id)).unwrap();
     // println!("\njob_duration={}", duration);
 
     // Update the Job JSON with the duration
@@ -65,13 +88,22 @@ fn main() {
     // println!("\njob_with_duration=\n{}", serde_json::to_string_pretty(&job_with_duration).unwrap());
 
     // Dump the Job Fields
-    for field in JOB_FIELDS.iter() {
-        println!("job_{}={}", field, job_with_duration[field]);
-    }
+    // for field in JOB_FIELDS.iter() {
+    //     println!("job_{}={}", field, job_with_duration[field]);
+    // }
 
+    // Return the Job TSV without quotes
+    JOB_FIELDS.iter()
+        .map(|field| job_with_duration[field].to_string().trim_matches('"').to_string())
+        .collect::<Vec<_>>()
+        .join("\t")
+}
+
+// Dump a PR JSON into TSV
+#[allow(non_snake_case)]
+fn dump_pr(pr_number: u32) -> String {
     // Read a PR JSON
-    const PR_NUMBER: u32 = 17538;
-    let file = File::open(format!("pr/{}.json", PR_NUMBER)).unwrap();
+    let file = File::open(format!("pr/{}.json", pr_number)).unwrap();
     let reader = BufReader::new(file);
     let pr: serde_json::Value = serde_json::from_reader(reader).unwrap();
     // println!("\npr=\n{}", serde_json::to_string_pretty(&pr).unwrap());
@@ -108,9 +140,15 @@ fn main() {
     // println!("\npr_with_labels=\n{}", serde_json::to_string_pretty(&pr_with_labels).unwrap());
 
     // Dump the PR Fields
-    for field in PR_FIELDS.iter() {
-        println!("pr_{}={}", field, pr_with_labels[field]);
-    }
+    // for field in PR_FIELDS.iter() {
+    //     println!("pr_{}={}", field, pr_with_labels[field]);
+    // }    
+
+    // Return the PR TSV without quotes
+    PR_FIELDS.iter()
+        .map(|field| pr_with_labels[field].to_string().trim_matches('"').to_string())
+        .collect::<Vec<_>>()
+        .join("\t")
 }
 
 // PR Fields: id,url,updatedAt,title,additions,assignees,author,autoMergeRequest,baseRefName,changedFiles,closed,closedAt,createdAt,deletions,files,headRefName,headRefOid,headRepository,headRepositoryOwner,isDraft,labels,mergeCommit,mergeStateStatus,mergeable,mergedAt,mergedBy,milestone,number,state
