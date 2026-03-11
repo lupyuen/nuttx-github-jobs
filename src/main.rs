@@ -30,20 +30,33 @@ fn main() {
     let pr: serde_json::Value = serde_json::from_reader(reader).unwrap();
     println!("\npr=\n{}", serde_json::to_string_pretty(&pr).unwrap());
 
-    // Flatten the labels
+    // Flatten the labels into "Arch: arm, Size: M"
+    let mut labels_str = String::new();
     if let Some(labels) = pr["labels"].as_array() {
         for (i, label) in labels.iter().enumerate() {
-            println!("pr_label_{}={}", i, label);
+            println!("pr_label_{}={}", i, label["name"]);
+            if let Some(name) = label["name"].as_str() {
+                if !labels_str.is_empty() {
+                    labels_str.push_str(", ");
+                }
+                labels_str.push_str(name);
+            }
         }
     }
 
+    // Update the PR JSON with the flattened labels
+    let mut pr_with_labels = pr.clone();
+    pr_with_labels["labels"] = serde_json::Value::String(labels_str);
+    println!("\npr_with_labels=\n{}", serde_json::to_string_pretty(&pr_with_labels).unwrap());
+
+    // Dump the PR Fields
     for field in PR_FIELDS.iter() {
-        println!("pr_{}={}", field, pr[field]);
+        println!("pr_{}={}", field, pr_with_labels[field]);
     }
 }
 
 // PR Fields: id,url,updatedAt,title,additions,assignees,author,autoMergeRequest,baseRefName,changedFiles,closed,closedAt,createdAt,deletions,files,headRefName,headRefOid,headRepository,headRepositoryOwner,isDraft,labels,mergeCommit,mergeStateStatus,mergeable,mergedAt,mergedBy,milestone,number,state
-const PR_FIELDS: [&'static str; 29] = [
+const PR_FIELDS: [&'static str; 28] = [
     "id",
     "url",
     "updatedAt",
@@ -58,7 +71,6 @@ const PR_FIELDS: [&'static str; 29] = [
     "closedAt",
     "createdAt",
     "deletions",
-    "files",
     "headRefName",
     "headRefOid",
     "headRepository",
