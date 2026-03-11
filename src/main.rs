@@ -3,6 +3,51 @@ use std::fs::{File, read_to_string};
 #[allow(non_snake_case)]
 
 fn main() {
+    // Map PR Title to PR Number, so that we can easily find the PR Number for a given PR Title when we read the Job JSON files
+    let mut pr_title_to_number = std::collections::HashMap::new();
+
+    // Iterate backwards over all PR JSON files in the "pr" directory
+    let mut entries: Vec<_> = std::fs::read_dir("pr").unwrap().collect();
+    entries.sort_by_key(|entry| entry.as_ref().unwrap().path());
+    for entry in entries.into_iter().rev() {
+        let entry = entry.unwrap();
+        let path = entry.path();
+        if path.extension().and_then(|s| s.to_str()) == Some("json") {
+            let file = File::open(&path).unwrap();
+            let reader = BufReader::new(file);
+            let pr: serde_json::Value = serde_json::from_reader(reader).unwrap();
+            // println!("\npr=\n{}", serde_json::to_string_pretty(&pr).unwrap());
+
+            // Remember the PR Number and PR Title in a HashMap
+            let pr_number = pr["number"].as_u64().unwrap();
+            let pr_title = pr["title"].as_str().unwrap().to_string();
+            pr_title_to_number.entry(pr_title).or_insert(pr_number);  // Don't overwrite if the title already exists
+        }
+    }
+
+    // Iterate backwards over all Job JSON files in the "job" directory
+    let mut entries: Vec<_> = std::fs::read_dir("job").unwrap().collect();
+    entries.sort_by_key(|entry| entry.as_ref().unwrap().path());
+    for entry in entries.into_iter().rev() {
+        let entry = entry.unwrap();
+        let path = entry.path();
+        if path.extension().and_then(|s| s.to_str()) == Some("json") {
+            let file = File::open(&path).unwrap();
+            let reader = BufReader::new(file);
+            let job: serde_json::Value = serde_json::from_reader(reader).unwrap();
+            // println!("\njob=\n{}", serde_json::to_string_pretty(&job).unwrap());
+
+            // Lookup the PR Number for the PR Title in the Job JSON
+            let job_id = job["databaseId"].as_u64().unwrap();
+            let pr_title = job["displayTitle"].as_str().unwrap();
+            if let Some(pr_number) = pr_title_to_number.get(pr_title) {
+                println!("Job #{} -> PR #{}: {}", job_id, pr_number, pr_title);
+            } else {
+                println!("PR Number not found: {}", pr_title);
+            }
+        }
+    }
+
     // Read a Job JSON
     const JOB_ID: u64 = 20304392258;
     let file = File::open(format!("job/{}.json", JOB_ID)).unwrap();
