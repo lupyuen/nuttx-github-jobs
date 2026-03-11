@@ -1,5 +1,6 @@
 use std::io::BufReader;
 use std::fs::{File, read_to_string};
+#[allow(non_snake_case)]
 
 fn main() {
     // Read a Job JSON
@@ -44,9 +45,21 @@ fn main() {
         }
     }
 
-    // Update the PR JSON with the flattened labels
+    // Extract the Login from author, headRepositoryOwner, mergedBy fields
+    let author = pr["author"]["login"].as_str().unwrap_or("");
+    let headRepository = pr["headRepository"]["name"].as_str().unwrap_or("");
+    let headRepositoryOwner = pr["headRepositoryOwner"]["login"].as_str().unwrap_or("");
+    let mergeCommit = pr["mergeCommit"]["oid"].as_str().unwrap_or("");
+    let mergedBy = pr["mergedBy"]["login"].as_str().unwrap_or("");
+
+    // Update the PR JSON with the flattened labels and extracted logins
     let mut pr_with_labels = pr.clone();
     pr_with_labels["labels"] = serde_json::Value::String(labels_str);
+    pr_with_labels["author"] = serde_json::Value::String(author.to_string());
+    pr_with_labels["headRepository"] = serde_json::Value::String(headRepository.to_string());
+    pr_with_labels["headRepositoryOwner"] = serde_json::Value::String(headRepositoryOwner.to_string());
+    pr_with_labels["mergeCommit"] = serde_json::Value::String(mergeCommit.to_string());
+    pr_with_labels["mergedBy"] = serde_json::Value::String(mergedBy.to_string());
     println!("\npr_with_labels=\n{}", serde_json::to_string_pretty(&pr_with_labels).unwrap());
 
     // Dump the PR Fields
