@@ -3,8 +3,8 @@
 //! Match Job JSON to Job Duration by Job ID (a.k.a. Run ID, databaseId).
 //! Export into TSV file nuttx-github-jobs.tsv for analysis in Google Sheets.
 //! One Row per Job.
-use std::io::{BufReader, Write};
 use std::fs::{File, read_to_string};
+use std::io::{BufReader, Write};
 
 const OUTPUT_FILE: &str = "nuttx-github-jobs.tsv";
 
