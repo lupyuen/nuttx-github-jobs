@@ -1,11 +1,14 @@
-// Match the Job JSON, PR JSON, and Job Duration files.
-// Export into TSV file nuttx-github-jobs.tsv for analysis in Google Sheets.
-// One Row per Job.
+//! Match the Job JSON, PR JSON, and Job Duration files.
+//! Match Job JSON to PR JSON by PR Title.
+//! Match Job JSON to Job Duration by Job ID (a.k.a. Run ID, databaseId).
+//! Export into TSV file nuttx-github-jobs.tsv for analysis in Google Sheets.
+//! One Row per Job.
 use std::io::{BufReader, Write};
 use std::fs::{File, read_to_string};
 
 const OUTPUT_FILE: &str = "nuttx-github-jobs.tsv";
 
+/// `cargo run` will generate the TSV file
 fn main() {
     // Init the Output File with the TSV Header: Job Fields and PR Fields
     let mut output_file = std::fs::File::create(OUTPUT_FILE).unwrap();
@@ -71,7 +74,7 @@ fn main() {
     }
 }
 
-// Dump a Job JSON into TSV
+/// Dump a Job JSON into TSV
 fn dump_job(job_id: u64) -> String {
     // Read a Job JSON
     let file = File::open(format!("job/{}.json", job_id)).unwrap();
@@ -100,7 +103,7 @@ fn dump_job(job_id: u64) -> String {
         .join("\t")
 }
 
-// Dump a PR JSON into TSV
+/// Dump a PR JSON into TSV
 #[allow(non_snake_case)]
 fn dump_pr(pr_number: u32) -> String {
     // Read a PR JSON
@@ -112,8 +115,7 @@ fn dump_pr(pr_number: u32) -> String {
     // Flatten the labels into "Arch: arm, Size: M"
     let mut labels_str = String::new();
     if let Some(labels) = pr["labels"].as_array() {
-        for (_i, label) in labels.iter().enumerate() {
-            // println!("pr_label_{}={}", i, label["name"]);
+        for label in labels.iter() {
             if let Some(name) = label["name"].as_str() {
                 if !labels_str.is_empty() {
                     labels_str.push_str(", ");
@@ -152,8 +154,8 @@ fn dump_pr(pr_number: u32) -> String {
         .join("\t")
 }
 
-// PR Fields: id,url,updatedAt,title,additions,assignees,author,autoMergeRequest,baseRefName,changedFiles,closed,closedAt,createdAt,deletions,files,headRefName,headRefOid,headRepository,headRepositoryOwner,isDraft,labels,mergeCommit,mergeStateStatus,mergeable,mergedAt,mergedBy,milestone,number,state
-const PR_FIELDS: [&'static str; 28] = [
+/// PR Fields: id,url,updatedAt,title,additions,assignees,author,autoMergeRequest,baseRefName,changedFiles,closed,closedAt,createdAt,deletions,files,headRefName,headRefOid,headRepository,headRepositoryOwner,isDraft,labels,mergeCommit,mergeStateStatus,mergeable,mergedAt,mergedBy,milestone,number,state
+const PR_FIELDS: [&str; 28] = [
     "id",
     "url",
     "updatedAt",
@@ -184,8 +186,8 @@ const PR_FIELDS: [&'static str; 28] = [
     "state"
 ];
 
-// Job Fields: conclusion,createdAt,databaseId,displayTitle,event,headBranch,headSha,name,number,startedAt,status,updatedAt,url,workflowDatabaseId,workflowName
-const JOB_FIELDS: [&'static str; 16] = [
+/// Job Fields: conclusion,createdAt,databaseId,displayTitle,event,headBranch,headSha,name,number,startedAt,status,updatedAt,url,workflowDatabaseId,workflowName
+const JOB_FIELDS: [&str; 16] = [
     "conclusion", 
     "createdAt", 
     "databaseId", 
