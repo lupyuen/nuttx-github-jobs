@@ -1,7 +1,7 @@
 // Match the Job JSON, PR JSON, and Job Duration files.
 // Export into TSV file nuttx-github-jobs.tsv for analysis in Google Sheets.
 // One Row per Job.
-use std::io::BufReader;
+use std::io::{BufReader, Write};
 use std::fs::{File, read_to_string};
 
 const OUTPUT_FILE: &str = "nuttx-github-jobs.tsv";
@@ -9,7 +9,6 @@ const OUTPUT_FILE: &str = "nuttx-github-jobs.tsv";
 fn main() {
     // Init the Output File with the TSV Header: Job Fields and PR Fields
     let mut output_file = std::fs::File::create(OUTPUT_FILE).unwrap();
-    use std::io::Write;
     writeln!(output_file, "{}\t{}", JOB_FIELDS.iter().map(|f| format!("job_{}", f)).collect::<Vec<_>>().join("\t"), PR_FIELDS.iter().map(|f| format!("pr_{}", f)).collect::<Vec<_>>().join("\t")).unwrap();
     output_file.flush().unwrap();
 
@@ -63,7 +62,6 @@ fn main() {
                     .append(true)
                     .open(OUTPUT_FILE)
                     .unwrap();
-                use std::io::Write;
                 writeln!(output_file, "{}\t{}", job_tsv, pr_tsv).unwrap();
                 output_file.flush().unwrap();
             } else {
