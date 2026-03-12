@@ -3,7 +3,8 @@
 //! Match Job JSON to Job Duration by Job ID (a.k.a. Run ID, databaseId).
 //! Export into TSV file nuttx-github-jobs.tsv for analysis in Google Sheets.
 //! One Row per Job.
-use std::fs::{File, read_to_string};
+use std::collections::HashMap;
+use std::fs::{File, OpenOptions, read_dir, read_to_string};
 use std::io::{BufReader, Write};
 
 const OUTPUT_FILE: &str = "nuttx-github-jobs.tsv";
@@ -11,15 +12,15 @@ const OUTPUT_FILE: &str = "nuttx-github-jobs.tsv";
 /// `cargo run` will generate the TSV file
 fn main() {
     // Init the Output File with the TSV Header: Job Fields and PR Fields
-    let mut output_file = std::fs::File::create(OUTPUT_FILE).unwrap();
+    let mut output_file = File::create(OUTPUT_FILE).unwrap();
     writeln!(output_file, "{}\t{}", JOB_FIELDS.iter().map(|f| format!("job_{}", f)).collect::<Vec<_>>().join("\t"), PR_FIELDS.iter().map(|f| format!("pr_{}", f)).collect::<Vec<_>>().join("\t")).unwrap();
     output_file.flush().unwrap();
 
     // Map PR Title to PR Number, so that we can easily find the PR Number for a given PR Title when we read the Job JSON files
-    let mut pr_title_to_number = std::collections::HashMap::new();
+    let mut pr_title_to_number = HashMap::new();
 
     // Iterate backwards over all PR JSON files in the "pr" directory
-    let mut entries: Vec<_> = std::fs::read_dir("pr").unwrap().collect();
+    let mut entries: Vec<_> = read_dir("pr").unwrap().collect();
     entries.sort_by_key(|entry| entry.as_ref().unwrap().path());
     for entry in entries.into_iter().rev() {
         let entry = entry.unwrap();
@@ -38,7 +39,7 @@ fn main() {
     }
 
     // Iterate backwards over all Job JSON files in the "job" directory
-    let mut entries: Vec<_> = std::fs::read_dir("job").unwrap().collect();
+    let mut entries: Vec<_> = read_dir("job").unwrap().collect();
     entries.sort_by_key(|entry| entry.as_ref().unwrap().path());
     for entry in entries.into_iter().rev() {
         let entry = entry.unwrap();
@@ -60,7 +61,7 @@ fn main() {
                 println!("Job TSV: {}\nPR TSV: {}\n", job_tsv, pr_tsv);
 
                 // Append the Job TSV and PR TSV
-                let mut output_file = std::fs::OpenOptions::new()
+                let mut output_file = OpenOptions::new()
                     .create(true)
                     .append(true)
                     .open(OUTPUT_FILE)
