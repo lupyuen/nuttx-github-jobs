@@ -1,3 +1,6 @@
+// Match the Job JSON, PR JSON, and Job Duration files.
+// Export into TSV file nuttx-github-jobs.tsv for analysis in Google Sheets.
+// One Row per Job.
 use std::io::BufReader;
 use std::fs::{File, read_to_string};
 
