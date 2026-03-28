@@ -1,0 +1,582 @@
+{
+  "additions": 11383,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 626,
+  "closed": true,
+  "closedAt": "2026-03-28T16:33:11Z",
+  "createdAt": "2026-03-26T18:53:01Z",
+  "deletions": 53086,
+  "files": [
+    {
+      "path": ".github/workflows/arch.yml",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/include/esp32/irq.h",
+      "additions": 27,
+      "deletions": 10
+    },
+    {
+      "path": "arch/xtensa/include/esp32s2/irq.h",
+      "additions": 19,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/include/esp32s3/irq.h",
+      "additions": 20,
+      "deletions": 11
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 243,
+      "deletions": 20
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 14,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Wireless.mk",
+      "additions": 52,
+      "deletions": 14
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_adc.c",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_dedic_gpio.c",
+      "additions": 26,
+      "deletions": 41
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_efuse.c",
+      "additions": 4,
+      "deletions": 10
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_espnow_pktradio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_gpio.c",
+      "additions": 457,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_gpio.h",
+      "additions": 117,
+      "deletions": 110
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_hr_timer.h",
+      "additions": 8,
+      "deletions": 30
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2c_bitbang.c",
+      "additions": 19,
+      "deletions": 19
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2c_slave.c",
+      "additions": 11,
+      "deletions": 62
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2s.c",
+      "additions": 29,
+      "deletions": 89
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_irq.c",
+      "additions": 955,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_irq.h",
+      "additions": 296,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ledc.c",
+      "additions": 20,
+      "deletions": 16
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_loader.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_mcpwm.c",
+      "additions": 72,
+      "deletions": 49
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_openeth.c",
+      "additions": 3,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_pcnt.c",
+      "additions": 55,
+      "deletions": 74
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_pm.c",
+      "additions": 302,
+      "deletions": 58
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_pm.h",
+      "additions": 39,
+      "deletions": 13
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rmt.c",
+      "additions": 215,
+      "deletions": 1749
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rmt.h",
+      "additions": 11,
+      "deletions": 13
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rtc.c",
+      "additions": 895,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rtc.h",
+      "additions": 12,
+      "deletions": 15
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_sdm.c",
+      "additions": 27,
+      "deletions": 35
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_sha.c",
+      "additions": 22,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spi_bitbang.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spi_bitbang.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash.c",
+      "additions": 3,
+      "deletions": 175
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_spiflash.h",
+      "additions": 0,
+      "deletions": 16
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_timer_adapter.c",
+      "additions": 492,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_timer_adapter.h",
+      "additions": 324,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ulp.mk",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wireless.c",
+      "additions": 27,
+      "deletions": 179
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wireless.h",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ws2812.c",
+      "additions": 28,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_xtensa_intr.c",
+      "additions": 153,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Kconfig",
+      "additions": 19,
+      "deletions": 32
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 7,
+      "deletions": 22
+    },
+    {
+      "path": "arch/xtensa/src/esp32/chip.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ble_adapter.c",
+      "additions": 73,
+      "deletions": 119
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_clockconfig.c",
+      "additions": 0,
+      "deletions": 218
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_clockconfig.h",
+      "additions": 0,
+      "deletions": 82
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_cpustart.c",
+      "additions": 20,
+      "deletions": 27
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_emac.c",
+      "additions": 23,
+      "deletions": 30
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_freerun.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_gpio.c",
+      "additions": 0,
+      "deletions": 625
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_gpio.h",
+      "additions": 0,
+      "deletions": 273
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_i2c.c",
+      "additions": 29,
+      "deletions": 39
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_i2s.c",
+      "additions": 38,
+      "deletions": 45
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_idle.c",
+      "additions": 20,
+      "deletions": 57
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_irq.c",
+      "additions": 0,
+      "deletions": 1335
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_irq.h",
+      "additions": 0,
+      "deletions": 263
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_ledc.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_libc_stubs.c",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_oneshot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_pm.c",
+      "additions": 0,
+      "deletions": 1167
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_pm.h",
+      "additions": 0,
+      "deletions": 248
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_pminitialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_psram.c",
+      "additions": 44,
+      "deletions": 45
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_qencoder.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_resetcause.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rng.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rt_timer.c",
+      "additions": 0,
+      "deletions": 768
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rt_timer.h",
+      "additions": 0,
+      "deletions": 244
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rtc.c",
+      "additions": 0,
+      "deletions": 2277
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rtc.h",
+      "additions": 0,
+      "deletions": 713
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rtc_gpio.c",
+      "additions": 115,
+      "deletions": 15
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rtc_gpio.h",
+      "additions": 47,
+      "deletions": 49
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_rtc_lowerhalf.c",
+      "additions": 0,
+      "deletions": 559
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_serial.c",
+      "additions": 38,
+      "deletions": 52
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_sha.c",
+      "additions": 13,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spi.c",
+      "additions": 31,
+      "deletions": 40
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spi_slave.c",
+      "additions": 42,
+      "deletions": 41
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spicache.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spicache.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiflash.c",
+      "additions": 5,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiflash.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiram.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_spiram.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_start.c",
+      "additions": 144,
+      "deletions": 9
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_start.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_systemreset.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_tickless.c",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_tim.c",
+      "additions": 7,
+      "deletions": 15
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_tim_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_timerisr.c",
+      "additions": 9,
+      "deletions": 3
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_touch.c",
+      "additions": 170,
+      "deletions": 31
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_touch.h",
+      "additions": 46,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "improvement/xtensa_update",
+  "headRefOid": "f8e38b95b9be6b126f671025e2d13fd4b25144d0",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7N08Y-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "9028fe72c7baa776861d076254a2ac12b49fb680"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-28T16:33:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18614,
+  "state": "MERGED",
+  "title": "xtensa/espressif: Update common-source integration for Xtensa devices",
+  "updatedAt": "2026-03-28T16:33:11Z",
+  "url": "https://github.com/apache/nuttx/pull/18614"
+}

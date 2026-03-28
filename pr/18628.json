@@ -1,0 +1,89 @@
+{
+  "additions": 10,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.13",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-03-27T09:19:37Z",
+  "createdAt": "2026-03-27T08:20:54Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-box/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-eye/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "bp-18567",
+  "headRefOid": "dc5c5ed7a7d8a6ffeb2fc4bad6347211d296e7c9",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7N-jor",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "089b6e20d304f7cb272a147382242b48eae3a659"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-27T09:19:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18628,
+  "state": "MERGED",
+  "title": "{bp-18567} boards/xtensa/esp32s3: fix WiFi init by using CONFIG_ESPRESSIF_WIFI",
+  "updatedAt": "2026-03-27T09:19:37Z",
+  "url": "https://github.com/apache/nuttx/pull/18628"
+}

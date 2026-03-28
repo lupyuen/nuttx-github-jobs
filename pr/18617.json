@@ -1,0 +1,79 @@
+{
+  "additions": 110,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.13",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-03-27T09:24:44Z",
+  "createdAt": "2026-03-27T08:02:31Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_sched_ticks.c",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_processtickless.c",
+      "additions": 9,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-18486",
+  "headRefOid": "fea4f374dd5a2b1c1ce2593bca43c281edc1855a",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7N-Tpq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "bd690712c5111ed60f3ce391752e256788b3260c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-27T09:24:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18617,
+  "state": "MERGED",
+  "title": "{bp-18486} sched/tickless: Fix CLOCK_MONOTONIC always 0 by updating sched ticks",
+  "updatedAt": "2026-03-27T09:24:44Z",
+  "url": "https://github.com/apache/nuttx/pull/18617"
+}

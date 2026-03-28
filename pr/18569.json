@@ -1,0 +1,563 @@
+{
+  "additions": 131,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "is_bot": false,
+    "login": "pbarada",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 131,
+  "closed": true,
+  "closedAt": "2026-03-21T20:07:39Z",
+  "createdAt": "2026-03-20T15:14:10Z",
+  "deletions": 131,
+  "files": [
+    {
+      "path": "boards/arm/stm32/axoloti/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/axoloti/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/cloudctrl/scripts/cloudctrl-dfu.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/cloudctrl/scripts/cloudctrl.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/fire-stm32v2/scripts/fire-stm32v2-dfu.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/fire-stm32v2/scripts/fire-stm32v2.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f401re/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f410rb/scripts/f410rb.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f411re/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f412zg/scripts/f412zg.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f429zi/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f429zi/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/scripts/f446re.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-e407/scripts/f407ze.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-e407/scripts/f407zg.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/omnibusf4/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/omnibusf4/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/photon/scripts/photon_dfu.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/photon/scripts/photon_jtag.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm3240g-eval/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm3240g-eval/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32butterfly2/scripts/dfu.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32butterfly2/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f411-minimum/scripts/stm32f411ce.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f411e-disco/scripts/f411ve.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f429i-disco/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f429i-disco/scripts/ofloader.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f429i-disco/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/scripts/stm32l152rb.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/scripts/stm32l152rc.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32vldiscovery/scripts/stm32vldiscovery.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/viewtool-stm32f107/scripts/dfu.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/viewtool-stm32f107/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-f072rb/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-f091rc/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32f051-discovery/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32f072-discovery/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/steval-eth001v1/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746-ws/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746-ws/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746-ws/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f769i-disco/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f769i-disco/scripts/kernel-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f769i-disco/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/scripts/tfm-ns.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/scripts/gnu-elf.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/flash-mcuboot-app.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/flash-mcuboot-loader.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/kernel.space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/scripts/flash-mcuboot-app.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/scripts/flash-mcuboot-loader.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/scripts/flash-nxboot-app.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/scripts/flash-nxboot-loader.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/scripts/kernel.space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h745zi/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h745zi/scripts/flash_m4.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/openh743i/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/scripts/flash_m4.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/scripts/flash_m4.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/scripts/gnu-elf.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h747i-disco/scripts/flash.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h747i-disco/scripts/kernel.space.ld",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h747i-disco/scripts/user-space.ld",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "test/unaligned-idlestack",
+  "headRefOid": "43c15b3ddb45e485fd5a53bf089b27a9df024b63",
+  "headRepository": {
+    "id": "R_kgDORJdmWw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "login": "pbarada"
+  },
+  "id": "PR_kwDODZiUac7MLMNl",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "8409599ae4478401483ba8c3dd6fe1c6fb1283a8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-21T20:07:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18569,
+  "state": "MERGED",
+  "title": "boards/arm/stm32*/: Align ARM STM32 idle stack",
+  "updatedAt": "2026-03-21T20:07:39Z",
+  "url": "https://github.com/apache/nuttx/pull/18569"
+}

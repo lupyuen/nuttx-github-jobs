@@ -1,0 +1,173 @@
+{
+  "additions": 267,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "is_bot": false,
+    "login": "pbarada",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": true,
+  "closedAt": "2026-03-26T15:00:57Z",
+  "createdAt": "2026-03-25T18:38:38Z",
+  "deletions": 399,
+  "files": [
+    {
+      "path": "arch/arm/include/stm32/stm32f10xxx_irq.h",
+      "additions": 5,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32f20xxx_irq.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32f30xxx_irq.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32f33xxx_irq.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32f37xxx_irq.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32f40xxx_irq.h",
+      "additions": 8,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32g4xxxx_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32/stm32l15xxx_irq.h",
+      "additions": 5,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/stm32c0_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/stm32f0_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/stm32g0_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32f0l0g0/stm32l0_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/include/stm32h5/stm32h5xx_irq.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/include/stm32u5/stm32u5xx_irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/chip.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_dumpgpio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_irq.c",
+      "additions": 70,
+      "deletions": 30
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Make.defs",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_irq.c",
+      "additions": 10,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_irq.c",
+      "additions": 72,
+      "deletions": 128
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_irq.c",
+      "additions": 74,
+      "deletions": 182
+    }
+  ],
+  "headRefName": "test/stm32_irq_debug",
+  "headRefOid": "c52e3cf3403dbef383dabd6cdb47ca28f628d216",
+  "headRepository": {
+    "id": "R_kgDORJdmWw",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "login": "pbarada"
+  },
+  "id": "PR_kwDODZiUac7NcxBK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "870c96350f806d424e2b6e7839cdcaf9d69e15df"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-26T15:00:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18606,
+  "state": "MERGED",
+  "title": "arch/arm/stm32*:  Cleanup stm32 irq reporting",
+  "updatedAt": "2026-03-26T15:00:57Z",
+  "url": "https://github.com/apache/nuttx/pull/18606"
+}

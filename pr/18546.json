@@ -1,0 +1,134 @@
+{
+  "additions": 623,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2026-03-16T20:06:15Z",
+  "createdAt": "2026-03-16T12:21:03Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/lpc43xx/CMakeLists.txt",
+      "additions": 153,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/spifi/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/spifi/src/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/bambino-200e/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/bambino-200e/src/CMakeLists.txt",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4330-xplorer/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4330-xplorer/src/CMakeLists.txt",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4337-ws/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4337-ws/src/CMakeLists.txt",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4357-evb/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4357-evb/src/CMakeLists.txt",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4370-link2/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/lpc43xx/lpc4370-link2/src/CMakeLists.txt",
+      "additions": 65,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-lpc43xx",
+  "headRefOid": "61b0e9fb820c8daccab104a420b4002ac7862084",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac7K57sK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d6a5d7129da3350c30e5c59302a2d8970e0660bb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-16T20:06:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18546,
+  "state": "MERGED",
+  "title": "CMake: CMake build implemented for NXP LPC43xx",
+  "updatedAt": "2026-03-18T08:20:19Z",
+  "url": "https://github.com/apache/nuttx/pull/18546"
+}

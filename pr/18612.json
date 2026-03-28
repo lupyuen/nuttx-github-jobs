@@ -1,0 +1,123 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-03-26T22:41:59Z",
+  "createdAt": "2026-03-26T14:29:50Z",
+  "deletions": 57,
+  "files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 5,
+      "deletions": 21
+    },
+    {
+      "path": "boards/arm/imx6/sabre-6quad/configs/citest/run.sh",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest/run.sh",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest_smp/run.sh",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest/run.sh",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest64/run.sh",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/citest/run.sh",
+      "additions": 1,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "ntfc_from_pip_upstream",
+  "headRefOid": "7302bc2ea72276d1279d1d00e0c2ee094e84d2d0",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7Nvsh3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "4497bacb1c99b2c0e6a4ce77e820def4825c0931"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-26T22:41:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 18612,
+  "state": "MERGED",
+  "title": "CI: install NTFC from PIP",
+  "updatedAt": "2026-03-27T09:53:35Z",
+  "url": "https://github.com/apache/nuttx/pull/18612"
+}

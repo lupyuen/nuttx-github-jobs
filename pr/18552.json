@@ -1,0 +1,85 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NjU3",
+    "is_bot": false,
+    "login": "neilberkman",
+    "name": "Neil Berkman"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-03-18T12:05:21Z",
+  "createdAt": "2026-03-17T22:36:22Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/mcuboot-loader/defconfig",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/nxboot-loader/defconfig",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/mtd/ftl.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/ftl-odirect-writebuffer",
+  "headRefOid": "3f43c852c5bbe5d2e4323835a40bb883274306d0",
+  "headRepository": {
+    "id": "R_kgDORp3XpQ",
+    "name": "nuttx-1"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NjU3",
+    "name": "Neil Berkman",
+    "login": "neilberkman"
+  },
+  "id": "PR_kwDODZiUac7LXoDY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "b9c639f604b5247a7527fc4143b88cd9d905a332"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-18T12:05:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "milestone": null,
+  "number": 18552,
+  "state": "MERGED",
+  "title": "drivers/mtd/ftl: honor O_DIRECT flag, remove bootloader write buffering",
+  "updatedAt": "2026-03-18T12:05:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18552"
+}

@@ -1,0 +1,294 @@
+{
+  "additions": 4498,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 45,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-21T21:45:11Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/ht32f491x3/boards/esk32/ht32f491x3-starter-kit.jpg",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/ht32f491x3/boards/esk32/index.rst",
+      "additions": 173,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/ht32f491x3/index.rst",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/ht32f491x3/chip.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/ht32f491x3/ht32f491x3_irq.h",
+      "additions": 130,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/ht32f491x3/irq.h",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/Makefile",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/CMakeLists.txt",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/Kconfig",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/Make.defs",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/arm_vectors.c",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/chip.h",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_crm.h",
+      "additions": 249,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_flash.h",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_gpio.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_memorymap.h",
+      "additions": 127,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_pwc.h",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_uart.h",
+      "additions": 147,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_config.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_gpio.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_gpio.h",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_irq.c",
+      "additions": 310,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_lowputc.c",
+      "additions": 287,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_lowputc.h",
+      "additions": 43,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_serial.c",
+      "additions": 658,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_serial.h",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_start.c",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_start.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_timerisr.c",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/configs/nsh/defconfig",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/include/board.h",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/scripts/Make.defs",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/scripts/ld.script",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/Makefile",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/ht32_appinit.c",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/ht32_boot.c",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/ht32_userleds.c",
+      "additions": 106,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/tools/flash.ps1",
+      "additions": 239,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/tools/flash.py",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/tools/flash.sh",
+      "additions": 171,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/ht32f49xx_port",
+  "headRefOid": "981ca6152726b69e2f5908d34312e60a90e9da70",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7MapIs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18573,
+  "state": "OPEN",
+  "title": "boards/arm/ht32f491x3: Add support for the HT32F49163 Starter Kit board",
+  "updatedAt": "2026-03-27T22:29:58Z",
+  "url": "https://github.com/apache/nuttx/pull/18573"
+}

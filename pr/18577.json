@@ -1,0 +1,115 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-03-23T06:25:29Z",
+  "createdAt": "2026-03-22T06:20:31Z",
+  "deletions": 74,
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/k210/boards/maix-bit/index.rst",
+      "additions": 1,
+      "deletions": 46
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/include/k210/irq.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/k210/Kconfig",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "arch/risc-v/src/k210/hardware/k210_memorymap.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/k210/k210_clockconfig.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/k210/k210_timerisr.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "k210",
+  "headRefOid": "a37265cc57e0a2557210677b6f490eb45af70b9a",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac7MdUim",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "864fdb090c9593bc7f4b92e7fc3fd19b027166ad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-23T06:25:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18577,
+  "state": "MERGED",
+  "title": "arch/risc-v/k210: Remove QEMU support",
+  "updatedAt": "2026-03-23T06:25:29Z",
+  "url": "https://github.com/apache/nuttx/pull/18577"
+}

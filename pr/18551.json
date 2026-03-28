@@ -1,0 +1,120 @@
+{
+  "additions": 70,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-03-18T02:16:38Z",
+  "createdAt": "2026-03-17T20:23:26Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32c3/common/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/common/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/spiflash/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/sta_softap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/wifi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/Kconfig",
+      "additions": 10,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/disable-auto-bringup",
+  "headRefOid": "292e5397128b5250c109eb6987583bc9c2a479e6",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac7LV_OH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1630b483d2d1f5b8916aa12ce75ea225e1d2f032"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-18T02:16:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18551,
+  "state": "MERGED",
+  "title": "boards: add option to disable SPI Flash MTD automatic bringup on Espressif devices",
+  "updatedAt": "2026-03-18T02:16:38Z",
+  "url": "https://github.com/apache/nuttx/pull/18551"
+}

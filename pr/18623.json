@@ -1,0 +1,74 @@
+{
+  "additions": 8,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/12.13",
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-03-27T09:22:40Z",
+  "createdAt": "2026-03-27T08:11:20Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "arch/arm64/include/bcm2711/chip.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_gpio.c",
+      "additions": 6,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "bp-18499",
+  "headRefOid": "14872b6a00301f87eb8a4c89d5436d649999b683",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7N-abI",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "1cf0551cf0f8a41dbeac40172f0ea167a604d90b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-27T09:22:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18623,
+  "state": "MERGED",
+  "title": "{bp-18499} boards/arm64/bcm2711/raspberrypi-4b: Fix GPIO",
+  "updatedAt": "2026-03-27T09:22:40Z",
+  "url": "https://github.com/apache/nuttx/pull/18623"
+}

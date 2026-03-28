@@ -1,0 +1,84 @@
+{
+  "additions": 118,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-03-24T14:03:53Z",
+  "createdAt": "2026-03-24T11:45:00Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm64/src/a64/CMakeLists.txt",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a64/pinephone/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/a64/pinephone/src/CMakeLists.txt",
+      "additions": 50,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-a64",
+  "headRefOid": "2177476869165ab6c1d8f5d4f3c5e9b0114aca88",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac7M-klJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "80b7174810898cb5ca3713649f6a8c6d80c44c80"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-24T14:03:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 18594,
+  "state": "MERGED",
+  "title": "CMake: build implemented for Allwinner A64",
+  "updatedAt": "2026-03-24T15:11:42Z",
+  "url": "https://github.com/apache/nuttx/pull/18594"
+}

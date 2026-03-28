@@ -1,0 +1,99 @@
+{
+  "additions": 218,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-03-24T17:43:09Z",
+  "createdAt": "2026-03-24T14:57:20Z",
+  "deletions": 192,
+  "files": [
+    {
+      "path": "boards/risc-v/k210/maix-bit/include/board.h",
+      "additions": 17,
+      "deletions": 5
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/src/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/src/Makefile",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/src/k210_bringup.c",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/src/k210_gpio.c",
+      "additions": 0,
+      "deletions": 175
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/src/k210_userleds.c",
+      "additions": 190,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/src/maix-bit.h",
+      "additions": 0,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "k210",
+  "headRefOid": "980bffa9040b28edf0f582d2afef286cd456a241",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac7NCb61",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "26a476e0c1080ee898997b7c6229b779d63c7feb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-24T17:43:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18596,
+  "state": "MERGED",
+  "title": "boards/risc-v/k210/maix-bit: Add userled support",
+  "updatedAt": "2026-03-24T17:43:09Z",
+  "url": "https://github.com/apache/nuttx/pull/18596"
+}

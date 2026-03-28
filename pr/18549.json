@@ -1,0 +1,104 @@
+{
+  "additions": 431,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "is_bot": false,
+    "login": "csanchezdll",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": true,
+  "closedAt": "2026-03-19T11:42:02Z",
+  "createdAt": "2026-03-17T10:03:53Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_rng.h",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_rng.c",
+      "additions": 330,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h5xx_rcc.c",
+      "additions": 20,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/include/board.h",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_rng_to_stm32h5",
+  "headRefOid": "c0f97b5f4f14dbf3412f4fad9abbeead9b87a4d3",
+  "headRepository": {
+    "id": "R_kgDOIGBIlw",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjUyOTQ1NTc=",
+    "login": "csanchezdll"
+  },
+  "id": "PR_kwDODZiUac7LLCeM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "ff29b04e66d07d71e84bee86c2450cee22195046"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-19T11:42:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18549,
+  "state": "MERGED",
+  "title": "arch/arm/src/stm32h5: add support for HW RNG.",
+  "updatedAt": "2026-03-19T14:50:07Z",
+  "url": "https://github.com/apache/nuttx/pull/18549"
+}

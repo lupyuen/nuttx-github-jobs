@@ -1,0 +1,163 @@
+{
+  "additions": 1864,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "is_bot": false,
+    "login": "Otpvondoiats",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-21T05:42:55Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_allocateheap.c",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/esp_chip_rev.c",
+      "additions": 6,
+      "deletions": 3
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_sections.ld",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/configs/nsh/defconfig",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/configs/spiflash/defconfig",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/include/board.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/scripts/Make.defs",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/Make.defs",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/esp32p4-pico-wifi.h",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/esp32p4_appinit.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/esp32p4_boot.c",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/esp32p4_bringup.c",
+      "additions": 441,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/esp32p4_buttons.c",
+      "additions": 169,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/esp32p4_gpio.c",
+      "additions": 564,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-pico-wifi-wareshare/src/esp32p4_reset.c",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "tools/espressif/Config.mk",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "lk_p4",
+  "headRefOid": "59003552ca2ac31f57517f43bc771bcc3a9bbc2d",
+  "headRepository": {
+    "id": "R_kgDOKDOGGg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMjQyODQ4",
+    "login": "Otpvondoiats"
+  },
+  "id": "PR_kwDODZiUac7MUmjL",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18570,
+  "state": "OPEN",
+  "title": "Added support for wareshare ESP32-P4-Pico-wifi.",
+  "updatedAt": "2026-03-28T16:10:44Z",
+  "url": "https://github.com/apache/nuttx/pull/18570"
+}

@@ -1,0 +1,84 @@
+{
+  "additions": 107,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-03-25T23:20:58Z",
+  "createdAt": "2026-03-25T15:01:23Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/fe310/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/fe310/hifive1-revb/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/fe310/hifive1-revb/src/CMakeLists.txt",
+      "additions": 44,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "simbit18-fe310",
+  "headRefOid": "9e280fa06f8f6e910c0035f55b1a38d678f057f3",
+  "headRepository": {
+    "id": "R_kgDOG9alkA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBga_xA",
+    "login": "simbit18"
+  },
+  "id": "PR_kwDODZiUac7NYYdf",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "536dec431d27868bb512dc9b61f0eb66e5c2ab27"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-25T23:20:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "milestone": null,
+  "number": 18604,
+  "state": "MERGED",
+  "title": "CMake: build implemented for SiFive FE310",
+  "updatedAt": "2026-03-26T10:59:39Z",
+  "url": "https://github.com/apache/nuttx/pull/18604"
+}

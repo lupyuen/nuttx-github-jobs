@@ -1,0 +1,600 @@
+{
+  "additions": 182,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 172,
+  "closed": true,
+  "closedAt": "2026-03-24T01:39:26Z",
+  "createdAt": "2026-03-23T12:50:13Z",
+  "deletions": 182,
+  "files": [
+    {
+      "path": "arch/arm/src/lpc214x/lpc214x_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sam34/sam_allocateheap.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_pmc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_pmc.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_allocateheap.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_usbdevhs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/include/irq.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/common/z80_createstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "audio/audio_comp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "audio/pcm_decode.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/a1x/pcduino-a10/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/a1x/pcduino-a10/src/a1x_leds.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/a1x/pcduino-a10/src/pcduino_a10.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/src/am335x_leds.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/src/beaglebone-black.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/at32_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/efm32/efm32gg-stk3700/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/efm32/efm32gg-stk3700/src/efm32_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f450zk-aiotbox/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f450zk-eval/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470ik-eval/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-aiotbox/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-eval/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/imx6/sabre-6quad/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc31xx/ea3131/src/lpc31_fillpage.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc31xx/ea3152/src/lpc31_fillpage.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc31xx/olimex-lpc-h3131/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc31xx/olimex-lpc-h3131/src/lpc31_leds.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/max326xx/max32660-evsys/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/max326xx/max32660-evsys/src/max326_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/moxart/moxa/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nuc1xx/nutiny-nuc120/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nuc1xx/nutiny-nuc120/src/nuc_led.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/src/ra4m1_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/ra4m1_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/arduino-due/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/arduino-due/src/arduino-due.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/arduino-due/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/flipnclick-sam3x/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/flipnclick-sam3x/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/src/sam4s-xplained-pro.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained-pro/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained/src/sam4s-xplained.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4s-xplained/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/giant-board/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/jupiter-nano/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d2-xult/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3-xplained/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3x-ek/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d3x-ek/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sama5/sama5d4-ek/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd5e5/metro-m4/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd5e5/metro-m4/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd5e5/same54-xplained-pro/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd5e5/same54-xplained-pro/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/pic32czca70-curiosity/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/same70-qmtech/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/same70-xplained/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g431b-esc1/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/src/stm32_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/emw3162/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f207zg/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303ze/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f401re/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f410rb/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f411re/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f412zg/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f429zi/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g431kb/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g431rb/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g474re/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-l152re/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/photon/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32butterfly2/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f3discovery/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/src/stm32_autoleds.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/viewtool-stm32f107/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/viewtool-stm32f107/src/stm32_leds.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/b-l072z-lrwan1/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix",
+  "headRefOid": "63158d35476274ca1354d4ab6326d6abce552b71",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac7MrIxb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRWYg",
+      "name": "Arch: z80",
+      "description": "Issues related to the Z80 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e09048cc8861d5130164425e2fd53a60132e8ee2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-24T01:39:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18585,
+  "state": "MERGED",
+  "title": "style: Fix \"is is\" typo across the codebase.",
+  "updatedAt": "2026-03-24T01:39:26Z",
+  "url": "https://github.com/apache/nuttx/pull/18585"
+}

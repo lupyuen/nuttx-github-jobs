@@ -1,0 +1,79 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3NjU3",
+    "is_bot": false,
+    "login": "neilberkman",
+    "name": "Neil Berkman"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-03-18T12:06:05Z",
+  "createdAt": "2026-03-17T22:39:27Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "boot/nxboot/loader/boot.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boot/nxboot/loader/flash.c",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "boot/nxboot/loader/flash.h",
+      "additions": 16,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/nxboot-power-loss-hardening",
+  "headRefOid": "4772efaf993e8b2e3697e81dba5779272d2ccec8",
+  "headRepository": {
+    "id": "R_kgDORp3abQ",
+    "name": "nuttx-apps-1"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3NjU3",
+    "name": "Neil Berkman",
+    "login": "neilberkman"
+  },
+  "id": "PR_kwDODZiT487LXp43",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7M-w",
+      "name": "Area: Boot",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "cb880b72578c9501710dacf74f2683ea8cfd8a51"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-18T12:06:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "milestone": null,
+  "number": 3428,
+  "state": "MERGED",
+  "title": "boot/nxboot: add flush barriers and CRC-validate primary before boot",
+  "updatedAt": "2026-03-18T13:57:11Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3428"
+}

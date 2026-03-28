@@ -1,0 +1,126 @@
+{
+  "additions": 694,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": true,
+  "closedAt": "2026-03-18T02:15:36Z",
+  "createdAt": "2026-03-17T15:01:30Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/k210/index.rst",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/k210/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/k210/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/k210/Kconfig",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/k210/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/k210/hardware/k210_memorymap.h",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/k210/hardware/k210_wdt.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/k210/k210_wdt.c",
+      "additions": 516,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/k210/k210_wdt.h",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/k210/maix-bit/src/k210_bringup.c",
+      "additions": 23,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "k210",
+  "headRefOid": "b57af74afdb87eeda9efedcd65377f219f74efe6",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU4NTIzNjk=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiUac7LQe4y",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "078e7099b7545517274a369f6681a32cb8dd159d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-18T02:15:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "milestone": null,
+  "number": 18550,
+  "state": "MERGED",
+  "title": "arch/risc-v/k210: Add Watchdog Timer (WDT) driver support.",
+  "updatedAt": "2026-03-18T02:15:37Z",
+  "url": "https://github.com/apache/nuttx/pull/18550"
+}

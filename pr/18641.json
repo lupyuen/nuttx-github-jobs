@@ -1,0 +1,89 @@
+{
+  "additions": 17,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-03-27T22:14:35Z",
+  "createdAt": "2026-03-27T13:53:44Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": ".github/workflows/arch.yml",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/ci/testlist/xtensa-00.dat",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testlist/xtensa-02.dat",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "tools/ci/testlist/xtensa-03.dat",
+      "additions": 7,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "improvement/xtensa_ci_job_split",
+  "headRefOid": "ce5e0481be1218abcde2f540f8f6417f9f0d5da8",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7ODoN_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNDU1MDI2ODAz",
+      "name": "Area: CI",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "c64b95ccbf7d12698e0e5bb1759ea9dfc9ae1d9a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-27T22:14:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
+  "milestone": null,
+  "number": 18641,
+  "state": "MERGED",
+  "title": "ci: split xtensa jobs into three separate jobs (instead of two)",
+  "updatedAt": "2026-03-27T22:14:35Z",
+  "url": "https://github.com/apache/nuttx/pull/18641"
+}
