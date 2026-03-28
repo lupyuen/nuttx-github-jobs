@@ -35,7 +35,6 @@ fn main() {
             let file = File::open(&path).unwrap();
             let reader = BufReader::new(file);
             let pr: serde_json::Value = serde_json::from_reader(reader).unwrap();
-            // println!("\npr=\n{}", serde_json::to_string_pretty(&pr).unwrap());
 
             // Remember the PR Number and PR Title in a HashMap
             let pr_number = pr["number"].as_u64().unwrap();
@@ -54,7 +53,6 @@ fn main() {
             let file = File::open(&path).unwrap();
             let reader = BufReader::new(file);
             let job: serde_json::Value = serde_json::from_reader(reader).unwrap();
-            // println!("\njob=\n{}", serde_json::to_string_pretty(&job).unwrap());
 
             // Lookup the PR Number for the PR Title in the Job JSON
             let job_id = job["databaseId"].as_u64().unwrap();
@@ -65,18 +63,11 @@ fn main() {
                 let (job_tsv, job_json) = dump_job(job_id);
                 let (pr_tsv, pr_json) = dump_pr(*pr_number as u32);
                 println!("Job TSV: {}\nPR TSV: {}\n", job_tsv, pr_tsv);
-                println!("Job JSON:\n{}\n", serde_json::to_string_pretty(&job_json).unwrap());
-                println!("PR JSON:\n{}\n", serde_json::to_string_pretty(&pr_json).unwrap());
 
                 // Merge the Job JSON and PR JSON into one JSON, and print it in pretty format
                 let mut job_pr = serde_json::Map::new();
-                for (k, v) in job_json.iter() {
-                    job_pr.insert(k.clone(), v.clone());
-                }
-                for (k, v) in pr_json.iter() {
-                    job_pr.insert(k.clone(), v.clone());
-                }
-                println!("Merged JSON:\n{}\n", serde_json::to_string_pretty(&job_pr).unwrap());
+                for (k, v) in job_json.iter() { job_pr.insert(k.clone(), v.clone()); }
+                for (k, v) in pr_json.iter() { job_pr.insert(k.clone(), v.clone()); }
 
                 // Append the Job TSV and PR TSV
                 let mut output_file = OpenOptions::new()
