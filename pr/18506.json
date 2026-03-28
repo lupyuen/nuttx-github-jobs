@@ -1,5 +1,5 @@
 {
-  "additions": 53,
+  "additions": 100,
   "assignees": [],
   "author": {
     "id": "U_kgDOCfYrRw",
@@ -10,15 +10,15 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-11T18:07:44Z",
   "createdAt": "2026-03-07T19:10:31Z",
-  "deletions": 28,
+  "deletions": 71,
   "files": [
     {
       "path": "fs/mnemofs/mnemofs.h",
-      "additions": 53,
-      "deletions": 5
+      "additions": 100,
+      "deletions": 48
     },
     {
       "path": "fs/mnemofs/mnemofs_util.c",
@@ -27,7 +27,7 @@
     }
   ],
   "headRefName": "mnemofs-bit-pr",
-  "headRefOid": "eb899c58318519f5197a5e8149bab2254a8bfdcb",
+  "headRefOid": "ff1fec29a8d36dd5f17089885070d8f02323d977",
   "headRepository": {
     "id": "R_kgDORhAJdg",
     "name": "gsoc-nuttx"
@@ -47,21 +47,28 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bd5e017ebd78783a7d8dc4b8afec4dce9cdc3fae"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-11T18:07:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18506,
-  "state": "OPEN",
-  "title": "mnemofs: Add portable bit primitives and cleanup hash functions",
-  "updatedAt": "2026-03-08T18:32:54Z",
+  "state": "MERGED",
+  "title": "fs/mnemofs: Add portable bit primitives and cleanup hash functions",
+  "updatedAt": "2026-03-11T18:07:44Z",
   "url": "https://github.com/apache/nuttx/pull/18506"
 }
