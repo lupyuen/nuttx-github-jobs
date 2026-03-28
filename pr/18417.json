@@ -1,5 +1,5 @@
 {
-  "additions": 161,
+  "additions": 182,
   "assignees": [],
   "author": {
     "id": "U_kgDODtJYMA",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 6,
+  "closed": true,
+  "closedAt": "2026-03-27T01:37:06Z",
   "createdAt": "2026-02-20T14:05:02Z",
-  "deletions": 0,
+  "deletions": 11,
   "files": [
     {
       "path": "arch/arm/src/kinetis/Kconfig",
@@ -21,13 +21,33 @@
       "deletions": 0
     },
     {
+      "path": "arch/arm/src/kinetis/hardware/kinetis_k40pinmux.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/hardware/kinetis_k60pinmux.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/hardware/kinetis_k64pinmux.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/hardware/kinetis_k66pinmux.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
       "path": "arch/arm/src/kinetis/kinetis_serial.c",
-      "additions": 95,
-      "deletions": 0
+      "additions": 104,
+      "deletions": 7
     }
   ],
   "headRefName": "master",
-  "headRefOid": "808021cb96a74cb88be0a150b225bd73fdb9b7c4",
+  "headRefOid": "94e564acd13f3216b907d635880ed85e22808e54",
   "headRepository": {
     "id": "R_kgDOQleJpQ",
     "name": "nuttx"
@@ -52,15 +72,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7f5e0285a88c35dcfea0230d2c4b3b1722cc8e3c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-27T01:37:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18417,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "kinetis/serial: Enable RTS as GPIO for RS485CONTROL",
-  "updatedAt": "2026-02-26T14:04:37Z",
+  "updatedAt": "2026-03-27T01:37:06Z",
   "url": "https://github.com/apache/nuttx/pull/18417"
 }

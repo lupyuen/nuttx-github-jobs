@@ -1,5 +1,5 @@
 {
-  "additions": 909,
+  "additions": 955,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 16,
+  "changedFiles": 19,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-02-15T10:17:55Z",
-  "deletions": 43,
+  "deletions": 47,
   "files": [
     {
       "path": ".gitignore",
@@ -22,7 +22,7 @@
     },
     {
       "path": "Documentation/components/tools/index.rst",
-      "additions": 91,
+      "additions": 110,
       "deletions": 0
     },
     {
@@ -37,13 +37,13 @@
     },
     {
       "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
-      "additions": 27,
+      "additions": 28,
       "deletions": 14
     },
     {
       "path": "boards/Board.mk",
-      "additions": 20,
-      "deletions": 0
+      "additions": 18,
+      "deletions": 1
     },
     {
       "path": "boards/Kconfig",
@@ -59,6 +59,11 @@
       "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/passwd",
       "additions": 0,
       "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/login/defconfig",
+      "additions": 2,
+      "deletions": 0
     },
     {
       "path": "boards/sim/sim/sim/src/CMakeLists.txt",
@@ -81,6 +86,11 @@
       "deletions": 0
     },
     {
+      "path": "cmake/savedefconfig.cmake",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
       "path": "tools/.gitignore",
       "additions": 1,
       "deletions": 0
@@ -91,13 +101,18 @@
       "deletions": 4
     },
     {
+      "path": "tools/Unix.mk",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
       "path": "tools/mkpasswd.c",
-      "additions": 609,
+      "additions": 602,
       "deletions": 0
     }
   ],
   "headRefName": "Issue-16822",
-  "headRefOid": "d7b5de0a816da9457d232f10994f0e1d8318b646",
+  "headRefOid": "739a0a2791beebfe14868d7aa1dd59698d541fb7",
   "headRepository": {
     "id": "R_kgDORPCVxw",
     "name": "nuttx"
@@ -136,14 +151,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18396,
   "state": "OPEN",
   "title": "sched/nsh: Remove Hard-coded Default Password",
-  "updatedAt": "2026-03-09T16:15:28Z",
+  "updatedAt": "2026-03-27T22:24:26Z",
   "url": "https://github.com/apache/nuttx/pull/18396"
 }

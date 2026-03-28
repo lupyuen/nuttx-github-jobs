@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 73,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-10T09:38:19Z",
   "createdAt": "2026-02-13T08:11:26Z",
   "deletions": 4724,
   "files": [
@@ -419,15 +419,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "72be575b1a181e45241a812afd2a8f504cb90763"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-10T09:38:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18391,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/tricore: add support for tc4xx series chips and boards",
-  "updatedAt": "2026-03-09T11:39:05Z",
+  "updatedAt": "2026-03-11T01:37:51Z",
   "url": "https://github.com/apache/nuttx/pull/18391"
 }
