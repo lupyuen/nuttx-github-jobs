@@ -1,0 +1,68 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB567kQ",
+    "is_bot": false,
+    "login": "nuttxs",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": true,
+  "closedAt": "2026-03-10T09:34:27Z",
+  "createdAt": "2026-03-10T03:06:12Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_lan9250.c",
+      "additions": 6,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/fix-MAC-address-byte-order-esp32S3-lan9250",
+  "headRefOid": "2899e14f4d82a1c491e8891eb909e493ee6e2092",
+  "headRepository": {
+    "id": "R_kgDOKeVl1g",
+    "name": "apache-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB567kQ",
+    "login": "nuttxs"
+  },
+  "id": "PR_kwDODZiUac7JQDH-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "097cc8c8a67391a3ef2f2d8d031286fead749d1b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-10T09:34:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "milestone": null,
+  "number": 18518,
+  "state": "MERGED",
+  "title": "boards/esp32s3: Fix MAC address byte order in LAN9250 driver",
+  "updatedAt": "2026-03-10T09:34:27Z",
+  "url": "https://github.com/apache/nuttx/pull/18518"
+}

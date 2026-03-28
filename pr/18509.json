@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 8,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-11T19:33:27Z",
   "createdAt": "2026-03-08T17:34:54Z",
   "deletions": 6,
   "files": [
@@ -57,11 +57,8 @@
     }
   ],
   "headRefName": "boards/nucleo-h743zi-nxboot",
-  "headRefOid": "adfb88d27275d2d9e4a46702950442eb51c37ee1",
-  "headRepository": {
-    "id": "R_kgDORhqq1w",
-    "name": "nuttx"
-  },
+  "headRefOid": "a029bac82e9b4a043e3dc90b629262e285537b6e",
+  "headRepository": null,
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM3NjU3",
     "name": "Neil Berkman",
@@ -89,15 +86,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "107b7a9aa1fafc45cd0a9c7dea1edee7adfb6e68"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-11T19:33:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18509,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/nucleo-h743zi: Add nxboot bootloader support",
-  "updatedAt": "2026-03-09T09:54:08Z",
+  "updatedAt": "2026-03-11T19:33:27Z",
   "url": "https://github.com/apache/nuttx/pull/18509"
 }

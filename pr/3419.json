@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-10T12:28:22Z",
   "createdAt": "2026-03-09T00:23:02Z",
   "deletions": 7,
   "files": [
@@ -33,10 +33,7 @@
   ],
   "headRefName": "fix/nxboot-clang-warnings",
   "headRefOid": "fc3ff2c065fc9d12cf73b2179ff4b4173e522661",
-  "headRepository": {
-    "id": "R_kgDORh3u5w",
-    "name": "nuttx-apps"
-  },
+  "headRepository": null,
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM3NjU3",
     "name": "Neil Berkman",
@@ -58,15 +55,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8579459bb0bf4fa28c044b7b7de71a7a09029b4d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-10T12:28:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 3419,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boot/nxboot: fix Clang warnings for format and va_start",
-  "updatedAt": "2026-03-09T10:01:02Z",
+  "updatedAt": "2026-03-10T12:28:22Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3419"
 }

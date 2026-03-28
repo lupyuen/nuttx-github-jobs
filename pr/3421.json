@@ -1,0 +1,79 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "is_bot": false,
+    "login": "no1wudi",
+    "name": "Huang Qi"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-03-10T21:23:22Z",
+  "createdAt": "2026-03-10T01:48:16Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_add_rust.cmake",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "tools/Rust.mk",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "rust",
+  "headRefOid": "224df6dbbeba5d65350255131a7918e26114a93c",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTU1OTI0MjQ=",
+    "name": "nuttx-apps"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMzA2MTY=",
+    "name": "Huang Qi",
+    "login": "no1wudi"
+  },
+  "id": "PR_kwDODZiT487JPYYA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqd4wg",
+      "name": "Area: Build System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "68f9e5424b45096361d2bc45e31fe7f278a4dd12"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-10T21:23:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 3421,
+  "state": "MERGED",
+  "title": "cmake/tools: Fix panic_immediate_abort deprecation in Rust build",
+  "updatedAt": "2026-03-10T21:23:22Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3421"
+}

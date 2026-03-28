@@ -1,0 +1,89 @@
+{
+  "additions": 839,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-03-17T14:26:45Z",
+  "createdAt": "2026-03-13T15:02:31Z",
+  "deletions": 48,
+  "files": [
+    {
+      "path": "Documentation/debugging/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/debugging/stackusage.rst",
+      "additions": 159,
+      "deletions": 0
+    },
+    {
+      "path": "Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/showstack.sh",
+      "additions": 0,
+      "deletions": 47
+    },
+    {
+      "path": "tools/stackusage.py",
+      "additions": 678,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stackusage",
+  "headRefOid": "9b4bf381c2d6b4bcf66f2254337fd3e661fcf9bd",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac7KZIQW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "55e752ada8cc90cb7337d7d8d1b50eefbb209d65"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-17T14:26:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "milestone": null,
+  "number": 18538,
+  "state": "MERGED",
+  "title": "tools: replace showstack.sh with stackusage.py",
+  "updatedAt": "2026-03-18T02:10:44Z",
+  "url": "https://github.com/apache/nuttx/pull/18538"
+}
