@@ -93,7 +93,13 @@ fn main() {
             }
         }
     }
-    let mut output_file = File::create(OUTPUT_FILE_JSON).unwrap();
+
+    // Close the JSON array
+    let mut output_file = OpenOptions::new()
+        .create(true)
+        .append(true)
+        .open(OUTPUT_FILE_JSON)
+        .unwrap();
     writeln!(output_file, "]").unwrap();
     output_file.flush().unwrap();
 }
