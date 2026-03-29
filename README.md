@@ -51,7 +51,7 @@ cd nuttx-github-jobs
 cargo run
 
 ## Optional: Push the PRs, Jobs, Durations, TSV and JSON to GitHub for later analysis
-git push -f
+git pull && git push -f
 
 ## Import nuttx-github-jobs.tsv into Google Sheets for analysis:
 ## NuttX GitHub Jobs Spreadsheet: https://docs.google.com/spreadsheets/d/1HY7fIZzd_fs3QPyA0TX7vsYOjL86m1fNOf1Wls93luI/edit?gid=1187577522#gid=1187577522
