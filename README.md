@@ -57,6 +57,7 @@ git pull && git push -f
 
 ## Optional: Export the PRs, Jobs, Durations, Build Logs into Static HTML
 pushd ../export-nuttx-builds
+git pull
 cargo run
 popd
 git pull && git push -f
