@@ -15,12 +15,12 @@ fi
 
 ## Dump the GitHub PRs into pr/$pr_num.json
 function dump_pr_list {
-  local owner=$1
+  local user=$1
   local repo=$2
   local date=$3
   local pr_list=$(
     gh pr list \
-      --repo $owner/$repo \
+      --repo $user/$repo \
       --limit 1000 \
       --state all \
       --search "created:$date" \
@@ -219,12 +219,12 @@ function dump_pr_list {
 
 ## Dump the GitHub Jobs into job/$run_id.json
 function dump_job_list {
-  local owner=$1
+  local user=$1
   local repo=$2
   local date=$3
   local job_list=$(
     gh run list \
-      --repo $owner/$repo \
+      --repo $user/$repo \
       --limit 1000 \
       --created $date \
       --json conclusion,createdAt,databaseId,displayTitle,event,headBranch,headSha,name,number,startedAt,status,updatedAt,url,workflowDatabaseId,workflowName
@@ -238,7 +238,7 @@ function dump_job_list {
     local file=job/$run_id.json
     echo "$job" | jq >$file
     echo "Job $i: $file"
-    dump_duration $owner $repo $run_id
+    dump_duration $user $repo $run_id
   done
 }
 
@@ -261,7 +261,7 @@ function dump_job_list {
 
 ## Dump the GitHub Job Duration into duration/$run_id.txt
 function dump_duration {
-  local owner=$1
+  local user=$1
   local repo=$2
   local run_id=$3
   local duration=$(
@@ -269,7 +269,7 @@ function dump_duration {
       -H "Accept: application/vnd.github+json" \
       -H "Authorization: Bearer $GITHUB_TOKEN" \
       -H "X-GitHub-Api-Version: 2022-11-28" \
-      https://api.github.com/repos/$owner/$repo/actions/runs/$run_id/timing \
+      https://api.github.com/repos/$user/$repo/actions/runs/$run_id/timing \
       | jq '.run_duration_ms'
   )
   local file=duration/$run_id.txt
@@ -311,5 +311,5 @@ dump_repo
 ## For Testing
 # date=$(date -u +'%Y-%m-%d')
 # run_id=22837803838 ## From databaseId
-# owner=apache
+# user=apache
 # repo=nuttx
