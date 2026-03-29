@@ -6,6 +6,13 @@
 ## "public_repo" (Access public repositories)
 . $HOME/github-token.sh
 
+## First Parameter is Number of Days to Backtrack (e.g. 365)
+num_days=$1
+if [[ "$num_days" == "" ]]; then
+  echo "ERROR: Number of Days Parameter is missing (e.g. 365)"
+  exit 1
+fi
+
 ## Dump the GitHub PRs into pr/$pr_num.json
 function dump_pr_list {
   local repo=$1
@@ -273,8 +280,8 @@ function dump_duration {
 
 ## Dump the PRs, Jobs and Durations for the NuttX Repo and NuttX Apps Repo
 function dump_repo {
-  ## Backtrack for 365 days
-  for days in {0..365}; do
+  ## Backtrack for the specified number of days
+  for ((days=0; days<=$num_days; days++)); do
     echo "days=$days"
     if [ "`uname`" == "Darwin" ]; then
       date=$(date -v-${days}d +"%Y-%m-%d")
@@ -295,6 +302,7 @@ function dump_repo {
   done
 }
 
+## Dump the PRs, Jobs and Durations for the NuttX Repo and NuttX Apps Repo
 dump_repo
 
 ## For Testing
