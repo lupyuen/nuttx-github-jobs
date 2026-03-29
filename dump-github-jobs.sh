@@ -239,6 +239,7 @@ function dump_job_list {
     echo "$job" | jq >$file
     echo "Job $i: $file"
     dump_duration $user $repo $run_id
+    dump_build $user $repo $run_id
   done
 }
 
@@ -280,6 +281,18 @@ function dump_duration {
 
 ## Result:
 # 12779000
+
+## Parse the GitHub Build Logs into success/$run_id/*.json, warning/$run_id/*.json, error/$run_id/*.json
+## ../parse-nuttx-builds/download-github-logs.sh apache nuttx 23653869993
+function dump_build {
+  local user=$1
+  local repo=$2
+  local run_id=$3
+  pushd ../parse-nuttx-builds
+  ./download-github-logs.sh $user $repo $run_id
+  popd
+  sleep 1
+}
 
 ## Dump the PRs, Jobs and Durations for the NuttX Repo and NuttX Apps Repo
 function dump_repo {
