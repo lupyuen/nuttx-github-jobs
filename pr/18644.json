@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-28T19:00:59Z",
   "createdAt": "2026-03-28T14:55:36Z",
   "deletions": 3,
   "files": [
@@ -57,15 +57,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fc6fd3f24d68764c54706390048453f79e968e6f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-28T19:00:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18644,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/qemu-rv: Configure PMP before booting secondary harts.",
-  "updatedAt": "2026-03-28T16:13:04Z",
+  "updatedAt": "2026-03-28T19:00:59Z",
   "url": "https://github.com/apache/nuttx/pull/18644"
 }
