@@ -238,8 +238,17 @@ function dump_job_list {
     local file=job/$run_id.json
     echo "$job" | jq >$file
     echo "Job $i: $file"
+
+    ## Dump the Job Duration
     dump_duration $user $repo $run_id
-    dump_build $user $repo $run_id
+
+    ## If this is a Build Job: Download and Parse the GitHub Build Logs
+    ## Search the Job JSON for: "name": "Build"
+    grep '"name": "Build"' $file
+    local not_found=$?
+    if [[ "$not_found" == "0" ]]; then
+      dump_build $user $repo $run_id
+    fi
   done
 }
 
@@ -282,7 +291,7 @@ function dump_duration {
 ## Result:
 # 12779000
 
-## Parse the GitHub Build Logs into success/$run_id/*.json, warning/$run_id/*.json, error/$run_id/*.json
+## Download and Parse the GitHub Build Logs into success/$run_id/*.json, warning/$run_id/*.json, error/$run_id/*.json
 ## ../parse-nuttx-builds/download-github-logs.sh apache nuttx 23653869993
 function dump_build {
   local user=$1
