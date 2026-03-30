@@ -1,0 +1,73 @@
+{
+  "additions": 30,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBkM3nQ",
+    "is_bot": false,
+    "login": "aviralgarg05",
+    "name": "Aviral Garg"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-30T20:06:00Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 15,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.c",
+      "additions": 15,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix/issue-16915-esp-wlan-rx-queue-lock",
+  "headRefOid": "d275a8e433223ccc26b27f4300698f2445bc64e1",
+  "headRepository": {
+    "id": "R_kgDOQ70AiA",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBkM3nQ",
+    "name": "Aviral Garg",
+    "login": "aviralgarg05"
+  },
+  "id": "PR_kwDODZiUac7Ovc_3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18652,
+  "state": "OPEN",
+  "title": "arch/espressif: serialize Wi-Fi RX queue access.",
+  "updatedAt": "2026-03-30T20:08:08Z",
+  "url": "https://github.com/apache/nuttx/pull/18652"
+}
