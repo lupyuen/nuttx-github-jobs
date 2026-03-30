@@ -8,5 +8,5 @@
 "build_score": 0,
 "version": "3",
 "url": "https://github.com/apache/nuttx-apps/actions/runs/23712816820/job/69075240587#step:10:1099",
-"msg": "##[error]./common/espressif/esp_irq.c:125:4: error: #error \"CONFIG_ARCH_MINIMAL_VECTORTABLE_DYNAMIC must be enabled for           Xtensa-based Espressif SoCs. Additionally, enable           CONFIG_ARCH_IRQ_TO_NDX and set CONFIG_ARCH_NUSER_INTERRUPTS to 2.          Run 'make menuconfig' to select and set these options.\" \n 125 | #  error \"CONFIG_ARCH_MINIMAL_VECTORTABLE_DYNAMIC must be enabled for \n |    ^~~~~ \n ERROR: xtensa-esp32s3-elf-gcc failed: 1 \n command: xtensa-esp32s3-elf-gcc -MT ./esp_irq.o"
+"msg": "##[error]./common/espressif/esp_irq.c:125:4: error: #error \"CONFIG_ARCH_MINIMAL_VECTORTABLE_DYNAMIC must be enabled for           Xtensa-based Espressif SoCs. Additionally, enable           CONFIG_ARCH_IRQ_TO_NDX and set CONFIG_ARCH_NUSER_INTERRUPTS to 2.          Run 'make menuconfig' to select and set these options.\" \n 125 | #  error \"CONFIG_ARCH_MINIMAL_VECTORTABLE_DYNAMIC must be enabled for  \n |    ^~~~~ \n ERROR: xtensa-esp32s3-elf-gcc failed: 1 \n command: xtensa-esp32s3-elf-gcc -MT ./esp_irq.o "
 }

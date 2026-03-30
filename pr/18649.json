@@ -1,0 +1,139 @@
+{
+  "additions": 895,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-30T02:47:44Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/ht32f491x3/boards/esk32/index.rst",
+      "additions": 115,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/Kconfig",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_crm.h",
+      "additions": 16,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/hardware/ht32f491x3_tmr.h",
+      "additions": 99,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_pwm.c",
+      "additions": 385,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/ht32f491x3/ht32f491x3_pwm.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/configs/pwm/defconfig",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/include/board.h",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/ht32_appinit.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/ht32f491x3/esk32/src/ht32_pwm.c",
+      "additions": 88,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esk32-add-pwm",
+  "headRefOid": "9dbbd238dd2353f2a24898881b1deb5808bbec0e",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7OdtKL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18649,
+  "state": "OPEN",
+  "title": "boards/arm/ht32f491x3: Add PWM support for the HT32F49163 Starter Kit board",
+  "updatedAt": "2026-03-30T03:34:34Z",
+  "url": "https://github.com/apache/nuttx/pull/18649"
+}
