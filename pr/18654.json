@@ -1,0 +1,224 @@
+{
+  "additions": 1124,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCg8z7A",
+    "is_bot": false,
+    "login": "PiyushPatle26",
+    "name": "Piyush Patle "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 36,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-30T22:11:14Z",
+  "deletions": 699,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_lirc.c",
+      "additions": 399,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_lirc.h",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rmt.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rmt.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ws2812.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Kconfig",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/Make.defs",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_lirc.c",
+      "additions": 441,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_lirc.h",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rmt.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rmt.h",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ws2812.c",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_rmt.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/esp_board_rmt.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/esp_board_rmt.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_rmt.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_board_rmt.c",
+      "additions": 12,
+      "deletions": 7
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_rmt.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_rmt.c",
+      "additions": 12,
+      "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/rmt/defconfig",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "drivers/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rmt/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 9
+    },
+    {
+      "path": "drivers/rmt/Kconfig",
+      "additions": 0,
+      "deletions": 43
+    },
+    {
+      "path": "drivers/rmt/Make.defs",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "drivers/rmt/rmtchar.c",
+      "additions": 0,
+      "deletions": 341
+    },
+    {
+      "path": "include/nuttx/rmt/rmt.h",
+      "additions": 0,
+      "deletions": 98
+    },
+    {
+      "path": "include/nuttx/rmt/rmtchar.h",
+      "additions": 0,
+      "deletions": 94
+    }
+  ],
+  "headRefName": "espressif-rmt-lirc-refactor",
+  "headRefOid": "2a9931f6f6ee96513c21f929ee481429cb583f11",
+  "headRepository": {
+    "id": "R_kgDOR0KCmg",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCg8z7A",
+    "name": "Piyush Patle ",
+    "login": "PiyushPatle26"
+  },
+  "id": "PR_kwDODZiUac7OxUMa",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18654,
+  "state": "OPEN",
+  "title": "espressif/rmt: replace rmtchar with arch-specific lirc adapter",
+  "updatedAt": "2026-03-30T22:11:16Z",
+  "url": "https://github.com/apache/nuttx/pull/18654"
+}
