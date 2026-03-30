@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-03-24T11:13:05",
+"arch": "arm",
+"subarch": "unknown",
+"group": "arm-13",
+"board": "nucleo-c071rb",
+"config": "adcscope",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23484671847/job/68337284017#step:10:476",
+"msg": "group/group_foreachchild.c: In function 'group_foreachchild': \n ##[error]group/group_foreachchild.c:85:10: error: 'ret' may be used uninitialized [-Werror=maybe-uninitialized] \n 85 |   return ret; \n |          ^~~ \n group/group_foreachchild.c:67:7: note: 'ret' was declared here \n 67 |   int ret; \n |       ^~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:65: group_foreachchild.o] Error 1 \n make[1]: Target 'libsched.a' not remade because of errors. \n make: *** [tools/LibTarge"
+}

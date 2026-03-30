@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-03-26T19:22:32",
+"arch": "xtensa",
+"subarch": "unknown",
+"group": "xtensa-01",
+"board": "heltec_wifi_lora32",
+"config": "sx1276",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23612420863/job/68771598244#step:10:639",
+"msg": "board/esp32_sx127x.c:40:10: fatal error: esp32_gpio.h: No such file or directory \n 40 | #include \"esp32_gpio.h\" \n |          ^~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: xtensa-esp32-elf-gcc failed: 1 \n command: xtensa-esp32-elf-gcc -MT ./esp32_sx127x.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-mlongcalls' '-isystem' '/gith"
+}
