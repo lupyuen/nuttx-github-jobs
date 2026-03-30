@@ -1,0 +1,178 @@
+{
+  "additions": 706,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-30T12:08:42Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/index.rst",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/ulp_blink.bin",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/index.rst",
+      "additions": 337,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc_gpio.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc_gpio.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ulp.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ulp.mk",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/ulp_makefile",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.mk",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/common.ld",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_flat_memory.ld",
+      "additions": 3,
+      "deletions": 9
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_lpcore_sections.ld",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/ulp/defconfig",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_bringup.c",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_gpio.c",
+      "additions": 91,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/add_esp32p4_ulp",
+  "headRefOid": "c19e69709ae86f219dc076c4fd8fbb78007905b1",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac7OmV8H",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18651,
+  "state": "OPEN",
+  "title": "Feature/add esp32p4 ulp",
+  "updatedAt": "2026-03-30T12:15:24Z",
+  "url": "https://github.com/apache/nuttx/pull/18651"
+}
