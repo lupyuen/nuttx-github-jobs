@@ -1,5 +1,5 @@
 {
-  "additions": 1124,
+  "additions": 1259,
   "assignees": [],
   "author": {
     "id": "U_kgDOCg8z7A",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 36,
+  "changedFiles": 38,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-03-30T22:11:14Z",
-  "deletions": 699,
+  "deletions": 747,
   "files": [
+    {
+      "path": "Documentation/components/drivers/character/rc.rst",
+      "additions": 136,
+      "deletions": 0
+    },
     {
       "path": "arch/risc-v/src/common/espressif/Kconfig",
       "additions": 12,
@@ -166,19 +171,24 @@
       "deletions": 1
     },
     {
+      "path": "drivers/Makefile",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
       "path": "drivers/rmt/CMakeLists.txt",
-      "additions": 1,
-      "deletions": 9
+      "additions": 0,
+      "deletions": 31
     },
     {
       "path": "drivers/rmt/Kconfig",
       "additions": 0,
-      "deletions": 43
+      "deletions": 47
     },
     {
       "path": "drivers/rmt/Make.defs",
       "additions": 0,
-      "deletions": 11
+      "deletions": 32
     },
     {
       "path": "drivers/rmt/rmtchar.c",
@@ -197,7 +207,7 @@
     }
   ],
   "headRefName": "espressif-rmt-lirc-refactor",
-  "headRefOid": "2a9931f6f6ee96513c21f929ee481429cb583f11",
+  "headRefOid": "a214d60cdc0482b03d87f5c75226c665128fe3f1",
   "headRepository": {
     "id": "R_kgDOR0KCmg",
     "name": "nuttx"
@@ -256,6 +266,6 @@
   "number": 18654,
   "state": "OPEN",
   "title": "espressif/rmt: replace rmtchar with arch-specific lirc adapter",
-  "updatedAt": "2026-03-31T11:47:37Z",
+  "updatedAt": "2026-03-31T13:55:07Z",
   "url": "https://github.com/apache/nuttx/pull/18654"
 }
