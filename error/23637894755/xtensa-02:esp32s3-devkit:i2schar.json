@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-03-27T09:51:34",
+"arch": "xtensa",
+"subarch": "unknown",
+"group": "xtensa-02",
+"board": "esp32s3-devkit",
+"config": "i2schar",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23637894755/job/68851372338#step:10:1331",
+"msg": "In file included from common/espressif/esp_i2s.c:30: \n common/espressif/esp_i2s.c: In function 'i2s_receive': \n ##[error]common/espressif/esp_i2s.c:3071:15: error: format '%d' expects argument of type 'int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=] \n 3071 |       i2sinfo(\"i2s_receive: nmaxbytes=%lu ch=%d dw=%d \" \n |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n ...... \n 3074 |               priv->channels, priv->data_width, \n |               ~~~~~~~"
+}
