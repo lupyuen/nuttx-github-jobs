@@ -274,6 +274,7 @@ function dump_duration {
   local user=$1
   local repo=$2
   local run_id=$3
+  set +x  ## Don't Echo commands
   local duration=$(
     curl -L --silent \
       -H "Accept: application/vnd.github+json" \
@@ -282,6 +283,7 @@ function dump_duration {
       https://api.github.com/repos/$user/$repo/actions/runs/$run_id/timing \
       | jq '.run_duration_ms'
   )
+  set -x  ## Echo commands
   local file=duration/$run_id.txt
   echo "$duration" >$file
   echo "Duration for $run_id: $file"
