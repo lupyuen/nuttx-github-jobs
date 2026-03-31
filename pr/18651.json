@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 23,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-31T11:37:25Z",
   "createdAt": "2026-03-30T12:08:42Z",
   "deletions": 21,
   "files": [
@@ -169,15 +169,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d7a4a6e0d8f975a8eafc2804a4f3897ee0079a46"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-31T11:37:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18651,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Add lpcore support for esp32p4",
-  "updatedAt": "2026-03-31T09:16:34Z",
+  "updatedAt": "2026-03-31T11:37:25Z",
   "url": "https://github.com/apache/nuttx/pull/18651"
 }
