@@ -1,0 +1,98 @@
+{
+  "additions": 108,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-03-31T14:09:29Z",
+  "deletions": 30,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 50,
+      "deletions": 10
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_lowputc.c",
+      "additions": 27,
+      "deletions": 10
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_serial.c",
+      "additions": 16,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_i2c.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp32p4_lpi2c",
+  "headRefOid": "e0e5ba33fc20fd96a79faa6ef692731df86b540d",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac7O90R1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18656,
+  "state": "OPEN",
+  "title": "arch/risc-v/espressif: Add LPI2C support for esp32p4",
+  "updatedAt": "2026-03-31T14:40:20Z",
+  "url": "https://github.com/apache/nuttx/pull/18656"
+}
