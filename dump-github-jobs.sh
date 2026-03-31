@@ -309,12 +309,12 @@ function dump_repo {
   for ((days=0; days<$num_days; days++)); do
     echo "days=$days"
     if [ "`uname`" == "Darwin" ]; then
-      date=$(date -v-${days}d +"%Y-%m-%d")
+      date=$(date -u -v-${days}d +"%Y-%m-%d")
     else
       current_date_seconds=$(date +%s)
       seconds_to_subtract=$((days * 86400)) # 86400 seconds in a day
       past_date_seconds=$((current_date_seconds - seconds_to_subtract))
-      date=$(date -d "@$past_date_seconds" +"%Y-%m-%d")
+      date=$(date -u -d "@$past_date_seconds" +"%Y-%m-%d")
     fi
     echo "date=$date"
 
