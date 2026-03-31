@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-03-31T11:16:33",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-sparrow-kit",
+"config": "mqttc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23792970970/job/69334899131#step:10:272",
+"msg": "##[error]common/espressif/esp_i2s.c:293:9: error: \"MIN\" redefined [-Werror] \n 293 | #define MIN(x,y) ((x)<(y)?(x):(y)) \n |         ^~~ \n In file included from common/espressif/esp_i2s.c:29: \n 41 | #  define MIN(a,b)      (((a) < (b)) ? (a) : (b)) \n |           ^~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:146: esp_i2s.o] Error 1 \n make[1]: Target 'libarch.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:170: arch/xtensa/src/libarch.a] Error 2 \n make: T"
+}
