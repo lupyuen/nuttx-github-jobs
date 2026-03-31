@@ -1,5 +1,5 @@
 {
-  "additions": 30,
+  "additions": 33,
   "assignees": [],
   "author": {
     "id": "U_kgDOBkM3nQ",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-03-30T20:06:00Z",
@@ -24,10 +24,15 @@
       "path": "arch/xtensa/src/common/espressif/esp_wlan_netdev.c",
       "additions": 15,
       "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/uvc/defconfig",
+      "additions": 3,
+      "deletions": 0
     }
   ],
   "headRefName": "fix/issue-16915-esp-wlan-rx-queue-lock",
-  "headRefOid": "d275a8e433223ccc26b27f4300698f2445bc64e1",
+  "headRefOid": "f1067617246fec0d7395dbe8c026c4967f56253a",
   "headRepository": {
     "id": "R_kgDOQ70AiA",
     "name": "nuttx"
@@ -57,6 +62,12 @@
       "name": "Size: S",
       "description": "The size of the change in this PR is small",
       "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
     }
   ],
   "mergeCommit": null,
@@ -68,6 +79,6 @@
   "number": 18652,
   "state": "OPEN",
   "title": "arch/espressif: serialize Wi-Fi RX queue access.",
-  "updatedAt": "2026-03-30T20:08:08Z",
+  "updatedAt": "2026-03-31T09:22:21Z",
   "url": "https://github.com/apache/nuttx/pull/18652"
 }
