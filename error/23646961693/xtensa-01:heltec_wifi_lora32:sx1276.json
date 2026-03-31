@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-03-27T14:12:05",
+"arch": "xtensa",
+"subarch": "unknown",
+"group": "xtensa-01",
+"board": "heltec_wifi_lora32",
+"config": "sx1276",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23646961693/job/68888971610#step:10:451",
+"msg": "board/esp32_sx127x.c: In function 'sx127x_irq0_attach': \n ##[error]board/esp32_sx127x.c:93:3: error: implicit declaration of function 'esp32_gpioirqdisable'; did you mean 'esp_gpioirqdisable'? [-Wimplicit-function-declaration] \n 93 |   esp32_gpioirqdisable(irq); \n |   ^~~~~~~~~~~~~~~~~~~~ \n |   esp_gpioirqdisable \n ##[error]board/esp32_sx127x.c:108:3: error: implicit declaration of function 'esp32_gpioirqenable'; did you mean 'esp_gpioirqenable'? [-Wimplicit-function-declaration] \n 108 |   esp32_gpioi"
+}
