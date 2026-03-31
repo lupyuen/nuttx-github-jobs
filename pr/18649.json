@@ -1,5 +1,5 @@
 {
-  "additions": 891,
+  "additions": 1298,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,30 +9,30 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 14,
+  "changedFiles": 15,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-03-30T02:47:44Z",
-  "deletions": 13,
+  "deletions": 15,
   "files": [
     {
       "path": "Documentation/platforms/arm/ht32f491x3/boards/esk32/index.rst",
-      "additions": 115,
+      "additions": 117,
       "deletions": 9
     },
     {
       "path": "arch/arm/src/ht32f491x3/CMakeLists.txt",
-      "additions": 4,
+      "additions": 8,
       "deletions": 0
     },
     {
       "path": "arch/arm/src/ht32f491x3/Kconfig",
-      "additions": 28,
-      "deletions": 0
+      "additions": 235,
+      "deletions": 1
     },
     {
       "path": "arch/arm/src/ht32f491x3/Make.defs",
-      "additions": 4,
+      "additions": 9,
       "deletions": 0
     },
     {
@@ -47,22 +47,27 @@
     },
     {
       "path": "arch/arm/src/ht32f491x3/ht32f491x3_pwm.c",
-      "additions": 385,
+      "additions": 560,
       "deletions": 0
     },
     {
       "path": "arch/arm/src/ht32f491x3/ht32f491x3_pwm.h",
-      "additions": 40,
+      "additions": 55,
       "deletions": 0
     },
     {
+      "path": "boards/arm/ht32f491x3/esk32/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "boards/arm/ht32f491x3/esk32/configs/pwm/defconfig",
-      "additions": 58,
+      "additions": 59,
       "deletions": 0
     },
     {
       "path": "boards/arm/ht32f491x3/esk32/include/board.h",
-      "additions": 37,
+      "additions": 42,
       "deletions": 0
     },
     {
@@ -82,12 +87,12 @@
     },
     {
       "path": "boards/arm/ht32f491x3/esk32/src/ht32_pwm.c",
-      "additions": 88,
+      "additions": 80,
       "deletions": 0
     }
   ],
   "headRefName": "feature/esk32-add-pwm",
-  "headRefOid": "ffb5c682341c27abbac6fe3063f35a13fe920372",
+  "headRefOid": "861f41538bcbdcfcb211a0dfff7886b3853c402d",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx"
@@ -113,9 +118,9 @@
       "color": "DC5544"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_bjg",
-      "name": "Size: L",
-      "description": "The size of the change in this PR is large",
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
     },
     {
@@ -134,6 +139,6 @@
   "number": 18649,
   "state": "OPEN",
   "title": "boards/arm/ht32f491x3: Add PWM support for the HT32F49163 Starter Kit board",
-  "updatedAt": "2026-03-31T02:29:44Z",
+  "updatedAt": "2026-03-31T02:45:11Z",
   "url": "https://github.com/apache/nuttx/pull/18649"
 }
