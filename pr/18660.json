@@ -1,0 +1,545 @@
+{
+  "additions": 7191,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCg8z7A",
+    "is_bot": false,
+    "login": "PiyushPatle26",
+    "name": "Piyush Patle "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5720,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-01T10:54:38Z",
+  "deletions": 7161,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/special/syslog.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/components/libs/libc/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/guides/porting-case-studies/port_arm_cm4.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/stm32_tiny/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f429i-disco/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f4discovery/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/quickstart/debugging.rst",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/a1x/a1x_irq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/a1x/a1x_pio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/a1x/a1x_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_edid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_lcdc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/am335x/am335x_serial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_allocpage.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_checkmapping.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_dataabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_pginitialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_prefetchabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_undefinedinsn.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/arm/arm_va2pte.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_dumpnvic.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_hardfault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_ramvec_attach.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_ramvec_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_svcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv_kstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv_ustack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_addrenv_utils.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_allocpage.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_checkmapping.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_cpu_psci.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_cpustart.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_dataabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_doirq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_gicv2_dump.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_hwdebug.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_l2cc_pl310.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_pgalloc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_pginitialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_physpgaddr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_prefetchabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_undefinedinsn.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_va2pte.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_busfault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_dbgmonitor.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_dumpnvic.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_hardfault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_memfault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_mpu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_ramvec_attach.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_ramvec_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_svcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_usagefault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/mpu.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_cpustart.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_dataabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_gicv2_dump.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_l2cc_pl310.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_mpu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_prefetchabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_undefinedinsn.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/mpu.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_busfault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_dbgmonitor.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_dumpnvic.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_hardfault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_memfault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_mpu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_ramvec_attach.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_ramvec_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_securefault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_svcall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_usagefault.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/mpu.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/sau.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_dataabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_gicv3.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_l2cc_pl310.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_prefetchabort.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_schedulesigaction.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_sigdeliver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_syscall.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "include/refactor-debug-h-location",
+  "headRefOid": "9921de7e012b054b4eabca88b79e996527176c9d",
+  "headRepository": {
+    "id": "R_kgDOR0KCmg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCg8z7A",
+    "name": "Piyush Patle ",
+    "login": "PiyushPatle26"
+  },
+  "id": "PR_kwDODZiUac7POEnX",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18660,
+  "state": "OPEN",
+  "title": "include/debug.h: Move to include/nuttx/debug.h",
+  "updatedAt": "2026-04-01T10:55:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18660"
+}
