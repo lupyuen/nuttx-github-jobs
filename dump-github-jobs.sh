@@ -274,6 +274,17 @@ function dump_duration {
   local user=$1
   local repo=$2
   local run_id=$3
+  local file=duration/$run_id.txt
+
+  ## If the file exists and the duration is not null, then skip
+  if [[ -f "$file" ]]; then
+    local duration=$( cat $file )
+    if [[ "$duration" != "null" ]]; then
+      echo "Duration for $run_id already exists: $duration"
+      return
+    fi
+  fi
+
   set +x  ## Don't Echo commands
   local duration=$(
     curl -L --silent \
@@ -284,7 +295,6 @@ function dump_duration {
       | jq '.run_duration_ms'
   )
   set -x  ## Echo commands
-  local file=duration/$run_id.txt
   echo "$duration" >$file
   echo "Duration for $run_id: $file"
   sleep 1
