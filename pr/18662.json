@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-01T22:42:08Z",
   "createdAt": "2026-04-01T13:51:28Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bfbd7414ebca381a2745055d3d889889a774d847"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-01T22:42:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18662,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "build.yml: Fix No files were found with the provided path",
-  "updatedAt": "2026-04-01T16:45:53Z",
+  "updatedAt": "2026-04-01T22:42:08Z",
   "url": "https://github.com/apache/nuttx/pull/18662"
 }
