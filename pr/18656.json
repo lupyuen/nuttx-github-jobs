@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-01T02:06:47Z",
   "createdAt": "2026-03-31T14:09:29Z",
   "deletions": 30,
   "files": [
@@ -84,15 +84,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a9142d93cd9ce117f8ec8b88516c926c8b278bcb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-01T02:06:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18656,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Add LPI2C support for esp32p4",
-  "updatedAt": "2026-03-31T14:40:20Z",
+  "updatedAt": "2026-04-01T02:06:47Z",
   "url": "https://github.com/apache/nuttx/pull/18656"
 }
