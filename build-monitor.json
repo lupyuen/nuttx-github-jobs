@@ -56,6 +56,62 @@
     "pr_url": "https://github.com/apache/nuttx/pull/18654"
   },
   {
+    "build_arch": "xtensa",
+    "build_board": "esp32s3-8048S043",
+    "build_config": "spi",
+    "build_group": "xtensa-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32s3",
+    "build_timestamp": "2026-04-01T20:56:09",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/23852114457/job/69564015462#step:10:1473",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-04-01T13:51:36Z",
+    "job_databaseId": 23852114457,
+    "job_displayTitle": "build.yml: Fix No files were found with the provided path",
+    "job_event": "pull_request",
+    "job_headBranch": "simbit18-buildartifacts",
+    "job_headSha": "462e1d1cb521b34b6f40b99b4891fd8ff499946b",
+    "job_name": "Build",
+    "job_number": 54204,
+    "job_run_duration_ms": "28211000",
+    "job_startedAt": "2026-04-01T13:51:36Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-04-01T21:41:47Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/23852114457",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 3,
+    "pr_assignees": [],
+    "pr_author": "simbit18",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-04-01T15:31:49Z",
+    "pr_deletions": 2,
+    "pr_headRefName": "simbit18-buildartifacts",
+    "pr_headRefOid": "6f041a91592c79e5c9aaf4660f6bfbd3b9ece932",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "simbit18",
+    "pr_id": "PR_kwDODZiT487PTFcD",
+    "pr_isDraft": false,
+    "pr_labels": "Size: XS, Area: CI",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3445,
+    "pr_state": "OPEN",
+    "pr_title": "build.yml: Fix No files were found with the provided path",
+    "pr_updatedAt": "2026-04-01T18:06:46Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3445"
+  },
+  {
     "build_arch": "sim",
     "build_board": "sim",
     "build_config": "lua",
@@ -119,6 +175,62 @@
     "pr_url": "https://github.com/apache/nuttx/pull/18661"
   },
   {
+    "build_arch": "arm",
+    "build_board": "stm32f103-minimum",
+    "build_config": "adb",
+    "build_group": "arm-11",
+    "build_msg": "e n t",
+    "build_score": 0.8,
+    "build_subarch": "stm32",
+    "build_timestamp": "2026-04-01T19:45:42",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/23852114457/job/69564016274#step:10:316",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-04-01T13:51:36Z",
+    "job_databaseId": 23852114457,
+    "job_displayTitle": "build.yml: Fix No files were found with the provided path",
+    "job_event": "pull_request",
+    "job_headBranch": "simbit18-buildartifacts",
+    "job_headSha": "462e1d1cb521b34b6f40b99b4891fd8ff499946b",
+    "job_name": "Build",
+    "job_number": 54204,
+    "job_run_duration_ms": "28211000",
+    "job_startedAt": "2026-04-01T13:51:36Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-04-01T21:41:47Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/23852114457",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 3,
+    "pr_assignees": [],
+    "pr_author": "simbit18",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-04-01T15:31:49Z",
+    "pr_deletions": 2,
+    "pr_headRefName": "simbit18-buildartifacts",
+    "pr_headRefOid": "6f041a91592c79e5c9aaf4660f6bfbd3b9ece932",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "simbit18",
+    "pr_id": "PR_kwDODZiT487PTFcD",
+    "pr_isDraft": false,
+    "pr_labels": "Size: XS, Area: CI",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3445,
+    "pr_state": "OPEN",
+    "pr_title": "build.yml: Fix No files were found with the provided path",
+    "pr_updatedAt": "2026-04-01T18:06:46Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3445"
+  },
+  {
     "build_arch": "arm64",
     "build_board": "qemu-armv8a",
     "build_config": "nsh_smp_tickless",
@@ -171,7 +283,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -227,7 +339,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -283,7 +395,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -339,7 +451,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -395,7 +507,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -451,7 +563,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -507,7 +619,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -563,7 +675,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -619,7 +731,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -675,7 +787,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -731,7 +843,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -787,7 +899,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -843,7 +955,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -899,7 +1011,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -955,7 +1067,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1011,7 +1123,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1067,7 +1179,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1123,7 +1235,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1179,7 +1291,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1235,7 +1347,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1291,7 +1403,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1347,8 +1459,64 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "lua",
+    "build_group": "sim-02",
+    "build_msg": "Dl o%a dT o tUapll o a d  %   RTeocteailv e d  S%p eXnfte r d    LAevfetr a gSep eSepde \n ed \n T i m0e         T0i m e    0      T i m0e     C u0r r e n t",
+    "build_score": 0.8,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-04-01T18:13:14",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/23852114457/job/69564015478#step:10:341",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-04-01T13:51:36Z",
+    "job_databaseId": 23852114457,
+    "job_displayTitle": "build.yml: Fix No files were found with the provided path",
+    "job_event": "pull_request",
+    "job_headBranch": "simbit18-buildartifacts",
+    "job_headSha": "462e1d1cb521b34b6f40b99b4891fd8ff499946b",
+    "job_name": "Build",
+    "job_number": 54204,
+    "job_run_duration_ms": "28211000",
+    "job_startedAt": "2026-04-01T13:51:36Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-04-01T21:41:47Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/23852114457",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 3,
+    "pr_assignees": [],
+    "pr_author": "simbit18",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-04-01T15:31:49Z",
+    "pr_deletions": 2,
+    "pr_headRefName": "simbit18-buildartifacts",
+    "pr_headRefOid": "6f041a91592c79e5c9aaf4660f6bfbd3b9ece932",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "simbit18",
+    "pr_id": "PR_kwDODZiT487PTFcD",
+    "pr_isDraft": false,
+    "pr_labels": "Size: XS, Area: CI",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3445,
+    "pr_state": "OPEN",
+    "pr_title": "build.yml: Fix No files were found with the provided path",
+    "pr_updatedAt": "2026-04-01T18:06:46Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3445"
   },
   {
     "build_arch": "arm64",
@@ -1522,7 +1690,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1578,7 +1746,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1634,7 +1802,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1690,7 +1858,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1746,7 +1914,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1802,7 +1970,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1858,7 +2026,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1914,7 +2082,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -1970,7 +2138,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2026,7 +2194,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2082,7 +2250,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2138,7 +2306,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2194,7 +2362,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2250,7 +2418,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2306,7 +2474,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2362,7 +2530,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2418,7 +2586,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2474,7 +2642,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2530,7 +2698,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2586,7 +2754,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2642,7 +2810,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2698,7 +2866,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2754,7 +2922,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
@@ -2810,7 +2978,7 @@
     "pr_number": 18660,
     "pr_state": "OPEN",
     "pr_title": "include/debug.h: Move to include/nuttx/debug.h",
-    "pr_updatedAt": "2026-04-01T21:26:38Z",
+    "pr_updatedAt": "2026-04-01T21:42:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18660"
   },
   {
