@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-01T12:38:32",
+"arch": "arm64",
+"subarch": "a527",
+"group": "arm64-01",
+"board": "avaota-a1",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23845102381/job/69518591910#step:10:179",
+"msg": "In file included from nsh_console.c:39: \n ##[error]/github/workspace/sources/apps/import/include/debug.h:28:2: error: #warning \"include <debug.h> is deprecated, use <nuttx/debug.h> instead\" [-Werror=cpp] \n 28 | #warning \"include <debug.h> is deprecated, use <nuttx/debug.h> instead\" \n |  ^~~~~~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: nsh_console.c.github.workspace.sources.apps.nshlib.o] Error 1 \n make[1]: *** [Makefile:54: /git"
+}
