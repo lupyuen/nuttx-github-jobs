@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-01T18:58:15",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "avr32dev1",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23858504806/job/69578412526#step:10:211",
+"msg": "In file included from ./dd_main.c:35: \n ##[error]/github/workspace/sources/nuttx/include/debug.h:28:2: error: #warning \"include <debug.h> is deprecated, use <nuttx/debug.h> instead\" \n In file included from ./mkfatfs.c:34: \n ##[error]/github/workspace/sources/nuttx/include/debug.h:28:2: error: #warning \"include <debug.h> is deprecated, use <nuttx/debug.h> instead\" \n cc1: warnings being treated as errors \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n ERROR: avr32-gcc failed: 1 \n comm"
+}
