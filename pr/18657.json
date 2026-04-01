@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 82,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-01T05:48:58Z",
   "createdAt": "2026-03-31T21:12:37Z",
   "deletions": 706,
   "files": [
@@ -459,15 +459,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "efdbdfe4098c3b8814741206ed897ccdcecf192b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-01T05:48:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 18657,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/stm32*:  Use PRIx32 format specifier where appropriate",
-  "updatedAt": "2026-04-01T02:04:31Z",
+  "updatedAt": "2026-04-01T05:48:58Z",
   "url": "https://github.com/apache/nuttx/pull/18657"
 }
