@@ -1,0 +1,252 @@
+{
+  "additions": 5574,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjM3Nzc5NTU3",
+      "login": "fdcavalcanti",
+      "name": "Filipe do Ó Cavalcanti",
+      "databaseId": 0
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 40,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-01T12:45:26Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/index.rst",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/index.rst",
+      "additions": 72,
+      "deletions": 2
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/index.rst",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Bootloader.cmake",
+      "additions": 318,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/CMakeLists.txt",
+      "additions": 466,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Wireless.cmake",
+      "additions": 344,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.cmake",
+      "additions": 520,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/CMakeLists.txt",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.cmake",
+      "additions": 548,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/CMakeLists.txt",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.cmake",
+      "additions": 574,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/CMakeLists.txt",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.cmake",
+      "additions": 482,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/CMakeLists.txt",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/src/CMakeLists.txt",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/src/CMakeLists.txt",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/CMakeLists.txt",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitm/src/CMakeLists.txt",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/src/CMakeLists.txt",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/src/CMakeLists.txt",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/CMakeLists.txt",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/CMakeLists.txt",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/CMakeLists.txt",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/menuconfig.cmake",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_3rdparty.cmake",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "tools/espressif/burn_flash_enc_key.sh",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "tools/espressif/espressif_burn_enc_key.cmake",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "tools/espressif/espressif_esptool_common.cmake",
+      "additions": 136,
+      "deletions": 0
+    },
+    {
+      "path": "tools/espressif/espressif_flash.cmake",
+      "additions": 199,
+      "deletions": 0
+    },
+    {
+      "path": "tools/espressif/espressif_mkimage.cmake",
+      "additions": 344,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/cmake-support-test",
+  "headRefOid": "536f40e8c0a6000af0b7466cb077443627845689",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac7PP7Oq",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18661,
+  "state": "OPEN",
+  "title": "espressif: add CMake build support on RISC-V",
+  "updatedAt": "2026-04-01T12:45:28Z",
+  "url": "https://github.com/apache/nuttx/pull/18661"
+}
