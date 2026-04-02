@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T18:09:27",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "snake",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23908339146/job/69731315929#step:10:1079",
+"msg": "src/esp32_board_rmt.c: In function 'board_rmt_rxinitialize': \n ##[error]src/esp32_board_rmt.c:101:9: error: implicit declaration of function 'esp_lirc_rx_initialize'; did you mean 'up_timer_initialize'? [-Wimplicit-function-declaration] \n 101 |   ret = esp_lirc_rx_initialize(0, rmt); \n |         ^~~~~~~~~~~~~~~~~~~~~~ \n |         up_timer_initialize \n src/esp32_board_rmt.c: In function 'board_rmt_txinitialize': \n ##[error]src/esp32_board_rmt.c:140:9: error: implicit declaration of function 'esp_lirc_t"
+}
