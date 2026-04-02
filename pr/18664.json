@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-02T12:55:27Z",
   "createdAt": "2026-04-02T09:07:26Z",
   "deletions": 2,
   "files": [
@@ -53,15 +53,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "27214321beada2ac9231a04e48f876c0d5b5043e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-02T12:55:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 18664,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/can,udp: fix conn unlock position in callback",
-  "updatedAt": "2026-04-02T11:51:11Z",
+  "updatedAt": "2026-04-02T12:55:27Z",
   "url": "https://github.com/apache/nuttx/pull/18664"
 }
