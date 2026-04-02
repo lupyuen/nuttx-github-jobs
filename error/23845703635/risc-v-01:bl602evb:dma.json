@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:39:09",
+"arch": "risc-v",
+"subarch": "bl602",
+"group": "risc-v-01",
+"board": "bl602evb",
+"config": "dma",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475042#step:10:839",
+"msg": "./nsh_parse.c:34:10: fatal error: nuttx/debug.h: No such file or directory \n 34 | #include <nuttx/debug.h> \n |          ^~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: riscv-none-elf-gcc failed: 1 \n command: riscv-none-elf-gcc -MT ./nsh_parse.c.github.workspace.sources.apps.nshlib.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-nos"
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:40:58",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "earlyfb",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475080#step:10:1105",
+"msg": "./nsh_parse.c:34:10: fatal error: nuttx/debug.h: No such file or directory \n 34 | #include <nuttx/debug.h> \n |          ^~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: gcc failed: 1 \n command: gcc -MT ./nsh_parse.c.github.workspace.sources.apps.nshlib.o  -M '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-g' '-O0' '-fno-stack-protector' '-ffunction-sections' '-fdata-sections' '-fno-pic' '-mcmodel=large' '-mno-red-zone' '-mrdrnd' '-isystem' '/github/workspace/sources/nuttx/include' '-D__NuttX__' "
+}

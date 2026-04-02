@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:36:33",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "avr32dev1",
+"config": "ostest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475151#step:10:328",
+"msg": "##[error]./dd_main.c:35:25: error: nuttx/debug.h: No such file or directory \n cc1: warnings being treated as errors \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n ERROR: avr32-gcc failed: 1 \n command: avr32-gcc -MT ./dd_main.c.github.workspace.sources.apps.system.dd.o  -M '-fno-pic' '-muse-rodata-section' '-fno-strict-aliasing' '-fomit-frame-pointer' '-mpart=uc3b0256' '-isystem' '/github/workspace/sources/nuttx/include' '-D__NuttX__' '-DNDEBUG' '-D__KERNEL__' '-Wno-cpp' '-Werror' '-I' '/g"
+}

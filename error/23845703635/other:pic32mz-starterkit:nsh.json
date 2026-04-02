@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:41:20",
+"arch": "other",
+"subarch": "pic32mz",
+"group": "other",
+"board": "pic32mz-starterkit",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475151#step:10:621",
+"msg": "./mkfatfs.c:34:25: fatal error: nuttx/debug.h: No such file or directory \n #include <nuttx/debug.h> \n ^ \n compilation terminated. \n ERROR: p32-gcc failed: 1 \n command: p32-gcc -MT ./mkfatfs.c.github.workspace.sources.apps.fsutils.mkfatfs.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-O2' '-fno-strict-aliasing' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-mlong32' '-membedded-data' '-msoft-float' '-march=mips32r2' '-m"
+}

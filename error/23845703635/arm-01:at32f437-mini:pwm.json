@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:40:38",
+"arch": "arm",
+"subarch": "at32",
+"group": "arm-01",
+"board": "at32f437-mini",
+"config": "pwm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475125#step:10:1074",
+"msg": "./pwm_main.c:37:10: fatal error: nuttx/debug.h: No such file or directory \n 37 | #include <nuttx/debug.h> \n |          ^~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./pwm_main.c.github.workspace.sources.apps.examples.pwm.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '--param=min-pagesize=0' '-fno-common' '-Wall' '-Wshadow' '-Wundef' '-ffunction-sectio"
+}

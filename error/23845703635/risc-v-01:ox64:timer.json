@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:41:07",
+"arch": "risc-v",
+"subarch": "bl808",
+"group": "risc-v-01",
+"board": "ox64",
+"config": "timer",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475042#step:10:1089",
+"msg": "./watchdog_main.c:29:10: fatal error: nuttx/debug.h: No such file or directory \n 29 | #include <nuttx/debug.h> \n |          ^~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: riscv-none-elf-gcc failed: 1 \n command: riscv-none-elf-gcc -MT ./watchdog_main.c.github.workspace.sources.apps.examples.watchdog.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-fno-common' '-pipe' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '-ff"
+}

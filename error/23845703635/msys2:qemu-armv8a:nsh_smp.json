@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:44:47",
+"arch": "msys2",
+"subarch": "unknown",
+"group": "msys2",
+"board": "qemu-armv8a",
+"config": "nsh_smp",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695468652#step:9:696",
+"msg": "./nsh_parse.c:34:10: fatal error: nuttx/debug.h: No such file or directory \n 34 | #include <nuttx/debug.h> \n |          ^~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: aarch64-none-elf-gcc failed: 1 \n command: aarch64-none-elf-gcc -MT ./nsh_parse.c.d.a.nuttx-apps.nuttx-apps.sources.apps.nshlib.o  -M '-D_LDBL_EQ_DBL' '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Werror' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-"
+}

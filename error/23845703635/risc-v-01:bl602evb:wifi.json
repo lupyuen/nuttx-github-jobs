@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:34:32",
+"arch": "risc-v",
+"subarch": "bl602",
+"group": "risc-v-01",
+"board": "bl602evb",
+"config": "wifi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475042#step:10:179",
+"msg": "In file included from ./nettest_cmdline.c:33: \n ./nettest.h:34:12: fatal error: nuttx/debug.h: No such file or directory \n 34 | #  include <nuttx/debug.h> \n |            ^~~~~~~~~~~~~~~ \n compilation terminated. \n ./discover_main.c:32:10: fatal error: nuttx/debug.h: No such file or directory \n 32 | #include <nuttx/debug.h> \n |          ^~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: riscv-none-elf-gcc failed: 1 \n ERROR: riscv-none-elf-gcc failed: 1 \n command: riscv-none-elf-gcc -MT ./discover_"
+}

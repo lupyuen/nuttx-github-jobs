@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:34:30",
+"arch": "other",
+"subarch": "at90usb",
+"group": "other",
+"board": "teensy-2.0",
+"config": "usbmsc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475151#step:10:187",
+"msg": "./usbmsc_main.c:38:25: fatal error: nuttx/debug.h: No such file or directory \n compilation terminated. \n ERROR: avr-gcc failed: 1 \n command: avr-gcc -MT ./usbmsc_main.c.github.workspace.sources.apps.system.usbmsc.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-O2' '-fno-strict-aliasing' '-fomit-frame-pointer' '-mmcu=at90usb1286' '-isystem' '/github/workspace/sources/nuttx/include' '-D__NuttX__' '-DNDEBUG' '-D__KERNEL__' '-Wno-cpp' '-Werror"
+}

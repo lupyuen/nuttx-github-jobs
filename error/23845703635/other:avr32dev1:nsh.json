@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T12:35:59",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "avr32dev1",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/23845703635/job/69695475151#step:10:252",
+"msg": "##[error]./mkfatfs.c:34:25: error: nuttx/debug.h: No such file or directory \n ##[error]./dd_main.c:35:25: error: nuttx/debug.h: No such file or directory \n cc1: warnings being treated as errors \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n cc1: warnings being treated as errors \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n ERROR: avr32-gcc failed: 1 \n command: avr32-gcc -MT ./mkfatfs.c.github.workspace.sources.apps.fsutils.mkfatfs.o  -M '-fno-pic' '-muse-rodata-section'"
+}
