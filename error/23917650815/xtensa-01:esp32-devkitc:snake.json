@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-02T20:52:06",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "snake",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23917650815/job/69756878057#step:10:1079",
+"msg": "In file included from src/esp32_board_rmt.c:42: \n ##[error]/github/workspace/sources/nuttx/arch/xtensa/src/common/espressif/esp_ws2812.h:70:46: error: 'struct rmt_dev_s' declared inside parameter list will not be visible outside of this definition or declaration [-Werror] \n 70 |                                       struct rmt_dev_s *rmt, \n |                                              ^~~~~~~~~ \n src/esp32_board_rmt.c: In function 'board_rmt_txinitialize': \n ##[error]src/esp32_board_rmt.c:154:40: err"
+}
