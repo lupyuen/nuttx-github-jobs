@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-03T15:29:45",
+"arch": "risc-v",
+"subarch": "bl602",
+"group": "risc-v-01",
+"board": "bl602evb",
+"config": "wifi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/23951472379/job/69859980754#step:10:181",
+"msg": "riscv-none-elf-ld: /github/workspace/sources/nuttx/staging/libsched.a(sem_wait.o): in function `nxsem_wait_slow': \n make[1]: *** [Makefile:191: nuttx] Error 1 \n make: *** [tools/Unix.mk:565: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n Untracked files: \n boards/risc-v/bl602/bl602evb/scripts/ld.script.tmp \n nothing added to commit but untracked files present (use \"git add\" to track)"
+}
