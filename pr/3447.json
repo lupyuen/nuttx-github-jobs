@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-03T09:18:21Z",
   "createdAt": "2026-04-02T08:02:12Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "231ac397a7fd01cdd2bac13b4ff9c57c7253c36e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-03T09:18:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
   "milestone": null,
   "number": 3447,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "canutils/lely-canopen: avoid patch reapply on repeated builds.",
-  "updatedAt": "2026-04-02T20:32:42Z",
+  "updatedAt": "2026-04-03T09:18:21Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3447"
 }
