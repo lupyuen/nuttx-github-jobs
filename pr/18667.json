@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-03T14:54:38Z",
   "createdAt": "2026-04-03T03:06:28Z",
   "deletions": 0,
   "files": [
@@ -34,7 +34,7 @@
     "login": "JianyuWang0623"
   },
   "id": "PR_kwDODZiUac7PtnKO",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiUac8AAAABvj_Wkw",
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bcb133279259216c1509cfc4b986c81c536e59fc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-03T14:54:38Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18667,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "graphics/nxglib: use putarea for lcd copyrectangle when available",
-  "updatedAt": "2026-04-03T14:32:35Z",
+  "updatedAt": "2026-04-03T15:02:58Z",
   "url": "https://github.com/apache/nuttx/pull/18667"
 }
