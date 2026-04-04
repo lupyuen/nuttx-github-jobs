@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-04T17:45:23Z",
   "createdAt": "2026-04-03T18:33:04Z",
   "deletions": 1,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "78e3f17b9ec80ee01840a52c6ffd190615e1fa3b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-04T17:45:23Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18673,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "doc/raspberrypi-pico: Improve ST7735 Documentation",
-  "updatedAt": "2026-04-04T13:37:54Z",
+  "updatedAt": "2026-04-04T17:45:23Z",
   "url": "https://github.com/apache/nuttx/pull/18673"
 }
