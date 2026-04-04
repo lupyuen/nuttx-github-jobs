@@ -1,0 +1,67 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMTgzMDQ=",
+    "is_bot": false,
+    "login": "ankohuu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-04T01:01:48Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/nat/ipv4_nat.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "net/nat/ipv6_nat.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/nat-outbound-unlock",
+  "headRefOid": "09b7575939559d4bc9d68a37db78f3c75f5224b9",
+  "headRepository": {
+    "id": "R_kgDORvNoIQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMTgzMDQ=",
+    "login": "ankohuu"
+  },
+  "id": "PR_kwDODZiUac7P5lFo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18674,
+  "state": "OPEN",
+  "title": "net/nat: Unlock on outbound NAT entry creation failure.",
+  "updatedAt": "2026-04-04T01:02:11Z",
+  "url": "https://github.com/apache/nuttx/pull/18674"
+}
