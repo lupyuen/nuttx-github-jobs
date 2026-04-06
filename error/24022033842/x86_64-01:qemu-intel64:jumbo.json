@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-06T07:54:24",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "jumbo",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24022033842/job/70057724925#step:10:13337",
+"msg": "make: *** [tools/Unix.mk:736: olddefconfig] Error 1 \n In file included from udpblaster_text.c:28: \n ##[error]udpblaster.h:106:4: error: #error \"Additional link layer definitions needed\" \n 106 | #  error \"Additional link layer definitions needed\" \n |    ^~~~~ \n make[3]: *** [Makefile:49: udpblaster_text.hobj] Error 1 \n In file included from udpblaster_host.c:37: \n ##[error]udpblaster.h:106:4: error: #error \"Additional link layer definitions needed\" \n 106 | #  error \"Additional link layer defin"
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-06T07:53:46",
+"arch": "arm64",
+"subarch": "imx9",
+"group": "arm64-01",
+"board": "imx95-a55-evk",
+"config": "emmc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24022033842/job/70057724973#step:10:19551",
+"msg": "make: *** [tools/Unix.mk:736: olddefconfig] Error 1 \n cc: error: missing argument to '-Wstack-usage=' \n ERROR: cc failed: 1 \n command: cc -MT ./hello_main.c.github.workspace.sources.apps.examples.hello.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Werror' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '-Wstack-usage=' '-isystem' '/github/workspace/sources/nuttx/include' '-D__NuttX__' '-DNDEBUG' '-D__KERNEL__' '-Wno-cpp'"
+}

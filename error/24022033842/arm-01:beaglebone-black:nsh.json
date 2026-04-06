@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-06T07:52:42",
+"arch": "arm",
+"subarch": "am335x",
+"group": "arm-01",
+"board": "beaglebone-black",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24022033842/job/70057724949#step:10:3358",
+"msg": "make: *** [tools/Unix.mk:736: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:736: olddefconfig] Error 1 \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./dummy.c.github.workspace.sources.apps.platform.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-fno-strict-aliasing' '-fomit-frame-pointer' '-Wstack-usage=' '-fno-c"
+}
