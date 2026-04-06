@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-06T11:33:38",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "avr32dev1",
+"config": "ostest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24022033842/job/70076788094#step:10:19476",
+"msg": "make: *** [tools/Unix.mk:736: olddefconfig] Error 1 \n ##[error]./group/group_setupidlefiles.c:115:4: error: #warning file descriptors 0-2 are not opened \n cc1: warnings being treated as errors \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n ERROR: avr32-gcc failed: 1 \n command: avr32-gcc -MT ./group_setupidlefiles.o  -M '-fno-pic' '-muse-rodata-section' '-fno-strict-aliasing' '-fomit-frame-pointer' '-mpart=uc3b0256' '-isystem' '/github/workspace/sources/nuttx/include' '-D__NuttX__' '-D__K"
+}
