@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-07T12:51:10Z",
   "createdAt": "2026-04-07T09:42:42Z",
   "deletions": 6,
   "files": [
@@ -85,15 +85,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "93a2c4d2ebad80c46fd6aefd67c104503e23286c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-07T12:51:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18683,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Fix ARMv6-M/ARMv7-M SVCall register corruption in protected builds, fix `lm3s6965-ek:qemu-protected` boot, and add board documentation.",
-  "updatedAt": "2026-04-07T12:16:08Z",
+  "updatedAt": "2026-04-07T12:51:10Z",
   "url": "https://github.com/apache/nuttx/pull/18683"
 }
