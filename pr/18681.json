@@ -55,7 +55,26 @@
   },
   "id": "PR_kwDODZiUac7QSpDr",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -65,6 +84,6 @@
   "number": 18681,
   "state": "OPEN",
   "title": "boards/arm/rp23xx: add hardware SHA-256 cryptodev support",
-  "updatedAt": "2026-04-06T19:09:46Z",
+  "updatedAt": "2026-04-07T00:05:39Z",
   "url": "https://github.com/apache/nuttx/pull/18681"
 }
