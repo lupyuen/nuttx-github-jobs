@@ -157,7 +157,7 @@
     }
   ],
   "headRefName": "improvement/esp_timer_risc",
-  "headRefOid": "221689e793ec622b7a492832ada39c99496c9933",
+  "headRefOid": "255d8488c0bbb467edbb7b24278caa0c91656cb6",
   "headRepository": {
     "id": "R_kgDOHwFqQQ",
     "name": "nuttx",
@@ -170,16 +170,35 @@
   },
   "id": "PR_kwDODZiUac7Qh1sO",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
   "mergeCommit": null,
-  "mergeStateStatus": "DIRTY",
-  "mergeable": "CONFLICTING",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18686,
   "state": "OPEN",
   "title": "arch/risc-v: migrate hr timer backend to HAL esp_timer adapter",
-  "updatedAt": "2026-04-07T14:48:53Z",
+  "updatedAt": "2026-04-07T15:07:39Z",
   "url": "https://github.com/apache/nuttx/pull/18686"
 }
