@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-07T01:33:34Z",
   "createdAt": "2026-04-06T13:05:17Z",
   "deletions": 2,
   "files": [
@@ -59,15 +59,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b843d9192e5e5a0297a1fd785e61e86837c7f1f3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-07T01:33:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18679,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "crypto: decouple curve25519 and idgen from random pool",
-  "updatedAt": "2026-04-06T14:58:02Z",
+  "updatedAt": "2026-04-07T01:33:34Z",
   "url": "https://github.com/apache/nuttx/pull/18679"
 }
