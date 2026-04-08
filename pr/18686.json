@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 28,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-08T01:52:39Z",
   "createdAt": "2026-04-07T14:48:52Z",
   "deletions": 1256,
   "files": [
@@ -190,15 +190,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "98875f005d122e8763c7f0556ff5b75c912cca2a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-08T01:52:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18686,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v: migrate hr timer backend to HAL esp_timer adapter",
-  "updatedAt": "2026-04-07T18:10:25Z",
+  "updatedAt": "2026-04-08T01:52:39Z",
   "url": "https://github.com/apache/nuttx/pull/18686"
 }

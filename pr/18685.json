@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-08T01:52:57Z",
   "createdAt": "2026-04-07T12:31:11Z",
   "deletions": 26,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "81d57ad5d5e70b82f8fe520d4c25ad0d1ceb1cc6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-08T01:52:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18685,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/mtd/mx25rxx.c: use 4 byte address for large flash memories.",
-  "updatedAt": "2026-04-07T14:18:55Z",
+  "updatedAt": "2026-04-08T01:52:57Z",
   "url": "https://github.com/apache/nuttx/pull/18685"
 }
