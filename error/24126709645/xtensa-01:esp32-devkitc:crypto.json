@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-08T10:03:45",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "crypto",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24126709645/job/70393290868#step:10:911",
+"msg": "chip/esp32_crypto.c: In function 'esp32_pbkdf2': \n ##[error]chip/esp32_crypto.c:408:22: error: pointer targets in assignment from 'uint8_t *' {aka 'unsigned char *'} to 'caddr_t' {aka 'char *'} differ in signedness [-Werror=pointer-sign] \n 408 |   crd_dummy.crd_key  = key_work; \n |                      ^ \n ##[error]chip/esp32_crypto.c:421:42: error: pointer targets in passing argument 3 of 'esp32_pbkdf2_rekey' differ in signedness [-Werror=pointer-sign] \n 421 |       esp32_pbkdf2_rekey(data, axf, crd->"
+}
