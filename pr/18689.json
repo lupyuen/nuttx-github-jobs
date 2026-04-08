@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-08T19:04:15Z",
   "createdAt": "2026-04-08T13:56:31Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "faa4d7ff8dd15fe4f6c9932e4dd8485a5e8ca2ab"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-08T19:04:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18689,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/udp: fix conn_unlock not called outside conditional block",
-  "updatedAt": "2026-04-08T18:05:02Z",
+  "updatedAt": "2026-04-08T19:04:15Z",
   "url": "https://github.com/apache/nuttx/pull/18689"
 }
