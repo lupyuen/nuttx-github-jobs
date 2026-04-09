@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-09T13:34:07Z",
   "createdAt": "2026-04-09T03:12:46Z",
   "deletions": 75,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f95b53d15b1c15c9b313750499b0b38d647dce4f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-09T13:34:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3450,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/camera: add MMAP buffer, RGB565X handling and mirror option",
-  "updatedAt": "2026-04-09T09:57:38Z",
+  "updatedAt": "2026-04-09T13:34:07Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3450"
 }
