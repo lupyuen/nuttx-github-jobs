@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-09T11:21:50Z",
   "createdAt": "2026-04-08T23:54:57Z",
   "deletions": 12,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b6cb94a06da8abbe5a30dd3104e6d9350b2b7ddc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-09T11:21:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 18691,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/stm32h7: fix stm32_mdio private structure use",
-  "updatedAt": "2026-04-09T01:57:36Z",
+  "updatedAt": "2026-04-09T11:21:50Z",
   "url": "https://github.com/apache/nuttx/pull/18691"
 }
