@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-09T09:42:41",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32c3-devkit",
+"config": "pm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24180474415/job/70578761886#step:10:294",
+"msg": "chip/esp-hal-3rdparty/nuttx/src/platform/os.c: In function 'esp_os_application_sleep': \n ##[error]chip/esp-hal-3rdparty/nuttx/src/platform/os.c:839:11: error: implicit declaration of function 'up_timer_start'; did you mean 'esp_hr_timer_start'? [-Wimplicit-function-declaration] \n 839 |           up_timer_start(&ts); \n |           ^~~~~~~~~~~~~~ \n |           esp_hr_timer_start \n make[1]: *** [Makefile:144: chip/esp-hal-3rdparty/nuttx/src/platform/os.o] Error 1 \n make[1]: Target 'libarch.a' not remade "
+}

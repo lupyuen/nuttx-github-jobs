@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-09T10:05:37",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "pm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24180474415/job/70578761882#step:10:567",
+"msg": "chip/esp-hal-3rdparty/nuttx/src/platform/os.c: In function 'esp_os_application_sleep': \n ##[error]chip/esp-hal-3rdparty/nuttx/src/platform/os.c:839:11: error: implicit declaration of function 'up_timer_start'; did you mean 'up_timer_getmask'? [-Wimplicit-function-declaration] \n 839 |           up_timer_start(&ts); \n |           ^~~~~~~~~~~~~~ \n |           up_timer_getmask \n make[1]: *** [Makefile:146: chip/esp-hal-3rdparty/nuttx/src/platform/os.o] Error 1 \n make[1]: Target 'libarch.a' not remade beca"
+}
