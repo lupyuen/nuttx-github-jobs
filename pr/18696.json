@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-09T14:56:42Z",
   "createdAt": "2026-04-09T10:58:08Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "46d2b596662b3eb08e04cd9ced548d21f4a55dea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-09T14:56:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18696,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools/ci: upgrade esptool on CI Dockerfile",
-  "updatedAt": "2026-04-09T12:33:08Z",
+  "updatedAt": "2026-04-09T14:56:43Z",
   "url": "https://github.com/apache/nuttx/pull/18696"
 }
