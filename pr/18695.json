@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-09T12:14:44Z",
   "createdAt": "2026-04-09T08:30:35Z",
   "deletions": 1,
   "files": [
@@ -59,15 +59,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "da74bb3088865d71550ef81bf07747b7011cecb7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-09T12:14:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18695,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/xtensa/esp32: Fix IRAM heap boot issue",
-  "updatedAt": "2026-04-09T10:58:43Z",
+  "updatedAt": "2026-04-09T12:14:44Z",
   "url": "https://github.com/apache/nuttx/pull/18695"
 }
