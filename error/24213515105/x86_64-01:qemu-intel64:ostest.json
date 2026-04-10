@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-10T01:20:54",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "ostest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24213515105/job/70713488814#step:10:276",
+"msg": "ld: /github/workspace/sources/nuttx/staging/libarch.a(intel64_head.o): in function `__pmode_entry': \n ld: /github/workspace/sources/nuttx/arch/x86_64/src/intel64/intel64_head.S:270: undefined reference to `g_mb_magic' \n ld: /github/workspace/sources/nuttx/arch/x86_64/src/intel64/intel64_head.S:406: undefined reference to `__nxstart' \n make[1]: *** [Makefile:166: nuttx] Error 1 \n make: *** [tools/Unix.mk:566: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n Untracked files: \n boards"
+}
