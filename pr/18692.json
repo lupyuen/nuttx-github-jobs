@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T08:47:07Z",
   "createdAt": "2026-04-09T07:08:57Z",
   "deletions": 27,
   "files": [
@@ -71,15 +71,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c771da1b81db4ba6aa18a688ea5e4bd23dc8a22a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T08:47:07Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18692,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "xtensa/esp32s3: cam driver fixes and GC0308 DVP enhancements",
-  "updatedAt": "2026-04-10T07:38:37Z",
+  "updatedAt": "2026-04-10T08:47:07Z",
   "url": "https://github.com/apache/nuttx/pull/18692"
 }
