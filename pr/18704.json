@@ -1,5 +1,5 @@
 {
-  "additions": 58,
+  "additions": 59,
   "assignees": [],
   "author": {
     "id": "U_kgDOB8CrgQ",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 8,
+  "changedFiles": 9,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-10T12:26:32Z",
   "deletions": 37,
   "files": [
+    {
+      "path": ".gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
     {
       "path": "arch/arm/src/Makefile",
       "additions": 9,
@@ -57,7 +62,7 @@
     }
   ],
   "headRefName": "EMB-59938-avoid-unnecessary-relinking",
-  "headRefOid": "7e817cfdadcdcf7e2bc3bd5e24956a4fc1dbf117",
+  "headRefOid": "2790c16d94835d4916d4a972eb05a74ede599478",
   "headRepository": {
     "id": "R_kgDOR1FLYQ",
     "name": "nuttx",
@@ -128,6 +133,6 @@
   "number": 18704,
   "state": "OPEN",
   "title": "arch/*/src/Makefile: Avoid uncessary relinking of the nuttx binary.",
-  "updatedAt": "2026-04-10T21:36:19Z",
+  "updatedAt": "2026-04-10T22:17:52Z",
   "url": "https://github.com/apache/nuttx/pull/18704"
 }
