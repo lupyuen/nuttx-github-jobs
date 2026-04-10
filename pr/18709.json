@@ -1,0 +1,89 @@
+{
+  "additions": 87,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-10T15:44:40Z",
+  "deletions": 23,
+  "files": [
+    {
+      "path": "arch/risc-v/src/esp32c3/esp_wifi_adapter.c",
+      "additions": 17,
+      "deletions": 7
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_wifi_adapter.c",
+      "additions": 16,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.c",
+      "additions": 19,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wifi_adapter.c",
+      "additions": 17,
+      "deletions": 7
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.c",
+      "additions": 18,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bugfix/esp-wifi-fix-irq",
+  "headRefOid": "909177e5b79c7ff738330d9dcc4ddf89c9cc13d7",
+  "headRepository": {
+    "id": "R_kgDOJeJPFA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
+  },
+  "id": "PR_kwDODZiUac7Rfx_k",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18709,
+  "state": "OPEN",
+  "title": "espressif: fix Wi-Fi IRQ issue during SPI Flash operations",
+  "updatedAt": "2026-04-10T15:45:43Z",
+  "url": "https://github.com/apache/nuttx/pull/18709"
+}
