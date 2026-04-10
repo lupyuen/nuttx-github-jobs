@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 32,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T12:34:46Z",
   "createdAt": "2026-04-09T08:28:46Z",
   "deletions": 25,
   "files": [
@@ -221,15 +221,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c97a7856e3ffba10f66a75c8fc0edeb0cbb98733"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T12:34:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18694,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/esp32[-c3|-c6|-h2]: Add auto light sleep",
-  "updatedAt": "2026-04-10T09:07:00Z",
+  "updatedAt": "2026-04-10T12:34:46Z",
   "url": "https://github.com/apache/nuttx/pull/18694"
 }
