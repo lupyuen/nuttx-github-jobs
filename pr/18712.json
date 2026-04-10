@@ -1,0 +1,68 @@
+{
+  "additions": 306,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCZ0p9w",
+    "is_bot": false,
+    "login": "arjav1528",
+    "name": "Arjav Patel"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-10T21:28:46Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/socket/recvmsg.c",
+      "additions": 172,
+      "deletions": 0
+    },
+    {
+      "path": "net/socket/sendmsg.c",
+      "additions": 134,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "dev-issue-17321",
+  "headRefOid": "be7f4b3098d75a861dab72709901469d564a2339",
+  "headRepository": {
+    "id": "R_kgDORHYmBw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCZ0p9w",
+    "name": "Arjav Patel",
+    "login": "arjav1528"
+  },
+  "id": "PR_kwDODZiUac7RkuSn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18712,
+  "state": "OPEN",
+  "title": "net/socket: Fix sendmsg/recvmsg user buffers for BUILD_KERNEL (fixes CAN corruption)",
+  "updatedAt": "2026-04-10T21:32:20Z",
+  "url": "https://github.com/apache/nuttx/pull/18712"
+}
