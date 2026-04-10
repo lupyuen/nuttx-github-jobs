@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T15:22:24Z",
   "createdAt": "2026-04-09T17:11:43Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "738f683b7d09669d7e4354abdc0ba7750839e60b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T15:22:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18698,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "cmake: add -D__NuttX__ to preprocessor",
-  "updatedAt": "2026-04-10T12:33:36Z",
+  "updatedAt": "2026-04-10T15:22:24Z",
   "url": "https://github.com/apache/nuttx/pull/18698"
 }
