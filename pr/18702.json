@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T11:34:41Z",
   "createdAt": "2026-04-10T09:31:37Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4f1a3356f9068e15937378d512322aa7ecbe6463"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T11:34:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "is_bot": false,
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
+  },
   "milestone": null,
   "number": 18702,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/src/common/espressif: Aligned Cmake with Make",
-  "updatedAt": "2026-04-10T11:16:04Z",
+  "updatedAt": "2026-04-10T11:34:41Z",
   "url": "https://github.com/apache/nuttx/pull/18702"
 }
