@@ -1,0 +1,105 @@
+{
+  "additions": 443,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-10T14:41:15Z",
+  "deletions": 38,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/index.rst",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 178,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_pm.c",
+      "additions": 109,
+      "deletions": 34
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.cmake",
+      "additions": 22,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.mk",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/pm/defconfig",
+      "additions": 55,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp32p4_pm",
+  "headRefOid": "b65b154e4aec4f0e05138e39283f8502f42f27c5",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7Ret5M",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18707,
+  "state": "OPEN",
+  "title": "arch/risc-v: Enable low power mode for ESP32-P4",
+  "updatedAt": "2026-04-10T14:41:41Z",
+  "url": "https://github.com/apache/nuttx/pull/18707"
+}
