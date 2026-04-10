@@ -1,0 +1,84 @@
+{
+  "additions": 58,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOB8CrgQ",
+    "is_bot": false,
+    "login": "liamhickey2",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-10T12:26:32Z",
+  "deletions": 37,
+  "files": [
+    {
+      "path": "arch/arm/src/Makefile",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm64/src/Makefile",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/Makefile",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/Makefile",
+      "additions": 10,
+      "deletions": 6
+    },
+    {
+      "path": "arch/xtensa/src/Makefile",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "libs/libc/misc/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "tools/Unix.mk",
+      "additions": 4,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "EMB-59938-avoid-unnecessary-relinking",
+  "headRefOid": "7e817cfdadcdcf7e2bc3bd5e24956a4fc1dbf117",
+  "headRepository": {
+    "id": "R_kgDOR1FLYQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOB8CrgQ",
+    "login": "liamhickey2"
+  },
+  "id": "PR_kwDODZiUac7RcZqQ",
+  "isDraft": true,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18704,
+  "state": "OPEN",
+  "title": "arch/*/src/Makefile: Avoid uncessary relinking of the nuttx binary.",
+  "updatedAt": "2026-04-10T12:26:32Z",
+  "url": "https://github.com/apache/nuttx/pull/18704"
+}
