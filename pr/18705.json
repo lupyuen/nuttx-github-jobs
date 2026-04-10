@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T17:34:28Z",
   "createdAt": "2026-04-10T12:52:18Z",
   "deletions": 4,
   "files": [
@@ -63,15 +63,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f20084225ee00be88ce5fdb32f628be6c80a7d56"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T17:34:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18705,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci/platforms: Bump Espressif esptool",
-  "updatedAt": "2026-04-10T13:10:54Z",
+  "updatedAt": "2026-04-10T17:34:29Z",
   "url": "https://github.com/apache/nuttx/pull/18705"
 }

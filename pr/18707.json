@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T17:33:52Z",
   "createdAt": "2026-04-10T14:41:15Z",
   "deletions": 38,
   "files": [
@@ -91,15 +91,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6ef0d35894e71a4de58ce583dd2633b09fa14ca6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T17:33:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18707,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v: Enable low power mode for ESP32-P4",
-  "updatedAt": "2026-04-10T15:37:53Z",
+  "updatedAt": "2026-04-10T17:33:53Z",
   "url": "https://github.com/apache/nuttx/pull/18707"
 }
