@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-11T05:36:53Z",
   "createdAt": "2026-04-10T10:10:53Z",
   "deletions": 155,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0885b45256362d130a053cde085db50dacbf3f3e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-11T05:36:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18703,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "xtensa/esp32s3: refactor cam driver to use cam_ll HAL layer",
-  "updatedAt": "2026-04-10T15:19:36Z",
+  "updatedAt": "2026-04-11T05:36:53Z",
   "url": "https://github.com/apache/nuttx/pull/18703"
 }
