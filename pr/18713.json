@@ -1,0 +1,210 @@
+{
+  "additions": 1846,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 28,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-11T13:26:58Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/nrf52/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/nrf53/index.rst",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/nrf52/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf52/Kconfig",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf52/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf52/hardware/nrf52_qdec.h",
+      "additions": 242,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf52/nrf52_qdec.c",
+      "additions": 453,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf52/nrf52_qdec.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf53/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf53/Kconfig",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf53/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf53/hardware/nrf53_qdec.h",
+      "additions": 215,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf53/nrf53_qdec.c",
+      "additions": 472,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/nrf53/nrf53_qdec.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/configs/jumbo/defconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/include/board.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52840-dk.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52_bringup.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52_qencoder.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/configs/qencoder_cpuapp/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/include/board.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/nrf5340-dk.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/nrf53_bringup.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/nrf53_qencoder.c",
+      "additions": 76,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nrf_qenco",
+  "headRefOid": "5b5b2e479c0a8f2ea10e1d421d7f7e3ff0ecf43f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7Rqnlj",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18713,
+  "state": "OPEN",
+  "title": "arch/nrf52|nrf53: add qencoder support",
+  "updatedAt": "2026-04-11T13:27:23Z",
+  "url": "https://github.com/apache/nuttx/pull/18713"
+}
