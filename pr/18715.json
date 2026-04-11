@@ -1,0 +1,140 @@
+{
+  "additions": 966,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEGi_sA",
+    "is_bot": false,
+    "login": "Abhishek-2808",
+    "name": "Abhishek Mishra"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-11T16:07:49Z",
+  "deletions": 47,
+  "files": [
+    {
+      "path": ".gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/tools/index.rst",
+      "additions": 110,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/renesas/rx65n/boards/rx65n-grrose/index.rst",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/ROMFS.txt",
+      "additions": 13,
+      "deletions": 9
+    },
+    {
+      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
+      "additions": 28,
+      "deletions": 14
+    },
+    {
+      "path": "boards/Board.mk",
+      "additions": 18,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/passwd",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/login/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/src/etc/passwd",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_add_romfs.cmake",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "cmake/savedefconfig.cmake",
+      "additions": 16,
+      "deletions": 1
+    },
+    {
+      "path": "tools/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/Makefile.host",
+      "additions": 16,
+      "deletions": 4
+    },
+    {
+      "path": "tools/Unix.mk",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "tools/mkpasswd.c",
+      "additions": 613,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "Issue-16822",
+  "headRefOid": "3a68c0b21a80e19de9be200ab954eeeb0b005f87",
+  "headRepository": {
+    "id": "R_kgDOR_5GKg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEGi_sA",
+    "name": "Abhishek Mishra",
+    "login": "Abhishek-2808"
+  },
+  "id": "PR_kwDODZiUac7Rrfd4",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18715,
+  "state": "OPEN",
+  "title": "sched/nsh: Remove Hard-coded Default Password",
+  "updatedAt": "2026-04-11T16:07:50Z",
+  "url": "https://github.com/apache/nuttx/pull/18715"
+}
