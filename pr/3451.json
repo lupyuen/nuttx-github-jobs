@@ -1,0 +1,70 @@
+{
+  "additions": 297,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3ODkzNzUz",
+    "is_bot": false,
+    "login": "masc2008",
+    "name": "Jerry Ma"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-12T02:15:01Z",
+  "deletions": 40,
+  "files": [
+    {
+      "path": "include/netutils/dhcpc.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/netutils/ntpclient.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dhcpc/dhcpc.c",
+      "additions": 36,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/netlib/netlib_obtainipv4addr.c",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ntpclient/ntpclient.c",
+      "additions": 170,
+      "deletions": 39
+    }
+  ],
+  "headRefName": "dhcp-ntp-option42-v2",
+  "headRefOid": "8330bc61284d088505056dcdcfbf68ec97f8f9a1",
+  "headRepository": {
+    "id": "R_kgDOQx5IlA",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3ODkzNzUz",
+    "name": "Jerry Ma",
+    "login": "masc2008"
+  },
+  "id": "PR_kwDODZiT487RuPNW",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3451,
+  "state": "OPEN",
+  "title": "netutils: add DHCP-provided NTP server fallback for ntpc",
+  "updatedAt": "2026-04-12T02:15:01Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3451"
+}
