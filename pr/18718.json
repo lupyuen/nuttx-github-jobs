@@ -1,0 +1,109 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-12T08:21:40Z",
+  "deletions": 132,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/stm32f103-minimum/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f4discovery/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_qencoder.h",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_qencoder.h",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_qencoder.h",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "arch/arm/src/stm32l4/Kconfig",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_qencoder.h",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "arch/arm/src/stm32l5/Kconfig",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32u5/Kconfig",
+      "additions": 0,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "stm32_qenco_cleanup",
+  "headRefOid": "8f7ac603d8560f9ef5ede091d8c94ba8b3ddc308",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7Rv022",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18718,
+  "state": "OPEN",
+  "title": "Remove useless references to CONFIG_STM32_TIMx_QECLKOUT",
+  "updatedAt": "2026-04-12T08:22:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18718"
+}
