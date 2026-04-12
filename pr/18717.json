@@ -1,0 +1,154 @@
+{
+  "additions": 2027,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-12T08:10:32Z",
+  "deletions": 31,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 152,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_tim.h",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_pinmap.h",
+      "additions": 234,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_qencoder.c",
+      "additions": 1254,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_qencoder.h",
+      "additions": 136,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_tim.c",
+      "additions": 22,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_tim.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/include/board_qencoder.h",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/src/board_qencoder.c",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/jumbo/defconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/include/board.h",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_bringup.c",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/jumbo/defconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/include/board.h",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_bringup.c",
+      "additions": 17,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32c0_qenco",
+  "headRefOid": "ecbd97c5057b45715bc976b8228d79546d5f8a3b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7RvxM3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18717,
+  "state": "OPEN",
+  "title": "arch/stm32f0l0g0: add qencoder support",
+  "updatedAt": "2026-04-12T08:10:58Z",
+  "url": "https://github.com/apache/nuttx/pull/18717"
+}
