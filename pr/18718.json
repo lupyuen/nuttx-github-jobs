@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-12T14:52:36Z",
   "createdAt": "2026-04-12T08:21:40Z",
   "deletions": 132,
   "files": [
@@ -95,15 +95,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6928384019a0284dc20bbfe64e6a372852157167"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-12T14:52:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18718,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Remove useless references to CONFIG_STM32_TIMx_QECLKOUT",
-  "updatedAt": "2026-04-12T13:31:16Z",
+  "updatedAt": "2026-04-12T14:52:36Z",
   "url": "https://github.com/apache/nuttx/pull/18718"
 }
