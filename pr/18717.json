@@ -1,5 +1,5 @@
 {
-  "additions": 2027,
+  "additions": 2011,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 18,
+  "changedFiles": 19,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-12T08:10:32Z",
   "deletions": 31,
   "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
     {
       "path": "arch/arm/src/stm32f0l0g0/Kconfig",
       "additions": 152,
@@ -42,7 +47,7 @@
     },
     {
       "path": "arch/arm/src/stm32f0l0g0/stm32_qencoder.h",
-      "additions": 136,
+      "additions": 116,
       "deletions": 0
     },
     {
@@ -107,7 +112,7 @@
     }
   ],
   "headRefName": "stm32c0_qenco",
-  "headRefOid": "ecbd97c5057b45715bc976b8228d79546d5f8a3b",
+  "headRefOid": "6092ef1b9b0c2118585b17f55cfbeafd3e1667bd",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx",
@@ -149,6 +154,6 @@
   "number": 18717,
   "state": "OPEN",
   "title": "arch/stm32f0l0g0: add qencoder support",
-  "updatedAt": "2026-04-12T08:10:58Z",
+  "updatedAt": "2026-04-12T08:15:50Z",
   "url": "https://github.com/apache/nuttx/pull/18717"
 }
