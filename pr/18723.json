@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-13T11:46:57Z",
   "createdAt": "2026-04-13T06:43:52Z",
   "deletions": 8,
   "files": [
@@ -78,15 +78,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "34fbaa15eead79bfa466d88e2c5fbef600e93707"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-13T11:46:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18723,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net: fix multiple bugs across network subsystem",
-  "updatedAt": "2026-04-13T11:29:15Z",
+  "updatedAt": "2026-04-13T11:46:57Z",
   "url": "https://github.com/apache/nuttx/pull/18723"
 }
