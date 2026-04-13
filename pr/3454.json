@@ -1,0 +1,270 @@
+{
+  "additions": 187,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 45,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-13T15:08:17Z",
+  "deletions": 113,
+  "files": [
+    {
+      "path": "modbus/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 78
+    },
+    {
+      "path": "modbus/Make.defs",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "modbus/Makefile",
+      "additions": 2,
+      "deletions": 22
+    },
+    {
+      "path": "modbus/freemodbus/CMakeLists.txt",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/Kconfig",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/Makefile",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/ascii/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "modbus/freemodbus/ascii/mbascii.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/ascii/mbascii.h",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfunccoils.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfunccoils_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncdiag.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncdisc.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncdisc_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncholding.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncholding_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncinput.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncinput_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbfuncother.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/functions/mbutils.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/mb.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/mb_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/port.h",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/portevent.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/portevent_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/portother.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/portother_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/portserial.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/portserial_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/porttimer.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/nuttx/porttimer_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/rtu/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "modbus/freemodbus/rtu/mbcrc.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/rtu/mbcrc.h",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/rtu/mbrtu.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/rtu/mbrtu.h",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/rtu/mbrtu_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/rtu/mbrtu_m.h",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/tcp/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "modbus/freemodbus/tcp/mbtcp.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/freemodbus/tcp/mbtcp.h",
+      "additions": 0,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "modbus_split",
+  "headRefOid": "3d9fc20fa90354e245c7931421d5090c3577354e",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU1NzA=",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiT487SBacG",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3454,
+  "state": "OPEN",
+  "title": "modbus: move freemodbus to a separate directory",
+  "updatedAt": "2026-04-13T15:08:17Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3454"
+}
