@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-13T11:55:44Z",
   "createdAt": "2026-04-13T08:08:46Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f9fae3ed327dde931382f49df2c0f84ff2974109"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-13T11:55:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18724,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "video/fb: fix compilation errors",
-  "updatedAt": "2026-04-13T11:46:43Z",
+  "updatedAt": "2026-04-13T11:55:44Z",
   "url": "https://github.com/apache/nuttx/pull/18724"
 }

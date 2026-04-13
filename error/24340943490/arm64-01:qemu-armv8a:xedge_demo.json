@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-13T11:55:30",
+"arch": "arm64",
+"subarch": "qemu",
+"group": "arm64-01",
+"board": "qemu-armv8a",
+"config": "xedge_demo",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/24340943490/job/71069752005#step:10:465",
+"msg": "netlib_obtainipv4addr.c: In function 'dhcp_set_ntp_servers': \n ##[error]netlib_obtainipv4addr.c:118:24: error: 'CONFIG_NETUTILS_DHCPC_NTP_SERVER_NUM' undeclared (first use in this function); did you mean 'CONFIG_NETUTILS_DHCPC_NTP_SERVERS'? \n 118 |   char ntp_server_list[CONFIG_NETUTILS_DHCPC_NTP_SERVER_NUM * \n |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n |                        CONFIG_NETUTILS_DHCPC_NTP_SERVERS \n netlib_obtainipv4addr.c:118:24: note: each undeclared identifier is r"
+}
