@@ -8,8 +8,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-13T07:04:15Z",
   "createdAt": "2026-04-13T02:52:55Z",
   "deletions": 8,
   "files": [
@@ -56,15 +56,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4257c55eeb4ef7669e78f914da3bbf9587c3b697"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-13T07:04:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18721,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "build(deps): bump actions/upload-artifact from 7.0.0 to 7.0.1",
-  "updatedAt": "2026-04-13T05:01:58Z",
+  "updatedAt": "2026-04-13T07:04:24Z",
   "url": "https://github.com/apache/nuttx/pull/18721"
 }

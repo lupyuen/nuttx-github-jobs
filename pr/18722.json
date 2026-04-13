@@ -8,8 +8,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-13T07:03:58Z",
   "createdAt": "2026-04-13T02:52:59Z",
   "deletions": 4,
   "files": [
@@ -56,15 +56,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0e229e004a01228d7acb44a03123b606e7ae173f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-13T07:03:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18722,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "build(deps): bump actions/github-script from 8.0.0 to 9.0.0",
-  "updatedAt": "2026-04-13T05:04:18Z",
+  "updatedAt": "2026-04-13T07:04:06Z",
   "url": "https://github.com/apache/nuttx/pull/18722"
 }
