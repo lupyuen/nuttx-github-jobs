@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 19,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-12T23:41:29Z",
   "createdAt": "2026-04-12T08:10:32Z",
   "deletions": 31,
   "files": [
@@ -145,15 +145,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a44878134857ff1edca0aaffa8044e4b12351351"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-12T23:41:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18717,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/stm32f0l0g0: add qencoder support",
-  "updatedAt": "2026-04-12T11:10:06Z",
+  "updatedAt": "2026-04-12T23:41:29Z",
   "url": "https://github.com/apache/nuttx/pull/18717"
 }
