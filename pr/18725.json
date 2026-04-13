@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-13T15:55:11Z",
   "createdAt": "2026-04-13T09:52:02Z",
   "deletions": 5,
   "files": [
@@ -63,15 +63,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "587ca7b537080552e7241c5d087e3c6f70fe895e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-13T15:55:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18725,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools/ci: Added esptool for Windows Native and fix Filename too long",
-  "updatedAt": "2026-04-13T11:55:36Z",
+  "updatedAt": "2026-04-13T15:55:11Z",
   "url": "https://github.com/apache/nuttx/pull/18725"
 }
