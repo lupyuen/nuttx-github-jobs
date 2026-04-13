@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-13T18:53:10",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-01",
+"board": "sim",
+"config": "citest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24360511246/job/71139032401#step:10:305",
+"msg": "procfs/fs_procfsprofile.c: In function 'profile_read': \n ##[error]procfs/fs_procfsprofile.c:82:24: error: passing argument 1 of 'procfs_memcpy' from incompatible pointer type [-Werror=incompatible-pointer-types] \n 82 |   return procfs_memcpy(filep, buffer, buflen, buf, linesize); \n |                        ^~~~~ \n |                        | \n |                        struct file * \n In file included from procfs/fs_procfsprofile.c:38: \n 209 | size_t procfs_memcpy(FAR const char *src, size_t srclen, \n"
+}
