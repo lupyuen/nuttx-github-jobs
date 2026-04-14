@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-14T17:15:54",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-01",
+"board": "sim",
+"config": "alsa",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24398561469/job/71303607293#step:10:228",
+"msg": "svn: E170013: Unable to connect to a repository at URL 'https://svn.code.sf.net/p/lame/svn/trunk/lame' \n svn: E175002: Unexpected HTTP status 503 'Service Unavailable' on '/p/lame/svn/trunk/lame' \n CMake Error at cmake/nuttx_add_library.cmake:210 (add_library): \n Cannot find source file: \n /github/workspace/sources/apps/audioutils/lame/lame/libmp3lame/bitstream.c \n Call Stack (most recent call first): \n /github/workspace/sources/apps/audioutils/lame/CMakeLists.txt:110 (nuttx_add_library) \n CMake Erro"
+}
