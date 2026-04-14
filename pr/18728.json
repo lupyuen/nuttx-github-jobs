@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T07:21:17Z",
   "createdAt": "2026-04-13T17:00:03Z",
   "deletions": 4,
   "files": [
@@ -75,15 +75,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "b28d60947aec27a9dd471fe61b4d496b1a69adee"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-04-14T07:21:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18728,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": " arch/xtensa/esp32[|s3]: Fix ROM strdup heap issue in USER_HEAP mode ",
-  "updatedAt": "2026-04-14T01:43:40Z",
+  "updatedAt": "2026-04-14T07:21:17Z",
   "url": "https://github.com/apache/nuttx/pull/18728"
 }

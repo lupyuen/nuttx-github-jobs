@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 45,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T07:09:43Z",
   "createdAt": "2026-04-13T15:08:17Z",
   "deletions": 113,
   "files": [
@@ -269,15 +269,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "722f3193ceb43b11fe7f2d2172402867c48b4f3e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T07:09:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 3454,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "modbus: move freemodbus to a separate directory",
-  "updatedAt": "2026-04-13T22:10:31Z",
+  "updatedAt": "2026-04-14T07:09:43Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3454"
 }
