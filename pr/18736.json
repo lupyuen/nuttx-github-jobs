@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 17,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T20:42:17Z",
   "createdAt": "2026-04-14T15:45:09Z",
   "deletions": 17,
   "files": [
@@ -128,15 +128,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1a7310a91f2cade78281dd8e480d786763e0d066"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T20:42:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18736,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/sim: Replaced message of the day (MOTD)",
-  "updatedAt": "2026-04-14T18:21:07Z",
+  "updatedAt": "2026-04-14T20:42:17Z",
   "url": "https://github.com/apache/nuttx/pull/18736"
 }

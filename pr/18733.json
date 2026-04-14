@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T20:44:08Z",
   "createdAt": "2026-04-14T12:15:20Z",
   "deletions": 109,
   "files": [
@@ -125,15 +125,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3f16c4a06eeaccdba6e45f295462d0e91ffdfc17"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T20:44:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18733,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": " arch/risc-v: fix linking process of Espressif devices ",
-  "updatedAt": "2026-04-14T16:15:29Z",
+  "updatedAt": "2026-04-14T20:44:08Z",
   "url": "https://github.com/apache/nuttx/pull/18733"
 }
