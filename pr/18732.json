@@ -1,0 +1,73 @@
+{
+  "additions": 63,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0ODUwMTUw",
+    "is_bot": false,
+    "login": "PeterBee97",
+    "name": "ptr_b"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-14T09:13:17Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hosttime.c",
+      "additions": 45,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "fix_sim_mac",
+  "headRefOid": "14fed72fec6f442675d0d1c0c0d0d5701801f985",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODUxNjk5MzE=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0ODUwMTUw",
+    "name": "ptr_b",
+    "login": "PeterBee97"
+  },
+  "id": "PR_kwDODZiUac7SQNFM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18732,
+  "state": "OPEN",
+  "title": "Fix NuttX simulator on macOS",
+  "updatedAt": "2026-04-14T09:13:51Z",
+  "url": "https://github.com/apache/nuttx/pull/18732"
+}
