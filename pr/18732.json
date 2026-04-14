@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T11:40:11Z",
   "createdAt": "2026-04-14T09:13:17Z",
   "deletions": 10,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e874561291b137b4375059f94a3bd00f25696d57"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T11:40:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18732,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Fix NuttX simulator on macOS",
-  "updatedAt": "2026-04-14T11:00:54Z",
+  "updatedAt": "2026-04-14T11:40:11Z",
   "url": "https://github.com/apache/nuttx/pull/18732"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T11:33:14Z",
   "createdAt": "2026-04-14T07:25:52Z",
   "deletions": 3,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "29114efb41bc959374e2c8ee84d689aeed1042fb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T11:33:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18731,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "sched/misc: Optimize thread saving order in coredump for easier gdb d…",
-  "updatedAt": "2026-04-14T10:53:04Z",
+  "updatedAt": "2026-04-14T11:33:14Z",
   "url": "https://github.com/apache/nuttx/pull/18731"
 }
