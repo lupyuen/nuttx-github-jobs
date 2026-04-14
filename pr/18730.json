@@ -1,5 +1,5 @@
 {
-  "additions": 3122,
+  "additions": 3183,
   "assignees": [
     {
       "id": "MDQ6VXNlcjMwNTE4MzI=",
@@ -69,7 +69,7 @@
     },
     {
       "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-ws-lcd128/index.rst",
-      "additions": 185,
+      "additions": 189,
       "deletions": 0
     },
     {
@@ -94,7 +94,7 @@
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/notouch-lvgl/defconfig",
-      "additions": 84,
+      "additions": 78,
       "deletions": 0
     },
     {
@@ -108,8 +108,13 @@
       "deletions": 0
     },
     {
+      "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/qmi8658/defconfig",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/touch-lvgl/defconfig",
-      "additions": 84,
+      "additions": 79,
       "deletions": 0
     },
     {
@@ -134,12 +139,12 @@
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/Make.defs",
-      "additions": 50,
+      "additions": 54,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3-ws-lcd128.h",
-      "additions": 186,
+      "additions": 193,
       "deletions": 0
     },
     {
@@ -148,8 +153,13 @@
       "deletions": 0
     },
     {
+      "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_board_imu_qmi8658.c",
+      "additions": 84,
+      "deletions": 0
+    },
+    {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_board_lcd_gc9a01.c",
-      "additions": 147,
+      "additions": 145,
       "deletions": 0
     },
     {
@@ -178,23 +188,13 @@
       "deletions": 0
     },
     {
-      "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_qmi8658.c",
-      "additions": 83,
-      "deletions": 0
-    },
-    {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_reset.c",
       "additions": 87,
-      "deletions": 0
-    },
-    {
-      "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/etc/txtable.txt",
-      "additions": 2,
       "deletions": 0
     }
   ],
   "headRefName": "cederom-202603-esp32s3-ws-lcd128",
-  "headRefOid": "ea2b29736cd8a90c95ace192780dbc66031db27a",
+  "headRefOid": "185263d192d6a1a54e9c324caf81debdcb4f0332",
   "headRepository": {
     "id": "R_kgDOGLlPEA",
     "name": "nuttx",
@@ -236,6 +236,6 @@
   "number": 18730,
   "state": "OPEN",
   "title": "[WIP] boards/xtensa/esp32s3: New board WaveShare ESP32-S3-(Touch)-LCD-1.28.",
-  "updatedAt": "2026-04-14T12:01:00Z",
+  "updatedAt": "2026-04-14T14:34:57Z",
   "url": "https://github.com/apache/nuttx/pull/18730"
 }
