@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T08:05:55Z",
   "createdAt": "2026-04-14T00:20:26Z",
   "deletions": 1,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ea161e4fa984837d94e2cee7bd8b04baff6914ac"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T08:05:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18729,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "documentation: Document MQTT-C with Mbed TLS usage.",
-  "updatedAt": "2026-04-14T07:06:55Z",
+  "updatedAt": "2026-04-14T08:05:55Z",
   "url": "https://github.com/apache/nuttx/pull/18729"
 }
