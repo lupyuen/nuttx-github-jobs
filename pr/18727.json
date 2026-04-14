@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T02:05:52Z",
   "createdAt": "2026-04-13T15:46:03Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "143938777aec2a6ec55750e35e075fb5a7ce54a7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T02:05:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 18727,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/imx9: eDMA5 don't enable all interrupts",
-  "updatedAt": "2026-04-13T16:03:17Z",
+  "updatedAt": "2026-04-14T02:05:52Z",
   "url": "https://github.com/apache/nuttx/pull/18727"
 }
