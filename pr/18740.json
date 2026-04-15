@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-15T12:29:18Z",
   "createdAt": "2026-04-15T08:13:37Z",
   "deletions": 3,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3acfea8efc2a70e44428d481af457dc2eb5cd7d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-15T12:29:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 18740,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Fix Kconfig option for TWAI",
-  "updatedAt": "2026-04-15T11:54:41Z",
+  "updatedAt": "2026-04-15T12:29:18Z",
   "url": "https://github.com/apache/nuttx/pull/18740"
 }
