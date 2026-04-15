@@ -1,0 +1,140 @@
+{
+  "additions": 1767,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0ODUwMTUw",
+    "is_bot": false,
+    "login": "PeterBee97",
+    "name": "ptr_b"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-15T14:00:04Z",
+  "deletions": 90,
+  "files": [
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 26,
+      "deletions": 3
+    },
+    {
+      "path": "arch/sim/src/sim/macos/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/macos/sim_avfoundation_backend.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/macos/sim_host_avfoundation_backend.m",
+      "additions": 912,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_host_avfoundation.c",
+      "additions": 150,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_host_v4l2.c",
+      "additions": 249,
+      "deletions": 21
+    },
+    {
+      "path": "arch/sim/src/sim/sim_camera.c",
+      "additions": 193,
+      "deletions": 49
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hostvideo.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/sim/sim/sim/src/sim_bringup.c",
+      "additions": 22,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/video/v4l2_cap.c",
+      "additions": 42,
+      "deletions": 6
+    },
+    {
+      "path": "tools/mkallsyms.sh",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "video/Makefile",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "video/dummy.c",
+      "additions": 31,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "avfoundation",
+  "headRefOid": "d0fdb9c089db68aa6de48bea15ebb5fe2f830906",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODUxNjk5MzE=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0ODUwMTUw",
+    "name": "ptr_b",
+    "login": "PeterBee97"
+  },
+  "id": "PR_kwDODZiUac7SqasG",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18745,
+  "state": "OPEN",
+  "title": "sim/camera: add AVFoundation backend and multi-cam support",
+  "updatedAt": "2026-04-15T14:09:16Z",
+  "url": "https://github.com/apache/nuttx/pull/18745"
+}
