@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-15T15:47:47Z",
   "createdAt": "2026-04-15T11:59:11Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2e27767b0c68cca8f9d222420092fb01875f2720"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-15T15:47:47Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18742,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/sensors: fix misplaced endif in bmi160_base.c",
-  "updatedAt": "2026-04-15T14:37:38Z",
+  "updatedAt": "2026-04-15T15:47:47Z",
   "url": "https://github.com/apache/nuttx/pull/18742"
 }
