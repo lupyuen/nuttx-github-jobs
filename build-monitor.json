@@ -1,5 +1,117 @@
 [
   {
+    "build_arch": "risc-v",
+    "build_board": "esp32p4-function-ev-board",
+    "build_config": "pwm",
+    "build_group": "risc-v-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32p4",
+    "build_timestamp": "2026-04-15T19:40:33",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/24468338157/job/71501822700#step:10:1397",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-04-15T17:22:06Z",
+    "job_databaseId": 24468338157,
+    "job_displayTitle": "fs/vfs/fs_fstat.c: fix write capability check in proxy_fstat()",
+    "job_event": "pull_request",
+    "job_headBranch": "fix-fstat-write-check",
+    "job_headSha": "111916dc7eb833e6988eb2b3a7cb5d670dde87c8",
+    "job_name": "Build",
+    "job_number": 54403,
+    "job_run_duration_ms": "11989000",
+    "job_startedAt": "2026-04-15T17:22:06Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-04-15T20:41:55Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/24468338157",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1,
+    "pr_assignees": [],
+    "pr_author": "Abhishek-2808",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-04-15T17:21:59Z",
+    "pr_deletions": 1,
+    "pr_headRefName": "fix-fstat-write-check",
+    "pr_headRefOid": "111916dc7eb833e6988eb2b3a7cb5d670dde87c8",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "Abhishek-2808",
+    "pr_id": "PR_kwDODZiUac7St6Mc",
+    "pr_isDraft": false,
+    "pr_labels": "Area: File System, Size: XS",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 18746,
+    "pr_state": "OPEN",
+    "pr_title": "fs/vfs/fs_fstat.c: fix write capability check in proxy_fstat()",
+    "pr_updatedAt": "2026-04-15T17:22:26Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18746"
+  },
+  {
+    "build_arch": "arm",
+    "build_board": "stm32f103-minimum",
+    "build_config": "adb",
+    "build_group": "arm-11",
+    "build_msg": "D lDolaoda d  U pUlpolaoda d    T oTtoatla l    S pSepnetn t      L eLfetf t  S pSepeede \n d",
+    "build_score": 0.8,
+    "build_subarch": "stm32",
+    "build_timestamp": "2026-04-15T19:05:39",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/24468338157/job/71501823368#step:10:413",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-04-15T17:22:06Z",
+    "job_databaseId": 24468338157,
+    "job_displayTitle": "fs/vfs/fs_fstat.c: fix write capability check in proxy_fstat()",
+    "job_event": "pull_request",
+    "job_headBranch": "fix-fstat-write-check",
+    "job_headSha": "111916dc7eb833e6988eb2b3a7cb5d670dde87c8",
+    "job_name": "Build",
+    "job_number": 54403,
+    "job_run_duration_ms": "11989000",
+    "job_startedAt": "2026-04-15T17:22:06Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-04-15T20:41:55Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/24468338157",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1,
+    "pr_assignees": [],
+    "pr_author": "Abhishek-2808",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-04-15T17:21:59Z",
+    "pr_deletions": 1,
+    "pr_headRefName": "fix-fstat-write-check",
+    "pr_headRefOid": "111916dc7eb833e6988eb2b3a7cb5d670dde87c8",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "Abhishek-2808",
+    "pr_id": "PR_kwDODZiUac7St6Mc",
+    "pr_isDraft": false,
+    "pr_labels": "Area: File System, Size: XS",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 18746,
+    "pr_state": "OPEN",
+    "pr_title": "fs/vfs/fs_fstat.c: fix write capability check in proxy_fstat()",
+    "pr_updatedAt": "2026-04-15T17:22:26Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18746"
+  },
+  {
     "build_arch": "xtensa",
     "build_board": "esp32-2432S028",
     "build_config": "lvgl",
@@ -52,7 +164,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -108,7 +220,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -164,7 +276,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -220,7 +332,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -276,7 +388,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -332,7 +444,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -388,7 +500,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -444,7 +556,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -500,7 +612,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -556,7 +668,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -612,7 +724,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -668,7 +780,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -724,7 +836,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -780,7 +892,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -836,7 +948,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -892,7 +1004,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -948,7 +1060,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1004,7 +1116,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1060,7 +1172,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1116,7 +1228,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1172,7 +1284,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1228,7 +1340,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1284,7 +1396,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1396,7 +1508,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1508,7 +1620,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1564,7 +1676,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1620,7 +1732,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1676,7 +1788,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1732,7 +1844,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1788,7 +1900,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1844,7 +1956,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1900,7 +2012,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -1956,7 +2068,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2012,7 +2124,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2068,7 +2180,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2124,7 +2236,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2180,8 +2292,64 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "login",
+    "build_group": "sim-02",
+    "build_msg": ">>>> WARNING: YOU ARE USING THE DEFAULT ADMIN PASSWORD (CONFIG_BOARD_ETC_ROMFS_PASSWD_PASSWORD=\"Administrator\")!!! PLEASE CHANGE IT!!! <<<< \n >>>> WARNING: YOU ARE USING DEFAULT PASSWORD KEYS (CONFIG_FSUTILS_PASSWD_KEY1-4)!!! PLEASE CHANGE IT!!! <<<<",
+    "build_score": 0.5,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-04-15T17:36:38",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/24468338157/job/71501822615#step:10:370",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-04-15T17:22:06Z",
+    "job_databaseId": 24468338157,
+    "job_displayTitle": "fs/vfs/fs_fstat.c: fix write capability check in proxy_fstat()",
+    "job_event": "pull_request",
+    "job_headBranch": "fix-fstat-write-check",
+    "job_headSha": "111916dc7eb833e6988eb2b3a7cb5d670dde87c8",
+    "job_name": "Build",
+    "job_number": 54403,
+    "job_run_duration_ms": "11989000",
+    "job_startedAt": "2026-04-15T17:22:06Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-04-15T20:41:55Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/24468338157",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1,
+    "pr_assignees": [],
+    "pr_author": "Abhishek-2808",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-04-15T17:21:59Z",
+    "pr_deletions": 1,
+    "pr_headRefName": "fix-fstat-write-check",
+    "pr_headRefOid": "111916dc7eb833e6988eb2b3a7cb5d670dde87c8",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "Abhishek-2808",
+    "pr_id": "PR_kwDODZiUac7St6Mc",
+    "pr_isDraft": false,
+    "pr_labels": "Area: File System, Size: XS",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 18746,
+    "pr_state": "OPEN",
+    "pr_title": "fs/vfs/fs_fstat.c: fix write capability check in proxy_fstat()",
+    "pr_updatedAt": "2026-04-15T17:22:26Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18746"
   },
   {
     "build_arch": "risc-v",
@@ -2236,7 +2404,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2292,7 +2460,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2348,7 +2516,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2460,7 +2628,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2628,7 +2796,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2684,7 +2852,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2740,7 +2908,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2796,7 +2964,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2852,7 +3020,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2908,7 +3076,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -2964,7 +3132,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3020,7 +3188,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3076,7 +3244,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3132,7 +3300,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3188,7 +3356,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3244,7 +3412,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3300,7 +3468,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3356,7 +3524,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3412,7 +3580,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3468,7 +3636,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3580,7 +3748,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3636,7 +3804,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3692,7 +3860,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3748,7 +3916,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3804,7 +3972,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3860,7 +4028,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3916,7 +4084,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -3972,7 +4140,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4028,7 +4196,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4084,7 +4252,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4140,7 +4308,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4196,7 +4364,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4252,7 +4420,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4308,7 +4476,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4364,7 +4532,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4420,7 +4588,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4476,7 +4644,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4532,7 +4700,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4588,7 +4756,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4644,7 +4812,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4700,7 +4868,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -4756,7 +4924,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
@@ -7948,7 +8116,7 @@
     "pr_number": 18744,
     "pr_state": "OPEN",
     "pr_title": "boards: Fix modbus configs after moving it to apps/industry",
-    "pr_updatedAt": "2026-04-15T16:12:27Z",
+    "pr_updatedAt": "2026-04-15T20:40:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18744"
   },
   {
