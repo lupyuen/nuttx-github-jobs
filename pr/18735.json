@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-15T09:10:22Z",
   "createdAt": "2026-04-14T13:05:11Z",
   "deletions": 2,
   "files": [
@@ -53,15 +53,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9fd11a01d59705d6534e455784516d41994da17b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-15T09:10:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18735,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools/Unix.mk: fix Untracked files defconfig.tmp-e on macOS",
-  "updatedAt": "2026-04-14T13:15:12Z",
+  "updatedAt": "2026-04-15T09:10:23Z",
   "url": "https://github.com/apache/nuttx/pull/18735"
 }
