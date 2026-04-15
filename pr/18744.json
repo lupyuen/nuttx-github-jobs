@@ -13,12 +13,12 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-15T12:59:37Z",
-  "deletions": 12,
+  "deletions": 31,
   "files": [
     {
       "path": "boards/arm/stm32/stm32f401rc-rs485/configs/modbus_master/defconfig",
       "additions": 2,
-      "deletions": 2
+      "deletions": 11
     },
     {
       "path": "boards/arm/stm32/stm32f401rc-rs485/configs/modbus_slave/defconfig",
@@ -33,7 +33,7 @@
     {
       "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/modbus_master/defconfig",
       "additions": 2,
-      "deletions": 2
+      "deletions": 12
     },
     {
       "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/modbus_slave/defconfig",
@@ -47,7 +47,7 @@
     }
   ],
   "headRefName": "fix_modbus_loc",
-  "headRefOid": "b5bb475d5fcb5515a0cc53fcc1c8b0083dc8a125",
+  "headRefOid": "ec853dd1976a26a34451e5ae643410dd9e18e42f",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -81,14 +81,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18744,
   "state": "OPEN",
   "title": "boards: Fix modbus configs after moving it to apps/industry",
-  "updatedAt": "2026-04-15T15:36:11Z",
+  "updatedAt": "2026-04-15T16:12:27Z",
   "url": "https://github.com/apache/nuttx/pull/18744"
 }
