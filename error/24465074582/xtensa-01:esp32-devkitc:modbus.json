@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-15T17:47:14",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "modbus",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24465074582/job/71490621202#step:10:1370",
+"msg": "/tools/xtensa-esp-elf-gcc/bin/xtensa-esp-elf-ld: /github/workspace/sources/nuttx/staging/libapps.a(modbus_main.c.github.workspace.sources.apps.examples.modbus_1.o):(.literal.modbus_pollthread+0x24): undefined reference to `eMBInit' \n /tools/xtensa-esp-elf-gcc/bin/xtensa-esp-elf-ld: /github/workspace/sources/nuttx/staging/libapps.a(modbus_main.c.github.workspace.sources.apps.examples.modbus_1.o):(.literal.modbus_pollthread+0x28): undefined reference to `eMBSetSlaveID' \n /tools/xtensa-esp-elf-gcc/bin/xtensa"
+}
