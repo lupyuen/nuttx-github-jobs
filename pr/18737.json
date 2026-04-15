@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-15T13:18:16Z",
   "createdAt": "2026-04-15T03:14:09Z",
   "deletions": 4,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "249df8c1d9f4942b7105344ccd01d051bd7b3957"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-15T13:18:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18737,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "video/fb: guarantee fb read-write integrity to prevent display tearing",
-  "updatedAt": "2026-04-15T11:47:18Z",
+  "updatedAt": "2026-04-15T13:18:16Z",
   "url": "https://github.com/apache/nuttx/pull/18737"
 }
