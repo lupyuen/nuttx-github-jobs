@@ -1,0 +1,67 @@
+{
+  "additions": 23,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMTgzMDQ=",
+    "is_bot": false,
+    "login": "ankohuu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-15T07:51:27Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "net/ipforward/ipv4_forward.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "net/ipforward/ipv6_forward.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/non-forwardable-multicast",
+  "headRefOid": "f1da4651964d9bfe09b2d98f13c11ea74e0bcabc",
+  "headRepository": {
+    "id": "R_kgDORvNoIQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMTgzMDQ=",
+    "login": "ankohuu"
+  },
+  "id": "PR_kwDODZiUac7SjkcB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18738,
+  "state": "OPEN",
+  "title": "net/ipforward: Forbid non-forwardable multicast scopes.",
+  "updatedAt": "2026-04-15T07:52:03Z",
+  "url": "https://github.com/apache/nuttx/pull/18738"
+}
