@@ -1,0 +1,283 @@
+{
+  "additions": 60,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 45,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-15T12:58:30Z",
+  "deletions": 60,
+  "files": [
+    {
+      "path": "industry/modbus/.gitignore",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "industry/modbus/freemodbus/Kconfig",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "industry/modbus/freemodbus/Make.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "industry/modbus/freemodbus/Makefile",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "industry/modbus/freemodbus/ascii/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "industry/modbus/freemodbus/ascii/mbascii.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/ascii/mbascii.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfunccoils.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfunccoils_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncdiag.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncdisc.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncdisc_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncholding.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncholding_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncinput.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncinput_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbfuncother.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/functions/mbutils.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/mb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/mb_m.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/Make.defs",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/port.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/portevent.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/portevent_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/portother.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/portother_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/portserial.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/portserial_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/porttimer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/nuttx/porttimer_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/rtu/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "industry/modbus/freemodbus/rtu/mbcrc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/rtu/mbcrc.h",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "industry/modbus/freemodbus/rtu/mbrtu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/rtu/mbrtu.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/rtu/mbrtu_m.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/rtu/mbrtu_m.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/tcp/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "industry/modbus/freemodbus/tcp/mbtcp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "industry/modbus/freemodbus/tcp/mbtcp.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "990e3c894f379f71c7d2d5b74746fa73f1694c0c",
+  "headRepository": {
+    "id": "R_kgDOM0Q9Yw",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiT487SpPP6",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABxJhpkg",
+      "name": "Area: Industry",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3457,
+  "state": "OPEN",
+  "title": "apps/modbus: Move modbus to inside industry/",
+  "updatedAt": "2026-04-15T12:59:11Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3457"
+}
