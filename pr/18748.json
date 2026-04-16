@@ -1,5 +1,5 @@
 {
-  "additions": 3447,
+  "additions": 3470,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE3ODY0Mzc0",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 14,
+  "changedFiles": 16,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-16T14:52:59Z",
-  "deletions": 10,
+  "deletions": 11,
   "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h5/index.rst",
+      "additions": 21,
+      "deletions": 1
+    },
     {
       "path": "arch/arm/src/stm32h5/CMakeLists.txt",
       "additions": 4,
@@ -34,6 +39,11 @@
       "path": "arch/arm/src/stm32h5/hardware/stm32_usbfs.h",
       "additions": 112,
       "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_serial.c",
+      "additions": 2,
+      "deletions": 0
     },
     {
       "path": "arch/arm/src/stm32h5/stm32_usbdrdhost.c",
@@ -87,7 +97,7 @@
     }
   ],
   "headRefName": "feature/dl.stm32h5_justHost",
-  "headRefOid": "627f18f49d939cb28713fd465d3d8ceb44da19ad",
+  "headRefOid": "b394769fbb644f8eaf496f2d1b7a09b3f06b5858",
   "headRepository": {
     "id": "R_kgDOKSEznw",
     "name": "nuttx",
@@ -100,6 +110,12 @@
   "id": "PR_kwDODZiUac7TAZVW",
   "isDraft": false,
   "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
     {
       "id": "LA_kwDODZiUac8AAAABsqOt8A",
       "name": "Arch: arm",
@@ -128,6 +144,6 @@
   "number": 18748,
   "state": "OPEN",
   "title": "arch/arm/src/stm32h5: Add support for USB host",
-  "updatedAt": "2026-04-16T15:57:17Z",
+  "updatedAt": "2026-04-16T18:37:10Z",
   "url": "https://github.com/apache/nuttx/pull/18748"
 }
