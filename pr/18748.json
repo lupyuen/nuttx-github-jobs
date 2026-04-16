@@ -1,0 +1,128 @@
+{
+  "additions": 3443,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3ODY0Mzc0",
+    "is_bot": false,
+    "login": "dlizewski",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-16T14:52:59Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 43,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_usbfs.h",
+      "additions": 112,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_usbdrdhost.c",
+      "additions": 2799,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_usbdrdhost.h",
+      "additions": 144,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h5xx_rcc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/configs/usbmsc/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/include/board.h",
+      "additions": 36,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/nucleo-h563zi.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_bringup.c",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_usb.c",
+      "additions": 226,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/dl.stm32h5_justHost",
+  "headRefOid": "81aa9902bfad8d658dd11d6417c40a523315f65d",
+  "headRepository": {
+    "id": "R_kgDOKSEznw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3ODY0Mzc0",
+    "login": "dlizewski"
+  },
+  "id": "PR_kwDODZiUac7TAZVW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18748,
+  "state": "OPEN",
+  "title": "arch/arm/src/stm32h5: Add support for USB host",
+  "updatedAt": "2026-04-16T14:53:32Z",
+  "url": "https://github.com/apache/nuttx/pull/18748"
+}
