@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-16T14:20:58",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-12",
+"board": "stm32f4discovery",
+"config": "modbus_slave",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24465074582/job/71652952985#step:10:764",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libapps.a(modbus_main.c.github.workspace.sources.apps.examples.modbus_1.o): in function `modbus_pollthread': \n modbus_main.c:(.text.modbus_pollthread+0x58): undefined reference to `eMBInit' \n arm-none-eabi-ld: modbus_main.c:(.text.modbus_pollthread+0x84): undefined reference to `eMBSetSlaveID' \n arm-none-eabi-ld: modbus_main.c:(.text.modbus_pollthread+0x9a): undefined reference to `eMBClose' \n arm-none-eabi-ld: modbus_main.c:(.text.modbus_pollthr"
+}
