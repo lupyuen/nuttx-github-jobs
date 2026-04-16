@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-16T17:12:16",
+"arch": "arm",
+"subarch": "unknown",
+"group": "arm-13",
+"board": "nucleo-h563zi",
+"config": "usbmsc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24519647031/job/71674105671#step:10:1146",
+"msg": "##[error]chip/stm32_serial.c:3748:13: error: 'stm32serial_dmarxcallback' defined but not used [-Werror=unused-function] \n 3748 | static void stm32serial_dmarxcallback(DMA_HANDLE handle, \n |             ^~~~~~~~~~~~~~~~~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:179: stm32_serial.o] Error 1 \n make[1]: Target 'libarch.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:170: arch/arm/src/libarch.a] Error 2 \n make: Target 'all' not remade because of errors"
+}
