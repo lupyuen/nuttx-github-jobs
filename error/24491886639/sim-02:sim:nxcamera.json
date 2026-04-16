@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-16T04:58:08",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "nxcamera",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24491886639/job/71578557544#step:10:798",
+"msg": "sim/posix/sim_host_v4l2.c: In function 'host_video_resolve_device_path': \n ##[error]sim/posix/sim_host_v4l2.c:200:11: error: implicit declaration of function 'strlcpy'; did you mean 'strncpy'? [-Werror=implicit-function-declaration] \n 200 |       if (strlcpy(resolved_path, host_video_dev_path, resolved_path_len) >= \n |           strncpy \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:408: sim_host_v4l2.o] Error 1 \n make[1]: Target 'nuttx' not remade because of errors. \n make: ***"
+}
