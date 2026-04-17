@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 16,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-17T04:42:12Z",
   "createdAt": "2026-04-16T14:52:59Z",
   "deletions": 11,
   "files": [
@@ -135,15 +135,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c205505ca9629b3fd1088ef93e8ba17b6a0a3b5a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-17T04:42:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18748,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/stm32h5: Add support for USB host",
-  "updatedAt": "2026-04-16T18:56:00Z",
+  "updatedAt": "2026-04-17T04:42:12Z",
   "url": "https://github.com/apache/nuttx/pull/18748"
 }
