@@ -1,0 +1,225 @@
+{
+  "additions": 8054,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 36,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-17T14:33:54Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "examples/nxmbserver/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "examples/nxmbserver/Kconfig",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "examples/nxmbserver/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/nxmbserver/Makefile",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "examples/nxmbserver/nxmbserver_main.c",
+      "additions": 543,
+      "deletions": 0
+    },
+    {
+      "path": "include/nxmodbus/nxmb_client.h",
+      "additions": 261,
+      "deletions": 0
+    },
+    {
+      "path": "include/nxmodbus/nxmb_raw.h",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "include/nxmodbus/nxmodbus.h",
+      "additions": 376,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/CMakeLists.txt",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/Kconfig",
+      "additions": 245,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/Makefile",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_client.c",
+      "additions": 716,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_context.c",
+      "additions": 392,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_func.c",
+      "additions": 346,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_func_coils.c",
+      "additions": 252,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_func_diag.c",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_func_discrete.c",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_func_holding.c",
+      "additions": 309,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_func_input.c",
+      "additions": 106,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_func_other.c",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_server.c",
+      "additions": 121,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/core/nxmb_utils.c",
+      "additions": 127,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/nxmb_internal.h",
+      "additions": 379,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/transport/nxmb_ascii.c",
+      "additions": 546,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/transport/nxmb_crc.c",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/transport/nxmb_lrc.c",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/transport/nxmb_raw.c",
+      "additions": 303,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/transport/nxmb_serial.c",
+      "additions": 424,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/transport/nxmb_serial_common.c",
+      "additions": 138,
+      "deletions": 0
+    },
+    {
+      "path": "modbus/nxmodbus/transport/nxmb_tcp.c",
+      "additions": 684,
+      "deletions": 0
+    },
+    {
+      "path": "system/nxmbclient/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "system/nxmbclient/Kconfig",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "system/nxmbclient/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "system/nxmbclient/Makefile",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "system/nxmbclient/nxmbclient_main.c",
+      "additions": 799,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nxmodbus",
+  "headRefOid": "e506404de0c8ac251d15590477a05273032dcf02",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU1NzA=",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiT487TWdCV",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3459,
+  "state": "OPEN",
+  "title": "modbus: add nxmodbus",
+  "updatedAt": "2026-04-17T14:40:34Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3459"
+}
