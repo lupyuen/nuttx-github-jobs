@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-17T08:37:48Z",
   "createdAt": "2026-04-16T18:48:34Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "27ae597fbc17e1dcf8c4fd775844499d4cd42a35"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-17T08:37:48Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18750,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards: Increase `esp32h2-devkit:efuse` IDLETHREAD stack to 3072",
-  "updatedAt": "2026-04-17T01:31:46Z",
+  "updatedAt": "2026-04-17T08:37:48Z",
   "url": "https://github.com/apache/nuttx/pull/18750"
 }
