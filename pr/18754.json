@@ -1,0 +1,160 @@
+{
+  "additions": 381,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 18,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-17T12:04:44Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/index.rst",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_allocateheap.c",
+      "additions": 80,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_start.c",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.cmake",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.cmake",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/Kconfig",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.cmake",
+      "additions": 43,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.mk",
+      "additions": 28,
+      "deletions": 3
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/scripts/esp32p4_sections.rev3.ld",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/psram_usrheap/defconfig",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/scripts/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_boot.c",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp32p4_psram",
+  "headRefOid": "a90844f31d57c5da68fc846965a9a695cad8a0b7",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7TTd9K",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18754,
+  "state": "OPEN",
+  "title": "esp32p4: Implements PSRAM support for ESP32-P4",
+  "updatedAt": "2026-04-17T12:05:08Z",
+  "url": "https://github.com/apache/nuttx/pull/18754"
+}
