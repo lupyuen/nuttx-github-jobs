@@ -1,5 +1,5 @@
 {
-  "additions": 381,
+  "additions": 387,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjI4ODExNzIw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 18,
+  "changedFiles": 20,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-17T12:04:44Z",
-  "deletions": 20,
+  "deletions": 22,
   "files": [
     {
       "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/index.rst",
@@ -44,6 +44,16 @@
       "path": "arch/risc-v/src/common/espressif/esp_start.c",
       "additions": 45,
       "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.cmake",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "arch/risc-v/src/esp32c6/hal_esp32c6.cmake",
@@ -107,7 +117,7 @@
     }
   ],
   "headRefName": "feature/esp32p4_psram",
-  "headRefOid": "a90844f31d57c5da68fc846965a9a695cad8a0b7",
+  "headRefOid": "4c3292c742323673601e458be06e22d922381062",
   "headRepository": {
     "id": "R_kgDOHwFqQQ",
     "name": "nuttx",
@@ -147,7 +157,7 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
+  "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
@@ -155,6 +165,6 @@
   "number": 18754,
   "state": "OPEN",
   "title": "esp32p4: Implements PSRAM support for ESP32-P4",
-  "updatedAt": "2026-04-17T13:40:47Z",
+  "updatedAt": "2026-04-17T13:57:16Z",
   "url": "https://github.com/apache/nuttx/pull/18754"
 }
