@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 21,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-18T22:17:31Z",
   "createdAt": "2026-04-17T12:04:44Z",
   "deletions": 22,
   "files": [
@@ -161,15 +161,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "08a19531930e9b40977bbff4e183ae6a11bc8a16"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-18T22:17:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18754,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "esp32p4: Implements PSRAM support for ESP32-P4",
-  "updatedAt": "2026-04-17T17:42:17Z",
+  "updatedAt": "2026-04-18T22:17:31Z",
   "url": "https://github.com/apache/nuttx/pull/18754"
 }
