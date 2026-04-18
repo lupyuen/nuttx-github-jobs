@@ -1,0 +1,93 @@
+{
+  "additions": 264,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjMyMDQyMDc=",
+    "is_bot": false,
+    "login": "shizacat",
+    "name": "Alexey Matveev"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-18T19:31:36Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/configs/can/defconfig",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/CMakeLists.txt",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/Make.defs",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_bringup.c",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_can.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_cansock.c",
+      "additions": 59,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32f103_minimum.h",
+      "additions": 24,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add-board-stm32f103-minimum-can",
+  "headRefOid": "06d31a8d227d0ba0850eb5677e20485c6abcde6e",
+  "headRepository": {
+    "id": "R_kgDOMuqKcQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjMyMDQyMDc=",
+    "name": "Alexey Matveev",
+    "login": "shizacat"
+  },
+  "id": "PR_kwDODZiUac7ToIvg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18760,
+  "state": "OPEN",
+  "title": "boards/stm32f103-minimum: Add CAN bring-up, char/socket drivers, and …",
+  "updatedAt": "2026-04-18T19:37:00Z",
+  "url": "https://github.com/apache/nuttx/pull/18760"
+}
