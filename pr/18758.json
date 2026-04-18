@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-18T22:06:06Z",
   "createdAt": "2026-04-18T03:51:54Z",
   "deletions": 9,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "865356908de85be89265c052bcdee65cc4be795d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-18T22:06:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18758,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "doc: Contributing tools/checkpatch.sh example update.",
-  "updatedAt": "2026-04-18T17:38:35Z",
+  "updatedAt": "2026-04-18T22:06:06Z",
   "url": "https://github.com/apache/nuttx/pull/18758"
 }
