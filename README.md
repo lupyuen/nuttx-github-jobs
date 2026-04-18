@@ -75,4 +75,35 @@ git commit --all --message="Updated Build Logs and HTML by \`export-nuttx-builds
 ## Most Expensive PRs: https://docs.google.com/spreadsheets/d/1HY7fIZzd_fs3QPyA0TX7vsYOjL86m1fNOf1Wls93luI/edit?gid=70515654#gid=70515654
 ```
 
+How to use the JSON Files:
+
+```bash
+## Find this PR Number
+pr_number=18730
+
+## Return Everything Current about this PR Number
+curl https://lupyuen.github.io/nuttx-github-jobs/build-monitor-pr.json \
+  | jq ".[] | select(.pr_number == $pr_number)"
+
+## Return the Current Job Conclusion: success / failure / cancelled
+curl https://lupyuen.github.io/nuttx-github-jobs/build-monitor-pr.json \
+  | jq ".[] | select(.pr_number == $pr_number) | .job_conclusion"
+
+## Return Everything Historical about this PR Number
+curl https://lupyuen.github.io/nuttx-github-jobs/build-monitor.json \
+  | jq ".[] | select(.pr_number == $pr_number)"
+
+## Return all Errors / Warnings for this PR Number
+curl https://lupyuen.github.io/nuttx-github-jobs/build-monitor.json \
+  | jq ".[] | select(.pr_number == $pr_number) | .build_msg"
+
+## Return all Errors for this PR Number
+curl https://lupyuen.github.io/nuttx-github-jobs/build-monitor.json \
+  | jq ".[] | select(.pr_number == $pr_number and .build_score == 0) | .build_msg"
+
+## Return all Warnings for this PR Number
+curl https://lupyuen.github.io/nuttx-github-jobs/build-monitor.json \
+  | jq ".[] | select(.pr_number == $pr_number and .build_score > 0) | .build_msg"
+```
+
 ![Most Expensive PRs](https://github.com/user-attachments/assets/424c37fe-2f20-4f47-8806-60ce5a144cc0)
