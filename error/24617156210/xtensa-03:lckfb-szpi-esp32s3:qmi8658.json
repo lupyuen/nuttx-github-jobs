@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-19T01:28:29",
+"arch": "xtensa",
+"subarch": "esp32s3",
+"group": "xtensa-03",
+"board": "lckfb-szpi-esp32s3",
+"config": "qmi8658",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24617156210/job/71981278908#step:10:1630",
+"msg": "src/esp32s3_board_imu_qmi8658.c: In function 'esp32s3_qmi8658_initialize': \n ##[error]src/esp32s3_board_imu_qmi8658.c:73:35: error: 'QMI8658_I2C_PORT' undeclared (first use in this function) \n 73 |   i2c = esp32s3_i2cbus_initialize(QMI8658_I2C_PORT); \n |                                   ^~~~~~~~~~~~~~~~ \n src/esp32s3_board_imu_qmi8658.c:73:35: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]src/esp32s3_board_imu_qmi8658.c:82:39: error: 'QMI8658_I2C_ADD"
+}
