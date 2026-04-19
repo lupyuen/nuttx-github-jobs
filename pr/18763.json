@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-19T06:21:58Z",
   "createdAt": "2026-04-19T00:44:35Z",
   "deletions": 3,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3e570aa219dbcc57646be035e9ea384fb7eab02d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-19T06:21:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18763,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "CI: Remove corrupted downloads for build retry",
-  "updatedAt": "2026-04-19T06:13:37Z",
+  "updatedAt": "2026-04-19T06:21:58Z",
   "url": "https://github.com/apache/nuttx/pull/18763"
 }
