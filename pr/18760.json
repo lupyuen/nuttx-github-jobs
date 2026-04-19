@@ -1,5 +1,5 @@
 {
-  "additions": 264,
+  "additions": 315,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjMyMDQyMDc=",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 7,
+  "changedFiles": 8,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-18T19:31:36Z",
   "deletions": 0,
   "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32f1/boards/stm32f103-minimum/index.rst",
+      "additions": 48,
+      "deletions": 0
+    },
     {
       "path": "boards/arm/stm32/stm32f103-minimum/configs/can/defconfig",
       "additions": 74,
@@ -32,7 +37,7 @@
     },
     {
       "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_bringup.c",
-      "additions": 20,
+      "additions": 23,
       "deletions": 0
     },
     {
@@ -52,7 +57,7 @@
     }
   ],
   "headRefName": "add-board-stm32f103-minimum-can",
-  "headRefOid": "06d31a8d227d0ba0850eb5677e20485c6abcde6e",
+  "headRefOid": "e79194c2e98ac7ccaa32275dc85e804f5847c882",
   "headRepository": {
     "id": "R_kgDOMuqKcQ",
     "name": "nuttx",
@@ -66,6 +71,12 @@
   "id": "PR_kwDODZiUac7ToIvg",
   "isDraft": false,
   "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
     {
       "id": "LA_kwDODZiUac8AAAABvj_ZzA",
       "name": "Size: M",
@@ -88,6 +99,6 @@
   "number": 18760,
   "state": "OPEN",
   "title": "boards/stm32f103-minimum: Add CAN bring-up, char/socket drivers, and …",
-  "updatedAt": "2026-04-18T20:11:43Z",
+  "updatedAt": "2026-04-19T05:52:40Z",
   "url": "https://github.com/apache/nuttx/pull/18760"
 }
