@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-19T06:24:40Z",
   "createdAt": "2026-04-18T19:53:30Z",
   "deletions": 40,
   "files": [
@@ -75,15 +75,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1632beaedee5171ab6c1dfc48092319c149b5ebf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-19T06:24:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18761,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/stm32h5/stm32_usbdrdhost.c: Fixed Hub support",
-  "updatedAt": "2026-04-18T20:12:37Z",
+  "updatedAt": "2026-04-19T06:24:40Z",
   "url": "https://github.com/apache/nuttx/pull/18761"
 }
