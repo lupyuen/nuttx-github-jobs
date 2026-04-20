@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-20T22:38:08",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "olimexino-stm32",
+"config": "tiny",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24690499433/job/72211285607#step:10:414",
+"msg": "##[error]can/can.c:385:11: error: variable 'n' is incremented both in the loop header and in the loop body [-Werror,-Wfor-loop-analysis] \n 385 |           n++; \n can/can.c:382:12: note: incremented here \n 382 |            n++) \n |            ^ \n ##[error]can/can.c:400:11: error: variable 'n' is incremented both in the loop header and in the loop body [-Werror,-Wfor-loop-analysis] \n 400 |           n++; \n can/can.c:397:67: note: incremented here \n 397 |       for (n = 0; !dev_txempty(dev) && n < CAN_"
+}
