@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-20T13:08:27Z",
   "createdAt": "2026-04-20T08:43:40Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "50fb11492c5d3bbc6fd9bf4db7f485632e938fea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-20T13:08:27Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18765,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Fix auto light sleep enable flag",
-  "updatedAt": "2026-04-20T11:01:29Z",
+  "updatedAt": "2026-04-20T13:08:28Z",
   "url": "https://github.com/apache/nuttx/pull/18765"
 }
