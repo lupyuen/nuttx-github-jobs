@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-21T13:57:45Z",
   "createdAt": "2026-04-21T09:35:39Z",
   "deletions": 17,
   "files": [
@@ -75,15 +75,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7141f487c0fafd757703c0a52604b6f35ed31e94"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-21T13:57:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18772,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/intel64: fix broken ostest",
-  "updatedAt": "2026-04-21T12:24:50Z",
+  "updatedAt": "2026-04-21T13:57:45Z",
   "url": "https://github.com/apache/nuttx/pull/18772"
 }
