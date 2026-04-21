@@ -1,0 +1,89 @@
+{
+  "additions": 48,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-21T09:35:39Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "arch/x86_64/src/intel64/intel64_sigdeliver.c",
+      "additions": 35,
+      "deletions": 17
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/jumbo/defconfig",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh/defconfig",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/ostest/defconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/scripts/qemu.ld",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "intel64_ostest_fix",
+  "headRefOid": "a683c830a362e5caf30947c272f8650b6cff05a7",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7UQBvx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18772,
+  "state": "OPEN",
+  "title": "arch/intel64: fix broken ostest",
+  "updatedAt": "2026-04-21T09:38:50Z",
+  "url": "https://github.com/apache/nuttx/pull/18772"
+}
