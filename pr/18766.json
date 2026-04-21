@@ -1,5 +1,5 @@
 {
-  "additions": 5,
+  "additions": 43,
   "assignees": [],
   "author": {
     "id": "U_kgDOBkM3nQ",
@@ -9,20 +9,35 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-20T08:58:27Z",
-  "deletions": 5,
+  "deletions": 27,
   "files": [
     {
+      "path": "Documentation/platforms/arm/stm32f4/boards/nucleo-f412zg/index.rst",
+      "additions": 32,
+      "deletions": 25
+    },
+    {
+      "path": "arch/arm/src/stm32/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f412zg/configs/nsh/defconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
       "path": "boards/arm/stm32/nucleo-f412zg/include/board.h",
-      "additions": 5,
-      "deletions": 5
+      "additions": 8,
+      "deletions": 0
     }
   ],
   "headRefName": "fix/issue-17722-nucleo-f412zg-stlink-console",
-  "headRefOid": "78f49aeae8b844975a57c4634dc6c1dcb6fbd91a",
+  "headRefOid": "8d0f4d81c0eb25bb6dc65a54f16893ef4876bbac",
   "headRepository": {
     "id": "R_kgDOQ70AiA",
     "name": "nuttx",
@@ -37,10 +52,22 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
-      "name": "Size: XS",
-      "description": "The size of the change in this PR is very small",
-      "color": "0E8A16"
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8Lkbg",
@@ -58,6 +85,6 @@
   "number": 18766,
   "state": "OPEN",
   "title": "boards/arm/stm32: route nucleo-f412zg console through ST-LINK VCP.",
-  "updatedAt": "2026-04-20T18:25:26Z",
+  "updatedAt": "2026-04-21T04:43:04Z",
   "url": "https://github.com/apache/nuttx/pull/18766"
 }
