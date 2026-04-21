@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-21T22:22:56Z",
   "createdAt": "2026-04-21T13:57:24Z",
   "deletions": 18,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3349a40e9a90e35410eaec3dbd08dc75bc7432b1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-21T22:22:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18773,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "sensors/Make.defs: Aligned Make with Cmake file",
-  "updatedAt": "2026-04-21T14:15:42Z",
+  "updatedAt": "2026-04-21T22:22:56Z",
   "url": "https://github.com/apache/nuttx/pull/18773"
 }
