@@ -1,0 +1,564 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 147,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-22T18:10:23Z",
+  "deletions": 7042,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 0,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32_pinmap.h",
+      "additions": 16,
+      "deletions": 33
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32f03x_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 244
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32f05x_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 122
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32f07x_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 388
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32f09x_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 417
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32g0_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 286
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32l0_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 329
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_gpio.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Kconfig",
+      "additions": 0,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32_pinmap.h",
+      "additions": 8,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f72xx73xx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 927
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f74xx75xx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 1175
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f76xx77xx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 1334
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_gpio.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 0,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_pinmap.h",
+      "additions": 11,
+      "deletions": 25
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 1542
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_gpio.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/b-l072z-lrwan1/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/b-l072z-lrwan1/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/b-l072z-lrwan1/configs/nxlines_oled/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/b-l072z-lrwan1/configs/sx127x/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/adcscope/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/jumbo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/cansock/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/jumbo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-f072rb/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-f091rc/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-f091rc/configs/sx127x/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g070rb/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g071rb/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/configs/adc_dma/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-l073rz/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-l073rz/configs/sx127x/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32f051-discovery/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32f072-discovery/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32g071b-disco/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32g071b-disco/configs/oled/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/stm32l0538-disco/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/configs/cansock/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/configs/composite/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/configs/evalos/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/configs/note/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/configs/pysim/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/configs/evalos/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/steval-eth001v1/configs/foc_b16/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/steval-eth001v1/configs/foc_f32/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/steval-eth001v1/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746-ws/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/audio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/lvgl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/nxdemo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/configs/nxterm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f769i-disco/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f769i-disco/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/dualcdcacm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/f7corecomp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/i2s/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/meadow_os/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/projectlab/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/sdram/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/buzzer/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/eeprom/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/leds/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/littlefs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/lvgl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/mfrc522/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/modbus_master/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/modbus_slave/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/nxffs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/qencoder/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/rndis/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/sdcard/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/sdram/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/socketcan/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/tone/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/usbmsc-sdcard/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/zmodem/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/configs/oa_tc6/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "stm32-pinmap-remove-legacy",
+  "headRefOid": "b3c60a3f21670d198768229f4f847f5b04b22910",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7UuLwk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18779,
+  "state": "OPEN",
+  "title": "remove legacy pinmap support for stm32h7, stm32f7 and stm32f0l0g0",
+  "updatedAt": "2026-04-22T18:14:02Z",
+  "url": "https://github.com/apache/nuttx/pull/18779"
+}
