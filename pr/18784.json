@@ -1,5 +1,5 @@
 {
-  "additions": 25,
+  "additions": 4,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,21 +9,16 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 6,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-23T07:23:15Z",
-  "deletions": 21,
+  "deletions": 0,
   "files": [
     {
       "path": "boards/arm/stm32wb/flipperzero/configs/nsh/defconfig",
       "additions": 1,
       "deletions": 0
-    },
-    {
-      "path": "boards/arm/stm32wb/flipperzero/include/board.h",
-      "additions": 5,
-      "deletions": 5
     },
     {
       "path": "boards/arm/stm32wb/nucleo-wb55rg/configs/ble/defconfig",
@@ -39,15 +34,10 @@
       "path": "boards/arm/stm32wb/nucleo-wb55rg/configs/nsh/defconfig",
       "additions": 1,
       "deletions": 0
-    },
-    {
-      "path": "boards/arm/stm32wb/nucleo-wb55rg/include/board.h",
-      "additions": 16,
-      "deletions": 16
     }
   ],
   "headRefName": "stm32wb-new-pinmap",
-  "headRefOid": "4565f99fedaa0c058135707fe4a0c6ba8860d11a",
+  "headRefOid": "59ca6e78885b2e9baee5173800c9ef547770e612",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx",
@@ -62,10 +52,10 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
-      "color": "FEF2C0"
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8Lkbg",
@@ -83,6 +73,6 @@
   "number": 18784,
   "state": "OPEN",
   "title": "boards/stm32wb: migrate to new pinmap",
-  "updatedAt": "2026-04-23T08:20:49Z",
+  "updatedAt": "2026-04-23T08:27:18Z",
   "url": "https://github.com/apache/nuttx/pull/18784"
 }
