@@ -1,0 +1,564 @@
+{
+  "additions": 2132,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 123,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-23T18:19:53Z",
+  "deletions": 14382,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/Kconfig",
+      "additions": 0,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32_pinmap.h",
+      "additions": 8,
+      "deletions": 71
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f100_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 397
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f102_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 242
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f103c_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 262
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f103r_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 357
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f103v_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 418
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f103z_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 582
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f105r_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 315
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f105v_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 363
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f107v_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 407
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f20xxx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 687
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f30xxx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 663
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f33xxx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 452
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f37xxx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 597
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f40xxx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 1268
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f412xx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 760
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32g4xxc_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 693
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32g4xxk_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 447
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32g4xxm_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 937
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32g4xxq_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 1179
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32g4xxr_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 793
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32g4xxv_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 1061
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32g4xxxx_pinmap.h",
+      "additions": 16,
+      "deletions": 35
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32l15xxx_pinmap_legacy.h",
+      "additions": 0,
+      "deletions": 604
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_gpio.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/axoloti/include/board.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/b-g431b-esc1/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g431b-esc1/configs/cansock/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g431b-esc1/configs/foc_b16/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g431b-esc1/configs/foc_f32/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g431b-esc1/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/include/board.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/src/stm32_smps.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/include/board.h",
+      "additions": 23,
+      "deletions": 16
+    },
+    {
+      "path": "boards/arm/stm32/cloudctrl/include/board.h",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/emw3162/include/board.h",
+      "additions": 15,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/et-stm32-stamp/include/board.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/fire-stm32v2/include/board.h",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/include/board.h",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/maple/include/board.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/include/board.h",
+      "additions": 21,
+      "deletions": 13
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/include/board.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/src/stm32_adc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/src/stm32_foc_ihm07m1.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f207zg/include/board.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f207zg/src/stm32_adc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/include/board.h",
+      "additions": 22,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/src/stm32_adc.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/src/stm32_foc_ihm07m1.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/src/stm32_highpri.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/include/board.h",
+      "additions": 17,
+      "deletions": 12
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/src/stm32_adc.c",
+      "additions": 22,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303ze/include/board.h",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303ze/src/stm32_adc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/include/board.h",
+      "additions": 39,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/src/stm32_adc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/src/stm32_highpri.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f401re/include/board.h",
+      "additions": 28,
+      "deletions": 20
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f410rb/include/board.h",
+      "additions": 19,
+      "deletions": 19
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f410rb/src/stm32_adc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f411re/include/board.h",
+      "additions": 28,
+      "deletions": 20
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f412zg/include/board.h",
+      "additions": 13,
+      "deletions": 13
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f429zi/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f429zi/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f429zi/configs/trace/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/include/board.h",
+      "additions": 46,
+      "deletions": 33
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_adc.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_foc_ihm08m1.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g431kb/include/board.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g431rb/include/board.h",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g431rb/src/stm32_adc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-g431rb/src/stm32_foc_ihm16m1.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-l152re/include/board.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/odrive36/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/odrive36/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-e407/include/board.h",
+      "additions": 44,
+      "deletions": 17
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-h405/include/board.h",
+      "additions": 15,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-h405/src/stm32_adc.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-h407/include/board.h",
+      "additions": 28,
+      "deletions": 12
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p107/include/board.h",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p207/include/board.h",
+      "additions": 25,
+      "deletions": 19
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p207/src/stm32_adc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/include/board.h",
+      "additions": 112,
+      "deletions": 26
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/composite/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/smallnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/tiny/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/omnibusf4/include/board.h",
+      "additions": 30,
+      "deletions": 23
+    },
+    {
+      "path": "boards/arm/stm32/photon/include/board.h",
+      "additions": 34,
+      "deletions": 11
+    },
+    {
+      "path": "boards/arm/stm32/shenzhou/include/board.h",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/include/board.h",
+      "additions": 108,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_selectlcd.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_selectnor.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_selectsram.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3220g-eval/include/board.h",
+      "additions": 107,
+      "deletions": 34
+    },
+    {
+      "path": "boards/arm/stm32/stm3220g-eval/src/stm32_selectlcd.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3220g-eval/src/stm32_selectsram.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm3240g-eval/include/board.h",
+      "additions": 125,
+      "deletions": 34
+    }
+  ],
+  "headRefName": "stm32-pinmap-remove-legacy",
+  "headRefOid": "6204cb0e8907b4bf2861d053c6b3000f4d7a0bef",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7VE72n",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18790,
+  "state": "OPEN",
+  "title": "migrate stm32f1, stm32f2, stm32f3, stm32f4, stm32g4, stm32l1 to new pinmap",
+  "updatedAt": "2026-04-23T18:27:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18790"
+}
