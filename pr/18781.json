@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-23T13:26:22Z",
   "createdAt": "2026-04-23T02:07:57Z",
   "deletions": 27,
   "files": [
@@ -70,15 +70,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f51052d78030d00001f71c780efcae9a588bf63b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-23T13:26:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18781,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Prefer tmpfs for /tmp mount in SIM and update documentation",
-  "updatedAt": "2026-04-23T12:35:59Z",
+  "updatedAt": "2026-04-23T13:26:32Z",
   "url": "https://github.com/apache/nuttx/pull/18781"
 }
