@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 30,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-23T12:34:01Z",
   "createdAt": "2026-04-23T09:01:59Z",
   "deletions": 89,
   "files": [
@@ -200,15 +200,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "94e5fb9d3ec5873ee8d9731cc516a62b0d4862b7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-23T12:34:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18786,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/stm32l4: migrate to new pinmap",
-  "updatedAt": "2026-04-23T09:08:04Z",
+  "updatedAt": "2026-04-23T12:34:01Z",
   "url": "https://github.com/apache/nuttx/pull/18786"
 }
