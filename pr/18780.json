@@ -1,5 +1,5 @@
 {
-  "additions": 1395,
+  "additions": 1377,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 17,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-23T18:56:33Z",
   "createdAt": "2026-04-22T23:15:25Z",
   "deletions": 0,
   "files": [
@@ -77,7 +77,7 @@
     },
     {
       "path": "drivers/input/Kconfig",
-      "additions": 34,
+      "additions": 16,
       "deletions": 0
     },
     {
@@ -102,7 +102,7 @@
     }
   ],
   "headRefName": "keypad_mpr121",
-  "headRefOid": "ddafcea8c45ef1fe6e9fa1ac3cd08d95453d27f6",
+  "headRefOid": "bf76741d70493654741c468a022cb44716813192",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -135,15 +135,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c4767005837fa097426f827300352d75665c6f7a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-23T18:56:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18780,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/input: Add support to MPR121 Capacitive Keypad",
-  "updatedAt": "2026-04-23T12:51:54Z",
+  "updatedAt": "2026-04-23T18:56:33Z",
   "url": "https://github.com/apache/nuttx/pull/18780"
 }
