@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-23T01:31:37Z",
   "createdAt": "2026-04-22T12:47:19Z",
   "deletions": 0,
   "files": [
@@ -60,15 +60,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "629d0fe356d0e336fa5b7b998e6846ac748f7e31"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-23T01:31:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18776,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/[risc-v|xtensa]: Re-add `RMT_LOOP_TEST_MODE` Kconfig entry",
-  "updatedAt": "2026-04-22T15:34:39Z",
+  "updatedAt": "2026-04-23T01:31:37Z",
   "url": "https://github.com/apache/nuttx/pull/18776"
 }
