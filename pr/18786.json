@@ -1,0 +1,214 @@
+{
+  "additions": 103,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 30,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-23T09:01:59Z",
+  "deletions": 89,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4x3xx_pinmap.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l4/b-l475e-iot01a/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/b-l475e-iot01a/configs/spirit-6lowpan/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/b-l475e-iot01a/configs/spirit-starhub/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/b-l475e-iot01a/configs/spirit-starpoint/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/b-l475e-iot01a/include/board.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/configs/spwm/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/configs/wgen/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/include/board.h",
+      "additions": 23,
+      "deletions": 23
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/src/stm32_adc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l452re/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l452re/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/configs/nxdemo/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/include/board.h",
+      "additions": 21,
+      "deletions": 21
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/src/stm32_adc.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l496zg/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l496zg/include/board.h",
+      "additions": 2,
+      "deletions": 13
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l496zg/src/stm32_adc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l4/steval-stlcs01v1/configs/lwl/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/steval-stlcs01v1/configs/usbnsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/steval-stlcs01v1/include/board.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476-mdk/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/include/board.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/configs/knsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/include/board.h",
+      "additions": 5,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "stm32l4-new-pinmap",
+  "headRefOid": "74c328b8c8c92b4ac8eb46d6c0a47b0fde41d83f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7U6mQH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18786,
+  "state": "OPEN",
+  "title": "boards/stm32l4: migrate to new pinmap",
+  "updatedAt": "2026-04-23T09:08:04Z",
+  "url": "https://github.com/apache/nuttx/pull/18786"
+}
