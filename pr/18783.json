@@ -1,5 +1,5 @@
 {
-  "additions": 8,
+  "additions": 2,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-23T07:19:15Z",
-  "deletions": 6,
+  "deletions": 0,
   "files": [
     {
       "path": "boards/arm/stm32l5/nucleo-l552ze/configs/nsh/defconfig",
@@ -21,23 +21,13 @@
       "deletions": 0
     },
     {
-      "path": "boards/arm/stm32l5/nucleo-l552ze/include/board.h",
-      "additions": 4,
-      "deletions": 4
-    },
-    {
       "path": "boards/arm/stm32l5/stm32l562e-dk/configs/nsh/defconfig",
       "additions": 1,
       "deletions": 0
-    },
-    {
-      "path": "boards/arm/stm32l5/stm32l562e-dk/include/board.h",
-      "additions": 2,
-      "deletions": 2
     }
   ],
   "headRefName": "stm32l5-new-pinmap",
-  "headRefOid": "e777ead4c03b41f44a3d9d2e3a7b35a60b3ee101",
+  "headRefOid": "147ffb9db5877a1e415699c31f5ced366837ed05",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx",
@@ -52,10 +42,10 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
-      "color": "FEF2C0"
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8Lkbg",
@@ -73,6 +63,6 @@
   "number": 18783,
   "state": "OPEN",
   "title": "boards/stm32l5: migrate to new pinmap",
-  "updatedAt": "2026-04-23T07:23:08Z",
+  "updatedAt": "2026-04-23T08:13:33Z",
   "url": "https://github.com/apache/nuttx/pull/18783"
 }
