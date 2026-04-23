@@ -1,5 +1,5 @@
 {
-  "additions": 1387,
+  "additions": 1395,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 15,
+  "changedFiles": 17,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-22T23:15:25Z",
@@ -41,6 +41,11 @@
       "deletions": 0
     },
     {
+      "path": "boards/arm/stm32/common/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
       "path": "boards/arm/stm32/common/src/Make.defs",
       "additions": 4,
       "deletions": 0
@@ -62,7 +67,12 @@
     },
     {
       "path": "boards/arm/stm32/stm32f4discovery/src/stm32_bringup.c",
-      "additions": 13,
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/CMakeLists.txt",
+      "additions": 4,
       "deletions": 0
     },
     {
@@ -77,7 +87,7 @@
     },
     {
       "path": "drivers/input/mpr121.c",
-      "additions": 573,
+      "additions": 572,
       "deletions": 0
     },
     {
@@ -92,7 +102,7 @@
     }
   ],
   "headRefName": "keypad_mpr121",
-  "headRefOid": "9572f36a63ce9471fba2bc87306d8877a5f91da8",
+  "headRefOid": "ddafcea8c45ef1fe6e9fa1ac3cd08d95453d27f6",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -126,14 +136,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18780,
   "state": "OPEN",
   "title": "drivers/input: Add support to MPR121 Capacitive Keypad",
-  "updatedAt": "2026-04-22T23:15:54Z",
+  "updatedAt": "2026-04-23T12:51:54Z",
   "url": "https://github.com/apache/nuttx/pull/18780"
 }
