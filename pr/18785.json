@@ -1,0 +1,154 @@
+{
+  "additions": 2307,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-23T08:42:24Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm64/src/imx9/Kconfig",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/hardware/imx9_flexio.h",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_flexio_dshot.c",
+      "additions": 1142,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/imx9/imx9_flexio_dshot.h",
+      "additions": 112,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/include/board.h",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/src/imx93-evk.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/src/imx9_bringup.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/src/imx9_dshot.c",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/dshot.c",
+      "additions": 461,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/dshot.h",
+      "additions": 308,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "introduce_dshot_upperhalf_and_imx9_lowerhalf",
+  "headRefOid": "864e096b573588f75779425f9e0fb3bd6e54afc0",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiUac7U6Pco",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18785,
+  "state": "OPEN",
+  "title": "Introduce dshot ESC protocol upperhalf and imx9 lowerhalf",
+  "updatedAt": "2026-04-23T08:48:17Z",
+  "url": "https://github.com/apache/nuttx/pull/18785"
+}
