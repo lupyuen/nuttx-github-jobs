@@ -1,5 +1,5 @@
 {
-  "additions": 2307,
+  "additions": 2311,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 17,
+  "changedFiles": 18,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-23T08:42:24Z",
   "deletions": 0,
   "files": [
+    {
+      "path": "arch/arm64/src/imx9/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
     {
       "path": "arch/arm64/src/imx9/Kconfig",
       "additions": 87,
@@ -102,7 +107,7 @@
     }
   ],
   "headRefName": "introduce_dshot_upperhalf_and_imx9_lowerhalf",
-  "headRefOid": "864e096b573588f75779425f9e0fb3bd6e54afc0",
+  "headRefOid": "ba9d36da4b1b61cdd202dadb1493e067312fcc6f",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -149,6 +154,6 @@
   "number": 18785,
   "state": "OPEN",
   "title": "Introduce dshot ESC protocol upperhalf and imx9 lowerhalf",
-  "updatedAt": "2026-04-23T09:39:30Z",
+  "updatedAt": "2026-04-23T09:55:57Z",
   "url": "https://github.com/apache/nuttx/pull/18785"
 }
