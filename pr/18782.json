@@ -1,5 +1,5 @@
 {
-  "additions": 49,
+  "additions": 32,
   "assignees": [],
   "author": {
     "id": "U_kgDOD7r5cA",
@@ -9,16 +9,16 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 3,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-23T04:18:59Z",
-  "deletions": 13,
+  "deletions": 6,
   "files": [
     {
       "path": "fs/inode/inode.h",
-      "additions": 38,
-      "deletions": 13
+      "additions": 15,
+      "deletions": 6
     },
     {
       "path": "fs/vfs/Kconfig",
@@ -29,10 +29,15 @@
       "path": "include/nuttx/sched.h",
       "additions": 1,
       "deletions": 0
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 6,
+      "deletions": 0
     }
   ],
   "headRefName": "local",
-  "headRefOid": "8a14d6425ff6406e702d69d20f54be9875840353",
+  "headRefOid": "46a04af3d60f304eb30d68f408bafeea3fc86fb5",
   "headRepository": {
     "id": "R_kgDORZF4jg",
     "name": "nuttx",
@@ -67,6 +72,6 @@
   "number": 18782,
   "state": "OPEN",
   "title": "fs/inode: add optional manual FD backtrace control via task group flag",
-  "updatedAt": "2026-04-24T03:22:41Z",
+  "updatedAt": "2026-04-24T06:53:12Z",
   "url": "https://github.com/apache/nuttx/pull/18782"
 }

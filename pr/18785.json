@@ -1,5 +1,5 @@
 {
-  "additions": 2311,
+  "additions": 2941,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,12 +9,22 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 18,
+  "changedFiles": 20,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-23T08:42:24Z",
   "deletions": 0,
   "files": [
+    {
+      "path": "Documentation/components/drivers/character/timers/dshot.rst",
+      "additions": 448,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
     {
       "path": "arch/arm64/src/imx9/CMakeLists.txt",
       "additions": 4,
@@ -92,7 +102,7 @@
     },
     {
       "path": "drivers/timers/dshot.c",
-      "additions": 461,
+      "additions": 638,
       "deletions": 0
     },
     {
@@ -102,12 +112,12 @@
     },
     {
       "path": "include/nuttx/timers/dshot.h",
-      "additions": 308,
+      "additions": 312,
       "deletions": 0
     }
   ],
   "headRefName": "introduce_dshot_upperhalf_and_imx9_lowerhalf",
-  "headRefOid": "ba9d36da4b1b61cdd202dadb1493e067312fcc6f",
+  "headRefOid": "607fb3948fdd6875d3156a08eb5aa187c6271261",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -154,6 +164,6 @@
   "number": 18785,
   "state": "OPEN",
   "title": "Introduce dshot ESC protocol upperhalf and imx9 lowerhalf",
-  "updatedAt": "2026-04-23T12:47:33Z",
+  "updatedAt": "2026-04-24T06:08:15Z",
   "url": "https://github.com/apache/nuttx/pull/18785"
 }
