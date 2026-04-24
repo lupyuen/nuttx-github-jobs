@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-24T10:37:12Z",
   "createdAt": "2026-04-24T07:22:38Z",
   "deletions": 6,
   "files": [
@@ -64,15 +64,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5e29129d97da63dd7bd6ea5fb9fd5bc7bcf3c97d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T10:37:12Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18791,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Add LP_ADC support",
-  "updatedAt": "2026-04-24T07:30:41Z",
+  "updatedAt": "2026-04-24T10:37:12Z",
   "url": "https://github.com/apache/nuttx/pull/18791"
 }
