@@ -1,0 +1,78 @@
+{
+  "additions": 84,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI2Mzc4NjA2",
+    "is_bot": false,
+    "login": "LingaoM",
+    "name": "Lingao Meng"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-24T11:12:52Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/sim/Kconfig",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hosttime.c",
+      "additions": 55,
+      "deletions": 4
+    },
+    {
+      "path": "arch/sim/src/sim/sim_head.c",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_internal.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_sim_walltime_ratio",
+  "headRefOid": "1342c72e09f12cb4d2f9c14bcf460bec5c6593e2",
+  "headRepository": {
+    "id": "R_kgDOGdnTog",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI2Mzc4NjA2",
+    "name": "Lingao Meng",
+    "login": "LingaoM"
+  },
+  "id": "PR_kwDODZiUac7VT4v-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18801,
+  "state": "OPEN",
+  "title": "arch/sim: add simulated time ratio support",
+  "updatedAt": "2026-04-24T11:13:16Z",
+  "url": "https://github.com/apache/nuttx/pull/18801"
+}
