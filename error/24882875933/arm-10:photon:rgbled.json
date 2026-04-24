@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T10:01:35",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "photon",
+"config": "rgbled",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891454#step:10:549",
+"msg": "chip/stm32_otghsdev.c: In function 'arm_usbinitialize': \n ##[error]chip/stm32_otghsdev.c:5516:20: error: 'GPIO_OTGHS_DM' undeclared (first use in this function); did you mean 'GPIO_OTGHS_DM_0'? \n 5516 |   stm32_configgpio(GPIO_OTGHS_DM); \n |                    ^~~~~~~~~~~~~ \n |                    GPIO_OTGHS_DM_0 \n chip/stm32_otghsdev.c:5516:20: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]chip/stm32_otghsdev.c:5517:20: error: 'GPIO_OTGHS_DP' undecla"
+}

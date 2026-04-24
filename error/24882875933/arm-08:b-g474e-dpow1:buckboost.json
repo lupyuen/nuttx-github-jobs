@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T09:54:16",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-08",
+"board": "b-g474e-dpow1",
+"config": "buckboost",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891446#step:10:418",
+"msg": "chip/stm32_hrtim.c: In function 'hrtim_gpios_config': \n ##[error]chip/stm32_hrtim.c:2473:20: error: 'GPIO_HRTIM1_CHC1' undeclared (first use in this function); did you mean 'GPIO_HRTIM1_CHC1_0'? \n 2473 |   stm32_configgpio(GPIO_HRTIM1_CHC1); \n |                    ^~~~~~~~~~~~~~~~ \n |                    GPIO_HRTIM1_CHC1_0 \n chip/stm32_hrtim.c:2473:20: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]chip/stm32_hrtim.c:2477:20: error: 'GPIO_HRTIM1_CHC2' "
+}

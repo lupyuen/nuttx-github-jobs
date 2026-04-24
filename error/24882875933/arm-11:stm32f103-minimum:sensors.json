@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T09:50:51",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-11",
+"board": "stm32f103-minimum",
+"config": "sensors",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891431#step:10:969",
+"msg": "##[error]chip/stm32_serial.c:764:20: error: 'GPIO_USART1_TX' undeclared here (not in a function); did you mean 'GPIO_USART1_TX_0'? \n 764 |   .tx_gpio       = GPIO_USART1_TX, \n |                    ^~~~~~~~~~~~~~ \n |                    GPIO_USART1_TX_0 \n ##[error]chip/stm32_serial.c:765:20: error: 'GPIO_USART1_RX' undeclared here (not in a function); did you mean 'GPIO_USART1_RX_0'? \n 765 |   .rx_gpio       = GPIO_USART1_RX, \n |                    ^~~~~~~~~~~~~~ \n |                    GPIO_USART1_RX_0"
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T09:58:21",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "omnibusf4",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891454#step:10:372",
+"msg": "##[error]chip/stm32_otgfsdev.c:5623:20: error: use of undeclared identifier 'GPIO_OTGFS_DM' \n 5623 |   stm32_configgpio(GPIO_OTGFS_DM); \n |                    ^ \n ##[error]chip/stm32_otgfsdev.c:5624:20: error: use of undeclared identifier 'GPIO_OTGFS_DP' \n 5624 |   stm32_configgpio(GPIO_OTGFS_DP); \n |                    ^ \n ##[error]chip/stm32_otgfsdev.c:5628:20: error: use of undeclared identifier 'GPIO_OTGFS_ID' \n 5628 |   stm32_configgpio(GPIO_OTGFS_ID); \n |                    ^ \n 3 errors gener"
+}

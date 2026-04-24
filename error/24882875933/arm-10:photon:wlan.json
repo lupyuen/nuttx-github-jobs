@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T09:59:36",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "photon",
+"config": "wlan",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891454#step:10:419",
+"msg": "chip/stm32_sdio.c: In function 'stm32_configwaitints': \n ##[error]chip/stm32_sdio.c:645:16: error: 'GPIO_SDIO_D0' undeclared (first use in this function); did you mean 'GPIO_SDIO_D2_0'? \n 645 |       pinset = GPIO_SDIO_D0 & (GPIO_PORT_MASK | GPIO_PIN_MASK); \n |                ^~~~~~~~~~~~ \n |                GPIO_SDIO_D2_0 \n chip/stm32_sdio.c:645:16: note: each undeclared identifier is reported only once for each function it appears in \n chip/stm32_sdio.c: In function 'stm32_rdyinterrupt': \n ##[error]"
+}

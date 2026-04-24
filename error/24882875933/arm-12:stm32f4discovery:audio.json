@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T09:56:16",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-12",
+"board": "stm32f4discovery",
+"config": "audio",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891427#step:10:503",
+"msg": "chip/stm32_i2s.c: In function 'i2s3_configure': \n ##[error]chip/stm32_i2s.c:2488:24: error: 'GPIO_I2S3_MCK' undeclared (first use in this function); did you mean 'GPIO_I2S3_CK'? \n 2488 |       stm32_configgpio(GPIO_I2S3_MCK); \n |                        ^~~~~~~~~~~~~ \n |                        GPIO_I2S3_CK \n chip/stm32_i2s.c:2488:24: note: each undeclared identifier is reported only once for each function it appears in \n make[1]: *** [Makefile:179: stm32_i2s.o] Error 1 \n chip/stm32_otgfshost.c: In fun"
+}

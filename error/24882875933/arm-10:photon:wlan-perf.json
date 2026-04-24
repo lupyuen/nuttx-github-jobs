@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T10:02:10",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "photon",
+"config": "wlan-perf",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891454#step:10:589",
+"msg": "chip/stm32_sdio.c: In function 'sdio_initialize': \n ##[error]chip/stm32_sdio.c:3050:20: error: 'GPIO_SDIO_D0' undeclared (first use in this function); did you mean 'GPIO_SDIO_D2_0'? \n 3050 |   stm32_configgpio(GPIO_SDIO_D0 | SDIO_PULLUP_ENABLE); \n |                    ^~~~~~~~~~~~ \n |                    GPIO_SDIO_D2_0 \n chip/stm32_sdio.c:3050:20: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]chip/stm32_sdio.c:3052:20: error: 'GPIO_SDIO_D1' undeclared"
+}

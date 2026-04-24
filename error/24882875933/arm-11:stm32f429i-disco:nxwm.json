@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T10:02:14",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-11",
+"board": "stm32f429i-disco",
+"config": "nxwm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891431#step:10:2959",
+"msg": "##[error]board/stm32_extmem.c:79:3: error: 'GPIO_FMC_D0' undeclared here (not in a function); did you mean 'GPIO_FMC_D2_0'? \n 79 |   GPIO_FMC_D0, GPIO_FMC_D1, GPIO_FMC_D2, GPIO_FMC_D3, \n |   ^~~~~~~~~~~ \n |   GPIO_FMC_D2_0 \n ##[error]board/stm32_extmem.c:79:16: error: 'GPIO_FMC_D1' undeclared here (not in a function); did you mean 'GPIO_FMC_D1_0'? \n 79 |   GPIO_FMC_D0, GPIO_FMC_D1, GPIO_FMC_D2, GPIO_FMC_D3, \n |                ^~~~~~~~~~~ \n |                GPIO_FMC_D1_0 \n ##[error]board/stm32_extmem"
+}

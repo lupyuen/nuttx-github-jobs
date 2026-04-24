@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-24T09:55:09",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-11",
+"board": "stm32f103-minimum",
+"config": "ssd1306",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24882875933/job/72855891431#step:10:1887",
+"msg": "chip/stm32_lowputc.c: In function 'stm32_lowsetup': \n ##[error]chip/stm32_lowputc.c:61:36: error: 'GPIO_USART1_TX' undeclared (first use in this function); did you mean 'GPIO_USART1_TX_0'? \n 61 | #    define STM32_CONSOLE_TX       GPIO_USART1_TX \n |                                    ^~~~~~~~~~~~~~ \n chip/stm32_lowputc.c:545:20: note: in expansion of macro 'STM32_CONSOLE_TX' \n 545 |   stm32_configgpio(STM32_CONSOLE_TX); \n |                    ^~~~~~~~~~~~~~~~ \n chip/stm32_lowputc.c:61:36: note: each "
+}
