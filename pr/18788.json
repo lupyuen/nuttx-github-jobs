@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-24T03:09:41Z",
   "createdAt": "2026-04-23T14:22:04Z",
   "deletions": 13,
   "files": [
@@ -131,15 +131,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "04c4269ef02ffa6f72821381e102958247666852"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T03:09:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18788,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Espressif: Update RMT peripheral testing application to `irtest`",
-  "updatedAt": "2026-04-23T15:43:17Z",
+  "updatedAt": "2026-04-24T03:09:41Z",
   "url": "https://github.com/apache/nuttx/pull/18788"
 }
