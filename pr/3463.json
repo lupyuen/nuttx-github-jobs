@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-24T12:58:50Z",
   "createdAt": "2026-04-23T15:20:16Z",
   "deletions": 0,
   "files": [
@@ -89,15 +89,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "62f3d37041f3a72dc71cec50187c656d89fed4e5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T12:58:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 3463,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/vncviewer: add VNC viewer for LCD display",
-  "updatedAt": "2026-04-24T05:57:08Z",
+  "updatedAt": "2026-04-24T13:19:24Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3463"
 }
