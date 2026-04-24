@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-24T11:55:58Z",
   "createdAt": "2026-04-24T07:19:19Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "eccfba4776808ad1a705d9da25793bdd8d227afe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T11:55:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 3464,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": ".github/build.yml: improve ntfc installation",
-  "updatedAt": "2026-04-24T09:08:34Z",
+  "updatedAt": "2026-04-24T11:55:58Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3464"
 }

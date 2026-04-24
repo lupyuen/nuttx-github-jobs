@@ -1,0 +1,83 @@
+{
+  "additions": 545,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4OTUyMzA2",
+    "is_bot": false,
+    "login": "DheerajSingh1107",
+    "name": "Dheeraj Singh"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-24T11:26:11Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/as5047d.c",
+      "additions": 417,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/as5047d.h",
+      "additions": 111,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/qencoder.h",
+      "additions": 5,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/as5047d-driver",
+  "headRefOid": "e4737991282b2c8022ad0beb16e3f2816648dafb",
+  "headRepository": {
+    "id": "R_kgDOMhp_sg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4OTUyMzA2",
+    "name": "Dheeraj Singh",
+    "login": "DheerajSingh1107"
+  },
+  "id": "PR_kwDODZiUac7VUGM2",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
+      "name": "Area: Sensors",
+      "description": "Sensors issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18802,
+  "state": "OPEN",
+  "title": "drivers/sensors: Add AS5047D magnetic encoder driver",
+  "updatedAt": "2026-04-24T11:55:41Z",
+  "url": "https://github.com/apache/nuttx/pull/18802"
+}

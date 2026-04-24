@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-24T11:56:22Z",
   "createdAt": "2026-04-24T07:31:39Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fe5c65649a2706a5457247b0220b806963f2134b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T11:56:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18793,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": ".github: use ntfc test cases from Apache repo",
-  "updatedAt": "2026-04-24T10:38:45Z",
+  "updatedAt": "2026-04-24T11:56:22Z",
   "url": "https://github.com/apache/nuttx/pull/18793"
 }
