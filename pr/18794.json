@@ -1,0 +1,93 @@
+{
+  "additions": 44,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-24T09:23:41Z",
+  "deletions": 40,
+  "files": [
+    {
+      "path": "boards/arm/stm32/nucleo-l152re/configs/lcd/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-l152re/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-l152re/include/board.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/configs/chrono/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/include/board.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32/stm32ldiscovery/src/stm32ldiscovery.h",
+      "additions": 28,
+      "deletions": 28
+    }
+  ],
+  "headRefName": "stm32-pinmap-remove-legacy-stm32l1",
+  "headRefOid": "0d60809a2c2bde83d12ba6d25a3b9c75c86a31dd",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7VSAry",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18794,
+  "state": "OPEN",
+  "title": "boards/stm32l1: migrate to new pinmap",
+  "updatedAt": "2026-04-24T09:24:08Z",
+  "url": "https://github.com/apache/nuttx/pull/18794"
+}

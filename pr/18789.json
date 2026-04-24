@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 39,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-24T08:44:30Z",
   "createdAt": "2026-04-23T17:52:12Z",
   "deletions": 4587,
   "files": [
@@ -245,15 +245,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e2cc71f540f8cf413b60224e2c0bb4d967952fea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T08:44:30Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18789,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "cleanup after pinmap migration for stm32l5, stm32wb, stm32l4",
-  "updatedAt": "2026-04-24T03:11:02Z",
+  "updatedAt": "2026-04-24T08:44:31Z",
   "url": "https://github.com/apache/nuttx/pull/18789"
 }
