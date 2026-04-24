@@ -106,4 +106,9 @@ curl https://lupyuen.github.io/nuttx-github-jobs/build-monitor.json \
   | jq ".[] | select(.pr_number == $pr_number and .build_score > 0) | .build_msg"
 ```
 
+GitHub Pages has delays publishing huge JSON Files to `github.io`. You might wanna use these JSON Links instead:
+- Build Monitor JSON: https://raw.githubusercontent.com/lupyuen/nuttx-github-jobs/refs/heads/main/build-monitor.json
+- Build Monitor PR JSON: https://raw.githubusercontent.com/lupyuen/nuttx-github-jobs/refs/heads/main/build-monitor-pr.json
+- Build Monitor HTML: https://raw.githubusercontent.com/lupyuen/nuttx-github-jobs/refs/heads/main/build-monitor.html
+
 ![Most Expensive PRs](https://github.com/user-attachments/assets/424c37fe-2f20-4f47-8806-60ce5a144cc0)
