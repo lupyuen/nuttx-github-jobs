@@ -1,0 +1,155 @@
+{
+  "additions": 896,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-25T21:51:59Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "Documentation/components/drivers/character/quadrature.rst",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f4discovery/index.rst",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/include/stm32_mt6816.h",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/common/src/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/common/src/Make.defs",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/common/src/stm32_mt6816.c",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/mt6816/defconfig",
+      "additions": 56,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/include/board.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/stm32_bringup.c",
+      "additions": 16,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/src/stm32_spi.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/mt6816.c",
+      "additions": 394,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/mt6816.h",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/spi/spi.h",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mt6816_mag_encoder",
+  "headRefOid": "8c55d772b6a3ebd7fed2cd46d47eda2b53ecca66",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac7Vpju5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18807,
+  "state": "OPEN",
+  "title": "drivers/sensors: Add support to mt6816 magnetic encoder",
+  "updatedAt": "2026-04-25T21:52:27Z",
+  "url": "https://github.com/apache/nuttx/pull/18807"
+}
