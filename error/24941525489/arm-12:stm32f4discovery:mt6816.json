@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-26T00:08:57",
+"arch": "arm",
+"subarch": "unknown",
+"group": "arm-12",
+"board": "stm32f4discovery",
+"config": "mt6816",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24941525489/job/73036012579#step:10:628",
+"msg": "sensors/mt6816.c: In function 'mt6816_ioctl': \n ##[error]sensors/mt6816.c:337:28: error: unused variable 'priv' [-Werror=unused-variable] \n 337 |   FAR struct mt6816_dev_s *priv = (FAR struct mt6816_dev_s *)lower; \n |                            ^~~~ \n sensors/mt6816.c: At top level: \n ##[error]sensors/mt6816.c:181:17: error: 'calc_even_parity' defined but not used [-Werror=unused-function] \n 181 | static uint16_t calc_even_parity(uint16_t value) \n |                 ^~~~~~~~~~~~~~~~ \n cc1: all warnin"
+}
