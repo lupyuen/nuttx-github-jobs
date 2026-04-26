@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-26T00:27:15",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-ethernet-kit",
+"config": "ethernet",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24943500306/job/73041854305#step:10:28532",
+"msg": "In file included from ./chip/esp32_emac.c:38: \n 13 | #include \"lwip/sockets.h\" \n |          ^~~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: xtensa-esp32-elf-gcc failed: 1 \n command: xtensa-esp32-elf-gcc -MT ./esp32_emac.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '-ffunction-sections' '-fdata-sections' '-mlongcalls' '-isystem' '/github/workspace/sources/nuttx/includ"
+}

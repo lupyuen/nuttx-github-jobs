@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-26T00:39:29",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32c3-devkit",
+"config": "mcuboot_nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24943500306/job/73041854317#step:10:65321",
+"msg": "In file included from /github/workspace/sources/nuttx/include/pthread.h:32, \n from /github/workspace/sources/nuttx/arch/risc-v/src/chip/esp-hal-3rdparty/components/esp_libc/platform_include/pthread.h:13, \n from /github/workspace/sources/nuttx/include/nuttx/sched.h:37, \n from /github/workspace/sources/nuttx/include/nuttx/arch.h:89, \n from common/crt0.c:27: \n ##[error]/github/workspace/sources/nuttx/include/nuttx/mutex.h:436:32: error: request for member 'val' in something not a structure or union \n 436"
+}

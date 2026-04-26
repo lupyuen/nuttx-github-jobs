@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-26T00:36:21",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-sparrow-kit",
+"config": "wifi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24943500306/job/73041854305#step:10:51359",
+"msg": "In file included from /github/workspace/sources/nuttx/include/nuttx/wireless/wireless.h:39, \n from ./chip/esp32_wifi_adapter.h:29, \n from ./chip/esp32_wifi_adapter.c:49: \n 13 | #include \"lwip/sockets.h\" \n |          ^~~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: xtensa-esp32-elf-gcc failed: 1 \n command: xtensa-esp32-elf-gcc -MT ./esp32_wifi_adapter.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-ali"
+}
