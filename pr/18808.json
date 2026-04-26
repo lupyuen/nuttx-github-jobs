@@ -1,0 +1,80 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBevy9g",
+    "is_bot": false,
+    "login": "MukundaKatta",
+    "name": "Mukunda Rao Katta"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-25T23:45:08Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/risc-v/src/esp32c3/hal_esp32c3.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/hal_esp32c6.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/hal_esp32h2.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/hal.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/hal.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/hal.mk",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/esp32-make-build-stdatomic-shim",
+  "headRefOid": "4b60a2bb1ae4f32217c0e71bda827d97876765e5",
+  "headRepository": {
+    "id": "R_kgDOSMqIaQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBevy9g",
+    "name": "Mukunda Rao Katta",
+    "login": "MukundaKatta"
+  },
+  "id": "PR_kwDODZiUac7VqIhw",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18808,
+  "state": "OPEN",
+  "title": "tools/espressif: add esp_libc platform_include shim for C23 ATOMIC_VAR_INIT",
+  "updatedAt": "2026-04-25T23:45:11Z",
+  "url": "https://github.com/apache/nuttx/pull/18808"
+}
