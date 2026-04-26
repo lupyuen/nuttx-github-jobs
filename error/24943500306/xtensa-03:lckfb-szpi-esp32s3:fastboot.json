@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-26T15:13:45",
+"arch": "xtensa",
+"subarch": "esp32s3",
+"group": "xtensa-03",
+"board": "lckfb-szpi-esp32s3",
+"config": "fastboot",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24943500306/job/73082280744#step:10:130389",
+"msg": "In file included from /github/workspace/sources/nuttx/include/nuttx/net/netdev.h:53, \n from /github/workspace/sources/nuttx/arch/xtensa/src/common/espressif/esp_wifi_utils.h:31, \n from ./chip/esp32s3_wifi_adapter.c:54: \n 13 | #include \"lwip/sockets.h\" \n |          ^~~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: xtensa-esp32s3-elf-gcc failed: 1 \n command: xtensa-esp32s3-elf-gcc -MT ./esp32s3_wifi_adapter.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-W"
+}

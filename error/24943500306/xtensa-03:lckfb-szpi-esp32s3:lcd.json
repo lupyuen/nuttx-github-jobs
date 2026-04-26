@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-26T15:11:59",
+"arch": "xtensa",
+"subarch": "esp32s3",
+"group": "xtensa-03",
+"board": "lckfb-szpi-esp32s3",
+"config": "lcd",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/24943500306/job/73082280744#step:10:123159",
+"msg": "In file included from /github/workspace/sources/nuttx/include/pthread.h:32, \n from /github/workspace/sources/nuttx/arch/xtensa/src/chip/esp-hal-3rdparty/components/esp_libc/platform_include/pthread.h:13, \n from /github/workspace/sources/nuttx/include/nuttx/sched.h:37, \n from /github/workspace/sources/nuttx/include/nuttx/arch.h:89, \n from common/crt0.c:33: \n ##[error]/github/workspace/sources/nuttx/include/nuttx/mutex.h:436:32: error: request for member 'val' in something not a structure or union \n 436"
+}

@@ -1,5 +1,5 @@
 {
-  "additions": 896,
+  "additions": 905,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 17,
+  "changedFiles": 20,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-25T21:51:59Z",
-  "deletions": 4,
+  "deletions": 5,
   "files": [
     {
       "path": "Documentation/components/drivers/character/quadrature.rst",
@@ -26,9 +26,24 @@
       "deletions": 0
     },
     {
+      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f4discovery/mt6816.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
       "path": "arch/arm/src/stm32/Kconfig",
       "additions": 10,
       "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/Make.defs",
+      "additions": 3,
+      "deletions": 1
     },
     {
       "path": "boards/arm/stm32/common/include/stm32_mt6816.h",
@@ -47,7 +62,7 @@
     },
     {
       "path": "boards/arm/stm32/common/src/stm32_mt6816.c",
-      "additions": 89,
+      "additions": 91,
       "deletions": 0
     },
     {
@@ -62,8 +77,8 @@
     },
     {
       "path": "boards/arm/stm32/stm32f4discovery/src/stm32_bringup.c",
-      "additions": 16,
-      "deletions": 2
+      "additions": 15,
+      "deletions": 1
     },
     {
       "path": "boards/arm/stm32/stm32f4discovery/src/stm32_spi.c",
@@ -87,7 +102,7 @@
     },
     {
       "path": "drivers/sensors/mt6816.c",
-      "additions": 394,
+      "additions": 396,
       "deletions": 0
     },
     {
@@ -102,7 +117,7 @@
     }
   ],
   "headRefName": "mt6816_mag_encoder",
-  "headRefOid": "8c55d772b6a3ebd7fed2cd46d47eda2b53ecca66",
+  "headRefOid": "ababa9a8d22a6b7b530e13cfd0a53a5747d0703e",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -150,6 +165,6 @@
   "number": 18807,
   "state": "OPEN",
   "title": "drivers/sensors: Add support to mt6816 magnetic encoder",
-  "updatedAt": "2026-04-26T13:06:29Z",
+  "updatedAt": "2026-04-26T14:58:55Z",
   "url": "https://github.com/apache/nuttx/pull/18807"
 }
