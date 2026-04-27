@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-27T15:01:56Z",
   "createdAt": "2026-04-27T08:53:02Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d167819d5b8c156079f3615948e9010050bf4c10"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-27T15:01:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18810,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "syscall: fcntl param3 type to uintptr_t",
-  "updatedAt": "2026-04-27T09:43:31Z",
+  "updatedAt": "2026-04-27T15:01:56Z",
   "url": "https://github.com/apache/nuttx/pull/18810"
 }
