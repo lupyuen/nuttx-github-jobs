@@ -1,0 +1,77 @@
+{
+  "additions": 74,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjkwMTgzMDQ=",
+    "is_bot": false,
+    "login": "ankohuu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-27T11:11:05Z",
+  "deletions": 46,
+  "files": [
+    {
+      "path": "net/nat/ipv4_nat_entry.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "net/nat/ipv6_nat_entry.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "net/nat/nat.c",
+      "additions": 53,
+      "deletions": 30
+    },
+    {
+      "path": "net/nat/nat.h",
+      "additions": 12,
+      "deletions": 10
+    }
+  ],
+  "headRefName": "fix/nat-ping-id",
+  "headRefOid": "9b625774de077764b610cb55ce8c3dd1818aa267",
+  "headRepository": {
+    "id": "R_kgDORvNoIQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjkwMTgzMDQ=",
+    "login": "ankohuu"
+  },
+  "id": "PR_kwDODZiUac7V70t9",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18812,
+  "state": "OPEN",
+  "title": "net/nat: Let ICMP echo id zero be a valid NAT id.",
+  "updatedAt": "2026-04-27T11:19:24Z",
+  "url": "https://github.com/apache/nuttx/pull/18812"
+}
