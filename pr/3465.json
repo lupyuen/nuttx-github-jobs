@@ -1,0 +1,87 @@
+{
+  "additions": 365,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "is_bot": false,
+    "login": "zhhyu7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-27T02:25:41Z",
+  "deletions": 40,
+  "files": [
+    {
+      "path": "include/netutils/netlib.h",
+      "additions": 31,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/netlib/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/netlib/Makefile",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/netlib/netlib_checkifconnectivity.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "netutils/netlib/netlib_checkipconnectivity.c",
+      "additions": 318,
+      "deletions": 27
+    },
+    {
+      "path": "netutils/netlib/netlib_ipv6route.c",
+      "additions": 6,
+      "deletions": 6
+    }
+  ],
+  "headRefName": "upstream-3",
+  "headRefOid": "8654615b0e6122cd6229e3291703ccf052f968f6",
+  "headRepository": {
+    "id": "R_kgDOG_2nHg",
+    "name": "incubator-nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIxMTIwOTQ0",
+    "login": "zhhyu7"
+  },
+  "id": "PR_kwDODZiT487Vzhn8",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3465,
+  "state": "OPEN",
+  "title": "netlib: replace DNS ping with gateway ping for connectivity check",
+  "updatedAt": "2026-04-27T02:26:01Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3465"
+}
