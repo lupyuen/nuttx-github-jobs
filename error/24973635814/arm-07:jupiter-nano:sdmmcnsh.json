@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-27T04:12:01",
+"arch": "arm",
+"subarch": "sama5",
+"group": "arm-07",
+"board": "jupiter-nano",
+"config": "sdmmcnsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/24973635814/job/73121318780#step:10:702",
+"msg": "netlib_checkipconnectivity.c: In function 'netlib_check_ipconnectivity': \n ##[error]netlib_checkipconnectivity.c:348:23: error: variable 'info6' set but not used [-Werror=unused-but-set-variable] \n 348 |   struct ping6_info_s info6; \n |                       ^~~~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: netlib_checkipconnectivity.c.github.workspace.sources.apps.netutils.netlib.o] Error 1 \n make[2]: Target 'all' not remade because o"
+}
