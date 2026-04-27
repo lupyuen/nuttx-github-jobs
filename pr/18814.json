@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-27T19:20:22Z",
   "createdAt": "2026-04-27T14:13:16Z",
   "deletions": 21,
   "files": [
@@ -90,15 +90,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "64cf22628f70704a0b96fdf3886d616b22e66c07"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-27T19:20:22Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18814,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Fix PM wakeup sources",
-  "updatedAt": "2026-04-27T14:36:34Z",
+  "updatedAt": "2026-04-27T19:20:22Z",
   "url": "https://github.com/apache/nuttx/pull/18814"
 }
