@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-27T07:04:34Z",
   "createdAt": "2026-04-27T04:03:53Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e7fd9b1d49e73b2cc3e40d86eb7881d414874e07"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-27T07:04:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 18809,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/sim: add host_set_timeratio stub for Windows",
-  "updatedAt": "2026-04-27T06:49:50Z",
+  "updatedAt": "2026-04-27T07:04:34Z",
   "url": "https://github.com/apache/nuttx/pull/18809"
 }
