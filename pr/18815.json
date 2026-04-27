@@ -1,0 +1,103 @@
+{
+  "additions": 2369,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3ODY0Mzc0",
+    "is_bot": false,
+    "login": "dlizewski",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-27T17:58:10Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/configs/nshusbnet/defconfig",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/stm32_usb.c",
+      "additions": 34,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/usbhost/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/Kconfig",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_cdcecm.c",
+      "additions": 2160,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/usbhost/usbhost_enumerate.c",
+      "additions": 18,
+      "deletions": 10
+    },
+    {
+      "path": "include/nuttx/usb/usbhost.h",
+      "additions": 48,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/dl.usbecm",
+  "headRefOid": "38866d8497e8c8c26e8f0e48b17f2954afe623dc",
+  "headRepository": {
+    "id": "R_kgDOKSEznw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3ODY0Mzc0",
+    "login": "dlizewski"
+  },
+  "id": "PR_kwDODZiUac7WELnT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvoqF5A",
+      "name": "Area: USB",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18815,
+  "state": "OPEN",
+  "title": "Add USB CDC-ECM Host support",
+  "updatedAt": "2026-04-27T18:04:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18815"
+}
