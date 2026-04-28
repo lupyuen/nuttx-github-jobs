@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:07:27",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "olimexino-stm32",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252430#step:10:41853",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n ./helloxx_main.cxx:29:10: fatal error: 'cstdio' file not found \n 29 | #include <cstdio> \n |          ^~~~~~~~ \n 1 error generated. \n ERROR: clang++ failed: 1 \n command: clang++ -MT ./helloxx_main.cxx.github.workspace.sources.apps.examples.helloxx.o  -M '-Wno-attributes' '-Wno-unknown-pragmas' '-nostdinc++' '-Wno-psabi' '-fno-exceptions' '-fcheck-new' '-fno-rtti' '-Os' '-fno-strict-aliasing' '-f"
+}

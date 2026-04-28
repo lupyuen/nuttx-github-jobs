@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:08:42",
+"arch": "arm",
+"subarch": "imx6",
+"group": "arm-02",
+"board": "sabre-6quad",
+"config": "netnsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252448#step:10:7220",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n In file included from udpblaster_text.c:28: \n ##[error]udpblaster.h:106:4: error: #error \"Additional link layer definitions needed\" \n 106 | #  error \"Additional link layer definitions needed\" \n |    ^~~~~ \n make[3]: *** [Makefile:49: udpblaster_text.hobj] Error 1 \n In file included from udpblaster_host.c:37: \n ##[error]udpblaster.h:106:4: error: #error \"Additional link layer definitions n"
+}

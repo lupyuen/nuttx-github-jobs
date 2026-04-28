@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:10:53",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "olimex-lpc1766stk",
+"config": "zmodem",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252309#step:10:101214",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./tftpc_get.c.github.workspace.sources.apps.netutils.tftpc.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-fno-strict-aliasing' '-fomit-frame-pointer' '-Wstack-usage"
+}

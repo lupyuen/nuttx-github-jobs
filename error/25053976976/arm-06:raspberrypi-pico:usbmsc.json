@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:09:58",
+"arch": "arm",
+"subarch": "rp2040",
+"group": "arm-06",
+"board": "raspberrypi-pico",
+"config": "usbmsc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252538#step:10:83309",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./usbserial_main.c.github.workspace.sources.apps.examples.usbserial.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer'"
+}

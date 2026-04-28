@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:08:32",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-11",
+"board": "stm32f103-minimum",
+"config": "audio_tone",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252362#step:10:7992",
+"msg": "CMake Warning at cmake/nuttx_kconfig.cmake:210 (message): \n Kconfig Configuration Error: /usr/local/bin/olddefconfig: \n arch/arm/src/imx9/Kconfig:801: error: couldn't parse 'endif # \n IMXRT_FLEXIO1': no corresponding 'if' \n Call Stack (most recent call first): \n CMakeLists.txt:359 (nuttx_olddefconfig) \n CMake Error at cmake/nuttx_kconfig.cmake:214 (message): \n nuttx_olddefconfig: Failed to initialize Kconfig configuration: \n Call Stack (most recent call first): \n CMakeLists.txt:359 (nuttx_olddefcon"
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:09:25",
+"arch": "arm",
+"subarch": "imx6",
+"group": "arm-02",
+"board": "sabre-6quad",
+"config": "elf",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252448#step:10:17182",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./elf_main.c.github.workspace.sources.apps.examples.elf.main.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '-Wstack-usage=' '-fno-common' '-Wall' '-Wshadow' '-Wundef' '-mfloat-abi"
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:11:27",
+"arch": "arm",
+"subarch": "at32",
+"group": "arm-01",
+"board": "at32f437-mini",
+"config": "can_socket",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252416#step:10:45011",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./candump.c.github.workspace.sources.apps.canutils.candump.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-fno-strict-aliasing' '-fomit-frame-pointer' '-Wstack-usage"
+}

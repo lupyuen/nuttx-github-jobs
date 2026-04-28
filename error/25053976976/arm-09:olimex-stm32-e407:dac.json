@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:10:59",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-09",
+"board": "olimex-stm32-e407",
+"config": "dac",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252336#step:10:78959",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n arm-none-eabi-gcc: error: missing argument to '-Wstack-usage=' \n ERROR: arm-none-eabi-gcc failed: 1 \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./dac_main.c.github.workspace.sources.apps.examples.dac.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-fno-strict-aliasing' '-"
+}

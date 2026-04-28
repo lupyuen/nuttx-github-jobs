@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:10:36",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-11",
+"board": "stm32f429i-disco",
+"config": "lvgl",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252362#step:10:70300",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n In file included from ./lvgldemo.c:31: \n In file included from /github/workspace/sources/apps/graphics/lvgl/lvgl/lvgl.h:21: \n In file included from /github/workspace/sources/apps/graphics/lvgl/lvgl/src/lv_init.h:16: \n /github/workspace/sources/apps/graphics/lvgl/lvgl/src/lv_conf_internal.h:60:18: fatal error: '../../lv_conf.h' file not found \n 60 |         #include \"../../lv_conf.h\"           "
+}

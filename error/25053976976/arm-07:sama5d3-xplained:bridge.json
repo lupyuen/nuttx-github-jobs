@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:11:49",
+"arch": "arm",
+"subarch": "sama5",
+"group": "arm-07",
+"board": "sama5d3-xplained",
+"config": "bridge",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252374#step:10:76812",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n ##[error]host_net1.c:37:40: error: 'CONFIG_EXAMPLES_BRIDGE_NET1_IOBUFIZE' undeclared here (not in a function); did you mean 'CONFIG_EXAMPLES_BRIDGE_NET1_NOMAC'? \n 37 | #define EXAMPLES_BRIDGE_SEND_IOBUFIZE  CONFIG_EXAMPLES_BRIDGE_NET1_IOBUFIZE \n |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n host_net1.c:37:40: note: in definition of macro 'EXAMPLES_BRIDGE_SEND_IOB"
+}

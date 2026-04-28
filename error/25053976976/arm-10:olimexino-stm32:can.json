@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-28T13:07:53",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "olimexino-stm32",
+"config": "can",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25053976976/job/73390252430#step:10:69626",
+"msg": "make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:744: olddefconfig] Error 1 \n ./helloxx_main.cxx:29:10: fatal error: 'cstdio' file not found \n 29 | #include <cstdio> \n |          ^~~~~~~~ \n In file included from ./can_main.c:32: \n In file included from /github/workspace/sources/nuttx/include/stdio.h:36: \n In file included from /github/workspace/sources/nuttx/include/nuttx/fs/fs.h:51: \n In file included from /github/workspace/sources/nuttx/include/nuttx/irq.h:39: \n In f"
+}
