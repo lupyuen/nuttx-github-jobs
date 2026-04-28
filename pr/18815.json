@@ -1,5 +1,5 @@
 {
-  "additions": 2369,
+  "additions": 2457,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE3ODY0Mzc0",
@@ -9,12 +9,22 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 8,
+  "changedFiles": 11,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-27T17:58:10Z",
   "deletions": 13,
   "files": [
+    {
+      "path": "Documentation/components/drivers/special/usbhost.rst",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32h5/boards/nucleo-h563zi/index.rst",
+      "additions": 69,
+      "deletions": 0
+    },
     {
       "path": "boards/arm/stm32h5/nucleo-h563zi/configs/nshusbnet/defconfig",
       "additions": 71,
@@ -42,22 +52,27 @@
     },
     {
       "path": "drivers/usbhost/usbhost_cdcecm.c",
-      "additions": 2160,
+      "additions": 2140,
       "deletions": 0
     },
     {
       "path": "drivers/usbhost/usbhost_enumerate.c",
-      "additions": 18,
+      "additions": 20,
       "deletions": 10
     },
     {
+      "path": "include/nuttx/board.h",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
       "path": "include/nuttx/usb/usbhost.h",
-      "additions": 48,
+      "additions": 21,
       "deletions": 1
     }
   ],
   "headRefName": "feature/dl.usbecm",
-  "headRefOid": "38866d8497e8c8c26e8f0e48b17f2954afe623dc",
+  "headRefOid": "40ea04cdee64d7874ee51c283449c8da16e9834f",
   "headRepository": {
     "id": "R_kgDOKSEznw",
     "name": "nuttx",
@@ -71,16 +86,16 @@
   "isDraft": false,
   "labels": [
     {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
       "id": "LA_kwDODZiUac8AAAABvj_dNA",
       "name": "Size: XL",
       "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
-    },
-    {
-      "id": "LA_kwDODZiUac8AAAABvoqF5A",
-      "name": "Area: USB",
-      "description": "",
-      "color": "0075ca"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8Lkbg",
@@ -98,6 +113,6 @@
   "number": 18815,
   "state": "OPEN",
   "title": "Add USB CDC-ECM Host support",
-  "updatedAt": "2026-04-27T20:30:36Z",
+  "updatedAt": "2026-04-28T19:40:19Z",
   "url": "https://github.com/apache/nuttx/pull/18815"
 }
