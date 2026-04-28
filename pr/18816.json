@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-28T19:15:06Z",
   "createdAt": "2026-04-28T09:42:57Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7dc6be8f082d29f81835d79366c2c6010b732165"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-28T19:15:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18816,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "clock_settime: don't block when up_rtc_settime is called",
-  "updatedAt": "2026-04-28T16:54:45Z",
+  "updatedAt": "2026-04-28T19:15:06Z",
   "url": "https://github.com/apache/nuttx/pull/18816"
 }
