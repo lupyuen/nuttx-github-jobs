@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-28T03:51:36Z",
   "createdAt": "2026-04-27T09:09:14Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "62b71c3b3041fadd985899abe669e78f08ad0574"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-28T03:51:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18811,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/vfs/fs_lock.c: Close stale locks unconditionally",
-  "updatedAt": "2026-04-27T09:21:03Z",
+  "updatedAt": "2026-04-28T05:23:24Z",
   "url": "https://github.com/apache/nuttx/pull/18811"
 }

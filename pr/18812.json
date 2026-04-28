@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-28T03:38:35Z",
   "createdAt": "2026-04-27T11:11:05Z",
   "deletions": 46,
   "files": [
@@ -63,15 +63,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d619ee6541efb523b5955b0c493244e355bd3afa"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-28T03:38:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18812,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/nat: Let ICMP echo id zero be a valid NAT id.",
-  "updatedAt": "2026-04-28T00:59:33Z",
+  "updatedAt": "2026-04-28T03:47:30Z",
   "url": "https://github.com/apache/nuttx/pull/18812"
 }
