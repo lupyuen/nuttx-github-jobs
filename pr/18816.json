@@ -1,0 +1,63 @@
+{
+  "additions": 28,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-28T09:42:57Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "sched/clock/clock_settime.c",
+      "additions": 28,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rtc-lpwork",
+  "headRefOid": "b007f302ac0d7167b9ab0e2346cb20b1db1d1093",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "name": "Michal Lenc",
+    "login": "michallenc"
+  },
+  "id": "PR_kwDODZiUac7WRzgm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18816,
+  "state": "OPEN",
+  "title": "clock_settime: don't block when up_rtc_settime is called",
+  "updatedAt": "2026-04-28T09:44:28Z",
+  "url": "https://github.com/apache/nuttx/pull/18816"
+}
