@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-29T12:17:55Z",
   "createdAt": "2026-04-29T06:46:47Z",
   "deletions": 136,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "18cd40cd5d6ecf8d99fa345dc8f71cb385aab281"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-29T12:17:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18819,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/nat: Update NAT rst documentation.",
-  "updatedAt": "2026-04-29T06:50:45Z",
+  "updatedAt": "2026-04-29T12:17:56Z",
   "url": "https://github.com/apache/nuttx/pull/18819"
 }
