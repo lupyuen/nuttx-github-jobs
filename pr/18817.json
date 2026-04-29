@@ -1,5 +1,5 @@
 {
-  "additions": 2196,
+  "additions": 2198,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjU3MTMwODQ0",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 7,
+  "changedFiles": 8,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-28T12:44:20Z",
-  "deletions": 139,
+  "deletions": 141,
   "files": [
+    {
+      "path": "arch/arm/src/imx9/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 2
+    },
     {
       "path": "arch/arm/src/imx9/Kconfig",
       "additions": 38,
@@ -52,7 +57,7 @@
     }
   ],
   "headRefName": "pr-imx95-arm-fixes",
-  "headRefOid": "8678d668401979afdac7161324f18c65c6b6e8dc",
+  "headRefOid": "79a70520a05a2258f7ce274fd9cf6b95175d65df",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNDIxNzAxMTM=",
     "name": "nuttx",
@@ -88,6 +93,6 @@
   "number": 18817,
   "state": "OPEN",
   "title": "i.MX95: ARM/CM7: LPI2C/Flexio backport and eDMA SG fix",
-  "updatedAt": "2026-04-28T18:46:42Z",
+  "updatedAt": "2026-04-29T08:04:27Z",
   "url": "https://github.com/apache/nuttx/pull/18817"
 }
