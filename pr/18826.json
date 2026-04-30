@@ -1,0 +1,67 @@
+{
+  "additions": 7,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCepapQ",
+    "is_bot": false,
+    "login": "wyr-7",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-04-30T08:07:02Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 6,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "group-kthread-fix",
+  "headRefOid": "108a3e6ab48be32201faf2b6c65271ded68d00a4",
+  "headRepository": {
+    "id": "R_kgDOLrN4YA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCepapQ",
+    "login": "wyr-7"
+  },
+  "id": "PR_kwDODZiUac7XA23a",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18826,
+  "state": "OPEN",
+  "title": "sched/group: skip group_release for kernel thread group",
+  "updatedAt": "2026-04-30T08:17:19Z",
+  "url": "https://github.com/apache/nuttx/pull/18826"
+}
