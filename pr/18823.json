@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-30T11:24:27Z",
   "createdAt": "2026-04-30T06:49:47Z",
   "deletions": 0,
   "files": [
@@ -54,15 +54,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "57acb80e6bd0e73f40d3a858c6e6afca66720684"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-30T11:24:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18823,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/stm32: add nucleo-f412zg ostest and coremark configs.",
-  "updatedAt": "2026-04-30T07:47:23Z",
+  "updatedAt": "2026-04-30T11:24:27Z",
   "url": "https://github.com/apache/nuttx/pull/18823"
 }
