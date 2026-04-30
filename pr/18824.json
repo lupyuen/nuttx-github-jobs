@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-30T13:23:42Z",
   "createdAt": "2026-04-30T07:20:47Z",
   "deletions": 3,
   "files": [
@@ -59,15 +59,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ae7525d1954b90a6c35de4fd1448a3e3ffaad6d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-30T13:23:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18824,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/include/arm*/irq.h: fix FPU context layout guard macro",
-  "updatedAt": "2026-04-30T11:23:39Z",
+  "updatedAt": "2026-04-30T13:23:42Z",
   "url": "https://github.com/apache/nuttx/pull/18824"
 }
