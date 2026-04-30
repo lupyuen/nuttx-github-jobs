@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-04-30T09:22:27",
+"arch": "arm",
+"subarch": "mps",
+"group": "arm-05",
+"board": "mps3-an547",
+"config": "clang",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25154995988/job/73734835595#step:10:428",
+"msg": "##[error]group/group_leave.c:176:24: error: address argument to atomic operation must be a pointer to _Atomic type ('uint32_t *' (aka 'unsigned int *') invalid) \n 176 |       bool release = !(atomic_read(&tcb->flags) & TCB_FLAG_TTYPE_KERNEL); \n |                        ^           ~~~~~~~~~~~ \n 115 | #define atomic_read(obj)                      ATOMIC_FUNC(load, 4)(obj, __ATOMIC_RELAXED) \n |                                               ^                    ~~~ \n 68 | #    define ATOMIC_FUNC(f, n) ato"
+}
