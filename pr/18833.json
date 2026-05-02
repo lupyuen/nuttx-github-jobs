@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 70,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-02T18:25:46Z",
   "createdAt": "2026-05-02T14:39:22Z",
   "deletions": 77,
   "files": [
@@ -430,15 +430,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "51f77ee111fc86df83b40295dc68da4b1f06d05b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-02T18:25:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18833,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/config: Remove final mentions of `NSH_ARCHINIT`",
-  "updatedAt": "2026-05-02T17:22:41Z",
+  "updatedAt": "2026-05-02T18:26:45Z",
   "url": "https://github.com/apache/nuttx/pull/18833"
 }

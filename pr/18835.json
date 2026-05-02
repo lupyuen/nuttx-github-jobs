@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-02T18:26:11Z",
   "createdAt": "2026-05-02T14:53:49Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2b8be4a3da15a57ca0b3f274651679e542cbca39"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-02T18:26:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18835,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/fb: Fix a symbol missing CONFIG_",
-  "updatedAt": "2026-05-02T17:21:45Z",
+  "updatedAt": "2026-05-02T18:26:11Z",
   "url": "https://github.com/apache/nuttx/pull/18835"
 }
