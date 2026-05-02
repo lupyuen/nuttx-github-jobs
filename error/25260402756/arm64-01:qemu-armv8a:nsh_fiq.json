@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-02T20:36:34",
+"arch": "arm64",
+"subarch": "qemu",
+"group": "arm64-01",
+"board": "qemu-armv8a",
+"config": "nsh_fiq",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25260402756/job/74066723163#step:10:986",
+"msg": "##[error]chip/qemu_serial.c:46:2: error: use of a '#elifdef' directive is a C2x extension [-Werror,-Wc2x-extensions] \n 46 | #elifdef CONFIG_UART1_SERIAL_CONSOLE \n |  ^ \n 1 error generated. \n make[1]: *** [Makefile:143: qemu_serial.o] Error 1 \n make[1]: Target 'libarch.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:170: arch/arm64/src/libarch.a] Error 2 \n make: Target 'all' not remade because of errors."
+}
