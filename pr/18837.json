@@ -1,5 +1,5 @@
 {
-  "additions": 934,
+  "additions": 940,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjYyODUwMDkx",
@@ -9,16 +9,16 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 50,
+  "changedFiles": 52,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-02T19:44:08Z",
-  "deletions": 767,
+  "deletions": 773,
   "files": [
     {
       "path": "arch/arm/src/cxd32xx/cxd32_serial_pl011.c",
-      "additions": 0,
-      "deletions": 29
+      "additions": 2,
+      "deletions": 31
     },
     {
       "path": "arch/arm/src/fvp-v8r-aarch32/Kconfig",
@@ -29,6 +29,11 @@
       "path": "arch/arm/src/fvp-v8r-aarch32/fvp_serial.c",
       "additions": 202,
       "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/goldfish/goldfish_serial.c",
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "arch/arm/src/qemu/Kconfig",
@@ -53,6 +58,11 @@
     {
       "path": "arch/arm64/src/fvp-v8r/fvp_serial.c",
       "additions": 204,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/goldfish/goldfish_serial.c",
+      "additions": 2,
       "deletions": 2
     },
     {
@@ -267,7 +277,7 @@
     }
   ],
   "headRefName": "pl011-uart",
-  "headRefOid": "9d84165a593ac55aab1285f7431078f0d4159e31",
+  "headRefOid": "76b03706bc7f5e59d7b6988d26682672e5dbcdd7",
   "headRepository": {
     "id": "R_kgDOMTJh2w",
     "name": "nuttx",
@@ -327,6 +337,6 @@
   "number": 18837,
   "state": "OPEN",
   "title": "drivers/serial: Refactor PL011 to be general-purpose",
-  "updatedAt": "2026-05-02T19:46:08Z",
+  "updatedAt": "2026-05-02T19:53:30Z",
   "url": "https://github.com/apache/nuttx/pull/18837"
 }
