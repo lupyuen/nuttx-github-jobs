@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-02T13:51:59Z",
   "createdAt": "2026-05-01T12:13:36Z",
   "deletions": 24,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "63a03d0f8aebd9394d76b9c747c90f72f460ddcb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-02T13:51:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18829,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/x86: Add support to 256 color for qemu i486 VGA driver",
-  "updatedAt": "2026-05-02T02:18:15Z",
+  "updatedAt": "2026-05-02T13:51:59Z",
   "url": "https://github.com/apache/nuttx/pull/18829"
 }
