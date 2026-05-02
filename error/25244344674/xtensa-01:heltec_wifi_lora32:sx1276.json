@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-02T07:54:45",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "heltec_wifi_lora32",
+"config": "sx1276",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25244344674/job/74029748890#step:10:1469",
+"msg": "In file included from board/esp32_boot.c:36: \n ##[error]board/heltec_wifi_lora32.h:54:9: error: \"GPIO_LED1\" redefined [-Werror] \n 54 | #define GPIO_LED1             2 \n |         ^~~~~~~~~ \n In file included from board/esp32_boot.c:33: \n 51 | #define GPIO_LED1         25 /* White LED on Heltec WiFi LoRa 32 */ \n |         ^~~~~~~~~ \n cc1: all warnings being treated as errors \n make[1]: *** [/github/workspace/sources/nuttx/boards/Board.mk:100: esp32_boot.o] Error 1 \n In file included from board/esp"
+}
