@@ -1,0 +1,78 @@
+{
+  "additions": 110,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-02T14:51:53Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "boards/x86/qemu/qemu-i486/src/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86/qemu/qemu-i486/src/qemu_boot.c",
+      "additions": 2,
+      "deletions": 10
+    },
+    {
+      "path": "boards/x86/qemu/qemu-i486/src/qemu_bringup.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/x86/qemu/qemu-i486/src/qemu_i486.h",
+      "additions": 13,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "qemu_i486_boot",
+  "headRefOid": "5520985cf7d1d716488c01f25e03eaebb3c82dab",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac7Xp2Ky",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MEmQ",
+      "name": "Board: x86",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18834,
+  "state": "OPEN",
+  "title": "boards/qemu-i486: Fix the removal of qemu_appinit.c",
+  "updatedAt": "2026-05-02T14:52:20Z",
+  "url": "https://github.com/apache/nuttx/pull/18834"
+}

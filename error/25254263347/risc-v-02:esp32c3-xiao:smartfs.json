@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-02T14:52:24",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32c3-xiao",
+"config": "smartfs",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25254263347/job/74051102852#step:10:422",
+"msg": "nsh_init.c: In function 'nsh_initialize': \n ##[error]nsh_init.c:149:12: error: 'BOARDIOC_INIT' undeclared (first use in this function); did you mean 'BOARDIOC_USER'? \n 149 |   boardctl(BOARDIOC_INIT, 0); \n |            ^~~~~~~~~~~~~ \n |            BOARDIOC_USER \n nsh_init.c:149:12: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: nsh_init.c.github.workspace.sources.apps.nshlib.o] Error 1 \n make[2]"
+}

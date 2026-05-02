@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-02T14:52:51",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "jumbo",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25254263347/job/74051102842#step:10:414",
+"msg": "nxscope_main.c: In function 'nxscope_main': \n ##[error]nxscope_main.c:533:12: error: 'BOARDIOC_INIT' undeclared (first use in this function); did you mean 'BOARDIOC_USER'? \n 533 |   boardctl(BOARDIOC_INIT, 0); \n |            ^~~~~~~~~~~~~ \n |            BOARDIOC_USER \n nxscope_main.c:533:12: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: nxscope_main.c.github.workspace.sources.apps.examples.nxsco"
+}
