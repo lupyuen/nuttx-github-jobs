@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-02T21:17:44",
+"arch": "arm",
+"subarch": "samv7",
+"group": "arm-07",
+"board": "same70-xplained",
+"config": "twm4nx",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25260817621/job/74067782736#step:10:1253",
+"msg": "src/ccallback.cxx: In static member function 'static void NXWidgets::CCallback::newKeyboardEvent(NXHANDLE, uint8_t, const uint8_t*, void*)': \n ##[error]src/ccallback.cxx:265:38: error: aggregate 'NXWidgets::CCallback::newKeyboardEvent(NXHANDLE, uint8_t, const uint8_t*, void*)::boardioc_nxterm_ioctl_s iocargs' has incomplete type and cannot be defined \n 265 |       struct boardioc_nxterm_ioctl_s iocargs; \n |                                      ^~~~~~~ \n ##[error]src/ccallback.cxx:277:16: error: 'BOARDIO"
+}
