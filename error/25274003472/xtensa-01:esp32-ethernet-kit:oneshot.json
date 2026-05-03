@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T08:26:23",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-ethernet-kit",
+"config": "oneshot",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25274003472/job/74100952849#step:10:294",
+"msg": "In file included from chip/esp32_oneshot_lowerhalf.c:32: \n chip/esp32_oneshot_lowerhalf.c: In function 'esp32_max_lh_delay': \n ##[error]chip/esp32_oneshot_lowerhalf.c:157:11: error: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'time_t' {aka 'long long unsigned int'} [-Werror=format=] \n 157 |   tmrinfo(\"max sec=%\" PRIu32 \"\n\", ts->tv_sec); \n |           ^~~~~~~~~~~              ~~~~~~~~~~ \n |                                      | \n |                           "
+}

@@ -1,0 +1,104 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-05-03T08:39:29Z",
+  "createdAt": "2026-05-03T08:25:53Z",
+  "deletions": 80,
+  "files": [
+    {
+      "path": "examples/noteprintf/noteprintf_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "examples/nxscope/nxscope_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "fsutils/mkfatfs/configfat.c",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "logging/nxscope/nxscope_chan.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/ftpd/ftpd.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "netutils/ntpclient/ntpclient.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "system/zmodem/host/nuttx/compiler.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "testing/fs/fstest/fstest_main.c",
+      "additions": 0,
+      "deletions": 30
+    }
+  ],
+  "headRefName": "compiler/remove-have-long-long",
+  "headRefOid": "12d11f594526bdda5edc0b564e0d866edde01669",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
+    "name": "incubator-nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiT487Xv0qt",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqeHrg",
+      "name": "Area: File System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3469,
+  "state": "CLOSED",
+  "title": "compiler: drop CONFIG_HAVE_LONG_LONG and require long long support",
+  "updatedAt": "2026-05-03T08:39:29Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3469"
+}

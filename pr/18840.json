@@ -1,5 +1,5 @@
 {
-  "additions": 11,
+  "additions": 59,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 111,
+  "changedFiles": 155,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:50Z",
-  "deletions": 217,
+  "deletions": 741,
   "files": [
+    {
+      "path": "Documentation/applications/netutils/ntpclient/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
     {
       "path": "Documentation/guides/rust.rst",
       "additions": 0,
@@ -509,15 +514,10 @@
       "path": "boards/x86_64/qemu/qemu-intel64/configs/ostest/defconfig",
       "additions": 0,
       "deletions": 1
-    },
-    {
-      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/python/defconfig",
-      "additions": 0,
-      "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "4b867a88d35baf9bc6bd52ef3ae38bf578981dc7",
+  "headRefOid": "9012ad9d7ed3d9449d5ddd178601eb4bf28f41fb",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -544,10 +544,16 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
-      "name": "Size: M",
-      "description": "The size of the change in this PR is medium",
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
       "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8Lkbg",
@@ -601,6 +607,6 @@
   "number": 18840,
   "state": "OPEN",
   "title": "sched/clock: remove CONFIG_SYSTEM_TIME64 and always use 64-bit time",
-  "updatedAt": "2026-05-03T08:19:38Z",
+  "updatedAt": "2026-05-03T08:35:41Z",
   "url": "https://github.com/apache/nuttx/pull/18840"
 }

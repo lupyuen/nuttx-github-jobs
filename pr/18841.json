@@ -1,0 +1,294 @@
+{
+  "additions": 22,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 46,
+  "closed": true,
+  "closedAt": "2026-05-03T08:28:31Z",
+  "createdAt": "2026-05-03T08:25:50Z",
+  "deletions": 522,
+  "files": [
+    {
+      "path": "Documentation/applications/netutils/ntpclient/index.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/note/note_driver.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "fs/spiffs/src/spiffs.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "include/cxx/cstdlib",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "include/fixedmath.h",
+      "additions": 0,
+      "deletions": 29
+    },
+    {
+      "path": "include/nuttx/audio/audio.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "include/nuttx/clock.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/compiler.h",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "include/nuttx/crc64.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "include/nuttx/lib/math.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/lib/math32.h",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/lib/stdbit.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/stddef.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "include/stdlib.h",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "include/strings.h",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "include/sys/endian.h",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "include/sys/epoll.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/fixedmath/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/fixedmath/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/fixedmath/lib_fixedmath.c",
+      "additions": 0,
+      "deletions": 261
+    },
+    {
+      "path": "libs/libc/fixedmath/lib_ubsqrt.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/inttypes/lib_strtoimax.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/libc.csv",
+      "additions": 4,
+      "deletions": 11
+    },
+    {
+      "path": "libs/libc/lzf/lzf_c.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/misc/lib_crc64.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/misc/lib_crc64emac.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stdlib/lib_atoll.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdlib/lib_llabs.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdlib/lib_lldiv.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stdlib/lib_rand48.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/stdlib/lib_strtold.c",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/stdlib/lib_strtoll.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stdlib/lib_strtoull.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stream/lib_libbsprintf.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/stream/lib_libvscanf.c",
+      "additions": 6,
+      "deletions": 34
+    },
+    {
+      "path": "libs/libc/stream/lib_libvsprintf.c",
+      "additions": 6,
+      "deletions": 34
+    },
+    {
+      "path": "libs/libc/stream/lib_ultoa_invert.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/string/lib_ffsll.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/string/lib_flsll.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/string/lib_memset.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libc/string/lib_vikmemcpy.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "libs/libm/libm/lib_llround.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libm/libm/lib_llroundf.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libm/libm/lib_llroundl.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/irq/irq_procfs.c",
+      "additions": 2,
+      "deletions": 7
+    }
+  ],
+  "headRefName": "compiler/remove-have-long-long",
+  "headRefOid": "60bacb689dcb2a16b573207949b0856bb8046e65",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac7Xv0pr",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18841,
+  "state": "CLOSED",
+  "title": "compiler: drop CONFIG_HAVE_LONG_LONG and require long long support",
+  "updatedAt": "2026-05-03T08:31:11Z",
+  "url": "https://github.com/apache/nuttx/pull/18841"
+}

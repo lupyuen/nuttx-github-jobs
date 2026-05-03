@@ -1,5 +1,5 @@
 {
-  "additions": 2,
+  "additions": 4,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5,
+  "changedFiles": 13,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:58Z",
-  "deletions": 21,
+  "deletions": 103,
   "files": [
     {
       "path": "examples/dronecan/Kconfig",
@@ -26,14 +26,54 @@
       "deletions": 4
     },
     {
+      "path": "examples/noteprintf/noteprintf_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "examples/nxscope/nxscope_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "fsutils/mkfatfs/configfat.c",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "logging/nxscope/nxscope_chan.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/ftpd/ftpd.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
       "path": "netutils/netinit/netinit.c",
       "additions": 1,
       "deletions": 5
     },
     {
+      "path": "netutils/ntpclient/ntpclient.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
       "path": "netutils/ptpd/ptpd.c",
       "additions": 0,
       "deletions": 7
+    },
+    {
+      "path": "system/zmodem/host/nuttx/compiler.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "testing/fs/fstest/fstest_main.c",
+      "additions": 2,
+      "deletions": 32
     },
     {
       "path": "testing/ostest/semtimed.c",
@@ -42,7 +82,7 @@
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "4e22ac532aaa82e21e85768664d4cf1a8a0a7f27",
+  "headRefOid": "fbb77e3c19398495b3f30b7b6c954205200073d2",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
     "name": "incubator-nuttx-apps",
@@ -57,14 +97,14 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiT488AAAABsqecSA",
-      "name": "Area: Networking",
+      "id": "LA_kwDODZiT488AAAABsqeHrg",
+      "name": "Area: File System",
       "description": "",
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiT488AAAABvo6WdQ",
-      "name": "Size: S",
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
       "description": "",
       "color": "FEF2C0"
     },
@@ -84,6 +124,6 @@
   "number": 3468,
   "state": "OPEN",
   "title": "remove CONFIG_SYSTEM_TIME64 references and always assume 64-bit time",
-  "updatedAt": "2026-05-03T08:16:42Z",
+  "updatedAt": "2026-05-03T08:39:39Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3468"
 }
