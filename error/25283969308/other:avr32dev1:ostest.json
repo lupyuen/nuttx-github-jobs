@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T16:21:41",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "avr32dev1",
+"config": "ostest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25283969308/job/74125523388#step:10:647",
+"msg": "wdog.c:59: error: expected specifier-qualifier-list before 'sclock_t' \n wdog.c: In function 'wdtest_callback': \n wdog.c:75: error: 'wdtest_param_t' has no member named 'triggered_tick' \n wdog.c:79: error: 'wdtest_param_t' has no member named 'callback_cnt' \n wdog.c: At top level: \n wdog.c:82: error: expected ')' before 'diff' \n wdog.c:100: error: expected declaration specifiers or '...' before 'sclock_t' \n wdog.c: In function 'wdtest_once': \n wdog.c:103: error: 'sclock_t' undeclared (first use in th"
+}

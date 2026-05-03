@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T16:19:21",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "nsh_pci_smp",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25283969308/job/74125523385#step:10:707",
+"msg": "##[error]wdog.c:59:3: error: unknown type name 'sclock_t' \n 59 |   sclock_t           interval; \n |   ^~~~~~~~ \n ##[error]wdog.c:82:31: error: unknown type name 'sclock_t'; did you mean 'clock_t'? \n 82 | static void wdtest_checkdelay(sclock_t diff, sclock_t delay_tick) \n |                               ^~~~~~~~ \n |                               clock_t \n ##[error]wdog.c:82:46: error: unknown type name 'sclock_t'; did you mean 'clock_t'? \n 82 | static void wdtest_checkdelay(sclock_t diff, sclock_t de"
+}

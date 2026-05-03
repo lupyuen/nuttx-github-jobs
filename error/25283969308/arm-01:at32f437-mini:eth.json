@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T16:20:13",
+"arch": "arm",
+"subarch": "at32",
+"group": "arm-01",
+"board": "at32f437-mini",
+"config": "eth",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25283969308/job/74125523386#step:10:491",
+"msg": "ping.c: In function 'ping_result': \n ##[error]ping.c:213:63: error: format '%ld' expects argument of type 'long int', but argument 8 has type 'long long int' [-Werror=format=] \n 213 |         printf(\"%u bytes from %u.%u.%u.%u: icmp_seq=%u time=%ld.%ld ms\n\", \n |                                                             ~~^ \n |                                                               | \n |                                                               long int \n |                               "
+}

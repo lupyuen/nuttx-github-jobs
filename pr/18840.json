@@ -1,5 +1,5 @@
 {
-  "additions": 331,
+  "additions": 320,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 403,
+  "changedFiles": 412,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:50Z",
-  "deletions": 1284,
+  "deletions": 1273,
   "files": [
     {
       "path": "Documentation/applications/netutils/ntpclient/index.rst",
@@ -181,12 +181,22 @@
       "deletions": 1
     },
     {
+      "path": "arch/risc-v/src/common/espressif/esp_libc_stubs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "arch/risc-v/src/common/espressif/esp_rtc.c",
       "additions": 1,
       "deletions": 1
     },
     {
       "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_libc_stubs.c",
       "additions": 1,
       "deletions": 1
     },
@@ -199,6 +209,11 @@
       "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_wifi_adapter.c",
       "additions": 2,
       "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/rom/esp32c3_libc_stubs.h",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "arch/risc-v/src/mpfs/mpfs_perf.c",
@@ -231,6 +246,11 @@
       "deletions": 1
     },
     {
+      "path": "arch/xtensa/src/esp32/esp32_libc_stubs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "arch/xtensa/src/esp32/esp32_oneshot_lowerhalf.c",
       "additions": 1,
       "deletions": 1
@@ -239,6 +259,16 @@
       "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.c",
       "additions": 2,
       "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/rom/esp32_libc_stubs.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_libc_stubs.c",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "arch/xtensa/src/esp32s2/esp32s2_oneshot_lowerhalf.c",
@@ -251,6 +281,16 @@
       "deletions": 2
     },
     {
+      "path": "arch/xtensa/src/esp32s2/rom/esp32s2_libc_stubs.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_libc_stubs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "arch/xtensa/src/esp32s3/esp32s3_oneshot_lowerhalf.c",
       "additions": 1,
       "deletions": 1
@@ -259,6 +299,11 @@
       "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.c",
       "additions": 2,
       "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/rom/esp32s3_libc_stubs.h",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "boards/arm/fvp-v8r-aarch32/fvp-armv8r-aarch32/configs/nsh/defconfig",
@@ -469,55 +514,10 @@
       "path": "boards/arm/rp2040/adafruit-kb2040/configs/usbmsc/defconfig",
       "additions": 0,
       "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/adafruit-kb2040/configs/usbnsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/adafruit-kb2040/configs/waveshare-lcd-1.14/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/adafruit-kb2040/configs/waveshare-lcd-1.3/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/composite/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/gpio/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/nsh-flash/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/nsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/nshsram/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/smp/defconfig",
-      "additions": 0,
-      "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "d0366cf98faa99dffe8505c8f2d73cc2f035e83a",
+  "headRefOid": "9d4ea3aa2182c023887f1ca9776bb99dd49e0e8e",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -643,6 +643,6 @@
   "number": 18840,
   "state": "OPEN",
   "title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-  "updatedAt": "2026-05-03T16:03:08Z",
+  "updatedAt": "2026-05-03T17:00:25Z",
   "url": "https://github.com/apache/nuttx/pull/18840"
 }

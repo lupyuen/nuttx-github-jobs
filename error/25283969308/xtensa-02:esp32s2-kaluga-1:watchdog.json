@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T16:20:34",
+"arch": "xtensa",
+"subarch": "esp32s2",
+"group": "xtensa-02",
+"board": "esp32s2-kaluga-1",
+"config": "watchdog",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25283969308/job/74125523457#step:10:337",
+"msg": "In file included from chip/esp32s2_wdt_lowerhalf.c:28: \n chip/esp32s2_wdt_lowerhalf.c: In function 'wdt_lh_settimeout': \n ##[error]chip/esp32s2_wdt_lowerhalf.c:489:17: error: format '%lu' expects argument of type 'long unsigned int', but argument 4 has type 'long long int' [-Werror=format=] \n 489 |           wderr(\"Cannot represent timeout=%\" PRIu32 \" > %lu\n\", \n |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:146: esp32s2_wdt_low"
+}
