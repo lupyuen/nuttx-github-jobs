@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-03T20:23:41Z",
   "createdAt": "2026-05-03T01:04:08Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3c9a9d683f2291ce88af2fa04382fe15a8b37932"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-03T20:23:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18839,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "include/errno.h: skip set_errno in interrupt context",
-  "updatedAt": "2026-05-03T16:29:40Z",
+  "updatedAt": "2026-05-03T20:23:41Z",
   "url": "https://github.com/apache/nuttx/pull/18839"
 }
