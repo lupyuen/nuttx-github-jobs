@@ -1,5 +1,5 @@
 {
-  "additions": 13,
+  "additions": 65,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -9,20 +9,30 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
-  "createdAt": "2026-05-03T14:34:04Z",
-  "deletions": 0,
+  "createdAt": "2026-05-03T18:00:46Z",
+  "deletions": 16,
   "files": [
     {
-      "path": "libs/libc/netdb/lib_dnsquery.c",
-      "additions": 13,
-      "deletions": 0
+      "path": "net/sixlowpan/sixlowpan_hc06.c",
+      "additions": 53,
+      "deletions": 10
+    },
+    {
+      "path": "net/sixlowpan/sixlowpan_input.c",
+      "additions": 8,
+      "deletions": 2
+    },
+    {
+      "path": "net/sixlowpan/sixlowpan_internal.h",
+      "additions": 4,
+      "deletions": 4
     }
   ],
-  "headRefName": "fix_net_dns",
-  "headRefOid": "07fcc62be9064006c53106800d874ff98f23cd79",
+  "headRefName": "fix_net_6lowpan",
+  "headRefOid": "c921a9764b3c22541425af114c209ca14a5cbed0",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -33,13 +43,13 @@
     "name": "Alan C. Assis",
     "login": "acassis"
   },
-  "id": "PR_kwDODZiUac7XyMRA",
+  "id": "PR_kwDODZiUac7Xzm34",
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqSSkg",
-      "name": "Area: OS Components",
-      "description": "OS Components issues",
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
       "color": "0075ca"
     },
     {
@@ -55,9 +65,9 @@
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
-  "number": 18844,
+  "number": 18845,
   "state": "OPEN",
-  "title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-  "updatedAt": "2026-05-03T18:10:40Z",
-  "url": "https://github.com/apache/nuttx/pull/18844"
+  "title": "net/sixlowpan: Fix sixlowpan_uncompresshdr_hc06()",
+  "updatedAt": "2026-05-03T18:09:32Z",
+  "url": "https://github.com/apache/nuttx/pull/18845"
 }
