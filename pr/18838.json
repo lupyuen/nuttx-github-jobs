@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-03T11:23:18Z",
   "createdAt": "2026-05-02T20:12:16Z",
   "deletions": 3,
   "files": [
@@ -59,15 +59,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a8a492cb4fe77ed6bc656e33fc2e3c4363b61d33"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-03T11:23:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18838,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm: Remove app-specific initialization",
-  "updatedAt": "2026-05-02T23:55:25Z",
+  "updatedAt": "2026-05-03T11:23:18Z",
   "url": "https://github.com/apache/nuttx/pull/18838"
 }
