@@ -1,5 +1,5 @@
 {
-  "additions": 174,
+  "additions": 331,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 348,
+  "changedFiles": 403,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:50Z",
-  "deletions": 1078,
+  "deletions": 1284,
   "files": [
     {
       "path": "Documentation/applications/netutils/ntpclient/index.rst",
@@ -26,8 +26,148 @@
       "deletions": 1
     },
     {
+      "path": "arch/arm/src/cxd56xx/cxd56_rtc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_rtc_burtc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_rtc_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/lc823450/lc823450_rtc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/lc823450/lc823450_timer.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/max326xx/common/max326_rtc_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sam34/sam4cm_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/sam34/sam4cm_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_tickless.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_tickless.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_tickless.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_tickless.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/xmc4/xmc4_tickless.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
       "path": "arch/avr/src/avrdx/avrdx_timerisr_tickless_alarm.c",
       "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/mips/src/pic32mz/pic32mz_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/mips/src/pic32mz/pic32mz_oneshot_lowerhalf.c",
+      "additions": 2,
       "deletions": 2
     },
     {
@@ -41,9 +181,24 @@
       "deletions": 1
     },
     {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_i2c.c",
       "additions": 1,
       "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_rtc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_wifi_adapter.c",
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "arch/risc-v/src/mpfs/mpfs_perf.c",
@@ -51,7 +206,27 @@
       "deletions": 1
     },
     {
+      "path": "arch/sparc/src/bm3803/bm3803_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sparc/src/bm3803/bm3803_oneshot_lowerhalf.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/x86_64/src/intel64/intel64_oneshot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
       "path": "arch/xtensa/src/common/espressif/esp_i2c_slave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rtc.c",
       "additions": 1,
       "deletions": 1
     },
@@ -61,14 +236,29 @@
       "deletions": 1
     },
     {
+      "path": "arch/xtensa/src/esp32/esp32_wifi_adapter.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
       "path": "arch/xtensa/src/esp32s2/esp32s2_oneshot_lowerhalf.c",
       "additions": 1,
       "deletions": 1
     },
     {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wifi_adapter.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
       "path": "arch/xtensa/src/esp32s3/esp32s3_oneshot_lowerhalf.c",
       "additions": 1,
       "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wifi_adapter.c",
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "boards/arm/fvp-v8r-aarch32/fvp-armv8r-aarch32/configs/nsh/defconfig",
@@ -324,200 +514,10 @@
       "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/smp/defconfig",
       "additions": 0,
       "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/spisd/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/usbmsc/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/usbnsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/audiopack/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/composite/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/displaypack/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/enc28j60/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/lcd1602/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/nsh-flash/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/nsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/nshsram/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/smp/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/spisd/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/ssd1306/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/st7735/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/telnet/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/usbmsc/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/usbnsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/waveshare-lcd-1.14/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/waveshare-lcd-1.3/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/ads7046/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/audiopack/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/bmp280/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/composite/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/displaypack/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/enc28j60/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/lcd1602/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/nsh-flash/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/nsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/nshsram/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/pico-restouch-lcd-2.8/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/smp/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/spisd/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/ssd1306/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/st7735/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/tmp112/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/usbmsc/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/rp2040/raspberrypi-pico/configs/usbnsh/defconfig",
-      "additions": 0,
-      "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "0ab3cefe699332feaa2508eb3df5067838cad2f3",
+  "headRefOid": "4a9ec962841bb934c9a8728a61ea3017cb73dfa2",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -532,9 +532,21 @@
   "isDraft": false,
   "labels": [
     {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
       "id": "LA_kwDODZiUac8AAAABsqPSYw",
       "name": "Arch: avr",
       "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
       "color": "DC5544"
     },
     {
@@ -544,21 +556,27 @@
       "color": "DC5544"
     },
     {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
       "id": "LA_kwDODZiUac8AAAABsqRKYw",
       "name": "Arch: xtensa",
       "description": "Issues related to the Xtensa architecture",
       "color": "DC5544"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABsqR34A",
-      "name": "Area: Drivers",
-      "description": "Drivers issues",
-      "color": "0075ca"
-    },
-    {
-      "id": "LA_kwDODZiUac8AAAABvj_bjg",
-      "name": "Size: L",
-      "description": "The size of the change in this PR is large",
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
     },
     {
@@ -624,7 +642,7 @@
   "milestone": null,
   "number": 18840,
   "state": "OPEN",
-  "title": "sched/clock: remove CONFIG_SYSTEM_TIME64 and always use 64-bit time",
-  "updatedAt": "2026-05-03T13:55:21Z",
+  "title": "sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
+  "updatedAt": "2026-05-03T15:31:45Z",
   "url": "https://github.com/apache/nuttx/pull/18840"
 }
