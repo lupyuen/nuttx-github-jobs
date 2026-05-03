@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T09:52:33",
+"arch": "risc-v",
+"subarch": "esp32c6",
+"group": "risc-v-03",
+"board": "esp32c6-devkitc",
+"config": "motor",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25275367318/job/74104423740#step:10:485",
+"msg": "##[error]common/espressif/esp_libc_stubs.c:131:9: error: conflicting types for '_times_r'; have 'clock_t(struct _reent *, struct tms *)' {aka 'long long int(struct _reent *, struct tms *)'} \n 131 | clock_t _times_r(struct _reent *r, struct tms *buf) \n |         ^~~~~~~~ \n In file included from /github/workspace/sources/nuttx/arch/risc-v/src/chip/esp-hal-3rdparty/components/esp_rom/esp32c6/include/esp32c6/rom/libc_stubs.h:15, \n from common/espressif/esp_libc_stubs.c:44: \n /tools/riscv-none-elf-gcc/riscv"
+}
