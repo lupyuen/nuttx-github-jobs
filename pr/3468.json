@@ -1,5 +1,5 @@
 {
-  "additions": 35,
+  "additions": 44,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 19,
+  "changedFiles": 24,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:58Z",
-  "deletions": 135,
+  "deletions": 144,
   "files": [
+    {
+      "path": "examples/alarm/alarm_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
     {
       "path": "examples/dronecan/Kconfig",
       "additions": 1,
@@ -46,9 +51,14 @@
       "deletions": 2
     },
     {
+      "path": "netutils/dhcpd/dhcpd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "netutils/ftpd/ftpd.c",
-      "additions": 0,
-      "deletions": 4
+      "additions": 2,
+      "deletions": 6
     },
     {
       "path": "netutils/netinit/netinit.c",
@@ -67,8 +77,8 @@
     },
     {
       "path": "netutils/thttpd/libhttpd.c",
-      "additions": 6,
-      "deletions": 6
+      "additions": 8,
+      "deletions": 8
     },
     {
       "path": "netutils/thttpd/tdate_parse.c",
@@ -76,9 +86,19 @@
       "deletions": 1
     },
     {
+      "path": "system/resmonitor/filldisk.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "system/zmodem/host/nuttx/compiler.h",
       "additions": 0,
       "deletions": 4
+    },
+    {
+      "path": "system/zmodem/zm_receive.c",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "testing/fs/fstest/fstest_main.c",
@@ -101,6 +121,11 @@
       "deletions": 15
     },
     {
+      "path": "testing/testsuites/kernel/syscall/cases/clock_nanosleep_test.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "testing/testsuites/kernel/syscall/cases/fsync_test.c",
       "additions": 1,
       "deletions": 1
@@ -112,7 +137,7 @@
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "e91a84a24176774a4b9e5614a405680aec0170d4",
+  "headRefOid": "677d340a4ee4efe8cd689b43472c5107c80f958d",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
     "name": "incubator-nuttx-apps",
@@ -154,6 +179,6 @@
   "number": 3468,
   "state": "OPEN",
   "title": "sched: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-  "updatedAt": "2026-05-03T14:07:06Z",
+  "updatedAt": "2026-05-03T15:03:12Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3468"
 }

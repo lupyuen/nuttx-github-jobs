@@ -1,0 +1,68 @@
+{
+  "additions": 22,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-03T14:34:04Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "libs/libc/netdb/lib_dnsquery.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "net/icmpv6/icmpv6_input.c",
+      "additions": 9,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix_net_dns",
+  "headRefOid": "32fbdbaff95a70820603a41faf67df9dfa72b4d1",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac7XyMRA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18844,
+  "state": "OPEN",
+  "title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
+  "updatedAt": "2026-05-03T14:34:30Z",
+  "url": "https://github.com/apache/nuttx/pull/18844"
+}
