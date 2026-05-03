@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T09:04:08",
+"arch": "xtensa",
+"subarch": "esp32s2",
+"group": "xtensa-02",
+"board": "esp32s2-saola-1",
+"config": "oneshot",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25274420158/job/74102031407#step:10:541",
+"msg": "In file included from chip/esp32s2_oneshot_lowerhalf.c:32: \n chip/esp32s2_oneshot_lowerhalf.c: In function 'oneshot_lh_max_delay': \n ##[error]chip/esp32s2_oneshot_lowerhalf.c:158:11: error: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'time_t' {aka 'long long unsigned int'} [-Werror=format=] \n 158 |   tmrinfo(\"max sec=%\" PRIu32 \"\n\", ts->tv_sec); \n |           ^~~~~~~~~~~              ~~~~~~~~~~ \n |                                      | \n |                   "
+}

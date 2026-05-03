@@ -1,0 +1,134 @@
+{
+  "additions": 21,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 14,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-03T09:17:32Z",
+  "deletions": 120,
+  "files": [
+    {
+      "path": "examples/dronecan/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/netlink_route/netlink_route_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "examples/noteprintf/noteprintf_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "examples/nxscope/nxscope_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "fsutils/mkfatfs/configfat.c",
+      "additions": 0,
+      "deletions": 28
+    },
+    {
+      "path": "logging/nxscope/nxscope_chan.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/ftpd/ftpd.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "netutils/netinit/netinit.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "netutils/ntpclient/ntpclient.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "netutils/ptpd/ptpd.c",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "system/zmodem/host/nuttx/compiler.h",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "testing/fs/fstest/fstest_main.c",
+      "additions": 2,
+      "deletions": 32
+    },
+    {
+      "path": "testing/ostest/semtimed.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "testing/ostest/wdog.c",
+      "additions": 17,
+      "deletions": 17
+    }
+  ],
+  "headRefName": "sched/time_t-int64",
+  "headRefOid": "7e686ba3174c959ce450fc1b26b434838c5dc43a",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
+    "name": "incubator-nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiT487XwGtB",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqeHrg",
+      "name": "Area: File System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3470,
+  "state": "OPEN",
+  "title": "testing/ostest/wdog: replace sclock_t with clock_t",
+  "updatedAt": "2026-05-03T09:21:15Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3470"
+}

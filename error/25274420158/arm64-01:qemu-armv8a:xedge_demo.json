@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T09:07:57",
+"arch": "arm64",
+"subarch": "qemu",
+"group": "arm64-01",
+"board": "qemu-armv8a",
+"config": "xedge_demo",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25274420158/job/74102031388#step:10:683",
+"msg": "##[error]./ntpclient.c:67:4: error: #error \"64-bit integer support required for NTP client\" \n 67 | #  error \"64-bit integer support required for NTP client\" \n |    ^~~~~ \n ERROR: aarch64-none-elf-gcc failed: 1 \n command: aarch64-none-elf-gcc -MT ./ntpclient.c.github.workspace.sources.apps.netutils.ntpclient.o  -M '-D_LDBL_EQ_DBL' '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Werror' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-"
+}

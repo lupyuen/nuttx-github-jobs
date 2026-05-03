@@ -1,5 +1,5 @@
 {
-  "additions": 59,
+  "additions": 69,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 155,
+  "changedFiles": 158,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:50Z",
-  "deletions": 741,
+  "deletions": 750,
   "files": [
     {
       "path": "Documentation/applications/netutils/ntpclient/index.rst",
@@ -29,6 +29,21 @@
       "path": "arch/avr/src/avrdx/avrdx_timerisr_tickless_alarm.c",
       "additions": 1,
       "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_oneshot_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_oneshot_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_oneshot_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "boards/arm/fvp-v8r-aarch32/fvp-armv8r-aarch32/configs/nsh/defconfig",
@@ -499,25 +514,10 @@
       "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh/defconfig",
       "additions": 0,
       "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh_pci/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh_pci_smp/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/ostest/defconfig",
-      "additions": 0,
-      "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "9012ad9d7ed3d9449d5ddd178601eb4bf28f41fb",
+  "headRefOid": "ec8cccb9e518fdea9a95272655ded09456cf75a5",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -535,6 +535,12 @@
       "id": "LA_kwDODZiUac8AAAABsqPSYw",
       "name": "Arch: avr",
       "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
       "color": "DC5544"
     },
     {
@@ -607,6 +613,6 @@
   "number": 18840,
   "state": "OPEN",
   "title": "sched/clock: remove CONFIG_SYSTEM_TIME64 and always use 64-bit time",
-  "updatedAt": "2026-05-03T08:35:41Z",
+  "updatedAt": "2026-05-03T09:23:47Z",
   "url": "https://github.com/apache/nuttx/pull/18840"
 }

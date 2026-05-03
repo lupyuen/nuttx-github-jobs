@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T08:54:27",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "lx_cpu",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25274420158/job/74102031399#step:10:451",
+"msg": "##[error]./ntpclient.c:67:4: error: #error \"64-bit integer support required for NTP client\" \n 67 | #  error \"64-bit integer support required for NTP client\" \n |    ^~~~~ \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./ntpclient.c.github.workspace.sources.apps.netutils.ntpclient.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '--param=min-pagesize=0' '-fno-common' '-Wall' '-Wshadow' '-Wundef'"
+}

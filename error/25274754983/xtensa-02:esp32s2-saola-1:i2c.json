@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T09:23:46",
+"arch": "xtensa",
+"subarch": "esp32s2",
+"group": "xtensa-02",
+"board": "esp32s2-saola-1",
+"config": "i2c",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25274754983/job/74102879636#step:10:563",
+"msg": "chip/esp32s2_i2c.c: In function 'i2c_tracedump': \n ##[error]chip/esp32s2_i2c.c:1455:21: error: format '%lu' expects argument of type 'long unsigned int', but argument 3 has type 'clock_t' {aka 'long long int'} [-Werror=format=] \n 1455 |   syslog(LOG_DEBUG, \"Elapsed time: %\" PRIu32 \"\n\", \n |                     ^~~~~~~~~~~~~~~~~ \n 1456 |          clock_systime_ticks() - priv->start_time); \n |          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \n |                                | \n |                "
+}
