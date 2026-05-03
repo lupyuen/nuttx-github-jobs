@@ -1,5 +1,5 @@
 {
-  "additions": 69,
+  "additions": 174,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 158,
+  "changedFiles": 348,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:50Z",
-  "deletions": 750,
+  "deletions": 1078,
   "files": [
     {
       "path": "Documentation/applications/netutils/ntpclient/index.rst",
@@ -29,6 +29,31 @@
       "path": "arch/avr/src/avrdx/avrdx_timerisr_tickless_alarm.c",
       "additions": 1,
       "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_i2c.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_perf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2c_slave.c",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "arch/xtensa/src/esp32/esp32_oneshot_lowerhalf.c",
@@ -91,433 +116,408 @@
       "deletions": 1
     },
     {
-      "path": "boards/arm/stm32/nucleo-f302r8/configs/can/defconfig",
+      "path": "boards/arm/moxart/moxa/configs/nsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/can/defconfig",
+      "path": "boards/arm/mps/mps3-an547/configs/ap/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/composite/defconfig",
+      "path": "boards/arm/mps/mps3-an547/configs/bl/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/nsh/defconfig",
+      "path": "boards/arm/nrf53/nrf5340-dk/configs/sdc_nimble_cpunet/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm/stm32/stm32f4discovery/configs/canard/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/audiopack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/a527/avaota-a1/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/composite/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/a64/pinephone/configs/lcd/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/displaypack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/a64/pinephone/configs/lvgl/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/enc28j60/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/a64/pinephone/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/lcd1602/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/a64/pinephone/configs/sensor/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/nsh-flash/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/cgol/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/nsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/coremark/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/nshsram/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/fb/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/smp/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/lvgl/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/spisd/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/ssd1306/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/ostest/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/st7735/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/sd/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/usbmsc/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/citest/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/usbnsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/citest_smp/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/waveshare-lcd-1.14/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-feather-rp2040/configs/waveshare-lcd-1.3/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/nsh_smp/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/audiopack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/composite/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh_smp/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/displaypack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx8/imx8qm-mek/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/enc28j60/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx9/imx93-evk/configs/bootloader/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/lcd1602/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx9/imx93-evk/configs/knsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/nsh-flash/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx9/imx93-evk/configs/koptee/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/nsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx9/imx93-evk/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/nshsram/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx9/imx93-evk/configs/optee/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/smp/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx9/imx95-a55-evk/configs/emmc/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/spisd/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/imx9/imx95-a55-evk/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/ssd1306/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/st7735/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest_smp/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/usbmsc/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/fastboot/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/usbnsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/fb/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/waveshare-lcd-1.14/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/gdbstub/defconfig",
+      "path": "boards/arm/rp2040/adafruit-kb2040/configs/waveshare-lcd-1.3/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/knsh/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/composite/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/mte/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/gpio/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/nsh-flash/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_hv/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/nsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_smp/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/nshsram/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_smp_hv/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/smp/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/spisd/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_fiq/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/usbmsc/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_gicv2/defconfig",
+      "path": "boards/arm/rp2040/pimoroni-tiny2040/configs/usbnsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_smp/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/audiopack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_smp_tickless/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/composite/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpproxy/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/displaypack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpserver/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/enc28j60/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/sotest/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/lcd1602/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/sw_tags/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/nsh-flash/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/qemu/qemu-armv8a/configs/xedge_demo/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/nsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/rk3399/nanopi_m4/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/nshsram/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/rk3399/pinephonepro/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/smp/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/jtag/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/spisd/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/netjtag/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/ssd1306/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/netnsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/st7735/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/telnet/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/c906/smartl-c906/configs/sotest/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/usbmsc/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/litex/arty_a7/configs/knsh-tickless/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/usbnsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/hwtest/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/waveshare-lcd-1.14/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/knsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico-w/configs/waveshare-lcd-1.3/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/ads7046/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/opensbi/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/audiopack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/pnsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/bmp280/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/rpmsg-ch1/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/composite/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/rpmsg-ch2/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/displaypack/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/icicle/configs/rpmsg-sbi/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/enc28j60/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/mpfs/m100pfsevp/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/lcd1602/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest64/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/nsh-flash/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/sim/sim/sim/configs/matter/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/nsh/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/sim/sim/sim/configs/ostest/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/nshsram/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/sim/sim/sim/configs/rtptools/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/pico-restouch-lcd-2.8/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/sim/sim/sim/configs/tcpblaster/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/smp/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/sim/sim/sim/configs/windows/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/spisd/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/sim/sim/sim/configs/windows64/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/ssd1306/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/st7735/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/tricore/tc4da/triboard_tc4x9_com/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/tmp112/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/earlyfb/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/usbmsc/defconfig",
       "additions": 0,
       "deletions": 1
     },
     {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/fb/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/jumbo/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/knsh_romfs/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/knsh_romfs_pci/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/lvgl/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh/defconfig",
+      "path": "boards/arm/rp2040/raspberrypi-pico/configs/usbnsh/defconfig",
       "additions": 0,
       "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "ec8cccb9e518fdea9a95272655ded09456cf75a5",
+  "headRefOid": "0ab3cefe699332feaa2508eb3df5067838cad2f3",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -535,6 +535,12 @@
       "id": "LA_kwDODZiUac8AAAABsqPSYw",
       "name": "Arch: avr",
       "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
       "color": "DC5544"
     },
     {
@@ -586,6 +592,12 @@
       "color": "F9D0C4"
     },
     {
+      "id": "LA_kwDODZiUac8AAAABw8MARg",
+      "name": "Board: sparc",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
       "id": "LA_kwDODZiUac8AAAABw8MCsA",
       "name": "Board: tricore",
       "description": "",
@@ -613,6 +625,6 @@
   "number": 18840,
   "state": "OPEN",
   "title": "sched/clock: remove CONFIG_SYSTEM_TIME64 and always use 64-bit time",
-  "updatedAt": "2026-05-03T12:48:03Z",
+  "updatedAt": "2026-05-03T13:55:21Z",
   "url": "https://github.com/apache/nuttx/pull/18840"
 }
