@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T15:27:28",
+"arch": "arm",
+"subarch": "imx6",
+"group": "arm-02",
+"board": "sabre-6quad",
+"config": "netknsh_smp",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25282794733/job/74122692328#step:10:1291",
+"msg": "syslog/vsyslog.c: In function 'nx_vsyslog': \n ##[error]syslog/vsyslog.c:173:41: error: format '%ld' expects argument of type 'long int', but argument 4 has type 'long long int' [-Werror=format=] \n 173 |                              \"[%5ju.%06ld] \" \n |                                     ~~~~^ \n |                                         | \n |                                         long int \n |                                     %06lld \n cc1: all warnings being treated as errors \n make[1]: *** [Ma"
+}

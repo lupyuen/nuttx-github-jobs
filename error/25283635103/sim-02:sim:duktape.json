@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T16:01:58",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "duktape",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25283635103/job/74124735331#step:10:489",
+"msg": "In file included from /github/workspace/sources/nuttx/include/nuttx/clock.h:39, \n from /github/workspace/sources/nuttx/include/nuttx/wqueue.h:36, \n from /github/workspace/sources/nuttx/include/nuttx/signal.h:36, \n from signal/sig_usleep.c:35: \n signal/sig_usleep.c: In function 'nxsig_usleep': \n ##[error]signal/sig_usleep.c:80:22: error: expected expression before ')' token \n 80 |       sec          = USEC2SEC(usec); \n |                      ^~~~~~~~ \n ##[error]signal/sig_usleep.c:80:22: error: expec"
+}

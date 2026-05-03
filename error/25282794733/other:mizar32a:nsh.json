@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T15:30:04",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "mizar32a",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25282794733/job/74122692324#step:10:1001",
+"msg": "signal/sig_usleep.c: In function 'nxsig_usleep': \n signal/sig_usleep.c:80: error: expected expression before ')' token \n signal/sig_usleep.c:80: error: expected statement before ')' token \n cc1: warnings being treated as errors \n At top level: \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n make[1]: *** [Makefile:65: sig_usleep.o] Error 1 \n make[1]: Target 'libsched.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:71: sched/libsched.a] Error 2 \n unistd/lib_usleep.c: I"
+}

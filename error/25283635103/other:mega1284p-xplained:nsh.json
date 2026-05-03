@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T16:01:23",
+"arch": "other",
+"subarch": "atmega",
+"group": "other",
+"board": "mega1284p-xplained",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25283635103/job/74124735336#step:10:695",
+"msg": "In file included from /github/workspace/sources/nuttx/include/nuttx/clock.h:39:0, \n from /github/workspace/sources/nuttx/include/nuttx/wqueue.h:36, \n from /github/workspace/sources/nuttx/include/nuttx/signal.h:36, \n from signal/sig_usleep.c:35: \n signal/sig_usleep.c: In function 'nxsig_usleep': \n ##[error]signal/sig_usleep.c:80:22: error: expected expression before ')' token \n sec          = USEC2SEC(usec); \n ^ \n In file included from /github/workspace/sources/nuttx/include/nuttx/wqueue.h:36:0, \n f"
+}

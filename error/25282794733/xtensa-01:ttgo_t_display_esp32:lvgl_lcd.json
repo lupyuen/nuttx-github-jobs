@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-03T15:27:23",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "ttgo_t_display_esp32",
+"config": "lvgl_lcd",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25282794733/job/74122692329#step:10:463",
+"msg": "In file included from /github/workspace/sources/nuttx/include/nuttx/clock.h:39, \n from /github/workspace/sources/nuttx/include/nuttx/wqueue.h:36, \n from /github/workspace/sources/nuttx/include/nuttx/signal.h:36, \n from signal/sig_usleep.c:35: \n signal/sig_usleep.c: In function 'nxsig_usleep': \n ##[error]signal/sig_usleep.c:80:22: error: expected expression before ')' token \n 80 |       sec          = USEC2SEC(usec); \n |                      ^~~~~~~~ \n ##[error]signal/sig_usleep.c:80:22: error: expec"
+}
