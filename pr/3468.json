@@ -1,0 +1,89 @@
+{
+  "additions": 2,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-03T08:13:58Z",
+  "deletions": 21,
+  "files": [
+    {
+      "path": "examples/dronecan/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/netlink_route/netlink_route_main.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "netutils/netinit/netinit.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "netutils/ptpd/ptpd.c",
+      "additions": 0,
+      "deletions": 7
+    },
+    {
+      "path": "testing/ostest/semtimed.c",
+      "additions": 0,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "sched/remove-system-time64",
+  "headRefOid": "4e22ac532aaa82e21e85768664d4cf1a8a0a7f27",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
+    "name": "incubator-nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiT487Xvw8O",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3468,
+  "state": "OPEN",
+  "title": "remove CONFIG_SYSTEM_TIME64 references and always assume 64-bit time",
+  "updatedAt": "2026-05-03T08:16:42Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3468"
+}

@@ -1,0 +1,606 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 111,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-03T08:13:50Z",
+  "deletions": 217,
+  "files": [
+    {
+      "path": "Documentation/guides/rust.rst",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_timerisr_tickless_alarm.c",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/fvp-v8r-aarch32/fvp-armv8r-aarch32/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/audio/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/bt/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/kostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/krndis/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/rndis/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lc823450/lc823450-xgevk/configs/usb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/composite/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/olimexino-stm32/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f4discovery/configs/canard/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/a527/avaota-a1/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/a64/pinephone/configs/lcd/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/a64/pinephone/configs/lvgl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/a64/pinephone/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/a64/pinephone/configs/sensor/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/cgol/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/coremark/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/lvgl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/sd/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/citest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/citest_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/nsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/fvp-v8r/fvp-armv8r/configs/pnsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx8/imx8qm-mek/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/bootloader/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/koptee/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx93-evk/configs/optee/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/configs/emmc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/imx9/imx95-a55-evk/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/citest_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/fastboot/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/gdbstub/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/mte/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_hv/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/netnsh_smp_hv/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_fiq/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_gicv2/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/nsh_smp_tickless/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpproxy/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/rpserver/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/sotest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/sw_tags/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/qemu/qemu-armv8a/configs/xedge_demo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/rk3399/nanopi_m4/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/rk3399/pinephonepro/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/jtag/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/netjtag/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/netnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/zynq-mpsoc/zcu111/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/c906/smartl-c906/configs/sotest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/litex/arty_a7/configs/knsh-tickless/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/hwtest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/opensbi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/pnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/rpmsg-ch1/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/rpmsg-ch2/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/icicle/configs/rpmsg-sbi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/mpfs/m100pfsevp/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/qemu-rv/rv-virt/configs/citest64/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/matter/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/rtptools/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/tcpblaster/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/windows/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/windows64/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc397/a2g-tc397-5v-tft/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/tricore/tc4da/triboard_tc4x9_com/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/earlyfb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/jumbo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/knsh_romfs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/knsh_romfs_pci/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/lvgl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh_pci/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/nsh_pci_smp/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/x86_64/qemu/qemu-intel64/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/python/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "sched/remove-system-time64",
+  "headRefOid": "4b867a88d35baf9bc6bd52ef3ae38bf578981dc7",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac7Xvw5n",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqPSYw",
+      "name": "Arch: avr",
+      "description": "Issues related to all AVR(8-bit or 32-bit) architectures",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MCsA",
+      "name": "Board: tricore",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MF3Q",
+      "name": "Board: x86_64",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18840,
+  "state": "OPEN",
+  "title": "sched/clock: remove CONFIG_SYSTEM_TIME64 and always use 64-bit time",
+  "updatedAt": "2026-05-03T08:19:38Z",
+  "url": "https://github.com/apache/nuttx/pull/18840"
+}
