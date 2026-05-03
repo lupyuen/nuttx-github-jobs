@@ -1,0 +1,605 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 253,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-03T20:54:30Z",
+  "deletions": 768,
+  "files": [
+    {
+      "path": "boards/arm/a1x/pcduino-a10/src/a1x_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/a1x/pcduino-a10/src/pcduino_a10.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/src/am335x_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/am335x/beaglebone-black/src/beaglebone-black.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/at32_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/at32/at32f437-mini/src/at32f437-mini.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/src/cxd56_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/cxd56xx/spresense/src/spresense.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/eoss3/quickfeather/src/eoss3_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/eoss3/quickfeather/src/quickfeather.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f450zk-aiotbox/src/gd32f4xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f450zk-eval/src/gd32f4xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470ik-eval/src/gd32f4xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-aiotbox/src/gd32f4xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/gd32f4/gd32f470zk-eval/src/gd32f4xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k28f/src/freedom-k28f.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/kinetis/freedom-k28f/src/k28_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-devkit/src/lpc17_40_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-devkit/src/lpc4088-devkit.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-quickstart/src/lpc17_40_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-quickstart/src/lpc4088-quickstart.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lx_cpu/src/lpc17_40_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/mcb1700/src/lpc17_40_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/mcb1700/src/mcb1700.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/olimex-lpc1766stk/src/lpc1766stk.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/olimex-lpc1766stk/src/lpc17_40_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/open1788/src/lpc17_40_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/open1788/src/open1788.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/pnev5180b/src/lpc17_40_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/pnev5180b/src/pnev5180b.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/src/lpc54_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc54xx/lpcxpresso-lpc54628/src/lpcxpresso-lpc54628.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/max326xx/max32660-evsys/src/max32660-evsys.h",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/max326xx/max32660-evsys/src/max326_bringup.c",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/nrf52/arduino-nano-33ble-rev2/src/arduino-nano-33ble.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/arduino-nano-33ble-rev2/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/arduino-nano-33ble/src/arduino-nano-33ble.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/arduino-nano-33ble/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52-feather.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-dk/src/nrf52832-dk.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-dk/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-mdk/src/nrf52832-mdk.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-mdk/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-sparkfun/src/nrf52832-sparkfun.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52832-sparkfun/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52840-dk.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dk/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dongle/src/nrf52840-dongle.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52840-dongle/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf9160-dk-nrf52/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/nrf9160-dk-nrf52/src/nrf9160-dk-nrf52.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/thingy52/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/thingy52/src/thingy52.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/thingy91-nrf52/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/thingy91-nrf52/src/thingy91-nrf52.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/xiao-nrf52840/src/nrf52_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf52/xiao-nrf52840/src/xiao-nrf52840.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-audio-dk/src/nrf5340-audio-dk.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-audio-dk/src/nrf53_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/nrf5340-dk.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf53/nrf5340-dk/src/nrf53_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/src/nrf53_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/src/thingy53.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf91/nrf9160-dk/src/nrf9160-dk.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf91/nrf9160-dk/src/nrf91_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf91/thingy91/src/nrf91_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/nrf91/thingy91/src/thingy91.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/phy62xx/phy6222/src/bringup.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/phy62xx/phy6222/src/phy6222.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/ra4/arduino-r4-minima/src/arduino-r4-minima.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/ra4/xiao-ra4m1/src/xiao-ra4m1.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/rddrone-bms772/src/rddrone-bms772.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/rddrone-bms772/src/s32k1xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k118evb/src/s32k118evb.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k118evb/src/s32k1xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k144evb/src/s32k144evb.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k144evb/src/s32k1xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k146evb/src/s32k146evb.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k146evb/src/s32k1xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k148evb/src/s32k148evb.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/s32k148evb/src/s32k1xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/ucans32k146/src/s32k1xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k1xx/ucans32k146/src/ucans32k146.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/src/mr-canhubk3.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k3xx/mr-canhubk3/src/s32k3xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k3xx/s32k344evb/src/s32k344evb.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/s32k3xx/s32k344evb/src/s32k3xx_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sam34/arduino-due/src/arduino-due.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sam34/arduino-due/src/sam_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sam34/flipnclick-sam3x/src/flipnclick-sam3x.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sam34/flipnclick-sam3x/src/sam_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/samd2l2/arduino-m0/src/arduino_m0.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/samd2l2/circuit-express/src/circuit_express.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/samd5e5/metro-m4/src/metro-m4.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/samd5e5/metro-m4/src/sam_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/samd5e5/same54-xplained-pro/src/sam_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/samd5e5/same54-xplained-pro/src/same54-xplained-pro.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/axoloti/src/axoloti.h",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/axoloti/src/stm32_bringup.c",
+      "additions": 0,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "fix-config",
+  "headRefOid": "9c43fc149d889df2d71f10ae356355766b14e657",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac7X0zRs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L19g",
+      "name": "Board: openrisc",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L3cA",
+      "name": "Board: renesas",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MEmQ",
+      "name": "Board: x86",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MMEA",
+      "name": "Board: z80",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": {
+    "number": 3,
+    "title": "v13.0.0",
+    "description": "NuttX version 13.0.0 release, including new breaking changes.",
+    "dueOn": "2026-06-01T00:00:00Z"
+  },
+  "number": 18846,
+  "state": "OPEN",
+  "title": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+  "updatedAt": "2026-05-03T20:57:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18846"
+}
