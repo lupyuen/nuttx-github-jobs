@@ -1,5 +1,5 @@
 {
-  "additions": 4,
+  "additions": 35,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 13,
+  "changedFiles": 19,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:58Z",
-  "deletions": 103,
+  "deletions": 135,
   "files": [
     {
       "path": "examples/dronecan/Kconfig",
@@ -37,8 +37,8 @@
     },
     {
       "path": "fsutils/mkfatfs/configfat.c",
-      "additions": 0,
-      "deletions": 28
+      "additions": 6,
+      "deletions": 34
     },
     {
       "path": "logging/nxscope/nxscope_chan.c",
@@ -66,6 +66,16 @@
       "deletions": 7
     },
     {
+      "path": "netutils/thttpd/libhttpd.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "netutils/thttpd/tdate_parse.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "system/zmodem/host/nuttx/compiler.h",
       "additions": 0,
       "deletions": 4
@@ -76,13 +86,33 @@
       "deletions": 32
     },
     {
+      "path": "testing/libc/scanftest/Kconfig",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
       "path": "testing/ostest/semtimed.c",
       "additions": 0,
       "deletions": 4
+    },
+    {
+      "path": "testing/ostest/wdog.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/fsync_test.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/time_test.c",
+      "additions": 1,
+      "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "fbb77e3c19398495b3f30b7b6c954205200073d2",
+  "headRefOid": "2bfddba9cac1aff1e2544d502b733a019eaa3d3e",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
     "name": "incubator-nuttx-apps",
@@ -123,7 +153,7 @@
   "milestone": null,
   "number": 3468,
   "state": "OPEN",
-  "title": "remove CONFIG_SYSTEM_TIME64 references and always assume 64-bit time",
-  "updatedAt": "2026-05-03T08:39:39Z",
+  "title": "sched: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
+  "updatedAt": "2026-05-03T13:15:45Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3468"
 }
