@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-04T15:17:24Z",
   "createdAt": "2026-05-03T18:00:46Z",
   "deletions": 16,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "97a50eaf453469a7c3afc76b40c86e4552d59b97"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-04T15:17:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18845,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/sixlowpan: Fix sixlowpan_uncompresshdr_hc06()",
-  "updatedAt": "2026-05-04T07:14:28Z",
+  "updatedAt": "2026-05-04T15:17:24Z",
   "url": "https://github.com/apache/nuttx/pull/18845"
 }

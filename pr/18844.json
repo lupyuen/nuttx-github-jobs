@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-04T15:16:50Z",
   "createdAt": "2026-05-03T14:34:04Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "805169cebd0a09c3dd0d50962fd063a7235e1d99"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-04T15:16:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18844,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-  "updatedAt": "2026-05-04T07:15:53Z",
+  "updatedAt": "2026-05-04T15:16:51Z",
   "url": "https://github.com/apache/nuttx/pull/18844"
 }

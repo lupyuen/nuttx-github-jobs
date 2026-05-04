@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 253,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-04T15:16:12Z",
   "createdAt": "2026-05-03T20:54:30Z",
   "deletions": 768,
   "files": [
@@ -586,11 +586,18 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "96041a7c5865bd899b5d979b19d4af16e154f92b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-04T15:16:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": {
     "number": 3,
     "title": "v13.0.0",
@@ -598,8 +605,8 @@
     "dueOn": "2026-06-01T00:00:00Z"
   },
   "number": 18846,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/stm32f4discovery: Normalize mt6816 defconfig",
-  "updatedAt": "2026-05-04T12:39:46Z",
+  "updatedAt": "2026-05-04T15:29:13Z",
   "url": "https://github.com/apache/nuttx/pull/18846"
 }
