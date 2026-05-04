@@ -1,5 +1,249 @@
 [
   {
+    "build_arch": "arm",
+    "build_board": "weact-stm32h750",
+    "build_config": "nsh",
+    "build_group": "arm-13",
+    "build_msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/nuttx section `.text' will not fit in region `flash' \n arm-none-eabi-ld: region `flash' overflowed by 1668 bytes \n make[1]: *** [Makefile:226: nuttx] Error 1 \n make: *** [tools/Unix.mk:568: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n Untracked files: \n boards/arm/stm32h7/weact-stm32h750/scripts/flash.ld.tmp \n nothing added to commit but untracked files present (use \"git add\" to track)",
+    "build_score": 0,
+    "build_subarch": "stm32h7",
+    "build_timestamp": "2026-05-04T00:05:54",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/25290537959/job/74141686062#step:10:1645",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-05-03T20:54:35Z",
+    "job_databaseId": 25290537959,
+    "job_displayTitle": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "job_event": "pull_request",
+    "job_headBranch": "fix-config",
+    "job_headSha": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "job_name": "Build",
+    "job_number": 54660,
+    "job_run_duration_ms": "13221000",
+    "job_startedAt": "2026-05-03T20:54:35Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-05-04T00:34:56Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/25290537959",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1,
+    "pr_assignees": [],
+    "pr_author": "linguini1",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 253,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-05-03T20:54:30Z",
+    "pr_deletions": 768,
+    "pr_headRefName": "fix-config",
+    "pr_headRefOid": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "linguini1",
+    "pr_id": "PR_kwDODZiUac7X0zRs",
+    "pr_isDraft": false,
+    "pr_labels": "Size: L, Board: arm, Board: mips, Board: openrisc, Board: renesas, Board: risc-v, Board: x86, Board: xtensa, Board: z80",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": {
+      "description": "NuttX version 13.0.0 release, including new breaking changes.",
+      "dueOn": "2026-06-01T00:00:00Z",
+      "number": 3,
+      "title": "v13.0.0"
+    },
+    "pr_number": 18846,
+    "pr_state": "OPEN",
+    "pr_title": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "pr_updatedAt": "2026-05-04T07:15:15Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18846"
+  },
+  {
+    "build_arch": "xtensa",
+    "build_board": "esp32s3-devkit",
+    "build_config": "cxx",
+    "build_group": "xtensa-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32s3",
+    "build_timestamp": "2026-05-03T23:25:55",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/25290537959/job/74141685790#step:10:1563",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-05-03T20:54:35Z",
+    "job_databaseId": 25290537959,
+    "job_displayTitle": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "job_event": "pull_request",
+    "job_headBranch": "fix-config",
+    "job_headSha": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "job_name": "Build",
+    "job_number": 54660,
+    "job_run_duration_ms": "13221000",
+    "job_startedAt": "2026-05-03T20:54:35Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-05-04T00:34:56Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/25290537959",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1,
+    "pr_assignees": [],
+    "pr_author": "linguini1",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 253,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-05-03T20:54:30Z",
+    "pr_deletions": 768,
+    "pr_headRefName": "fix-config",
+    "pr_headRefOid": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "linguini1",
+    "pr_id": "PR_kwDODZiUac7X0zRs",
+    "pr_isDraft": false,
+    "pr_labels": "Size: L, Board: arm, Board: mips, Board: openrisc, Board: renesas, Board: risc-v, Board: x86, Board: xtensa, Board: z80",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": {
+      "description": "NuttX version 13.0.0 release, including new breaking changes.",
+      "dueOn": "2026-06-01T00:00:00Z",
+      "number": 3,
+      "title": "v13.0.0"
+    },
+    "pr_number": 18846,
+    "pr_state": "OPEN",
+    "pr_title": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "pr_updatedAt": "2026-05-04T07:15:15Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18846"
+  },
+  {
+    "build_arch": "risc-v",
+    "build_board": "esp32p4-function-ev-board",
+    "build_config": "pwm",
+    "build_group": "risc-v-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32p4",
+    "build_timestamp": "2026-05-03T23:12:23",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/25290537959/job/74141685794#step:10:1425",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-05-03T20:54:35Z",
+    "job_databaseId": 25290537959,
+    "job_displayTitle": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "job_event": "pull_request",
+    "job_headBranch": "fix-config",
+    "job_headSha": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "job_name": "Build",
+    "job_number": 54660,
+    "job_run_duration_ms": "13221000",
+    "job_startedAt": "2026-05-03T20:54:35Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-05-04T00:34:56Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/25290537959",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1,
+    "pr_assignees": [],
+    "pr_author": "linguini1",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 253,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-05-03T20:54:30Z",
+    "pr_deletions": 768,
+    "pr_headRefName": "fix-config",
+    "pr_headRefOid": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "linguini1",
+    "pr_id": "PR_kwDODZiUac7X0zRs",
+    "pr_isDraft": false,
+    "pr_labels": "Size: L, Board: arm, Board: mips, Board: openrisc, Board: renesas, Board: risc-v, Board: x86, Board: xtensa, Board: z80",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": {
+      "description": "NuttX version 13.0.0 release, including new breaking changes.",
+      "dueOn": "2026-06-01T00:00:00Z",
+      "number": 3,
+      "title": "v13.0.0"
+    },
+    "pr_number": 18846,
+    "pr_state": "OPEN",
+    "pr_title": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "pr_updatedAt": "2026-05-04T07:15:15Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18846"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "lua",
+    "build_group": "sim-02",
+    "build_msg": "T i me         Ti m e    C u r r e n t \n D l o a d     U p l o a d     Total   Spent    Left  Speed",
+    "build_score": 0.8,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-05-03T21:09:51",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/25290537959/job/74141685768#step:10:403",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-05-03T20:54:35Z",
+    "job_databaseId": 25290537959,
+    "job_displayTitle": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "job_event": "pull_request",
+    "job_headBranch": "fix-config",
+    "job_headSha": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "job_name": "Build",
+    "job_number": 54660,
+    "job_run_duration_ms": "13221000",
+    "job_startedAt": "2026-05-03T20:54:35Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-05-04T00:34:56Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/25290537959",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1,
+    "pr_assignees": [],
+    "pr_author": "linguini1",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 253,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-05-03T20:54:30Z",
+    "pr_deletions": 768,
+    "pr_headRefName": "fix-config",
+    "pr_headRefOid": "9c43fc149d889df2d71f10ae356355766b14e657",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "linguini1",
+    "pr_id": "PR_kwDODZiUac7X0zRs",
+    "pr_isDraft": false,
+    "pr_labels": "Size: L, Board: arm, Board: mips, Board: openrisc, Board: renesas, Board: risc-v, Board: x86, Board: xtensa, Board: z80",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": {
+      "description": "NuttX version 13.0.0 release, including new breaking changes.",
+      "dueOn": "2026-06-01T00:00:00Z",
+      "number": 3,
+      "title": "v13.0.0"
+    },
+    "pr_number": 18846,
+    "pr_state": "OPEN",
+    "pr_title": "boards/stm32f4discovery: Normalize mt6816 defconfig",
+    "pr_updatedAt": "2026-05-04T07:15:15Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18846"
+  },
+  {
     "build_arch": "xtensa",
     "build_board": "esp32s3-devkit",
     "build_config": "knsh",
@@ -44,7 +288,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -52,7 +296,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -100,7 +344,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Networking, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -108,7 +352,7 @@
     "pr_number": 18845,
     "pr_state": "OPEN",
     "pr_title": "net/sixlowpan: Fix sixlowpan_uncompresshdr_hc06()",
-    "pr_updatedAt": "2026-05-03T20:54:39Z",
+    "pr_updatedAt": "2026-05-04T07:14:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18845"
   },
   {
@@ -156,7 +400,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -164,7 +408,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -212,7 +456,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Networking, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -220,7 +464,7 @@
     "pr_number": 18845,
     "pr_state": "OPEN",
     "pr_title": "net/sixlowpan: Fix sixlowpan_uncompresshdr_hc06()",
-    "pr_updatedAt": "2026-05-03T20:54:39Z",
+    "pr_updatedAt": "2026-05-04T07:14:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18845"
   },
   {
@@ -268,7 +512,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Networking, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -276,7 +520,7 @@
     "pr_number": 18845,
     "pr_state": "OPEN",
     "pr_title": "net/sixlowpan: Fix sixlowpan_uncompresshdr_hc06()",
-    "pr_updatedAt": "2026-05-03T20:54:39Z",
+    "pr_updatedAt": "2026-05-04T07:14:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18845"
   },
   {
@@ -324,7 +568,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -332,7 +576,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -380,7 +624,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -388,7 +632,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -436,7 +680,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Networking, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -444,7 +688,7 @@
     "pr_number": 18845,
     "pr_state": "OPEN",
     "pr_title": "net/sixlowpan: Fix sixlowpan_uncompresshdr_hc06()",
-    "pr_updatedAt": "2026-05-03T20:54:39Z",
+    "pr_updatedAt": "2026-05-04T07:14:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18845"
   },
   {
@@ -604,7 +848,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Networking, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -612,7 +856,7 @@
     "pr_number": 18845,
     "pr_state": "OPEN",
     "pr_title": "net/sixlowpan: Fix sixlowpan_uncompresshdr_hc06()",
-    "pr_updatedAt": "2026-05-03T20:54:39Z",
+    "pr_updatedAt": "2026-05-04T07:14:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18845"
   },
   {
@@ -724,7 +968,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -780,7 +1024,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -836,7 +1080,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -892,7 +1136,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -948,7 +1192,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1004,7 +1248,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1060,7 +1304,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1116,7 +1360,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1172,7 +1416,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1228,7 +1472,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1284,7 +1528,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1340,7 +1584,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1396,7 +1640,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1452,7 +1696,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1508,7 +1752,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1564,7 +1808,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1620,7 +1864,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1676,7 +1920,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1732,7 +1976,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1788,7 +2032,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1844,7 +2088,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1900,7 +2144,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -1956,7 +2200,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2012,7 +2256,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2068,7 +2312,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2124,7 +2368,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2180,7 +2424,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2236,7 +2480,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2292,7 +2536,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2348,7 +2592,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2404,7 +2648,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2460,7 +2704,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2516,7 +2760,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2572,7 +2816,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2628,7 +2872,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2676,7 +2920,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2684,7 +2928,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -2740,7 +2984,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2796,7 +3040,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2852,7 +3096,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2908,7 +3152,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -2964,7 +3208,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3020,7 +3264,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3076,7 +3320,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3132,7 +3376,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3188,7 +3432,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3236,7 +3480,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -3244,7 +3488,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -3300,7 +3544,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3348,7 +3592,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -3356,7 +3600,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -3412,7 +3656,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3460,7 +3704,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -3468,7 +3712,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -3524,7 +3768,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3580,7 +3824,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3636,7 +3880,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3692,7 +3936,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3748,7 +3992,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3804,7 +4048,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3860,7 +4104,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3916,7 +4160,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -3972,7 +4216,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4028,7 +4272,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4084,7 +4328,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4140,7 +4384,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4196,7 +4440,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4252,7 +4496,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4308,7 +4552,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4364,7 +4608,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4420,7 +4664,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4476,7 +4720,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4532,7 +4776,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4588,7 +4832,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4644,7 +4888,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4700,7 +4944,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4756,7 +5000,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4812,7 +5056,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4868,7 +5112,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4924,7 +5168,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -4980,7 +5224,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5036,7 +5280,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5092,7 +5336,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5148,7 +5392,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5204,7 +5448,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5260,7 +5504,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5316,7 +5560,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5372,7 +5616,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5428,7 +5672,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5484,7 +5728,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5540,7 +5784,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5596,7 +5840,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5652,7 +5896,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5708,7 +5952,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5764,7 +6008,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5820,7 +6064,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5876,7 +6120,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5932,7 +6176,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -5988,7 +6232,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6044,7 +6288,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6092,7 +6336,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Networking, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -6100,7 +6344,7 @@
     "pr_number": 18843,
     "pr_state": "OPEN",
     "pr_title": "net/icmpv6: Discard Neighbor Discovery packet if optlen is 0",
-    "pr_updatedAt": "2026-05-03T13:48:08Z",
+    "pr_updatedAt": "2026-05-04T07:06:35Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18843"
   },
   {
@@ -6268,7 +6512,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6324,7 +6568,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6380,7 +6624,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6436,7 +6680,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6492,7 +6736,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6548,7 +6792,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6604,7 +6848,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6660,7 +6904,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6716,7 +6960,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6772,7 +7016,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6828,7 +7072,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6884,7 +7128,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6940,7 +7184,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -6996,7 +7240,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7052,7 +7296,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7108,7 +7352,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7164,7 +7408,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7220,7 +7464,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7276,7 +7520,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7332,7 +7576,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7388,7 +7632,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7444,7 +7688,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7500,7 +7744,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7556,7 +7800,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7612,7 +7856,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7668,7 +7912,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7724,7 +7968,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7780,7 +8024,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7836,7 +8080,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7892,7 +8136,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -7948,7 +8192,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8004,7 +8248,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8060,7 +8304,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8116,7 +8360,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8172,7 +8416,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8228,7 +8472,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8284,7 +8528,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8340,7 +8584,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8396,7 +8640,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8452,7 +8696,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8508,7 +8752,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8564,7 +8808,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8724,7 +8968,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Networking, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -8732,7 +8976,7 @@
     "pr_number": 18843,
     "pr_state": "OPEN",
     "pr_title": "net/icmpv6: Discard Neighbor Discovery packet if optlen is 0",
-    "pr_updatedAt": "2026-05-03T13:48:08Z",
+    "pr_updatedAt": "2026-05-04T07:06:35Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18843"
   },
   {
@@ -8844,7 +9088,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8900,7 +9144,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -8956,7 +9200,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9012,7 +9256,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9068,7 +9312,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9124,7 +9368,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9180,7 +9424,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9236,7 +9480,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9292,7 +9536,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9348,7 +9592,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9404,7 +9648,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9460,7 +9704,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9516,7 +9760,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9572,7 +9816,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9628,7 +9872,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9684,7 +9928,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9740,7 +9984,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9796,7 +10040,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9852,7 +10096,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9908,7 +10152,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -9964,7 +10208,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10020,7 +10264,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10076,7 +10320,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10132,7 +10376,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10188,7 +10432,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10244,7 +10488,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10300,7 +10544,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10356,7 +10600,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10412,7 +10656,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10468,7 +10712,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10524,7 +10768,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10580,7 +10824,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10636,7 +10880,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10692,7 +10936,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10748,7 +10992,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10804,7 +11048,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10860,7 +11104,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10916,7 +11160,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -10972,7 +11216,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11028,7 +11272,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11084,7 +11328,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11140,7 +11384,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11196,7 +11440,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11252,7 +11496,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11308,7 +11552,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11364,7 +11608,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11420,7 +11664,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11476,7 +11720,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11532,7 +11776,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11588,7 +11832,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11644,7 +11888,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11700,7 +11944,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11756,7 +12000,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11812,7 +12056,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11868,7 +12112,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11924,7 +12168,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -11980,7 +12224,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12036,7 +12280,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12092,7 +12336,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12148,7 +12392,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12204,7 +12448,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12260,7 +12504,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12316,7 +12560,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12372,7 +12616,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12428,7 +12672,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12484,7 +12728,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12540,7 +12784,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12596,7 +12840,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12652,7 +12896,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12708,7 +12952,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12764,7 +13008,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12820,7 +13064,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12876,7 +13120,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12932,7 +13176,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -12988,7 +13232,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13044,7 +13288,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13100,7 +13344,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13156,7 +13400,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13212,7 +13456,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13268,7 +13512,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13324,7 +13568,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13380,7 +13624,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13436,7 +13680,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13492,7 +13736,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13548,7 +13792,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13604,7 +13848,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13660,7 +13904,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13716,7 +13960,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13772,7 +14016,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13828,7 +14072,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13884,7 +14128,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13940,7 +14184,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -13996,7 +14240,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14052,7 +14296,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14108,7 +14352,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14164,7 +14408,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14220,7 +14464,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14276,7 +14520,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14332,7 +14576,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14388,7 +14632,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14444,7 +14688,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14500,7 +14744,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14556,7 +14800,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14612,7 +14856,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14668,7 +14912,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14724,7 +14968,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14780,7 +15024,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14836,7 +15080,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14892,7 +15136,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -14948,7 +15192,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15004,7 +15248,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15060,7 +15304,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15116,7 +15360,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15172,7 +15416,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15276,7 +15520,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNSTABLE",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -15284,7 +15528,7 @@
     "pr_number": 18844,
     "pr_state": "OPEN",
     "pr_title": "libs/netdb: Fix dns_recv_response() to dns_answer_s size",
-    "pr_updatedAt": "2026-05-03T18:10:40Z",
+    "pr_updatedAt": "2026-05-04T07:15:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18844"
   },
   {
@@ -15340,7 +15584,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15676,7 +15920,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15732,7 +15976,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15788,7 +16032,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15844,7 +16088,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15900,7 +16144,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -15956,7 +16200,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16012,7 +16256,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16068,7 +16312,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16124,7 +16368,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16180,7 +16424,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16236,7 +16480,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16292,7 +16536,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16348,7 +16592,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16404,7 +16648,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16460,7 +16704,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16516,7 +16760,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16572,7 +16816,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16628,7 +16872,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16684,7 +16928,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16740,7 +16984,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16796,7 +17040,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16852,7 +17096,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16908,7 +17152,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -16964,7 +17208,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17020,7 +17264,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17076,7 +17320,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17132,7 +17376,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17188,7 +17432,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17244,7 +17488,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17300,7 +17544,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17356,7 +17600,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17412,7 +17656,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17468,7 +17712,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17524,7 +17768,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17580,7 +17824,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -17636,7 +17880,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18364,7 +18608,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18420,7 +18664,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18476,7 +18720,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18532,7 +18776,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18588,7 +18832,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18644,7 +18888,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18700,7 +18944,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18756,7 +19000,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18812,7 +19056,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18868,7 +19112,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18924,7 +19168,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -18980,7 +19224,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19036,7 +19280,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19092,7 +19336,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19148,7 +19392,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19204,7 +19448,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19260,7 +19504,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19316,7 +19560,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19372,7 +19616,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19428,7 +19672,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19484,7 +19728,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19540,7 +19784,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19596,7 +19840,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19652,7 +19896,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19708,7 +19952,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19764,7 +20008,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19820,7 +20064,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19876,7 +20120,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19932,7 +20176,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -19988,7 +20232,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20044,7 +20288,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20100,7 +20344,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20156,7 +20400,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20212,7 +20456,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20268,7 +20512,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20324,7 +20568,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20380,7 +20624,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20436,7 +20680,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20492,7 +20736,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20548,7 +20792,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20604,7 +20848,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20660,7 +20904,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20716,7 +20960,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20772,7 +21016,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20828,7 +21072,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20884,7 +21128,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20940,7 +21184,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -20996,7 +21240,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -21052,7 +21296,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -21108,7 +21352,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -21164,7 +21408,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -21220,7 +21464,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -21276,7 +21520,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -21332,7 +21576,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23236,7 +23480,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23404,7 +23648,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23460,7 +23704,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23516,7 +23760,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23572,7 +23816,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23628,7 +23872,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23740,7 +23984,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23852,7 +24096,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -23964,7 +24208,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24020,7 +24264,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24076,7 +24320,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24132,7 +24376,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24188,7 +24432,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24244,7 +24488,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24300,7 +24544,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24356,7 +24600,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24412,7 +24656,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24524,7 +24768,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24580,7 +24824,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24636,7 +24880,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24748,7 +24992,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24804,7 +25048,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24916,7 +25160,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -24972,7 +25216,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25028,7 +25272,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25084,7 +25328,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25140,7 +25384,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25196,7 +25440,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25252,7 +25496,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25308,7 +25552,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25364,7 +25608,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25420,7 +25664,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25476,7 +25720,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25532,7 +25776,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25588,7 +25832,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25644,7 +25888,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25700,7 +25944,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25756,7 +26000,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25812,7 +26056,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25924,7 +26168,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -25980,7 +26224,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -26036,7 +26280,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -26092,7 +26336,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -26148,7 +26392,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
@@ -26204,7 +26448,7 @@
     "pr_number": 18840,
     "pr_state": "OPEN",
     "pr_title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-    "pr_updatedAt": "2026-05-03T17:00:25Z",
+    "pr_updatedAt": "2026-05-04T07:16:54Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18840"
   },
   {
