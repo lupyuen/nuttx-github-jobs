@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-05T17:29:12Z",
   "createdAt": "2026-05-05T12:24:20Z",
   "deletions": 3,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a9881037ea8f37c99cad6c31eb3ba8af2ebc3cec"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-05T17:29:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3471,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nimble: remove -Wno-pointer-to-int-cast from CFLAGS",
-  "updatedAt": "2026-05-05T16:42:08Z",
+  "updatedAt": "2026-05-05T17:29:12Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3471"
 }

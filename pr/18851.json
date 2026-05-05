@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-05T17:16:41Z",
   "createdAt": "2026-05-05T09:15:41Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "de5cc186e4585fdbb9e3466bdf30d8592684825e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-05T17:16:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18851,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/netdev/netdev_txnotify.c: add debug log with interface name",
-  "updatedAt": "2026-05-05T15:37:47Z",
+  "updatedAt": "2026-05-05T17:16:41Z",
   "url": "https://github.com/apache/nuttx/pull/18851"
 }
