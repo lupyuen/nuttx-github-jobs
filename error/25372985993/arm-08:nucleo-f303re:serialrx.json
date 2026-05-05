@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-05T11:56:41",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-08",
+"board": "nucleo-f303re",
+"config": "serialrx",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25372985993/job/74401166156#step:10:1301",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/arch/arm/src/board/libboard.a(stm32_boot.o): in function `board_late_initialize': \n stm32_boot.c:(.text.board_late_initialize+0x2): undefined reference to `stm32_adc_setup' \n make[1]: *** [Makefile:226: nuttx] Error 1 \n make: *** [tools/Unix.mk:568: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n Untracked files: \n boards/arm/stm32/nucleo-f303re/scripts/ld.script.tmp"
+}
