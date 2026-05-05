@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-05T07:01:36Z",
   "createdAt": "2026-05-04T19:08:37Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fc89dfdc3c8c5ff061f6748e317faed6aab8b668"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-05T07:01:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18850,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/weact-stm32h750: Don't disable compilation optimization",
-  "updatedAt": "2026-05-04T19:12:39Z",
+  "updatedAt": "2026-05-05T07:01:36Z",
   "url": "https://github.com/apache/nuttx/pull/18850"
 }
