@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-06T21:26:58",
+"arch": "arm",
+"subarch": "imxrt",
+"group": "arm-02",
+"board": "imxrt1064-evk",
+"config": "mcuboot-loader",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25459302764/job/74697383268#step:10:1043",
+"msg": "mcuboot/boot/nuttx/main.c: In function 'mcuboot_loader_main': \n ##[error]mcuboot/boot/nuttx/main.c:106:12: error: 'BOARDIOC_INIT' undeclared (first use in this function); did you mean 'BOARDIOC_USER'? \n 106 |   boardctl(BOARDIOC_INIT, 0); \n |            ^~~~~~~~~~~~~ \n |            BOARDIOC_USER \n mcuboot/boot/nuttx/main.c:106:12: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: mcuboot/boot/nuttx/"
+}
