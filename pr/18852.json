@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-06T05:27:27Z",
   "createdAt": "2026-05-05T15:34:05Z",
   "deletions": 2,
   "files": [
@@ -39,7 +39,7 @@
     "login": "linguini1"
   },
   "id": "PR_kwDODZiUac7YdHoe",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiUac8AAAABvj_Wkw",
@@ -54,15 +54,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "89b48153821bd8a95f2a77883b42c879d2ba36d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-06T05:27:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18852,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/xtensa: Normalize configurations",
-  "updatedAt": "2026-05-05T22:21:04Z",
+  "updatedAt": "2026-05-06T05:27:27Z",
   "url": "https://github.com/apache/nuttx/pull/18852"
 }
