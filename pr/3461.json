@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 12,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-24T12:58:05Z",
   "createdAt": "2026-04-22T12:43:59Z",
   "deletions": 1068,
   "files": [
@@ -80,8 +80,7 @@
   "headRefOid": "9ed8bc00b2eee3329b97286fffab844e09af8ecc",
   "headRepository": {
     "id": "R_kgDOIFfryw",
-    "name": "incubator-nuttx-apps",
-    "nameWithOwner": ""
+    "name": "incubator-nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjI4ODExNzIw",
@@ -110,15 +109,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6379e531de0d73549a5242de1cc6c9ee7839db9b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T12:58:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 3461,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing: `irtest` usage to test Espressif's RMT peripheral.",
-  "updatedAt": "2026-04-23T19:42:08Z",
+  "updatedAt": "2026-04-24T12:58:06Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3461"
 }

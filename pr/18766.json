@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-21T23:14:39Z",
   "createdAt": "2026-04-20T08:58:27Z",
   "deletions": 27,
   "files": [
@@ -40,8 +40,7 @@
   "headRefOid": "8d0f4d81c0eb25bb6dc65a54f16893ef4876bbac",
   "headRepository": {
     "id": "R_kgDOQ70AiA",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "U_kgDOBkM3nQ",
@@ -76,15 +75,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "59d44c49975b110e7af47abc5d73ac0add3ceb0e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-21T23:14:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 18766,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/stm32: route nucleo-f412zg console through ST-LINK VCP.",
-  "updatedAt": "2026-04-21T18:22:25Z",
+  "updatedAt": "2026-04-21T23:14:40Z",
   "url": "https://github.com/apache/nuttx/pull/18766"
 }

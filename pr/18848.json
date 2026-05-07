@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-06T06:49:53Z",
   "createdAt": "2026-05-04T15:13:21Z",
   "deletions": 1,
   "files": [
@@ -22,11 +22,10 @@
     }
   ],
   "headRefName": "master",
-  "headRefOid": "a7a7d570a6e03f16d3d1b89914a37a39cf8aac56",
+  "headRefOid": "99efdd6a4037f34003d3b4a2615df6fa815751a3",
   "headRepository": {
     "id": "R_kgDONIScEg",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjQ0NDkzNDM=",
@@ -49,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "eb92f0f8c8448d2deecd423f3e0d27359b7994d6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-06T06:49:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18848,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/timers: avoid 32-bit overflow in arch_timer current_usec",
-  "updatedAt": "2026-05-05T08:12:37Z",
+  "updatedAt": "2026-05-06T06:49:53Z",
   "url": "https://github.com/apache/nuttx/pull/18848"
 }

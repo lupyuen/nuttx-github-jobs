@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-05T17:37:53Z",
   "createdAt": "2026-05-01T23:08:48Z",
   "deletions": 0,
   "files": [
@@ -25,8 +25,7 @@
   "headRefOid": "4b24b0224c29e94cb318127ac2694406e72322e3",
   "headRepository": {
     "id": "R_kgDOSMc9JQ",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjE0Mjg3ODE1",
@@ -48,15 +47,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7e0f282718ccd45f393c199acf91a22e1e183069"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-05T17:37:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18830,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/vfs: allow NULL iov_base in KERNEL build with zero-based text",
-  "updatedAt": "2026-05-02T13:26:36Z",
+  "updatedAt": "2026-05-05T17:37:54Z",
   "url": "https://github.com/apache/nuttx/pull/18830"
 }

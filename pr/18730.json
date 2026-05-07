@@ -1,11 +1,10 @@
 {
-  "additions": 3183,
+  "additions": 3436,
   "assignees": [
     {
       "id": "MDQ6VXNlcjMwNTE4MzI=",
       "login": "cederom",
-      "name": "CeDeROM",
-      "databaseId": 0
+      "name": "CeDeROM"
     }
   ],
   "author": {
@@ -16,14 +15,49 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 34,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 42,
+  "closed": true,
+  "closedAt": "2026-04-24T08:27:08Z",
   "createdAt": "2026-04-14T02:33:59Z",
   "deletions": 0,
   "files": [
     {
+      "path": "Documentation/applications/benchmarks/coremark/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
       "path": "Documentation/applications/examples/lvgldemo/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/examples/watchdog/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/graphics/lvgl/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/system/uorb/index.rst",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/testing/ostest/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/lcd.rst",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/special/sensors/qmi8658.rst",
       "additions": 2,
       "deletions": 0
     },
@@ -69,7 +103,7 @@
     },
     {
       "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-ws-lcd128/index.rst",
-      "additions": 189,
+      "additions": 407,
       "deletions": 0
     },
     {
@@ -83,48 +117,58 @@
       "deletions": 0
     },
     {
+      "path": "boards/xtensa/esp32s3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_qmi8658.c",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/Kconfig",
       "additions": 38,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/coremark/defconfig",
-      "additions": 44,
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/imu-qmi8658/defconfig",
+      "additions": 65,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/notouch-lvgl/defconfig",
-      "additions": 78,
+      "additions": 74,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/nsh/defconfig",
-      "additions": 52,
+      "additions": 47,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/ostest/defconfig",
-      "additions": 53,
-      "deletions": 0
-    },
-    {
-      "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/qmi8658/defconfig",
-      "additions": 60,
+      "additions": 50,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/touch-lvgl/defconfig",
-      "additions": 79,
+      "additions": 75,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/configs/watchdog/defconfig",
-      "additions": 56,
+      "additions": 54,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/include/board.h",
-      "additions": 55,
+      "additions": 59,
       "deletions": 0
     },
     {
@@ -139,12 +183,12 @@
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/Make.defs",
-      "additions": 54,
+      "additions": 50,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3-ws-lcd128.h",
-      "additions": 193,
+      "additions": 207,
       "deletions": 0
     },
     {
@@ -153,18 +197,13 @@
       "deletions": 0
     },
     {
-      "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_board_imu_qmi8658.c",
-      "additions": 84,
-      "deletions": 0
-    },
-    {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_board_lcd_gc9a01.c",
-      "additions": 145,
+      "additions": 147,
       "deletions": 0
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_board_spi.c",
-      "additions": 163,
+      "additions": 161,
       "deletions": 0
     },
     {
@@ -174,7 +213,7 @@
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-ws-lcd128/src/esp32s3_bringup.c",
-      "additions": 671,
+      "additions": 678,
       "deletions": 0
     },
     {
@@ -194,11 +233,10 @@
     }
   ],
   "headRefName": "cederom-202603-esp32s3-ws-lcd128",
-  "headRefOid": "185263d192d6a1a54e9c324caf81debdcb4f0332",
+  "headRefOid": "05dc836a8a0a83e8208b6bbdf7656b1a2c4b08ca",
   "headRepository": {
     "id": "R_kgDOGLlPEA",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjMwNTE4MzI=",
@@ -227,15 +265,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3efaf80d3dbc6770a9d06ccd75ecf2fd333d5a21"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T08:27:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18730,
-  "state": "OPEN",
-  "title": "[WIP] boards/xtensa/esp32s3: New board WaveShare ESP32-S3-(Touch)-LCD-1.28.",
-  "updatedAt": "2026-04-14T21:08:30Z",
+  "state": "MERGED",
+  "title": "boards/xtensa/esp32s3: New board WaveShare ESP32-S3-(Touch)-LCD-1.28.",
+  "updatedAt": "2026-04-24T08:27:08Z",
   "url": "https://github.com/apache/nuttx/pull/18730"
 }

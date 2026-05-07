@@ -1,5 +1,5 @@
 {
-  "additions": 1746,
+  "additions": 1606,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjI4ODExNzIw",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 33,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-05T17:37:01Z",
   "createdAt": "2026-04-30T16:46:32Z",
   "deletions": 432,
   "files": [
@@ -32,7 +32,7 @@
     },
     {
       "path": "arch/risc-v/src/common/espressif/Kconfig",
-      "additions": 147,
+      "additions": 162,
       "deletions": 0
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "path": "arch/risc-v/src/common/espressif/esp_emac.c",
-      "additions": 945,
+      "additions": 791,
       "deletions": 0
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/ethernet/defconfig",
-      "additions": 78,
+      "additions": 77,
       "deletions": 0
     },
     {
@@ -182,11 +182,10 @@
     }
   ],
   "headRefName": "feature/esp32p4_eth",
-  "headRefOid": "09cdbe1bfc045809f5af0893a427e7710c84e902",
+  "headRefOid": "5193394e08d474141a465a1657d060bb5f8d77d5",
   "headRepository": {
     "id": "R_kgDOHwFqQQ",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjI4ODExNzIw",
@@ -227,15 +226,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "20c38d050b8c7e39e9ab178e08089d4a912e9de8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-05T17:37:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18827,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v: Support the ethernet driver on ESP32-P4",
-  "updatedAt": "2026-05-01T08:24:30Z",
+  "updatedAt": "2026-05-05T17:37:01Z",
   "url": "https://github.com/apache/nuttx/pull/18827"
 }

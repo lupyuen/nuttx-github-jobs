@@ -1,5 +1,5 @@
 {
-  "additions": 58,
+  "additions": 57,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjkwMTgzMDQ=",
@@ -10,30 +10,29 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-23T07:11:09Z",
   "createdAt": "2026-04-19T02:40:45Z",
-  "deletions": 98,
+  "deletions": 97,
   "files": [
     {
       "path": "net/devif/ipv4_input.c",
-      "additions": 58,
-      "deletions": 98
+      "additions": 57,
+      "deletions": 97
     }
   ],
   "headRefName": "fix/unicast-route-multicast",
-  "headRefOid": "cf4e86db3a269758bbf43dbbb379391d98d5f35e",
+  "headRefOid": "e4550bf53ac93251a6adb3375c562b0daf1fc847",
   "headRepository": {
     "id": "R_kgDORvNoIQ",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjkwMTgzMDQ=",
     "login": "ankohuu"
   },
   "id": "PR_kwDODZiUac7TqaCb",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
@@ -48,15 +47,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5428220062f84f7867d050e3db5ae0e3c5b3bb07"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-23T07:11:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 18764,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/devif: Reorder ipv4_input packet classification.",
-  "updatedAt": "2026-04-19T12:04:29Z",
+  "updatedAt": "2026-04-23T07:11:09Z",
   "url": "https://github.com/apache/nuttx/pull/18764"
 }

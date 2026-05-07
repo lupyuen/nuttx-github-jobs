@@ -1,0 +1,109 @@
+{
+  "additions": 1719,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE3MzI0NQ==",
+    "is_bot": false,
+    "login": "btashton",
+    "name": "Brennan Ashton"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2026-02-26T21:46:27Z",
+  "createdAt": "2020-09-14T06:08:49Z",
+  "deletions": 52,
+  "files": [
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/Kconfig",
+      "additions": 56,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/configs/kbfeather/defconfig",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/include/board.h",
+      "additions": 31,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/Makefile",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52-feather.h",
+      "additions": 185,
+      "deletions": 44
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_bringup.c",
+      "additions": 113,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_fw_stmpe811.c",
+      "additions": 328,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_i2c.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_ili9341_lcd.c",
+      "additions": 410,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_spi.c",
+      "additions": 322,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/nrf52/nrf52-feather/src/nrf52_spq10kbd.c",
+      "additions": 166,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/spq10kbd.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/stmpe811_gpio.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "nrf-kbfeather",
+  "headRefOid": "cf852380addcaf5811e5c8be17b4b662b9738c13",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMzA4MjA2NTQ=",
+    "name": "nuttx"
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE3MzI0NQ==",
+    "name": "Brennan Ashton",
+    "login": "btashton"
+  },
+  "id": "MDExOlB1bGxSZXF1ZXN0NDg2MzU1NDY4",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 1778,
+  "state": "CLOSED",
+  "title": "board: Keyboard FeatherWing on nrf52-feather",
+  "updatedAt": "2026-02-26T21:46:27Z",
+  "url": "https://github.com/apache/nuttx/pull/1778"
+}

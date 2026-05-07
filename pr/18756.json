@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-19T13:41:48Z",
   "createdAt": "2026-04-17T16:37:20Z",
   "deletions": 0,
   "files": [
@@ -35,8 +35,7 @@
   "headRefOid": "8ea92750ce30583c3b0d436f5ea49d59ed94eb94",
   "headRepository": {
     "id": "R_kgDOQ70AiA",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "U_kgDOBkM3nQ",
@@ -59,15 +58,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "87bebead382c7f6c35e4552e02c149281ce44f13"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-19T13:41:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18756,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/cxd56xx/spresense: Add ostest, coremark and getprime configs.",
-  "updatedAt": "2026-04-17T16:37:45Z",
+  "updatedAt": "2026-04-19T13:41:48Z",
   "url": "https://github.com/apache/nuttx/pull/18756"
 }

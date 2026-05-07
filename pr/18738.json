@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-18T22:54:59Z",
   "createdAt": "2026-04-15T07:51:27Z",
   "deletions": 0,
   "files": [
@@ -30,8 +30,7 @@
   "headRefOid": "f1da4651964d9bfe09b2d98f13c11ea74e0bcabc",
   "headRepository": {
     "id": "R_kgDORvNoIQ",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjkwMTgzMDQ=",
@@ -53,15 +52,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "eb4df019afa3c46f2dff3d8d716e267034e1e006"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-18T22:54:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18738,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/ipforward: Forbid non-forwardable multicast scopes.",
-  "updatedAt": "2026-04-15T12:25:00Z",
+  "updatedAt": "2026-04-18T22:54:59Z",
   "url": "https://github.com/apache/nuttx/pull/18738"
 }

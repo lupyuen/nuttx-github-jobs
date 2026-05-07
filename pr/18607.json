@@ -1,5 +1,5 @@
 {
-  "additions": 327,
+  "additions": 316,
   "assignees": [],
   "author": {
     "id": "U_kgDOCfYrRw",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 17,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-26T14:50:10Z",
   "createdAt": "2026-03-25T19:19:27Z",
   "deletions": 0,
   "files": [
@@ -57,7 +57,7 @@
     },
     {
       "path": "fs/procfs/fs_procfsprofile.c",
-      "additions": 126,
+      "additions": 114,
       "deletions": 0
     },
     {
@@ -97,12 +97,12 @@
     },
     {
       "path": "fs/vfs/vfs.h",
-      "additions": 35,
+      "additions": 36,
       "deletions": 0
     }
   ],
   "headRefName": "vfs-profiler-gsoc",
-  "headRefOid": "5361d4fa16d96e77e4f2c7b01abf5473acebd64c",
+  "headRefOid": "1fd8903396c0b7c2e994c86b6a8ce80b5376082b",
   "headRepository": {
     "id": "R_kgDORhAJdg",
     "name": "gsoc-nuttx"
@@ -134,15 +134,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "b2b78d2f8a5f0327276337b3e41cc7d481c8ac62"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-04-26T14:50:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18607,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs: Add Kernel-level VFS Performance Profiler",
-  "updatedAt": "2026-03-28T19:00:39Z",
+  "updatedAt": "2026-05-01T15:45:23Z",
   "url": "https://github.com/apache/nuttx/pull/18607"
 }

@@ -1,5 +1,5 @@
 {
-  "additions": 490,
+  "additions": 484,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0MTk2ODg=",
@@ -10,23 +10,22 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-23T14:26:44Z",
   "createdAt": "2026-04-21T01:07:03Z",
   "deletions": 13,
   "files": [
     {
       "path": "drivers/mtd/w25n.c",
-      "additions": 490,
+      "additions": 484,
       "deletions": 13
     }
   ],
   "headRefName": "pr-w25n-bad-block",
-  "headRefOid": "3a10bf27404a55c9c3b69cbb75ca7063a1f16f5a",
+  "headRefOid": "7be556031fa76a5e112e0006db806b563f927992",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzNjI3OTk4NTk=",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjE0MTk2ODg=",
@@ -43,21 +42,28 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_bjg",
-      "name": "Size: L",
-      "description": "The size of the change in this PR is large",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2fd76ea15007af4cd44cfae792fc9210b3ec280d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-23T14:26:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 18771,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/mtd/w25n: implement bad block management",
-  "updatedAt": "2026-04-22T15:43:10Z",
+  "updatedAt": "2026-04-26T21:28:37Z",
   "url": "https://github.com/apache/nuttx/pull/18771"
 }

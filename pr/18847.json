@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-06T06:45:47Z",
   "createdAt": "2026-05-04T14:23:55Z",
   "deletions": 3,
   "files": [
@@ -25,8 +25,7 @@
   "headRefOid": "92e513fa848d481fe4e7a63f426399e74935f3d7",
   "headRepository": {
     "id": "R_kgDOST-ocw",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjI4MzUxNDk5",
@@ -48,15 +47,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "990ac856b29feca14acbc9c597477cccd5f2c1cb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-06T06:45:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18847,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/bluetooth: fix BTPROTO_HCI socket device lookup",
-  "updatedAt": "2026-05-05T07:08:44Z",
+  "updatedAt": "2026-05-06T06:45:47Z",
   "url": "https://github.com/apache/nuttx/pull/18847"
 }

@@ -1,5 +1,5 @@
 {
-  "additions": 61,
+  "additions": 65,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -10,10 +10,10 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 46,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-20T06:42:38Z",
   "createdAt": "2026-04-15T12:58:30Z",
-  "deletions": 62,
+  "deletions": 66,
   "files": [
     {
       "path": "CMakeLists.txt",
@@ -47,8 +47,8 @@
     },
     {
       "path": "industry/modbus/freemodbus/Kconfig",
-      "additions": 7,
-      "deletions": 7
+      "additions": 11,
+      "deletions": 11
     },
     {
       "path": "industry/modbus/freemodbus/Make.defs",
@@ -247,11 +247,10 @@
     }
   ],
   "headRefName": "master",
-  "headRefOid": "3681a73ecf725459b68aaff57b38327a29898a70",
+  "headRefOid": "5672da2ab9735c174331226e90e642eed528574f",
   "headRepository": {
     "id": "R_kgDOM0Q9Yw",
-    "name": "nuttx-apps",
-    "nameWithOwner": ""
+    "name": "nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -274,15 +273,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2016c0b6ae2d2ce590bb4d55895a0c2917f466b2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-20T06:42:38Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 3457,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps/modbus: Move modbus to inside industry/",
-  "updatedAt": "2026-04-16T13:58:18Z",
+  "updatedAt": "2026-04-20T06:58:19Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3457"
 }

@@ -1,5 +1,5 @@
 {
-  "additions": 306,
+  "additions": 347,
   "assignees": [],
   "author": {
     "id": "U_kgDOCZ0p9w",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-10T21:28:46Z",
-  "deletions": 0,
+  "deletions": 17,
   "files": [
+    {
+      "path": "arch/sim/src/sim/win/sim_hosttime.c",
+      "additions": 41,
+      "deletions": 17
+    },
     {
       "path": "net/socket/recvmsg.c",
       "additions": 172,
@@ -27,11 +32,10 @@
     }
   ],
   "headRefName": "dev-issue-17321",
-  "headRefOid": "be7f4b3098d75a861dab72709901469d564a2339",
+  "headRefOid": "296752db1b0297f06e2c816087df6c26e14406d7",
   "headRepository": {
     "id": "R_kgDORHYmBw",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "U_kgDOCZ0p9w",
@@ -46,6 +50,12 @@
       "name": "Area: Networking",
       "description": "Effects networking subsystem",
       "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
     },
     {
       "id": "LA_kwDODZiUac8AAAABvj_ZzA",
@@ -63,6 +73,6 @@
   "number": 18712,
   "state": "OPEN",
   "title": "net/socket: Fix sendmsg/recvmsg user buffers for BUILD_KERNEL (fixes CAN corruption)",
-  "updatedAt": "2026-04-10T21:32:20Z",
+  "updatedAt": "2026-05-05T15:41:33Z",
   "url": "https://github.com/apache/nuttx/pull/18712"
 }

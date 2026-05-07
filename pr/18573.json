@@ -1,5 +1,5 @@
 {
-  "additions": 4498,
+  "additions": 4502,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 45,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-30T01:48:17Z",
   "createdAt": "2026-03-21T21:45:11Z",
   "deletions": 0,
   "files": [
@@ -22,7 +22,7 @@
     },
     {
       "path": "Documentation/platforms/arm/ht32f491x3/boards/esk32/index.rst",
-      "additions": 173,
+      "additions": 177,
       "deletions": 0
     },
     {
@@ -242,7 +242,7 @@
     }
   ],
   "headRefName": "feature/ht32f49xx_port",
-  "headRefOid": "981ca6152726b69e2f5908d34312e60a90e9da70",
+  "headRefOid": "f8a5ef2fe47e9803284e2e17bde6fceb603932e7",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx"
@@ -280,15 +280,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bd6a46631771f8864d85aa0c9963661de270107c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-30T01:48:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18573,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/ht32f491x3: Add support for the HT32F49163 Starter Kit board",
-  "updatedAt": "2026-03-27T22:29:58Z",
+  "updatedAt": "2026-03-30T01:48:17Z",
   "url": "https://github.com/apache/nuttx/pull/18573"
 }

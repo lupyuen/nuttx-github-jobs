@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-21T14:13:36Z",
   "createdAt": "2026-04-17T01:55:23Z",
   "deletions": 2,
   "files": [
@@ -25,8 +25,7 @@
   "headRefOid": "e310929243c32422046d6fcee4c1b5227f271809",
   "headRepository": {
     "id": "R_kgDOQ3FyQg",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjE3ODkzNzUz",
@@ -49,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7897729bec9e564b4c8c4f243d9510601e66d67d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-21T14:13:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 18751,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/tcp: improve tcp_send_txnotify",
-  "updatedAt": "2026-04-17T02:45:43Z",
+  "updatedAt": "2026-04-21T14:13:37Z",
   "url": "https://github.com/apache/nuttx/pull/18751"
 }

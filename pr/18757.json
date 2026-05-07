@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-19T10:10:32Z",
   "createdAt": "2026-04-17T17:21:48Z",
   "deletions": 54,
   "files": [
@@ -40,8 +40,7 @@
   "headRefOid": "7c2c2dba16fb9d63addd388cfa0a34ff4ab934f5",
   "headRepository": {
     "id": "R_kgDOJeJPFA",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM3Nzc5NTU3",
@@ -70,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fc003777c5fe3488ce52e56ba84dc4980de650fb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-19T10:10:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18757,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v: update MCUboot slot sizes on Espressif devices",
-  "updatedAt": "2026-04-18T09:30:02Z",
+  "updatedAt": "2026-04-19T10:10:32Z",
   "url": "https://github.com/apache/nuttx/pull/18757"
 }

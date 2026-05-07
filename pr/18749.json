@@ -1,5 +1,5 @@
 {
-  "additions": 31,
+  "additions": 48,
   "assignees": [],
   "author": {
     "id": "U_kgDOBga_xA",
@@ -9,15 +9,15 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 5,
+  "closed": true,
+  "closedAt": "2026-04-21T22:22:37Z",
   "createdAt": "2026-04-16T16:34:54Z",
-  "deletions": 5,
+  "deletions": 4,
   "files": [
     {
       "path": "CMakeLists.txt",
-      "additions": 7,
+      "additions": 10,
       "deletions": 0
     },
     {
@@ -26,29 +26,33 @@
       "deletions": 2
     },
     {
+      "path": "cmake/nuttx_3rdparty.cmake",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
       "path": "tools/ci/testlist/risc-v-02.dat",
       "additions": 10,
       "deletions": 0
     },
     {
       "path": "tools/testbuild.sh",
-      "additions": 14,
-      "deletions": 3
+      "additions": 13,
+      "deletions": 2
     }
   ],
   "headRefName": "simbit18-nxstore",
-  "headRefOid": "8b5534c210f74157af351ec7e151972a40016a5f",
+  "headRefOid": "5945b55d6700e8be0a986a1aa8ed77d87943cee0",
   "headRepository": {
     "id": "R_kgDOG9alkA",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "U_kgDOBga_xA",
     "login": "simbit18"
   },
   "id": "PR_kwDODZiUac7TCVlp",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
@@ -69,15 +73,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b37b22eacd689ffd2f56a836bb5ddcba09ae391e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-21T22:22:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18749,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "CI: CMake Added a folder nxtmpdir for storing third-party packages",
-  "updatedAt": "2026-04-16T17:57:17Z",
+  "updatedAt": "2026-04-23T13:19:25Z",
   "url": "https://github.com/apache/nuttx/pull/18749"
 }

@@ -1,5 +1,5 @@
 {
-  "additions": 653,
+  "additions": 652,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-21T01:39:04Z",
   "createdAt": "2026-04-17T14:34:02Z",
   "deletions": 0,
   "files": [
@@ -47,16 +47,15 @@
     },
     {
       "path": "boards/x86_64/qemu/qemu-intel64/configs/jumbo/defconfig",
-      "additions": 9,
+      "additions": 8,
       "deletions": 0
     }
   ],
   "headRefName": "nxmodbus",
-  "headRefOid": "9d44e417e171554f2fe38325370b0ccb2aa157a6",
+  "headRefOid": "225d3f10e03d5bcd4bdb0660ff311bfd6cbc9ff4",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -97,15 +96,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6f9d6f3d94d10e56023c03b0839a261519fa57e3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-21T01:39:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18755,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "add nxmodbus doc and examples",
-  "updatedAt": "2026-04-18T20:01:36Z",
+  "updatedAt": "2026-04-21T01:39:05Z",
   "url": "https://github.com/apache/nuttx/pull/18755"
 }

@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 41,
+  "changedFiles": 319,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-24T09:38:35Z",
-  "deletions": 13629,
+  "deletions": 13907,
   "files": [
     {
       "path": "arch/arm/src/stm32/Kconfig",
@@ -146,6 +146,11 @@
       "deletions": 4
     },
     {
+      "path": "boards/arm/stm32/axoloti/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
       "path": "boards/arm/stm32/b-g431b-esc1/configs/can/defconfig",
       "additions": 0,
       "deletions": 1
@@ -171,62 +176,351 @@
       "deletions": 1
     },
     {
+      "path": "boards/arm/stm32/b-g474e-dpow1/configs/buckboost/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/b-g474e-dpow1/configs/ostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/knsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-6lowpan/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-mac/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-starhub/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/mrf24j40-starpoint/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/configs/xbee-6lowpan/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/cloudctrl/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/emw3162/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/emw3162/configs/wlan/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/et-stm32-stamp/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/fire-stm32v2/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/configs/nsh2/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/configs/usbmsc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/configs/usbserial/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/nx/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/maple/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/fulldemo/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/kostest/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/nx/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/nxlines/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/nxtext/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/configs/ihm07m1_b16/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f103rb/configs/qenco/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f207zg/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f207zg/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f207zg/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/cansock/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/highpri/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/ihm07m1_b16/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/ihm07m1_f32/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/qenco/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/can/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/hello/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/nxlines/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/pwm/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/configs/serialrx/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303ze/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303ze/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303ze/configs/nxlines_oled/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/configs/adc/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/configs/highpri/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/configs/spwm1/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f334r8/configs/spwm2/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f401re/configs/fb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f401re/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f410rb/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f411re/configs/mcp2515-extid/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f411re/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f412zg/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
       "path": "boards/arm/stm32/nucleo-f429zi/configs/netnsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/nucleo-f429zi/configs/nsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/nucleo-f429zi/configs/trace/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/odrive36/configs/nsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/odrive36/configs/usbnsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/can/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/composite/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/nsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/smallnsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/stm32/olimexino-stm32/configs/tiny/defconfig",
       "additions": 0,
       "deletions": 1
     }
   ],
   "headRefName": "stm32-pinmap-remove-legacy-uselegacy",
-  "headRefOid": "012fcc90dac30909c0d2430f218dc52bc896ea21",
+  "headRefOid": "30a810369a67b25e131992945eeed01f262d2561",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -256,7 +550,7 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
+  "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
@@ -264,6 +558,6 @@
   "number": 18800,
   "state": "OPEN",
   "title": "!arch/arm/src/stm32: remove STM32_USE_LEGACY_PINMAP",
-  "updatedAt": "2026-04-25T17:02:13Z",
+  "updatedAt": "2026-05-06T15:22:50Z",
   "url": "https://github.com/apache/nuttx/pull/18800"
 }

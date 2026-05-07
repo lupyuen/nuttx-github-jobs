@@ -1,5 +1,5 @@
 {
-  "additions": 10,
+  "additions": 17,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3Nzc5NTU3",
@@ -10,14 +10,14 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T15:23:37Z",
   "createdAt": "2026-04-01T12:28:39Z",
   "deletions": 15,
   "files": [
     {
       "path": "crypto/mbedtls/CMakeLists.txt",
-      "additions": 1,
+      "additions": 8,
       "deletions": 10
     },
     {
@@ -27,11 +27,10 @@
     }
   ],
   "headRefName": "bugfix/apps-path",
-  "headRefOid": "fad76ded21322644bfb9bdec4236bbde0f0f7407",
+  "headRefOid": "ae8dd4a6fdfebb260ca9156ef85a985a2ee01d1b",
   "headRepository": {
     "id": "R_kgDOJfaBrw",
-    "name": "nuttx-apps",
-    "nameWithOwner": ""
+    "name": "nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM3Nzc5NTU3",
@@ -39,7 +38,7 @@
     "login": "fdcavalcanti"
   },
   "id": "PR_kwDODZiT487PPpFq",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiT488AAAABvo6WdQ",
@@ -54,15 +53,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3591378113d72806e8ca4cb523f8b9bc2d95bdaa"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T15:23:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3444,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Build fixes on mbedtls and mqttc for CMake",
-  "updatedAt": "2026-04-02T12:33:15Z",
+  "updatedAt": "2026-04-10T15:23:38Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3444"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-11T15:26:24Z",
   "createdAt": "2026-04-08T21:25:47Z",
   "deletions": 1,
   "files": [
@@ -22,11 +22,10 @@
     }
   ],
   "headRefName": "TheFakeMontyOnTheRun-patch-1",
-  "headRefOid": "616e525d392be89ad880308ca93b108e103f0fe7",
+  "headRefOid": "a31cc4abe1ec6cd2416a050c5e9149582230c22e",
   "headRepository": {
     "id": "R_kgDOR7eWBg",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjI0NDE0ODM=",
@@ -49,15 +48,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9d5b26e76939c0def6775bf725489f5ded815c5d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-11T15:26:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18690,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/tiva: change default toolchain for tm4c123g to GNU EABI",
-  "updatedAt": "2026-04-09T18:56:14Z",
+  "updatedAt": "2026-04-19T18:35:50Z",
   "url": "https://github.com/apache/nuttx/pull/18690"
 }

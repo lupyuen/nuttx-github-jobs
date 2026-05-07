@@ -1,5 +1,5 @@
 {
-  "additions": 35,
+  "additions": 56,
   "assignees": [],
   "author": {
     "id": "U_kgDOBbMFWA",
@@ -9,24 +9,28 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-30T16:51:22Z",
-  "deletions": 15,
+  "deletions": 34,
   "files": [
     {
+      "path": "examples/spislv_test/Kconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
       "path": "examples/spislv_test/spislv_test.c",
-      "additions": 35,
-      "deletions": 15
+      "additions": 50,
+      "deletions": 34
     }
   ],
   "headRefName": "feature/add_spislv_path_option",
-  "headRefOid": "2e65cdd809552448488a6ae6cb1bca7d40d44349",
+  "headRefOid": "6965243509a9a791784ed28320a78461d1dcd581",
   "headRepository": {
     "id": "R_kgDOKIO0bA",
-    "name": "nuttx-apps",
-    "nameWithOwner": ""
+    "name": "nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "U_kgDOBbMFWA",
@@ -57,6 +61,6 @@
   "number": 3467,
   "state": "OPEN",
   "title": "apps/examples: Add path option to SPI Slave test",
-  "updatedAt": "2026-05-01T11:35:22Z",
+  "updatedAt": "2026-05-05T12:02:39Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3467"
 }

@@ -1,5 +1,5 @@
 {
-  "additions": 17,
+  "additions": 15,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjYyODUwMDkx",
@@ -10,10 +10,10 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 23,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-06T05:27:05Z",
   "createdAt": "2026-02-19T05:07:57Z",
-  "deletions": 211,
+  "deletions": 209,
   "files": [
     {
       "path": ".codespell-ignore-lines",
@@ -127,12 +127,12 @@
     },
     {
       "path": "system/sensorscope/sensorscope_main.c",
-      "additions": 3,
-      "deletions": 9
+      "additions": 1,
+      "deletions": 7
     }
   ],
   "headRefName": "byebye-archinit",
-  "headRefOid": "50679c8f890790cbb615e4b6ec33d2f7357fcf43",
+  "headRefOid": "82a805b2092402d7f8db8c5d96cfdb3544cddf68",
   "headRepository": {
     "id": "R_kgDOMXy84w",
     "name": "nuttx-apps"
@@ -156,41 +156,24 @@
       "name": "Area: Boot",
       "description": "",
       "color": "0075ca"
-    },
-    {
-      "id": "LA_kwDODZiT488AAAABvo7OBw",
-      "name": "Area: System",
-      "description": "",
-      "color": "0075ca"
-    },
-    {
-      "id": "LA_kwDODZiT488AAAABvo7X-w",
-      "name": "Area: NSH",
-      "description": "",
-      "color": "0075ca"
-    },
-    {
-      "id": "LA_kwDODZiT488AAAABvo7i9A",
-      "name": "Area: Examples",
-      "description": "",
-      "color": "0075ca"
-    },
-    {
-      "id": "LA_kwDODZiT488AAAABxJhmxQ",
-      "name": "Area: Graphics",
-      "description": "",
-      "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "dca76ccb7853f2e96aa4add40dbe924209d2259c"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-05-06T05:27:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 3405,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!apps: Simplify NuttX initialization",
-  "updatedAt": "2026-03-03T19:09:26Z",
+  "updatedAt": "2026-05-06T11:00:07Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3405"
 }

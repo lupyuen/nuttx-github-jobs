@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T09:02:57Z",
   "createdAt": "2026-04-06T19:07:44Z",
   "deletions": 2,
   "files": [
@@ -45,8 +45,7 @@
   "headRefOid": "84a10b1f84f1919a2176edcd1716a4f6f4f27f20",
   "headRepository": {
     "id": "R_kgDOR7HJ2Q",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjI3MzQ5ODA2",
@@ -75,15 +74,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d09bfc021d56584d720d92df45d90cefb69f6ba9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T09:02:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18681,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/rp23xx: add hardware SHA-256 cryptodev support",
-  "updatedAt": "2026-04-07T22:07:05Z",
+  "updatedAt": "2026-04-10T09:02:57Z",
   "url": "https://github.com/apache/nuttx/pull/18681"
 }

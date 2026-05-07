@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 20,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-03T10:56:39Z",
   "createdAt": "2026-04-25T21:51:59Z",
   "deletions": 5,
   "files": [
@@ -117,11 +117,10 @@
     }
   ],
   "headRefName": "mt6816_mag_encoder",
-  "headRefOid": "ababa9a8d22a6b7b530e13cfd0a53a5747d0703e",
+  "headRefOid": "b6f11d13da15bba94293c761ca92f1010f0647af",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
-    "name": "incubator-nuttx",
-    "nameWithOwner": ""
+    "name": "incubator-nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -129,7 +128,7 @@
     "login": "acassis"
   },
   "id": "PR_kwDODZiUac7Vpju5",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiUac8AAAABsqOt8A",
@@ -156,15 +155,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "51cd4a548f8d53509568e634ad3417db39537746"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-03T10:56:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18807,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/sensors: Add support to mt6816 magnetic encoder",
-  "updatedAt": "2026-04-26T18:51:38Z",
+  "updatedAt": "2026-05-03T10:59:30Z",
   "url": "https://github.com/apache/nuttx/pull/18807"
 }

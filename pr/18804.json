@@ -1,5 +1,5 @@
 {
-  "additions": 732,
+  "additions": 573,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjI0NDE0ODM=",
@@ -10,14 +10,14 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-02T02:18:09Z",
   "createdAt": "2026-04-25T15:50:38Z",
   "deletions": 0,
   "files": [
     {
       "path": "Documentation/platforms/arm/tiva/boards/tm4c123g-launchpad/index.rst",
-      "additions": 732,
+      "additions": 573,
       "deletions": 0
     },
     {
@@ -27,11 +27,10 @@
     }
   ],
   "headRefName": "tiva-c-doc-patch",
-  "headRefOid": "286d220b6c8652a0f6a104c5080880724627efc8",
+  "headRefOid": "4291afc10ca5859c63980f26648a641a22b1fb27",
   "headRepository": {
     "id": "R_kgDOR7eWBg",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjI0NDE0ODM=",
@@ -39,7 +38,7 @@
     "login": "TheFakeMontyOnTheRun"
   },
   "id": "PR_kwDODZiUac7VnRl6",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
@@ -54,15 +53,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8e91dd60a0076a8ba262274d6471864c2a9a3e1e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-02T02:18:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18804,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: add rst file for the TM4C123G",
-  "updatedAt": "2026-04-25T19:46:06Z",
+  "updatedAt": "2026-05-02T02:18:09Z",
   "url": "https://github.com/apache/nuttx/pull/18804"
 }

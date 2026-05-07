@@ -1,5 +1,5 @@
 {
-  "additions": 11,
+  "additions": 14,
   "assignees": [],
   "author": {
     "id": "U_kgDOCH1EXA",
@@ -9,24 +9,28 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 2,
+  "closed": true,
+  "closedAt": "2026-04-09T06:07:06Z",
   "createdAt": "2026-04-03T15:03:25Z",
-  "deletions": 2,
+  "deletions": 0,
   "files": [
     {
+      "path": "fs/rpmsgfs/rpmsgfs.h",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
       "path": "fs/rpmsgfs/rpmsgfs_client.c",
-      "additions": 11,
-      "deletions": 2
+      "additions": 13,
+      "deletions": 0
     }
   ],
   "headRefName": "rpmgsfs-connect-at-first-message",
-  "headRefOid": "a51d1fdb3125eb4b359bfcd374978e4824d64f53",
+  "headRefOid": "6f9ad5381acc2d3ae222409f9b64cae24b109229",
   "headRepository": {
     "id": "R_kgDOIwF0pQ",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDEyOk9yZ2FuaXphdGlvbjM2OTM3MTIw",
@@ -48,15 +52,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "67f1cd288a6fba59ba46384783eb04a24e867936"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-09T06:07:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18671,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs: rpmsgfs_client: process host message as ns_announcement",
-  "updatedAt": "2026-04-03T15:03:54Z",
+  "updatedAt": "2026-04-09T06:07:06Z",
   "url": "https://github.com/apache/nuttx/pull/18671"
 }

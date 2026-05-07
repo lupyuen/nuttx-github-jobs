@@ -10,15 +10,15 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-20T06:35:16Z",
   "createdAt": "2026-04-15T12:59:37Z",
-  "deletions": 31,
+  "deletions": 13,
   "files": [
     {
       "path": "boards/arm/stm32/stm32f401rc-rs485/configs/modbus_master/defconfig",
       "additions": 2,
-      "deletions": 11
+      "deletions": 2
     },
     {
       "path": "boards/arm/stm32/stm32f401rc-rs485/configs/modbus_slave/defconfig",
@@ -33,7 +33,7 @@
     {
       "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/modbus_master/defconfig",
       "additions": 2,
-      "deletions": 12
+      "deletions": 3
     },
     {
       "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/modbus_slave/defconfig",
@@ -47,11 +47,10 @@
     }
   ],
   "headRefName": "fix_modbus_loc",
-  "headRefOid": "ec853dd1976a26a34451e5ae643410dd9e18e42f",
+  "headRefOid": "80a4392b93246e7363a9068e25a5922a1d279188",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
-    "name": "incubator-nuttx",
-    "nameWithOwner": ""
+    "name": "incubator-nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -80,15 +79,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e5efaf9f5d96a9621b260ed32729b567a012c69c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-20T06:35:16Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18744,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards: Fix modbus configs after moving it to apps/industry",
-  "updatedAt": "2026-04-16T22:48:58Z",
+  "updatedAt": "2026-04-20T12:36:54Z",
   "url": "https://github.com/apache/nuttx/pull/18744"
 }

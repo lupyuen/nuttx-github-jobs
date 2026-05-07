@@ -1,5 +1,5 @@
 {
-  "additions": 1259,
+  "additions": 1311,
   "assignees": [],
   "author": {
     "id": "U_kgDOCg8z7A",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 38,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 43,
+  "closed": true,
+  "closedAt": "2026-04-04T14:18:32Z",
   "createdAt": "2026-03-30T22:11:14Z",
-  "deletions": 747,
+  "deletions": 762,
   "files": [
     {
       "path": "Documentation/components/drivers/character/rc.rst",
@@ -22,7 +22,7 @@
     },
     {
       "path": "arch/risc-v/src/common/espressif/Kconfig",
-      "additions": 12,
+      "additions": 11,
       "deletions": 1
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "path": "arch/risc-v/src/common/espressif/esp_lirc.h",
-      "additions": 48,
+      "additions": 56,
       "deletions": 0
     },
     {
@@ -56,8 +56,13 @@
       "deletions": 1
     },
     {
+      "path": "arch/risc-v/src/common/espressif/esp_ws2812.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
       "path": "arch/xtensa/src/common/espressif/Kconfig",
-      "additions": 12,
+      "additions": 11,
       "deletions": 1
     },
     {
@@ -91,8 +96,13 @@
       "deletions": 1
     },
     {
+      "path": "arch/xtensa/src/common/espressif/esp_ws2812.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
       "path": "boards/risc-v/esp32c3/common/src/esp_board_rmt.c",
-      "additions": 12,
+      "additions": 18,
       "deletions": 6
     },
     {
@@ -102,7 +112,7 @@
     },
     {
       "path": "boards/risc-v/esp32c6/common/src/esp_board_rmt.c",
-      "additions": 12,
+      "additions": 18,
       "deletions": 6
     },
     {
@@ -117,7 +127,7 @@
     },
     {
       "path": "boards/risc-v/esp32h2/common/src/esp_board_rmt.c",
-      "additions": 12,
+      "additions": 18,
       "deletions": 6
     },
     {
@@ -127,7 +137,7 @@
     },
     {
       "path": "boards/risc-v/esp32p4/common/src/esp_board_rmt.c",
-      "additions": 12,
+      "additions": 18,
       "deletions": 6
     },
     {
@@ -137,7 +147,12 @@
     },
     {
       "path": "boards/xtensa/esp32/common/src/esp32_board_rmt.c",
-      "additions": 12,
+      "additions": 18,
+      "deletions": 7
+    },
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/match4/defconfig",
+      "additions": 0,
       "deletions": 7
     },
     {
@@ -146,8 +161,13 @@
       "deletions": 6
     },
     {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/snake/defconfig",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
       "path": "boards/xtensa/esp32s2/common/src/esp32s2_board_rmt.c",
-      "additions": 5,
+      "additions": 11,
       "deletions": 5
     },
     {
@@ -157,8 +177,13 @@
     },
     {
       "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_rmt.c",
-      "additions": 12,
+      "additions": 18,
       "deletions": 6
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/python/defconfig",
+      "additions": 0,
+      "deletions": 2
     },
     {
       "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/rmt/defconfig",
@@ -207,7 +232,7 @@
     }
   ],
   "headRefName": "espressif-rmt-lirc-refactor",
-  "headRefOid": "a214d60cdc0482b03d87f5c75226c665128fe3f1",
+  "headRefOid": "67d8a8af9c88baa753c48ea8180573e5b0c1f7bd",
   "headRepository": {
     "id": "R_kgDOR0KCmg",
     "name": "nuttx"
@@ -257,15 +282,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "579684974afa70067c6aad36476a48dac3651b00"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-04T14:18:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18654,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "espressif/rmt: replace rmtchar with arch-specific lirc adapter",
-  "updatedAt": "2026-03-31T13:55:07Z",
+  "updatedAt": "2026-04-04T15:32:07Z",
   "url": "https://github.com/apache/nuttx/pull/18654"
 }

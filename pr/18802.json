@@ -1,5 +1,5 @@
 {
-  "additions": 545,
+  "additions": 716,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjI4OTUyMzA2",
@@ -9,12 +9,47 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5,
+  "changedFiles": 12,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-24T11:26:11Z",
-  "deletions": 0,
+  "deletions": 8,
   "files": [
+    {
+      "path": "Documentation/components/drivers/character/quadrature.rst",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/nucleo-f446re/index.rst",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/configs/qenco/defconfig",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/include/board.h",
+      "additions": 29,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_bringup.c",
+      "additions": 39,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_spi.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
     {
       "path": "drivers/sensors/Kconfig",
       "additions": 8,
@@ -32,7 +67,7 @@
     },
     {
       "path": "include/nuttx/sensors/as5047d.h",
-      "additions": 111,
+      "additions": 138,
       "deletions": 0
     },
     {
@@ -42,11 +77,10 @@
     }
   ],
   "headRefName": "feature/as5047d-driver",
-  "headRefOid": "e4737991282b2c8022ad0beb16e3f2816648dafb",
+  "headRefOid": "9f565d286ac20440427f70c2af4a8df75d8a912d",
   "headRepository": {
     "id": "R_kgDOMhp_sg",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjI4OTUyMzA2",
@@ -57,9 +91,9 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqSYuQ",
-      "name": "Area: Sensors",
-      "description": "Sensors issues",
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
       "color": "0075ca"
     },
     {
@@ -67,17 +101,23 @@
       "name": "Size: L",
       "description": "The size of the change in this PR is large",
       "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18802,
   "state": "OPEN",
   "title": "drivers/sensors: Add AS5047D magnetic encoder driver",
-  "updatedAt": "2026-04-24T14:53:40Z",
+  "updatedAt": "2026-05-01T07:32:57Z",
   "url": "https://github.com/apache/nuttx/pull/18802"
 }

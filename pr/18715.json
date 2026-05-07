@@ -1,19 +1,17 @@
 {
-  "additions": 981,
+  "additions": 984,
   "assignees": [],
   "author": {
-    "id": "U_kgDOEGi_sA",
-    "is_bot": false,
-    "login": "Abhishek-2808",
-    "name": "Abhishek Mishra"
+    "is_bot": true,
+    "login": "app/"
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 19,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T08:06:30Z",
   "createdAt": "2026-04-11T16:07:49Z",
-  "deletions": 50,
+  "deletions": 53,
   "files": [
     {
       "path": ".gitignore",
@@ -37,8 +35,8 @@
     },
     {
       "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
-      "additions": 29,
-      "deletions": 15
+      "additions": 32,
+      "deletions": 18
     },
     {
       "path": "boards/Board.mk",
@@ -112,16 +110,10 @@
     }
   ],
   "headRefName": "Issue-16822",
-  "headRefOid": "40faaf62f0711eaf73614c8f73922a24ce2a7aa8",
-  "headRepository": {
-    "id": "R_kgDOR_5GKg",
-    "name": "nuttx",
-    "nameWithOwner": ""
-  },
+  "headRefOid": "8bf45624a722303eb8dde11d07415bdf2fe17c60",
+  "headRepository": null,
   "headRepositoryOwner": {
-    "id": "U_kgDOEGi_sA",
-    "name": "Abhishek Mishra",
-    "login": "Abhishek-2808"
+    "login": ""
   },
   "id": "PR_kwDODZiUac7Rrfd4",
   "isDraft": false,
@@ -151,15 +143,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ba6a4d55fe91c8ce8dba56905c7a8dd4c80ec006"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T08:06:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18715,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "sched/nsh: Remove Hard-coded Default Password",
-  "updatedAt": "2026-04-12T18:39:36Z",
+  "updatedAt": "2026-04-15T16:57:51Z",
   "url": "https://github.com/apache/nuttx/pull/18715"
 }

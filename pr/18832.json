@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 70,
+  "changedFiles": 5,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-02T14:35:25Z",
-  "deletions": 243,
+  "deletions": 49,
   "files": [
     {
       "path": "Documentation/components/nxgraphics/nx.rst",
@@ -21,324 +21,9 @@
       "deletions": 10
     },
     {
-      "path": "boards/arm/a1x/pcduino-a10/src/pcduino_a10.h",
+      "path": "Documentation/platforms/arm/tiva/boards/tm4c123g-launchpad/index.rst",
       "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/at32/at32f437-mini/src/at32f437-mini.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/cxd56xx/spresense/src/spresense.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/eoss3/quickfeather/src/quickfeather.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/kinetis/freedom-k28f/src/freedom-k28f.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/lpc17xx_40xx/mcb1700/src/lpc17_40_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/lpc17xx_40xx/mcb1700/src/mcb1700.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/lpc17xx_40xx/olimex-lpc1766stk/src/lpc1766stk.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/lpc17xx_40xx/olimex-lpc1766stk/src/lpc17_40_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/ra4/arduino-r4-minima/src/arduino-r4-minima.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/ra4/xiao-ra4m1/src/xiao-ra4m1.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k1xx/rddrone-bms772/src/rddrone-bms772.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k1xx/s32k118evb/src/s32k118evb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k1xx/s32k144evb/src/s32k144evb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k1xx/s32k146evb/src/s32k146evb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k1xx/s32k148evb/src/s32k148evb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k1xx/ucans32k146/src/ucans32k146.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k3xx/mr-canhubk3/src/mr-canhubk3.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/s32k3xx/s32k344evb/src/s32k344evb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/sam34/arduino-due/src/arduino-due.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/sam34/arduino-due/src/sam_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/sam34/flipnclick-sam3x/src/flipnclick-sam3x.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/sam34/flipnclick-sam3x/src/sam_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/samd2l2/arduino-m0/src/arduino_m0.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/samd2l2/circuit-express/src/circuit_express.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/samd5e5/metro-m4/src/metro-m4.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/samd5e5/same54-xplained-pro/src/same54-xplained-pro.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/axoloti/src/axoloti.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/clicker2-stm32/src/clicker2-stm32.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/nucleo-f410rb/src/nucleo-f410rb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/nucleo-f410rb/src/stm32_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/nucleo-f412zg/src/nucleo-f412zg.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/nucleo-g474re/src/nucleo-g474re.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/olimex-stm32-e407/src/olimex-stm32-e407.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/olimex-stm32-p407/src/olimex-stm32-p407.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm3210e-eval/src/stm3210e-eval.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_usbmsc.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm3240g-eval/src/stm3240g-eval.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm3240g-eval/src/stm32_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32f3discovery/src/stm32_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32f3discovery/src/stm32f3discovery.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32f411-minimum/src/stm32f411-minimum.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32f411e-disco/src/stm32f411e-disco.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32f429i-disco/src/stm32_bringup.c",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32f429i-disco/src/stm32f429i-disco.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32f4discovery/src/stm32f4discovery.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32/stm32vldiscovery/src/stm32vldiscovery.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f0l0g0/b-l072z-lrwan1/src/b-l072z-lrwan1.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f0l0g0/nucleo-g070rb/src/nucleo-g070rb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f0l0g0/nucleo-g071rb/src/nucleo-g071rb.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f0l0g0/nucleo-g0b1re/src/nucleo-g0b1re.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f0l0g0/nucleo-l073rz/src/nucleo-l073rz.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f0l0g0/stm32g071b-disco/src/stm32g071b-disco.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f0l0g0/stm32l0538-disco/src/stm32l0538-disco.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f7/stm32f769i-disco/src/stm32f769i-disco.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/src/stm32f777zit6-meadow.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32h7/openh743i/src/openh743i.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32l4/nucleo-l432kc/src/nucleo-l432kc.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32l4/nucleo-l476rg/src/nucleo-l476rg.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32l4/nucleo-l496zg/src/nucleo-144.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32l4/stm32l476-mdk/src/stm32l476-mdk.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32l4/stm32l476vg-disco/src/stm32l476vg-disco.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/src/stm32l4r9ai-disco.h",
-      "additions": 0,
-      "deletions": 3
+      "deletions": 6
     },
     {
       "path": "boards/boardctl.c",
@@ -346,19 +31,9 @@
       "deletions": 8
     },
     {
-      "path": "boards/mips/pic32mx/pic32mx7mmb/src/pic32mx7mmb.h",
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/ethernet/defconfig",
       "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/z80/ez80/makerlisp/src/makerlisp.h",
-      "additions": 0,
-      "deletions": 3
-    },
-    {
-      "path": "boards/z80/ez80/z20x/src/z20x.h",
-      "additions": 0,
-      "deletions": 3
+      "deletions": 1
     },
     {
       "path": "include/sys/boardctl.h",
@@ -367,11 +42,10 @@
     }
   ],
   "headRefName": "goodbye-boardinit",
-  "headRefOid": "399eb609ea3d29e273b40d7a6d6618aec87d32e6",
+  "headRefOid": "2bd7f656593c9d7d883afcd3e9386ac077a8b868",
   "headRepository": {
     "id": "R_kgDOMTJh2w",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjYyODUwMDkx",
@@ -379,7 +53,7 @@
     "login": "linguini1"
   },
   "id": "PR_kwDODZiUac7Xpv13",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
@@ -388,26 +62,14 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
-      "name": "Size: M",
-      "description": "The size of the change in this PR is medium",
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
       "color": "FEF2C0"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
-      "name": "Board: arm",
-      "description": "",
-      "color": "F9D0C4"
-    },
-    {
-      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
-      "name": "Board: mips",
-      "description": "",
-      "color": "F9D0C4"
-    },
-    {
-      "id": "LA_kwDODZiUac8AAAABw8MMEA",
-      "name": "Board: z80",
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
       "description": "",
       "color": "F9D0C4"
     }
@@ -417,10 +79,15 @@
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
-  "milestone": null,
+  "milestone": {
+    "number": 3,
+    "title": "v13.0.0",
+    "description": "NuttX version 13.0.0 release, including new breaking changes.",
+    "dueOn": "2026-06-01T00:00:00Z"
+  },
   "number": 18832,
   "state": "OPEN",
   "title": "!boards/boardctl: Remove BOARDIOC_INIT",
-  "updatedAt": "2026-05-02T17:24:25Z",
+  "updatedAt": "2026-05-06T20:29:46Z",
   "url": "https://github.com/apache/nuttx/pull/18832"
 }

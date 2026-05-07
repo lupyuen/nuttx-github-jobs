@@ -1,5 +1,5 @@
 {
-  "additions": 1878,
+  "additions": 1572,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0ODUwMTUw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 16,
+  "changedFiles": 13,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-04-15T14:00:04Z",
-  "deletions": 93,
+  "deletions": 86,
   "files": [
     {
       "path": "Documentation/applications/system/nxcamera/index.rst",
@@ -32,7 +32,7 @@
     },
     {
       "path": "arch/sim/src/Makefile",
-      "additions": 26,
+      "additions": 34,
       "deletions": 3
     },
     {
@@ -41,29 +41,19 @@
       "deletions": 0
     },
     {
-      "path": "arch/sim/src/sim/macos/sim_avfoundation_backend.h",
-      "additions": 90,
-      "deletions": 0
-    },
-    {
       "path": "arch/sim/src/sim/macos/sim_host_avfoundation_backend.m",
-      "additions": 912,
-      "deletions": 0
-    },
-    {
-      "path": "arch/sim/src/sim/posix/sim_host_avfoundation.c",
-      "additions": 150,
+      "additions": 913,
       "deletions": 0
     },
     {
       "path": "arch/sim/src/sim/posix/sim_host_v4l2.c",
-      "additions": 249,
-      "deletions": 21
+      "additions": 304,
+      "deletions": 22
     },
     {
       "path": "arch/sim/src/sim/sim_camera.c",
-      "additions": 193,
-      "deletions": 49
+      "additions": 125,
+      "deletions": 47
     },
     {
       "path": "arch/sim/src/sim/sim_hostvideo.h",
@@ -72,13 +62,8 @@
     },
     {
       "path": "boards/sim/sim/sim/src/sim_bringup.c",
-      "additions": 22,
+      "additions": 2,
       "deletions": 4
-    },
-    {
-      "path": "drivers/video/v4l2_cap.c",
-      "additions": 42,
-      "deletions": 6
     },
     {
       "path": "tools/mkallsyms.sh",
@@ -97,11 +82,10 @@
     }
   ],
   "headRefName": "avfoundation",
-  "headRefOid": "f1c856b77d78b14c8a0e8b0e0543e1d99925b061",
+  "headRefOid": "60bdeaf3af2ea804838c4902c9e786e5f629a379",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyODUxNjk5MzE=",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjE0ODUwMTUw",
@@ -137,14 +121,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18745,
   "state": "OPEN",
   "title": "sim/camera: add AVFoundation backend and multi-cam support",
-  "updatedAt": "2026-04-16T13:39:42Z",
+  "updatedAt": "2026-04-30T04:21:30Z",
   "url": "https://github.com/apache/nuttx/pull/18745"
 }

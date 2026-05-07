@@ -1,5 +1,5 @@
 {
-  "additions": 352,
+  "additions": 1242,
   "assignees": [],
   "author": {
     "id": "U_kgDOCg8z7A",
@@ -10,10 +10,10 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 352,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-11T13:39:27Z",
   "createdAt": "2026-04-01T11:11:24Z",
-  "deletions": 352,
+  "deletions": 1003,
   "files": [
     {
       "path": "builtin/exec_builtin.c",
@@ -52,8 +52,8 @@
     },
     {
       "path": "examples/adc/adc_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "examples/ajoystick/ajoy_main.c",
@@ -62,8 +62,8 @@
     },
     {
       "path": "examples/battery/batt_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "examples/bridge/bridge_main.c",
@@ -92,8 +92,8 @@
     },
     {
       "path": "examples/configdata/configdata_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "examples/cordic/cordic_main.c",
@@ -122,8 +122,8 @@
     },
     {
       "path": "examples/fbcon/fbcon_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 3
     },
     {
       "path": "examples/flowc/flowc.h",
@@ -292,18 +292,18 @@
     },
     {
       "path": "examples/nx/nx_events.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 35,
+      "deletions": 21
     },
     {
       "path": "examples/nx/nx_kbdin.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 46,
+      "deletions": 39
     },
     {
       "path": "examples/nx/nx_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 102,
+      "deletions": 60
     },
     {
       "path": "examples/nxdemo/nxdemo_bkgd.c",
@@ -322,23 +322,23 @@
     },
     {
       "path": "examples/nxhello/nxhello_bkgd.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 39,
+      "deletions": 35
     },
     {
       "path": "examples/nxhello/nxhello_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 46,
+      "deletions": 43
     },
     {
       "path": "examples/nximage/nximage_bkgd.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 35,
+      "deletions": 28
     },
     {
       "path": "examples/nximage/nximage_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 48,
+      "deletions": 45
     },
     {
       "path": "examples/nxlines/nxlines_bkgd.c",
@@ -347,8 +347,8 @@
     },
     {
       "path": "examples/nxlines/nxlines_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 48,
+      "deletions": 44
     },
     {
       "path": "examples/nxterm/nxterm_main.c",
@@ -357,23 +357,23 @@
     },
     {
       "path": "examples/nxterm/nxterm_toolbar.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 7,
+      "deletions": 4
     },
     {
       "path": "examples/nxterm/nxterm_wndo.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 12,
+      "deletions": 6
     },
     {
       "path": "examples/nxtext/nxtext_bkgd.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 21,
+      "deletions": 14
     },
     {
       "path": "examples/nxtext/nxtext_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 52,
+      "deletions": 38
     },
     {
       "path": "examples/nxtext/nxtext_popup.c",
@@ -382,8 +382,8 @@
     },
     {
       "path": "examples/nxtext/nxtext_putc.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 48,
+      "deletions": 42
     },
     {
       "path": "examples/pf_ieee802154/pfieee802154.h",
@@ -437,8 +437,8 @@
     },
     {
       "path": "examples/pwfb/pwfb_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 36,
+      "deletions": 29
     },
     {
       "path": "examples/pwlines/pwlines_events.c",
@@ -447,8 +447,8 @@
     },
     {
       "path": "examples/pwlines/pwlines_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 40,
+      "deletions": 31
     },
     {
       "path": "examples/pwlines/pwlines_update.c",
@@ -457,13 +457,13 @@
     },
     {
       "path": "examples/pwm/pwm_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "examples/qencoder/qe_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 15,
+      "deletions": 8
     },
     {
       "path": "examples/random/random_main.c",
@@ -482,8 +482,8 @@
     },
     {
       "path": "examples/rmtchar/rmtchar_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "examples/rmtchar/rmtchar_receiver.c",
@@ -517,11 +517,10 @@
     }
   ],
   "headRefName": "include/refactor-debug-h-location-apps",
-  "headRefOid": "3aa8f8806bb1a1cd303b33503c503da40788fe02",
+  "headRefOid": "583f1db44605b07a647b318c7964cba34cef729d",
   "headRepository": {
     "id": "R_kgDOR22fPQ",
-    "name": "nuttx-apps",
-    "nameWithOwner": ""
+    "name": "nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "U_kgDOCg8z7A",
@@ -532,8 +531,8 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiT488AAAABvo6YaQ",
-      "name": "Size: L",
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
       "description": "",
       "color": "FEF2C0"
     },
@@ -544,15 +543,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "96a003072d596d2e1b81ff3fd944692877e5bae3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-11T13:39:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3443,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "include/debug.h: Use <nuttx/debug.h> in apps",
-  "updatedAt": "2026-04-02T15:53:25Z",
+  "updatedAt": "2026-04-11T15:00:42Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3443"
 }

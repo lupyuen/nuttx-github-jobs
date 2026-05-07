@@ -1,5 +1,5 @@
 {
-  "additions": 2457,
+  "additions": 2337,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE3ODY0Mzc0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 11,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 13,
+  "closed": true,
+  "closedAt": "2026-05-05T22:20:04Z",
   "createdAt": "2026-04-27T17:58:10Z",
-  "deletions": 13,
+  "deletions": 17,
   "files": [
     {
       "path": "Documentation/components/drivers/special/usbhost.rst",
@@ -26,8 +26,18 @@
       "deletions": 0
     },
     {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_usbfs.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_usbdrdhost.c",
+      "additions": 29,
+      "deletions": 3
+    },
+    {
       "path": "boards/arm/stm32h5/nucleo-h563zi/configs/nshusbnet/defconfig",
-      "additions": 71,
+      "additions": 72,
       "deletions": 0
     },
     {
@@ -52,7 +62,7 @@
     },
     {
       "path": "drivers/usbhost/usbhost_cdcecm.c",
-      "additions": 2140,
+      "additions": 1989,
       "deletions": 0
     },
     {
@@ -72,11 +82,10 @@
     }
   ],
   "headRefName": "feature/dl.usbecm",
-  "headRefOid": "40ea04cdee64d7874ee51c283449c8da16e9834f",
+  "headRefOid": "1470dce5191e0ce0245c941185834d46933cf2fa",
   "headRepository": {
     "id": "R_kgDOKSEznw",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjE3ODY0Mzc0",
@@ -92,6 +101,12 @@
       "color": "0075ca"
     },
     {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
       "id": "LA_kwDODZiUac8AAAABvj_dNA",
       "name": "Size: XL",
       "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
@@ -104,15 +119,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0b0769f8d97c81542d9d56d7e7ac1dc07a160a1d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-05T22:20:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18815,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Add USB CDC-ECM Host support",
-  "updatedAt": "2026-04-28T19:40:19Z",
+  "updatedAt": "2026-05-05T22:20:04Z",
   "url": "https://github.com/apache/nuttx/pull/18815"
 }

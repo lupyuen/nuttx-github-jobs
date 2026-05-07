@@ -1,5 +1,5 @@
 {
-  "additions": 1293,
+  "additions": 1292,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-02T10:11:13Z",
   "createdAt": "2026-03-30T02:47:44Z",
   "deletions": 15,
   "files": [
@@ -62,7 +62,7 @@
     },
     {
       "path": "boards/arm/ht32f491x3/esk32/configs/pwm/defconfig",
-      "additions": 59,
+      "additions": 58,
       "deletions": 0
     },
     {
@@ -92,7 +92,7 @@
     }
   ],
   "headRefName": "feature/esk32-add-pwm",
-  "headRefOid": "12a7ad2681fe84b7cfd0c95839678027b9f0cbf2",
+  "headRefOid": "f5dd77e43c4152e1580e6a6098dc091017276d63",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx"
@@ -103,7 +103,7 @@
     "login": "FelipeMdeO"
   },
   "id": "PR_kwDODZiUac7OdtKL",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
@@ -130,15 +130,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "11d15bb238f22a9524cfd623d48f5aa5e202feba"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-02T10:11:13Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 18649,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/ht32f491x3: Add PWM support for the HT32F49163 Starter Kit board",
-  "updatedAt": "2026-03-31T11:46:35Z",
+  "updatedAt": "2026-04-02T10:11:13Z",
   "url": "https://github.com/apache/nuttx/pull/18649"
 }

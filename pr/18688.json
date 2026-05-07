@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-10T12:32:46Z",
   "createdAt": "2026-04-08T08:48:50Z",
   "deletions": 5,
   "files": [
@@ -35,8 +35,7 @@
   "headRefOid": "863b2670fb2b7350c440375ad405480965756aff",
   "headRepository": {
     "id": "R_kgDOOFLOjw",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjY5MDA1MTI4",
@@ -70,15 +69,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ad168fdf2dbfa249e49fdb06a075e31eb24bed01"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-10T12:32:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18688,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/xtensa/esp32: Add support for hardware accelerated PBKDF2",
-  "updatedAt": "2026-04-09T02:00:57Z",
+  "updatedAt": "2026-04-10T12:32:47Z",
   "url": "https://github.com/apache/nuttx/pull/18688"
 }

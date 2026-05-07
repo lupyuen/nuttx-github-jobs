@@ -1,5 +1,5 @@
 {
-  "additions": 13,
+  "additions": 14,
   "assignees": [],
   "author": {
     "id": "U_kgDODAMgBg",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 3,
+  "closed": true,
+  "closedAt": "2026-04-17T11:18:02Z",
   "createdAt": "2026-04-15T08:03:24Z",
-  "deletions": 2,
+  "deletions": 3,
   "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32h7/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
     {
       "path": "arch/arm/include/stm32h7/chip.h",
       "additions": 2,
@@ -27,11 +32,10 @@
     }
   ],
   "headRefName": "pr-add_STM32H755XI",
-  "headRefOid": "23f89ac9aca90210349062f541dd53f73006db61",
+  "headRefOid": "6f75da343c7d5174a6f61f31f2fd041f7ed3f168",
   "headRepository": {
     "id": "R_kgDOLx2-EA",
-    "name": "JFB_apache_nuttx",
-    "nameWithOwner": ""
+    "name": "JFB_apache_nuttx"
   },
   "headRepositoryOwner": {
     "id": "U_kgDOBsrv-w",
@@ -41,6 +45,12 @@
   "id": "PR_kwDODZiUac7Sjw-F",
   "isDraft": false,
   "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
     {
       "id": "LA_kwDODZiUac8AAAABsqOt8A",
       "name": "Arch: arm",
@@ -54,15 +64,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "83efa44f0c0e6d3400ea5bd334554f2242c7e829"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-17T11:18:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 18739,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm: add STM32H755XI chip",
-  "updatedAt": "2026-04-16T08:34:36Z",
+  "updatedAt": "2026-04-17T11:18:02Z",
   "url": "https://github.com/apache/nuttx/pull/18739"
 }

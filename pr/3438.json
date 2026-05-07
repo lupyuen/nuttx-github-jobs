@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-30T06:52:06Z",
   "createdAt": "2026-03-26T12:05:45Z",
   "deletions": 0,
   "files": [
@@ -68,15 +68,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "073df9d1dec8d569e971e39c9dc71504f40836ea"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-30T06:52:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 3438,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/uvc_cam: add UVC camera streaming app",
-  "updatedAt": "2026-03-29T15:17:49Z",
+  "updatedAt": "2026-03-30T06:52:07Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3438"
 }

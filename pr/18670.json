@@ -1,5 +1,5 @@
 {
-  "additions": 68,
+  "additions": 81,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE3ODkzNzUz",
@@ -10,23 +10,22 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-07T08:43:14Z",
   "createdAt": "2026-04-03T13:49:21Z",
-  "deletions": 0,
+  "deletions": 21,
   "files": [
     {
       "path": "libs/libc/netdb/lib_dnsaddserver.c",
-      "additions": 68,
-      "deletions": 0
+      "additions": 81,
+      "deletions": 21
     }
   ],
   "headRefName": "dns-add-nameserver-validate",
-  "headRefOid": "26d1bbe7663998466bacf59ee494498293f89673",
+  "headRefOid": "725b4ca0bc599673b297e1df501483eecbee90ec",
   "headRepository": {
     "id": "R_kgDOQ3FyQg",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjE3ODkzNzUz",
@@ -43,21 +42,28 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "900998fe20fc9fd13424d83ecfc996514bcc3bd9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-07T08:43:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 18670,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netdb/dns: validate nameserver input in dns_add_nameserver",
-  "updatedAt": "2026-04-04T00:30:33Z",
+  "updatedAt": "2026-04-07T08:43:15Z",
   "url": "https://github.com/apache/nuttx/pull/18670"
 }

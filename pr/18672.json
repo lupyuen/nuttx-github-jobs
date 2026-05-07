@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-07T01:50:02Z",
   "createdAt": "2026-04-03T15:24:29Z",
   "deletions": 0,
   "files": [
@@ -25,8 +25,7 @@
   "headRefOid": "8011e364f9149eed607cccc1f6dbee0f42e6df04",
   "headRepository": {
     "id": "R_kgDORvNoIQ",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjkwMTgzMDQ=",
@@ -48,15 +47,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5f6e1e2d7ee053c446ad06f6909c0e9a94520e40"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-07T01:50:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18672,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "sched/semaphore: check unmasked pending signals before blocking.",
-  "updatedAt": "2026-04-03T17:37:43Z",
+  "updatedAt": "2026-04-07T01:50:02Z",
   "url": "https://github.com/apache/nuttx/pull/18672"
 }

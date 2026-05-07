@@ -1,5 +1,5 @@
 {
-  "additions": 584,
+  "additions": 825,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,16 +9,21 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 34,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 35,
+  "closed": true,
+  "closedAt": "2026-05-01T16:56:42Z",
   "createdAt": "2025-11-29T20:58:31Z",
-  "deletions": 248,
+  "deletions": 322,
   "files": [
     {
       "path": "Documentation/components/drivers/special/sensors/sensors_uorb.rst",
-      "additions": 56,
+      "additions": 64,
       "deletions": 7
+    },
+    {
+      "path": "boards/arm/nrf53/thingy53/configs/sensorsb16_cpuapp/defconfig",
+      "additions": 73,
+      "deletions": 0
     },
     {
       "path": "drivers/sensors/Kconfig",
@@ -37,7 +42,7 @@
     },
     {
       "path": "drivers/sensors/bh1749nuc_uorb.c",
-      "additions": 16,
+      "additions": 24,
       "deletions": 16
     },
     {
@@ -62,13 +67,13 @@
     },
     {
       "path": "drivers/sensors/bmi270_uorb.c",
-      "additions": 6,
-      "deletions": 0
+      "additions": 22,
+      "deletions": 22
     },
     {
       "path": "drivers/sensors/bmm150_uorb.c",
-      "additions": 6,
-      "deletions": 0
+      "additions": 156,
+      "deletions": 52
     },
     {
       "path": "drivers/sensors/bmp180_base.c",
@@ -117,12 +122,12 @@
     },
     {
       "path": "drivers/sensors/goldfish_sensor_uorb.c",
-      "additions": 25,
+      "additions": 6,
       "deletions": 0
     },
     {
       "path": "drivers/sensors/hyt271_uorb.c",
-      "additions": 12,
+      "additions": 13,
       "deletions": 6
     },
     {
@@ -182,12 +187,12 @@
     },
     {
       "path": "include/nuttx/uorb.h",
-      "additions": 269,
+      "additions": 273,
       "deletions": 195
     }
   ],
   "headRefName": "sensors_fixedmath",
-  "headRefOid": "18a7abb48d55da656922e27d5cf832ebadf1d33b",
+  "headRefOid": "2cc45f54df89c4dc72260ae5a7026f260811b83c",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx"
@@ -198,7 +203,7 @@
     "login": "raiden00pl"
   },
   "id": "PR_kwDODZiUac62JPjN",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
@@ -207,17 +212,30 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_bjg",
-      "name": "Size: L",
-      "description": "The size of the change in this PR is large",
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "772a51b43aac979a1d197b3ddbf9a2f356d25808"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-05-01T16:56:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": {
     "number": 3,
     "title": "v13.0.0",
@@ -225,8 +243,8 @@
     "dueOn": "2026-06-01T00:00:00Z"
   },
   "number": 17408,
-  "state": "OPEN",
-  "title": "WIP: initial support for fixed-point data for sensors",
-  "updatedAt": "2026-03-24T09:42:16Z",
+  "state": "MERGED",
+  "title": "initial support for fixed-point data for sensors",
+  "updatedAt": "2026-05-01T16:56:43Z",
   "url": "https://github.com/apache/nuttx/pull/17408"
 }

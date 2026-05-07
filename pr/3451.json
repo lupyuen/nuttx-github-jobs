@@ -1,5 +1,5 @@
 {
-  "additions": 320,
+  "additions": 592,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE3ODkzNzUz",
@@ -9,9 +9,9 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 8,
+  "closed": true,
+  "closedAt": "2026-04-24T13:44:08Z",
   "createdAt": "2026-04-12T02:15:01Z",
   "deletions": 34,
   "files": [
@@ -21,8 +21,8 @@
       "deletions": 0
     },
     {
-      "path": "include/netutils/ntpclient.h",
-      "additions": 15,
+      "path": "include/netutils/netlib.h",
+      "additions": 43,
       "deletions": 0
     },
     {
@@ -31,22 +31,36 @@
       "deletions": 1
     },
     {
+      "path": "netutils/netlib/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/netlib/netlib_dhcp_ntp.c",
+      "additions": 182,
+      "deletions": 0
+    },
+    {
       "path": "netutils/netlib/netlib_obtainipv4addr.c",
-      "additions": 70,
+      "additions": 78,
       "deletions": 0
     },
     {
       "path": "netutils/ntpclient/ntpclient.c",
-      "additions": 178,
+      "additions": 230,
       "deletions": 33
     }
   ],
   "headRefName": "dhcp-ntp-option42-v2",
-  "headRefOid": "a275df3f9bc3f3d98300216ee4fa03e7cba07ae8",
+  "headRefOid": "ae63429e7013d4b2fff422bad37c70a73f2f68a8",
   "headRepository": {
     "id": "R_kgDOQx5IlA",
-    "name": "nuttx-apps",
-    "nameWithOwner": ""
+    "name": "nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjE3ODkzNzUz",
@@ -63,21 +77,28 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiT488AAAABvo6dtQ",
-      "name": "Size: M",
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
       "description": "",
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c82957109fc14fe552c8f32a8f93bc7330c41cd3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-24T13:44:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3451,
-  "state": "OPEN",
-  "title": "netutils: add DHCP-provided NTP server fallback for ntpc",
-  "updatedAt": "2026-04-13T14:26:28Z",
+  "state": "MERGED",
+  "title": "netutils: add DHCP-provided NTP server for ntpc",
+  "updatedAt": "2026-04-28T02:10:16Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3451"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-14T01:51:20Z",
   "createdAt": "2026-04-09T16:34:22Z",
   "deletions": 18,
   "files": [
@@ -22,11 +22,10 @@
     }
   ],
   "headRefName": "fat-fixes",
-  "headRefOid": "0bee80b465ec622b77764582728bc50180fb84f0",
+  "headRefOid": "3fe699e5c1f2f674809cf27e064688fee08cae48",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
-    "name": "incubator-nuttx",
-    "nameWithOwner": ""
+    "name": "incubator-nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjY4OTk4NTQz",
@@ -49,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bc9e1ffb01980992c133a0084b6e1195e502ce69"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-14T01:51:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18697,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/fat: fix incorrect representation of SFN files created on Linux",
-  "updatedAt": "2026-04-10T15:42:27Z",
+  "updatedAt": "2026-04-14T01:51:20Z",
   "url": "https://github.com/apache/nuttx/pull/18697"
 }

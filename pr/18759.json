@@ -1,5 +1,5 @@
 {
-  "additions": 91,
+  "additions": 54,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjMyMDQyMDc=",
@@ -10,28 +10,27 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-28T13:32:57Z",
   "createdAt": "2026-04-18T18:36:04Z",
-  "deletions": 24,
+  "deletions": 15,
   "files": [
     {
       "path": "arch/arm/src/stm32/stm32_can.c",
-      "additions": 9,
+      "additions": 1,
       "deletions": 1
     },
     {
       "path": "drivers/can/can.c",
-      "additions": 82,
-      "deletions": 23
+      "additions": 53,
+      "deletions": 14
     }
   ],
   "headRefName": "update-arch-can-driver-stm32",
-  "headRefOid": "267649dab5873427f68f1688597f0d8bf6df9baf",
+  "headRefOid": "8e9f1244c4e38f7cf6e278fc63254252f366e3d7",
   "headRepository": {
     "id": "R_kgDOMuqKcQ",
-    "name": "nuttx",
-    "nameWithOwner": ""
+    "name": "nuttx"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjMyMDQyMDc=",
@@ -54,21 +53,28 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
-      "name": "Size: M",
-      "description": "The size of the change in this PR is medium",
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "369755d00b79196cb327e006f38f2d2b58f8204a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-28T13:32:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18759,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/can: Fix close drain, write-only reader lifecycle, and STM32 RX header",
-  "updatedAt": "2026-04-19T16:36:32Z",
+  "updatedAt": "2026-04-29T06:59:00Z",
   "url": "https://github.com/apache/nuttx/pull/18759"
 }

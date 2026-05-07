@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-03-31T13:10:54Z",
   "createdAt": "2026-03-25T09:08:48Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8b57a48d8fdf91da3e30a2e316aa1a4f82734e57"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-03-31T13:10:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc1ODQ5Mw==",
+    "is_bot": false,
+    "login": "anchao",
+    "name": "archer"
+  },
   "milestone": null,
   "number": 18602,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/intel64: add CPU affinity support for irq",
-  "updatedAt": "2026-03-27T11:35:37Z",
+  "updatedAt": "2026-03-31T13:10:54Z",
   "url": "https://github.com/apache/nuttx/pull/18602"
 }

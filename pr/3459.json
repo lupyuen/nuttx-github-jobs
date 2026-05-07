@@ -1,5 +1,5 @@
 {
-  "additions": 8056,
+  "additions": 8137,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 36,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-04-20T15:45:18Z",
   "createdAt": "2026-04-17T14:33:54Z",
   "deletions": 0,
   "files": [
@@ -52,121 +52,121 @@
     },
     {
       "path": "include/nxmodbus/nxmodbus.h",
-      "additions": 376,
+      "additions": 378,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/CMakeLists.txt",
+      "path": "industry/nxmodbus/CMakeLists.txt",
       "additions": 68,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/Kconfig",
+      "path": "industry/nxmodbus/Kconfig",
       "additions": 245,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/Make.defs",
+      "path": "industry/nxmodbus/Make.defs",
       "additions": 25,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/Makefile",
+      "path": "industry/nxmodbus/Makefile",
       "additions": 76,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_client.c",
-      "additions": 716,
+      "path": "industry/nxmodbus/core/nxmb_client.c",
+      "additions": 739,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_context.c",
+      "path": "industry/nxmodbus/core/nxmb_context.c",
       "additions": 392,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_func.c",
-      "additions": 346,
+      "path": "industry/nxmodbus/core/nxmb_func.c",
+      "additions": 354,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_func_coils.c",
-      "additions": 252,
+      "path": "industry/nxmodbus/core/nxmb_func_coils.c",
+      "additions": 259,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_func_diag.c",
-      "additions": 88,
+      "path": "industry/nxmodbus/core/nxmb_func_diag.c",
+      "additions": 83,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_func_discrete.c",
-      "additions": 103,
+      "path": "industry/nxmodbus/core/nxmb_func_discrete.c",
+      "additions": 110,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_func_holding.c",
-      "additions": 310,
+      "path": "industry/nxmodbus/core/nxmb_func_holding.c",
+      "additions": 331,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_func_input.c",
-      "additions": 108,
+      "path": "industry/nxmodbus/core/nxmb_func_input.c",
+      "additions": 115,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_func_other.c",
-      "additions": 92,
+      "path": "industry/nxmodbus/core/nxmb_func_other.c",
+      "additions": 99,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_server.c",
+      "path": "industry/nxmodbus/core/nxmb_server.c",
       "additions": 121,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/core/nxmb_utils.c",
+      "path": "industry/nxmodbus/core/nxmb_utils.c",
       "additions": 127,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/nxmb_internal.h",
+      "path": "industry/nxmodbus/nxmb_internal.h",
       "additions": 379,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/transport/nxmb_ascii.c",
-      "additions": 546,
+      "path": "industry/nxmodbus/transport/nxmb_ascii.c",
+      "additions": 550,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/transport/nxmb_crc.c",
+      "path": "industry/nxmodbus/transport/nxmb_crc.c",
       "additions": 108,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/transport/nxmb_lrc.c",
+      "path": "industry/nxmodbus/transport/nxmb_lrc.c",
       "additions": 70,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/transport/nxmb_raw.c",
+      "path": "industry/nxmodbus/transport/nxmb_raw.c",
       "additions": 303,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/transport/nxmb_serial.c",
+      "path": "industry/nxmodbus/transport/nxmb_serial.c",
       "additions": 423,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/transport/nxmb_serial_common.c",
+      "path": "industry/nxmodbus/transport/nxmb_serial_common.c",
       "additions": 138,
       "deletions": 0
     },
     {
-      "path": "modbus/nxmodbus/transport/nxmb_tcp.c",
+      "path": "industry/nxmodbus/transport/nxmb_tcp.c",
       "additions": 684,
       "deletions": 0
     },
@@ -197,11 +197,10 @@
     }
   ],
   "headRefName": "nxmodbus",
-  "headRefOid": "de1f5f1c7f0df121e4956c923bc7aa5b5b2be1e6",
+  "headRefOid": "0c1fed9ca00e60ce4faf0784e69768e82f6eff46",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU1NzA=",
-    "name": "nuttx-apps",
-    "nameWithOwner": ""
+    "name": "nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -218,27 +217,34 @@
       "color": "FEF2C0"
     },
     {
-      "id": "LA_kwDODZiT488AAAABvo7Ksg",
-      "name": "Area: Modbus",
-      "description": "",
-      "color": "0075ca"
-    },
-    {
       "id": "LA_kwDODZiT488AAAABvo7i9A",
       "name": "Area: Examples",
       "description": "",
       "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABxJhpkg",
+      "name": "Area: Industry",
+      "description": "",
+      "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "773f69d5d95d0390d60447a29c2c1b82931932a3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-20T15:45:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3459,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "modbus: add nxmodbus",
-  "updatedAt": "2026-04-18T11:23:20Z",
+  "updatedAt": "2026-04-20T15:58:45Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3459"
 }

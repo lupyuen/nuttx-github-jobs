@@ -1,5 +1,5 @@
 {
-  "additions": 955,
+  "additions": 966,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 19,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-03T19:56:38Z",
   "createdAt": "2026-02-15T10:17:55Z",
   "deletions": 47,
   "files": [
@@ -47,7 +47,7 @@
     },
     {
       "path": "boards/Kconfig",
-      "additions": 49,
+      "additions": 50,
       "deletions": 0
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "path": "boards/sim/sim/sim/configs/login/defconfig",
-      "additions": 2,
+      "additions": 1,
       "deletions": 0
     },
     {
@@ -107,12 +107,12 @@
     },
     {
       "path": "tools/mkpasswd.c",
-      "additions": 602,
+      "additions": 613,
       "deletions": 0
     }
   ],
   "headRefName": "Issue-16822",
-  "headRefOid": "739a0a2791beebfe14868d7aa1dd59698d541fb7",
+  "headRefOid": "3a68c0b21a80e19de9be200ab954eeeb0b005f87",
   "headRepository": {
     "id": "R_kgDORPCVxw",
     "name": "nuttx"
@@ -132,9 +132,9 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_bjg",
-      "name": "Size: L",
-      "description": "The size of the change in this PR is large",
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
     },
     {
@@ -151,14 +151,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18396,
-  "state": "OPEN",
+  "state": "CLOSED",
   "title": "sched/nsh: Remove Hard-coded Default Password",
-  "updatedAt": "2026-03-27T22:24:26Z",
+  "updatedAt": "2026-05-03T20:03:30Z",
   "url": "https://github.com/apache/nuttx/pull/18396"
 }

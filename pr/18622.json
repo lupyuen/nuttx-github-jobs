@@ -1,5 +1,5 @@
 {
-  "additions": 1985,
+  "additions": 2005,
   "assignees": [],
   "author": {
     "id": "U_kgDOCGQJJg",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 13,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 14,
+  "closed": true,
+  "closedAt": "2026-04-03T05:34:36Z",
   "createdAt": "2026-03-27T08:10:52Z",
-  "deletions": 94,
+  "deletions": 100,
   "files": [
     {
       "path": "Documentation/platforms/xtensa/esp32s3/boards/lckfb-szpi-esp32s3/index.rst",
@@ -22,12 +22,17 @@
     },
     {
       "path": "arch/xtensa/src/common/espressif/esp_i2s.c",
-      "additions": 357,
-      "deletions": 79
+      "additions": 381,
+      "deletions": 84
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_board_i2s.c",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/configs/es7210/defconfig",
-      "additions": 114,
+      "additions": 105,
       "deletions": 0
     },
     {
@@ -67,12 +72,12 @@
     },
     {
       "path": "drivers/audio/es7210.c",
-      "additions": 979,
+      "additions": 987,
       "deletions": 0
     },
     {
       "path": "drivers/audio/es7210.h",
-      "additions": 220,
+      "additions": 216,
       "deletions": 0
     },
     {
@@ -82,7 +87,7 @@
     }
   ],
   "headRefName": "es7210_adc_codec",
-  "headRefOid": "da588ae48e23b9ac4aa8dfa9eb09263b20550dd8",
+  "headRefOid": "92c459c971570c6aec4f9d6ed07f1fc3215cf64a",
   "headRepository": {
     "id": "R_kgDOKAnrYQ",
     "name": "nuttx"
@@ -93,7 +98,7 @@
     "login": "JianyuWang0623"
   },
   "id": "PR_kwDODZiUac7N-Z_4",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiUac8AAAABsqRKYw",
@@ -120,15 +125,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "439ec6c09b873a8365d7f3beefd1e118f764f844"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-04-03T05:34:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18622,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "esp_i2s: fix ESP32-S3 I2S RX DMA and add ES7210 4-ch ADC codec driver",
-  "updatedAt": "2026-03-30T12:41:51Z",
+  "updatedAt": "2026-04-03T05:34:36Z",
   "url": "https://github.com/apache/nuttx/pull/18622"
 }

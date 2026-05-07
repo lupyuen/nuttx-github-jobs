@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-03T15:39:10Z",
   "createdAt": "2026-04-22T15:25:59Z",
   "deletions": 7,
   "files": [
@@ -35,8 +35,7 @@
   "headRefOid": "6a83c34e637b923be38f76cad951a8a737acee28",
   "headRepository": {
     "id": "R_kgDOSJtDBA",
-    "name": "nuttx-apps",
-    "nameWithOwner": ""
+    "name": "nuttx-apps"
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjc0MDgw",
@@ -59,15 +58,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ded0a17514954cf8230b2e0a0f1fce63a5c69080"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-03T15:39:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 3462,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "graphics/lvgl: bump version to 9.2.2",
-  "updatedAt": "2026-04-23T19:07:36Z",
+  "updatedAt": "2026-05-04T06:48:21Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3462"
 }
