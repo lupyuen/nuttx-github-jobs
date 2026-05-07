@@ -23,7 +23,7 @@ function dump_pr_list {
       --repo $user/$repo \
       --limit 1000 \
       --state all \
-      --search "created:$date" \
+      --search "updated:$date" \
       --json id,url,updatedAt,title,additions,assignees,author,autoMergeRequest,baseRefName,changedFiles,closed,closedAt,createdAt,deletions,files,headRefName,headRefOid,headRepository,headRepositoryOwner,isDraft,labels,mergeCommit,mergeStateStatus,mergeable,mergedAt,mergedBy,milestone,number,state \
       | jq
   )
