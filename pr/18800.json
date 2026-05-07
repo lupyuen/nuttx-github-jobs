@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 319,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-07T03:45:23Z",
   "createdAt": "2026-04-24T09:38:35Z",
   "deletions": 13907,
   "files": [
@@ -550,15 +550,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "deb52b0855ca57b85b271e93073468387beb4f7b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-07T03:45:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18800,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!arch/arm/src/stm32: remove STM32_USE_LEGACY_PINMAP",
-  "updatedAt": "2026-05-07T03:15:48Z",
+  "updatedAt": "2026-05-07T03:45:23Z",
   "url": "https://github.com/apache/nuttx/pull/18800"
 }
