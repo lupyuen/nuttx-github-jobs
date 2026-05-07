@@ -239,16 +239,8 @@ function dump_job_list {
     echo "$job" | jq >$file
     echo "Job $i: $file"
 
-    ## Dump the Job Duration
-    dump_duration $user $repo $run_id
-
-    ## If this is a Build Job: Download and Parse the GitHub Build Logs
-    ## Search the Job JSON for: "name": "Build"
-    grep '"name": "Build"' $file
-    local not_found=$?
-    if [[ "$not_found" == "0" ]]; then
-      dump_build $user $repo $run_id
-    fi
+    ## Dump the Job Duration and Build Log
+    dump_duration_build $user $repo $run_id $file
   done
 }
 
@@ -269,11 +261,13 @@ function dump_job_list {
 # "workflowDatabaseId": 908549,
 # "workflowName": "Build"
 
-## Dump the GitHub Job Duration into duration/$run_id.txt
-function dump_duration {
+## Dump the GitHub Job Duration into duration/$run_id.txt.
+## Also dump the Build Log.
+function dump_duration_build {
   local user=$1
   local repo=$2
   local run_id=$3
+  local job_file=$4
   local file=duration/$run_id.txt
 
   ## If the file exists and the duration is not null, then skip
@@ -298,6 +292,14 @@ function dump_duration {
   echo "$duration" >$file
   echo "Duration for $run_id: $file"
   sleep 1
+
+  ## If this is a Build Job: Download and Parse the GitHub Build Logs
+  ## Search the Job JSON for: "name": "Build"
+  grep '"name": "Build"' $job_file
+  local not_found=$?
+  if [[ "$not_found" == "0" ]]; then
+    dump_build $user $repo $run_id
+  fi
 }
 
 ## Result:
