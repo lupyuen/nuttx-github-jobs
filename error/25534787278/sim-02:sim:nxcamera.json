@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-08T04:03:16",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "nxcamera",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25534787278/job/74948465004#step:10:964",
+"msg": "sim/posix/sim_host_v4l2.c: In function 'host_video_parse_device_index': \n ##[error]sim/posix/sim_host_v4l2.c:112:10: error: 'OK' undeclared (first use in this function); did you mean 'F_OK'? \n 112 |   return OK; \n |          ^~ \n |          F_OK \n sim/posix/sim_host_v4l2.c:112:10: note: each undeclared identifier is reported only once for each function it appears in \n sim/posix/sim_host_v4l2.c: In function 'host_video_get_next_device_path': \n ##[error]sim/posix/sim_host_v4l2.c:156:10: error: 'OK' und"
+}
