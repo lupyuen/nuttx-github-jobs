@@ -1,0 +1,63 @@
+{
+  "additions": 56,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-08T15:33:30Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "net/sixlowpan/sixlowpan_input.c",
+      "additions": 56,
+      "deletions": 12
+    }
+  ],
+  "headRefName": "fix_net_6lowpan_again",
+  "headRefOid": "b2c58dbf31b8a7339e175b5f859acf07fe4fe724",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac7ZlvmY",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18857,
+  "state": "OPEN",
+  "title": "net/sixlowpan: Check if g_frame_hdrlen + IPv6_HDRLEN <= iob->io_len",
+  "updatedAt": "2026-05-08T15:34:03Z",
+  "url": "https://github.com/apache/nuttx/pull/18857"
+}
