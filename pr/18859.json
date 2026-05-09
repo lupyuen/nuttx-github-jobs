@@ -1,0 +1,97 @@
+{
+  "additions": 2155,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQzMjA0ODA5",
+    "is_bot": false,
+    "login": "Jiaqi-YP7",
+    "name": "Jiaqi Yao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-09T13:35:07Z",
+  "deletions": 22,
+  "files": [
+    {
+      "path": "drivers/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mbox/CMakeLists.txt",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mbox/Kconfig",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mbox/Make.defs",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mbox/mbox.c",
+      "additions": 763,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/mbox/pl320.c",
+      "additions": 616,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/mbox/mbox.h",
+      "additions": 583,
+      "deletions": 22
+    },
+    {
+      "path": "include/nuttx/mbox/pl320.h",
+      "additions": 95,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feat/mbox-framework-pl320-clean",
+  "headRefOid": "8c3ca1a0e6913b2d0ab765d99a45a680cc429484",
+  "headRepository": {
+    "id": "R_kgDONFIIrg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQzMjA0ODA5",
+    "name": "Jiaqi Yao",
+    "login": "Jiaqi-YP7"
+  },
+  "id": "PR_kwDODZiUac7Z2iuM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18859,
+  "state": "OPEN",
+  "title": "drivers/mbox: Add mailbox framework and PL320 driver",
+  "updatedAt": "2026-05-09T13:35:31Z",
+  "url": "https://github.com/apache/nuttx/pull/18859"
+}
