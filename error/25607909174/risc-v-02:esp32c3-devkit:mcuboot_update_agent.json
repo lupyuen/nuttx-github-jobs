@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-09T18:23:44",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32c3-devkit",
+"config": "mcuboot_update_agent",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25607909174/job/75172980866#step:10:477",
+"msg": "gzip: stdin: not in gzip format \n tar: Child returned status 1 \n tar: Error is not recoverable: exiting now \n make[3]: *** [Makefile:89: mcuboot] Error 2 \n make[3]: Target 'context' not remade because of errors. \n make[2]: *** [Makefile:57: /github/workspace/sources/apps/boot/mcuboot_context] Error 2 \n make[2]: Target 'context_all' not remade because of errors. \n make[1]: *** [Makefile:187: context] Error 2 \n make: *** [tools/Unix.mk:470: /github/workspace/sources/apps/.context] Error 2 \n make: Tar"
+}
