@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-09T01:46:44Z",
   "createdAt": "2026-05-07T03:32:38Z",
   "deletions": 9,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "131f7f75ed3815277ad87ac4eb05ff61b88c438c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-09T01:46:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18855,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arm: memcpy: add NEON paths for aligned copies",
-  "updatedAt": "2026-05-07T15:44:03Z",
+  "updatedAt": "2026-05-09T01:46:44Z",
   "url": "https://github.com/apache/nuttx/pull/18855"
 }

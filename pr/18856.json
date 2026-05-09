@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-09T01:42:59Z",
   "createdAt": "2026-05-08T07:40:36Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9c1b2e12ce0c4b4ae744ef722323644892f36901"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-09T01:42:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18856,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools: mksyscall fix compilation warning",
-  "updatedAt": "2026-05-08T08:38:32Z",
+  "updatedAt": "2026-05-09T01:42:59Z",
   "url": "https://github.com/apache/nuttx/pull/18856"
 }
