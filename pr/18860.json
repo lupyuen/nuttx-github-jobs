@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-09T23:59:10Z",
   "createdAt": "2026-05-09T17:56:05Z",
   "deletions": 7,
   "files": [
@@ -60,15 +60,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "382bb5e87446c949ebc6ad31b29f6a0a24a825b1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-09T23:59:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18860,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/esp32p4-function-ev-board: Normalize configuration",
-  "updatedAt": "2026-05-09T19:32:34Z",
+  "updatedAt": "2026-05-09T23:59:10Z",
   "url": "https://github.com/apache/nuttx/pull/18860"
 }
