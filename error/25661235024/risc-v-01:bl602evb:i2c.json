@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-11T09:39:41",
+"arch": "risc-v",
+"subarch": "bl602",
+"group": "risc-v-01",
+"board": "bl602evb",
+"config": "i2c",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25661235024/job/75323758967#step:10:603",
+"msg": "In file included from /github/workspace/sources/nuttx/arch/risc-v/src/chip/bl602_pwm_lowerhalf.h:32, \n from bl602_bringup.c:46: \n ##[error]/github/workspace/sources/nuttx/include/nuttx/timers/pwm.h:188:31: error: 'CONFIG_PWM_NCHANNELS' undeclared here (not in a function) \n 188 |   struct pwm_chan_s  channels[CONFIG_PWM_NCHANNELS]; \n |                               ^~~~~~~~~~~~~~~~~~~~ \n make[2]: *** [/github/workspace/sources/nuttx/boards/Board.mk:100: bl602_bringup.o] Error 1 \n make[2]: Target 'libbo"
+}
