@@ -1,5 +1,5 @@
 {
-  "additions": 49,
+  "additions": 65,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -13,7 +13,7 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-11T09:14:20Z",
-  "deletions": 110,
+  "deletions": 126,
   "files": [
     {
       "path": "examples/pwm/Kconfig",
@@ -27,8 +27,8 @@
     },
     {
       "path": "examples/pwm/pwm_main.c",
-      "additions": 40,
-      "deletions": 77
+      "additions": 56,
+      "deletions": 93
     },
     {
       "path": "testing/drivers/drivertest/drivertest_pwm.c",
@@ -37,7 +37,7 @@
     }
   ],
   "headRefName": "pwm_refactor",
-  "headRefOid": "597f90760d0e35b05e13f1e2862745a50092a2bc",
+  "headRefOid": "1362aa865799142023fb9b83353f8bd997134626",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU1NzA=",
     "name": "nuttx-apps",
@@ -71,7 +71,7 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
+  "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
@@ -79,6 +79,6 @@
   "number": 3475,
   "state": "OPEN",
   "title": " remove references to PWM_MULTICHAN option",
-  "updatedAt": "2026-05-11T09:49:00Z",
+  "updatedAt": "2026-05-11T10:21:56Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3475"
 }
