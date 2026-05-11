@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-11T16:27:15",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-ethernet-kit",
+"config": "wifi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25672110379/job/75380098003#step:10:446",
+"msg": "##[error]argtable3/src/arg_date.c:210:9: error: \"TM_YEAR_BASE\" redefined [-Werror] \n 210 | #define TM_YEAR_BASE (1900) \n |         ^~~~~~~~~~~~ \n In file included from /github/workspace/sources/nuttx/include/nuttx/semaphore.h:35, \n from /github/workspace/sources/nuttx/include/nuttx/mutex.h:33, \n from /github/workspace/sources/nuttx/include/nuttx/fs/fs.h:46, \n from /github/workspace/sources/nuttx/include/stdio.h:36, \n from argtable3/src/argtable3.h:36, \n from argtable3/src/arg_date.c:33: \n 284 | #"
+}

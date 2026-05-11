@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-11T16:25:52",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "jumbo",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25672110379/job/75380098119#step:10:434",
+"msg": "argtable3/src/arg_date.c:210: error: \"TM_YEAR_BASE\" redefined [-Werror] \n 210 | #define TM_YEAR_BASE (1900) \n In file included from /github/workspace/sources/nuttx/include/nuttx/semaphore.h:35, \n from /github/workspace/sources/nuttx/include/nuttx/mutex.h:33, \n from /github/workspace/sources/nuttx/include/nuttx/fs/fs.h:46, \n from /github/workspace/sources/nuttx/include/stdio.h:36, \n from argtable3/src/argtable3.h:36, \n from argtable3/src/arg_date.c:33: \n 284 | #define TM_YEAR_BASE          1900 \n "
+}
