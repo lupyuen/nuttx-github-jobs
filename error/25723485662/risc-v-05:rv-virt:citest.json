@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-12T10:02:48",
+"arch": "risc-v",
+"subarch": "qemu-rv",
+"group": "risc-v-05",
+"board": "rv-virt",
+"config": "citest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25723485662/job/75530544944#step:10:520",
+"msg": "In file included from ltp/testcases/open_posix_testsuite/conformance/interfaces/mq_timedreceive/5-1.c:31: \n ltp/testcases/open_posix_testsuite/conformance/interfaces/mq_timedreceive/5-1.c: In function 'ltp_interfaces_mq_timedreceive_5_1_main': \n ##[error]ltp/testcases/open_posix_testsuite/include/timespec.h:17:47: error: left shift count >= width of type [-Werror=shift-count-overflow] \n 17 | #       define TIME_T_MAX       (time_t)((1UL << ((sizeof(time_t) << 3) - 1)) - 1) \n |                           "
+}
