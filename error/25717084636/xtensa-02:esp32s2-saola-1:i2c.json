@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-12T07:00:53",
+"arch": "xtensa",
+"subarch": "esp32s2",
+"group": "xtensa-02",
+"board": "esp32s2-saola-1",
+"config": "i2c",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25717084636/job/75509592547#step:10:713",
+"msg": "chip/esp32s2_i2c.c: In function 'i2c_tracedump': \n ##[error]chip/esp32s2_i2c.c:1462:14: error: format '%lld' expects argument of type 'long long int', but argument 5 has type 'uint32_t' {aka 'long unsigned int'} [-Werror=format=] \n 1462 |              \"%2d. STATUS: %08\" PRIx32 \" COUNT: %3\" PRId64 \" EVENT: %s(%2d)\" \n |              ^~~~~~~~~~~~~~~~~~ \n 1463 |              \" PARM: %08\" PRIx32 \" TIME: %\" PRIu32 \"\n\", \n 1464 |              i + 1, trace->status, trace->count, g_trace_names[trace"
+}
