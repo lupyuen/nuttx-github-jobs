@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-12T03:11:38",
+"arch": "other",
+"subarch": "bm3803",
+"group": "other",
+"board": "xx3803",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25710099722/job/75488560366#step:10:706",
+"msg": "In file included from chip/bm3803_freerun.h:34:0, \n from chip/bm3803_freerun.c:38: \n chip/bm3803_freerun.c: In function 'bm3803_freerun_counter': \n ##[error]chip/bm3803_freerun.c:235:11: error: format '%u' expects argument of type 'unsigned int', but argument 4 has type 'time_t {aka long long int}' [-Werror=format=] \n tmrinfo(\"usec=%llu ts=(%u, %lu)\n\", \n ^ \n usec, ts->tv_sec, (unsigned long)ts->tv_nsec); \n ~~~~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:101: bm3803_fre"
+}

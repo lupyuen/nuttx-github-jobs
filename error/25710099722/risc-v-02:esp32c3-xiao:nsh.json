@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-12T02:57:01",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32c3-xiao",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25710099722/job/75488560372#step:10:442",
+"msg": "##[error]common/espressif/esp_libc_stubs.c:377:15: error: initialization of 'clock_t (*)(struct _reent *, struct tms *)' {aka 'long long int (*)(struct _reent *, struct tms *)'} from incompatible pointer type 'long unsigned int (*)(struct _reent *, struct tms *)' [-Wincompatible-pointer-types] \n 377 |   ._times_r = &_times_r, \n |               ^ \n common/espressif/esp_libc_stubs.c:377:15: note: (near initialization for 'g_stub_table._times_r') \n make[1]: *** [Makefile:144: esp_libc_stubs.o] Error 1 \n m"
+}
