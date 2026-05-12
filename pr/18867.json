@@ -8,8 +8,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-12T06:45:27Z",
   "createdAt": "2026-05-11T17:52:56Z",
   "deletions": 4,
   "files": [
@@ -46,15 +46,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f5689656c6f1fac5df6ba5fff85dcbcda3fd65fc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-12T06:45:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18867,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "build(deps): bump urllib3 from 2.6.3 to 2.7.0 in /Documentation",
-  "updatedAt": "2026-05-12T02:28:34Z",
+  "updatedAt": "2026-05-12T06:45:36Z",
   "url": "https://github.com/apache/nuttx/pull/18867"
 }
