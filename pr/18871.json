@@ -42,7 +42,7 @@
     }
   ],
   "headRefName": "mac_sim",
-  "headRefOid": "3728b6af78934d79aa53e515bcc5f235fb2ac372",
+  "headRefOid": "b01c4b695cadd97f722745d7d205a678878b153c",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyODUxNjk5MzE=",
     "name": "nuttx",
@@ -54,8 +54,27 @@
     "login": "PeterBee97"
   },
   "id": "PR_kwDODZiUac7atZ59",
-  "isDraft": false,
-  "labels": [],
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -65,6 +84,6 @@
   "number": 18871,
   "state": "OPEN",
   "title": "fix macOS sim cmake build and compiler-rt",
-  "updatedAt": "2026-05-12T14:14:24Z",
+  "updatedAt": "2026-05-12T14:30:54Z",
   "url": "https://github.com/apache/nuttx/pull/18871"
 }
