@@ -1,5 +1,5 @@
 {
-  "additions": 445,
+  "additions": 456,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 459,
+  "changedFiles": 462,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:50Z",
-  "deletions": 1425,
+  "deletions": 1436,
   "files": [
     {
       "path": "Documentation/applications/netutils/ntpclient/index.rst",
@@ -252,8 +252,8 @@
     },
     {
       "path": "arch/risc-v/src/common/espressif/esp_i2c.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 3,
+      "deletions": 3
     },
     {
       "path": "arch/risc-v/src/common/espressif/esp_i2c_slave.c",
@@ -277,8 +277,8 @@
     },
     {
       "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_i2c.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 3,
+      "deletions": 3
     },
     {
       "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_libc_stubs.c",
@@ -391,6 +391,11 @@
       "deletions": 1
     },
     {
+      "path": "arch/xtensa/src/esp32/esp32_i2c.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
       "path": "arch/xtensa/src/esp32/esp32_libc_stubs.c",
       "additions": 1,
       "deletions": 1
@@ -431,6 +436,11 @@
       "deletions": 1
     },
     {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_i2c.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
       "path": "arch/xtensa/src/esp32s2/esp32s2_libc_stubs.c",
       "additions": 1,
       "deletions": 1
@@ -466,6 +476,11 @@
       "deletions": 2
     },
     {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_i2c.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
       "path": "arch/xtensa/src/esp32s3/esp32s3_libc_stubs.c",
       "additions": 1,
       "deletions": 1
@@ -499,25 +514,10 @@
       "path": "arch/xtensa/src/esp32s3/rom/esp32s3_libc_stubs.h",
       "additions": 1,
       "deletions": 1
-    },
-    {
-      "path": "boards/arm/cxd56xx/drivers/audio/cxd56_audio_analog.c",
-      "additions": 5,
-      "deletions": 5
-    },
-    {
-      "path": "boards/arm/fvp-v8r-aarch32/fvp-armv8r-aarch32/configs/nsh/defconfig",
-      "additions": 0,
-      "deletions": 1
-    },
-    {
-      "path": "boards/arm/lc823450/lc823450-xgevk/configs/audio/defconfig",
-      "additions": 0,
-      "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "1ff597a08eca12f03819f070d083877b7cbb819d",
+  "headRefOid": "a39c2a537f5837939e35243253aab1ecd914b7a2",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -643,6 +643,6 @@
   "number": 18840,
   "state": "OPEN",
   "title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-  "updatedAt": "2026-05-12T04:32:56Z",
+  "updatedAt": "2026-05-12T06:16:52Z",
   "url": "https://github.com/apache/nuttx/pull/18840"
 }
