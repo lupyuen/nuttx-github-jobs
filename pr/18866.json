@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-12T08:35:07Z",
   "createdAt": "2026-05-11T17:02:11Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "4711abcf932083f986a878f71b7cd56f9ff14883"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-05-12T08:35:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18866,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/icmpv6/icmpv6_input.c: Dont increase d_pktsize from router advertise",
-  "updatedAt": "2026-05-12T06:46:05Z",
+  "updatedAt": "2026-05-12T08:35:07Z",
   "url": "https://github.com/apache/nuttx/pull/18866"
 }
