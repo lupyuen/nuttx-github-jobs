@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-12T15:31:11Z",
   "createdAt": "2026-05-12T07:21:06Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "275a083464fd08209fd54e7372954977dfd45fbd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-12T15:31:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3478,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci: retry git clone for nuttx-ntfc-testing",
-  "updatedAt": "2026-05-12T08:08:00Z",
+  "updatedAt": "2026-05-12T15:31:12Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3478"
 }
