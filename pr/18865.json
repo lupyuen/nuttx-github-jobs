@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-12T08:34:17Z",
   "createdAt": "2026-05-11T14:16:03Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "614cdcd93fed17cf2ab9b79e63916d7e32f63b16"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-12T08:34:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18865,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/rp23xx: correct NVIC and PendSV priority initialisation",
-  "updatedAt": "2026-05-12T06:49:10Z",
+  "updatedAt": "2026-05-12T08:34:17Z",
   "url": "https://github.com/apache/nuttx/pull/18865"
 }
