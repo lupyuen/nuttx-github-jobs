@@ -1,5 +1,5 @@
 {
-  "additions": 34,
+  "additions": 46,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0ODUwMTUw",
@@ -13,13 +13,8 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-12T14:14:22Z",
-  "deletions": 2,
+  "deletions": 4,
   "files": [
-    {
-      "path": "arch/sim/src/Makefile",
-      "additions": 4,
-      "deletions": 0
-    },
     {
       "path": "arch/sim/src/cmake/Toolchain.cmake",
       "additions": 14,
@@ -27,7 +22,7 @@
     },
     {
       "path": "arch/sim/src/sim/CMakeLists.txt",
-      "additions": 8,
+      "additions": 1,
       "deletions": 0
     },
     {
@@ -36,13 +31,18 @@
       "deletions": 0
     },
     {
-      "path": "libs/libbuiltin/compiler-rt/Make.defs",
-      "additions": 4,
+      "path": "libs/libbuiltin/compiler-rt/InstrProfilingPlatform.c",
+      "additions": 15,
       "deletions": 0
+    },
+    {
+      "path": "libs/libbuiltin/compiler-rt/Make.defs",
+      "additions": 12,
+      "deletions": 2
     }
   ],
   "headRefName": "mac_sim",
-  "headRefOid": "b01c4b695cadd97f722745d7d205a678878b153c",
+  "headRefOid": "2f666447d06979f15f866a7cc2c20ea713022d2b",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyODUxNjk5MzE=",
     "name": "nuttx",
@@ -54,7 +54,7 @@
     "login": "PeterBee97"
   },
   "id": "PR_kwDODZiUac7atZ59",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiUac8AAAABsqQq0A",
@@ -84,6 +84,6 @@
   "number": 18871,
   "state": "OPEN",
   "title": "fix macOS sim cmake build and compiler-rt",
-  "updatedAt": "2026-05-12T15:39:46Z",
+  "updatedAt": "2026-05-13T07:46:51Z",
   "url": "https://github.com/apache/nuttx/pull/18871"
 }

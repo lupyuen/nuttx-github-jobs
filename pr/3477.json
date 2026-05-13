@@ -1,5 +1,5 @@
 {
-  "additions": 87,
+  "additions": 408,
   "assignees": [],
   "author": {
     "id": "U_kgDODtJYMA",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 6,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-11T12:13:19Z",
@@ -32,12 +32,22 @@
     },
     {
       "path": "audioutils/rtttl-c/Makefile",
-      "additions": 44,
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "audioutils/rtttl-c/rtttl.c",
+      "additions": 271,
+      "deletions": 0
+    },
+    {
+      "path": "audioutils/rtttl-c/rtttl.h",
+      "additions": 58,
       "deletions": 0
     }
   ],
   "headRefName": "master",
-  "headRefOid": "2be2430ee0b445a156953a467cc43b6aeeaebc61",
+  "headRefOid": "84840fe77fe7b13e6190c5a5f505e24c17b1dc6e",
   "headRepository": {
     "id": "R_kgDOQ9VmFg",
     "name": "nuttx-apps",
@@ -51,8 +61,8 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiT488AAAABvo6WdQ",
-      "name": "Size: S",
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
       "description": "",
       "color": "FEF2C0"
     },
@@ -72,6 +82,6 @@
   "number": 3477,
   "state": "OPEN",
   "title": "audioutils: Add RTTTL parsing library",
-  "updatedAt": "2026-05-12T20:25:30Z",
+  "updatedAt": "2026-05-13T07:47:51Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3477"
 }
