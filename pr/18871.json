@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-13T13:01:26Z",
   "createdAt": "2026-05-12T14:14:22Z",
   "deletions": 4,
   "files": [
@@ -75,15 +75,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1076cb933dce83ab9c9f4c446b26b07e6340ba55"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-13T13:01:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18871,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fix macOS sim cmake build and compiler-rt",
-  "updatedAt": "2026-05-13T09:05:36Z",
+  "updatedAt": "2026-05-13T13:01:27Z",
   "url": "https://github.com/apache/nuttx/pull/18871"
 }
