@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-14T04:19:31",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "lx_cpu",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/25840877062/job/75925893054#step:10:464",
+"msg": "ntpclient.c: In function 'timespec2ntp': \n ##[error]ntpclient.c:592:26: error: left shift count >= width of type [-Werror=shift-count-overflow] \n 592 |   ntp_time += ts->tv_sec << 32; \n |                          ^~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: ntpclient.c.github.workspace.sources.apps.netutils.ntpclient.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Makefile:54: /github/workspace/sourc"
+}
