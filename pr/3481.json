@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-14T07:42:45Z",
   "createdAt": "2026-05-14T01:58:38Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "21b28a4126ac1268c9f4d4f41b60247837e1158f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-14T07:42:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
   "milestone": null,
   "number": 3481,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing/ltp: silence -Wshift-count-overflow on -Werror builds",
-  "updatedAt": "2026-05-14T05:54:56Z",
+  "updatedAt": "2026-05-14T07:42:45Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3481"
 }
