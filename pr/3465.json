@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-14T03:58:16Z",
   "createdAt": "2026-04-27T02:25:41Z",
   "deletions": 40,
   "files": [
@@ -73,15 +73,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5d15d9741814dd198fa9902bdcb18f5f2b8fb839"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-14T03:58:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3465,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netlib: replace DNS ping with gateway ping for connectivity check",
-  "updatedAt": "2026-05-14T01:45:44Z",
+  "updatedAt": "2026-05-14T03:58:16Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3465"
 }
