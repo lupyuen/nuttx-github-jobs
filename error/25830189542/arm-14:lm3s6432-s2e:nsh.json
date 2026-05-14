@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-14T01:34:45",
+"arch": "arm",
+"subarch": "tiva",
+"group": "arm-14",
+"board": "lm3s6432-s2e",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/25830189542/job/75894592571#step:10:1003",
+"msg": "/tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: /github/workspace/sources/nuttx/nuttx section `.data' will not fit in region `flash' \n /tools/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/bin/ld: region `flash' overflowed by 504 bytes \n collect2: error: ld returned 1 exit status \n make[1]: *** [Makefile:226: nuttx] Error 1 \n make: *** [tools/Unix.mk:568: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n "
+}
