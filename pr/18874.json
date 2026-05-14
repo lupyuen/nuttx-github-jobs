@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-14T01:20:03Z",
   "createdAt": "2026-05-13T08:48:55Z",
   "deletions": 2,
   "files": [
@@ -80,15 +80,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e05292f9dabe4ee0622688372519203f57930756"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-14T01:20:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18874,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "[arch|board]/risc-v: Allow BSS segments on PSRAM for ESP32-P4",
-  "updatedAt": "2026-05-13T12:04:17Z",
+  "updatedAt": "2026-05-14T01:20:03Z",
   "url": "https://github.com/apache/nuttx/pull/18874"
 }
