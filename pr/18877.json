@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-14T06:44:27Z",
   "createdAt": "2026-05-13T23:50:43Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9451848de3e4570cb534429b8f6ca313840571d2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-14T06:44:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18877,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation/nsh: add chmod and chown command docs",
-  "updatedAt": "2026-05-14T01:18:33Z",
+  "updatedAt": "2026-05-14T06:44:27Z",
   "url": "https://github.com/apache/nuttx/pull/18877"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-14T06:43:42Z",
   "createdAt": "2026-05-13T22:53:26Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "08dded1f227e2823c06f5121e48ca122aed65831"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-14T06:43:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18876,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/vfs: fix pseudoFS mode reporting",
-  "updatedAt": "2026-05-14T01:18:07Z",
+  "updatedAt": "2026-05-14T06:43:42Z",
   "url": "https://github.com/apache/nuttx/pull/18876"
 }
