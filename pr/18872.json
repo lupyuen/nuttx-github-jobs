@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-14T12:35:37Z",
   "createdAt": "2026-05-12T18:13:27Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "24b245a2f94e4984bc171597809a1d0140bb21ca"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-14T12:35:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18872,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/Kconfig: Add CONFIG_FS_PERMISSION option",
-  "updatedAt": "2026-05-14T01:19:24Z",
+  "updatedAt": "2026-05-14T12:35:37Z",
   "url": "https://github.com/apache/nuttx/pull/18872"
 }
