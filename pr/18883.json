@@ -1,0 +1,64 @@
+{
+  "additions": 41,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "is_bot": false,
+    "login": "toku-mac",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-15T06:45:08Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "arch/sim/src/cmake/Toolchain.cmake",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_macho_init.c",
+      "additions": 17,
+      "deletions": 9
+    },
+    {
+      "path": "sched/clock/clock_gettime.c",
+      "additions": 20,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "add_apple_cargo_cmake",
+  "headRefOid": "ee3a85d67bc7dc83935d661ae082aeab6f635668",
+  "headRepository": {
+    "id": "R_kgDOSdjLyA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "login": "toku-mac"
+  },
+  "id": "PR_kwDODZiUac7bz-H7",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18883,
+  "state": "OPEN",
+  "title": "sim/posix: Add APPLE to a build target for sim's configuration using CMake.",
+  "updatedAt": "2026-05-15T06:45:10Z",
+  "url": "https://github.com/apache/nuttx/pull/18883"
+}
