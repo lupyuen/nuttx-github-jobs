@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-15T02:52:43",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "mcuboot_update_agent",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25895921601/job/76109071692#step:10:881",
+"msg": "curl: (56) OpenSSL SSL_read: error:0A000126:SSL routines::unexpected eof while reading, errno 0 \n make[3]: *** [Makefile:55: v1.7.12.tar.gz] Error 56 \n make[3]: Target 'context' not remade because of errors. \n make[2]: *** [Makefile:57: /github/workspace/sources/apps/netutils/cjson_context] Error 2 \n make[2]: Target 'context_all' not remade because of errors. \n make[1]: *** [Makefile:187: context] Error 2 \n make: *** [tools/Unix.mk:470: /github/workspace/sources/apps/.context] Error 2 \n make: Target "
+}
