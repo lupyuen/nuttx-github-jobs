@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-16T23:44:49Z",
   "createdAt": "2026-05-16T18:01:27Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6f46d0e932cbd4562fc6b838d9f485b873ae509a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-16T23:44:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18890,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci/platform: Fix the “Repository not found” error for kconfig-frontends",
-  "updatedAt": "2026-05-16T18:39:16Z",
+  "updatedAt": "2026-05-16T23:44:49Z",
   "url": "https://github.com/apache/nuttx/pull/18890"
 }
