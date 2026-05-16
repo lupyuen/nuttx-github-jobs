@@ -1,0 +1,73 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-16T16:34:42Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/ethernet/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/i2schar/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/spislv/defconfig",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "boards/esp32p4/remove-merge-bins",
+  "headRefOid": "4bed9d32b42228bf3a44f38bccbb9e1d9931b1ae",
+  "headRepository": {
+    "id": "R_kgDOKAnrYQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiUac7cPabv",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18889,
+  "state": "OPEN",
+  "title": "boards/esp32p4: Remove unnecessary `CONFIG_ESPRESSIF_MERGE_BINS`",
+  "updatedAt": "2026-05-16T16:35:03Z",
+  "url": "https://github.com/apache/nuttx/pull/18889"
+}
