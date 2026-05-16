@@ -1,5 +1,5 @@
 {
-  "additions": 109,
+  "additions": 128,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -13,7 +13,7 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-16T12:18:42Z",
-  "deletions": 162,
+  "deletions": 164,
   "files": [
     {
       "path": ".codespellrc",
@@ -22,13 +22,13 @@
     },
     {
       "path": "arch/sim/include/arch.h",
-      "additions": 21,
+      "additions": 38,
       "deletions": 0
     },
     {
       "path": "arch/sim/src/Makefile",
-      "additions": 5,
-      "deletions": 12
+      "additions": 6,
+      "deletions": 13
     },
     {
       "path": "arch/sim/src/patch_macho_initsection.py",
@@ -37,8 +37,8 @@
     },
     {
       "path": "arch/sim/src/sim/CMakeLists.txt",
-      "additions": 10,
-      "deletions": 7
+      "additions": 11,
+      "deletions": 8
     },
     {
       "path": "arch/sim/src/sim/posix/sim_macho_init.c",
@@ -52,7 +52,7 @@
     }
   ],
   "headRefName": "macos",
-  "headRefOid": "83595fc98dd7b7c7c401f4bf92588fd22289bf75",
+  "headRefOid": "7ee85e001fe1d90304ea117237eec70933e58046",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -94,6 +94,6 @@
   "number": 18886,
   "state": "OPEN",
   "title": "arch/sim: replace macOS C++ constructor runtime hack with post-link patch",
-  "updatedAt": "2026-05-16T12:24:27Z",
+  "updatedAt": "2026-05-16T12:46:22Z",
   "url": "https://github.com/apache/nuttx/pull/18886"
 }
