@@ -1,0 +1,194 @@
+{
+  "additions": 3575,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBrxA8A",
+    "is_bot": false,
+    "login": "cjj66619",
+    "name": "CuiJinji"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 26,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-16T03:25:57Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32f4/boards/alientek-m144z-m4/index.rst",
+      "additions": 113,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/README.txt",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/configs/nsh/defconfig",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/include/board.h",
+      "additions": 229,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/scripts/Make.defs",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/scripts/f407ze.ld",
+      "additions": 126,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/scripts/f407zg.ld",
+      "additions": 126,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/CMakeLists.txt",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/Make.defs",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/alientek-m144z-m4.h",
+      "additions": 320,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_adc.c",
+      "additions": 167,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_appinit.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_autoleds.c",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_boot.c",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_bringup.c",
+      "additions": 509,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_buttons.c",
+      "additions": 183,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_can.c",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_dac.c",
+      "additions": 110,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_mrf24j40.c",
+      "additions": 279,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_spi.c",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_timer.c",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_usb.c",
+      "additions": 329,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32/alientek-m144z-m4/src/stm32_userleds.c",
+      "additions": 105,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "devin/1778900964-alientek-m144z-m4-bsp",
+  "headRefOid": "27c336338f13ef6a02e0367b1e26cafca8eeb3c2",
+  "headRepository": {
+    "id": "R_kgDOSc7RwQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBrxA8A",
+    "name": "CuiJinji",
+    "login": "cjj66619"
+  },
+  "id": "PR_kwDODZiUac7cIy2c",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18885,
+  "state": "OPEN",
+  "title": "boards/arm/stm32: add support for ALIENTEK M144Z-M4 (STM32F407ZGT6)",
+  "updatedAt": "2026-05-16T03:26:21Z",
+  "url": "https://github.com/apache/nuttx/pull/18885"
+}
