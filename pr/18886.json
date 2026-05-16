@@ -1,0 +1,99 @@
+{
+  "additions": 109,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-16T12:18:42Z",
+  "deletions": 162,
+  "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/include/arch.h",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 5,
+      "deletions": 12
+    },
+    {
+      "path": "arch/sim/src/patch_macho_initsection.py",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 10,
+      "deletions": 7
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_macho_init.c",
+      "additions": 0,
+      "deletions": 135
+    },
+    {
+      "path": "libs/libc/misc/lib_cxx_initialize.c",
+      "additions": 0,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "macos",
+  "headRefOid": "83595fc98dd7b7c7c401f4bf92588fd22289bf75",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac7cNOIg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18886,
+  "state": "OPEN",
+  "title": "arch/sim: replace macOS C++ constructor runtime hack with post-link patch",
+  "updatedAt": "2026-05-16T12:24:27Z",
+  "url": "https://github.com/apache/nuttx/pull/18886"
+}
