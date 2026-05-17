@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-17T18:48:29Z",
   "createdAt": "2026-05-17T01:38:28Z",
   "deletions": 50,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "702fd85acce62845f3e981caa3b833269babbea3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-17T18:48:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18891,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/vfs: enforce pseudoFS permissions on open()",
-  "updatedAt": "2026-05-17T15:17:16Z",
+  "updatedAt": "2026-05-17T18:48:30Z",
   "url": "https://github.com/apache/nuttx/pull/18891"
 }

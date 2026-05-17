@@ -1,0 +1,285 @@
+{
+  "additions": 7493,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEzNDk2NTE=",
+    "is_bot": false,
+    "login": "ImBonkers",
+    "name": "Samuel Lindén"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 48,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-17T18:46:04Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32n6/boards/nucleo-n657x0-q/index.rst",
+      "additions": 122,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32n6/index.rst",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/stm32n6/chip.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/stm32n6/irq.h",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/stm32n6/stm32n6xx_irq.h",
+      "additions": 239,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/CMakeLists.txt",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/Kconfig",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/Make.defs",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/chip.h",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/hardware/stm32n6xxx_gpio.h",
+      "additions": 442,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/hardware/stm32n6xxx_memorymap.h",
+      "additions": 173,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/hardware/stm32n6xxx_pinmap.h",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/hardware/stm32n6xxx_pwr.h",
+      "additions": 112,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/hardware/stm32n6xxx_rcc.h",
+      "additions": 288,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/hardware/stm32n6xxx_syscfg.h",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/hardware/stm32n6xxx_uart.h",
+      "additions": 252,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32.h",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_gpio.c",
+      "additions": 374,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_gpio.h",
+      "additions": 317,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_idle.c",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_irq.c",
+      "additions": 473,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_lowputc.c",
+      "additions": 257,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_lowputc.h",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_pwr.c",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_pwr.h",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_rcc.c",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_rcc.h",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_serial.c",
+      "additions": 1772,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_start.c",
+      "additions": 267,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_start.h",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_timerisr.c",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_uart.h",
+      "additions": 96,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32n6xx_rcc.c",
+      "additions": 261,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/configs/nsh/defconfig",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/configs/ostest/defconfig",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/include/board.h",
+      "additions": 133,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/scripts/Make.defs",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/scripts/flash.ld",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/CMakeLists.txt",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/Makefile",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/nucleo-n657x0-q.h",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/stm32_boot.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/stm32_bringup.c",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testlist/arm-14.dat",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32n6-port",
+  "headRefOid": "f21a2c8f68519834268c566d29d9617e1ef64dcd",
+  "headRepository": {
+    "id": "R_kgDORkhv5w",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEzNDk2NTE=",
+    "name": "Samuel Lindén",
+    "login": "ImBonkers"
+  },
+  "id": "PR_kwDODZiUac7cbKVw",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18892,
+  "state": "OPEN",
+  "title": "arch/arm/stm32n6: Add STM32N6 chip and Nucleo-N657X0-Q board support",
+  "updatedAt": "2026-05-17T18:46:06Z",
+  "url": "https://github.com/apache/nuttx/pull/18892"
+}
