@@ -1,5 +1,5 @@
 {
-  "additions": 43,
+  "additions": 254,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjc5NjAxMTY=",
@@ -9,35 +9,65 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 10,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-15T06:45:08Z",
-  "deletions": 11,
+  "deletions": 166,
   "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/include/arch.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 8,
+      "deletions": 14
+    },
     {
       "path": "arch/sim/src/cmake/Toolchain.cmake",
       "additions": 3,
       "deletions": 0
     },
     {
+      "path": "arch/sim/src/patch_macho_initsection.py",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
       "path": "arch/sim/src/sim/CMakeLists.txt",
-      "additions": 3,
-      "deletions": 1
+      "additions": 26,
+      "deletions": 8
+    },
+    {
+      "path": "arch/sim/src/sim/macos/sim_clock_gettime.c",
+      "additions": 94,
+      "deletions": 0
     },
     {
       "path": "arch/sim/src/sim/posix/sim_macho_init.c",
-      "additions": 17,
-      "deletions": 9
+      "additions": 0,
+      "deletions": 135
+    },
+    {
+      "path": "libs/libc/misc/lib_cxx_initialize.c",
+      "additions": 0,
+      "deletions": 8
     },
     {
       "path": "sched/clock/clock_gettime.c",
-      "additions": 20,
+      "additions": 1,
       "deletions": 1
     }
   ],
   "headRefName": "add_apple_cargo_cmake",
-  "headRefOid": "e14a9528f4a76a132c8a433a7844a1993854257b",
+  "headRefOid": "a9a458a80a4253163788c4374e71eed41e62efc3",
   "headRepository": {
     "id": "R_kgDOSdjLyA",
     "name": "nuttx",
@@ -63,9 +93,9 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
@@ -78,6 +108,6 @@
   "number": 18883,
   "state": "OPEN",
   "title": "sim/posix: Add APPLE to a build target for sim's configuration using CMake.",
-  "updatedAt": "2026-05-17T04:13:42Z",
+  "updatedAt": "2026-05-17T12:33:48Z",
   "url": "https://github.com/apache/nuttx/pull/18883"
 }
