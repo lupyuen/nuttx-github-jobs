@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-17T12:23:32",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-08",
+"board": "b-g431b-esc1",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25988864840/job/76391350333#step:10:404",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/nuttx section `.data' will not fit in region `flash' \n arm-none-eabi-ld: region `flash' overflowed by 296 bytes \n make[1]: *** [Makefile:226: nuttx] Error 1 \n make: *** [tools/Unix.mk:568: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n Untracked files: \n boards/arm/stm32/b-g431b-esc1/scripts/ld.script.tmp \n nothing added to commit but untracked files present (use \"git add\" to track)"
+}
