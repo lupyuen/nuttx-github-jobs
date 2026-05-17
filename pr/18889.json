@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-17T03:46:44Z",
   "createdAt": "2026-05-16T16:34:42Z",
   "deletions": 3,
   "files": [
@@ -59,15 +59,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "eb0834cd27fd1596a81031c51e03af72238bbf46"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-17T03:46:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18889,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/esp32p4: Remove unnecessary `CONFIG_ESPRESSIF_MERGE_BINS`",
-  "updatedAt": "2026-05-16T18:40:51Z",
+  "updatedAt": "2026-05-17T03:46:44Z",
   "url": "https://github.com/apache/nuttx/pull/18889"
 }

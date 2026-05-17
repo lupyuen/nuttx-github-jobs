@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-17T03:47:06Z",
   "createdAt": "2026-05-06T09:36:56Z",
   "deletions": 6,
   "files": [
@@ -74,15 +74,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3c05605079e9bacb38106bb996d8bde8933ca43e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-17T03:47:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18853,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "kinetis/pit: Update Kconfig, implement oneshot PIT",
-  "updatedAt": "2026-05-16T18:56:47Z",
+  "updatedAt": "2026-05-17T03:47:06Z",
   "url": "https://github.com/apache/nuttx/pull/18853"
 }
