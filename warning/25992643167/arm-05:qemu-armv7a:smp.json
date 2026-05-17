@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-17T15:43:05",
+"arch": "arm",
+"subarch": "qemu",
+"group": "arm-05",
+"board": "qemu-armv7a",
+"config": "smp",
+"build_score": 0.5,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/25992643167/job/76401584724#step:10:1805",
+"msg": "kasantest.c: In function 'run_testcase': \n ##[warning]kasantest.c:669:25: warning: format '%ld' expects argument of type 'long int', but argument 3 has type 'time_t' {aka 'long long int'} [-Wformat=] \n 669 |   printf(\"%s spending %ld.%lds\n\", run->testcase->name, \n |                       ~~^ \n |                         | \n |                         long int \n |                       %lld \n 670 |                                    result.tv_sec, \n |                                    ~~~~~~~~~~~~~"
+}
