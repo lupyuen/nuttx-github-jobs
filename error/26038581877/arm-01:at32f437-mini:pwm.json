@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-18T22:37:15",
+"arch": "arm",
+"subarch": "at32",
+"group": "arm-01",
+"board": "at32f437-mini",
+"config": "pwm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/26038581877/job/76630435839#step:10:454",
+"msg": "pwm_main.c: In function 'pwm_main': \n ##[error]pwm_main.c:537:7: error: 'struct pwm_info_s' has no member named 'duty' \n 537 |   info.duty = g_pwmstate.duty ? \\ \n |       ^ \n ##[error]pwm_main.c:550:40: error: 'struct pwm_info_s' has no member named 'duty' \n 550 |          info.frequency, (uint32_t)info.duty); \n |                                        ^ \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: pwm_main.c.github.workspace.sources.apps.examples.pwm.o] Error 1 \n make[2]: Tar"
+}
