@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-18T07:22:22",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "nsh_pci",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/26015620607/job/76474757224#step:10:390",
+"msg": "nsh_login.c: In function 'nsh_login': \n ##[error]nsh_login.c:176:13: error: implicit declaration of function 'readline_fd' [-Werror=implicit-function-declaration] \n 176 |       ret = readline_fd(pstate->cn_line, LINE_MAX, \n |             ^~~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: nsh_login.c.github.workspace.sources.apps.nshlib.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Makefile:54: /"
+}

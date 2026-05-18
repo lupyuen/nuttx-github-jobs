@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T07:35:04Z",
   "createdAt": "2026-05-12T13:03:16Z",
   "deletions": 0,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c2388717398c4746d9193e69dcf807eb2928a3c1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T07:35:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18870,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm64/imx9: Add SAR ADC support",
-  "updatedAt": "2026-05-16T09:40:46Z",
+  "updatedAt": "2026-05-18T07:35:04Z",
   "url": "https://github.com/apache/nuttx/pull/18870"
 }

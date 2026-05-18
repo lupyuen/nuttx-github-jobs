@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T07:33:59Z",
   "createdAt": "2026-04-10T12:26:32Z",
   "deletions": 37,
   "files": [
@@ -124,15 +124,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "13ba91a33fb307baa1881176f72ff3d2c372b9d7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T07:33:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18704,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/*/src/Makefile: Avoid uncessary relinking of the nuttx binary.",
-  "updatedAt": "2026-05-16T09:54:33Z",
+  "updatedAt": "2026-05-18T07:33:59Z",
   "url": "https://github.com/apache/nuttx/pull/18704"
 }
