@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T04:22:48Z",
   "createdAt": "2026-05-16T06:14:07Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bb7c83b01cf7c48d8f4850b9074e3478e62ca08e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T04:22:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 3483,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps:cmake: Add APPLE to a build target for sim's configuration using CMake",
-  "updatedAt": "2026-05-18T02:01:28Z",
+  "updatedAt": "2026-05-18T04:22:49Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3483"
 }
