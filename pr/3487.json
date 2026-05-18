@@ -1,0 +1,113 @@
+{
+  "additions": 313,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-18T07:01:17Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "interpreters/python/Kconfig",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/Make.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/Makefile",
+      "additions": 37,
+      "deletions": 1
+    },
+    {
+      "path": "interpreters/python/Setup.local.in",
+      "additions": 0,
+      "deletions": 10
+    },
+    {
+      "path": "interpreters/python/config.site.in",
+      "additions": 10,
+      "deletions": 1
+    },
+    {
+      "path": "interpreters/python/patch/0015-keep-ensurepip-in-stdlib-archive.patch",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/patch/0016-fix-timezone-offset-check-when-time-t-is-unsigned.patch",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/patch/0017-stdlib-zip-keep-pydecimal-and-trim-tooling-extras.patch",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/patch/0018-ignore-chmod-on-nuttx-like-wasi.patch",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/python_wrapper.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/repack_wheel_add_pyc.py",
+      "additions": 139,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/python_pip",
+  "headRefOid": "3cebed71b301e3df951ff864b79c35ffbd4ad3bb",
+  "headRepository": {
+    "id": "R_kgDOIFfryw",
+    "name": "incubator-nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiT487cij1D",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7eSw",
+      "name": "Area: Interpreters",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3487,
+  "state": "OPEN",
+  "title": "interpreters/python: Enable using `pip` to install Python packages",
+  "updatedAt": "2026-05-18T07:17:41Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3487"
+}
