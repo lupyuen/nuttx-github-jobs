@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-18T16:51:47",
+"arch": "arm",
+"subarch": "tiva",
+"group": "arm-14",
+"board": "lm3s6432-s2e",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26025976683/job/76534063626#step:10:1575",
+"msg": "netlib_getiobinfo.c: In function 'netlib_get_iobinfo': \n ##[error]netlib_getiobinfo.c:80:15: error: passing argument 1 of 'fprintf' makes pointer from integer without a cast [-Werror=int-conversion] \n 80 |       fprintf(stderr, \"ERROR: Failed to open path:%s \n\", PROCFS_IOB_PATH); \n |               ^~~~~~ \n |               | \n |               int \n In file included from /github/workspace/sources/apps/include/netutils/netlib.h:50, \n from netlib_getiobinfo.c:38: \n 151 | int    fprintf(FAR FILE *stre"
+}
