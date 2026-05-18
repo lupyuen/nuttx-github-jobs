@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-18T18:18:33",
+"arch": "risc-v",
+"subarch": "esp32c6",
+"group": "risc-v-03",
+"board": "esp32c6-devkitc",
+"config": "pwm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26042654732/job/76572193961#step:10:861",
+"msg": "##[error]pwm_main.c:51:5: error: \"CONFIG_PWM_NCHANNELS\" is not defined, evaluates to 0 [-Werror=undef] \n 51 | #if CONFIG_PWM_NCHANNELS > 1 \n |     ^~~~~~~~~~~~~~~~~~~~ \n ##[error]pwm_main.c:56:5: error: \"CONFIG_PWM_NCHANNELS\" is not defined, evaluates to 0 [-Werror=undef] \n 56 | #if CONFIG_PWM_NCHANNELS > 2 \n |     ^~~~~~~~~~~~~~~~~~~~ \n ##[error]pwm_main.c:62:5: error: \"CONFIG_PWM_NCHANNELS\" is not defined, evaluates to 0 [-Werror=undef] \n 62 | #if CONFIG_PWM_NCHANNELS > 3 \n |     ^~~~~~~~~~~"
+}

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 11,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T19:08:31Z",
   "createdAt": "2026-05-18T07:01:17Z",
   "deletions": 12,
   "files": [
@@ -99,15 +99,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8ba84edb0ac6772ac67e4c78d14044435dd90d75"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T19:08:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3487,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "interpreters/python: Enable using `pip` to install Python packages",
-  "updatedAt": "2026-05-18T17:55:28Z",
+  "updatedAt": "2026-05-18T19:08:31Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3487"
 }
