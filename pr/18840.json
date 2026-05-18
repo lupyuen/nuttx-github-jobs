@@ -1,5 +1,5 @@
 {
-  "additions": 785,
+  "additions": 794,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 527,
+  "changedFiles": 528,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-03T08:13:50Z",
-  "deletions": 1755,
+  "deletions": 1756,
   "files": [
     {
       "path": "Documentation/applications/netutils/ntpclient/index.rst",
@@ -48,6 +48,11 @@
     {
       "path": "arch/arm/src/armv8-r/arm_perf.c",
       "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cmake/gcc.cmake",
+      "additions": 9,
       "deletions": 1
     },
     {
@@ -509,15 +514,10 @@
       "path": "arch/risc-v/src/mpfs/mpfs_ddr.c",
       "additions": 7,
       "deletions": 7
-    },
-    {
-      "path": "arch/risc-v/src/mpfs/mpfs_perf.c",
-      "additions": 1,
-      "deletions": 1
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "a500b0ad93911187c48009bf0709698babd59865",
+  "headRefOid": "9485a2d1787c758ed25a643dc1041c09a6b147be",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "incubator-nuttx",
@@ -655,6 +655,6 @@
   "number": 18840,
   "state": "OPEN",
   "title": "!sched/clock: drop CONFIG_SYSTEM_TIME64 / CONFIG_HAVE_LONG_LONG / CONFIG_LIBC_LONG_LONG and sclock_t",
-  "updatedAt": "2026-05-17T13:57:21Z",
+  "updatedAt": "2026-05-18T01:53:47Z",
   "url": "https://github.com/apache/nuttx/pull/18840"
 }
