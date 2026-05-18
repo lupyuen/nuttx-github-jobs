@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 49,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T17:50:29Z",
   "createdAt": "2026-05-17T18:46:04Z",
   "deletions": 0,
   "files": [
@@ -301,15 +301,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f47e5394b524fe01343ae3593397f268c1efe23d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T17:50:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18892,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/stm32n6: Add STM32N6 chip and Nucleo-N657X0-Q board support",
-  "updatedAt": "2026-05-18T11:52:07Z",
+  "updatedAt": "2026-05-18T17:57:55Z",
   "url": "https://github.com/apache/nuttx/pull/18892"
 }
