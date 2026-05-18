@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-18T13:25:11",
+"arch": "arm",
+"subarch": "unknown",
+"group": "arm-01",
+"board": "t3-gem-o1",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26027571485/job/76528530551#step:10:448",
+"msg": "am67_appinit.c: In function 'board_app_initialize': \n ##[error]am67_appinit.c:66:10: error: 'OK' undeclared (first use in this function) \n 66 |   return OK; \n |          ^~ \n am67_appinit.c:66:10: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]am67_appinit.c:72:1: error: control reaches end of non-void function [-Werror=return-type] \n 72 | } \n | ^ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/nuttx/boards/Boa"
+}
