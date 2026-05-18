@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 105,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T15:35:26Z",
   "createdAt": "2026-05-11T09:14:05Z",
   "deletions": 949,
   "files": [
@@ -586,15 +586,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4df80e192806456dbda80cb76f7d5f8c345338b3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T15:35:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18864,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!drivers/pwm: remove PWM_MULTICHAN option",
-  "updatedAt": "2026-05-18T14:19:48Z",
+  "updatedAt": "2026-05-18T15:40:18Z",
   "url": "https://github.com/apache/nuttx/pull/18864"
 }

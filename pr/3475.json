@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T15:35:10Z",
   "createdAt": "2026-05-11T09:14:20Z",
   "deletions": 126,
   "files": [
@@ -70,15 +70,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2fce07fe1ccc295ffeec3d63dee2de8dcc9d4b89"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T15:35:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3475,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": " remove references to PWM_MULTICHAN option",
-  "updatedAt": "2026-05-18T14:20:20Z",
+  "updatedAt": "2026-05-18T15:40:15Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3475"
 }
