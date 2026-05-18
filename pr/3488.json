@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-18T20:18:54Z",
   "createdAt": "2026-05-18T10:31:56Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f0f7c5ada9f4c92c73acab75c4ef21a38722d689"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-18T20:18:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3488,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "wakaama: add support for TLV",
-  "updatedAt": "2026-05-18T14:21:25Z",
+  "updatedAt": "2026-05-18T20:18:54Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3488"
 }
