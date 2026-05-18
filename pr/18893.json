@@ -1,0 +1,99 @@
+{
+  "additions": 709,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-18T09:31:07Z",
+  "deletions": 152,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 115,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi.c",
+      "additions": 304,
+      "deletions": 99
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi.h",
+      "additions": 17,
+      "deletions": 6
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_spi_slave.c",
+      "additions": 145,
+      "deletions": 41
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.cmake",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.mk",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/include/esp_board_spidev.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_spi.c",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/common/src/esp_board_spidev.c",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_bringup.c",
+      "additions": 25,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "feature/esp_lp_spi",
+  "headRefOid": "031f2b84b2729a008a55c3bdc2c110f8036b6682",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac7cltKP",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18893,
+  "state": "OPEN",
+  "title": "arch/risc-v/espressif: Add LPSPI and SPI3 support",
+  "updatedAt": "2026-05-18T09:31:08Z",
+  "url": "https://github.com/apache/nuttx/pull/18893"
+}
