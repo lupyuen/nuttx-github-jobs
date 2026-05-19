@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-19T07:56:02Z",
   "createdAt": "2026-02-17T12:20:58Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "02153debae607b6b7b2b1f093ba7db7d6e3b06e9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-19T07:56:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 3404,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netutils/ping: improve ping and ping6 for get_host error handling",
-  "updatedAt": "2026-05-19T02:10:26Z",
+  "updatedAt": "2026-05-19T07:56:03Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3404"
 }
