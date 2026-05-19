@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-19T19:06:59Z",
   "createdAt": "2026-05-19T06:40:38Z",
   "deletions": 1,
   "files": [
@@ -42,15 +42,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "131cc703c5b56cfe9a40143f3bfe58e204d713dc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-19T19:06:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18900,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "git: Specify multiple build directories in .gitignore.",
-  "updatedAt": "2026-05-19T12:01:28Z",
+  "updatedAt": "2026-05-19T19:06:59Z",
   "url": "https://github.com/apache/nuttx/pull/18900"
 }
