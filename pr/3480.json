@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-19T01:56:25Z",
   "createdAt": "2026-05-13T22:30:30Z",
   "deletions": 0,
   "files": [
@@ -64,15 +64,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ecfc1b5b61ad505aeb0f75a399ed2738d200c459"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-19T01:56:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3480,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nshlib: add chmod and chown builtins",
-  "updatedAt": "2026-05-18T08:32:33Z",
+  "updatedAt": "2026-05-19T01:56:25Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3480"
 }
