@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-19T14:03:13",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "lvgl_fb",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26095037318/job/76744607496#step:10:477",
+"msg": "curl: (92) HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8) \n make[3]: *** [Makefile:75: v9.2.2.zip] Error 92 \n make[3]: Target 'context' not remade because of errors. \n make[2]: *** [Makefile:57: /github/workspace/sources/apps/graphics/lvgl_context] Error 2 \n make[2]: Target 'context_all' not remade because of errors. \n make[1]: *** [Makefile:187: context] Error 2 \n make: *** [tools/Unix.mk:471: /github/workspace/sources/apps/.context] Error 2 \n make: Target 'all' not remade because of errors."
+}
