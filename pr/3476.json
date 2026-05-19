@@ -1,5 +1,5 @@
 {
-  "additions": 20,
+  "additions": 136,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,21 +9,36 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 12,
+  "changedFiles": 32,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-11T09:53:41Z",
-  "deletions": 22,
+  "deletions": 131,
   "files": [
     {
       "path": "benchmarks/cyclictest/cyclictest.c",
-      "additions": 2,
-      "deletions": 2
+      "additions": 4,
+      "deletions": 4
     },
     {
       "path": "benchmarks/sd_bench/sd_bench_main.c",
       "additions": 2,
       "deletions": 2
+    },
+    {
+      "path": "examples/adjtime/adjtime_main.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "examples/charger/charger_main.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "examples/netpkt/netpkt_ethercat.c",
+      "additions": 4,
+      "deletions": 3
     },
     {
       "path": "examples/oneshot/oneshot_main.c",
@@ -36,24 +51,69 @@
       "deletions": 4
     },
     {
+      "path": "fsutils/mkfatfs/mkfatfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "graphics/nxwm/src/chexcalculator.cxx",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "graphics/tiff/tiff_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "industry/nxmodbus/nxmb_internal.h",
       "additions": 1,
       "deletions": 1
     },
     {
-      "path": "netutils/ntpclient/ntpclient.c",
+      "path": "lte/alt1250/usock_handlers/alt1250_ioctl_lwm2m.c",
       "additions": 1,
       "deletions": 1
     },
     {
+      "path": "netutils/ntpclient/ntpclient.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
       "path": "netutils/ptpd/ptpd.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "nshlib/nsh_timcmds.c",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "system/coredump/coredump.c",
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "system/dd/dd_main.c",
       "additions": 2,
       "deletions": 2
+    },
+    {
+      "path": "system/ptpd/ptpd_main.c",
+      "additions": 16,
+      "deletions": 15
+    },
+    {
+      "path": "system/resmonitor/filldisk.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "testing/drivers/drivertest/drivertest_oneshot.c",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "testing/drivers/drivertest/drivertest_posix_timer.c",
@@ -66,18 +126,58 @@
       "deletions": 3
     },
     {
+      "path": "testing/mm/kasantest/kasantest.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "testing/ostest/semtimed.c",
+      "additions": 9,
+      "deletions": 8
+    },
+    {
       "path": "testing/sched/getprime/getprime_main.c",
       "additions": 2,
       "deletions": 2
     },
     {
       "path": "testing/sched/pthread_mutex_perf/pthread_mutex_perf.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 9,
+      "deletions": 8
+    },
+    {
+      "path": "testing/sched/timerjitter/timerjitter.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/pread_test.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/truncate_test.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "testing/testsuites/kernel/syscall/cases/write_test.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "testing/testsuites/kernel/time/cases/clock_test_clock01.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "testing/testsuites/kernel/time/cases/clock_test_smoke.c",
+      "additions": 6,
+      "deletions": 6
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "43ab6bf9cb5f13c3bb5d74b6a6648b97e625cb15",
+  "headRefOid": "6d7f16d9cc427a2418a9c19523b2938b9e4f7881",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
     "name": "incubator-nuttx-apps",
@@ -105,7 +205,7 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
+  "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
@@ -113,6 +213,6 @@
   "number": 3476,
   "state": "OPEN",
   "title": "apps: drop redundant 64-bit casts on tv_sec/tv_nsec arithmetic",
-  "updatedAt": "2026-05-18T10:21:46Z",
+  "updatedAt": "2026-05-19T08:40:43Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3476"
 }
