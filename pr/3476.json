@@ -1,5 +1,5 @@
 {
-  "additions": 136,
+  "additions": 144,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -13,7 +13,7 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-11T09:53:41Z",
-  "deletions": 131,
+  "deletions": 139,
   "files": [
     {
       "path": "benchmarks/cyclictest/cyclictest.c",
@@ -152,8 +152,8 @@
     },
     {
       "path": "testing/testsuites/kernel/syscall/cases/pread_test.c",
-      "additions": 2,
-      "deletions": 2
+      "additions": 4,
+      "deletions": 4
     },
     {
       "path": "testing/testsuites/kernel/syscall/cases/truncate_test.c",
@@ -172,12 +172,12 @@
     },
     {
       "path": "testing/testsuites/kernel/time/cases/clock_test_smoke.c",
-      "additions": 6,
-      "deletions": 6
+      "additions": 12,
+      "deletions": 12
     }
   ],
   "headRefName": "sched/remove-system-time64",
-  "headRefOid": "6d7f16d9cc427a2418a9c19523b2938b9e4f7881",
+  "headRefOid": "f061d121d698a484faec1c9e1b88dc6cf929c055",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA1MjA=",
     "name": "incubator-nuttx-apps",
@@ -205,14 +205,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 3476,
   "state": "OPEN",
   "title": "apps: drop redundant 64-bit casts on tv_sec/tv_nsec arithmetic",
-  "updatedAt": "2026-05-19T09:22:51Z",
+  "updatedAt": "2026-05-19T10:33:24Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3476"
 }
