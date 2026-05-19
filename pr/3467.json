@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-19T10:02:31Z",
   "createdAt": "2026-04-30T16:51:22Z",
   "deletions": 34,
   "files": [
@@ -53,15 +53,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "173e19cde118546c5d3180e1a4b5c3c53a765142"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-19T10:02:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3467,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps/examples: Add path option to SPI Slave test",
-  "updatedAt": "2026-05-19T07:57:31Z",
+  "updatedAt": "2026-05-19T10:02:32Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3467"
 }

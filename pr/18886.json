@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-19T10:08:56Z",
   "createdAt": "2026-05-16T12:18:42Z",
   "deletions": 165,
   "files": [
@@ -85,15 +85,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5349a5ab0c6aad60decaca331058e6bd17aefee3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-19T10:08:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18886,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/sim: replace macOS C++ constructor runtime hack with post-link patch",
-  "updatedAt": "2026-05-18T06:52:23Z",
+  "updatedAt": "2026-05-19T10:08:56Z",
   "url": "https://github.com/apache/nuttx/pull/18886"
 }
