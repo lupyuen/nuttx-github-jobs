@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-19T11:49:55Z",
   "createdAt": "2026-05-19T05:01:49Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "81dc33941586c348f29128a4c501d756a9c88ddc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-19T11:49:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18898,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm: fix infinite loop in test and clean cache operations",
-  "updatedAt": "2026-05-19T07:55:10Z",
+  "updatedAt": "2026-05-19T11:49:56Z",
   "url": "https://github.com/apache/nuttx/pull/18898"
 }
