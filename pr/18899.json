@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T01:20:34Z",
   "createdAt": "2026-05-19T05:05:10Z",
   "deletions": 0,
   "files": [
@@ -64,15 +64,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f401467a94e81332506fa9c3e1a3f53d2facbfb8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-20T01:20:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18899,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/tricore: add TriCore up_backtrace() support",
-  "updatedAt": "2026-05-20T01:13:19Z",
+  "updatedAt": "2026-05-20T01:20:34Z",
   "url": "https://github.com/apache/nuttx/pull/18899"
 }
