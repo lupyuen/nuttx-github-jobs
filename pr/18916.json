@@ -405,7 +405,32 @@
   },
   "id": "PR_kwDODZiUac7ddPOm",
   "isDraft": true,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -415,6 +440,6 @@
   "number": 18916,
   "state": "OPEN",
   "title": "!drivers: separate pulse count from PWM driver",
-  "updatedAt": "2026-05-20T09:51:03Z",
+  "updatedAt": "2026-05-20T10:20:20Z",
   "url": "https://github.com/apache/nuttx/pull/18916"
 }
