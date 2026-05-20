@@ -1,5 +1,5 @@
 {
-  "additions": 96,
+  "additions": 132,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjQ5NzM4NDk5",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 8,
+  "changedFiles": 10,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-20T03:03:14Z",
@@ -22,7 +22,7 @@
     },
     {
       "path": "arch/tricore/include/irq.h",
-      "additions": 12,
+      "additions": 13,
       "deletions": 0
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "path": "arch/tricore/src/common/tricore_fpu.c",
-      "additions": 45,
+      "additions": 66,
       "deletions": 0
     },
     {
@@ -51,13 +51,23 @@
       "deletions": 0
     },
     {
+      "path": "arch/tricore/src/common/tricore_saveusercontext.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
       "path": "arch/tricore/src/common/tricore_trapcall.c",
       "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/patches/add_coprocessor_trap_id.patch",
+      "additions": 9,
       "deletions": 0
     }
   ],
   "headRefName": "tricore/add-fpu-init",
-  "headRefOid": "01ad9e91cfa79fa1b7d307eff665c549d525809d",
+  "headRefOid": "f5465b60bc156fe5ec3f3b4dca2bf62f7b5309b7",
   "headRepository": {
     "id": "R_kgDOH4WgRg",
     "name": "incubator-nuttx",
@@ -77,9 +87,9 @@
       "color": "DC5544"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
@@ -92,6 +102,6 @@
   "number": 18908,
   "state": "OPEN",
   "title": "tricore: add fpu init to open FZ trap",
-  "updatedAt": "2026-05-20T03:37:45Z",
+  "updatedAt": "2026-05-20T06:29:50Z",
   "url": "https://github.com/apache/nuttx/pull/18908"
 }
