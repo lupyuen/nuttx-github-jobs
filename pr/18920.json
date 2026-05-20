@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T13:50:31Z",
   "createdAt": "2026-05-20T13:39:52Z",
   "deletions": 3,
   "files": [
@@ -34,7 +34,20 @@
   },
   "id": "PR_kwDODZiUac7djPhQ",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -42,8 +55,8 @@
   "mergedBy": null,
   "milestone": null,
   "number": 18920,
-  "state": "OPEN",
+  "state": "CLOSED",
   "title": "kinetis/pinirq: Drop assert for out pin interrupts",
-  "updatedAt": "2026-05-20T13:39:53Z",
+  "updatedAt": "2026-05-20T14:01:12Z",
   "url": "https://github.com/apache/nuttx/pull/18920"
 }
