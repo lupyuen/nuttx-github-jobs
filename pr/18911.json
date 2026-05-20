@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T13:25:29Z",
   "createdAt": "2026-05-20T07:00:55Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "191e250cc3cae62538ac172e33db324bb2d08a55"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-20T13:25:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18911,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/tricore: Suspend stm when CPU stops.",
-  "updatedAt": "2026-05-20T12:43:00Z",
+  "updatedAt": "2026-05-20T13:25:29Z",
   "url": "https://github.com/apache/nuttx/pull/18911"
 }

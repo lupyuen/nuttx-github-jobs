@@ -1,5 +1,5 @@
 {
-  "additions": 24,
+  "additions": 33,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjg3NTY5NzA5",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 14,
+  "changedFiles": 15,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-19T09:43:43Z",
-  "deletions": 22,
+  "deletions": 31,
   "files": [
+    {
+      "path": ".codespellrc",
+      "additions": 1,
+      "deletions": 1
+    },
     {
       "path": "benchmarks/sd_bench/sd_bench_main.c",
       "additions": 1,
@@ -37,8 +42,8 @@
     },
     {
       "path": "system/nxcamera/nxcamera.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 7,
+      "deletions": 7
     },
     {
       "path": "testing/drivers/drivertest/drivertest_audio.c",
@@ -47,8 +52,8 @@
     },
     {
       "path": "testing/drivers/sd_stress/sd_stress_main.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "testing/fs/smart_test/smart_test.c",
@@ -67,8 +72,8 @@
     },
     {
       "path": "testing/testsuites/kernel/syscall/cases/fcntl_test.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "testing/testsuites/kernel/syscall/cases/lseek_test.c",
@@ -87,7 +92,7 @@
     }
   ],
   "headRefName": "nightt5879/fix-open-args-1879",
-  "headRefOid": "e05dc0e6bdf4d4205683f6fde4c19d07ff112b33",
+  "headRefOid": "3fa0db3dd478bad07a705730847da442ee8eec17",
   "headRepository": {
     "id": "R_kgDOShwk4Q",
     "name": "nuttx-apps",
@@ -123,6 +128,6 @@
   "number": 3489,
   "state": "OPEN",
   "title": "nshlib/testing: Fix open() arguments.",
-  "updatedAt": "2026-05-20T03:17:36Z",
+  "updatedAt": "2026-05-20T13:36:28Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3489"
 }
