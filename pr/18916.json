@@ -1,0 +1,420 @@
+{
+  "additions": 15214,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 75,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-20T09:35:27Z",
+  "deletions": 4440,
+  "files": [
+    {
+      "path": "Documentation/applications/examples/pulsecount/index.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/applications/examples/pwm/index.rst",
+      "additions": 1,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/pulsecount.rst",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/drivers/character/timers/pwm.rst",
+      "additions": 6,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/at32/Kconfig",
+      "additions": 107,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/at32/Make.defs",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/at32/at32_pulsecount.c",
+      "additions": 1887,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_pulsecount.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/at32/at32_pwm.c",
+      "additions": 1,
+      "deletions": 561
+    },
+    {
+      "path": "arch/arm/src/efm32/Kconfig",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_pwm.c",
+      "additions": 0,
+      "deletions": 204
+    },
+    {
+      "path": "arch/arm/src/gd32f4/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/nrf52/nrf52_pwm.c",
+      "additions": 0,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/nrf53/nrf53_pwm.c",
+      "additions": 0,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_pwm.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/Kconfig",
+      "additions": 73,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_pulsecount.c",
+      "additions": 1775,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_pulsecount.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_pwm.c",
+      "additions": 1,
+      "deletions": 553
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Kconfig",
+      "additions": 32,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_pulsecount.c",
+      "additions": 1277,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_pulsecount.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_pwm.c",
+      "additions": 3,
+      "deletions": 338
+    },
+    {
+      "path": "arch/arm/src/stm32f7/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Kconfig",
+      "additions": 73,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_pulsecount.c",
+      "additions": 1748,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_pulsecount.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_pwm.c",
+      "additions": 1,
+      "deletions": 542
+    },
+    {
+      "path": "arch/arm/src/stm32h5/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 73,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pulsecount.c",
+      "additions": 1792,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pulsecount.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pwm.c",
+      "additions": 1,
+      "deletions": 539
+    },
+    {
+      "path": "arch/arm/src/stm32h7/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 73,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_pulsecount.c",
+      "additions": 1813,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_pulsecount.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_pwm.c",
+      "additions": 1,
+      "deletions": 539
+    },
+    {
+      "path": "arch/arm/src/stm32l4/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/Kconfig",
+      "additions": 73,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pulsecount.c",
+      "additions": 1657,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pulsecount.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pwm.c",
+      "additions": 1,
+      "deletions": 435
+    },
+    {
+      "path": "arch/arm/src/stm32l5/Kconfig",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32u5/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/tiva/Kconfig",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/common/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/common/tiva_pulsecount.c",
+      "additions": 834,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tiva/common/tiva_pwm.c",
+      "additions": 0,
+      "deletions": 264
+    },
+    {
+      "path": "arch/arm/src/tiva/tiva_pulsecount.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tlsr82/Kconfig",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/tlsr82/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tlsr82_pulsecount.c",
+      "additions": 739,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tlsr82_pulsecount.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tlsr82_pwm.c",
+      "additions": 0,
+      "deletions": 135
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tlsr82_pwm.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/litex/litex_pwm.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/timers/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/Kconfig",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/timers/Make.defs",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/pulsecount.c",
+      "additions": 361,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/pwm.c",
+      "additions": 1,
+      "deletions": 162
+    },
+    {
+      "path": "include/nuttx/fs/ioctl.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/pulsecount.h",
+      "additions": 189,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/timers/pwm.h",
+      "additions": 5,
+      "deletions": 66
+    }
+  ],
+  "headRefName": "nuttx_pwm_pulse_refactor",
+  "headRefOid": "7f7ccfdf7590fca59b5803bbb89fa777bb74c4d4",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7ddPOm",
+  "isDraft": true,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18916,
+  "state": "OPEN",
+  "title": "!drivers: separate pulse count from PWM driver",
+  "updatedAt": "2026-05-20T09:35:27Z",
+  "url": "https://github.com/apache/nuttx/pull/18916"
+}
