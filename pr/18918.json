@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 11,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T17:13:01Z",
   "createdAt": "2026-05-20T12:04:14Z",
   "deletions": 9,
   "files": [
@@ -105,15 +105,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4ee59f6b68b41016efa9247569378d22eb1d9ea1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-20T17:13:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18918,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards: PWM support for nucleo-c091 and nucleo-c071",
-  "updatedAt": "2026-05-20T13:24:48Z",
+  "updatedAt": "2026-05-20T17:13:02Z",
   "url": "https://github.com/apache/nuttx/pull/18918"
 }

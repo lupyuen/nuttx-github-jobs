@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T17:12:38Z",
   "createdAt": "2026-05-20T12:28:10Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ec9a849e158aa50f99c7a750ff1a65bec0246d88"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-20T17:12:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18919,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools: add build path support on host_info tool",
-  "updatedAt": "2026-05-20T13:14:26Z",
+  "updatedAt": "2026-05-20T17:12:39Z",
   "url": "https://github.com/apache/nuttx/pull/18919"
 }
