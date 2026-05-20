@@ -1,5 +1,5 @@
 {
-  "additions": 130,
+  "additions": 233,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjYyODUwMDkx",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 8,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-10T08:04:54Z",
-  "deletions": 1,
+  "deletions": 4,
   "files": [
     {
       "path": "Documentation/platforms/arm64/bcm2711/boards/raspberrypi-4b/index.rst",
@@ -21,9 +21,29 @@
       "deletions": 0
     },
     {
+      "path": "arch/arm64/src/bcm2711/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
       "path": "arch/arm64/src/bcm2711/bcm2711_boot.c",
-      "additions": 46,
-      "deletions": 1
+      "additions": 15,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_cpustart.c",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_cpustart.h",
+      "additions": 54,
+      "deletions": 0
     },
     {
       "path": "arch/arm64/src/bcm2711/hardware/bcm2711_memmap.h",
@@ -32,12 +52,12 @@
     },
     {
       "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/smp/defconfig",
-      "additions": 70,
+      "additions": 56,
       "deletions": 0
     }
   ],
   "headRefName": "rpi4b-smp",
-  "headRefOid": "35373136996b4f59128fb21238da2e9c560af76b",
+  "headRefOid": "bbfd63203f1fe9239f6027c96b55544e162e7d76",
   "headRepository": {
     "id": "R_kgDOMTJh2w",
     "name": "nuttx",
@@ -49,7 +69,7 @@
     "login": "linguini1"
   },
   "id": "PR_kwDODZiUac7Z93Rb",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
@@ -90,6 +110,6 @@
   "number": 18861,
   "state": "OPEN",
   "title": "boards/raspberrypi-4b: Implement SMP support",
-  "updatedAt": "2026-05-17T19:31:25Z",
+  "updatedAt": "2026-05-20T19:04:20Z",
   "url": "https://github.com/apache/nuttx/pull/18861"
 }
