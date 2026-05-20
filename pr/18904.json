@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T17:50:19Z",
   "createdAt": "2026-05-19T16:54:14Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ee57ca08000296af7750841d0a2bfc7bd35b73c5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-20T17:50:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18904,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/mtd/mx25rxx.c: add support for MX25L12873G",
-  "updatedAt": "2026-05-20T16:27:42Z",
+  "updatedAt": "2026-05-20T17:50:19Z",
   "url": "https://github.com/apache/nuttx/pull/18904"
 }
