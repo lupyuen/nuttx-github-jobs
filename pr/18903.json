@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T22:28:37Z",
   "createdAt": "2026-05-19T14:31:52Z",
   "deletions": 4,
   "files": [
@@ -59,15 +59,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "426a5154d9aa86951640c7bed7d5136e137109f3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-20T22:28:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18903,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/rpmsg and rptun: some compile error fix",
-  "updatedAt": "2026-05-19T17:04:45Z",
+  "updatedAt": "2026-05-20T22:28:37Z",
   "url": "https://github.com/apache/nuttx/pull/18903"
 }

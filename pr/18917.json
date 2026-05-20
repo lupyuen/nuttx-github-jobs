@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-20T22:30:37Z",
   "createdAt": "2026-05-20T12:01:49Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "980b7b1e276cfc68159befd65cb754a3daf34360"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-20T22:30:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18917,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/stm32f0l0g0/stm32_pwm.h: restore PWM mapping for single channel",
-  "updatedAt": "2026-05-20T17:13:12Z",
+  "updatedAt": "2026-05-20T22:30:37Z",
   "url": "https://github.com/apache/nuttx/pull/18917"
 }
