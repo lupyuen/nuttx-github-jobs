@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 10,
+  "changedFiles": 9,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-20T03:03:14Z",
@@ -22,7 +22,7 @@
     },
     {
       "path": "arch/tricore/include/irq.h",
-      "additions": 13,
+      "additions": 12,
       "deletions": 0
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "path": "arch/tricore/src/common/tricore_fpu.c",
-      "additions": 66,
+      "additions": 70,
       "deletions": 0
     },
     {
@@ -51,23 +51,18 @@
       "deletions": 0
     },
     {
-      "path": "arch/tricore/src/common/tricore_saveusercontext.c",
-      "additions": 5,
-      "deletions": 0
-    },
-    {
       "path": "arch/tricore/src/common/tricore_trapcall.c",
       "additions": 20,
       "deletions": 0
     },
     {
       "path": "arch/tricore/src/illd/tc4xx/patches/add_coprocessor_trap_id.patch",
-      "additions": 9,
+      "additions": 11,
       "deletions": 0
     }
   ],
   "headRefName": "tricore/add-fpu-init",
-  "headRefOid": "45e4f9d21de00b689e28e5c79a332a70847ff9d8",
+  "headRefOid": "b3a9173b701a1559092559cf7308edcc33308f69",
   "headRepository": {
     "id": "R_kgDOH4WgRg",
     "name": "incubator-nuttx",
@@ -78,7 +73,7 @@
     "login": "zyfeier"
   },
   "id": "PR_kwDODZiUac7dVnM2",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiUac8AAAABsqQ3tg",
@@ -102,6 +97,6 @@
   "number": 18908,
   "state": "OPEN",
   "title": "tricore: Add fpu init and fpucmp support.",
-  "updatedAt": "2026-05-20T11:30:09Z",
+  "updatedAt": "2026-05-20T12:44:36Z",
   "url": "https://github.com/apache/nuttx/pull/18908"
 }
