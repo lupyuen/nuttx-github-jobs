@@ -1,0 +1,119 @@
+{
+  "additions": 289,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-20T12:04:14Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f0l0g0/hardware/stm32c0_rcc.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/include/board_pwm.h",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/src/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/common/src/board_pwm.c",
+      "additions": 174,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/configs/jumbo/defconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/include/board.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/src/stm32_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/configs/jumbo/defconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/include/board.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/src/stm32_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "nuttx_pwm_fix_c0_pwm_boards",
+  "headRefOid": "8af0c2f7ebad1faed2e181d88c0ae778d61a8dd3",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7dg59j",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18918,
+  "state": "OPEN",
+  "title": "boards: PWM support for nucleo-c091 and nucleo-c071",
+  "updatedAt": "2026-05-20T12:07:19Z",
+  "url": "https://github.com/apache/nuttx/pull/18918"
+}
