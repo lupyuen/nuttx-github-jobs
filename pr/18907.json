@@ -1,0 +1,330 @@
+{
+  "additions": 3838,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCg8z7A",
+    "is_bot": false,
+    "login": "PiyushPatle26",
+    "name": "Piyush Patle "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 52,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-20T02:20:35Z",
+  "deletions": 11,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/am62x/boards/beagleplay/index.rst",
+      "additions": 111,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm64/am62x/boards/pocketbeagle2/index.rst",
+      "additions": 129,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm64/am62x/index.rst",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/Kconfig",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/am62x/chip.h",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/am62x/irq.h",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/CMakeLists.txt",
+      "additions": 34,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/Make.defs",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_16550serial.c",
+      "additions": 140,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_boot.c",
+      "additions": 161,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_boot.h",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_lowputc.S",
+      "additions": 172,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_serial.h",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/chip.h",
+      "additions": 48,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/hardware/am62x_memorymap.h",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/hardware/am62x_uart.h",
+      "additions": 167,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_arch.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_boot.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/configs/nsh/defconfig",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/configs/ostest/defconfig",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/include/board.h",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/include/board_memorymap.h",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/scripts/Make.defs",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/scripts/dramboot.ld",
+      "additions": 96,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/CMakeLists.txt",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/Makefile",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/beagleplay.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/beagleplay_appinit.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/beagleplay_autoleds.c",
+      "additions": 140,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/beagleplay_boardinit.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/beagleplay_bringup.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/CMakeLists.txt",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/configs/nsh/defconfig",
+      "additions": 148,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/configs/ostest/defconfig",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/include/board.h",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/include/board_memorymap.h",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/scripts/Make.defs",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/scripts/dramboot.ld",
+      "additions": 202,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/scripts/uEnv.txt",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/CMakeLists.txt",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/Makefile",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_appinit.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_autoleds.c",
+      "additions": 140,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_boardinit.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_bringup.c",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/serial/uart_16550.c",
+      "additions": 15,
+      "deletions": 10
+    }
+  ],
+  "headRefName": "am62x-beagleplay-bringup",
+  "headRefOid": "d4dbf71fd0998d310be0fc691756d10a4e217b9a",
+  "headRepository": {
+    "id": "R_kgDOR0KCmg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCg8z7A",
+    "name": "Piyush Patle ",
+    "login": "PiyushPatle26"
+  },
+  "id": "PR_kwDODZiUac7dVGsq",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18907,
+  "state": "OPEN",
+  "title": "arm64/am62x: add initial BeaglePlay and PocketBeagle2 bring-up",
+  "updatedAt": "2026-05-20T02:20:59Z",
+  "url": "https://github.com/apache/nuttx/pull/18907"
+}
