@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-21T16:42:49Z",
   "createdAt": "2026-05-21T11:54:06Z",
   "deletions": 8,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "41cd6eb16d0e1fe9dd7a05963938b61424be7c52"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-21T16:42:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18928,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation/uorb: Fix command references in uORB docs.",
-  "updatedAt": "2026-05-21T13:36:46Z",
+  "updatedAt": "2026-05-21T16:42:49Z",
   "url": "https://github.com/apache/nuttx/pull/18928"
 }
