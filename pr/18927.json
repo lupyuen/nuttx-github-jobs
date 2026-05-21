@@ -1,0 +1,79 @@
+{
+  "additions": 301,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5NzM4NDk5",
+    "is_bot": false,
+    "login": "zyfeier",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-21T09:57:43Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/tricore/Kconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/include/setjmp.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/Make.defs",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/tricore/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/tricore/Kconfig",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/tricore/Make.defs",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/machine/tricore/arch_setjmp.c",
+      "additions": 175,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "tricore/add-setjmp",
+  "headRefOid": "c59a633a36b924a1fcdfcf0b03e8a083bc746982",
+  "headRepository": {
+    "id": "R_kgDOH4WgRg",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5NzM4NDk5",
+    "login": "zyfeier"
+  },
+  "id": "PR_kwDODZiUac7d4gmj",
+  "isDraft": true,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18927,
+  "state": "OPEN",
+  "title": "arch/tricore: Support setjmp and longjmp.",
+  "updatedAt": "2026-05-21T10:01:42Z",
+  "url": "https://github.com/apache/nuttx/pull/18927"
+}
