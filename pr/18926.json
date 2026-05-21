@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 16,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-21T13:38:59Z",
   "createdAt": "2026-05-21T08:41:25Z",
   "deletions": 0,
   "files": [
@@ -135,15 +135,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "50352c5b757dcc8cf8f9bb5ba4de429109e6fc46"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-21T13:38:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18926,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Add Analog Comparator for esp32[-h2|-p4]",
-  "updatedAt": "2026-05-21T09:08:03Z",
+  "updatedAt": "2026-05-21T13:38:59Z",
   "url": "https://github.com/apache/nuttx/pull/18926"
 }
