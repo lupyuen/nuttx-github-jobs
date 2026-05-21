@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 29,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-21T06:56:24Z",
   "createdAt": "2026-05-20T15:01:10Z",
   "deletions": 0,
   "files": [
@@ -194,15 +194,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2230d325951f12946279028b2cbc5470bdd3a671"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-21T06:56:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18921,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/stm32h7: Add support for nucleo-h753zi board",
-  "updatedAt": "2026-05-21T02:31:38Z",
+  "updatedAt": "2026-05-21T06:56:25Z",
   "url": "https://github.com/apache/nuttx/pull/18921"
 }
