@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-21T09:33:38",
+"arch": "xtensa",
+"subarch": "esp32s3",
+"group": "xtensa-03",
+"board": "esp32s3-devkit",
+"config": "sta_softap",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26212561795/job/77127870650#step:10:2170",
+"msg": "curl: (28) Failed to connect to github.com port 443 after 133264 ms: Connection timed out \n make[3]: *** [Makefile:55: v1.7.12.tar.gz] Error 28 \n make[3]: Target 'context' not remade because of errors. \n make[2]: *** [Makefile:57: /github/workspace/sources/apps/netutils/cjson_context] Error 2 \n make[2]: Target 'context_all' not remade because of errors. \n make[1]: *** [Makefile:187: context] Error 2 \n make: *** [tools/Unix.mk:471: /github/workspace/sources/apps/.context] Error 2 \n make: Target 'all' "
+}
