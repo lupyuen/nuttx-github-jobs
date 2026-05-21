@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-21T04:34:06Z",
   "createdAt": "2026-05-20T12:29:04Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "43bc7e99d6453cdd0e925ae5128574012f5198e0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-21T04:34:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3491,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/nxdiag: add CMake support for NXDiag tool",
-  "updatedAt": "2026-05-20T20:13:33Z",
+  "updatedAt": "2026-05-21T04:34:06Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3491"
 }
