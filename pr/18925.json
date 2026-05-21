@@ -2,37 +2,38 @@
   "additions": 1,
   "assignees": [],
   "author": {
-    "id": "U_kgDOEKvreg",
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
     "is_bot": false,
-    "login": "Zepp-Hanzj",
-    "name": ""
+    "login": "fdcavalcanti",
+    "name": "Filipe do Ó Cavalcanti"
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
   "closed": false,
   "closedAt": null,
-  "createdAt": "2026-05-21T01:37:00Z",
+  "createdAt": "2026-05-21T07:41:43Z",
   "deletions": 1,
   "files": [
     {
-      "path": "boards/sim/sim/sim/scripts/Make.defs",
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/psram/defconfig",
       "additions": 1,
       "deletions": 1
     }
   ],
-  "headRefName": "fix/sim-no-pie-driver",
-  "headRefOid": "876d434dd12a7df3c2027a02b2b14765bbc7d234",
+  "headRefName": "bugfix/increase-psram-usrheap-mmregions",
+  "headRefOid": "2cd8521d67e317e87ba86eb4f5b07dcb1d3c1ea0",
   "headRepository": {
-    "id": "R_kgDOSiiDmQ",
+    "id": "R_kgDOJeJPFA",
     "name": "nuttx",
     "nameWithOwner": ""
   },
   "headRepositoryOwner": {
-    "id": "U_kgDOEKvreg",
-    "login": "Zepp-Hanzj"
+    "id": "MDQ6VXNlcjM3Nzc5NTU3",
+    "name": "Filipe do Ó Cavalcanti",
+    "login": "fdcavalcanti"
   },
-  "id": "PR_kwDODZiUac7dwS5u",
+  "id": "PR_kwDODZiUac7d1sP7",
   "isDraft": false,
   "labels": [
     {
@@ -42,8 +43,8 @@
       "color": "0E8A16"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
-      "name": "Board: simulator",
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
       "description": "",
       "color": "F9D0C4"
     }
@@ -54,9 +55,9 @@
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
-  "number": 18923,
+  "number": 18925,
   "state": "OPEN",
-  "title": "sim: pass no-pie through gcc driver",
-  "updatedAt": "2026-05-21T07:52:05Z",
-  "url": "https://github.com/apache/nuttx/pull/18923"
+  "title": "boards/xtensa/esp32: increase MM_REGIONS for psram defconfig",
+  "updatedAt": "2026-05-21T07:44:53Z",
+  "url": "https://github.com/apache/nuttx/pull/18925"
 }
