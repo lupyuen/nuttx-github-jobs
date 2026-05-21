@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-21T03:38:32Z",
   "createdAt": "2026-05-20T06:30:16Z",
   "deletions": 14,
   "files": [
@@ -58,15 +58,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bb278086313b48c74d78d90a2f41fa0972e631ef"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-21T03:38:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18910,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/tricore: Improve up_backtrace implementation",
-  "updatedAt": "2026-05-20T17:26:50Z",
+  "updatedAt": "2026-05-21T03:38:32Z",
   "url": "https://github.com/apache/nuttx/pull/18910"
 }

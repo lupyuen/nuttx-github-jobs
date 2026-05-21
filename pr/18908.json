@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-21T03:34:15Z",
   "createdAt": "2026-05-20T03:03:14Z",
   "deletions": 0,
   "files": [
@@ -88,15 +88,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "356f7c7b474a5a98d49810af10d0e0c50037b1d3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-21T03:34:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18908,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tricore: Add fpu init and fpucmp support.",
-  "updatedAt": "2026-05-21T03:32:00Z",
+  "updatedAt": "2026-05-21T03:34:15Z",
   "url": "https://github.com/apache/nuttx/pull/18908"
 }
