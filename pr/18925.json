@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T03:12:33Z",
   "createdAt": "2026-05-21T07:41:43Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "91cd34a10c0eaa920a450de44b579c2441b92a9c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T03:12:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18925,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/xtensa/esp32: increase MM_REGIONS for psram defconfig",
-  "updatedAt": "2026-05-21T08:41:05Z",
+  "updatedAt": "2026-05-22T03:12:34Z",
   "url": "https://github.com/apache/nuttx/pull/18925"
 }

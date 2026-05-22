@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T03:14:25Z",
   "createdAt": "2026-05-20T23:11:33Z",
   "deletions": 12,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8df855d2abb082204b8b586de6856641a6477133"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T03:14:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18922,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/stm32h5: Add ethernet hardware checksum",
-  "updatedAt": "2026-05-22T02:42:32Z",
+  "updatedAt": "2026-05-22T03:14:25Z",
   "url": "https://github.com/apache/nuttx/pull/18922"
 }
