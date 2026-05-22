@@ -1,5 +1,5 @@
 {
-  "additions": 3251,
+  "additions": 3106,
   "assignees": [],
   "author": {
     "is_bot": true,
@@ -7,7 +7,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 34,
+  "changedFiles": 33,
   "closed": false,
   "closedAt": null,
   "createdAt": "2025-10-22T15:05:38Z",
@@ -56,11 +56,6 @@
     {
       "path": "arch/arm/src/am67/Make.defs",
       "additions": 36,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/src/am67/am67_atomic_fix.h",
-      "additions": 143,
       "deletions": 0
     },
     {
@@ -140,7 +135,7 @@
     },
     {
       "path": "boards/arm/am67/t3-gem-o1/configs/nsh/defconfig",
-      "additions": 50,
+      "additions": 49,
       "deletions": 0
     },
     {
@@ -150,7 +145,7 @@
     },
     {
       "path": "boards/arm/am67/t3-gem-o1/scripts/Make.defs",
-      "additions": 43,
+      "additions": 42,
       "deletions": 0
     },
     {
@@ -185,7 +180,7 @@
     }
   ],
   "headRefName": "pr-t3-gem-o1-board",
-  "headRefOid": "347db63269266a975b85ae0a52892b5eeac00626",
+  "headRefOid": "736fa721ed3046e666ac116eae9014308db24e8f",
   "headRepository": {
     "id": "R_kgDOPMyAHw",
     "name": "nuttx",
@@ -224,14 +219,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 17229,
   "state": "OPEN",
   "title": "boards/arm/am67: Add support for T3 Gemstone O1 board",
-  "updatedAt": "2026-05-21T04:24:37Z",
+  "updatedAt": "2026-05-22T12:52:19Z",
   "url": "https://github.com/apache/nuttx/pull/17229"
 }
