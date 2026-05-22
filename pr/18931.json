@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T02:41:20Z",
   "createdAt": "2026-05-21T13:26:25Z",
   "deletions": 2,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2c8dc1751029601a65daffd9233d20a1d153aef0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T02:41:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18931,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v: Enable setting cache line size for ESP32-P4",
-  "updatedAt": "2026-05-21T16:39:20Z",
+  "updatedAt": "2026-05-22T02:41:20Z",
   "url": "https://github.com/apache/nuttx/pull/18931"
 }

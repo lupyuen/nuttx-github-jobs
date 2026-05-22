@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T02:38:26Z",
   "createdAt": "2026-05-21T14:15:56Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2b0c59bcf4eb8794c335b4d8156df5d10fbf5461"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T02:38:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18933,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/usbhost_hidmouse: fix button detection in touchscreen example",
-  "updatedAt": "2026-05-22T01:53:56Z",
+  "updatedAt": "2026-05-22T02:38:26Z",
   "url": "https://github.com/apache/nuttx/pull/18933"
 }
