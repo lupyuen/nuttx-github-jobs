@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T09:18:14Z",
   "createdAt": "2026-05-22T03:39:44Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "94733dd17e174945ef3b27554afe64ab5df397e1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T09:18:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18937,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "golfish_gpu_fb: clear fb when initialization",
-  "updatedAt": "2026-05-22T07:23:29Z",
+  "updatedAt": "2026-05-22T09:18:14Z",
   "url": "https://github.com/apache/nuttx/pull/18937"
 }
