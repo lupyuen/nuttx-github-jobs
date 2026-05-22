@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T16:20:33Z",
   "createdAt": "2026-05-22T12:54:22Z",
   "deletions": 4,
   "files": [
@@ -59,15 +59,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4047b9f42b837be243166b24f69c44b02b9ef02d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T16:20:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18941,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v: Clear BSS section for RISC-V-based Espressif SoCs",
-  "updatedAt": "2026-05-22T13:29:35Z",
+  "updatedAt": "2026-05-22T16:20:34Z",
   "url": "https://github.com/apache/nuttx/pull/18941"
 }

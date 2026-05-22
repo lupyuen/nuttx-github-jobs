@@ -1,0 +1,105 @@
+{
+  "additions": 497,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEzNDk2NTE=",
+    "is_bot": false,
+    "login": "ImBonkers",
+    "name": "Samuel Lindén"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-22T16:38:51Z",
+  "deletions": 9,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/stm32n6/boards/nucleo-n657x0-q/index.rst",
+      "additions": 33,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_idle.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/configs/leds/defconfig",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/include/board.h",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/Makefile",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/nucleo-n657x0-q.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/stm32_autoleds.c",
+      "additions": 188,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/stm32_boot.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/stm32_bringup.c",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/stm32_userleds.c",
+      "additions": 128,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32n6/board-leds",
+  "headRefOid": "db9029de8e0c023e76e63bf4ff552a67bf270c09",
+  "headRepository": {
+    "id": "R_kgDORkhv5w",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEzNDk2NTE=",
+    "name": "Samuel Lindén",
+    "login": "ImBonkers"
+  },
+  "id": "PR_kwDODZiUac7ebGqR",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18945,
+  "state": "OPEN",
+  "title": "boards/arm/stm32n6/nucleo-n657x0-q: Add autoleds and userleds support",
+  "updatedAt": "2026-05-22T16:38:53Z",
+  "url": "https://github.com/apache/nuttx/pull/18945"
+}
