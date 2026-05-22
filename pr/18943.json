@@ -1,0 +1,85 @@
+{
+  "additions": 160,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-22T14:24:11Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "Documentation/applications/interpreters/python/index.rst",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/boards/esp32p4-function-ev-board/index.rst",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_start.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/python/defconfig",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testlist/risc-v-03.dat",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testlist/risc-v-07.dat",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp32p4_python",
+  "headRefOid": "4f7874c11aa9711f28f54d35f5a8da634fde8051",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7eYZ8b",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18943,
+  "state": "OPEN",
+  "title": " boards/risc-v/esp32p4: Add defconfig for Python on ESP32-P4 ",
+  "updatedAt": "2026-05-22T14:25:45Z",
+  "url": "https://github.com/apache/nuttx/pull/18943"
+}
