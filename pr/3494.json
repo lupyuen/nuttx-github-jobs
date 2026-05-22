@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T07:00:26Z",
   "createdAt": "2026-05-22T00:38:04Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c9c5c75d08828aca7fb695a2a0a65a57063641f1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T07:00:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 3494,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/rust: Fix hello_rust_cargo CMake settings",
-  "updatedAt": "2026-05-22T05:41:44Z",
+  "updatedAt": "2026-05-22T07:00:27Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3494"
 }
