@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T07:38:50Z",
   "createdAt": "2026-05-22T03:46:36Z",
   "deletions": 15,
   "files": [
@@ -59,15 +59,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a8de4c998cbcebd73d81ede31c4f758d793d7e12"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T07:38:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18938,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/video: use spinlock to replace critical section for goldfish_…",
-  "updatedAt": "2026-05-22T05:35:01Z",
+  "updatedAt": "2026-05-22T07:38:50Z",
   "url": "https://github.com/apache/nuttx/pull/18938"
 }
