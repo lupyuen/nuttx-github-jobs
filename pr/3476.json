@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 32,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T05:38:26Z",
   "createdAt": "2026-05-11T09:53:41Z",
   "deletions": 139,
   "files": [
@@ -204,15 +204,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f9f59bd0f86a97f873496736e942f594b0c546c1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T05:38:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3476,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps: drop redundant 64-bit casts on tv_sec/tv_nsec arithmetic",
-  "updatedAt": "2026-05-22T01:56:08Z",
+  "updatedAt": "2026-05-22T05:38:26Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3476"
 }

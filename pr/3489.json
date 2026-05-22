@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T05:39:04Z",
   "createdAt": "2026-05-19T09:43:43Z",
   "deletions": 31,
   "files": [
@@ -119,15 +119,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5355adb9cf789340b89b948b6a35b6aafb4c5a47"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T05:39:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3489,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nshlib/testing: Fix open() arguments.",
-  "updatedAt": "2026-05-21T06:49:26Z",
+  "updatedAt": "2026-05-22T05:39:05Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3489"
 }

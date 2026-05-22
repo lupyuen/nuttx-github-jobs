@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 8,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T05:39:33Z",
   "createdAt": "2026-05-20T09:35:35Z",
   "deletions": 70,
   "files": [
@@ -84,15 +84,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5cce60aa9afe7631a86aa2cbe61492bbf27b172a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T05:39:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3490,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples: separate pulse count from PWM",
-  "updatedAt": "2026-05-22T00:32:41Z",
+  "updatedAt": "2026-05-22T05:39:33Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3490"
 }
