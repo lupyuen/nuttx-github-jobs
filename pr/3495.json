@@ -1,0 +1,113 @@
+{
+  "additions": 246,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-22T08:39:46Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "interpreters/python/Kconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/Makefile",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/Setup.local.in",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "interpreters/python/config.site.in",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/patch/0019-undef-get_errno-set_errno-to-avoid-nuttx-macro-coll.patch",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/patch/0020-ctypes-skip-pythonapi-on-nuttx.patch",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "interpreters/python/patch/0021-posixmodule-ignore-utime-enosys-on-nuttx.patch",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "system/libffi/.gitignore",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "system/libffi/Kconfig",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "system/libffi/Make.defs",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "system/libffi/Makefile",
+      "additions": 135,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/python_pip",
+  "headRefOid": "b6c994b75c00e8db92fa845dabd3a4a63ab66431",
+  "headRepository": {
+    "id": "R_kgDOIFfryw",
+    "name": "incubator-nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiT487eRY9a",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7eSw",
+      "name": "Area: Interpreters",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3495,
+  "state": "OPEN",
+  "title": " interpreters/python: Add libffi package integration to enable Python's ctypes module ",
+  "updatedAt": "2026-05-22T08:44:01Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3495"
+}
