@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-22T11:25:57Z",
   "createdAt": "2026-05-22T07:55:22Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c1cc9a4dc704f16e544297565f0f167026c02fa3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-22T11:25:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18940,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Fix CMake build issues for new peripheral support",
-  "updatedAt": "2026-05-22T10:25:06Z",
+  "updatedAt": "2026-05-22T11:25:57Z",
   "url": "https://github.com/apache/nuttx/pull/18940"
 }
