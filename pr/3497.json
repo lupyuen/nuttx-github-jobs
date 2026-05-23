@@ -1,0 +1,129 @@
+{
+  "additions": 137,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjg3NTY5NzA5",
+    "is_bot": false,
+    "login": "nightt5879",
+    "name": "Nightt"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 13,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-23T02:40:04Z",
+  "deletions": 22,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mount/mount_main.c",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "examples/romfs/romfs_main.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/chat/chat.c",
+      "additions": 24,
+      "deletions": 18
+    },
+    {
+      "path": "netutils/ftpc/ftpc_connect.c",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ftpc/ftpc_listdir.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ftpc/ftpc_login.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/ftpd/ftpd.c",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/thttpd/libhttpd.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/webserver/httpd_dirlist.c",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "nshlib/nsh_envcmds.c",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_netcmds.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "system/telnet/telnet_chatd.c",
+      "additions": 8,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "nightt5879/fix-allocation-checks-1727",
+  "headRefOid": "006bdc5802d5b462f53f047351296319f1150d4a",
+  "headRepository": {
+    "id": "R_kgDOShwk4Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjg3NTY5NzA5",
+    "name": "Nightt",
+    "login": "nightt5879"
+  },
+  "id": "PR_kwDODZiT487eivdG",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3497,
+  "state": "OPEN",
+  "title": "apps: Check string allocation failures",
+  "updatedAt": "2026-05-23T02:40:26Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3497"
+}
