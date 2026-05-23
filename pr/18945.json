@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 12,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-23T12:23:36Z",
   "createdAt": "2026-05-22T16:38:51Z",
   "deletions": 9,
   "files": [
@@ -116,15 +116,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5993ed41aa15ab2ae4149b7697e40460cb69b7e7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-23T12:23:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18945,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/stm32n6/nucleo-n657x0-q: Add autoleds and userleds support",
-  "updatedAt": "2026-05-22T18:02:47Z",
+  "updatedAt": "2026-05-23T12:23:36Z",
   "url": "https://github.com/apache/nuttx/pull/18945"
 }

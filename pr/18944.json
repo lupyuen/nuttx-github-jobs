@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-23T12:25:17Z",
   "createdAt": "2026-05-22T15:59:45Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c9975a1e00ec6e44afda15e894789fccdde7b203"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-23T12:25:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18944,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/stm32h5/stm32_ethernet: Add missing netdev_carrier calls",
-  "updatedAt": "2026-05-22T16:21:48Z",
+  "updatedAt": "2026-05-23T12:25:17Z",
   "url": "https://github.com/apache/nuttx/pull/18944"
 }
