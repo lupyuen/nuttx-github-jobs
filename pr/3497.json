@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 13,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-23T20:30:53Z",
   "createdAt": "2026-05-23T02:40:04Z",
   "deletions": 22,
   "files": [
@@ -115,15 +115,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "85680134366118955daa7c00fffada10c9ef3208"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-23T20:30:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3497,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps: Check string allocation failures",
-  "updatedAt": "2026-05-23T12:43:09Z",
+  "updatedAt": "2026-05-23T20:30:53Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3497"
 }
