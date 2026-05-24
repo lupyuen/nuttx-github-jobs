@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-24T19:01:31Z",
   "createdAt": "2026-05-24T17:36:30Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "94f3db6bff4cd929c8940e78c766daf6fd8c5c18"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-24T19:01:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18949,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "sim/keyboard: Translate X11 key codes to NuttX codec",
-  "updatedAt": "2026-05-24T18:48:17Z",
+  "updatedAt": "2026-05-24T19:01:31Z",
   "url": "https://github.com/apache/nuttx/pull/18949"
 }
