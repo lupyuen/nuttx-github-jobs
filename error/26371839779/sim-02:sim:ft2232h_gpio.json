@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-24T20:38:02",
+"arch": "sim",
+"subarch": "unknown",
+"group": "sim-02",
+"board": "sim",
+"config": "ft2232h_gpio",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26371839779/job/77625380691#step:10:629",
+"msg": "Package libftdi1 was not found in the pkg-config search path. \n Perhaps you should add the directory containing `libftdi1.pc' \n to the PKG_CONFIG_PATH environment variable \n No package 'libftdi1' found \n In file included from ./sim/sim_ft2232h_ioexpander.c:29: \n ./sim/sim_ft2232h_ioexpander.h:33:10: fatal error: ftdi.h: No such file or directory \n 33 | #include <ftdi.h> \n |          ^~~~~~~~ \n compilation terminated. \n ERROR: cc failed: 1 \n command: cc -MT ./sim_ft2232h_ioexpander.o  -M '-g' '-fom"
+}
