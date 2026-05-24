@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-24T20:05:23",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "configdata",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26371261567/job/77623843844#step:10:370",
+"msg": "sim_bringup.c: In function 'board_gpio_init': \n ##[error]sim_bringup.c:108:9: error: implicit declaration of function 'sim_ft2232h_gpio_initialize' [-Werror=implicit-function-declaration] \n 108 |   ret = sim_ft2232h_gpio_initialize(0xf0); \n |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~ \n ##[error]sim_bringup.c:114:9: error: implicit declaration of function 'sim_ft2232h_gpio_get_ioe' [-Werror=implicit-function-declaration] \n 114 |   ioe = sim_ft2232h_gpio_get_ioe(); \n |         ^~~~~~~~~~~~~~~~~~~~~~~~ \n ##[e"
+}
