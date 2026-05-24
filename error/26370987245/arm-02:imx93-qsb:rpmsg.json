@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-24T20:25:21",
+"arch": "arm",
+"subarch": "imx9",
+"group": "arm-02",
+"board": "imx93-qsb",
+"config": "rpmsg",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26370987245/job/77623157264#step:10:1725",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libarch.a(imx9_start.o): in function `__start': \n arm-none-eabi-ld: /github/workspace/sources/nuttx/arch/arm/src/chip/imx9_start.c:204:(.text.__start+0x4e): undefined reference to `memcpy' \n arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libarch.a(arm_schedulesigaction.o): in function `memcpy': \n arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libsched.a(nx_start.o): in function `memset': \n arm-none-eabi-ld: /github/workspace"
+}
