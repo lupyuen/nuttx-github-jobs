@@ -2,6 +2,62 @@
   {
     "build_arch": "sim",
     "build_board": "sim",
+    "build_config": "ft2232h_gpio",
+    "build_group": "sim-02",
+    "build_msg": "Package libftdi1 was not found in the pkg-config search path. \n Perhaps you should add the directory containing `libftdi1.pc' \n to the PKG_CONFIG_PATH environment variable \n No package 'libftdi1' found \n In file included from ./sim/sim_ft2232h_ioexpander.c:29: \n ./sim/sim_ft2232h_ioexpander.h:33:10: fatal error: ftdi.h: No such file or directory \n 33 | #include <ftdi.h> \n |          ^~~~~~~~ \n compilation terminated. \n ERROR: cc failed: 1 \n command: cc -MT ./sim_ft2232h_ioexpander.o  -M '-g' '-fom",
+    "build_score": 0,
+    "build_subarch": "unknown",
+    "build_timestamp": "2026-05-24T20:38:02",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/26371839779/job/77625380691#step:10:629",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-05-24T20:23:51Z",
+    "job_databaseId": 26371839779,
+    "job_displayTitle": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
+    "job_event": "pull_request",
+    "job_headBranch": "sim_ft2232h",
+    "job_headSha": "0c68d8c053a35d705841efa4964e3d1ee80e52fb",
+    "job_name": "Build",
+    "job_number": 54922,
+    "job_run_duration_ms": "2548000",
+    "job_startedAt": "2026-05-24T20:23:51Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-05-24T21:06:19Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/26371839779",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1072,
+    "pr_assignees": [],
+    "pr_author": "acassis",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 10,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-05-24T19:57:21Z",
+    "pr_deletions": 0,
+    "pr_headRefName": "sim_ft2232h",
+    "pr_headRefOid": "0c68d8c053a35d705841efa4964e3d1ee80e52fb",
+    "pr_headRepository": "incubator-nuttx",
+    "pr_headRepositoryOwner": "acassis",
+    "pr_id": "PR_kwDODZiUac7e1N3D",
+    "pr_isDraft": false,
+    "pr_labels": "Area: Documentation, Arch: simulator, Size: XL, Board: simulator",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 18951,
+    "pr_state": "OPEN",
+    "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18951"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
     "build_config": "bastest",
     "build_group": "sim-01",
     "build_msg": "sim_bringup.c: In function 'board_gpio_init': \n ##[error]sim_bringup.c:108:9: error: implicit declaration of function 'sim_ft2232h_gpio_initialize' [-Werror=implicit-function-declaration] \n 108 |   ret = sim_ft2232h_gpio_initialize(0xf0); \n |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~ \n ##[error]sim_bringup.c:114:9: error: implicit declaration of function 'sim_ft2232h_gpio_get_ioe' [-Werror=implicit-function-declaration] \n 114 |   ioe = sim_ft2232h_gpio_get_ioe(); \n |         ^~~~~~~~~~~~~~~~~~~~~~~~ \n ##[e",
@@ -52,7 +108,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -108,7 +164,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -164,7 +220,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -220,7 +276,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -276,7 +332,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -332,7 +388,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -388,7 +444,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -444,7 +500,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -500,7 +556,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -556,7 +612,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -612,7 +668,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-05-24T20:45:17Z",
+    "pr_updatedAt": "2026-05-24T21:11:01Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
