@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-25T20:04:52",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-01",
+"board": "sim",
+"config": "alsa",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26417542546/job/77765335003#step:10:272",
+"msg": "svn: E000103: Can't open file '/svn/p/lame/svn/db/revs/4/4943': Software caused connection abort \n CMake Error at cmake/nuttx_add_library.cmake:210 (add_library): \n Cannot find source file: \n /github/workspace/sources/apps/audioutils/lame/lame/libmp3lame/bitstream.c \n Call Stack (most recent call first): \n /github/workspace/sources/apps/audioutils/lame/CMakeLists.txt:110 (nuttx_add_library) \n CMake Error at cmake/nuttx_add_library.cmake:210 (add_library): \n No SOURCES given to target: libmp3lame \n C"
+}
