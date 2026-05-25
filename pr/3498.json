@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 10,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-25T22:57:55Z",
   "createdAt": "2026-05-23T21:02:53Z",
   "deletions": 2,
   "files": [
@@ -94,15 +94,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "939ed0ca2a7b593949973be5d09aefea1b659418"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-25T22:57:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 3498,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps/system/microros: add libmicroros.a colcon cross-build orchestration",
-  "updatedAt": "2026-05-25T15:19:15Z",
+  "updatedAt": "2026-05-25T22:57:55Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3498"
 }
