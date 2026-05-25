@@ -1,0 +1,109 @@
+{
+  "additions": 556,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-25T15:46:47Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32p4/index.rst",
+      "additions": 139,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 10,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_lp_mailbox.c",
+      "additions": 327,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_lp_mailbox.h",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32p4/hal_esp32p4.mk",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/src/esp32p4_bringup.c",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/esp_lp_mailbox",
+  "headRefOid": "ba494c38bff572ff4b3d4d1d2cf46c26bfe15310",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac7fGMnR",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18959,
+  "state": "OPEN",
+  "title": "arch/risc-v/espressif: Add LP Mailbox support for esp32p4",
+  "updatedAt": "2026-05-25T15:47:24Z",
+  "url": "https://github.com/apache/nuttx/pull/18959"
+}
