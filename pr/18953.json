@@ -8,8 +8,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-25T19:56:42Z",
   "createdAt": "2026-05-25T03:14:11Z",
   "deletions": 3,
   "files": [
@@ -51,15 +51,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "684031aeabf9851c73049a3c8874f10341409720"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-25T19:56:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18953,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "build(deps): bump docker/login-action from 4.0.0 to 4.2.0",
-  "updatedAt": "2026-05-25T12:27:11Z",
+  "updatedAt": "2026-05-25T19:56:46Z",
   "url": "https://github.com/apache/nuttx/pull/18953"
 }

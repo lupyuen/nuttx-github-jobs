@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-02T14:35:25Z",
-  "deletions": 49,
+  "deletions": 42,
   "files": [
     {
       "path": "Documentation/components/nxgraphics/nx.rst",
@@ -21,19 +21,9 @@
       "deletions": 10
     },
     {
-      "path": "Documentation/platforms/arm/tiva/boards/tm4c123g-launchpad/index.rst",
-      "additions": 0,
-      "deletions": 6
-    },
-    {
       "path": "boards/boardctl.c",
       "additions": 0,
       "deletions": 8
-    },
-    {
-      "path": "boards/risc-v/esp32p4/esp32p4-function-ev-board/configs/ethernet/defconfig",
-      "additions": 0,
-      "deletions": 1
     },
     {
       "path": "include/sys/boardctl.h",
@@ -42,7 +32,7 @@
     }
   ],
   "headRefName": "goodbye-boardinit",
-  "headRefOid": "2bd7f656593c9d7d883afcd3e9386ac077a8b868",
+  "headRefOid": "8ebef5dd075288df3f79c7ecedad37dca10fc9f4",
   "headRepository": {
     "id": "R_kgDOMTJh2w",
     "name": "nuttx",
@@ -67,12 +57,6 @@
       "name": "Size: S",
       "description": "The size of the change in this PR is small",
       "color": "FEF2C0"
-    },
-    {
-      "id": "LA_kwDODZiUac8AAAABw8L77A",
-      "name": "Board: risc-v",
-      "description": "",
-      "color": "F9D0C4"
     }
   ],
   "mergeCommit": null,
@@ -89,6 +73,6 @@
   "number": 18832,
   "state": "OPEN",
   "title": "!boards/boardctl: Remove BOARDIOC_INIT",
-  "updatedAt": "2026-05-09T04:37:36Z",
+  "updatedAt": "2026-05-25T19:58:49Z",
   "url": "https://github.com/apache/nuttx/pull/18832"
 }
