@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-25T12:36:37Z",
   "createdAt": "2026-05-25T02:51:38Z",
   "deletions": 27,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0dd221cc763a6b41198868f245593126741d6ba5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-25T12:36:37Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 3500,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/settings: Fix non-cached save deadlock",
-  "updatedAt": "2026-05-25T04:46:08Z",
+  "updatedAt": "2026-05-25T12:36:37Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3500"
 }

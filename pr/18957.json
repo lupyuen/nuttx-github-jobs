@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-25T12:32:49Z",
   "createdAt": "2026-05-25T08:22:09Z",
   "deletions": 6,
   "files": [
@@ -58,15 +58,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "08a2de27cf2d078d0a25e14760b929f647f0cec3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-25T12:32:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18957,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "cmake: Fix SIM_TOOLCHAIN using CMake on macOS.",
-  "updatedAt": "2026-05-25T10:18:46Z",
+  "updatedAt": "2026-05-25T12:32:49Z",
   "url": "https://github.com/apache/nuttx/pull/18957"
 }
