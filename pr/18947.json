@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-25T02:29:18Z",
   "createdAt": "2026-05-24T01:42:15Z",
   "deletions": 38,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "53ef7c06350d0bca12423fc824155716b40edab1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-25T02:29:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18947,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/rp23xx: Fix PWM frequency, duty cycle and API migration.",
-  "updatedAt": "2026-05-24T05:14:22Z",
+  "updatedAt": "2026-05-25T02:29:18Z",
   "url": "https://github.com/apache/nuttx/pull/18947"
 }
