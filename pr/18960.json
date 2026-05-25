@@ -1,0 +1,103 @@
+{
+  "additions": 1213,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "is_bot": false,
+    "login": "pbarada",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-25T23:50:02Z",
+  "deletions": 4,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 26,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7xxxx_cryp.h",
+      "additions": 186,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_aes.c",
+      "additions": 705,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_aes.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_crypto.c",
+      "additions": 163,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7x3xx_rcc.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/configs/crypto/defconfig",
+      "additions": 57,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "test/h753zi-crypto",
+  "headRefOid": "f33ae6b4e6f3a03e6d82aea464216ba4eaf8b5c3",
+  "headRepository": {
+    "id": "R_kgDORJdmWw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4NjIyMTk=",
+    "login": "pbarada"
+  },
+  "id": "PR_kwDODZiUac7fNBcs",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18960,
+  "state": "OPEN",
+  "title": "arch/arm/src/stm32h7: Add support for CRYP peripheral",
+  "updatedAt": "2026-05-25T23:50:23Z",
+  "url": "https://github.com/apache/nuttx/pull/18960"
+}
