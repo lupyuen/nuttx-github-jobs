@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-25T13:30:17Z",
   "createdAt": "2026-05-25T11:06:59Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0d792e6ffdcff703e73247a714eb569c939e9cd5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-25T13:30:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18958,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: document setlogmask command",
-  "updatedAt": "2026-05-25T13:03:40Z",
+  "updatedAt": "2026-05-25T13:30:17Z",
   "url": "https://github.com/apache/nuttx/pull/18958"
 }
