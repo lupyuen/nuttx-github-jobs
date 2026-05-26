@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-26T12:55:32Z",
   "createdAt": "2026-05-11T12:13:19Z",
   "deletions": 0,
   "files": [
@@ -63,15 +63,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d0fa5af39b8eaab9067db0dec45fbbf6f996e120"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-26T12:55:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3477,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "audioutils: Add RTTTL parsing library",
-  "updatedAt": "2026-05-26T03:12:52Z",
+  "updatedAt": "2026-05-26T12:58:38Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3477"
 }
