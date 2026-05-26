@@ -1,0 +1,65 @@
+{
+  "additions": 120,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-26T16:23:41Z",
+  "deletions": 10,
+  "files": [
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wdt.c",
+      "additions": 24,
+      "deletions": 10
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_wdt_lowerhalf.c",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_wdt_lowerhalf.c",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_wdt_lowerhalf.c",
+      "additions": 29,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/espressif_wdts",
+  "headRefOid": "d5edd8b589aeb68c3115272bd00771acd193e990",
+  "headRepository": {
+    "id": "R_kgDOHwFqQQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiUac7ffPws",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18968,
+  "state": "OPEN",
+  "title": "Fix issues about watchdog timers on ESP32, ESP32-S2 and ESP32-S3",
+  "updatedAt": "2026-05-26T16:23:41Z",
+  "url": "https://github.com/apache/nuttx/pull/18968"
+}
