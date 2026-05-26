@@ -1,0 +1,83 @@
+{
+  "additions": 109,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "is_bot": false,
+    "login": "toku-mac",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-26T07:27:33Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/macos/sim_clock_gettime.c",
+      "additions": 97,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_gettime.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "clock_gettime_macos",
+  "headRefOid": "195a3bc20d8537fc4ff896d877a6f0d374b522ac",
+  "headRepository": {
+    "id": "R_kgDOSdjLyA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "login": "toku-mac"
+  },
+  "id": "PR_kwDODZiUac7fT3_d",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18962,
+  "state": "OPEN",
+  "title": "arch/sim: Handle Darwin clock IDs in clock_gettime()",
+  "updatedAt": "2026-05-26T07:32:57Z",
+  "url": "https://github.com/apache/nuttx/pull/18962"
+}
