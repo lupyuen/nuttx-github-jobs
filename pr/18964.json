@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-26T18:11:36Z",
   "createdAt": "2026-05-26T12:09:04Z",
   "deletions": 0,
   "files": [
@@ -36,15 +36,22 @@
   "id": "PR_kwDODZiUac7fZdpC",
   "isDraft": false,
   "labels": [],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d37309e8db0868c16e0de59081fb878093b2238c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-26T18:11:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18964,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "cmake: nuttx_create_symlink: Remove warning for CMP0205",
-  "updatedAt": "2026-05-26T12:14:41Z",
+  "updatedAt": "2026-05-26T18:11:36Z",
   "url": "https://github.com/apache/nuttx/pull/18964"
 }
