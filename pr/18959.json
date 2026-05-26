@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 8,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-26T02:03:43Z",
   "createdAt": "2026-05-25T15:46:47Z",
   "deletions": 5,
   "files": [
@@ -95,15 +95,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1c382c1a39bdf49ab0f198e196da1ce81e31f92f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-26T02:03:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18959,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Add LP Mailbox support for esp32p4",
-  "updatedAt": "2026-05-25T16:38:11Z",
+  "updatedAt": "2026-05-26T02:03:43Z",
   "url": "https://github.com/apache/nuttx/pull/18959"
 }
