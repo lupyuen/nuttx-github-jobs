@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-26T19:06:29Z",
   "createdAt": "2026-05-22T10:32:43Z",
   "deletions": 12,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ed063a0981f97949c1294745eb5602bfa8170d36"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-26T19:06:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3496,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nshlib: fix infinite loop on broken stdout in nsh_catfile",
-  "updatedAt": "2026-05-26T02:17:38Z",
+  "updatedAt": "2026-05-26T19:06:29Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3496"
 }
