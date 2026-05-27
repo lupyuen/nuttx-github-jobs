@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-27T01:36:43Z",
   "createdAt": "2026-05-26T16:23:41Z",
   "deletions": 10,
   "files": [
@@ -64,15 +64,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fc5c01dc7030c627dcc9f334eed06063df3adcc0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-27T01:36:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18968,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Fix issues about watchdog timers on ESP32, ESP32-S2 and ESP32-S3",
-  "updatedAt": "2026-05-26T17:38:35Z",
+  "updatedAt": "2026-05-27T01:36:43Z",
   "url": "https://github.com/apache/nuttx/pull/18968"
 }
