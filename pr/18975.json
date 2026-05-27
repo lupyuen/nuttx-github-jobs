@@ -1,0 +1,108 @@
+{
+  "additions": 387,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjk1MjQzMQ==",
+    "is_bot": false,
+    "login": "alexcekay",
+    "name": "Alexander Lerach"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-27T11:20:21Z",
+  "deletions": 141,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32/stm32_serial.c",
+      "additions": 55,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_serial.c",
+      "additions": 42,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_serial.c",
+      "additions": 34,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_serial.c",
+      "additions": 42,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_serial.c",
+      "additions": 40,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l5_serial.c",
+      "additions": 41,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_serial.c",
+      "additions": 11,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_serial.c",
+      "additions": 41,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_serial.c",
+      "additions": 40,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/stm32wl5_serial.c",
+      "additions": 41,
+      "deletions": 15
+    }
+  ],
+  "headRefName": "boards_stm32_serial_gpioconfig",
+  "headRefOid": "6a9538dfb62f505d7746adeaa4a857ba2ac8c38f",
+  "headRepository": {
+    "id": "R_kgDOOHbLSA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjk1MjQzMQ==",
+    "name": "Alexander Lerach",
+    "login": "alexcekay"
+  },
+  "id": "PR_kwDODZiUac7fzGfK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18975,
+  "state": "OPEN",
+  "title": "arch/arm/stm32: Support optional TX/RX UART GPIOs.",
+  "updatedAt": "2026-05-27T11:20:49Z",
+  "url": "https://github.com/apache/nuttx/pull/18975"
+}
