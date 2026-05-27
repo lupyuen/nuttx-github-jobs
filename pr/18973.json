@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 11,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-27T18:29:35Z",
   "createdAt": "2026-05-27T09:27:27Z",
   "deletions": 46,
   "files": [
@@ -98,15 +98,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "328ffdb297ce19f0f334a0c6797137a3aeb70d54"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-27T18:29:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18973,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools/espressif: Add UF2 output support",
-  "updatedAt": "2026-05-27T13:30:59Z",
+  "updatedAt": "2026-05-27T18:29:36Z",
   "url": "https://github.com/apache/nuttx/pull/18973"
 }
