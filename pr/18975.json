@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 10,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-27T18:32:19Z",
   "createdAt": "2026-05-27T11:20:21Z",
   "deletions": 141,
   "files": [
@@ -94,15 +94,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d32fdfa20b425b08ff5359a9524192f9cc785c4a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-27T18:32:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 18975,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/stm32: Support optional TX/RX UART GPIOs.",
-  "updatedAt": "2026-05-27T12:47:06Z",
+  "updatedAt": "2026-05-27T18:32:20Z",
   "url": "https://github.com/apache/nuttx/pull/18975"
 }
