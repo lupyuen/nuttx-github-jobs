@@ -1,5 +1,5 @@
 {
-  "additions": 3646,
+  "additions": 3374,
   "assignees": [],
   "author": {
     "id": "U_kgDOCg8z7A",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 52,
+  "changedFiles": 50,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-20T02:20:35Z",
@@ -17,12 +17,12 @@
   "files": [
     {
       "path": "Documentation/platforms/arm64/am62x/boards/beagleplay/index.rst",
-      "additions": 111,
+      "additions": 120,
       "deletions": 0
     },
     {
       "path": "Documentation/platforms/arm64/am62x/boards/pocketbeagle2/index.rst",
-      "additions": 129,
+      "additions": 110,
       "deletions": 0
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "path": "arch/arm64/src/am62x/am62x_16550serial.c",
-      "additions": 140,
+      "additions": 148,
       "deletions": 0
     },
     {
@@ -127,17 +127,17 @@
     },
     {
       "path": "boards/arm64/am62x/beagleplay/configs/nsh/defconfig",
-      "additions": 64,
+      "additions": 63,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/beagleplay/configs/ostest/defconfig",
-      "additions": 62,
+      "additions": 60,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/beagleplay/include/board.h",
-      "additions": 79,
+      "additions": 76,
       "deletions": 0
     },
     {
@@ -157,27 +157,22 @@
     },
     {
       "path": "boards/arm64/am62x/beagleplay/src/CMakeLists.txt",
-      "additions": 33,
+      "additions": 29,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/beagleplay/src/Makefile",
-      "additions": 41,
+      "additions": 35,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/beagleplay/src/beagleplay.h",
-      "additions": 81,
-      "deletions": 0
-    },
-    {
-      "path": "boards/arm64/am62x/beagleplay/src/beagleplay_appinit.c",
-      "additions": 69,
+      "additions": 80,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/beagleplay/src/beagleplay_autoleds.c",
-      "additions": 134,
+      "additions": 82,
       "deletions": 0
     },
     {
@@ -207,12 +202,12 @@
     },
     {
       "path": "boards/arm64/am62x/pocketbeagle2/configs/ostest/defconfig",
-      "additions": 61,
+      "additions": 60,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/pocketbeagle2/include/board.h",
-      "additions": 100,
+      "additions": 97,
       "deletions": 0
     },
     {
@@ -237,27 +232,22 @@
     },
     {
       "path": "boards/arm64/am62x/pocketbeagle2/src/CMakeLists.txt",
-      "additions": 33,
+      "additions": 29,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/pocketbeagle2/src/Makefile",
-      "additions": 41,
+      "additions": 35,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2.h",
-      "additions": 81,
-      "deletions": 0
-    },
-    {
-      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_appinit.c",
-      "additions": 69,
+      "additions": 80,
       "deletions": 0
     },
     {
       "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_autoleds.c",
-      "additions": 134,
+      "additions": 82,
       "deletions": 0
     },
     {
@@ -272,12 +262,12 @@
     },
     {
       "path": "drivers/serial/uart_16550.c",
-      "additions": 15,
+      "additions": 19,
       "deletions": 10
     }
   ],
   "headRefName": "am62x-beagleplay-bringup",
-  "headRefOid": "cc74e93d17090703f842a839654807c2c6f089c9",
+  "headRefOid": "1d96080bae26714a3f23c59acf00bd58fce741d5",
   "headRepository": {
     "id": "R_kgDOR0KCmg",
     "name": "nuttx",
@@ -325,6 +315,6 @@
   "number": 18907,
   "state": "OPEN",
   "title": "arm64/am62x: add initial BeaglePlay and PocketBeagle2 bring-up",
-  "updatedAt": "2026-05-25T03:28:53Z",
+  "updatedAt": "2026-05-27T19:01:19Z",
   "url": "https://github.com/apache/nuttx/pull/18907"
 }
