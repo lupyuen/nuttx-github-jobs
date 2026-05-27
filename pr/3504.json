@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 16,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-27T20:20:08Z",
   "createdAt": "2026-05-26T15:24:44Z",
   "deletions": 0,
   "files": [
@@ -124,15 +124,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c28e61fd3941cdf9e9b8bcb34c68b53891ad55fb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-27T20:20:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3504,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/nxinit: Add NuttX Init (\"NxInit\") reopened to be integrated on NuttX v13",
-  "updatedAt": "2026-05-27T15:34:43Z",
+  "updatedAt": "2026-05-27T20:23:08Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3504"
 }
