@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-27T11:16:30Z",
   "createdAt": "2026-05-25T05:02:33Z",
   "deletions": 3,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2969c8807e898fa09b1eadb5664d73ef7a80e6f5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-27T11:16:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18956,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/sim: Stop publishing stale X11 display during teardown.",
-  "updatedAt": "2026-05-26T08:32:20Z",
+  "updatedAt": "2026-05-27T11:16:30Z",
   "url": "https://github.com/apache/nuttx/pull/18956"
 }
