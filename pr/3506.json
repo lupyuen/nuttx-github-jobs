@@ -1,5 +1,5 @@
 {
-  "additions": 8,
+  "additions": 15,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjYyODUwMDkx",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-27T23:35:24Z",
-  "deletions": 2,
+  "deletions": 12,
   "files": [
     {
       "path": "system/nxinit/Kconfig",
@@ -22,12 +22,17 @@
     },
     {
       "path": "system/nxinit/init.c",
-      "additions": 1,
-      "deletions": 1
+      "additions": 2,
+      "deletions": 8
+    },
+    {
+      "path": "system/nxinit/service.c",
+      "additions": 6,
+      "deletions": 3
     }
   ],
   "headRefName": "nxinit-path-conf",
-  "headRefOid": "411478d30d35b88c93ede5cfb36506f7c334d4d5",
+  "headRefOid": "cf5b8252f2780ef541a83b0f01cd6959cf7a9650",
   "headRepository": {
     "id": "R_kgDOMXy84w",
     "name": "nuttx-apps",
@@ -42,10 +47,10 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiT488AAAABvo6Uug",
-      "name": "Size: XS",
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
       "description": "",
-      "color": "0E8A16"
+      "color": "FEF2C0"
     },
     {
       "id": "LA_kwDODZiT488AAAABvo7OBw",
@@ -63,6 +68,6 @@
   "number": 3506,
   "state": "OPEN",
   "title": "apps/nxinit: Make init.rc file path configurable",
-  "updatedAt": "2026-05-27T23:42:54Z",
+  "updatedAt": "2026-05-28T01:20:30Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3506"
 }
