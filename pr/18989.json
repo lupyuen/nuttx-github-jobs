@@ -1,5 +1,5 @@
 {
-  "additions": 26,
+  "additions": 28,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjI4MzUxNDk5",
@@ -17,17 +17,17 @@
   "files": [
     {
       "path": "net/bluetooth/bluetooth_poll.c",
-      "additions": 11,
+      "additions": 12,
       "deletions": 0
     },
     {
       "path": "net/devif/devif_poll.c",
-      "additions": 15,
+      "additions": 16,
       "deletions": 0
     }
   ],
   "headRefName": "net/bluetooth/fix-bt-socket-poll",
-  "headRefOid": "94fccbf6e3904ccc47581b742e9e1cbe752a111b",
+  "headRefOid": "a1e5c8bca7f6387e57e047417f5f0e153f45f9f8",
   "headRepository": {
     "id": "R_kgDOST-ocw",
     "name": "nuttx",
@@ -39,7 +39,20 @@
   },
   "id": "PR_kwDODZiUac7gPrbz",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -49,6 +62,6 @@
   "number": 18989,
   "state": "OPEN",
   "title": "net/bluetooth: poll sockets only on Bluetooth devices",
-  "updatedAt": "2026-05-28T13:15:54Z",
+  "updatedAt": "2026-05-28T13:49:12Z",
   "url": "https://github.com/apache/nuttx/pull/18989"
 }
