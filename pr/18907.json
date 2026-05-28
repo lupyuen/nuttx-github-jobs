@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 50,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T14:21:40Z",
   "createdAt": "2026-05-20T02:20:35Z",
   "deletions": 11,
   "files": [
@@ -306,15 +306,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "90219df0ecc5fce941f38b82f7389b09b036ce80"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T14:21:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18907,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arm64/am62x: add initial BeaglePlay and PocketBeagle2 bring-up",
-  "updatedAt": "2026-05-28T13:41:23Z",
+  "updatedAt": "2026-05-28T14:21:40Z",
   "url": "https://github.com/apache/nuttx/pull/18907"
 }

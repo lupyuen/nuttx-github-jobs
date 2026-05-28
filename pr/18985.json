@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 17,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T14:21:48Z",
   "createdAt": "2026-05-28T07:57:51Z",
   "deletions": 20,
   "files": [
@@ -128,15 +128,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7679bba75eeb8fab9f9ab69bacc5babb821001f3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T14:21:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18985,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers: Fix comment typos — 'register' → 'registered' across drivers.",
-  "updatedAt": "2026-05-28T09:56:40Z",
+  "updatedAt": "2026-05-28T14:21:49Z",
   "url": "https://github.com/apache/nuttx/pull/18985"
 }
