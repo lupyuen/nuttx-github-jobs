@@ -8,8 +8,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 33,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T12:16:04Z",
   "createdAt": "2025-10-22T15:05:38Z",
   "deletions": 7,
   "files": [
@@ -218,15 +218,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "433312e81f5c8addc78a0db647e75f6d48f47ab7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T12:16:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 17229,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/am67: Add support for T3 Gemstone O1 board",
-  "updatedAt": "2026-05-28T01:37:29Z",
+  "updatedAt": "2026-05-28T12:16:04Z",
   "url": "https://github.com/apache/nuttx/pull/17229"
 }

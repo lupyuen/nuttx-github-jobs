@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T12:35:55Z",
   "createdAt": "2026-05-27T09:27:42Z",
   "deletions": 33,
   "files": [
@@ -59,15 +59,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c0fc20820288c541935fd02a2d9c1ce4d940ba4f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T12:35:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 3505,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/settings: Bound settings string handling",
-  "updatedAt": "2026-05-27T12:50:10Z",
+  "updatedAt": "2026-05-28T12:35:55Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3505"
 }
