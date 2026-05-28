@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T12:43:32Z",
   "createdAt": "2026-05-28T01:35:06Z",
   "deletions": 3,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "331caeb4759dce51f3c872bedc55e20663a0c56f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T12:43:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18983,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: document ping6 command.",
-  "updatedAt": "2026-05-28T12:17:04Z",
+  "updatedAt": "2026-05-28T12:43:32Z",
   "url": "https://github.com/apache/nuttx/pull/18983"
 }
