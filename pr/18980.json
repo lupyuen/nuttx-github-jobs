@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T00:18:59Z",
   "createdAt": "2026-05-27T16:49:58Z",
   "deletions": 2,
   "files": [
@@ -47,15 +47,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fa1589a697b38be5619cd801dc795d38b4461235"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T00:18:59Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 18980,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/analog: fix dead free and memory leak in mcp48xx and mcp47x6.",
-  "updatedAt": "2026-05-27T20:39:31Z",
+  "updatedAt": "2026-05-28T00:18:59Z",
   "url": "https://github.com/apache/nuttx/pull/18980"
 }
