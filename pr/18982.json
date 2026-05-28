@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T07:43:14Z",
   "createdAt": "2026-05-28T00:25:53Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f031dc56046a4128208cb628346d866a7bb16a81"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T07:43:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18982,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: document lzf command.",
-  "updatedAt": "2026-05-28T01:27:39Z",
+  "updatedAt": "2026-05-28T07:43:14Z",
   "url": "https://github.com/apache/nuttx/pull/18982"
 }

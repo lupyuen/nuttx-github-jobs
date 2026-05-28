@@ -1,0 +1,129 @@
+{
+  "additions": 20,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEKvreg",
+    "is_bot": false,
+    "login": "Zepp-Hanzj",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 17,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-28T07:57:51Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": "drivers/i2c/i2c_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/i2s/i2schar.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/i3c/i3c_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/i3c/master.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/motor/motor.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/motor/stepper.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/rc/lirc_dev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/gnss_uorb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/sensor.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/spi/spi_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/ptp_clock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/timers/ptp_clock_dummy.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/video/mipidsi/mipi_dsi.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/video/mipidsi/mipi_dsi_device.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/video/mipidsi/mipi_dsi_device_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/video/mipidsi/mipi_dsi_host.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/video/mipidsi/mipi_dsi_host_driver.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix/comment-register-typo",
+  "headRefOid": "11e308242c7f9202fb8c444f68d827ec9c32c470",
+  "headRepository": {
+    "id": "R_kgDOSiiDmQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEKvreg",
+    "login": "Zepp-Hanzj"
+  },
+  "id": "PR_kwDODZiUac7gJTWa",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 18985,
+  "state": "OPEN",
+  "title": "drivers: Fix comment typos — 'register' → 'registered' across drivers.",
+  "updatedAt": "2026-05-28T08:01:16Z",
+  "url": "https://github.com/apache/nuttx/pull/18985"
+}
