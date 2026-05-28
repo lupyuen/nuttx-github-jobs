@@ -1,5 +1,5 @@
 {
-  "additions": 1,
+  "additions": 4,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjEyMTU0OTc=",
@@ -9,12 +9,27 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-24T19:44:46Z",
   "deletions": 1,
   "files": [
+    {
+      "path": "boards/arm/imx9/imx93-qsb/configs/nsh-ddr/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/configs/nsh/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/imx9/imx93-qsb/configs/rpmsg/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
     {
       "path": "libs/libc/machine/arm/armv8-m/Kconfig",
       "additions": 1,
@@ -22,7 +37,7 @@
     }
   ],
   "headRefName": "terrible-default",
-  "headRefOid": "c23f52ac71d157027ab0cf4f1b9132a7f37299ee",
+  "headRefOid": "90752dc565c2507a4867d588049dfb2fa3bda18a",
   "headRepository": {
     "id": "R_kgDOSjUCfg",
     "name": "nuttx",
@@ -47,17 +62,23 @@
       "name": "Size: XS",
       "description": "The size of the change in this PR is very small",
       "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 18950,
   "state": "OPEN",
   "title": "libs: libc: armv8-m: Enable ARMV8M_STRING_FUNCTION",
-  "updatedAt": "2026-05-26T11:54:08Z",
+  "updatedAt": "2026-05-28T12:10:50Z",
   "url": "https://github.com/apache/nuttx/pull/18950"
 }
