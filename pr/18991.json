@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T17:26:22Z",
   "createdAt": "2026-05-28T14:45:29Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "964be644d60bcc30b7b696f8bf85a513312d2b0a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T17:26:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18991,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: conf: Ignore .venv",
-  "updatedAt": "2026-05-28T14:50:50Z",
+  "updatedAt": "2026-05-28T17:26:22Z",
   "url": "https://github.com/apache/nuttx/pull/18991"
 }

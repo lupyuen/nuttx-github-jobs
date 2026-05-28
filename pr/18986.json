@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T17:26:58Z",
   "createdAt": "2026-05-28T08:20:06Z",
   "deletions": 1,
   "files": [
@@ -42,15 +42,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "dd5670ed65b53387a7e1e11019f1b55d0201dfc5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T17:26:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18986,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/analog: Fix memory leak and dead code in mcp3008_initialize.",
-  "updatedAt": "2026-05-28T12:36:43Z",
+  "updatedAt": "2026-05-28T17:26:58Z",
   "url": "https://github.com/apache/nuttx/pull/18986"
 }

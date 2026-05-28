@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T17:27:04Z",
   "createdAt": "2026-05-28T09:07:14Z",
   "deletions": 84,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b4f04a8560979e908721815b06780704adf8f820"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T17:27:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18988,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "rtc/ptc85263A: Add handling of stop_enable flag.",
-  "updatedAt": "2026-05-28T12:06:03Z",
+  "updatedAt": "2026-05-28T17:27:04Z",
   "url": "https://github.com/apache/nuttx/pull/18988"
 }
