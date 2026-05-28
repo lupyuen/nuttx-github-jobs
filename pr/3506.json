@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T04:08:12Z",
   "createdAt": "2026-05-27T23:35:24Z",
   "deletions": 12,
   "files": [
@@ -59,15 +59,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "418cf21224309faa838c77abd87285c977caf20a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T04:08:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3506,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps/nxinit: Make init.rc file path configurable",
-  "updatedAt": "2026-05-28T01:56:42Z",
+  "updatedAt": "2026-05-28T04:08:12Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3506"
 }
