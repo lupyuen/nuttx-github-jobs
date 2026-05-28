@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T19:27:01Z",
   "createdAt": "2026-05-28T13:19:09Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "07647d3fd45a9d21b5baa69df1a5880dec8eacde"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T19:27:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 3509,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/lzf: Fix missing space in Kconfig help text.",
-  "updatedAt": "2026-05-28T15:08:50Z",
+  "updatedAt": "2026-05-28T19:27:02Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3509"
 }
