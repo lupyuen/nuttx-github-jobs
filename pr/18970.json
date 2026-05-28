@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 31,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-28T01:34:04Z",
   "createdAt": "2026-05-27T04:10:42Z",
   "deletions": 6,
   "files": [
@@ -199,11 +199,18 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0cfa6f1b96a700bca8f2c3e59b730e9a39fa3d29"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-28T01:34:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": {
     "number": 6,
     "title": "DOC",
@@ -211,8 +218,8 @@
     "dueOn": null
   },
   "number": 18970,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "doc: Migrating the rest of documentation from cwiki.",
-  "updatedAt": "2026-05-28T00:47:17Z",
+  "updatedAt": "2026-05-28T01:34:05Z",
   "url": "https://github.com/apache/nuttx/pull/18970"
 }
