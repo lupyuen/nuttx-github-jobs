@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-28T13:45:58",
+"arch": "arm",
+"subarch": "mps",
+"group": "arm-05",
+"board": "mps3-an547",
+"config": "clang",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26572977146/job/78287961895#step:10:421",
+"msg": "##[error]machine/arm/armv8-m/arch_strcpy.S:215:5: error: invalid instruction, any one of the following would fix this: \n lsrs r6, 0 \n ^ \n machine/arm/armv8-m/arch_strcpy.S:215:14: note: operand must be an immediate in the range [1,32] \n lsrs r6, 0 \n ^ \n machine/arm/armv8-m/arch_strcpy.S:215:14: note: operand must be a register in range [r0, r12] or r14 \n lsrs r6, 0 \n ^ \n make[1]: *** [Makefile:151: bin/arch_strcpy.o] Error 1 \n make[1]: Target 'libc.a' not remade because of errors. \n make: *** [to"
+}
