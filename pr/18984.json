@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-29T01:43:21Z",
   "createdAt": "2026-05-28T07:55:30Z",
   "deletions": 8,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "efaebbba4311a40bf0b1605a8d2278acab25849c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-29T01:43:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18984,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/net: Fix typo in lan9250_set_txavailable function name.",
-  "updatedAt": "2026-05-28T13:53:29Z",
+  "updatedAt": "2026-05-29T01:43:21Z",
   "url": "https://github.com/apache/nuttx/pull/18984"
 }

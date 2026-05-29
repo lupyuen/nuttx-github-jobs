@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-29T01:43:06Z",
   "createdAt": "2026-05-28T08:23:20Z",
   "deletions": 1,
   "files": [
@@ -42,15 +42,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d9285319c09a7bd620b958b78781dbe548a1cfe3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-29T01:43:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18987,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/analog: Fix memory leak in ads1115_initialize.",
-  "updatedAt": "2026-05-28T13:53:56Z",
+  "updatedAt": "2026-05-29T01:43:07Z",
   "url": "https://github.com/apache/nuttx/pull/18987"
 }
