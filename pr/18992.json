@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-29T08:25:11Z",
   "createdAt": "2026-05-29T03:40:24Z",
   "deletions": 18,
   "files": [
@@ -85,15 +85,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7c38d586750fdc780105cdf1df06ba59a6607e3e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-29T08:25:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 18992,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools/rust: Fix aarch64 NuttX Rust target specs",
-  "updatedAt": "2026-05-29T05:51:57Z",
+  "updatedAt": "2026-05-29T08:25:11Z",
   "url": "https://github.com/apache/nuttx/pull/18992"
 }
