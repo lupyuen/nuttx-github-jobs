@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-30T09:50:15Z",
   "createdAt": "2026-05-29T23:29:59Z",
   "deletions": 0,
   "files": [
@@ -42,15 +42,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "36bdf9fb37f5212e1bbe74629937ce03df73a134"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-30T09:50:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18996,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/analog/dac7554: Add NULL checks after kmm_malloc in dac7554_initialize",
-  "updatedAt": "2026-05-30T03:54:39Z",
+  "updatedAt": "2026-05-30T09:50:15Z",
   "url": "https://github.com/apache/nuttx/pull/18996"
 }

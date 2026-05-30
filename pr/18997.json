@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-30T09:49:04Z",
   "createdAt": "2026-05-29T23:43:41Z",
   "deletions": 5,
   "files": [
@@ -68,15 +68,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "283742e29cf1a95c672fc4093491da92d59d2b24"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-30T09:49:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 18997,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/rpmsg: Fix typo rpmsg_device_destory -> rpmsg_device_destroy",
-  "updatedAt": "2026-05-30T03:55:13Z",
+  "updatedAt": "2026-05-30T09:49:04Z",
   "url": "https://github.com/apache/nuttx/pull/18997"
 }
