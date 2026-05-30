@@ -1,0 +1,124 @@
+{
+  "additions": 728,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCZ0p9w",
+    "is_bot": false,
+    "login": "arjav1528",
+    "name": "Arjav Patel"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-30T17:44:42Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "examples/microros_pub/Kconfig",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "examples/microros_pub/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/microros_pub/Makefile",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "examples/microros_pub/microros_pub_main.c",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "system/microros/CMakeLists.txt",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "system/microros/Make.defs",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
+      "path": "system/microros/Makefile",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "system/microros/micro_ros_lib/toolchain.cmake.in",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "system/microros/transport/microros_transport.c",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "system/microros/transport/microros_transport.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "system/microros/transport/microros_transport_serial.c",
+      "additions": 206,
+      "deletions": 0
+    },
+    {
+      "path": "system/microros/transport/microros_transport_udp.c",
+      "additions": 145,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "micro-ros-custom-transport",
+  "headRefOid": "4ad56434b155bed0fb22684b9eb37336a6461456",
+  "headRepository": {
+    "id": "R_kgDORLT8CA",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCZ0p9w",
+    "name": "Arjav Patel",
+    "login": "arjav1528"
+  },
+  "id": "PR_kwDODZiT487g-owO",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3512,
+  "state": "OPEN",
+  "title": "system/microros: Add UDP and serial custom transports with publisher example",
+  "updatedAt": "2026-05-30T18:02:17Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3512"
+}
