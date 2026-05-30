@@ -1,0 +1,91 @@
+{
+  "additions": 49,
+  "assignees": [
+    {
+      "id": "MDQ6VXNlcjYyODUwMDkx",
+      "login": "linguini1",
+      "name": "Matteo Golin",
+      "databaseId": 0
+    }
+  ],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-30T15:30:05Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/boards/raspberrypi-4b/index.rst",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Kconfig",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_fb.c",
+      "additions": 24,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "rpi4b-fbconfig",
+  "headRefOid": "2c11d5460a9dad8ba710453ddf238321cb01d082",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac7g9oTx",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": {
+    "number": 7,
+    "title": "RPi4B",
+    "description": "Apache NuttX RTOS on RaspberryPi 4B.",
+    "dueOn": null
+  },
+  "number": 18999,
+  "state": "OPEN",
+  "title": "bcm2711/fb: Use physical device resolution OR force resolution",
+  "updatedAt": "2026-05-30T15:30:47Z",
+  "url": "https://github.com/apache/nuttx/pull/18999"
+}
