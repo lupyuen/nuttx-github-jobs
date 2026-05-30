@@ -1,0 +1,62 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEKvreg",
+    "is_bot": false,
+    "login": "Zepp-Hanzj",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-30T15:51:17Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/sim_usrsock.c",
+      "additions": 15,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix/sim-usrsock-ioctl-oob",
+  "headRefOid": "8367a245162675224b013f0b96f61c04a3108f57",
+  "headRepository": {
+    "id": "R_kgDOSiiDmQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEKvreg",
+    "login": "Zepp-Hanzj"
+  },
+  "id": "PR_kwDODZiUac7g9zU5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19000,
+  "state": "OPEN",
+  "title": "arch/sim: Fix OOB read/write in usrsock_ioctl_handler",
+  "updatedAt": "2026-05-30T15:51:35Z",
+  "url": "https://github.com/apache/nuttx/pull/19000"
+}
