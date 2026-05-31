@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-31T01:08:51Z",
   "createdAt": "2026-05-30T18:23:01Z",
   "deletions": 0,
   "files": [
@@ -60,11 +60,18 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "15a68ccc551ada7a1274870192dbb52f351a41d8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-31T01:08:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": {
     "number": 7,
     "title": "RPi4B",
@@ -72,8 +79,8 @@
     "dueOn": null
   },
   "number": 19002,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/raspberrypi-4b: Add NXInit configuration",
-  "updatedAt": "2026-05-30T22:36:15Z",
+  "updatedAt": "2026-05-31T01:08:52Z",
   "url": "https://github.com/apache/nuttx/pull/19002"
 }
