@@ -1,5 +1,5 @@
 {
-  "additions": 55,
+  "additions": 18,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjc5NjAxMTY=",
@@ -9,30 +9,35 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 3,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-29T03:44:22Z",
-  "deletions": 4,
+  "deletions": 79,
   "files": [
     {
       "path": "cmake/nuttx_add_rust.cmake",
-      "additions": 7,
-      "deletions": 3
+      "additions": 10,
+      "deletions": 7
     },
     {
       "path": "tools/Rust.mk",
-      "additions": 6,
-      "deletions": 1
+      "additions": 8,
+      "deletions": 3
     },
     {
-      "path": "tools/aarch64-unknown-nuttx.json",
-      "additions": 42,
-      "deletions": 0
+      "path": "tools/i486-unknown-nuttx.json",
+      "additions": 0,
+      "deletions": 33
+    },
+    {
+      "path": "tools/x86_64-unknown-nuttx.json",
+      "additions": 0,
+      "deletions": 36
     }
   ],
   "headRefName": "fix_aarch64_target_specs",
-  "headRefOid": "6e583191c26cb57a7ddadff83daf0a6f28910972",
+  "headRefOid": "c2056fec43af2c96118a401606ee784c33fd5d7c",
   "headRepository": {
     "id": "R_kgDOSa-wAw",
     "name": "nuttx-apps",
@@ -67,6 +72,6 @@
   "number": 3510,
   "state": "OPEN",
   "title": "apps/cmake: Fix aarch64 NuttX Rust target specs",
-  "updatedAt": "2026-05-31T03:45:44Z",
+  "updatedAt": "2026-05-31T18:02:05Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3510"
 }

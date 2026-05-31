@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T17:18:26",
+"arch": "arm64",
+"subarch": "am62x",
+"group": "arm64-01",
+"board": "pocketbeagle2",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26718202102/job/78740571208#step:10:814",
+"msg": "pocketbeagle2_bringup.c: In function 'pocketbeagle2_i2c_pinmux': \n ##[error]pocketbeagle2_bringup.c:78:12: error: unused variable 'i2c2_cfg' [-Werror=unused-variable] \n 78 |   uint32_t i2c2_cfg = AM62X_PADCFG_RXACTIVE | AM62X_PADCFG_PULL_UP | \n |            ^~~~~~~~ \n ##[error]pocketbeagle2_bringup.c:76:12: error: unused variable 'i2c0_cfg' [-Werror=unused-variable] \n 76 |   uint32_t i2c0_cfg = AM62X_PADCFG_RXACTIVE | AM62X_PADCFG_PULL_UP | \n |            ^~~~~~~~ \n pocketbeagle2_bringup.c: At top le"
+}
