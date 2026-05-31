@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-31T16:02:42Z",
   "createdAt": "2026-05-31T08:50:49Z",
   "deletions": 0,
   "files": [
@@ -58,15 +58,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3d446bd674ee7112ee1c8bfa5378b054d2408618"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-31T16:02:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19003,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools/rust: Move NuttX Rust target specs into nuttx",
-  "updatedAt": "2026-05-31T14:14:03Z",
+  "updatedAt": "2026-05-31T16:02:42Z",
   "url": "https://github.com/apache/nuttx/pull/19003"
 }
