@@ -1,0 +1,189 @@
+{
+  "additions": 2838,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCg8z7A",
+    "is_bot": false,
+    "login": "PiyushPatle26",
+    "name": "Piyush Patle "
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 25,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-05-31T13:44:57Z",
+  "deletions": 39,
+  "files": [
+    {
+      "path": "arch/arm64/include/am62x/irq.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/am62x/Kconfig",
+      "additions": 89,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/am62x/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_gpio.c",
+      "additions": 357,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_gpio.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_i2c.c",
+      "additions": 668,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_i2c.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_tisci.c",
+      "additions": 543,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/am62x_tisci.h",
+      "additions": 202,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/hardware/am62x_gpio.h",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/hardware/am62x_i2c.h",
+      "additions": 86,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/hardware/am62x_memorymap.h",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/am62x/hardware/am62x_secure_proxy.h",
+      "additions": 88,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/am62x/hardware/am62x_tisci_proto.h",
+      "additions": 225,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_boot.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/configs/nsh/defconfig",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/src/beagleplay_bringup.c",
+      "additions": 74,
+      "deletions": 10
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/configs/nsh/defconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/include/board.h",
+      "additions": 10,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2.h",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_bringup.c",
+      "additions": 101,
+      "deletions": 16
+    },
+    {
+      "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_gpio.c",
+      "additions": 146,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "am62x-tisci-sysfw",
+  "headRefOid": "c6e9a39e91467fc923aa1069aa36c7c9027c7b49",
+  "headRepository": {
+    "id": "R_kgDOR0KCmg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCg8z7A",
+    "name": "Piyush Patle ",
+    "login": "PiyushPatle26"
+  },
+  "id": "PR_kwDODZiUac7hGMsW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19005,
+  "state": "OPEN",
+  "title": "arm64/am62x: Add TISCI system controller client, GPIO and I2C drivers",
+  "updatedAt": "2026-05-31T13:45:49Z",
+  "url": "https://github.com/apache/nuttx/pull/19005"
+}
