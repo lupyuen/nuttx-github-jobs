@@ -17,8 +17,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-05-31T03:06:42Z",
   "createdAt": "2026-05-30T15:30:05Z",
   "deletions": 14,
   "files": [
@@ -72,11 +72,18 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a23aaf45c26a10f13be694b0c7a4e344b5868889"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-05-31T03:06:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": {
     "number": 7,
     "title": "RPi4B",
@@ -84,8 +91,8 @@
     "dueOn": null
   },
   "number": 18999,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "bcm2711/fb: Use physical device resolution OR force resolution",
-  "updatedAt": "2026-05-31T02:04:00Z",
+  "updatedAt": "2026-05-31T03:06:42Z",
   "url": "https://github.com/apache/nuttx/pull/18999"
 }
