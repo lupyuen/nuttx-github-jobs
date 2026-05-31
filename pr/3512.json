@@ -1,5 +1,5 @@
 {
-  "additions": 728,
+  "additions": 787,
   "assignees": [],
   "author": {
     "id": "U_kgDOCZ0p9w",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 12,
+  "changedFiles": 13,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-30T17:44:42Z",
   "deletions": 5,
   "files": [
+    {
+      "path": "examples/microros_pub/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
     {
       "path": "examples/microros_pub/Kconfig",
       "additions": 30,
@@ -22,7 +27,7 @@
     },
     {
       "path": "examples/microros_pub/Make.defs",
-      "additions": 25,
+      "additions": 27,
       "deletions": 0
     },
     {
@@ -32,7 +37,7 @@
     },
     {
       "path": "examples/microros_pub/microros_pub_main.c",
-      "additions": 114,
+      "additions": 109,
       "deletions": 0
     },
     {
@@ -42,7 +47,7 @@
     },
     {
       "path": "system/microros/Make.defs",
-      "additions": 7,
+      "additions": 5,
       "deletions": 3
     },
     {
@@ -62,22 +67,22 @@
     },
     {
       "path": "system/microros/transport/microros_transport.h",
-      "additions": 76,
+      "additions": 78,
       "deletions": 0
     },
     {
       "path": "system/microros/transport/microros_transport_serial.c",
-      "additions": 206,
+      "additions": 216,
       "deletions": 0
     },
     {
       "path": "system/microros/transport/microros_transport_udp.c",
-      "additions": 145,
+      "additions": 162,
       "deletions": 0
     }
   ],
   "headRefName": "micro-ros-custom-transport",
-  "headRefOid": "4ad56434b155bed0fb22684b9eb37336a6461456",
+  "headRefOid": "dfdd36f918434e7dccb56c1ca21d09c2ef079437",
   "headRepository": {
     "id": "R_kgDORLT8CA",
     "name": "nuttx-apps",
@@ -119,6 +124,6 @@
   "number": 3512,
   "state": "OPEN",
   "title": "system/microros: Add UDP and serial custom transports with publisher example",
-  "updatedAt": "2026-05-31T03:44:23Z",
+  "updatedAt": "2026-05-31T06:46:29Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3512"
 }
