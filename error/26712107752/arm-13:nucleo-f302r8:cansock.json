@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T14:56:47",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "nucleo-f302r8",
+"config": "cansock",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26712107752/job/78724174175#step:10:3757",
+"msg": "##[error]dirent/lib_nftw.c:193:41: error: array index 1 is past the end of the array (that has type 'char[1]') [-Werror,-Warray-bounds] \n 193 |           if (de->d_name[0] == '.' && (!de->d_name[1] || \n |                                         ^          ~ \n 116 |   char     d_name[NAME_MAX + 1];  /* File name */ \n |   ^ \n ##[error]dirent/lib_nftw.c:194:16: error: array index 1 is past the end of the array (that has type 'char[1]') [-Werror,-Warray-bounds] \n 194 |               (de->d_name[1] == '.' "
+}

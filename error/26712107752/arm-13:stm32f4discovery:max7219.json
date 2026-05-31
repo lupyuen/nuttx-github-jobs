@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T15:36:43",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "stm32f4discovery",
+"config": "max7219",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26712107752/job/78724174175#step:10:4553",
+"msg": "##[error]nxglib/nxglib_setpixel_1bpp.c:853:14: error: expected ';' after expression \n 853 |   __uint128_t res128 = (__uint128_t)a * b; \n |              ^ \n |              ; \n ##[error]nxglib/nxglib_setpixel_1bpp.c:853:3: error: use of undeclared identifier '__uint128_t' \n 853 |   __uint128_t res128 = (__uint128_t)a * b; \n |   ^ \n ##[error]nxglib/nxglib_setpixel_1bpp.c:853:15: error: use of undeclared identifier 'res128' \n 853 |   __uint128_t res128 = (__uint128_t)a * b; \n |               ^ \n ##[er"
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T14:45:48",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "emw3162",
+"config": "wlan",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26712107752/job/78724174175#step:10:3446",
+"msg": "##[error]board/stm32_wlan.c:145:28: error: a function declaration without a prototype is deprecated in all versions of C [-Werror,-Wstrict-prototypes] \n 145 | int emw3162_wlan_initialize() \n |                            ^ \n |                             void \n 1 error generated. \n make[2]: *** [/github/workspace/sources/nuttx/boards/Board.mk:100: stm32_wlan.o] Error 1 \n make[2]: Target 'libboard.a' not remade because of errors. \n make[1]: *** [Makefile:196: board/libboard.a] Error 2 \n make[1]: Targe"
+}

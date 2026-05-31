@@ -1,5 +1,5 @@
 {
-  "additions": 2838,
+  "additions": 2995,
   "assignees": [],
   "author": {
     "id": "U_kgDOCg8z7A",
@@ -9,12 +9,27 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 25,
+  "changedFiles": 30,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-31T13:44:57Z",
-  "deletions": 39,
+  "deletions": 52,
   "files": [
+    {
+      "path": "Documentation/platforms/arm64/am62x/boards/beagleplay/index.rst",
+      "additions": 13,
+      "deletions": 7
+    },
+    {
+      "path": "Documentation/platforms/arm64/am62x/boards/pocketbeagle2/index.rst",
+      "additions": 13,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/platforms/arm64/am62x/index.rst",
+      "additions": 2,
+      "deletions": 0
+    },
     {
       "path": "arch/arm64/include/am62x/irq.h",
       "additions": 12,
@@ -22,7 +37,7 @@
     },
     {
       "path": "arch/arm64/src/am62x/CMakeLists.txt",
-      "additions": 6,
+      "additions": 5,
       "deletions": 1
     },
     {
@@ -96,8 +111,13 @@
       "deletions": 0
     },
     {
+      "path": "boards/arm64/am62x/beagleplay/configs/i2c/defconfig",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
       "path": "boards/arm64/am62x/beagleplay/configs/nsh/defconfig",
-      "additions": 6,
+      "additions": 2,
       "deletions": 0
     },
     {
@@ -106,8 +126,13 @@
       "deletions": 10
     },
     {
+      "path": "boards/arm64/am62x/pocketbeagle2/configs/i2c/defconfig",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
       "path": "boards/arm64/am62x/pocketbeagle2/configs/nsh/defconfig",
-      "additions": 8,
+      "additions": 2,
       "deletions": 0
     },
     {
@@ -142,7 +167,7 @@
     }
   ],
   "headRefName": "am62x-tisci-sysfw",
-  "headRefOid": "c6e9a39e91467fc923aa1069aa36c7c9027c7b49",
+  "headRefOid": "8a70d7b3e59dfb04573a242b84a7f76d79233492",
   "headRepository": {
     "id": "R_kgDOR0KCmg",
     "name": "nuttx",
@@ -156,6 +181,12 @@
   "id": "PR_kwDODZiUac7hGMsW",
   "isDraft": false,
   "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
     {
       "id": "LA_kwDODZiUac8AAAABsqO1YA",
       "name": "Arch: arm64",
@@ -184,6 +215,6 @@
   "number": 19005,
   "state": "OPEN",
   "title": "arm64/am62x: Add TISCI system controller client, GPIO and I2C drivers",
-  "updatedAt": "2026-05-31T14:08:19Z",
+  "updatedAt": "2026-05-31T16:34:07Z",
   "url": "https://github.com/apache/nuttx/pull/19005"
 }

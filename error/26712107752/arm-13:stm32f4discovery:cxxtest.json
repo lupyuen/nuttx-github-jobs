@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T15:52:10",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "stm32f4discovery",
+"config": "cxxtest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26712107752/job/78724174175#step:10:5955",
+"msg": "ld.lld: error: undefined symbol: operator new(unsigned int) \n >>> referenced by cxxtest_main.cxx \n >>>               cxxtest_main.cxx.github.workspace.sources.apps.testing.cxx.cxxtest_1.o:(cxxtest_main) in archive /github/workspace/sources/nuttx/staging/libapps.a \n >>> referenced by cxxtest_main.cxx \n >>>               cxxtest_main.cxx.github.workspace.sources.apps.testing.cxx.cxxtest_1.o:(std::vector<int, std::allocator<int>>::vector(std::vector<int, std::allocator<int>> const&)) in archive /github/wor"
+}
