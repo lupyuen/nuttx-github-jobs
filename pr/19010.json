@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-01T16:09:23Z",
   "createdAt": "2026-06-01T12:20:07Z",
   "deletions": 0,
   "files": [
@@ -63,15 +63,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d955fbc8f384f2ae42bd375b7a75bd3a36f2ffc9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-01T16:09:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19010,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/risc-v/espressif: Fix crypto hash tests for esp32[-c3|-c6|-h2|…",
-  "updatedAt": "2026-06-01T14:19:38Z",
+  "updatedAt": "2026-06-01T16:09:23Z",
   "url": "https://github.com/apache/nuttx/pull/19010"
 }
