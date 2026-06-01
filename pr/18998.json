@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-01T13:39:53Z",
   "createdAt": "2026-05-30T15:12:26Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1736afa145f3a56953e170b36b6554996bdebf47"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-01T13:39:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
   "milestone": null,
   "number": 18998,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/nrf91: Fix OOB read/write in nrf91_usrsock_ioctl_handler",
-  "updatedAt": "2026-05-31T09:45:47Z",
+  "updatedAt": "2026-06-01T13:42:38Z",
   "url": "https://github.com/apache/nuttx/pull/18998"
 }
