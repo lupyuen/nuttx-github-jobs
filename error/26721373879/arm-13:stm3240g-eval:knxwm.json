@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T22:13:51",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "stm3240g-eval",
+"config": "knxwm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26721373879/job/78749093524#step:10:4055",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/nuttx section `.bss' will not fit in region `ksram' \n arm-none-eabi-ld: region `ksram' overflowed by 664 bytes \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:559: nuttx] Error 2 \n make: Target 'all' not remade because of errors."
+}

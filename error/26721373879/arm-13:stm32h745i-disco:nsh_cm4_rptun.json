@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-01T01:22:15",
+"arch": "arm",
+"subarch": "stm32h7",
+"group": "arm-13",
+"board": "stm32h745i-disco",
+"config": "nsh_cm4_rptun",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26721373879/job/78749093524#step:10:8359",
+"msg": "chip/stm32_start.c: In function '__start': \n ##[error]chip/stm32_start.c:198:3: error: implicit declaration of function 'stm32_waitfor_cm7' [-Werror=implicit-function-declaration] \n 198 |   stm32_waitfor_cm7(); \n |   ^~~~~~~~~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:179: stm32_start.o] Error 1 \n make[1]: Target 'libarch.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:170: arch/arm/src/libarch.a] Error 2 \n make: Target 'all' not remade because of"
+}

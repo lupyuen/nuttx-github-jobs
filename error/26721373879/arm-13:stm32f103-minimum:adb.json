@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T21:29:04",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "stm32f103-minimum",
+"config": "adb",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26721373879/job/78749093524#step:10:3178",
+"msg": "##[error]libuv/src/uv-common.c:808:16: error: passing an object that undergoes default argument promotion to 'va_start' has undefined behavior [-Werror,-Wvarargs] \n 808 |   va_start(ap, option); \n |                ^ \n libuv/src/uv-common.c:804:55: note: parameter of type 'uv_loop_option' is declared here \n 804 | int uv_loop_configure(uv_loop_t* loop, uv_loop_option option, ...) { \n |                                                       ^ \n 1 error generated. \n make[2]: *** [/github/workspace/sources"
+}

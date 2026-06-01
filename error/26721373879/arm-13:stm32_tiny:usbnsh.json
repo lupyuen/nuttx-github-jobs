@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T21:15:04",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "stm32_tiny",
+"config": "usbnsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26721373879/job/78749093524#step:10:1841",
+"msg": "##[error]board/stm32_boot.c:107:7: error: unused variable 'ret' [-Werror,-Wunused-variable] \n 107 |   int ret = OK; \n |       ^~~ \n 1 error generated. \n make[2]: *** [/github/workspace/sources/nuttx/boards/Board.mk:100: stm32_boot.o] Error 1 \n make[2]: Target 'libboard.a' not remade because of errors. \n make[1]: *** [Makefile:196: board/libboard.a] Error 2 \n make[1]: Target 'nuttx' not remade because of errors. \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because o"
+}

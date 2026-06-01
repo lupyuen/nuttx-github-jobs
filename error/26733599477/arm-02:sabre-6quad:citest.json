@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-01T03:42:10",
+"arch": "arm",
+"subarch": "imx6",
+"group": "arm-02",
+"board": "sabre-6quad",
+"config": "citest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/26733599477/job/78782538613#step:10:574",
+"msg": "popen.c: In function 'popen': \n ##[error]popen.c:136:8: error: implicit declaration of function 'dpopen'; did you mean 'popen'? [-Werror=implicit-function-declaration] \n 136 |   fd = dpopen(command, oflag, &container->shell); \n |        ^~~~~~ \n |        popen \n ##[error]popen.c:149:7: error: implicit declaration of function 'dpclose'; did you mean 'pclose'? [-Werror=implicit-function-declaration] \n 149 |       dpclose(fd, container->shell); \n |       ^~~~~~~ \n |       pclose \n cc1: all warnings be"
+}

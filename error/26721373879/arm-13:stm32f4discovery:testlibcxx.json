@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-05-31T23:03:29",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-13",
+"board": "stm32f4discovery",
+"config": "testlibcxx",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26721373879/job/78749093524#step:10:5832",
+"msg": "ld.lld: error: undefined symbol: operator new(unsigned int) \n >>> referenced by helloxx_main.cxx \n >>>               helloxx_main.cxx.github.workspace.sources.apps.examples.helloxx_1.o:(helloxx_main) in archive /github/workspace/sources/nuttx/staging/libapps.a \n ld.lld: error: undefined symbol: operator delete(void*) \n >>> referenced by helloxx_main.cxx \n >>>               helloxx_main.cxx.github.workspace.sources.apps.examples.helloxx_1.o:(helloxx_main) in archive /github/workspace/sources/nuttx/stagi"
+}
