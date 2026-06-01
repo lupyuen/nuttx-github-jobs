@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-01T10:20:19Z",
   "createdAt": "2026-06-01T03:30:05Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f106e07f00f0906d50852fd686519fa662f93e4e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-01T10:20:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19008,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "include/unistd: add dpopen/dpclose declarations",
-  "updatedAt": "2026-06-01T07:57:20Z",
+  "updatedAt": "2026-06-01T10:20:19Z",
   "url": "https://github.com/apache/nuttx/pull/19008"
 }
