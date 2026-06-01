@@ -1,0 +1,108 @@
+{
+  "additions": 826,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBq4kmg",
+    "is_bot": false,
+    "login": "cuiziweizw",
+    "name": "czw"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-01T03:30:20Z",
+  "deletions": 267,
+  "files": [
+    {
+      "path": "system/popen/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/popen/Kconfig",
+      "additions": 34,
+      "deletions": 6
+    },
+    {
+      "path": "system/popen/Makefile",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "system/popen/dpopen.c",
+      "additions": 374,
+      "deletions": 0
+    },
+    {
+      "path": "system/popen/popen.c",
+      "additions": 40,
+      "deletions": 258
+    },
+    {
+      "path": "testing/libc/popen/CMakeLists.txt",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "testing/libc/popen/Kconfig",
+      "additions": 16,
+      "deletions": 0
+    },
+    {
+      "path": "testing/libc/popen/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "testing/libc/popen/Makefile",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "testing/libc/popen/popen_test.c",
+      "additions": 269,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "dpopen",
+  "headRefOid": "4ed23ca13df6c4766d1308769313a89a19fe1b3a",
+  "headRepository": {
+    "id": "R_kgDOM-pNIQ",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBq4kmg",
+    "name": "czw",
+    "login": "cuiziweizw"
+  },
+  "id": "PR_kwDODZiT487hNWGg",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3515,
+  "state": "OPEN",
+  "title": "system/popen: add dpopen/dpclose fd-based interface and no-shell mode",
+  "updatedAt": "2026-06-01T03:35:22Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3515"
+}
