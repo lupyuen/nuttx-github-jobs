@@ -1,5 +1,5 @@
 {
-  "additions": 20,
+  "additions": 45,
   "assignees": [],
   "author": {
     "id": "U_kgDOEKvreg",
@@ -12,17 +12,17 @@
   "changedFiles": 1,
   "closed": false,
   "closedAt": null,
-  "createdAt": "2026-05-30T15:51:17Z",
+  "createdAt": "2026-06-01T13:50:17Z",
   "deletions": 2,
   "files": [
     {
-      "path": "arch/sim/src/sim/sim_usrsock.c",
-      "additions": 20,
+      "path": "net/tcp/tcp_input.c",
+      "additions": 45,
       "deletions": 2
     }
   ],
-  "headRefName": "fix/sim-usrsock-ioctl-oob",
-  "headRefOid": "b8b6b8b498f47d92345456291bc08d96089c335b",
+  "headRefName": "fix/tcp-rto-reset",
+  "headRefOid": "fe04be52eb75ae9f4a972c4999243b1b10de3f83",
   "headRepository": {
     "id": "R_kgDOSiiDmQ",
     "name": "nuttx",
@@ -32,14 +32,14 @@
     "id": "U_kgDOEKvreg",
     "login": "Zepp-Hanzj"
   },
-  "id": "PR_kwDODZiUac7g9zU5",
+  "id": "PR_kwDODZiUac7hYzj-",
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqQq0A",
-      "name": "Arch: simulator",
-      "description": "Issues related to the SIMulator",
-      "color": "DC5544"
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
     },
     {
       "id": "LA_kwDODZiUac8AAAABvj_XyQ",
@@ -54,9 +54,9 @@
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
-  "number": 19000,
+  "number": 19011,
   "state": "OPEN",
-  "title": "arch/sim: Fix OOB read/write in usrsock_ioctl_handler",
-  "updatedAt": "2026-06-01T14:05:52Z",
-  "url": "https://github.com/apache/nuttx/pull/19000"
+  "title": "net/tcp: Reset RTO after retransmissions per Karn's Algorithm",
+  "updatedAt": "2026-06-01T13:51:11Z",
+  "url": "https://github.com/apache/nuttx/pull/19011"
 }
