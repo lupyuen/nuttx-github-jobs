@@ -1,5 +1,5 @@
 {
-  "additions": 787,
+  "additions": 828,
   "assignees": [],
   "author": {
     "id": "U_kgDOCZ0p9w",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 13,
+  "changedFiles": 14,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-30T17:44:42Z",
-  "deletions": 5,
+  "deletions": 6,
   "files": [
     {
       "path": "examples/microros_pub/CMakeLists.txt",
@@ -27,7 +27,7 @@
     },
     {
       "path": "examples/microros_pub/Make.defs",
-      "additions": 27,
+      "additions": 25,
       "deletions": 0
     },
     {
@@ -41,8 +41,13 @@
       "deletions": 0
     },
     {
+      "path": "include/system/microros_transport.h",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
       "path": "system/microros/CMakeLists.txt",
-      "additions": 19,
+      "additions": 20,
       "deletions": 0
     },
     {
@@ -52,8 +57,8 @@
     },
     {
       "path": "system/microros/Makefile",
-      "additions": 12,
-      "deletions": 0
+      "additions": 13,
+      "deletions": 1
     },
     {
       "path": "system/microros/micro_ros_lib/toolchain.cmake.in",
@@ -62,12 +67,12 @@
     },
     {
       "path": "system/microros/transport/microros_transport.c",
-      "additions": 60,
+      "additions": 62,
       "deletions": 0
     },
     {
       "path": "system/microros/transport/microros_transport.h",
-      "additions": 78,
+      "additions": 67,
       "deletions": 0
     },
     {
@@ -82,7 +87,7 @@
     }
   ],
   "headRefName": "micro-ros-custom-transport",
-  "headRefOid": "dfdd36f918434e7dccb56c1ca21d09c2ef079437",
+  "headRefOid": "cebf027d2b2485fdd178033e94aa7c4f985f3de0",
   "headRepository": {
     "id": "R_kgDORLT8CA",
     "name": "nuttx-apps",
@@ -124,6 +129,6 @@
   "number": 3512,
   "state": "OPEN",
   "title": "system/microros: Add UDP and serial custom transports with publisher example",
-  "updatedAt": "2026-06-01T02:48:03Z",
+  "updatedAt": "2026-06-01T05:37:03Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3512"
 }
