@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 23,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-01T16:08:51Z",
   "createdAt": "2026-06-01T11:56:07Z",
   "deletions": 14,
   "files": [
@@ -170,15 +170,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9ef787f9de3aa7f42fd8bcfb5f033a29c49aed56"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-01T16:08:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19009,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v/espressif: Add BLE support for esp32[-c6|-h2]",
-  "updatedAt": "2026-06-01T14:18:06Z",
+  "updatedAt": "2026-06-01T16:08:51Z",
   "url": "https://github.com/apache/nuttx/pull/19009"
 }

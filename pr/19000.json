@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-01T16:08:23Z",
   "createdAt": "2026-05-30T15:51:17Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "94fa220650d98e32d873e84dac9495dcf6a87814"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-01T16:08:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19000,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/sim: Fix OOB read/write in usrsock_ioctl_handler",
-  "updatedAt": "2026-06-01T14:26:17Z",
+  "updatedAt": "2026-06-01T16:08:23Z",
   "url": "https://github.com/apache/nuttx/pull/19000"
 }
