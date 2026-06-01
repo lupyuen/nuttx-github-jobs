@@ -1,5 +1,5 @@
 {
-  "additions": 2998,
+  "additions": 3133,
   "assignees": [],
   "author": {
     "id": "U_kgDOCg8z7A",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 30,
+  "changedFiles": 32,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-31T13:44:57Z",
@@ -52,22 +52,22 @@
     },
     {
       "path": "arch/arm64/src/am62x/am62x_gpio.c",
-      "additions": 357,
+      "additions": 372,
       "deletions": 0
     },
     {
       "path": "arch/arm64/src/am62x/am62x_gpio.h",
-      "additions": 83,
+      "additions": 98,
       "deletions": 0
     },
     {
       "path": "arch/arm64/src/am62x/am62x_i2c.c",
-      "additions": 668,
+      "additions": 683,
       "deletions": 0
     },
     {
       "path": "arch/arm64/src/am62x/am62x_i2c.h",
-      "additions": 25,
+      "additions": 40,
       "deletions": 0
     },
     {
@@ -82,12 +82,12 @@
     },
     {
       "path": "arch/arm64/src/am62x/hardware/am62x_gpio.h",
-      "additions": 64,
+      "additions": 79,
       "deletions": 0
     },
     {
       "path": "arch/arm64/src/am62x/hardware/am62x_i2c.h",
-      "additions": 86,
+      "additions": 101,
       "deletions": 0
     },
     {
@@ -118,6 +118,16 @@
     {
       "path": "boards/arm64/am62x/beagleplay/configs/nsh/defconfig",
       "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/include/board_memorymap.h",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/am62x/beagleplay/scripts/dramboot.ld",
+      "additions": 15,
       "deletions": 0
     },
     {
@@ -162,12 +172,12 @@
     },
     {
       "path": "boards/arm64/am62x/pocketbeagle2/src/pocketbeagle2_gpio.c",
-      "additions": 146,
+      "additions": 161,
       "deletions": 0
     }
   ],
   "headRefName": "am62x-tisci-sysfw",
-  "headRefOid": "4405c2437d5eb8194ce9e692fad341cadf38f9ee",
+  "headRefOid": "02a9d69a29adbe55e18bb1f6a8f929ecac298e56",
   "headRepository": {
     "id": "R_kgDOR0KCmg",
     "name": "nuttx",
@@ -215,6 +225,6 @@
   "number": 19005,
   "state": "OPEN",
   "title": "arm64/am62x: Add TISCI system controller client, GPIO and I2C drivers",
-  "updatedAt": "2026-06-01T07:59:58Z",
+  "updatedAt": "2026-06-01T09:57:17Z",
   "url": "https://github.com/apache/nuttx/pull/19005"
 }
