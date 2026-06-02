@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T11:06:58Z",
   "createdAt": "2026-05-29T03:44:22Z",
   "deletions": 79,
   "files": [
@@ -63,15 +63,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9796690b7b056fb0b3bc341e94681ff67dbce5f0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T11:06:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 3510,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps/cmake: Fix aarch64 NuttX Rust target specs",
-  "updatedAt": "2026-06-02T11:04:19Z",
+  "updatedAt": "2026-06-02T11:06:59Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3510"
 }
