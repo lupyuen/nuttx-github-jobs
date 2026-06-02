@@ -1,0 +1,72 @@
+{
+  "additions": 3,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBbMFWA",
+    "is_bot": false,
+    "login": "eren-terzioglu",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-02T10:32:18Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32/esp32-devkitc/configs/crypto/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s2/esp32s2-saola-1/configs/crypto/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/crypto/defconfig",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bugfix/esp_xtensa_crypto",
+  "headRefOid": "c4054500d71245f84fb1bf549514d7043743d8e0",
+  "headRepository": {
+    "id": "R_kgDOKIOv9A",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBbMFWA",
+    "login": "eren-terzioglu"
+  },
+  "id": "PR_kwDODZiUac7hvt04",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19019,
+  "state": "OPEN",
+  "title": "boards/xtensa/espressif: Fix crypto hash tests for esp32[-|-s2|-s3]",
+  "updatedAt": "2026-06-02T10:32:52Z",
+  "url": "https://github.com/apache/nuttx/pull/19019"
+}
