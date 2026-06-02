@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T15:34:26Z",
   "createdAt": "2026-06-02T07:44:05Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7e67d2d906d82da4621c3f3f6674e87c05c78399"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T15:34:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19016,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "libs/libc/dirent: preserve errno on readdir() end-of-directory",
-  "updatedAt": "2026-06-02T13:10:10Z",
+  "updatedAt": "2026-06-02T15:34:26Z",
   "url": "https://github.com/apache/nuttx/pull/19016"
 }

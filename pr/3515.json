@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 10,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T15:35:28Z",
   "createdAt": "2026-06-01T03:30:20Z",
   "deletions": 267,
   "files": [
@@ -94,15 +94,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "97802bd9e0ae57ec18a74e777a58f2eb143c4aa7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T15:35:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3515,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/popen: add dpopen/dpclose fd-based interface and no-shell mode",
-  "updatedAt": "2026-06-02T13:24:58Z",
+  "updatedAt": "2026-06-02T15:35:29Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3515"
 }
