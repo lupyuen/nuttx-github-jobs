@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T18:14:39Z",
   "createdAt": "2026-06-02T10:57:09Z",
   "deletions": 2,
   "files": [
@@ -53,15 +53,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fc69782f512bed33d0bad7b92bf66da550b8af61"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T18:14:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19020,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/mmcsd: Remove eMMC partitions when !CONFIG_MMCSD_MMCSUPPORT",
-  "updatedAt": "2026-06-02T14:27:26Z",
+  "updatedAt": "2026-06-02T18:14:39Z",
   "url": "https://github.com/apache/nuttx/pull/19020"
 }
