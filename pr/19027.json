@@ -1,0 +1,83 @@
+{
+  "additions": 25,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEKvreg",
+    "is_bot": false,
+    "login": "Zepp-Hanzj",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-02T23:29:54Z",
+  "deletions": 8,
+  "files": [
+    {
+      "path": "Documentation/guides/changing_systemclockconfig.rst",
+      "additions": 1,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/arm/index.rst",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/index.rst",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/sim_usrsock.c",
+      "additions": 20,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix/doc-toctree-warnings",
+  "headRefOid": "e9f60e09417132e3eb65aa24ce26cb7a7129f958",
+  "headRepository": {
+    "id": "R_kgDOSiiDmQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEKvreg",
+    "login": "Zepp-Hanzj"
+  },
+  "id": "PR_kwDODZiUac7iAYUk",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19027,
+  "state": "OPEN",
+  "title": "docs: Fix duplicate toctree references causing build warnings",
+  "updatedAt": "2026-06-02T23:30:15Z",
+  "url": "https://github.com/apache/nuttx/pull/19027"
+}

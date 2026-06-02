@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T23:25:26Z",
   "createdAt": "2026-06-02T16:58:55Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "895213058b410df8324908be0b9fadeeaf8697df"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T23:25:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19025,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "workflows/build.yml: Fix Skipping sim\\windows in the MSVC job",
-  "updatedAt": "2026-06-02T18:40:51Z",
+  "updatedAt": "2026-06-02T23:25:26Z",
   "url": "https://github.com/apache/nuttx/pull/19025"
 }
