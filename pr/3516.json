@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T13:15:03Z",
   "createdAt": "2026-06-02T10:45:43Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3a255d5463b2611ef4aeeb67175f3e078ef273d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T13:15:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 3516,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing/drivers/crypto: Fix typo on hash test",
-  "updatedAt": "2026-06-02T12:12:55Z",
+  "updatedAt": "2026-06-02T13:15:04Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3516"
 }

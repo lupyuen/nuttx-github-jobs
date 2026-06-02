@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T13:14:35Z",
   "createdAt": "2026-06-02T10:32:18Z",
   "deletions": 0,
   "files": [
@@ -58,15 +58,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "78ab935db8997972c7920b260e83b692b3269218"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T13:14:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 19019,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/xtensa/espressif: Fix crypto hash tests for esp32[-|-s2|-s3]",
-  "updatedAt": "2026-06-02T12:38:12Z",
+  "updatedAt": "2026-06-02T13:14:35Z",
   "url": "https://github.com/apache/nuttx/pull/19019"
 }
