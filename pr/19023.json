@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T15:15:18Z",
   "createdAt": "2026-06-02T12:08:31Z",
   "deletions": 4,
   "files": [
@@ -63,15 +63,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e15672f7a4218e04c386df6650fdfa7f5f09ffa1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T15:15:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19023,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/stm32/nucleo: Fix BBSRAM compilation",
-  "updatedAt": "2026-06-02T13:12:45Z",
+  "updatedAt": "2026-06-02T15:15:18Z",
   "url": "https://github.com/apache/nuttx/pull/19023"
 }
