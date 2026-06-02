@@ -1,5 +1,5 @@
 {
-  "additions": 350,
+  "additions": 406,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjc0MDgw",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 18,
+  "changedFiles": 19,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-02T20:58:40Z",
@@ -104,10 +104,15 @@
       "path": "arch/risc-v/src/rp23xx-rv/rp23xx_usbdev.c",
       "additions": 246,
       "deletions": 107
+    },
+    {
+      "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/configs/usbnsh-smp/defconfig",
+      "additions": 56,
+      "deletions": 0
     }
   ],
   "headRefName": "rp2350-rv-smp",
-  "headRefOid": "afc52390051c35b29556bd71e75abecec79a78e2",
+  "headRefOid": "f862a886e3b7aa5d2bba7232ec1188b66cb95b35",
   "headRepository": {
     "id": "R_kgDOOZyxlA",
     "name": "nuttx",
@@ -120,7 +125,26 @@
   },
   "id": "PR_kwDODZiUac7h95b0",
   "isDraft": true,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -130,6 +154,6 @@
   "number": 19026,
   "state": "OPEN",
   "title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-  "updatedAt": "2026-06-02T21:06:53Z",
+  "updatedAt": "2026-06-02T21:31:09Z",
   "url": "https://github.com/apache/nuttx/pull/19026"
 }
