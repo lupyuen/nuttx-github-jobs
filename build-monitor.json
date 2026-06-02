@@ -1,5 +1,117 @@
 [
   {
+    "build_arch": "xtensa",
+    "build_board": "esp32s3-devkit",
+    "build_config": "adb",
+    "build_group": "xtensa-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32s3",
+    "build_timestamp": "2026-06-02T06:46:17",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/26797948858/job/78998461968#step:10:1619",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-02T04:13:26Z",
+    "job_databaseId": 26797948858,
+    "job_displayTitle": "Fix/uart tcdrain bugs",
+    "job_event": "pull_request",
+    "job_headBranch": "fix/uart-tcdrain-bugs",
+    "job_headSha": "a4df04e7358c64b44e9d1c9af5296a65e900e0dc",
+    "job_name": "Build",
+    "job_number": 55007,
+    "job_run_duration_ms": "13842000",
+    "job_startedAt": "2026-06-02T04:13:26Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-02T08:04:08Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/26797948858",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 30,
+    "pr_assignees": [],
+    "pr_author": "LingaoM",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-02T04:13:20Z",
+    "pr_deletions": 14,
+    "pr_headRefName": "fix/uart-tcdrain-bugs",
+    "pr_headRefOid": "a4df04e7358c64b44e9d1c9af5296a65e900e0dc",
+    "pr_headRepository": "incubator-nuttx",
+    "pr_headRepositoryOwner": "LingaoM",
+    "pr_id": "PR_kwDODZiUac7hoTyM",
+    "pr_isDraft": false,
+    "pr_labels": "Area: Drivers, Size: S",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19014,
+    "pr_state": "OPEN",
+    "pr_title": "Fix/uart tcdrain bugs",
+    "pr_updatedAt": "2026-06-02T05:55:13Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19014"
+  },
+  {
+    "build_arch": "risc-v",
+    "build_board": "esp32p4-function-ev-board",
+    "build_config": "ulp",
+    "build_group": "risc-v-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32p4",
+    "build_timestamp": "2026-06-02T06:32:41",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/26797948858/job/78998461959#step:10:1475",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-02T04:13:26Z",
+    "job_databaseId": 26797948858,
+    "job_displayTitle": "Fix/uart tcdrain bugs",
+    "job_event": "pull_request",
+    "job_headBranch": "fix/uart-tcdrain-bugs",
+    "job_headSha": "a4df04e7358c64b44e9d1c9af5296a65e900e0dc",
+    "job_name": "Build",
+    "job_number": 55007,
+    "job_run_duration_ms": "13842000",
+    "job_startedAt": "2026-06-02T04:13:26Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-02T08:04:08Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/26797948858",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 30,
+    "pr_assignees": [],
+    "pr_author": "LingaoM",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-02T04:13:20Z",
+    "pr_deletions": 14,
+    "pr_headRefName": "fix/uart-tcdrain-bugs",
+    "pr_headRefOid": "a4df04e7358c64b44e9d1c9af5296a65e900e0dc",
+    "pr_headRepository": "incubator-nuttx",
+    "pr_headRepositoryOwner": "LingaoM",
+    "pr_id": "PR_kwDODZiUac7hoTyM",
+    "pr_isDraft": false,
+    "pr_labels": "Area: Drivers, Size: S",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19014,
+    "pr_state": "OPEN",
+    "pr_title": "Fix/uart tcdrain bugs",
+    "pr_updatedAt": "2026-06-02T05:55:13Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19014"
+  },
+  {
     "build_arch": "arm",
     "build_board": "nucleo-f446re",
     "build_config": "systemview",
@@ -110,6 +222,62 @@
     "pr_title": "system/popen: add dpopen/dpclose fd-based interface and no-shell mode",
     "pr_updatedAt": "2026-06-02T06:59:00Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3515"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "citest",
+    "build_group": "sim-01",
+    "build_msg": "Dlo \n ad  Upload   Total   Spent    Left  Speed",
+    "build_score": 0.8,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-06-02T04:24:56",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/26797948858/job/78998461930#step:10:355",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-02T04:13:26Z",
+    "job_databaseId": 26797948858,
+    "job_displayTitle": "Fix/uart tcdrain bugs",
+    "job_event": "pull_request",
+    "job_headBranch": "fix/uart-tcdrain-bugs",
+    "job_headSha": "a4df04e7358c64b44e9d1c9af5296a65e900e0dc",
+    "job_name": "Build",
+    "job_number": 55007,
+    "job_run_duration_ms": "13842000",
+    "job_startedAt": "2026-06-02T04:13:26Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-02T08:04:08Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/26797948858",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 30,
+    "pr_assignees": [],
+    "pr_author": "LingaoM",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-02T04:13:20Z",
+    "pr_deletions": 14,
+    "pr_headRefName": "fix/uart-tcdrain-bugs",
+    "pr_headRefOid": "a4df04e7358c64b44e9d1c9af5296a65e900e0dc",
+    "pr_headRepository": "incubator-nuttx",
+    "pr_headRepositoryOwner": "LingaoM",
+    "pr_id": "PR_kwDODZiUac7hoTyM",
+    "pr_isDraft": false,
+    "pr_labels": "Area: Drivers, Size: S",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19014,
+    "pr_state": "OPEN",
+    "pr_title": "Fix/uart tcdrain bugs",
+    "pr_updatedAt": "2026-06-02T05:55:13Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19014"
   },
   {
     "build_arch": "xtensa",
@@ -500,7 +668,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -556,7 +724,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1004,7 +1172,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1060,7 +1228,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1116,7 +1284,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1228,7 +1396,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1900,7 +2068,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1956,7 +2124,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2012,7 +2180,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2068,7 +2236,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2124,7 +2292,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2180,7 +2348,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2236,7 +2404,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2292,7 +2460,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2348,7 +2516,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2404,7 +2572,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2460,7 +2628,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2516,7 +2684,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2572,7 +2740,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2628,7 +2796,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2684,7 +2852,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2740,7 +2908,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2796,7 +2964,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2852,7 +3020,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -2908,7 +3076,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3076,7 +3244,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3132,7 +3300,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3412,7 +3580,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3524,7 +3692,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3580,7 +3748,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3636,7 +3804,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3692,7 +3860,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3804,7 +3972,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3860,7 +4028,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3916,7 +4084,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -3972,7 +4140,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4028,7 +4196,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4084,7 +4252,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4140,7 +4308,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4196,7 +4364,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4252,7 +4420,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4364,7 +4532,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4420,7 +4588,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4476,7 +4644,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4532,7 +4700,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4588,7 +4756,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-02T07:31:25Z",
+    "pr_updatedAt": "2026-06-02T08:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81368,118 +81536,6 @@
   },
   {
     "build_arch": "xtensa",
-    "build_board": "esp32s3-devkit",
-    "build_config": "cxx",
-    "build_group": "xtensa-03",
-    "build_msg": "Killing pytest after timeout...",
-    "build_score": 0.8,
-    "build_subarch": "esp32s3",
-    "build_timestamp": "2026-05-05T10:40:09",
-    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/25365278456/job/74374717012#step:10:1650",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-05T08:13:23Z",
-    "job_databaseId": 25365278456,
-    "job_displayTitle": "apps/examples: Add path option to SPI Slave test",
-    "job_event": "pull_request",
-    "job_headBranch": "feature/add_spislv_path_option",
-    "job_headSha": "6965243509a9a791784ed28320a78461d1dcd581",
-    "job_name": "Build",
-    "job_number": 9488,
-    "job_run_duration_ms": "13235000",
-    "job_startedAt": "2026-05-05T08:13:23Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-05T11:53:58Z",
-    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/25365278456",
-    "job_workflowDatabaseId": 908566,
-    "job_workflowName": "Build",
-    "pr_additions": 56,
-    "pr_assignees": [],
-    "pr_author": "eren-terzioglu",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 2,
-    "pr_closed": true,
-    "pr_closedAt": "2026-05-19T10:02:31Z",
-    "pr_createdAt": "2026-04-30T16:51:22Z",
-    "pr_deletions": 34,
-    "pr_headRefName": "feature/add_spislv_path_option",
-    "pr_headRefOid": "6965243509a9a791784ed28320a78461d1dcd581",
-    "pr_headRepository": "nuttx-apps",
-    "pr_headRepositoryOwner": "eren-terzioglu",
-    "pr_id": "PR_kwDODZiT487XMGRI",
-    "pr_isDraft": false,
-    "pr_labels": "Size: S, Area: Examples",
-    "pr_mergeCommit": "173e19cde118546c5d3180e1a4b5c3c53a765142",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-05-19T10:02:31Z",
-    "pr_mergedBy": "acassis",
-    "pr_milestone": null,
-    "pr_number": 3467,
-    "pr_state": "MERGED",
-    "pr_title": "apps/examples: Add path option to SPI Slave test",
-    "pr_updatedAt": "2026-05-19T10:02:32Z",
-    "pr_url": "https://github.com/apache/nuttx-apps/pull/3467"
-  },
-  {
-    "build_arch": "arm",
-    "build_board": "stm32f103-minimum",
-    "build_config": "adb",
-    "build_group": "arm-11",
-    "build_msg": "DDllooaad d  U pUlopaldo a d  T o tTaolt a l  S p Sepnetn t      L eLfetf t  S pSepeede \n d",
-    "build_score": 0.8,
-    "build_subarch": "stm32",
-    "build_timestamp": "2026-05-05T09:58:38",
-    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/25365278456/job/74374717693#step:10:433",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-05T08:13:23Z",
-    "job_databaseId": 25365278456,
-    "job_displayTitle": "apps/examples: Add path option to SPI Slave test",
-    "job_event": "pull_request",
-    "job_headBranch": "feature/add_spislv_path_option",
-    "job_headSha": "6965243509a9a791784ed28320a78461d1dcd581",
-    "job_name": "Build",
-    "job_number": 9488,
-    "job_run_duration_ms": "13235000",
-    "job_startedAt": "2026-05-05T08:13:23Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-05T11:53:58Z",
-    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/25365278456",
-    "job_workflowDatabaseId": 908566,
-    "job_workflowName": "Build",
-    "pr_additions": 56,
-    "pr_assignees": [],
-    "pr_author": "eren-terzioglu",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 2,
-    "pr_closed": true,
-    "pr_closedAt": "2026-05-19T10:02:31Z",
-    "pr_createdAt": "2026-04-30T16:51:22Z",
-    "pr_deletions": 34,
-    "pr_headRefName": "feature/add_spislv_path_option",
-    "pr_headRefOid": "6965243509a9a791784ed28320a78461d1dcd581",
-    "pr_headRepository": "nuttx-apps",
-    "pr_headRepositoryOwner": "eren-terzioglu",
-    "pr_id": "PR_kwDODZiT487XMGRI",
-    "pr_isDraft": false,
-    "pr_labels": "Size: S, Area: Examples",
-    "pr_mergeCommit": "173e19cde118546c5d3180e1a4b5c3c53a765142",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-05-19T10:02:31Z",
-    "pr_mergedBy": "acassis",
-    "pr_milestone": null,
-    "pr_number": 3467,
-    "pr_state": "MERGED",
-    "pr_title": "apps/examples: Add path option to SPI Slave test",
-    "pr_updatedAt": "2026-05-19T10:02:32Z",
-    "pr_url": "https://github.com/apache/nuttx-apps/pull/3467"
-  },
-  {
-    "build_arch": "xtensa",
     "build_board": "esp32-lyrat",
     "build_config": "audio",
     "build_group": "xtensa-01",
@@ -81533,61 +81589,5 @@
     "pr_title": "net/netdev/netdev_txnotify.c: add debug log with interface name",
     "pr_updatedAt": "2026-05-05T17:16:41Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18851"
-  },
-  {
-    "build_arch": "risc-v",
-    "build_board": "esp32c3-devkit",
-    "build_config": "mcuboot_update_agent",
-    "build_group": "risc-v-02",
-    "build_msg": "1",
-    "build_score": 0.8,
-    "build_subarch": "esp32c3",
-    "build_timestamp": "2026-05-05T08:40:13",
-    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/25365278456/job/74374717168#step:10:434",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-05T08:13:23Z",
-    "job_databaseId": 25365278456,
-    "job_displayTitle": "apps/examples: Add path option to SPI Slave test",
-    "job_event": "pull_request",
-    "job_headBranch": "feature/add_spislv_path_option",
-    "job_headSha": "6965243509a9a791784ed28320a78461d1dcd581",
-    "job_name": "Build",
-    "job_number": 9488,
-    "job_run_duration_ms": "13235000",
-    "job_startedAt": "2026-05-05T08:13:23Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-05T11:53:58Z",
-    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/25365278456",
-    "job_workflowDatabaseId": 908566,
-    "job_workflowName": "Build",
-    "pr_additions": 56,
-    "pr_assignees": [],
-    "pr_author": "eren-terzioglu",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 2,
-    "pr_closed": true,
-    "pr_closedAt": "2026-05-19T10:02:31Z",
-    "pr_createdAt": "2026-04-30T16:51:22Z",
-    "pr_deletions": 34,
-    "pr_headRefName": "feature/add_spislv_path_option",
-    "pr_headRefOid": "6965243509a9a791784ed28320a78461d1dcd581",
-    "pr_headRepository": "nuttx-apps",
-    "pr_headRepositoryOwner": "eren-terzioglu",
-    "pr_id": "PR_kwDODZiT487XMGRI",
-    "pr_isDraft": false,
-    "pr_labels": "Size: S, Area: Examples",
-    "pr_mergeCommit": "173e19cde118546c5d3180e1a4b5c3c53a765142",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-05-19T10:02:31Z",
-    "pr_mergedBy": "acassis",
-    "pr_milestone": null,
-    "pr_number": 3467,
-    "pr_state": "MERGED",
-    "pr_title": "apps/examples: Add path option to SPI Slave test",
-    "pr_updatedAt": "2026-05-19T10:02:32Z",
-    "pr_url": "https://github.com/apache/nuttx-apps/pull/3467"
   }
 ]
