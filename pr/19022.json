@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-02T12:23:42Z",
   "createdAt": "2026-06-02T11:35:54Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bc832b4152c2fcd5db17d69961933acbea74e1e5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-02T12:23:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19022,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation/applications/audioutils/mml_parser/index.rst: fix typo",
-  "updatedAt": "2026-06-02T12:10:48Z",
+  "updatedAt": "2026-06-02T12:23:42Z",
   "url": "https://github.com/apache/nuttx/pull/19022"
 }
