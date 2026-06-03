@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-03T07:02:23Z",
   "createdAt": "2026-06-02T23:29:54Z",
   "deletions": 6,
   "files": [
@@ -63,15 +63,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0916a887160d5e839173da16abee39d9038bff4e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-03T07:02:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19027,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "docs: Fix duplicate toctree references causing build warnings",
-  "updatedAt": "2026-06-03T03:30:28Z",
+  "updatedAt": "2026-06-03T07:02:23Z",
   "url": "https://github.com/apache/nuttx/pull/19027"
 }
