@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-03T20:46:16",
+"arch": "arm64",
+"subarch": "bcm2711",
+"group": "arm64-01",
+"board": "raspberrypi-4b",
+"config": "nxinit",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/26895244128/job/79374902617#step:10:661",
+"msg": "builtin.c: In function 'init_builtin_run': \n ##[error]builtin.c:274:1: error: expected declaration or statement at end of input \n 274 | } \n | ^ \n builtin.c:275: error: control reaches end of non-void function [-Werror=return-type] \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: builtin.c.github.workspace.sources.apps.system.nxinit.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Makefile:54: /github/worksp"
+}
