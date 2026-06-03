@@ -1,5 +1,5 @@
 {
-  "additions": 22,
+  "additions": 28,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE3ODkzNzUz",
@@ -9,20 +9,25 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-03T02:34:32Z",
   "deletions": 4,
   "files": [
     {
+      "path": "CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
       "path": "cmake/nuttx_toolchain.cmake",
-      "additions": 22,
+      "additions": 23,
       "deletions": 4
     }
   ],
   "headRefName": "fix-preprocess-depfile-rcsrcs",
-  "headRefOid": "e90467631e1a830a6f136d07eb74a5b14a504fbc",
+  "headRefOid": "3322df76c757cf12340a3df5af9936fc9fe54b08",
   "headRepository": {
     "id": "R_kgDOQ3FyQg",
     "name": "nuttx",
@@ -58,6 +63,6 @@
   "number": 19029,
   "state": "OPEN",
   "title": "cmake/nuttx_toolchain.cmake: track preprocessed include deps",
-  "updatedAt": "2026-06-03T05:30:17Z",
+  "updatedAt": "2026-06-03T06:06:12Z",
   "url": "https://github.com/apache/nuttx/pull/19029"
 }

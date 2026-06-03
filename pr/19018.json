@@ -1,5 +1,5 @@
 {
-  "additions": 33,
+  "additions": 46,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,20 +9,25 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-02T10:18:12Z",
-  "deletions": 0,
+  "deletions": 3,
   "files": [
     {
-      "path": "drivers/mtd/ftl.c",
-      "additions": 33,
+      "path": "drivers/mtd/Kconfig",
+      "additions": 10,
       "deletions": 0
+    },
+    {
+      "path": "drivers/mtd/ftl.c",
+      "additions": 36,
+      "deletions": 3
     }
   ],
   "headRefName": "remove_bad_block_management_when_not_using_nand",
-  "headRefOid": "5514b3fa069d8f8d0e2f3fa816fa3fd037930eda",
+  "headRefOid": "2e67f142d2414aaca16ca81b371a1c52e06d6b37",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -57,6 +62,6 @@
   "number": 19018,
   "state": "OPEN",
   "title": "drivers/mtd: Remove bad block management in FTL when !CONFIG_MTD_NAND",
-  "updatedAt": "2026-06-03T05:50:56Z",
+  "updatedAt": "2026-06-03T06:15:38Z",
   "url": "https://github.com/apache/nuttx/pull/19018"
 }
