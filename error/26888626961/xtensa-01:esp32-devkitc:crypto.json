@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-03T20:09:58",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "crypto",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/26888626961/job/79357471624#step:10:940",
+"msg": "hash.c: In function 'hash_main': \n ##[error]hash.c:1081:3: error: 'huge_block' may be used uninitialized [-Werror=maybe-uninitialized] \n 1081 |   free(huge_block); \n |   ^~~~~~~~~~~~~~~~ \n hash.c:913:18: note: 'huge_block' was declared here \n 913 |   unsigned char *huge_block = NULL; \n |                  ^~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: hash.c.github.workspace.sources.apps.testing.drivers.crypto.o] Error 1 \n ma"
+}
