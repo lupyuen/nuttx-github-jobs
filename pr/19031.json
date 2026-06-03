@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-03T11:19:24Z",
   "createdAt": "2026-06-03T06:52:17Z",
   "deletions": 2,
   "files": [
@@ -53,15 +53,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "eec015a66ed0db66576ff9bd7f555efc2fc32444"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-03T11:19:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19031,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/segger: Download systemview from NuttX Mirror Repo",
-  "updatedAt": "2026-06-03T10:25:28Z",
+  "updatedAt": "2026-06-03T11:19:25Z",
   "url": "https://github.com/apache/nuttx/pull/19031"
 }
