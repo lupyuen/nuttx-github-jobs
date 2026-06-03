@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-03T12:24:56",
+"arch": "risc-v",
+"subarch": "esp32c6",
+"group": "risc-v-03",
+"board": "esp32c6-devkitc",
+"config": "crypto",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26879185110/job/79280941692#step:10:942",
+"msg": "##[error]chip/esp-hal-3rdparty/components/esp_hw_support/esp_gpio_reserve.c:13:47: error: implicit declaration of function 'ATOMIC_VAR_INIT'; did you mean 'ATOMIC_FLAG_INIT'? [-Wimplicit-function-declaration] \n 13 | static _Atomic uint64_t s_reserved_pin_mask = ATOMIC_VAR_INIT(~(SOC_GPIO_VALID_GPIO_MASK)); \n |                                               ^~~~~~~~~~~~~~~ \n |                                               ATOMIC_FLAG_INIT \n ##[error]chip/esp-hal-3rdparty/components/esp_hw_support/esp_gpio"
+}
