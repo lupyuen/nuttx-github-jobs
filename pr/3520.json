@@ -1,0 +1,80 @@
+{
+  "additions": 122,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCGQJJg",
+    "is_bot": false,
+    "login": "JianyuWang0623",
+    "name": "JianyuWang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-03T15:31:35Z",
+  "deletions": 25,
+  "files": [
+    {
+      "path": "system/nxinit/action.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxinit/action.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "system/nxinit/builtin.c",
+      "additions": 56,
+      "deletions": 19
+    },
+    {
+      "path": "system/nxinit/import.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxinit/init.c",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "system/nxinit/parser.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxinit/service.c",
+      "additions": 28,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "system-nxinit-fixes",
+  "headRefOid": "ee1d0dcf8706b558200c29d6f682dba9ee3943fe",
+  "headRepository": {
+    "id": "R_kgDOKAnCFQ",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCGQJJg",
+    "name": "JianyuWang",
+    "login": "JianyuWang0623"
+  },
+  "id": "PR_kwDODZiT487iStp6",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3520,
+  "state": "OPEN",
+  "title": "system/nxinit: fix parser edge cases, SIGCHLD race and build warnings (pick from open-vela)",
+  "updatedAt": "2026-06-03T15:31:35Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3520"
+}
