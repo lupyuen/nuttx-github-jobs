@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-03T22:30:04",
+"arch": "risc-v",
+"subarch": "mpfs",
+"group": "risc-v-04",
+"board": "icicle",
+"config": "rpmsg-sbi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26910382429/job/79393737143#step:10:1176",
+"msg": "In file included from chip/mpfs_opensbi.c:57: \n ##[error]/github/workspace/sources/nuttx/arch/risc-v/src/opensbi/opensbi-3rdparty/include/sbi/sbi_types.h:47:33: error: 'bool' cannot be defined via 'typedef' \n 47 | typedef int                     bool; \n |                                 ^~~~ \n ##[error]/github/workspace/sources/nuttx/arch/risc-v/src/opensbi/opensbi-3rdparty/include/sbi/sbi_types.h:47:1: error: useless type name in empty declaration [-Werror] \n 47 | typedef int                     bool;"
+}
