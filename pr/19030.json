@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-03T10:27:08Z",
   "createdAt": "2026-06-03T06:18:14Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "20a50a48c567cf676675766ff1bc8d91afc82f57"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-03T10:27:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 19030,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci/docker: bump risc-v toolchain",
-  "updatedAt": "2026-06-03T09:12:15Z",
+  "updatedAt": "2026-06-03T10:27:09Z",
   "url": "https://github.com/apache/nuttx/pull/19030"
 }
