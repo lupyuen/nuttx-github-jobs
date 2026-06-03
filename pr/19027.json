@@ -1,5 +1,5 @@
 {
-  "additions": 26,
+  "additions": 6,
   "assignees": [],
   "author": {
     "id": "U_kgDOEKvreg",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-02T23:29:54Z",
-  "deletions": 8,
+  "deletions": 6,
   "files": [
     {
       "path": "Documentation/guides/changing_systemclockconfig.rst",
@@ -34,15 +34,10 @@
       "path": "Documentation/platforms/index.rst",
       "additions": 2,
       "deletions": 1
-    },
-    {
-      "path": "arch/sim/src/sim/sim_usrsock.c",
-      "additions": 20,
-      "deletions": 2
     }
   ],
   "headRefName": "fix/doc-toctree-warnings",
-  "headRefOid": "d96fd47416bd0c03e73b925bfb9df4a6f42f2c90",
+  "headRefOid": "a48ffb70310204426cf01273a3f7a158d71062cd",
   "headRepository": {
     "id": "R_kgDOSiiDmQ",
     "name": "nuttx",
@@ -62,12 +57,6 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABsqQq0A",
-      "name": "Arch: simulator",
-      "description": "Issues related to the SIMulator",
-      "color": "DC5544"
-    },
-    {
       "id": "LA_kwDODZiUac8AAAABvj_XyQ",
       "name": "Size: S",
       "description": "The size of the change in this PR is small",
@@ -83,6 +72,6 @@
   "number": 19027,
   "state": "OPEN",
   "title": "docs: Fix duplicate toctree references causing build warnings",
-  "updatedAt": "2026-06-03T01:08:27Z",
+  "updatedAt": "2026-06-03T02:08:02Z",
   "url": "https://github.com/apache/nuttx/pull/19027"
 }
