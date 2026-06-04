@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-04T11:58:08Z",
   "createdAt": "2026-06-04T04:48:24Z",
   "deletions": 2,
   "files": [
@@ -65,15 +65,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "840c2f30db650d23a53f75c46a49b74d06f699f2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-04T11:58:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3522,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps/rust: Add dependencies for Rust cargo in make builds",
-  "updatedAt": "2026-06-04T08:25:19Z",
+  "updatedAt": "2026-06-04T11:58:08Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3522"
 }
