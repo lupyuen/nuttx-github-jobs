@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-04T09:22:44Z",
   "createdAt": "2026-06-03T02:34:32Z",
   "deletions": 4,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0afb8c7ad508a79a3f5b14cf0360fea24609edaf"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-04T09:22:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19029,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "cmake/nuttx_toolchain.cmake: track preprocessed include deps",
-  "updatedAt": "2026-06-04T04:55:43Z",
+  "updatedAt": "2026-06-04T09:22:44Z",
   "url": "https://github.com/apache/nuttx/pull/19029"
 }
