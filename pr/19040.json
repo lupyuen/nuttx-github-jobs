@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-04T21:00:28Z",
   "createdAt": "2026-06-04T15:09:24Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b07c61e0cdd99eaf589e72c824d1c851669c33ed"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-04T21:00:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19040,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/gd32f4: fix NULL pointer dereference in arm_earlyserialinit.",
-  "updatedAt": "2026-06-04T16:01:38Z",
+  "updatedAt": "2026-06-04T21:00:28Z",
   "url": "https://github.com/apache/nuttx/pull/19040"
 }
