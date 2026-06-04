@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-04T16:11:10Z",
   "createdAt": "2026-06-04T06:18:32Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e86c0b997d3ea4bd6bc339d3f556d1f15e9cbaa0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-04T16:11:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3523,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/nxinit: skip empty lines in init.rc parser",
-  "updatedAt": "2026-06-04T11:57:05Z",
+  "updatedAt": "2026-06-04T16:11:10Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3523"
 }
