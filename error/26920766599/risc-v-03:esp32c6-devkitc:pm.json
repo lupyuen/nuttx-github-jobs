@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-04T00:49:02",
+"arch": "risc-v",
+"subarch": "esp32c6",
+"group": "risc-v-03",
+"board": "esp32c6-devkitc",
+"config": "pm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/26920766599/job/79420756770#step:10:1522",
+"msg": "In file included from board/esp32c6_bringup.c:41: \n 23 | #ifndef __BOARDS_RISCV_ESP32C6_COMMON_INCLUDE_ESP_BOARD_I2C_H \n 24 | #define __BOARDS_RISCV_ESP32C3_COMMON_INCLUDE_ESP_BOARD_I2C_H \n cc1: all warnings being treated as errors \n make[1]: *** [/github/workspace/sources/nuttx/boards/Board.mk:100: esp32c6_bringup.o] Error 1 \n make[1]: Target 'libboard.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:89: arch/risc-v/src/board/libboard.a] Error 2 \n ##[error]chip/esp-hal-3rdparty/comp"
+}

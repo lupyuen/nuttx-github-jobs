@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-04T01:32:37",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32c3-devkit",
+"config": "pwm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26908995865/job/79429282314#step:10:2222",
+"msg": "./chip/esp-hal-3rdparty/components/upper_hal_i2s/i2s_common.c:10:10: fatal error: freertos/FreeRTOS.h: No such file or directory \n 10 | #include \"freertos/FreeRTOS.h\" \n |          ^~~~~~~~~~~~~~~~~~~~~ \n compilation terminated. \n ERROR: riscv-none-elf-gcc failed: 1 \n command: riscv-none-elf-gcc -MT ./i2s_common.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '-ffunction-sec"
+}
