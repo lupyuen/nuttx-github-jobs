@@ -1,0 +1,544 @@
+{
+  "additions": 7860,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ2NTkyNTc=",
+    "is_bot": false,
+    "login": "parthitce",
+    "name": "Parthiban (Linumiz)"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 175,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-04T16:37:11Z",
+  "deletions": 13902,
+  "files": [
+    {
+      "path": "Documentation/platforms/tricore/index.rst",
+      "additions": 287,
+      "deletions": 22
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc397/boards/kit_a2g_tc397_tft/index.rst",
+      "additions": 0,
+      "deletions": 61
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc397/index.rst",
+      "additions": 0,
+      "deletions": 23
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc3x/a2g-tc375-lite/index.rst",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc3x/index.rst",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc4d9/boards/triboard_tc4x9_com/index.rst",
+      "additions": 0,
+      "deletions": 55
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc4d9/index.rst",
+      "additions": 0,
+      "deletions": 23
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc4x/a3g-tc4d7-lite/index.rst",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/tricore/tc4x/index.rst",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/Kconfig",
+      "additions": 42,
+      "deletions": 106
+    },
+    {
+      "path": "arch/tricore/include/arch.h",
+      "additions": 124,
+      "deletions": 10
+    },
+    {
+      "path": "arch/tricore/include/barriers.h",
+      "additions": 12,
+      "deletions": 5
+    },
+    {
+      "path": "arch/tricore/include/inttypes.h",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/tricore/include/irq.h",
+      "additions": 55,
+      "deletions": 187
+    },
+    {
+      "path": "arch/tricore/include/limits.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/include/setjmp.h",
+      "additions": 0,
+      "deletions": 81
+    },
+    {
+      "path": "arch/tricore/include/syscall.h",
+      "additions": 1,
+      "deletions": 166
+    },
+    {
+      "path": "arch/tricore/include/tc397/chip.h",
+      "additions": 0,
+      "deletions": 48
+    },
+    {
+      "path": "arch/tricore/include/tc397/irq.h",
+      "additions": 0,
+      "deletions": 71
+    },
+    {
+      "path": "arch/tricore/include/tc3x/irq.h",
+      "additions": 11,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/include/tc4da/chip.h",
+      "additions": 0,
+      "deletions": 48
+    },
+    {
+      "path": "arch/tricore/include/tc4da/irq.h",
+      "additions": 0,
+      "deletions": 71
+    },
+    {
+      "path": "arch/tricore/include/tc4x/irq.h",
+      "additions": 11,
+      "deletions": 6
+    },
+    {
+      "path": "arch/tricore/src/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/Makefile",
+      "additions": 26,
+      "deletions": 33
+    },
+    {
+      "path": "arch/tricore/src/aurix/CMakeLists.txt",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/aurix/Kconfig",
+      "additions": 141,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/aurix/Make.defs",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/aurix/tricore_asclin.h",
+      "additions": 248,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/aurix/tricore_gpio.h",
+      "additions": 215,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/aurix/tricore_serial.c",
+      "additions": 904,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/cmake/Toolchain.cmake",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/cmake/ToolchainGnuc.cmake",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/tricore/src/cmake/ToolchainLLVM.cmake",
+      "additions": 115,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/cmake/ToolchainTasking.cmake",
+      "additions": 0,
+      "deletions": 139
+    },
+    {
+      "path": "arch/tricore/src/cmake/chip.cmake",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/tricore/src/cmake/platform.cmake",
+      "additions": 2,
+      "deletions": 10
+    },
+    {
+      "path": "arch/tricore/src/common/CMakeLists.txt",
+      "additions": 11,
+      "deletions": 30
+    },
+    {
+      "path": "arch/tricore/src/common/Ifx_Cfg_Trap.h",
+      "additions": 0,
+      "deletions": 63
+    },
+    {
+      "path": "arch/tricore/src/common/Make.defs",
+      "additions": 11,
+      "deletions": 27
+    },
+    {
+      "path": "arch/tricore/src/common/Toolchain.defs",
+      "additions": 7,
+      "deletions": 10
+    },
+    {
+      "path": "arch/tricore/src/common/ToolchainLLVM.defs",
+      "additions": 124,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/ToolchainTasking.defs",
+      "additions": 0,
+      "deletions": 155
+    },
+    {
+      "path": "arch/tricore/src/common/tricore-llvm.ld",
+      "additions": 147,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore.ld",
+      "additions": 150,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_allocateheap.c",
+      "additions": 2,
+      "deletions": 7
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_backtrace.c",
+      "additions": 13,
+      "deletions": 19
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_cache.c",
+      "additions": 0,
+      "deletions": 524
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_checkstack.c",
+      "additions": 6,
+      "deletions": 12
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_compiler.c",
+      "additions": 24,
+      "deletions": 9
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_createstack.c",
+      "additions": 8,
+      "deletions": 80
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_csa.c",
+      "additions": 14,
+      "deletions": 18
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_doirq.c",
+      "additions": 30,
+      "deletions": 26
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_exit.c",
+      "additions": 10,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_getintstack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_head.S",
+      "additions": 211,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_hwdebug.c",
+      "additions": 0,
+      "deletions": 412
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_idle.c",
+      "additions": 1,
+      "deletions": 26
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_initialize.c",
+      "additions": 29,
+      "deletions": 41
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_initialstate.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_internal.h",
+      "additions": 52,
+      "deletions": 100
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_interrupt.S",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_irq.c",
+      "additions": 51,
+      "deletions": 213
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_irq.h",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_lib.S",
+      "additions": 174,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_main.c",
+      "additions": 0,
+      "deletions": 124
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_mpu.c",
+      "additions": 0,
+      "deletions": 1244
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_mpu.h",
+      "additions": 0,
+      "deletions": 382
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_nputs.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_perf.c",
+      "additions": 0,
+      "deletions": 72
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_registerdump.c",
+      "additions": 41,
+      "deletions": 96
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_releasestack.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_saveusercontext.c",
+      "additions": 8,
+      "deletions": 27
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_schedulesigaction.c",
+      "additions": 71,
+      "deletions": 11
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_sigdeliver.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_stackframe.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_stm.c",
+      "additions": 176,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_stm.h",
+      "additions": 124,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_svcall.c",
+      "additions": 49,
+      "deletions": 29
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_switchcontext.c",
+      "additions": 31,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_systimer.c",
+      "additions": 0,
+      "deletions": 328
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_testset.c",
+      "additions": 19,
+      "deletions": 2
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_trap.S",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_trapcall.c",
+      "additions": 123,
+      "deletions": 337
+    },
+    {
+      "path": "arch/tricore/src/common/tricore_usestack.c",
+      "additions": 5,
+      "deletions": 15
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/Configurations/Ifx_Cfg.h",
+      "additions": 0,
+      "deletions": 68
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/Configurations/Ifx_Cfg_Ssw.c",
+      "additions": 0,
+      "deletions": 65
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/Configurations/Ifx_Cfg_Ssw.h",
+      "additions": 0,
+      "deletions": 111
+    },
+    {
+      "path": "arch/tricore/src/illd/tc3xx/patches/change_illd.patch",
+      "additions": 0,
+      "deletions": 60
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/Configurations/Ifx_Cfg.h",
+      "additions": 0,
+      "deletions": 79
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/Configurations/Ifx_Cfg_Ssw.c",
+      "additions": 0,
+      "deletions": 211
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/Configurations/Ifx_Cfg_Ssw.h",
+      "additions": 0,
+      "deletions": 81
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/patches/add_coprocessor_trap_id.patch",
+      "additions": 0,
+      "deletions": 11
+    },
+    {
+      "path": "arch/tricore/src/illd/tc4xx/patches/change_illd.patch",
+      "additions": 0,
+      "deletions": 33
+    },
+    {
+      "path": "arch/tricore/src/tc397/.gitignore",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "arch/tricore/src/tc397/Kconfig",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "arch/tricore/src/tc3x/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/tc3x/Kconfig",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "arch/tricore/src/tc3x/Make.defs",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/tricore/src/tc3x/Toolchain.defs",
+      "additions": 30,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "dev/ifx/tricore-upstream",
+  "headRefOid": "233dbd0e46ed0554b0fec3db34172857d6320365",
+  "headRepository": {
+    "id": "R_kgDOPUlTlA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjUzOTk0MjIx",
+    "login": "linumiz"
+  },
+  "id": "PR_kwDODZiUac7ixAEf",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19041,
+  "state": "OPEN",
+  "title": "arch: add TriCore architecture and Infineon AURIX platform support",
+  "updatedAt": "2026-06-04T16:37:14Z",
+  "url": "https://github.com/apache/nuttx/pull/19041"
+}

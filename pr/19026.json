@@ -1,5 +1,5 @@
 {
-  "additions": 415,
+  "additions": 848,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjc0MDgw",
@@ -9,12 +9,22 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 19,
+  "changedFiles": 30,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-02T20:58:40Z",
-  "deletions": 252,
+  "deletions": 466,
   "files": [
+    {
+      "path": "CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/components/boards.rst",
+      "additions": 1,
+      "deletions": 1
+    },
     {
       "path": "arch/risc-v/Kconfig",
       "additions": 0,
@@ -32,7 +42,7 @@
     },
     {
       "path": "arch/risc-v/src/rp23xx-rv/hardware/rp23xx_hazard3.h",
-      "additions": 4,
+      "additions": 3,
       "deletions": 1
     },
     {
@@ -102,17 +112,62 @@
     },
     {
       "path": "arch/risc-v/src/rp23xx-rv/rp23xx_usbdev.c",
-      "additions": 253,
+      "additions": 251,
       "deletions": 110
+    },
+    {
+      "path": "arch/sim/src/sim/sim_backtrace.c",
+      "additions": 118,
+      "deletions": 10
     },
     {
       "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/configs/usbnsh-smp/defconfig",
       "additions": 58,
       "deletions": 0
+    },
+    {
+      "path": "cmake/nuttx_toolchain.cmake",
+      "additions": 23,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/mmcsd/mmcsd_sdio.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/segger/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/segger/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/video/Kconfig",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/time/Kconfig",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/time/lib_strftime.c",
+      "additions": 223,
+      "deletions": 196
+    },
+    {
+      "path": "tools/ci/docker/linux/Dockerfile",
+      "additions": 1,
+      "deletions": 1
     }
   ],
   "headRefName": "rp2350-rv-smp",
-  "headRefOid": "8a1e96ed2700d89796b394f205747d6ce75054b0",
+  "headRefOid": "9bede3c3e5681f39f76cf660a1c4f7ff6d742596",
   "headRepository": {
     "id": "R_kgDOOZyxlA",
     "name": "nuttx",
@@ -127,15 +182,27 @@
   "isDraft": true,
   "labels": [
     {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
       "id": "LA_kwDODZiUac8AAAABsqQhgw",
       "name": "Arch: risc-v",
       "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
       "color": "DC5544"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_bjg",
-      "name": "Size: L",
-      "description": "The size of the change in this PR is large",
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
     },
     {
@@ -146,7 +213,7 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
+  "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
@@ -154,6 +221,6 @@
   "number": 19026,
   "state": "OPEN",
   "title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-  "updatedAt": "2026-06-04T16:00:19Z",
+  "updatedAt": "2026-06-04T16:41:02Z",
   "url": "https://github.com/apache/nuttx/pull/19026"
 }
