@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-04T06:30:34Z",
   "createdAt": "2026-06-03T20:02:04Z",
   "deletions": 0,
   "files": [
@@ -69,15 +69,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c106a02b586253e2bdcf3e64ccad4b4cc8b6527b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-04T06:30:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 3521,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/microros_sub: Add minimal Int32 subscriber example.",
-  "updatedAt": "2026-06-04T06:01:44Z",
+  "updatedAt": "2026-06-04T06:30:34Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3521"
 }

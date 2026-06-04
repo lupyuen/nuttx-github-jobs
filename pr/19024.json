@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-04T06:29:34Z",
   "createdAt": "2026-06-02T12:43:28Z",
   "deletions": 196,
   "files": [
@@ -53,15 +53,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "116a325763749f5649e49d63356770d763aae6cb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-04T06:29:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19024,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "libs/libc/time: Add configuration options for the strftime",
-  "updatedAt": "2026-06-04T01:43:54Z",
+  "updatedAt": "2026-06-04T06:29:34Z",
   "url": "https://github.com/apache/nuttx/pull/19024"
 }
