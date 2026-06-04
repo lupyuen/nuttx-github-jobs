@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-04T00:25:41Z",
   "createdAt": "2026-06-03T17:17:51Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b8cd0435b2523a0d81b4f814f0e4390ba0a270f5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-04T00:25:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19035,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci/docker: bump risc-v toolchain gcc14",
-  "updatedAt": "2026-06-03T20:04:46Z",
+  "updatedAt": "2026-06-04T00:30:21Z",
   "url": "https://github.com/apache/nuttx/pull/19035"
 }
