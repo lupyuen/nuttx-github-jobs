@@ -1,5 +1,5 @@
 {
-  "additions": 1,
+  "additions": 57,
   "assignees": [],
   "author": {
     "id": "U_kgDOEKvreg",
@@ -9,230 +9,235 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 43,
+  "changedFiles": 44,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-04T22:27:44Z",
-  "deletions": 106,
+  "deletions": 50,
   "files": [
     {
+      "path": "system/uorb/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
       "path": "system/uorb/listener.c",
-      "additions": 1,
-      "deletions": 11
+      "additions": 5,
+      "deletions": 5
     },
     {
       "path": "system/uorb/sensor/accel.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/angle.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/baro.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/cap.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/co2.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/dust.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/ecg.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/eng.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/force.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/gas.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/gesture.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/gnss.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/gyro.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/hall.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/hbeat.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/hcho.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/hrate.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/humi.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/impd.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/ir.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/light.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/mag.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/motion.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/noise.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/ots.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/ph.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/pm10.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/pm1p0.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/pm25.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/pose_6dof.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/ppgd.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/ppgq.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/prox.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/rgb.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/rotation.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/step_counter.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/temp.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/tvoc.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/sensor/uv.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/test/utility.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/uORB/uORB.c",
-      "additions": 0,
-      "deletions": 2
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "system/uorb/uORB/uORB.h",
-      "additions": 0,
-      "deletions": 13
+      "additions": 4,
+      "deletions": 4
     }
   ],
   "headRefName": "fix/uorb-listener-no-debug",
-  "headRefOid": "96cf67fa30ed554c1aff48c6a9a2a4ebb6cd76a2",
+  "headRefOid": "8ccc4f43d72c699e9f519d0b4fb88ae73cb4f25f",
   "headRepository": {
     "id": "R_kgDOSiiEKw",
     "name": "nuttx-apps",
@@ -268,6 +273,6 @@
   "number": 3524,
   "state": "OPEN",
   "title": "system/uorb: Show listener data without CONFIG_DEBUG_UORB",
-  "updatedAt": "2026-06-05T14:43:04Z",
+  "updatedAt": "2026-06-05T15:57:35Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3524"
 }
