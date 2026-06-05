@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-05T22:05:40",
+"arch": "arm",
+"subarch": "stm32wb",
+"group": "arm-08",
+"board": "flipperzero",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27036558377/job/79802232238#step:10:1220",
+"msg": "In file included from /github/workspace/sources/nuttx/arch/arm/src/common/stm32/hardware/stm32_tim.h:45, \n from /github/workspace/sources/nuttx/arch/arm/src/common/stm32/stm32_tim.h:43, \n from board/stm32_boot.c:43: \n ##[error]/github/workspace/sources/nuttx/arch/arm/src/common/stm32/hardware/stm32_tim_v1v2.h:212:5: error: \"STM32_NGTIM\" is not defined, evaluates to 0 [-Werror=undef] \n 212 | #if STM32_NGTIM > 0 \n |     ^~~~~~~~~~~ \n ##[error]/github/workspace/sources/nuttx/arch/arm/src/common/stm32/h"
+}

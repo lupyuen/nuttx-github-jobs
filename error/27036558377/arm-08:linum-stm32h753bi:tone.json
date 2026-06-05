@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-05T21:56:22",
+"arch": "arm",
+"subarch": "stm32h7",
+"group": "arm-08",
+"board": "linum-stm32h753bi",
+"config": "tone",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27036558377/job/79802232238#step:10:997",
+"msg": "common/stm32/stm32_tim.c: In function 'stm32_tim_setmode': \n ##[error]common/stm32/stm32_tim.c:704:5: error: \"STM32_NBTIM\" is not defined, evaluates to 0 [-Werror=undef] \n 704 | #if STM32_NBTIM > 0 \n |     ^~~~~~~~~~~ \n ##[error]common/stm32/stm32_tim.c:707:5: error: \"STM32_NBTIM\" is not defined, evaluates to 0 [-Werror=undef] \n 707 | #if STM32_NBTIM > 1 \n |     ^~~~~~~~~~~ \n ##[error]common/stm32/stm32_tim.c:710:5: error: \"STM32_NBTIM\" is not defined, evaluates to 0 [-Werror=undef] \n 710 | #i"
+}
