@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-05T10:31:38",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32-c3-zero",
+"config": "wifi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/26994837839/job/79708447186#step:10:507",
+"msg": "CMake Error at mm/kasan/CMakeLists.txt:37 (target_compile_options): \n Cannot specify compile options for target \"kmm\" which is not built by this \n project. \n CMake Error at mm/kasan/CMakeLists.txt:37 (target_compile_options): \n Cannot specify compile options for target \"kmm\" which is not built by this \n project. \n ninja: error: loading 'build.ninja': No such file or directory \n ninja: error: loading 'build.ninja': No such file or directory \n cp: cannot stat 'nuttx.hex': No such file or directory"
+}
