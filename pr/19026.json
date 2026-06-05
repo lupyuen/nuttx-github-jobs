@@ -1,5 +1,5 @@
 {
-  "additions": 424,
+  "additions": 429,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjc0MDgw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 21,
+  "changedFiles": 22,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-02T20:58:40Z",
-  "deletions": 258,
+  "deletions": 262,
   "files": [
     {
       "path": "arch/risc-v/Kconfig",
@@ -111,18 +111,23 @@
       "deletions": 112
     },
     {
+      "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/configs/nsh/defconfig",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
       "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/configs/usbnsh-smp/defconfig",
-      "additions": 57,
+      "additions": 58,
       "deletions": 0
     },
     {
       "path": "boards/risc-v/rp23xx-rv/raspberrypi-pico-2-rv/configs/usbnsh/defconfig",
-      "additions": 5,
+      "additions": 6,
       "deletions": 4
     }
   ],
   "headRefName": "rp2350-rv-smp",
-  "headRefOid": "fffb74cf0479796b1dd46dedd5b35d8603cbc7f0",
+  "headRefOid": "2fc08cf2f7b0a99bc0af78db9b15f567a9fb4b3a",
   "headRepository": {
     "id": "R_kgDOOZyxlA",
     "name": "nuttx",
@@ -164,6 +169,6 @@
   "number": 19026,
   "state": "OPEN",
   "title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-  "updatedAt": "2026-06-05T10:10:43Z",
+  "updatedAt": "2026-06-05T13:50:16Z",
   "url": "https://github.com/apache/nuttx/pull/19026"
 }
