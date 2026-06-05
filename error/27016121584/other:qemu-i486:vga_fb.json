@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-05T13:26:49",
+"arch": "other",
+"subarch": "qemu",
+"group": "other",
+"board": "qemu-i486",
+"config": "vga_fb",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27016121584/job/79731823483#step:10:675",
+"msg": "video/fb.c: In function 'fb_register_device': \n ##[error]video/fb.c:1940:20: error: unused variable 'area' [-Werror=unused-variable] \n 1940 |   struct fb_area_s area; \n |                    ^~~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:108: fb.o] Error 1 \n make[1]: Target 'libdrivers.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:107: drivers/libdrivers.a] Error 2 \n make: Target 'all' not remade because of errors."
+}
