@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-05T01:43:46Z",
   "createdAt": "2026-06-03T15:31:35Z",
   "deletions": 25,
   "files": [
@@ -79,15 +79,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1d7d4fe67efa14af3c1aa53fdb8ab3fdd983b778"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-05T01:43:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3520,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/nxinit: fix parser edge cases, SIGCHLD race and build warnings (pick from open-vela)",
-  "updatedAt": "2026-06-04T16:04:40Z",
+  "updatedAt": "2026-06-05T01:43:46Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3520"
 }
