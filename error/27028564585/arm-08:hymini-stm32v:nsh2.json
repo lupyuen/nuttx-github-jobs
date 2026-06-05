@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-05T18:27:50",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-08",
+"board": "hymini-stm32v",
+"config": "nsh2",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27028564585/job/79775180007#step:10:824",
+"msg": "In file included from board/stm32_ssd1289.c:43: \n board/stm32_ssd1289.c: In function 'stm32_backlight': \n ##[error]board/stm32_ssd1289.c:254:32: error: 'STM32_TIM3_CCR2' undeclared (first use in this function); did you mean 'STM32_FSMC_ECCR2'? \n 254 |       putreg16((uint16_t)duty, STM32_TIM3_CCR2); \n |                                ^~~~~~~~~~~~~~~ \n 129 | #define putreg16(v,a)  (*(volatile uint16_t *)(a) = (v)) \n |                                                ^ \n board/stm32_ssd1289.c:254:32: not"
+}

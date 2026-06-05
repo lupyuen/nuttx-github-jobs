@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-05T18:56:56",
+"arch": "arm",
+"subarch": "stm32l4",
+"group": "arm-09",
+"board": "nucleo-l432kc",
+"config": "wgen",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27028564585/job/79775180031#step:10:1264",
+"msg": "chip/stm32l4_dac.c: In function 'dac_send': \n ##[error]chip/stm32l4_dac.c:870:23: error: 'STM32_GTIM_EGR_OFFSET' undeclared (first use in this function); did you mean 'STM32_EXTI_EMR_OFFSET'? \n 870 |   tim_modifyreg(chan, STM32_GTIM_EGR_OFFSET, 0, GTIM_EGR_UG); \n |                       ^~~~~~~~~~~~~~~~~~~~~ \n |                       STM32_EXTI_EMR_OFFSET \n chip/stm32l4_dac.c:870:23: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]chip/stm32l4_dac.c:87"
+}
