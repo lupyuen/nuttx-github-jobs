@@ -1,5 +1,5 @@
 {
-  "additions": 1,
+  "additions": 9,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIwODgyMjE4",
@@ -9,20 +9,40 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 5,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-05T04:10:22Z",
-  "deletions": 1,
+  "deletions": 5,
   "files": [
     {
-      "path": "mm/kasan/CMakeLists.txt",
+      "path": "arch/arm/src/cmake/elf.cmake",
       "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/cmake/elf.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/cmake/elf.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_add_application.cmake",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "mm/kasan/CMakeLists.txt",
+      "additions": 6,
       "deletions": 1
     }
   ],
   "headRefName": "master",
-  "headRefOid": "78219e90b89941fda341d30c1295e33141263ff2",
+  "headRefOid": "48e89b20e690675a27e2fddbe7ca324091955f77",
   "headRepository": {
     "id": "R_kgDOSxn-Kw",
     "name": "nuttx",
@@ -57,6 +77,6 @@
   "number": 19043,
   "state": "OPEN",
   "title": "mm/kasan: Fix compile options applied to wrong target in SPLIT build",
-  "updatedAt": "2026-06-05T14:34:55Z",
+  "updatedAt": "2026-06-06T02:22:17Z",
   "url": "https://github.com/apache/nuttx/pull/19043"
 }
