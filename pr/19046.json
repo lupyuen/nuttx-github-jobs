@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-06T07:54:17Z",
   "createdAt": "2026-06-05T10:09:47Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "af371bbaa5c3b670ae3fc211bfaab1c4b45b5b4a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-06T07:54:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19046,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/nrf91: add more ioctl calls for modem socket",
-  "updatedAt": "2026-06-05T10:26:03Z",
+  "updatedAt": "2026-06-06T07:54:17Z",
   "url": "https://github.com/apache/nuttx/pull/19046"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-06T07:54:51Z",
   "createdAt": "2026-06-05T12:50:29Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "155805c2e633d062f13bc5c51e490a3518932b1c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-06T07:54:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19047,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "video/fb: Trigger updatearea() if CONFIG_FB_UPDATE is defined",
-  "updatedAt": "2026-06-05T14:51:19Z",
+  "updatedAt": "2026-06-06T07:54:51Z",
   "url": "https://github.com/apache/nuttx/pull/19047"
 }
