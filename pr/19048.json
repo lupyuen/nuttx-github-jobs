@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-06T18:08:16Z",
   "createdAt": "2026-06-05T14:00:13Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "80f133504a81af4ffedd17e638472b85e3ea08a8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-06T18:08:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19048,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/sim/sim/sim/nsh: enable CONFIG_RTC for host time sync",
-  "updatedAt": "2026-06-06T09:50:52Z",
+  "updatedAt": "2026-06-06T18:08:16Z",
   "url": "https://github.com/apache/nuttx/pull/19048"
 }
