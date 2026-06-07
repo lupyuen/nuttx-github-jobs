@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-07T13:01:06Z",
   "createdAt": "2026-06-07T08:58:45Z",
   "deletions": 13,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "41381edb31c4e3846fb857b13011c562670385db"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-07T13:01:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19053,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "video/fb: Handle case of multiple displays where some do not require update",
-  "updatedAt": "2026-06-07T12:32:54Z",
+  "updatedAt": "2026-06-07T13:01:06Z",
   "url": "https://github.com/apache/nuttx/pull/19053"
 }
