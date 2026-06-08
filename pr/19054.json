@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-08T08:04:49Z",
   "createdAt": "2026-06-07T23:27:10Z",
   "deletions": 0,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3c8621cb898f4d3bcbdb34bf64b632a16378c8ac"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-08T08:04:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 19054,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: document sensortest command",
-  "updatedAt": "2026-06-08T02:04:01Z",
+  "updatedAt": "2026-06-08T08:08:34Z",
   "url": "https://github.com/apache/nuttx/pull/19054"
 }

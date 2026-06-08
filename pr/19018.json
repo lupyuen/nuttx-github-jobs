@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-08T08:00:08Z",
   "createdAt": "2026-06-02T10:18:12Z",
   "deletions": 3,
   "files": [
@@ -53,15 +53,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9c10bbd04a165de47eff4c19de9f0a2e10993754"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-08T08:00:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 19018,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-  "updatedAt": "2026-06-08T07:22:14Z",
+  "updatedAt": "2026-06-08T08:00:08Z",
   "url": "https://github.com/apache/nuttx/pull/19018"
 }
