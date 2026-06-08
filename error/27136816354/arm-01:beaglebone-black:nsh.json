@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-08T14:05:17",
+"arch": "arm",
+"subarch": "am335x",
+"group": "arm-01",
+"board": "beaglebone-black",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27136816354/job/80103641806#step:10:485",
+"msg": "In file included from /github/workspace/sources/nuttx/include/nuttx/notifier.h:35, \n from /github/workspace/sources/nuttx/include/nuttx/panic_notifier.h:31, \n from misc/assert.c:43: \n misc/assert.c: In function 'dump_stacks': \n ##[error]misc/assert.c:295:14: error: expected ')' before 'g_sp_out_of_range_fmt' \n 295 |       _alert(g_sp_out_of_range_fmt, sp); \n |              ^~~~~~~~~~~~~~~~~~~~~ \n misc/assert.c:295:7: note: to match this '(' \n 295 |       _alert(g_sp_out_of_range_fmt, sp); \n |      "
+}

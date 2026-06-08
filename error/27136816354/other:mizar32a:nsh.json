@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-08T14:06:30",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "mizar32a",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27136816354/job/80103641879#step:10:453",
+"msg": "misc/assert.c: In function 'dump_stacks': \n misc/assert.c:295: error: expected ')' before 'g_sp_out_of_range_fmt' \n cc1: warnings being treated as errors \n At top level: \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n make[1]: *** [Makefile:65: assert.o] Error 1 \n make[1]: Target 'libsched.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:71: sched/libsched.a] Error 2 \n make: Target 'all' not remade because of errors."
+}
