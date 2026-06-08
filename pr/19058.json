@@ -1,0 +1,89 @@
+{
+  "additions": 57,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "is_bot": false,
+    "login": "toku-mac",
+    "name": "Shoji Tokunaga"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-08T05:27:45Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "boards/sim/sim/sim/scripts/Make.defs",
+      "additions": 15,
+      "deletions": 5
+    },
+    {
+      "path": "tools/Rust.defs",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "tools/aarch64-unknown-nuttx-macho.json",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/sethost.sh",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "tools/x86_64-unknown-nuttx-macho.json",
+      "additions": 36,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "enable_rust_sim_intel_mac",
+  "headRefOid": "58d47168ae7f8ea16012c039fa4d294133ec9f61",
+  "headRepository": {
+    "id": "R_kgDOSdjLyA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "name": "Shoji Tokunaga",
+    "login": "toku-mac"
+  },
+  "id": "PR_kwDODZiUac7jxB8-",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19058,
+  "state": "OPEN",
+  "title": "tools: Enable Rust sim builds on Intel Macs",
+  "updatedAt": "2026-06-08T05:28:06Z",
+  "url": "https://github.com/apache/nuttx/pull/19058"
+}
