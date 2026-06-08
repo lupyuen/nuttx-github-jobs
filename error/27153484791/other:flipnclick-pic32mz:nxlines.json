@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-08T17:52:18",
+"arch": "other",
+"subarch": "pic32mz",
+"group": "other",
+"board": "flipnclick-pic32mz",
+"config": "nxlines",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27153484791/job/80155848806#step:10:610",
+"msg": "In file included from /github/workspace/sources/nuttx/include/nuttx/notifier.h:35:0, \n from /github/workspace/sources/nuttx/include/nuttx/panic_notifier.h:31, \n from misc/assert.c:43: \n misc/assert.c: In function 'dump_stacks': \n ##[error]misc/assert.c:296:14: error: expected ')' before 'g_sp_out_of_range_fmt' \n _alert(g_sp_out_of_range_fmt, sp); \n ^ \n ##[error]misc/assert.c:296:14: error: format '%s' expects a matching 'char *' argument [-Werror=format=] \n cc1: all warnings being treated as errors "
+}
