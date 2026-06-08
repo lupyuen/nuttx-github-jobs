@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-08T17:40:17Z",
   "createdAt": "2026-05-19T13:23:32Z",
   "deletions": 79,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fa7f85632c37cb843eaa0fd8d6d9b057580293e0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-08T17:40:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 18902,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/vfs: add parent-directory permission checks for unlink, mkdir and rename",
-  "updatedAt": "2026-06-08T08:06:35Z",
+  "updatedAt": "2026-06-08T17:40:17Z",
   "url": "https://github.com/apache/nuttx/pull/18902"
 }
