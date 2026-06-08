@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-08T18:31:32Z",
   "createdAt": "2026-06-08T09:44:19Z",
   "deletions": 0,
   "files": [
@@ -42,15 +42,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "065da307f53e494ba4da1bfb164bc8afe7e5a5f0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-08T18:31:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19060,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "include/cxx/cmath: Define FLT_EVAL_METHOD from compiler builtin",
-  "updatedAt": "2026-06-08T17:39:34Z",
+  "updatedAt": "2026-06-08T18:31:32Z",
   "url": "https://github.com/apache/nuttx/pull/19060"
 }
