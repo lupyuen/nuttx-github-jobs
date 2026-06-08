@@ -1,0 +1,250 @@
+{
+  "additions": 4844,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 41,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-08T16:07:21Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "fsutils/passwd/passwd_adduser.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "fsutils/passwd/passwd_append.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/dropbear/.gitignore",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/CMakeLists.txt",
+      "additions": 207,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/Kconfig",
+      "additions": 102,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/Makefile",
+      "additions": 177,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/README.md",
+      "additions": 113,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/dropbear_main.c",
+      "additions": 305,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/dropbear_nshsession.c",
+      "additions": 615,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0001-use-nuttx-unused-macro.patch",
+      "additions": 291,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0002-use-nuttx-ecdsa-hostkey-sign.patch",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0003-guard-environ-declaration-for-nuttx.patch",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0004-fix-nuttx-compile-warnings.patch",
+      "additions": 107,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0005-use-nuttx-sha256-hmac.patch",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0006-use-nuttx-chachapoly-state.patch",
+      "additions": 84,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0007-use-nuttx-passwd-auth.patch",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/config.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/default_options_guard.h",
+      "additions": 693,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_chachapoly.c",
+      "additions": 172,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_crypto.c",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_crypto.h",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_curve25519.c",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_ltc_aes.c",
+      "additions": 300,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_ltc_hmac_sha256.c",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_ltc_sha256.c",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_utils.c",
+      "additions": 139,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_utils.h",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/localoptions.h",
+      "additions": 21,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_auth.c",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_compat.c",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_config.h",
+      "additions": 139,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_hostkey.c",
+      "additions": 303,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_hostkey.h",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_localoptions.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/Kconfig",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_dropbear.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_init.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/dropbear-esp32c3-port",
+  "headRefOid": "8778f482bd36890c04d6aba03315de8382a144ca",
+  "headRepository": {
+    "id": "R_kgDOMr2uag",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiT487j_E18",
+  "isDraft": true,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3532,
+  "state": "OPEN",
+  "title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
+  "updatedAt": "2026-06-08T16:09:27Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3532"
+}
