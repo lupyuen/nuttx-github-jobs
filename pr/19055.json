@@ -1,0 +1,124 @@
+{
+  "additions": 828,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-08T01:52:23Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/applications/examples/rng90/index.rst",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/include/esp_board_rng90.h",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/common/src/esp_board_rng90.c",
+      "additions": 96,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/rng90/defconfig",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c3/esp32c3-devkit/src/esp32c3_bringup.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/crypto/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/crypto/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/crypto/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/crypto/rng90.c",
+      "additions": 418,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/crypto/rng90.h",
+      "additions": 34,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/rng90-driver",
+  "headRefOid": "4423760152157191b01651292433c5e2823d9324",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7juhCU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19055,
+  "state": "OPEN",
+  "title": "drivers/crypto: add Microchip RNG90 support, esp32c3-devkit enablement and documentation",
+  "updatedAt": "2026-06-08T01:53:09Z",
+  "url": "https://github.com/apache/nuttx/pull/19055"
+}
