@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-08T13:22:46Z",
   "createdAt": "2026-06-08T05:27:45Z",
   "deletions": 5,
   "files": [
@@ -75,15 +75,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "59a66fa17d0c1ec36b4168438b89095c257762fb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-08T13:22:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19058,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools: Enable Rust sim builds on Intel Macs",
-  "updatedAt": "2026-06-08T13:04:44Z",
+  "updatedAt": "2026-06-08T13:22:46Z",
   "url": "https://github.com/apache/nuttx/pull/19058"
 }
