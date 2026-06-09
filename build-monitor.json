@@ -168,6 +168,62 @@
     "pr_url": "https://github.com/apache/nuttx/pull/19071"
   },
   {
+    "build_arch": "xtensa",
+    "build_board": "esp32s3-devkit",
+    "build_config": "toywasm",
+    "build_group": "xtensa-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32s3",
+    "build_timestamp": "2026-06-09T14:38:00",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/27204287525/job/80317943052#step:10:1568",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-09T11:53:19Z",
+    "job_databaseId": 27204287525,
+    "job_displayTitle": "docs/system/ip6tables: add ip6tables man page",
+    "job_event": "pull_request",
+    "job_headBranch": "docs/ip6tables",
+    "job_headSha": "cd2ec748f364fd61216f24cb973dc00b563efe89",
+    "job_name": "Build",
+    "job_number": 9633,
+    "job_run_duration_ms": "14653000",
+    "job_startedAt": "2026-06-09T11:53:19Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-09T15:57:32Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/27204287525",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 242,
+    "pr_assignees": [],
+    "pr_author": "Zepp-Hanzj",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-09T11:53:14Z",
+    "pr_deletions": 0,
+    "pr_headRefName": "docs/ip6tables",
+    "pr_headRefOid": "cd2ec748f364fd61216f24cb973dc00b563efe89",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "Zepp-Hanzj",
+    "pr_id": "PR_kwDODZiT487kW8YN",
+    "pr_isDraft": false,
+    "pr_labels": "Size: M, Area: System",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3534,
+    "pr_state": "OPEN",
+    "pr_title": "docs/system/ip6tables: add ip6tables man page",
+    "pr_updatedAt": "2026-06-09T13:06:03Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3534"
+  },
+  {
     "build_arch": "sim",
     "build_board": "sim",
     "build_config": "lua",
@@ -222,6 +278,62 @@
     "pr_title": "sensors/bme680_uorb.c: always allow temperature topic registration",
     "pr_updatedAt": "2026-06-09T15:31:16Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19071"
+  },
+  {
+    "build_arch": "risc-v",
+    "build_board": "esp32p4-function-ev-board",
+    "build_config": "gpio",
+    "build_group": "risc-v-03",
+    "build_msg": "Killing pytest after timeout...",
+    "build_score": 0.8,
+    "build_subarch": "esp32p4",
+    "build_timestamp": "2026-06-09T14:24:27",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/27204287525/job/80317943080#step:10:1505",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-09T11:53:19Z",
+    "job_databaseId": 27204287525,
+    "job_displayTitle": "docs/system/ip6tables: add ip6tables man page",
+    "job_event": "pull_request",
+    "job_headBranch": "docs/ip6tables",
+    "job_headSha": "cd2ec748f364fd61216f24cb973dc00b563efe89",
+    "job_name": "Build",
+    "job_number": 9633,
+    "job_run_duration_ms": "14653000",
+    "job_startedAt": "2026-06-09T11:53:19Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-09T15:57:32Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/27204287525",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 242,
+    "pr_assignees": [],
+    "pr_author": "Zepp-Hanzj",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-09T11:53:14Z",
+    "pr_deletions": 0,
+    "pr_headRefName": "docs/ip6tables",
+    "pr_headRefOid": "cd2ec748f364fd61216f24cb973dc00b563efe89",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "Zepp-Hanzj",
+    "pr_id": "PR_kwDODZiT487kW8YN",
+    "pr_isDraft": false,
+    "pr_labels": "Size: M, Area: System",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3534,
+    "pr_state": "OPEN",
+    "pr_title": "docs/system/ip6tables: add ip6tables man page",
+    "pr_updatedAt": "2026-06-09T13:06:03Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3534"
   },
   {
     "build_arch": "xtensa",
@@ -1890,7 +2002,7 @@
     "pr_headRepositoryOwner": "raiden00pl",
     "pr_id": "PR_kwDODZiUac7kWce9",
     "pr_isDraft": false,
-    "pr_labels": "Area: Documentation, Arch: arm, Size: M, Board: arm",
+    "pr_labels": "Arch: arm, Size: S, Board: arm",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "BLOCKED",
     "pr_mergeable": "MERGEABLE",
@@ -1900,7 +2012,7 @@
     "pr_number": 19069,
     "pr_state": "OPEN",
     "pr_title": "!arch/stm32: rename STM32F7/H7 QUADSPI Kconfig symbol to QSPI",
-    "pr_updatedAt": "2026-06-09T15:45:37Z",
+    "pr_updatedAt": "2026-06-09T15:54:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19069"
   },
   {
@@ -2002,7 +2114,7 @@
     "pr_headRepositoryOwner": "raiden00pl",
     "pr_id": "PR_kwDODZiUac7kWce9",
     "pr_isDraft": false,
-    "pr_labels": "Area: Documentation, Arch: arm, Size: M, Board: arm",
+    "pr_labels": "Arch: arm, Size: S, Board: arm",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "BLOCKED",
     "pr_mergeable": "MERGEABLE",
@@ -2012,7 +2124,7 @@
     "pr_number": 19069,
     "pr_state": "OPEN",
     "pr_title": "!arch/stm32: rename STM32F7/H7 QUADSPI Kconfig symbol to QSPI",
-    "pr_updatedAt": "2026-06-09T15:45:37Z",
+    "pr_updatedAt": "2026-06-09T15:54:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19069"
   },
   {
@@ -2338,7 +2450,7 @@
     "pr_headRepositoryOwner": "raiden00pl",
     "pr_id": "PR_kwDODZiUac7kWce9",
     "pr_isDraft": false,
-    "pr_labels": "Area: Documentation, Arch: arm, Size: M, Board: arm",
+    "pr_labels": "Arch: arm, Size: S, Board: arm",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "BLOCKED",
     "pr_mergeable": "MERGEABLE",
@@ -2348,7 +2460,7 @@
     "pr_number": 19069,
     "pr_state": "OPEN",
     "pr_title": "!arch/stm32: rename STM32F7/H7 QUADSPI Kconfig symbol to QSPI",
-    "pr_updatedAt": "2026-06-09T15:45:37Z",
+    "pr_updatedAt": "2026-06-09T15:54:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19069"
   },
   {
@@ -2394,7 +2506,7 @@
     "pr_headRepositoryOwner": "raiden00pl",
     "pr_id": "PR_kwDODZiUac7kWce9",
     "pr_isDraft": false,
-    "pr_labels": "Area: Documentation, Arch: arm, Size: M, Board: arm",
+    "pr_labels": "Arch: arm, Size: S, Board: arm",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "BLOCKED",
     "pr_mergeable": "MERGEABLE",
@@ -2404,7 +2516,7 @@
     "pr_number": 19069,
     "pr_state": "OPEN",
     "pr_title": "!arch/stm32: rename STM32F7/H7 QUADSPI Kconfig symbol to QSPI",
-    "pr_updatedAt": "2026-06-09T15:45:37Z",
+    "pr_updatedAt": "2026-06-09T15:54:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19069"
   },
   {
@@ -2460,8 +2572,64 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "lua",
+    "build_group": "sim-02",
+    "build_msg": "m e         T i m e           T i m e     C u r r e n t",
+    "build_score": 0.8,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-06-09T12:21:35",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/27204287525/job/80317942962#step:10:423",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-09T11:53:19Z",
+    "job_databaseId": 27204287525,
+    "job_displayTitle": "docs/system/ip6tables: add ip6tables man page",
+    "job_event": "pull_request",
+    "job_headBranch": "docs/ip6tables",
+    "job_headSha": "cd2ec748f364fd61216f24cb973dc00b563efe89",
+    "job_name": "Build",
+    "job_number": 9633,
+    "job_run_duration_ms": "14653000",
+    "job_startedAt": "2026-06-09T11:53:19Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-09T15:57:32Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/27204287525",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 242,
+    "pr_assignees": [],
+    "pr_author": "Zepp-Hanzj",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-09T11:53:14Z",
+    "pr_deletions": 0,
+    "pr_headRefName": "docs/ip6tables",
+    "pr_headRefOid": "cd2ec748f364fd61216f24cb973dc00b563efe89",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "Zepp-Hanzj",
+    "pr_id": "PR_kwDODZiT487kW8YN",
+    "pr_isDraft": false,
+    "pr_labels": "Size: M, Area: System",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3534,
+    "pr_state": "OPEN",
+    "pr_title": "docs/system/ip6tables: add ip6tables man page",
+    "pr_updatedAt": "2026-06-09T13:06:03Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3534"
   },
   {
     "build_arch": "sim",
@@ -2572,7 +2740,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -2628,7 +2796,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -2684,7 +2852,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -2740,7 +2908,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -2796,7 +2964,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -2852,7 +3020,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -2908,7 +3076,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -2964,7 +3132,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3020,7 +3188,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3076,7 +3244,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3132,7 +3300,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3188,7 +3356,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3244,7 +3412,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3300,7 +3468,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3356,7 +3524,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3412,7 +3580,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3468,7 +3636,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3524,7 +3692,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3580,7 +3748,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3636,7 +3804,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3692,7 +3860,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3748,7 +3916,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3804,7 +3972,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3860,7 +4028,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3916,7 +4084,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -3972,7 +4140,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4028,7 +4196,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4084,7 +4252,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4140,7 +4308,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4196,7 +4364,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4252,7 +4420,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4308,7 +4476,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4364,7 +4532,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4420,7 +4588,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4476,7 +4644,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4532,7 +4700,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4588,7 +4756,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4644,7 +4812,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4700,7 +4868,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4756,7 +4924,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4812,7 +4980,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4868,7 +5036,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4924,7 +5092,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -4980,7 +5148,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5036,7 +5204,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5092,7 +5260,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5148,7 +5316,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5204,7 +5372,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5260,7 +5428,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5316,7 +5484,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5372,7 +5540,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5428,7 +5596,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5484,7 +5652,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5540,7 +5708,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5596,7 +5764,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5652,7 +5820,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5708,7 +5876,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5764,7 +5932,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5820,7 +5988,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5876,7 +6044,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5932,7 +6100,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -5988,7 +6156,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6044,7 +6212,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6100,7 +6268,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6156,7 +6324,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6212,7 +6380,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6268,7 +6436,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6324,7 +6492,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6380,7 +6548,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6436,7 +6604,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6492,7 +6660,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6548,7 +6716,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6604,7 +6772,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6660,7 +6828,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6716,7 +6884,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6772,7 +6940,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6828,7 +6996,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6884,7 +7052,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6940,7 +7108,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -6996,7 +7164,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7052,7 +7220,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7108,7 +7276,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7164,7 +7332,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7220,7 +7388,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7276,7 +7444,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7332,7 +7500,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7388,7 +7556,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7444,7 +7612,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7500,7 +7668,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7556,7 +7724,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7612,7 +7780,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7668,7 +7836,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7724,7 +7892,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7780,7 +7948,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7836,7 +8004,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7892,7 +8060,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -7948,7 +8116,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8004,7 +8172,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8060,7 +8228,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8116,7 +8284,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8172,7 +8340,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8228,7 +8396,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8284,7 +8452,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8340,7 +8508,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8396,7 +8564,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8452,7 +8620,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8508,7 +8676,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8564,7 +8732,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8620,7 +8788,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8676,7 +8844,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8732,7 +8900,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8788,7 +8956,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8844,7 +9012,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8900,7 +9068,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -8956,7 +9124,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9012,7 +9180,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9068,7 +9236,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9124,7 +9292,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9180,7 +9348,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9236,7 +9404,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9292,7 +9460,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9348,7 +9516,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9404,7 +9572,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9460,7 +9628,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9516,7 +9684,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9572,7 +9740,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9628,7 +9796,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9684,7 +9852,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9740,7 +9908,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9796,7 +9964,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9852,7 +10020,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9908,7 +10076,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -9964,7 +10132,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10020,7 +10188,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10076,7 +10244,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10132,7 +10300,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10188,7 +10356,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10244,7 +10412,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10300,7 +10468,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10356,7 +10524,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10412,7 +10580,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10468,7 +10636,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
@@ -10524,7 +10692,7 @@
     "pr_number": 19067,
     "pr_state": "OPEN",
     "pr_title": "!arm/stm32: split legacy STM32 family selectors",
-    "pr_updatedAt": "2026-06-09T15:44:21Z",
+    "pr_updatedAt": "2026-06-09T15:55:15Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19067"
   },
   {
