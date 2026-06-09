@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 44,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-09T09:02:04Z",
   "createdAt": "2026-06-04T22:27:44Z",
   "deletions": 50,
   "files": [
@@ -264,15 +264,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "03171162f1f5d3444557863a268930dba49dac9a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-09T09:02:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3524,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/uorb: Show listener data without CONFIG_DEBUG_UORB",
-  "updatedAt": "2026-06-08T11:29:28Z",
+  "updatedAt": "2026-06-09T09:02:04Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3524"
 }
