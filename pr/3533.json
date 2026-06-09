@@ -1,0 +1,270 @@
+{
+  "additions": 299,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEKvreg",
+    "is_bot": false,
+    "login": "Zepp-Hanzj",
+    "name": "hanzhijian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 45,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-09T11:52:12Z",
+  "deletions": 50,
+  "files": [
+    {
+      "path": "system/iptables/iptables_doc.rst",
+      "additions": 242,
+      "deletions": 0
+    },
+    {
+      "path": "system/uorb/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "system/uorb/listener.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "system/uorb/sensor/accel.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/angle.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/baro.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/cap.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/co2.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/dust.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/ecg.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/eng.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/force.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/gas.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/gesture.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/gnss.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/gyro.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/hall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/hbeat.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/hcho.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/hrate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/humi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/impd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/ir.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/light.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/mag.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/motion.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/noise.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/ots.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/ph.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/pm10.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/pm1p0.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/pm25.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/pose_6dof.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/ppgd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/ppgq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/prox.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/rgb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/rotation.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/step_counter.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/temp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/tvoc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/sensor/uv.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/test/utility.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/uORB/uORB.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/uorb/uORB/uORB.h",
+      "additions": 4,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "docs/iptables",
+  "headRefOid": "39c090e9ec66f603684992b41e9cee348402a4c6",
+  "headRepository": {
+    "id": "R_kgDOSiiEKw",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEKvreg",
+    "name": "hanzhijian",
+    "login": "Zepp-Hanzj"
+  },
+  "id": "PR_kwDODZiT487kW6wR",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3533,
+  "state": "OPEN",
+  "title": "docs/system/iptables: add iptables man page",
+  "updatedAt": "2026-06-09T11:52:12Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3533"
+}

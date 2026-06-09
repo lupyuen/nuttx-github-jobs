@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-09T12:04:55Z",
   "createdAt": "2026-06-08T12:12:49Z",
   "deletions": 13,
   "files": [
@@ -58,15 +58,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f3e62b837bfa5abf12c0cff3f1c58e5f804c72e0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-09T12:04:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19061,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Assert size optimizations",
-  "updatedAt": "2026-06-09T08:57:52Z",
+  "updatedAt": "2026-06-09T12:04:55Z",
   "url": "https://github.com/apache/nuttx/pull/19061"
 }
