@@ -1,5 +1,5 @@
 {
-  "additions": 39,
+  "additions": 74,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T12:12:49Z",
-  "deletions": 12,
+  "deletions": 13,
   "files": [
+    {
+      "path": "Documentation/debugging/disabling_stackdumpdebug.rst",
+      "additions": 35,
+      "deletions": 1
+    },
     {
       "path": "Kconfig",
       "additions": 22,
@@ -27,7 +32,7 @@
     }
   ],
   "headRefName": "assert_size_optimizations",
-  "headRefOid": "3784f66017e2f7a65e4466d95fa5b1fcf8a6d5c3",
+  "headRefOid": "f8aafc3ae260e6f9a89e45fbcf3f54e775181d9f",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -41,9 +46,9 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqSSkg",
-      "name": "Area: OS Components",
-      "description": "OS Components issues",
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
       "color": "0075ca"
     },
     {
@@ -62,6 +67,6 @@
   "number": 19061,
   "state": "OPEN",
   "title": "Assert size optimizations",
-  "updatedAt": "2026-06-09T05:30:57Z",
+  "updatedAt": "2026-06-09T07:16:12Z",
   "url": "https://github.com/apache/nuttx/pull/19061"
 }
