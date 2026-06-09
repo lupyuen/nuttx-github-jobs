@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-09T13:22:14",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-09",
+"board": "nucleo-f446re",
+"config": "jumbo",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27203039725/job/80313203195#step:10:779",
+"msg": "##[error]common/stm32/stm32_pulsecount.c:1246:12: error: 'pulsecount_interrupt' defined but not used [-Werror=unused-function] \n 1246 | static int pulsecount_interrupt(struct pulsecount_lowerhalf_s *dev) \n |            ^~~~~~~~~~~~~~~~~~~~ \n ##[error]common/stm32/stm32_pulsecount.c:313:38: error: 'g_pulsecountops' defined but not used [-Werror=unused-const-variable=] \n 313 | static const struct pulsecount_ops_s g_pulsecountops = \n |                                      ^~~~~~~~~~~~~~~ \n cc1: all warni"
+}

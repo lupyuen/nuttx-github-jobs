@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-09T13:15:30",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "olimexino-stm32",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27203039725/job/80313203181#step:10:460",
+"msg": "##[error]common/stm32/stm32_tim.c:674:13: error: unused function 'stm32_tim_gpioconfig' [-Werror,-Wunused-function] \n 674 | static void stm32_tim_gpioconfig(uint32_t cfg, stm32_tim_channel_t mode) \n |             ^~~~~~~~~~~~~~~~~~~~ \n 1 error generated. \n make[1]: *** [Makefile:179: stm32_tim.o] Error 1 \n make[1]: Target 'libarch.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:170: arch/arm/src/libarch.a] Error 2 \n make: Target 'all' not remade because of errors."
+}

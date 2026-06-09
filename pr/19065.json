@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-09T14:00:26Z",
   "createdAt": "2026-06-09T07:58:27Z",
   "deletions": 70,
   "files": [
@@ -65,15 +65,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2c606a7b41f5ca8c9cf04ae0d4b22b1e8d7cdbcd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-09T14:00:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19065,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!sensors/bme680: allow sensor configuration during registration",
-  "updatedAt": "2026-06-09T13:31:24Z",
+  "updatedAt": "2026-06-09T14:00:26Z",
   "url": "https://github.com/apache/nuttx/pull/19065"
 }
