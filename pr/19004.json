@@ -1,5 +1,5 @@
 {
-  "additions": 464210,
+  "additions": 453408,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5447,
+  "changedFiles": 5207,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-31T12:04:14Z",
-  "deletions": 534509,
+  "deletions": 523707,
   "files": [
     {
       "path": ".github/CODEOWNERS",
@@ -472,13 +472,8 @@
     },
     {
       "path": "arch/arm/include/stm32f7/chip.h",
-      "additions": 94,
-      "deletions": 94
-    },
-    {
-      "path": "arch/arm/include/stm32f7/irq.h",
-      "additions": 3,
-      "deletions": 3
+      "additions": 73,
+      "deletions": 73
     },
     {
       "path": "arch/arm/include/stm32g0/chip.h",
@@ -502,22 +497,27 @@
     },
     {
       "path": "arch/arm/include/stm32h5/chip.h",
-      "additions": 51,
-      "deletions": 51
-    },
-    {
-      "path": "arch/arm/include/stm32h5/irq.h",
-      "additions": 2,
-      "deletions": 2
+      "additions": 41,
+      "deletions": 41
     },
     {
       "path": "arch/arm/include/stm32h5/stm32h5xx_irq.h",
-      "additions": 19,
-      "deletions": 19
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/include/stm32h7/chip.h",
+      "additions": 101,
+      "deletions": 98
+    },
+    {
+      "path": "arch/arm/include/stm32h7/irq.h",
+      "additions": 1,
+      "deletions": 1
     }
   ],
   "headRefName": "stm32_refactor_all",
-  "headRefOid": "2bc393e00f39631835e0b37c8b4dc071486d2735",
+  "headRefOid": "07e6a14ddd6d6063c475c1e9abeaa5780a3ee26a",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx",
@@ -565,6 +565,6 @@
   "number": 19004,
   "state": "OPEN",
   "title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-  "updatedAt": "2026-06-07T12:14:54Z",
+  "updatedAt": "2026-06-09T11:37:34Z",
   "url": "https://github.com/apache/nuttx/pull/19004"
 }

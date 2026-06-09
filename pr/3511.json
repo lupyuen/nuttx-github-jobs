@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-09T11:35:16Z",
   "createdAt": "2026-05-29T07:28:48Z",
   "deletions": 34,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fa2dd70386be572446d2dad5bd8ed8b56431429d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-09T11:35:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3511,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/popen: Avoid copying FILE",
-  "updatedAt": "2026-06-09T09:02:28Z",
+  "updatedAt": "2026-06-09T11:35:16Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3511"
 }
