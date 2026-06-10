@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T13:40:33Z",
   "createdAt": "2026-06-10T08:40:35Z",
   "deletions": 11,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "859e61df6074edadd3c16bd2308772aa07648cac"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T13:40:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19099,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19045} arch/nrf91: fix broken modem initialization",
-  "updatedAt": "2026-06-10T12:52:14Z",
+  "updatedAt": "2026-06-10T13:40:33Z",
   "url": "https://github.com/apache/nuttx/pull/19099"
 }
