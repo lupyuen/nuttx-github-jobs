@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T09:11:19Z",
   "createdAt": "2026-06-10T08:24:58Z",
   "deletions": 6,
   "files": [
@@ -50,16 +50,36 @@
   },
   "id": "PR_kwDODZiUac7kwUeg",
   "isDraft": false,
-  "labels": [],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "118bf9b52daa71f00f9a1189db6ae4765be9e6b1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T09:11:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19091,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19027} docs: Fix duplicate toctree references causing build warnings",
-  "updatedAt": "2026-06-10T08:34:03Z",
+  "updatedAt": "2026-06-10T09:11:19Z",
   "url": "https://github.com/apache/nuttx/pull/19091"
 }
