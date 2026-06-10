@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T01:52:00Z",
   "createdAt": "2026-06-09T14:18:44Z",
   "deletions": 41,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8021b5371e022a225825827ecbabe01703d32b3a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T01:52:00Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19071,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "sensors/bme680_uorb.c: always allow temperature topic registration",
-  "updatedAt": "2026-06-09T15:31:16Z",
+  "updatedAt": "2026-06-10T01:52:00Z",
   "url": "https://github.com/apache/nuttx/pull/19071"
 }
