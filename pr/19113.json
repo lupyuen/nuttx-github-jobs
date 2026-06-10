@@ -1,0 +1,140 @@
+{
+  "additions": 908,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 19,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-10T17:11:25Z",
+  "deletions": 28,
+  "files": [
+    {
+      "path": "Documentation/platforms/avr/avrdx/docs/up_udelay.rst",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/avr/avrdx/index.rst",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/reference/os/sleep.rst",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/Kconfig",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/Kconfig",
+      "additions": 60,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avrdx/Make.defs",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx.h",
+      "additions": 37,
+      "deletions": 3
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_delay.c",
+      "additions": 350,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_delay_loop.S",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_delay_loop.h",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/avrdx_peripherals.c",
+      "additions": 92,
+      "deletions": 17
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128da28.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128da64.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "arch/avr/src/avrdx/iodefs/avr128db64.h",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/Makefile",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "boards/avr/avrdx/breadxavr/src/avrdx_init.c",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_alarm.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/timers/arch_timer.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_delay.c",
+      "additions": 14,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "avr_fixes_v13",
+  "headRefOid": "17745a39eebad9d7b211c7f5a9a7929ac99f488f",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac7k9Tko",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19113,
+  "state": "OPEN",
+  "title": "avr/avrdx: Fixup contributions from KR to NuttX V13",
+  "updatedAt": "2026-06-10T17:12:20Z",
+  "url": "https://github.com/apache/nuttx/pull/19113"
+}
