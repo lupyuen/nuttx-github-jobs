@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T12:15:57Z",
   "createdAt": "2026-06-10T08:17:13Z",
   "deletions": 0,
   "files": [
@@ -59,15 +59,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "9e66023307edd7fb417edfde1d49453a71c3e1cf"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-06-10T12:15:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19087,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19021} boards/lckfb-szpi-esp32s3: switch adb config to nxinit entrypoint",
-  "updatedAt": "2026-06-10T11:10:08Z",
+  "updatedAt": "2026-06-10T12:15:57Z",
   "url": "https://github.com/apache/nuttx/pull/19087"
 }

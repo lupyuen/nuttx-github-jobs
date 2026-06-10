@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T12:16:23Z",
   "createdAt": "2026-06-10T08:02:44Z",
   "deletions": 0,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "2ab4cfe14c6b4caf6a8c8f03d7db4b0bf734c1b9"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-06-10T12:16:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19080,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19013} arch/arm/src/stm32hx/stm32_adc: Reset channel counter before conversions.",
-  "updatedAt": "2026-06-10T11:52:49Z",
+  "updatedAt": "2026-06-10T12:16:23Z",
   "url": "https://github.com/apache/nuttx/pull/19080"
 }
