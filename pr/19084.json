@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T13:51:31Z",
   "createdAt": "2026-06-10T08:11:11Z",
   "deletions": 3,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "fd9d99496b0b4e9dcea25543725da932a27361c8"
+  },
   "mergeStateStatus": "UNKNOWN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T13:51:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19084,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19018} drivers/mtd: Remove bad block management in FTL for devices not needi…",
-  "updatedAt": "2026-06-10T12:54:09Z",
+  "updatedAt": "2026-06-10T13:51:32Z",
   "url": "https://github.com/apache/nuttx/pull/19084"
 }

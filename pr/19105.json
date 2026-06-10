@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T14:03:21Z",
   "createdAt": "2026-06-10T08:51:53Z",
   "deletions": 3,
   "files": [
@@ -60,15 +60,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "ffe831196b86a57650b1d3df4c1ab987f7bedf06"
+  },
   "mergeStateStatus": "UNKNOWN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T14:03:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19105,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19066} arch/arm/stm32: fix compilation errors",
-  "updatedAt": "2026-06-10T12:50:50Z",
+  "updatedAt": "2026-06-10T14:03:21Z",
   "url": "https://github.com/apache/nuttx/pull/19105"
 }
