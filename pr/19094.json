@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T11:57:45Z",
   "createdAt": "2026-06-10T08:31:45Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "db1035f820fc4616c10a7046e2e8f50ce758ee3c"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-06-10T11:57:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19094,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19037} arch/sim: Add dependencies for Rust cargo in make builds",
-  "updatedAt": "2026-06-10T09:21:07Z",
+  "updatedAt": "2026-06-10T11:57:46Z",
   "url": "https://github.com/apache/nuttx/pull/19094"
 }

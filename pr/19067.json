@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 299,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T11:51:48Z",
   "createdAt": "2026-06-09T09:41:31Z",
   "deletions": 8,
   "files": [
@@ -556,15 +556,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "46967df94fea03b52233dff0e10108d20abd59e9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T11:51:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19067,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!arm/stm32: split legacy STM32 family selectors",
-  "updatedAt": "2026-06-10T08:41:32Z",
+  "updatedAt": "2026-06-10T11:51:48Z",
   "url": "https://github.com/apache/nuttx/pull/19067"
 }

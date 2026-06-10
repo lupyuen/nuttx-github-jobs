@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T11:54:18Z",
   "createdAt": "2026-06-10T08:07:36Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3762c6768aef176ba42defc351d43fe03a5d32ef"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T11:54:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19082,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19015} Documentation/components/boards.rst: fix typo",
-  "updatedAt": "2026-06-10T08:32:40Z",
+  "updatedAt": "2026-06-10T11:54:18Z",
   "url": "https://github.com/apache/nuttx/pull/19082"
 }

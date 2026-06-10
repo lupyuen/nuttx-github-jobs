@@ -1,0 +1,65 @@
+{
+  "additions": 23,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ5MjM5NTYx",
+    "is_bot": false,
+    "login": "yushuailong",
+    "name": "yushuailong"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-10T11:36:35Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_rtc.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/esp32c3-legacy/esp32c3_rtc.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_rtc.c",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/timers/arch_timer.c",
+      "additions": 5,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "fix/non-atomic-clock-read",
+  "headRefOid": "51aafb73c45f41c3aad84a910d15b428c1d114b6",
+  "headRepository": {
+    "id": "R_kgDOKBkh3w",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ5MjM5NTYx",
+    "name": "yushuailong",
+    "login": "yushuailong"
+  },
+  "id": "PR_kwDODZiUac7k07cH",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19107,
+  "state": "OPEN",
+  "title": "timers/rtc: Fix non-atomic clock read when splitting tv_sec/tv_nsec",
+  "updatedAt": "2026-06-10T11:47:32Z",
+  "url": "https://github.com/apache/nuttx/pull/19107"
+}

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T11:54:41Z",
   "createdAt": "2026-06-10T08:29:16Z",
   "deletions": 10,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "64f196256832eed639cccbd921af1a146aa9cbf7"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-06-10T11:54:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19093,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19032} arch/sim: walk frame-pointer chain for non-running tasks in up_backtrace",
-  "updatedAt": "2026-06-10T09:17:42Z",
+  "updatedAt": "2026-06-10T11:54:41Z",
   "url": "https://github.com/apache/nuttx/pull/19093"
 }
