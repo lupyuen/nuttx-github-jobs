@@ -1,0 +1,60 @@
+{
+  "additions": 148,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-10T08:49:47Z",
+  "deletions": 70,
+  "files": [
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_bme680.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/bme680_uorb.c",
+      "additions": 145,
+      "deletions": 68
+    },
+    {
+      "path": "include/nuttx/sensors/bme680.h",
+      "additions": 2,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-19065",
+  "headRefOid": "d521e2185eaa7c5205b496ca4562e52ff9c480ce",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7kw2L9",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19104,
+  "state": "OPEN",
+  "title": "{bp-19065} !sensors/bme680: allow sensor configuration during registration",
+  "updatedAt": "2026-06-10T08:52:11Z",
+  "url": "https://github.com/apache/nuttx/pull/19104"
+}

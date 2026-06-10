@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T08:42:14Z",
   "createdAt": "2026-06-03T00:05:27Z",
   "deletions": 6,
   "files": [
@@ -53,15 +53,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "499352fb0c2de46113001ab8abd1194531969c30"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T08:42:13Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3517,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing/drivers/hash: Add unaligned buffer size test",
-  "updatedAt": "2026-06-09T19:46:50Z",
+  "updatedAt": "2026-06-10T08:42:14Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3517"
 }

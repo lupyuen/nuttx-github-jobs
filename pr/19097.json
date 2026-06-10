@@ -1,0 +1,70 @@
+{
+  "additions": 9,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-10T08:37:25Z",
+  "deletions": 5,
+  "files": [
+    {
+      "path": "arch/arm/src/cmake/elf.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/cmake/elf.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86_64/src/cmake/elf.cmake",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_add_application.cmake",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "mm/kasan/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-19043",
+  "headRefOid": "2bfef2fd8e327da2d8f7e576bde6b3ac9698bdbd",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7kwlat",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19097,
+  "state": "OPEN",
+  "title": "{bp-19043} mm/kasan: Fix compile options applied to wrong target in SPLIT build",
+  "updatedAt": "2026-06-10T08:37:59Z",
+  "url": "https://github.com/apache/nuttx/pull/19097"
+}

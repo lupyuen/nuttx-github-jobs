@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T08:37:32Z",
   "createdAt": "2026-06-10T08:19:04Z",
   "deletions": 2,
   "files": [
@@ -35,16 +35,36 @@
   },
   "id": "PR_kwDODZiUac7kwMOB",
   "isDraft": false,
-  "labels": [],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "e71e5e0a7c6ca7319fffd4f78a1347c940afff10"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T08:37:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19088,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19022} Documentation/applications/audioutils/mml_parser/index.rst: fix typo",
-  "updatedAt": "2026-06-10T08:19:40Z",
+  "updatedAt": "2026-06-10T08:48:12Z",
   "url": "https://github.com/apache/nuttx/pull/19088"
 }
