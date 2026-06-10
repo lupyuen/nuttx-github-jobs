@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T12:58:27Z",
   "createdAt": "2026-06-10T08:35:32Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "c6e36a4a8ba5071ad585c45dec6a15271e5848cc"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-06-10T12:58:26Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19096,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19040} arch/arm/gd32f4: fix NULL pointer dereference in arm_earlyserialinit.",
-  "updatedAt": "2026-06-10T09:21:42Z",
+  "updatedAt": "2026-06-10T12:58:27Z",
   "url": "https://github.com/apache/nuttx/pull/19096"
 }
