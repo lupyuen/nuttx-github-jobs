@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T14:28:51Z",
   "createdAt": "2026-06-10T08:33:39Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "eec293cd7abf9840bee8c709cf662b2176fc0dfd"
+  },
   "mergeStateStatus": "UNKNOWN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T14:28:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19095,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19038} drivers/mmcsd/mmcsd_sdio.c: guard SDIO_REGISTERCALLBACK use",
-  "updatedAt": "2026-06-10T09:20:35Z",
+  "updatedAt": "2026-06-10T14:28:51Z",
   "url": "https://github.com/apache/nuttx/pull/19095"
 }
