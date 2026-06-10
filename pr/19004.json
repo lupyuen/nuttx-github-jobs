@@ -1,5 +1,5 @@
 {
-  "additions": 453408,
+  "additions": 462772,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5207,
+  "changedFiles": 5422,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-31T12:04:14Z",
-  "deletions": 523707,
+  "deletions": 533541,
   "files": [
     {
       "path": ".github/CODEOWNERS",
@@ -177,8 +177,8 @@
     },
     {
       "path": "Documentation/platforms/arm/stm32f1/boards/fire-stm32v2/index.rst",
-      "additions": 3,
-      "deletions": 3
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "Documentation/platforms/arm/stm32f1/boards/shenzhou/index.rst",
@@ -322,8 +322,8 @@
     },
     {
       "path": "arch/arm/Kconfig",
-      "additions": 151,
-      "deletions": 10
+      "additions": 54,
+      "deletions": 6
     },
     {
       "path": "arch/arm/include/phy62xx/phy62xx_irq.h",
@@ -472,8 +472,13 @@
     },
     {
       "path": "arch/arm/include/stm32f7/chip.h",
-      "additions": 73,
-      "deletions": 73
+      "additions": 91,
+      "deletions": 91
+    },
+    {
+      "path": "arch/arm/include/stm32f7/irq.h",
+      "additions": 3,
+      "deletions": 3
     },
     {
       "path": "arch/arm/include/stm32g0/chip.h",
@@ -497,27 +502,22 @@
     },
     {
       "path": "arch/arm/include/stm32h5/chip.h",
-      "additions": 41,
-      "deletions": 41
+      "additions": 47,
+      "deletions": 47
+    },
+    {
+      "path": "arch/arm/include/stm32h5/irq.h",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "arch/arm/include/stm32h5/stm32h5xx_irq.h",
-      "additions": 8,
-      "deletions": 8
-    },
-    {
-      "path": "arch/arm/include/stm32h7/chip.h",
-      "additions": 101,
-      "deletions": 98
-    },
-    {
-      "path": "arch/arm/include/stm32h7/irq.h",
-      "additions": 1,
-      "deletions": 1
+      "additions": 17,
+      "deletions": 17
     }
   ],
   "headRefName": "stm32_refactor_all",
-  "headRefOid": "07e6a14ddd6d6063c475c1e9abeaa5780a3ee26a",
+  "headRefOid": "af80efad3b8af70fe1bc9fd98769dc69feb8fed4",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx",
@@ -557,14 +557,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "DIRTY",
-  "mergeable": "CONFLICTING",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19004,
   "state": "OPEN",
   "title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-  "updatedAt": "2026-06-09T11:59:47Z",
+  "updatedAt": "2026-06-10T18:36:29Z",
   "url": "https://github.com/apache/nuttx/pull/19004"
 }

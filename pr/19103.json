@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T18:46:05Z",
   "createdAt": "2026-06-10T08:47:19Z",
   "deletions": 0,
   "files": [
@@ -43,15 +43,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "984ef64428720cb1d6cfea3d3af58ee75a580288"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T18:46:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
   "milestone": null,
   "number": 19103,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19051} drivers/contactless/pn532: Fix potential overflow",
-  "updatedAt": "2026-06-10T12:51:23Z",
+  "updatedAt": "2026-06-10T18:46:05Z",
   "url": "https://github.com/apache/nuttx/pull/19103"
 }
