@@ -1,5 +1,5 @@
 {
-  "additions": 7,
+  "additions": 233,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjUwOTI2NDky",
@@ -9,20 +9,65 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 10,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-09T13:01:33Z",
-  "deletions": 2,
+  "deletions": 88,
   "files": [
+    {
+      "path": "Documentation/debugging/disabling_stackdumpdebug.rst",
+      "additions": 35,
+      "deletions": 1
+    },
+    {
+      "path": "Kconfig",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32/hardware/stm32f33xxx_pinmap.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f401rc-rs485/src/stm32_adc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32/common/src/esp32_bme680.c",
+      "additions": 1,
+      "deletions": 1
+    },
     {
       "path": "drivers/contactless/pn532.c",
       "additions": 7,
       "deletions": 2
+    },
+    {
+      "path": "drivers/sensors/bme680_uorb.c",
+      "additions": 145,
+      "deletions": 68
+    },
+    {
+      "path": "include/cxx/ctime",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sensors/bme680.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "sched/misc/assert.c",
+      "additions": 17,
+      "deletions": 12
     }
   ],
   "headRefName": "patch-1",
-  "headRefOid": "f3fa78d8299195376a15ed25af95cf2e5d183918",
+  "headRefOid": "054a9bbc630294c0e67c9fd45e0b251e2fe4b1d6",
   "headRepository": {
     "id": "R_kgDOS0wodw",
     "name": "nuttx",
@@ -43,14 +88,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19070,
   "state": "OPEN",
   "title": "drivers/contactless/pn532: Fix issue leftover from PR 19051",
-  "updatedAt": "2026-06-09T23:21:21Z",
+  "updatedAt": "2026-06-10T03:51:46Z",
   "url": "https://github.com/apache/nuttx/pull/19070"
 }
