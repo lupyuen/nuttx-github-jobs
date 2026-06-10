@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T18:58:02Z",
   "createdAt": "2026-06-10T08:53:19Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "88f3968d3be143b01f84fd8c323bdd4b11b177bf"
+  },
   "mergeStateStatus": "UNKNOWN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T18:58:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19106,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19068} sched/Kconfig: Fix ETC_ROMFS dependency",
-  "updatedAt": "2026-06-10T11:47:54Z",
+  "updatedAt": "2026-06-10T18:58:02Z",
   "url": "https://github.com/apache/nuttx/pull/19106"
 }

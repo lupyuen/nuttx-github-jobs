@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T18:59:11Z",
   "createdAt": "2026-06-10T11:36:35Z",
   "deletions": 14,
   "files": [
@@ -76,15 +76,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1a3185beebf43093ffcc7d4e2caae57ebc2eef44"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T18:59:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19107,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "timers/rtc: Fix non-atomic clock read when splitting tv_sec/tv_nsec",
-  "updatedAt": "2026-06-10T12:40:13Z",
+  "updatedAt": "2026-06-10T18:59:11Z",
   "url": "https://github.com/apache/nuttx/pull/19107"
 }

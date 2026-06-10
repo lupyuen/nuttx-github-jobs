@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-10T19:23:04Z",
   "createdAt": "2026-06-10T08:37:25Z",
   "deletions": 5,
   "files": [
@@ -87,15 +87,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "848ab18cc03666a17ff58a071cf9214e88d0ab5d"
+  },
   "mergeStateStatus": "UNKNOWN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-10T19:23:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19097,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19043} mm/kasan: Fix compile options applied to wrong target in SPLIT build",
-  "updatedAt": "2026-06-10T14:10:14Z",
+  "updatedAt": "2026-06-10T19:23:05Z",
   "url": "https://github.com/apache/nuttx/pull/19097"
 }
