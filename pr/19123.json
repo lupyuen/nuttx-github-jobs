@@ -1,0 +1,65 @@
+{
+  "additions": 169,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM0MTAzMzI=",
+    "is_bot": false,
+    "login": "cshung",
+    "name": "Andrew Au"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-11T17:08:41Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/armv7-m/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_exception.S",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/Kconfig",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_exception.S",
+      "additions": 72,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "arm-sp-context-restore",
+  "headRefOid": "fb82cee81d9d8b90a115ca7d23b1b9a3235621eb",
+  "headRepository": {
+    "id": "R_kgDOS3xcwQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM0MTAzMzI=",
+    "name": "Andrew Au",
+    "login": "cshung"
+  },
+  "id": "PR_kwDODZiUac7la9Hr",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19123,
+  "state": "OPEN",
+  "title": "armv7-m/armv8-m: honor SP modifications on exception return",
+  "updatedAt": "2026-06-11T17:09:38Z",
+  "url": "https://github.com/apache/nuttx/pull/19123"
+}
