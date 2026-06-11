@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-11T01:10:50Z",
   "createdAt": "2026-06-10T14:24:04Z",
   "deletions": 12,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e1a9b953e259c5498eda2794971f11ae724848e1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-11T01:10:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjk5NjAxMzM=",
+    "is_bot": false,
+    "login": "lupyuen",
+    "name": "Lup Yuen Lee"
+  },
   "milestone": null,
   "number": 19110,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/vfs/fs_lock.c: fix behavior according to manual and support SHM",
-  "updatedAt": "2026-06-10T15:55:52Z",
+  "updatedAt": "2026-06-11T01:10:51Z",
   "url": "https://github.com/apache/nuttx/pull/19110"
 }
