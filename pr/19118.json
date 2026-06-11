@@ -1,0 +1,88 @@
+{
+  "additions": 76,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCkF4eA",
+    "is_bot": false,
+    "login": "Abhishekmishra2808",
+    "name": "Abhishek Mishra"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-11T09:12:16Z",
+  "deletions": 14,
+  "files": [
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_create.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "sched/group/group_setegid.c",
+      "additions": 14,
+      "deletions": 3
+    },
+    {
+      "path": "sched/group/group_seteuid.c",
+      "additions": 14,
+      "deletions": 3
+    },
+    {
+      "path": "sched/group/group_setgid.c",
+      "additions": 21,
+      "deletions": 3
+    },
+    {
+      "path": "sched/group/group_setuid.c",
+      "additions": 21,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "sched/posix-setuid-semantics",
+  "headRefOid": "977f4b17982c3a1c75b5f842ea157131c71eaefa",
+  "headRepository": {
+    "id": "R_kgDOSbd_bQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCkF4eA",
+    "name": "Abhishek Mishra",
+    "login": "Abhishekmishra2808"
+  },
+  "id": "PR_kwDODZiUac7lPPQJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19118,
+  "state": "OPEN",
+  "title": "sched/group: implement saved-set-UID/GID semantics",
+  "updatedAt": "2026-06-11T09:22:31Z",
+  "url": "https://github.com/apache/nuttx/pull/19118"
+}
