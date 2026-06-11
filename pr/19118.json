@@ -1,5 +1,5 @@
 {
-  "additions": 76,
+  "additions": 167,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,16 +9,36 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 6,
+  "changedFiles": 10,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T09:12:16Z",
-  "deletions": 14,
+  "deletions": 24,
   "files": [
     {
-      "path": "include/nuttx/sched.h",
+      "path": "Documentation/implementation/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/implementation/tasks_vs_threads.rst",
       "additions": 2,
       "deletions": 0
+    },
+    {
+      "path": "Documentation/implementation/user_identity.rst",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 6,
+      "deletions": 4
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 13,
+      "deletions": 6
     },
     {
       "path": "sched/group/group_create.c",
@@ -47,7 +67,7 @@
     }
   ],
   "headRefName": "sched/posix-setuid-semantics",
-  "headRefOid": "977f4b17982c3a1c75b5f842ea157131c71eaefa",
+  "headRefOid": "26aed722eaf3c5f286d9fa73128699920dbf2de3",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -62,15 +82,15 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqSSkg",
-      "name": "Area: OS Components",
-      "description": "OS Components issues",
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
@@ -83,6 +103,6 @@
   "number": 19118,
   "state": "OPEN",
   "title": "sched/group: implement saved-set-UID/GID semantics",
-  "updatedAt": "2026-06-11T15:43:20Z",
+  "updatedAt": "2026-06-11T19:49:24Z",
   "url": "https://github.com/apache/nuttx/pull/19118"
 }
