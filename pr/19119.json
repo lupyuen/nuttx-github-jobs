@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-12T00:03:17Z",
   "createdAt": "2026-06-11T09:13:41Z",
   "deletions": 0,
   "files": [
@@ -64,15 +64,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bb025be12db86bad3e1a7b931926bf646e2ed5e5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-12T00:03:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19119,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/nrf91: add PWM support",
-  "updatedAt": "2026-06-11T21:08:02Z",
+  "updatedAt": "2026-06-12T00:03:18Z",
   "url": "https://github.com/apache/nuttx/pull/19119"
 }
