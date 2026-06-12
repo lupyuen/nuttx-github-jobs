@@ -1,0 +1,77 @@
+{
+  "additions": 42,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIzMzc4Mzkw",
+    "is_bot": false,
+    "login": "jlaitine",
+    "name": "Jukka Laitinen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-12T07:21:55Z",
+  "deletions": 98,
+  "files": [
+    {
+      "path": "testing/ostest/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/ostest_main.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "testing/ostest/posixtimer.c",
+      "additions": 23,
+      "deletions": 87
+    }
+  ],
+  "headRefName": "ostest_partial_signals",
+  "headRefOid": "456f631e216f4a0300352e20a998776caf44c35c",
+  "headRepository": {
+    "id": "R_kgDOGbf5lg",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDEyOk9yZ2FuaXphdGlvbjU5ODM2MzQ4",
+    "login": "tiiuae"
+  },
+  "id": "PR_kwDODZiT487lp0VX",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3538,
+  "state": "OPEN",
+  "title": "ostest: Fix ostest for CONFIG_ENABLE_PARTIAL_SIGNALS and CONFIG_DISABLE_ALL_SIGNALS",
+  "updatedAt": "2026-06-12T07:22:18Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3538"
+}

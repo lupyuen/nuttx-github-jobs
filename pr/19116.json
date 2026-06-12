@@ -1,5 +1,5 @@
 {
-  "additions": 48,
+  "additions": 96,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,56 +9,46 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 14,
+  "changedFiles": 25,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T05:53:42Z",
-  "deletions": 12,
+  "deletions": 60,
   "files": [
     {
       "path": "arch/arm/src/armv6-m/arm_svcall.c",
-      "additions": 4,
-      "deletions": 2
-    },
-    {
-      "path": "arch/arm/src/armv7-a/arm_syscall.c",
       "additions": 2,
-      "deletions": 0
+      "deletions": 2
     },
     {
       "path": "arch/arm/src/armv7-m/arm_svcall.c",
-      "additions": 4,
+      "additions": 2,
       "deletions": 2
     },
     {
-      "path": "arch/arm/src/armv7-r/arm_syscall.c",
-      "additions": 2,
-      "deletions": 0
-    },
-    {
       "path": "arch/arm/src/armv8-m/arm_svcall.c",
-      "additions": 4,
+      "additions": 2,
       "deletions": 2
     },
     {
       "path": "arch/arm/src/armv8-r/arm_syscall.c",
-      "additions": 4,
+      "additions": 2,
       "deletions": 2
     },
     {
-      "path": "arch/arm64/src/common/arm64_syscall.c",
-      "additions": 2,
-      "deletions": 0
-    },
-    {
       "path": "arch/risc-v/src/common/riscv_swint.c",
-      "additions": 4,
+      "additions": 2,
       "deletions": 2
     },
     {
       "path": "arch/xtensa/src/common/xtensa_swint.c",
-      "additions": 4,
+      "additions": 2,
       "deletions": 2
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 3,
+      "deletions": 1
     },
     {
       "path": "include/sys/syscall_lookup.h",
@@ -66,28 +56,93 @@
       "deletions": 0
     },
     {
+      "path": "libs/libc/pthread/pthread_mutex_consistent.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
       "path": "sched/sched/sched_suspend.c",
       "additions": 4,
       "deletions": 0
     },
     {
-      "path": "sched/signal/sig_ppoll.c",
-      "additions": 4,
-      "deletions": 0
+      "path": "sched/semaphore/sem_wait.c",
+      "additions": 2,
+      "deletions": 4
     },
     {
-      "path": "sched/signal/sig_pselect.c",
-      "additions": 4,
-      "deletions": 0
+      "path": "sched/signal/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 8
     },
     {
-      "path": "sched/signal/sig_suspend.c",
+      "path": "sched/signal/Make.defs",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "sched/signal/sig_cleanup.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 17,
+      "deletions": 11
+    },
+    {
+      "path": "sched/signal/sig_initialize.c",
+      "additions": 9,
+      "deletions": 2
+    },
+    {
+      "path": "sched/signal/sig_procmask.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/signal/signal.h",
+      "additions": 9,
+      "deletions": 2
+    },
+    {
+      "path": "sched/task/task_exithook.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task_restart.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_setup.c",
       "additions": 4,
-      "deletions": 0
+      "deletions": 2
     }
   ],
   "headRefName": "fix_compilation_errors_with_partial_signals",
-  "headRefOid": "dd35b7a7885730c0b9de1634b1569e284f100cc2",
+  "headRefOid": "f876eff103f9a8dbe6d496860f44626615e37193",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -104,12 +159,6 @@
       "id": "LA_kwDODZiUac8AAAABsqOt8A",
       "name": "Arch: arm",
       "description": "Issues related to ARM (32-bit) architecture",
-      "color": "DC5544"
-    },
-    {
-      "id": "LA_kwDODZiUac8AAAABsqO1YA",
-      "name": "Arch: arm64",
-      "description": "Issues related to ARM64 (64-bit) architecture",
       "color": "DC5544"
     },
     {
@@ -131,9 +180,9 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
@@ -146,6 +195,6 @@
   "number": 19116,
   "state": "OPEN",
   "title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-  "updatedAt": "2026-06-11T10:01:06Z",
+  "updatedAt": "2026-06-12T07:29:35Z",
   "url": "https://github.com/apache/nuttx/pull/19116"
 }

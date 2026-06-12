@@ -1,0 +1,570 @@
+{
+  "additions": 8715,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 427,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-12T07:29:29Z",
+  "deletions": 8780,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f7/stm32_qspi.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_qspi.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_rcc.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f76xx77xx_rcc.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.h",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_dts.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_dts.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_flash.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_hsi48.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_hsi48.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_usbdrdhost.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_usbdrdhost.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h563xx_flash.c",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h5xx_rcc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_adc.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_adc.h",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_dualcore.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_dualcore.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_flash.h",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_qspi.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_qspi.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_start.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h743xx_flash.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7b3xx_flash.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_1wire.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_1wire.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_adc.c",
+      "additions": 19,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_adc.h",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_allocateheap.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_can.c",
+      "additions": 55,
+      "deletions": 55
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_can.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_comp.c",
+      "additions": 35,
+      "deletions": 38
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_comp.h",
+      "additions": 16,
+      "deletions": 17
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dac.c",
+      "additions": 31,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dac.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dfsdm.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dfsdm.h",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dfumode.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dfumode.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dma.h",
+      "additions": 36,
+      "deletions": 36
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dumpgpio.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_exti.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_exti_alarm.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_exti_comp.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_exti_gpio.c",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_exti_pwr.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_exti_pwr.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_exti_wakeup.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_firewall.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_firewall.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_flash.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_flash.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_freerun.c",
+      "additions": 16,
+      "deletions": 16
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_freerun.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_gpio.c",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_gpio.h",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_hsi48.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_hsi48.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_i2c.c",
+      "additions": 266,
+      "deletions": 266
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_i2c.h",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_idle.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_irq.c",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_iwdg.c",
+      "additions": 56,
+      "deletions": 56
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_lowputc.c",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_lowputc.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_lptim.c",
+      "additions": 119,
+      "deletions": 119
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_lptim.h",
+      "additions": 24,
+      "deletions": 24
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_lse.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_lsi.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_mpuinit.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_mpuinit.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_oneshot.c",
+      "additions": 21,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_oneshot.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_oneshot_lowerhalf.c",
+      "additions": 39,
+      "deletions": 39
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_otgfs.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_otgfsdev.c",
+      "additions": 659,
+      "deletions": 659
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_otgfshost.c",
+      "additions": 568,
+      "deletions": 568
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pm.h",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pmlpr.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pmsleep.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pmstandby.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pmstop.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pulsecount.c",
+      "additions": 51,
+      "deletions": 51
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pulsecount.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pwm.c",
+      "additions": 80,
+      "deletions": 80
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pwm.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pwr.c",
+      "additions": 34,
+      "deletions": 34
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pwr.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_qencoder.c",
+      "additions": 152,
+      "deletions": 152
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_qencoder.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_qspi.c",
+      "additions": 61,
+      "deletions": 61
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_qspi.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_rcc.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_rcc.h",
+      "additions": 17,
+      "deletions": 17
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_rng.c",
+      "additions": 17,
+      "deletions": 17
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_rtc.c",
+      "additions": 45,
+      "deletions": 45
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_rtc.h",
+      "additions": 21,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_rtc_lowerhalf.c",
+      "additions": 76,
+      "deletions": 76
+    }
+  ],
+  "headRefName": "stm32_refactor_all_pr6",
+  "headRefOid": "11339f1dec69c2068df4946cd8d6b173e433ca22",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7lp9WU",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19125,
+  "state": "OPEN",
+  "title": "!arch: unify all STM32 ports public API",
+  "updatedAt": "2026-06-12T07:29:59Z",
+  "url": "https://github.com/apache/nuttx/pull/19125"
+}
