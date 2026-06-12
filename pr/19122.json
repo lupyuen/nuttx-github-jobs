@@ -1,5 +1,5 @@
 {
-  "additions": 53,
+  "additions": 205,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,20 +9,60 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 9,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T13:54:34Z",
-  "deletions": 2,
+  "deletions": 16,
   "files": [
     {
+      "path": "binfmt/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/binfmt.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/binfmt_checkexec.c",
+      "additions": 106,
+      "deletions": 0
+    },
+    {
       "path": "binfmt/binfmt_exec.c",
-      "additions": 53,
-      "deletions": 2
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "binfmt/binfmt_loadmodule.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/builtin.c",
+      "additions": 17,
+      "deletions": 5
+    },
+    {
+      "path": "binfmt/elf.c",
+      "additions": 16,
+      "deletions": 8
+    },
+    {
+      "path": "binfmt/nxflat.c",
+      "additions": 26,
+      "deletions": 0
     }
   ],
   "headRefName": "fs/binfmt-checkexecperm",
-  "headRefOid": "ee2a5e7065fd41ed479f34857a7529c8356e4bf8",
+  "headRefOid": "95b2a05ba9e2b422e7f35aac8486671595c1ca54",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -37,9 +77,9 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     },
     {
@@ -58,6 +98,6 @@
   "number": 19122,
   "state": "OPEN",
   "title": "fs/binfmt: Enforce POSIX execute permissions prior to binary load",
-  "updatedAt": "2026-06-12T00:26:01Z",
+  "updatedAt": "2026-06-12T22:59:21Z",
   "url": "https://github.com/apache/nuttx/pull/19122"
 }
