@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 378,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-12T01:51:36Z",
   "createdAt": "2026-06-10T18:20:46Z",
   "deletions": 16445,
   "files": [
@@ -538,15 +538,22 @@
       "color": "B60205"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a788e3d436fbcb1e6eb58985fbf723c1f1d041b8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-12T01:51:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19114,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!arch: unify stm32 hardware definition names",
-  "updatedAt": "2026-06-11T07:53:41Z",
+  "updatedAt": "2026-06-12T01:51:36Z",
   "url": "https://github.com/apache/nuttx/pull/19114"
 }

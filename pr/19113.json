@@ -1,5 +1,5 @@
 {
-  "additions": 908,
+  "additions": 975,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -13,7 +13,7 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-10T17:11:25Z",
-  "deletions": 28,
+  "deletions": 38,
   "files": [
     {
       "path": "Documentation/platforms/avr/avrdx/docs/up_udelay.rst",
@@ -32,7 +32,7 @@
     },
     {
       "path": "arch/Kconfig",
-      "additions": 33,
+      "additions": 31,
       "deletions": 0
     },
     {
@@ -97,22 +97,22 @@
     },
     {
       "path": "drivers/timers/arch_alarm.c",
-      "additions": 4,
+      "additions": 16,
       "deletions": 0
     },
     {
       "path": "drivers/timers/arch_timer.c",
-      "additions": 4,
-      "deletions": 0
+      "additions": 35,
+      "deletions": 7
     },
     {
       "path": "sched/clock/clock_delay.c",
-      "additions": 14,
-      "deletions": 0
+      "additions": 40,
+      "deletions": 3
     }
   ],
   "headRefName": "avr_fixes_v13",
-  "headRefOid": "17745a39eebad9d7b211c7f5a9a7929ac99f488f",
+  "headRefOid": "f0f28c46dd544273f47b4175d4072b7f4dd7f93e",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -139,9 +139,9 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_bjg",
-      "name": "Size: L",
-      "description": "The size of the change in this PR is large",
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
     },
     {
@@ -152,14 +152,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19113,
   "state": "OPEN",
   "title": "avr/avrdx: Fixup contributions from KR to NuttX V13",
-  "updatedAt": "2026-06-12T00:05:03Z",
+  "updatedAt": "2026-06-12T01:49:48Z",
   "url": "https://github.com/apache/nuttx/pull/19113"
 }
