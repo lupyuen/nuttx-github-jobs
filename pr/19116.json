@@ -1,5 +1,5 @@
 {
-  "additions": 93,
+  "additions": 102,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 25,
+  "changedFiles": 27,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T05:53:42Z",
@@ -44,6 +44,16 @@
       "path": "arch/xtensa/src/common/xtensa_swint.c",
       "additions": 2,
       "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/ihm07m1_f32/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/button_upper.c",
+      "additions": 8,
+      "deletions": 0
     },
     {
       "path": "include/nuttx/sched.h",
@@ -142,7 +152,7 @@
     }
   ],
   "headRefName": "fix_compilation_errors_with_partial_signals",
-  "headRefOid": "9a98865de91f639e380cb8925c88a80893eb5ef0",
+  "headRefOid": "d249031ba7f0b589b519d1e0ee5f2df54aa6847e",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -174,9 +184,9 @@
       "color": "DC5544"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABsqSSkg",
-      "name": "Area: OS Components",
-      "description": "OS Components issues",
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
       "color": "0075ca"
     },
     {
@@ -184,6 +194,12 @@
       "name": "Size: M",
       "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
     }
   ],
   "mergeCommit": null,
@@ -195,6 +211,6 @@
   "number": 19116,
   "state": "OPEN",
   "title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-  "updatedAt": "2026-06-12T09:57:32Z",
+  "updatedAt": "2026-06-12T11:33:42Z",
   "url": "https://github.com/apache/nuttx/pull/19116"
 }
