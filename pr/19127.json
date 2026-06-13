@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-13T05:05:43Z",
   "createdAt": "2026-06-12T15:41:20Z",
   "deletions": 0,
   "files": [
@@ -48,7 +48,7 @@
     "login": "eren-terzioglu"
   },
   "id": "PR_kwDODZiUac7l0ukh",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
@@ -63,15 +63,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "84aba62f26a1edc61f34173b317ba088b2f255f4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-13T05:05:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19127,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Docs/platforms: Add missing defconfig docs for esp32[-c3|-c6|-h2]",
-  "updatedAt": "2026-06-13T04:17:21Z",
+  "updatedAt": "2026-06-13T05:05:43Z",
   "url": "https://github.com/apache/nuttx/pull/19127"
 }
