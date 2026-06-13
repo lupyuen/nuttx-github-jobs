@@ -1,5 +1,5 @@
 {
-  "additions": 147,
+  "additions": 204,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 3,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T13:23:46Z",
   "deletions": 0,
   "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-devkit/index.rst",
+      "additions": 57,
+      "deletions": 0
+    },
     {
       "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/dropbear/defconfig",
       "additions": 104,
@@ -32,7 +37,7 @@
     }
   ],
   "headRefName": "feature/dropbear-esp32c3-port",
-  "headRefOid": "a29c70dfbcdbccd723e62fa693444669f3a149bb",
+  "headRefOid": "a4ec6f5c05992d086fe7e8e1b9c3155addd6d38a",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx",
@@ -44,7 +49,7 @@
     "login": "FelipeMdeO"
   },
   "id": "PR_kwDODZiUac7j6-CO",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiUac8AAAABvj_ZzA",
@@ -74,6 +79,6 @@
   "number": 19062,
   "state": "OPEN",
   "title": "boards/esp32c3-devkit: add Dropbear SSH server configuration",
-  "updatedAt": "2026-06-08T18:02:02Z",
+  "updatedAt": "2026-06-13T16:30:40Z",
   "url": "https://github.com/apache/nuttx/pull/19062"
 }
