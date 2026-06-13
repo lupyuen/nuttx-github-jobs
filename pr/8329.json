@@ -1,0 +1,225 @@
+{
+  "additions": 5425,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjg3MjQ5NzU=",
+    "is_bot": false,
+    "login": "robertlipe",
+    "name": "Robert Lipe"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 36,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2023-01-28T16:45:36Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": ".ackrc",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": ".gdbinit",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "STATUS-rjl",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/Kconfig",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/include/ch32v/irq.h",
+      "additions": 210,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/Make.defs",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_gpio.h",
+      "additions": 340,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_head.S",
+      "additions": 454,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_irq.c",
+      "additions": 191,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_irq_dispatch.c",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_lowputc.c",
+      "additions": 367,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_lowputc.h",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_serial.c",
+      "additions": 961,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_start.c",
+      "additions": 244,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_tim.c",
+      "additions": 800,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/ch32v_tim.h",
+      "additions": 513,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/chip.h",
+      "additions": 38,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/ch32v/hardware/ch32v_hardware.h",
+      "additions": 101,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/configs/nsh/defconfig",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/include/board.h",
+      "additions": 119,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/scripts/Make.defs",
+      "additions": 54,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/scripts/ld.script",
+      "additions": 166,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/scripts/ld.script_",
+      "additions": 208,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/src/Makefile",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/src/ch32v307evt.h",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/src/ch32v_appinit.c",
+      "additions": 98,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/src/ch32v_boot.c",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/ch32v/ch32v307evt/src/ch32v_bringup.c",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "cfg-602",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "cfg-ch32v",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "g",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "l",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "mkd",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ch32v",
+  "headRefOid": "68b942eab1012e7ebbc3edc4bbd0422a3b676711",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkzNzkyNTkwMjY=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjg3MjQ5NzU=",
+    "name": "Robert Lipe",
+    "login": "robertlipe"
+  },
+  "id": "PR_kwDODZiUac5IvNMG",
+  "isDraft": true,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 8329,
+  "state": "OPEN",
+  "title": "Ch32v: a pull request of commits to date",
+  "updatedAt": "2026-06-13T15:00:03Z",
+  "url": "https://github.com/apache/nuttx/pull/8329"
+}
