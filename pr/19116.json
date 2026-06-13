@@ -1,5 +1,5 @@
 {
-  "additions": 102,
+  "additions": 217,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 27,
+  "changedFiles": 34,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T05:53:42Z",
-  "deletions": 60,
+  "deletions": 114,
   "files": [
     {
       "path": "arch/arm/src/armv6-m/arm_svcall.c",
@@ -62,18 +62,43 @@
     },
     {
       "path": "include/sys/syscall_lookup.h",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/pthread/pthread_kill.c",
+      "additions": 25,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/signal/CMakeLists.txt",
       "additions": 2,
       "deletions": 0
     },
     {
-      "path": "libs/libc/pthread/pthread_mutex_consistent.c",
+      "path": "libs/libc/signal/Make.defs",
       "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/signal/sig_kill.c",
+      "additions": 89,
       "deletions": 0
     },
     {
       "path": "sched/Kconfig",
-      "additions": 7,
-      "deletions": 2
+      "additions": 3,
+      "deletions": 0
     },
     {
       "path": "sched/group/group_leave.c",
@@ -121,6 +146,11 @@
       "deletions": 2
     },
     {
+      "path": "sched/signal/sig_kill.c",
+      "additions": 0,
+      "deletions": 47
+    },
+    {
       "path": "sched/signal/sig_procmask.c",
       "additions": 0,
       "deletions": 2
@@ -149,10 +179,15 @@
       "path": "sched/task/task_setup.c",
       "additions": 1,
       "deletions": 2
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 0,
+      "deletions": 1
     }
   ],
   "headRefName": "fix_compilation_errors_with_partial_signals",
-  "headRefOid": "d249031ba7f0b589b519d1e0ee5f2df54aa6847e",
+  "headRefOid": "da6ad522f57c679bb3f3a45000709e58db6e30e3",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -211,6 +246,6 @@
   "number": 19116,
   "state": "OPEN",
   "title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-  "updatedAt": "2026-06-13T05:59:25Z",
+  "updatedAt": "2026-06-13T13:07:37Z",
   "url": "https://github.com/apache/nuttx/pull/19116"
 }

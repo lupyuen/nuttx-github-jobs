@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-13T13:07:02Z",
   "createdAt": "2026-06-11T13:54:34Z",
   "deletions": 16,
   "files": [
@@ -89,15 +89,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "03685825c9f56ca2221ed455ed497e9c3eea17f3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-13T13:07:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19122,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/binfmt: Enforce POSIX execute permissions prior to binary load",
-  "updatedAt": "2026-06-13T10:54:20Z",
+  "updatedAt": "2026-06-13T13:07:02Z",
   "url": "https://github.com/apache/nuttx/pull/19122"
 }
