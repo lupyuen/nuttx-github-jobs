@@ -1,5 +1,5 @@
 {
-  "additions": 127,
+  "additions": 143,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 30,
+  "changedFiles": 31,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T05:53:42Z",
-  "deletions": 74,
+  "deletions": 94,
   "files": [
     {
       "path": "arch/arm/src/armv6-m/arm_svcall.c",
@@ -76,6 +76,11 @@
       "deletions": 3
     },
     {
+      "path": "libs/libc/pthread/pthread_mutex_destroy.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
       "path": "sched/Kconfig",
       "additions": 3,
       "deletions": 0
@@ -117,8 +122,8 @@
     },
     {
       "path": "sched/signal/sig_dispatch.c",
-      "additions": 17,
-      "deletions": 11
+      "additions": 33,
+      "deletions": 29
     },
     {
       "path": "sched/signal/sig_initialize.c",
@@ -167,7 +172,7 @@
     }
   ],
   "headRefName": "fix_compilation_errors_with_partial_signals",
-  "headRefOid": "537bb7b31427fe26626547acc5196eb806dd5d6e",
+  "headRefOid": "0cb3262ab4e9ca3e86109e070eda44f5d2e18b48",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -226,6 +231,6 @@
   "number": 19116,
   "state": "OPEN",
   "title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-  "updatedAt": "2026-06-14T10:58:19Z",
+  "updatedAt": "2026-06-14T11:11:35Z",
   "url": "https://github.com/apache/nuttx/pull/19116"
 }
