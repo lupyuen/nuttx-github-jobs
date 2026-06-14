@@ -4,6 +4,62 @@
     "build_board": "sim",
     "build_config": "ft2232h_gpio",
     "build_group": "sim-02",
+    "build_msg": "Package libftdi1 was not found in the pkg-config search path. \n Perhaps you should add the directory containing `libftdi1.pc' \n to the PKG_CONFIG_PATH environment variable \n No package 'libftdi1' found \n Package libftdi1 was not found in the pkg-config search path. \n Perhaps you should add the directory containing `libftdi1.pc' \n to the PKG_CONFIG_PATH environment variable \n No package 'libftdi1' found \n In file included from ./sim/sim_ft2232h_ioexpander.c:29: \n ./sim/sim_ft2232h_ioexpander.h:33:10",
+    "build_score": 0,
+    "build_subarch": "unknown",
+    "build_timestamp": "2026-06-14T14:49:16",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/27502031409/job/81286673208#step:10:628",
+    "build_version": "3",
+    "job_conclusion": "cancelled",
+    "job_createdAt": "2026-06-14T14:34:30Z",
+    "job_databaseId": 27502031409,
+    "job_displayTitle": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
+    "job_event": "pull_request",
+    "job_headBranch": "sim_ft2232h",
+    "job_headSha": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "job_name": "Build",
+    "job_number": 55260,
+    "job_run_duration_ms": "1149000",
+    "job_startedAt": "2026-06-14T14:34:30Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-14T14:53:39Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/27502031409",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 1079,
+    "pr_assignees": [],
+    "pr_author": "acassis",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 13,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-05-24T19:57:21Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "sim_ft2232h",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
+    "pr_headRepository": "incubator-nuttx",
+    "pr_headRepositoryOwner": "acassis",
+    "pr_id": "PR_kwDODZiUac7e1N3D",
+    "pr_isDraft": false,
+    "pr_labels": "Area: Documentation, Arch: simulator, Size: XL, Board: simulator",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 18951,
+    "pr_state": "OPEN",
+    "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/18951"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "ft2232h_gpio",
+    "build_group": "sim-02",
     "build_msg": "Package libftdi1 was not found in the pkg-config search path. \n Perhaps you should add the directory containing `libftdi1.pc' \n to the PKG_CONFIG_PATH environment variable \n No package 'libftdi1' found \n In file included from ./sim/sim_ft2232h_ioexpander.c:29: \n ./sim/sim_ft2232h_ioexpander.h:33:10: fatal error: ftdi.h: No such file or directory \n 33 | #include <ftdi.h> \n |          ^~~~~~~~ \n compilation terminated. \n Package libftdi1 was not found in the pkg-config search path. \n Perhaps you sho",
     "build_score": 0,
     "build_subarch": "unknown",
@@ -26,7 +82,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/27501670441",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -37,7 +93,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -52,7 +108,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -82,7 +138,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/27500879737",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -93,7 +149,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -108,7 +164,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -138,7 +194,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/27500879737",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -149,7 +205,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -164,7 +220,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -220,7 +276,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -276,7 +332,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -332,7 +388,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -388,7 +444,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -444,7 +500,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -500,7 +556,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -612,7 +668,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -668,7 +724,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -724,7 +780,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -780,7 +836,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -816,8 +872,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -827,16 +883,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -892,7 +948,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1040,8 +1096,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -1051,16 +1107,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -1116,7 +1172,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -1788,7 +1844,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -1900,7 +1956,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -2068,7 +2124,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -2124,7 +2180,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -2180,7 +2236,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -3181,7 +3237,7 @@
     "pr_labels": "Arch: arm, Size: M",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
@@ -3237,7 +3293,7 @@
     "pr_labels": "Arch: arm, Size: M",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
@@ -3804,7 +3860,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -3860,7 +3916,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -3916,7 +3972,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -3965,7 +4021,7 @@
     "pr_labels": "Area: File System, Size: S",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
@@ -4028,7 +4084,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -4077,7 +4133,7 @@
     "pr_labels": "Area: File System, Size: S",
     "pr_mergeCommit": "",
     "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
@@ -4196,7 +4252,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -4308,7 +4364,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -4420,7 +4476,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4644,7 +4700,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4868,7 +4924,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -4980,7 +5036,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -5036,7 +5092,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -5372,7 +5428,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -5428,7 +5484,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -5484,7 +5540,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -7780,7 +7836,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -7836,7 +7892,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -7892,7 +7948,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -7948,7 +8004,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -8284,7 +8340,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -8432,8 +8488,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -8443,16 +8499,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -8732,7 +8788,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -8788,7 +8844,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -8844,7 +8900,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -8900,7 +8956,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -8956,7 +9012,7 @@
     "pr_number": 19116,
     "pr_state": "OPEN",
     "pr_title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-    "pr_updatedAt": "2026-06-14T14:34:25Z",
+    "pr_updatedAt": "2026-06-14T14:52:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19116"
   },
   {
@@ -9236,7 +9292,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9292,7 +9348,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9348,7 +9404,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9404,7 +9460,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9460,7 +9516,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9572,7 +9628,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9628,7 +9684,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9684,7 +9740,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9740,7 +9796,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -9796,7 +9852,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -10132,7 +10188,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -10188,7 +10244,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16180,7 +16236,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16236,7 +16292,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16292,7 +16348,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16348,7 +16404,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16404,7 +16460,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16460,7 +16516,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16516,7 +16572,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16572,7 +16628,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16628,7 +16684,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16684,7 +16740,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16740,7 +16796,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16796,7 +16852,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16852,7 +16908,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16908,7 +16964,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -16964,7 +17020,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17020,7 +17076,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17076,7 +17132,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17132,7 +17188,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17188,7 +17244,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17244,7 +17300,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17300,7 +17356,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17356,7 +17412,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17412,7 +17468,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17468,7 +17524,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17524,7 +17580,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17580,7 +17636,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17636,7 +17692,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17748,7 +17804,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17860,7 +17916,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17916,7 +17972,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -17972,7 +18028,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -18028,7 +18084,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -18084,7 +18140,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -18364,7 +18420,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -46076,15 +46132,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -46132,15 +46188,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -46188,15 +46244,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -46244,15 +46300,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -46300,15 +46356,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -46364,7 +46420,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -46412,15 +46468,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -46476,7 +46532,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -46524,15 +46580,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -46588,7 +46644,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -46644,7 +46700,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -47532,15 +47588,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -47596,7 +47652,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -47652,7 +47708,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -47708,7 +47764,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -47764,7 +47820,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -47812,15 +47868,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -47876,7 +47932,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -48036,15 +48092,15 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Tooling, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19050,
     "pr_state": "OPEN",
     "pr_title": "tools/nxstyle: Whitelist lifecycle_msgs GetState/State identifiers.",
-    "pr_updatedAt": "2026-06-14T14:05:42Z",
+    "pr_updatedAt": "2026-06-14T15:05:02Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19050"
   },
   {
@@ -48156,7 +48212,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -48212,7 +48268,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49332,7 +49388,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49388,7 +49444,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49444,7 +49500,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49500,7 +49556,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49556,7 +49612,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49612,7 +49668,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49668,7 +49724,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -49724,7 +49780,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -50004,7 +50060,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -50060,7 +50116,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -50228,7 +50284,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -50284,7 +50340,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -50396,7 +50452,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -50676,7 +50732,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -50936,8 +50992,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -50947,16 +51003,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -52168,8 +52224,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -52179,16 +52235,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -54240,8 +54296,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -54251,16 +54307,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -54744,8 +54800,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -54755,16 +54811,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -54912,8 +54968,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -54923,16 +54979,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -55080,8 +55136,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -55091,16 +55147,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -72180,7 +72236,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72236,7 +72292,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72292,7 +72348,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72348,7 +72404,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72404,7 +72460,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72460,7 +72516,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72516,7 +72572,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72572,7 +72628,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72628,7 +72684,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72684,7 +72740,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72740,7 +72796,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72796,7 +72852,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72852,7 +72908,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72908,7 +72964,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -72964,7 +73020,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73132,7 +73188,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73300,7 +73356,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73356,7 +73412,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73468,7 +73524,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73636,7 +73692,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73692,7 +73748,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73804,7 +73860,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73916,7 +73972,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -73972,7 +74028,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -74084,7 +74140,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -74196,7 +74252,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -74364,7 +74420,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -74532,7 +74588,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -74700,7 +74756,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -74812,7 +74868,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -74924,7 +74980,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75036,7 +75092,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75148,7 +75204,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75260,7 +75316,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75372,7 +75428,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75484,7 +75540,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75596,7 +75652,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75708,7 +75764,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75764,7 +75820,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75820,7 +75876,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75932,7 +75988,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -75988,7 +76044,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76044,7 +76100,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76100,7 +76156,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76156,7 +76212,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76212,7 +76268,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76324,7 +76380,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76436,7 +76492,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76548,7 +76604,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76604,7 +76660,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76716,7 +76772,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76772,7 +76828,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76884,7 +76940,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -76996,7 +77052,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77108,7 +77164,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77164,7 +77220,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77276,7 +77332,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77332,7 +77388,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77444,7 +77500,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77500,7 +77556,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77724,7 +77780,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -77948,7 +78004,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78004,7 +78060,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78172,7 +78228,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78228,7 +78284,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78340,7 +78396,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78396,7 +78452,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78508,7 +78564,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78564,7 +78620,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78732,7 +78788,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -78844,7 +78900,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -79012,7 +79068,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -79124,7 +79180,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -79236,7 +79292,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -79460,7 +79516,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -79628,7 +79684,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -79908,7 +79964,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -80076,7 +80132,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -80244,7 +80300,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -80412,7 +80468,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -80580,7 +80636,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -80692,7 +80748,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -80860,7 +80916,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -80916,7 +80972,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81028,7 +81084,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81140,7 +81196,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81252,7 +81308,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81420,7 +81476,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81532,7 +81588,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81644,7 +81700,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81700,7 +81756,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81812,7 +81868,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81868,7 +81924,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -81980,7 +82036,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -82092,7 +82148,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -82148,7 +82204,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -82372,7 +82428,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -82540,7 +82596,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -111024,8 +111080,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111035,16 +111091,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111080,8 +111136,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111091,16 +111147,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111136,8 +111192,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111147,16 +111203,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111192,8 +111248,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111203,16 +111259,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111248,8 +111304,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111259,16 +111315,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111304,8 +111360,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111315,16 +111371,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111360,8 +111416,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111371,16 +111427,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111416,8 +111472,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111427,16 +111483,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111472,8 +111528,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111483,16 +111539,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111528,8 +111584,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111539,16 +111595,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111584,8 +111640,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111595,16 +111651,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111640,8 +111696,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111651,16 +111707,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111696,8 +111752,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111707,16 +111763,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111752,8 +111808,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111763,16 +111819,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111808,8 +111864,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111819,16 +111875,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111864,8 +111920,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111875,16 +111931,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111920,8 +111976,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111931,16 +111987,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -111976,8 +112032,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -111987,16 +112043,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112032,8 +112088,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112043,16 +112099,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112088,8 +112144,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112099,16 +112155,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112144,8 +112200,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112155,16 +112211,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112200,8 +112256,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112211,16 +112267,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112256,8 +112312,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112267,16 +112323,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112312,8 +112368,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112323,16 +112379,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112368,8 +112424,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112379,16 +112435,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112424,8 +112480,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112435,16 +112491,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112480,8 +112536,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112491,16 +112547,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112536,8 +112592,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112547,16 +112603,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112592,8 +112648,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112603,16 +112659,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112648,8 +112704,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112659,16 +112715,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112704,8 +112760,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112715,16 +112771,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112760,8 +112816,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112771,16 +112827,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112816,8 +112872,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112827,16 +112883,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112872,8 +112928,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112883,16 +112939,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112928,8 +112984,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112939,16 +112995,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -112984,8 +113040,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -112995,16 +113051,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -113040,8 +113096,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -113051,16 +113107,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -113096,8 +113152,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -113107,16 +113163,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -113152,8 +113208,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -113163,16 +113219,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -113208,8 +113264,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -113219,16 +113275,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -113264,8 +113320,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -113275,16 +113331,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -114104,8 +114160,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -114115,16 +114171,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -115336,8 +115392,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 26,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-14T14:54:12Z",
     "pr_createdAt": "2026-06-02T20:58:40Z",
     "pr_deletions": 264,
     "pr_headRefName": "rp2350-rv-smp",
@@ -115347,16 +115403,16 @@
     "pr_id": "PR_kwDODZiUac7h95b0",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "",
+    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
     "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergedAt": "2026-06-14T14:54:12Z",
+    "pr_mergedBy": "xiaoxiang781216",
     "pr_milestone": null,
     "pr_number": 19026,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-14T14:11:15Z",
+    "pr_updatedAt": "2026-06-14T14:54:12Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19026"
   },
   {
@@ -117652,7 +117708,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -117708,7 +117764,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -118156,7 +118212,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -118212,7 +118268,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -118268,7 +118324,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -118380,7 +118436,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119052,7 +119108,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119108,7 +119164,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119164,7 +119220,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119220,7 +119276,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119276,7 +119332,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119332,7 +119388,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119388,7 +119444,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119444,7 +119500,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119500,7 +119556,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119556,7 +119612,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119612,7 +119668,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119668,7 +119724,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119724,7 +119780,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119780,7 +119836,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119836,7 +119892,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119892,7 +119948,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -119948,7 +120004,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120004,7 +120060,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120060,7 +120116,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120228,7 +120284,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120284,7 +120340,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120564,7 +120620,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120676,7 +120732,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120732,7 +120788,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120788,7 +120844,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120844,7 +120900,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -120956,7 +121012,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121012,7 +121068,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121068,7 +121124,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121124,7 +121180,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121180,7 +121236,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121236,7 +121292,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121292,7 +121348,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121348,7 +121404,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121404,7 +121460,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121516,7 +121572,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121572,7 +121628,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121628,7 +121684,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121684,7 +121740,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -121740,7 +121796,7 @@
     "pr_number": 19004,
     "pr_state": "OPEN",
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-    "pr_updatedAt": "2026-06-14T10:27:29Z",
+    "pr_updatedAt": "2026-06-14T15:12:03Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
   },
   {
@@ -123730,7 +123786,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26662263923",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -123741,7 +123797,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -123756,7 +123812,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -123786,7 +123842,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26662263923",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -123797,7 +123853,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -123812,7 +123868,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -132491,7 +132547,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371839779",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -132502,7 +132558,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -132517,7 +132573,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -132715,7 +132771,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -132726,7 +132782,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -132741,7 +132797,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -132771,7 +132827,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -132782,7 +132838,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -132797,7 +132853,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -132827,7 +132883,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -132838,7 +132894,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -132853,7 +132909,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -132883,7 +132939,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -132894,7 +132950,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -132909,7 +132965,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -132939,7 +132995,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -132950,7 +133006,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -132965,7 +133021,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -132995,7 +133051,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -133006,7 +133062,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -133021,7 +133077,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -133051,7 +133107,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -133062,7 +133118,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -133077,7 +133133,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -133107,7 +133163,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -133118,7 +133174,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -133133,7 +133189,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -133163,7 +133219,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -133174,7 +133230,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -133189,7 +133245,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -133219,7 +133275,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -133230,7 +133286,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -133245,7 +133301,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -133275,7 +133331,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/26371261567",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 1072,
+    "pr_additions": 1079,
     "pr_assignees": [],
     "pr_author": "acassis",
     "pr_autoMergeRequest": null,
@@ -133286,7 +133342,7 @@
     "pr_createdAt": "2026-05-24T19:57:21Z",
     "pr_deletions": 6,
     "pr_headRefName": "sim_ft2232h",
-    "pr_headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
+    "pr_headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
     "pr_headRepository": "incubator-nuttx",
     "pr_headRepositoryOwner": "acassis",
     "pr_id": "PR_kwDODZiUac7e1N3D",
@@ -133301,7 +133357,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-14T14:34:51Z",
+    "pr_updatedAt": "2026-06-14T15:15:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
