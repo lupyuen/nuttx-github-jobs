@@ -1,5 +1,5 @@
 {
-  "additions": 1079,
+  "additions": 408,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 13,
+  "changedFiles": 11,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-24T19:57:21Z",
-  "deletions": 6,
+  "deletions": 19,
   "files": [
     {
       "path": "Documentation/platforms/sim/index.rst",
@@ -27,48 +27,38 @@
     },
     {
       "path": "Documentation/platforms/sim/sim_ft2232h_gpio.rst",
-      "additions": 210,
+      "additions": 209,
       "deletions": 0
     },
     {
       "path": "arch/sim/Kconfig",
       "additions": 25,
-      "deletions": 4
+      "deletions": 5
     },
     {
       "path": "arch/sim/src/Makefile",
-      "additions": 8,
-      "deletions": 0
+      "additions": 10,
+      "deletions": 1
     },
     {
       "path": "arch/sim/src/sim/CMakeLists.txt",
-      "additions": 5,
-      "deletions": 0
-    },
-    {
-      "path": "arch/sim/src/sim/posix/sim_ft2232h.c",
-      "additions": 307,
-      "deletions": 0
-    },
-    {
-      "path": "arch/sim/src/sim/sim_ft2232h_ioexpander.c",
-      "additions": 336,
-      "deletions": 0
-    },
-    {
-      "path": "arch/sim/src/sim/sim_ft2232h_ioexpander.h",
-      "additions": 57,
-      "deletions": 0
-    },
-    {
-      "path": "arch/sim/src/sim/sim_gpiochip.h",
-      "additions": 9,
+      "additions": 15,
       "deletions": 2
     },
     {
+      "path": "arch/sim/src/sim/sim_gpiochip.c",
+      "additions": 11,
+      "deletions": 2
+    },
+    {
+      "path": "arch/sim/src/sim/sim_gpiochip.h",
+      "additions": 15,
+      "deletions": 8
+    },
+    {
       "path": "arch/sim/src/sim/sim_internal.h",
-      "additions": 5,
-      "deletions": 0
+      "additions": 6,
+      "deletions": 1
     },
     {
       "path": "boards/sim/sim/sim/configs/ft2232h_gpio/defconfig",
@@ -82,7 +72,7 @@
     }
   ],
   "headRefName": "sim_ft2232h",
-  "headRefOid": "b75a37f0cf89de56f816ef3126bb32dbdd1e3b17",
+  "headRefOid": "86811674cfe20cd1ba0c96a11070141386a9b8ab",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -109,9 +99,9 @@
       "color": "DC5544"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_dNA",
-      "name": "Size: XL",
-      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     },
     {
@@ -130,6 +120,6 @@
   "number": 18951,
   "state": "OPEN",
   "title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-  "updatedAt": "2026-06-14T17:49:12Z",
+  "updatedAt": "2026-06-14T19:09:14Z",
   "url": "https://github.com/apache/nuttx/pull/18951"
 }
