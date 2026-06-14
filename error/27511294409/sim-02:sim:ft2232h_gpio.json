@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-14T20:53:44",
+"arch": "sim",
+"subarch": "unknown",
+"group": "sim-02",
+"board": "sim",
+"config": "ft2232h_gpio",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27511294409/job/81311864569#step:10:460",
+"msg": "In file included from /github/workspace/sources/nuttx/arch/sim/src/chip/sim_gpiochip.h:36, \n from ./sim_bringup.c:79: \n 33 | #include <ftdi.h> \n |          ^~~~~~~~ \n compilation terminated. \n ERROR: cc failed: 1 \n command: cc -MT ./sim_bringup.o  -M '-g' '-fomit-frame-pointer' '-fprofile-arcs' '-ftest-coverage' '-fno-inline' '-fno-common' '-fvisibility=hidden' '-ffunction-sections' '-fdata-sections' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-fno-pic'"
+}
