@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1146,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-14T14:35:32Z",
   "createdAt": "2026-06-14T10:26:27Z",
   "deletions": 62658,
   "files": [
@@ -556,15 +556,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "704815b2332f02562286b9ff5432ea0d8d290c73"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-14T14:35:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19136,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!arch/stm32: unify all Kconfig options for STM32 ports.",
-  "updatedAt": "2026-06-14T11:44:17Z",
+  "updatedAt": "2026-06-14T14:35:32Z",
   "url": "https://github.com/apache/nuttx/pull/19136"
 }

@@ -1,5 +1,5 @@
 {
-  "additions": 1062,
+  "additions": 1072,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -9,15 +9,20 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 11,
+  "changedFiles": 13,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-24T19:57:21Z",
-  "deletions": 2,
+  "deletions": 6,
   "files": [
     {
       "path": "Documentation/platforms/sim/index.rst",
       "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
+      "additions": 18,
       "deletions": 0
     },
     {
@@ -27,12 +32,17 @@
     },
     {
       "path": "arch/sim/Kconfig",
-      "additions": 37,
-      "deletions": 0
+      "additions": 25,
+      "deletions": 4
     },
     {
       "path": "arch/sim/src/Makefile",
-      "additions": 10,
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/CMakeLists.txt",
+      "additions": 5,
       "deletions": 0
     },
     {
@@ -62,7 +72,7 @@
     },
     {
       "path": "boards/sim/sim/sim/configs/ft2232h_gpio/defconfig",
-      "additions": 75,
+      "additions": 76,
       "deletions": 0
     },
     {
@@ -72,7 +82,7 @@
     }
   ],
   "headRefName": "sim_ft2232h",
-  "headRefOid": "2b0346977d7381b8b87b524df402e8eaf5feb73c",
+  "headRefOid": "6c1c27a36a6842d852c93f45fe3fab2affaf5507",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -120,6 +130,6 @@
   "number": 18951,
   "state": "OPEN",
   "title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-  "updatedAt": "2026-06-14T13:49:59Z",
+  "updatedAt": "2026-06-14T14:34:51Z",
   "url": "https://github.com/apache/nuttx/pull/18951"
 }
