@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 12,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-14T10:41:10Z",
   "createdAt": "2026-06-08T02:05:50Z",
   "deletions": 0,
   "files": [
@@ -110,15 +110,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "cf9c51d14485f462c1a2a091a5989fe4b8e3c3d7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-14T10:41:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19056,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/crypto: add Microchip RNG90 support, esp32c3-devkit enablement and documentation",
-  "updatedAt": "2026-06-13T20:50:46Z",
+  "updatedAt": "2026-06-14T10:41:10Z",
   "url": "https://github.com/apache/nuttx/pull/19056"
 }
