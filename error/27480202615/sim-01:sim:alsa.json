@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-13T22:00:05",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-01",
+"board": "sim",
+"config": "alsa",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27480202615/job/81226659302#step:10:274",
+"msg": "svn: E170013: Unable to connect to a repository at URL 'https://svn.code.sf.net/p/lame/svn/trunk/lame' \n svn: E000104: Error running context: Connection reset by peer \n CMake Error at cmake/nuttx_add_library.cmake:210 (add_library): \n Cannot find source file: \n /github/workspace/sources/apps/audioutils/lame/lame/libmp3lame/bitstream.c \n Call Stack (most recent call first): \n /github/workspace/sources/apps/audioutils/lame/CMakeLists.txt:110 (nuttx_add_library) \n CMake Error at cmake/nuttx_add_library."
+}
