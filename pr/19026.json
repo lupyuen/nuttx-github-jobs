@@ -1,5 +1,5 @@
 {
-  "additions": 488,
+  "additions": 487,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjc0MDgw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 25,
+  "changedFiles": 26,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-02T20:58:40Z",
-  "deletions": 263,
+  "deletions": 264,
   "files": [
     {
       "path": "Documentation/platforms/risc-v/rp23xx-rv/index.rst",
@@ -31,13 +31,18 @@
       "deletions": 0
     },
     {
+      "path": "arch/risc-v/src/rp23xx-rv/CMakeLists.txt",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
       "path": "arch/risc-v/src/rp23xx-rv/Kconfig",
       "additions": 3,
       "deletions": 0
     },
     {
       "path": "arch/risc-v/src/rp23xx-rv/Make.defs",
-      "additions": 4,
+      "additions": 1,
       "deletions": 1
     },
     {
@@ -142,7 +147,7 @@
     }
   ],
   "headRefName": "rp2350-rv-smp",
-  "headRefOid": "03bc5d4aeb66b8d1e372f600ce815f036cbb9df8",
+  "headRefOid": "a2393981bddd2d268da865c06c25c9a9eb385b63",
   "headRepository": {
     "id": "R_kgDOOZyxlA",
     "name": "nuttx",
@@ -190,6 +195,6 @@
   "number": 19026,
   "state": "OPEN",
   "title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-  "updatedAt": "2026-06-14T05:13:02Z",
+  "updatedAt": "2026-06-14T06:07:17Z",
   "url": "https://github.com/apache/nuttx/pull/19026"
 }
