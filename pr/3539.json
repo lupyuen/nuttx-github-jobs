@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-14T11:56:45Z",
   "createdAt": "2026-06-12T07:58:59Z",
   "deletions": 64,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "afc652243efd77f6050ef1c8c3a0c1a2755f4195"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-14T11:56:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3539,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/thttpd: use procfs for tasks CGI",
-  "updatedAt": "2026-06-14T10:42:13Z",
+  "updatedAt": "2026-06-14T11:56:45Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3539"
 }
