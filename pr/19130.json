@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-14T11:46:47Z",
   "createdAt": "2026-06-13T06:36:45Z",
   "deletions": 65,
   "files": [
@@ -65,15 +65,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f9912abf5f8e83b02dc6e0f321cd3af36fe2b8df"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-14T11:46:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19130,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/nrf91: expose GNSS priority as a control ioctl",
-  "updatedAt": "2026-06-13T07:52:24Z",
+  "updatedAt": "2026-06-14T11:46:47Z",
   "url": "https://github.com/apache/nuttx/pull/19130"
 }

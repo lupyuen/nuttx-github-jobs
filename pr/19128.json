@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-14T11:50:19Z",
   "createdAt": "2026-06-13T06:15:50Z",
   "deletions": 0,
   "files": [
@@ -80,15 +80,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3271a441388280f60de37df6ef9dc1fb9fe7e573"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-14T11:50:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19128,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/nrf91: add GPIOTE support",
-  "updatedAt": "2026-06-13T07:51:41Z",
+  "updatedAt": "2026-06-14T11:50:19Z",
   "url": "https://github.com/apache/nuttx/pull/19128"
 }
