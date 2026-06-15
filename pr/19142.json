@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-15T12:44:57Z",
   "createdAt": "2026-06-15T10:03:36Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ba4f774d8c08f3ae90e5ad786a3e6bc412a63b73"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-15T12:44:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 19142,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/common/stm32/Kconfig.i2c: add missing new line",
-  "updatedAt": "2026-06-15T12:12:30Z",
+  "updatedAt": "2026-06-15T12:44:58Z",
   "url": "https://github.com/apache/nuttx/pull/19142"
 }
