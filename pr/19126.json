@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-15T17:45:31Z",
   "createdAt": "2026-06-12T09:27:18Z",
   "deletions": 6,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "82fb723bdec599a02ffad66934d6096ede826af1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-15T17:45:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19126,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/littlefs: add block_size_factor mount option",
-  "updatedAt": "2026-06-15T15:01:45Z",
+  "updatedAt": "2026-06-15T17:45:31Z",
   "url": "https://github.com/apache/nuttx/pull/19126"
 }

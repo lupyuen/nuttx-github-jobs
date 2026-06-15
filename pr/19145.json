@@ -1,5 +1,5 @@
 {
-  "additions": 19,
+  "additions": 22,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -9,16 +9,16 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 5,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-15T14:05:35Z",
-  "deletions": 12,
+  "deletions": 13,
   "files": [
     {
       "path": "drivers/mtd/Kconfig",
-      "additions": 3,
-      "deletions": 1
+      "additions": 4,
+      "deletions": 2
     },
     {
       "path": "drivers/mtd/ftl.c",
@@ -31,13 +31,18 @@
       "deletions": 0
     },
     {
+      "path": "drivers/mtd/mtd_progmem.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
       "path": "include/nuttx/mtd/mtd.h",
       "additions": 10,
       "deletions": 2
     }
   ],
   "headRefName": "fix_ftl_bbm_configuration",
-  "headRefOid": "a2124148c5c41a02dacab8a0e1946dafa9aaf50c",
+  "headRefOid": "d9348169ef418da6d1a1a5a36278dd0c436d015f",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -64,14 +69,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19145,
   "state": "OPEN",
   "title": "drivers/mtd: Make compile time check for sane mtd isbad/markbad configuration",
-  "updatedAt": "2026-06-15T15:32:58Z",
+  "updatedAt": "2026-06-15T17:27:59Z",
   "url": "https://github.com/apache/nuttx/pull/19145"
 }
