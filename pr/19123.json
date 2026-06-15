@@ -1,5 +1,5 @@
 {
-  "additions": 169,
+  "additions": 44,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM0MTAzMzI=",
@@ -9,35 +9,25 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T17:08:41Z",
   "deletions": 0,
   "files": [
     {
-      "path": "arch/arm/src/armv7-m/Kconfig",
-      "additions": 12,
+      "path": "arch/arm/src/armv7-m/arm_sigdeliver.c",
+      "additions": 22,
       "deletions": 0
     },
     {
-      "path": "arch/arm/src/armv7-m/arm_exception.S",
-      "additions": 73,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/src/armv8-m/Kconfig",
-      "additions": 12,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/src/armv8-m/arm_exception.S",
-      "additions": 72,
+      "path": "arch/arm/src/armv8-m/arm_sigdeliver.c",
+      "additions": 22,
       "deletions": 0
     }
   ],
   "headRefName": "arm-sp-context-restore",
-  "headRefOid": "fb82cee81d9d8b90a115ca7d23b1b9a3235621eb",
+  "headRefOid": "8073d228e2ec7795c4f7b565108fbc05fa1aac56",
   "headRepository": {
     "id": "R_kgDOS3xcwQ",
     "name": "nuttx",
@@ -73,6 +63,6 @@
   "number": 19123,
   "state": "OPEN",
   "title": "armv7-m/armv8-m: honor SP modifications on exception return",
-  "updatedAt": "2026-06-15T06:55:00Z",
+  "updatedAt": "2026-06-15T16:03:16Z",
   "url": "https://github.com/apache/nuttx/pull/19123"
 }
