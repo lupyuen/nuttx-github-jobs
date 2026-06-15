@@ -1,5 +1,5 @@
 {
-  "additions": 152,
+  "additions": 156,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzMzc4Mzkw",
@@ -13,7 +13,7 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-11T05:53:42Z",
-  "deletions": 95,
+  "deletions": 102,
   "files": [
     {
       "path": "arch/arm/src/armv6-m/arm_svcall.c",
@@ -87,8 +87,8 @@
     },
     {
       "path": "sched/Kconfig",
-      "additions": 8,
-      "deletions": 0
+      "additions": 12,
+      "deletions": 7
     },
     {
       "path": "sched/group/group_leave.c",
@@ -177,7 +177,7 @@
     }
   ],
   "headRefName": "fix_compilation_errors_with_partial_signals",
-  "headRefOid": "86cb0b7c386986cf5b9064b77cde1550bb78b600",
+  "headRefOid": "d8e54e00e4b9bf8594a2afa594b8a43eae97768e",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkzMDczODU0MTg=",
     "name": "nuttx",
@@ -242,6 +242,6 @@
   "number": 19116,
   "state": "OPEN",
   "title": "arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-  "updatedAt": "2026-06-15T05:37:35Z",
+  "updatedAt": "2026-06-15T06:22:04Z",
   "url": "https://github.com/apache/nuttx/pull/19116"
 }
