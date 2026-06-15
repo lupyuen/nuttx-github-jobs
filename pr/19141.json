@@ -1,0 +1,118 @@
+{
+  "additions": 15,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjUwOTI2NDky",
+    "is_bot": false,
+    "login": "catalinv-ncc",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-15T04:48:26Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "arch/arm/src/at32/at32_can.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_mcan.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_mcan.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_can.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_fdcan.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_fdcan.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_can.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_fdcan.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_can.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/tiva/common/tiva_can.c",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "drivers/can/mcp2515.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bug/Division_by_Zero_in_CAN_Bit_Timing_Command_Implementations_for_STM32_and_AT32_Devices",
+  "headRefOid": "d9873d48574522c09130716d308b46379ac530fa",
+  "headRepository": {
+    "id": "R_kgDOS0wodw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjUwOTI2NDky",
+    "login": "catalinv-ncc"
+  },
+  "id": "PR_kwDODZiUac7mYhVi",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19141,
+  "state": "OPEN",
+  "title": "arch/arm/src/at32/at32_can: Division by Zero in CAN Bit Timing Commands",
+  "updatedAt": "2026-06-15T04:48:49Z",
+  "url": "https://github.com/apache/nuttx/pull/19141"
+}
