@@ -52,7 +52,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -108,8 +108,120 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "lua",
+    "build_group": "sim-02",
+    "build_msg": "ime     Time  Current",
+    "build_score": 0.8,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-06-15T11:56:44",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/27543730072/job/81412085136#step:10:424",
+    "build_version": "3",
+    "job_conclusion": "cancelled",
+    "job_createdAt": "2026-06-15T11:40:50Z",
+    "job_databaseId": 27543730072,
+    "job_displayTitle": "fs/littlefs: add block_size_factor mount option",
+    "job_event": "pull_request",
+    "job_headBranch": "fs_littlefs_block_size_factor_option",
+    "job_headSha": "b9ae4cfb742e87a8984b151cc06694a0b231e1e9",
+    "job_name": "Build",
+    "job_number": 55283,
+    "job_run_duration_ms": "5258000",
+    "job_startedAt": "2026-06-15T11:40:50Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-15T13:08:28Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/27543730072",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 40,
+    "pr_assignees": [],
+    "pr_author": "alexcekay",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-12T09:27:18Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "fs_littlefs_block_size_factor_option",
+    "pr_headRefOid": "0447e0d1742ec4764ec5e4d500669b422ebdb907",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "alexcekay",
+    "pr_id": "PR_kwDODZiUac7lsWdO",
+    "pr_isDraft": false,
+    "pr_labels": "Area: File System, Size: S",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19126,
+    "pr_state": "OPEN",
+    "pr_title": "fs/littlefs: add block_size_factor mount option",
+    "pr_updatedAt": "2026-06-15T13:07:52Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19126"
+  },
+  {
+    "build_arch": "arm",
+    "build_board": "thingy91",
+    "build_config": "nsh_nrf52",
+    "build_group": "arm-05",
+    "build_msg": "Ignored files: \n (use \"git add -f <file>...\" to include in what will be committed) \n drivers/segger/segger.su \n drivers/segger/serial_rtt.su \n drivers/segger/syslog_rtt.su \n Ignored files: \n (use \"git add -f <file>...\" to include in what will be committed) \n system/uorb/sensor/accel.c.github.workspace.sources.apps.system.uorb.su \n system/uorb/sensor/angle.c.github.workspace.sources.apps.system.uorb.su \n system/uorb/sensor/baro.c.github.workspace.sources.apps.system.uorb.su \n system/uorb/sensor",
+    "build_score": 0.8,
+    "build_subarch": "nrf91",
+    "build_timestamp": "2026-06-15T11:47:09",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/27541101353/job/81403120618#step:10:1573",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-15T10:48:45Z",
+    "job_databaseId": 27541101353,
+    "job_displayTitle": "arch/nrf91: improvements for LTE API",
+    "job_event": "pull_request",
+    "job_headBranch": "nuttx-nr91-lte",
+    "job_headSha": "58ba92bc4919a559818f7caa2266e97c1f76d8fa",
+    "job_name": "Build",
+    "job_number": 55280,
+    "job_run_duration_ms": "8231000",
+    "job_startedAt": "2026-06-15T10:48:45Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-15T13:05:56Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/27541101353",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 187,
+    "pr_assignees": [],
+    "pr_author": "raiden00pl",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-13T06:28:08Z",
+    "pr_deletions": 10,
+    "pr_headRefName": "nuttx-nr91-lte",
+    "pr_headRefOid": "58ba92bc4919a559818f7caa2266e97c1f76d8fa",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "raiden00pl",
+    "pr_id": "PR_kwDODZiUac7mBsJ4",
+    "pr_isDraft": false,
+    "pr_labels": "Arch: arm, Size: M",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19129,
+    "pr_state": "OPEN",
+    "pr_title": "arch/nrf91: improvements for LTE API",
+    "pr_updatedAt": "2026-06-15T12:06:44Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19129"
   },
   {
     "build_arch": "sim",
@@ -164,8 +276,64 @@
     "pr_number": 19143,
     "pr_state": "OPEN",
     "pr_title": "!arch/stm32: split stm32 and stm32f0l0g0 into per-chip-family directories",
-    "pr_updatedAt": "2026-06-15T12:21:05Z",
+    "pr_updatedAt": "2026-06-15T12:40:41Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19143"
+  },
+  {
+    "build_arch": "arm",
+    "build_board": "stm32f103-minimum",
+    "build_config": "adb",
+    "build_group": "arm-11",
+    "build_msg": "C u r r e n t \n D l o a d     U p lDolaoda d    TUoptlaola d    S pTeontta l      LSepfetn t  S p e eLde \n ft  S \n p e e0d",
+    "build_score": 0.8,
+    "build_subarch": "stm32",
+    "build_timestamp": "2026-06-15T11:05:15",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/27541101353/job/81403120619#step:10:584",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-15T10:48:45Z",
+    "job_databaseId": 27541101353,
+    "job_displayTitle": "arch/nrf91: improvements for LTE API",
+    "job_event": "pull_request",
+    "job_headBranch": "nuttx-nr91-lte",
+    "job_headSha": "58ba92bc4919a559818f7caa2266e97c1f76d8fa",
+    "job_name": "Build",
+    "job_number": 55280,
+    "job_run_duration_ms": "8231000",
+    "job_startedAt": "2026-06-15T10:48:45Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-15T13:05:56Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/27541101353",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 187,
+    "pr_assignees": [],
+    "pr_author": "raiden00pl",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-13T06:28:08Z",
+    "pr_deletions": 10,
+    "pr_headRefName": "nuttx-nr91-lte",
+    "pr_headRefOid": "58ba92bc4919a559818f7caa2266e97c1f76d8fa",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "raiden00pl",
+    "pr_id": "PR_kwDODZiUac7mBsJ4",
+    "pr_isDraft": false,
+    "pr_labels": "Arch: arm, Size: M",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19129,
+    "pr_state": "OPEN",
+    "pr_title": "arch/nrf91: improvements for LTE API",
+    "pr_updatedAt": "2026-06-15T12:06:44Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19129"
   },
   {
     "build_arch": "arm",
@@ -200,8 +368,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 1,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-15T12:44:57Z",
     "pr_createdAt": "2026-06-15T10:03:36Z",
     "pr_deletions": 1,
     "pr_headRefName": "stm32-fix-kconfig",
@@ -211,16 +379,16 @@
     "pr_id": "PR_kwDODZiUac7mew3c",
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Size: XS",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "CLEAN",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergeCommit": "ba4f774d8c08f3ae90e5ad786a3e6bc412a63b73",
+    "pr_mergeStateStatus": "UNKNOWN",
+    "pr_mergeable": "UNKNOWN",
+    "pr_mergedAt": "2026-06-15T12:44:57Z",
+    "pr_mergedBy": "michallenc",
     "pr_milestone": null,
     "pr_number": 19142,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "arch/arm/src/common/stm32/Kconfig.i2c: add missing new line",
-    "pr_updatedAt": "2026-06-15T12:12:30Z",
+    "pr_updatedAt": "2026-06-15T12:44:58Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19142"
   },
   {
@@ -276,7 +444,7 @@
     "pr_number": 19143,
     "pr_state": "OPEN",
     "pr_title": "!arch/stm32: split stm32 and stm32f0l0g0 into per-chip-family directories",
-    "pr_updatedAt": "2026-06-15T12:21:05Z",
+    "pr_updatedAt": "2026-06-15T12:40:41Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19143"
   },
   {
@@ -324,7 +492,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -380,7 +548,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -436,7 +604,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -716,7 +884,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -772,7 +940,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -1340,7 +1508,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -1620,7 +1788,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -1780,7 +1948,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -1836,7 +2004,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -1892,7 +2060,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -1948,7 +2116,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2060,7 +2228,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2180,7 +2348,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -2292,7 +2460,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -2348,7 +2516,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -2404,7 +2572,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -2460,7 +2628,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -2516,7 +2684,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -2564,7 +2732,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2620,7 +2788,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2676,7 +2844,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2732,7 +2900,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2956,7 +3124,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -3068,7 +3236,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -5252,7 +5420,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -5364,7 +5532,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -5532,7 +5700,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -5588,7 +5756,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -5644,7 +5812,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -7268,7 +7436,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -7324,7 +7492,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -7380,7 +7548,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -7418,7 +7586,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/27407330057",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 42,
+    "pr_additions": 40,
     "pr_assignees": [],
     "pr_author": "alexcekay",
     "pr_autoMergeRequest": null,
@@ -7429,7 +7597,7 @@
     "pr_createdAt": "2026-06-12T09:27:18Z",
     "pr_deletions": 6,
     "pr_headRefName": "fs_littlefs_block_size_factor_option",
-    "pr_headRefOid": "b9ae4cfb742e87a8984b151cc06694a0b231e1e9",
+    "pr_headRefOid": "0447e0d1742ec4764ec5e4d500669b422ebdb907",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "alexcekay",
     "pr_id": "PR_kwDODZiUac7lsWdO",
@@ -7444,7 +7612,7 @@
     "pr_number": 19126,
     "pr_state": "OPEN",
     "pr_title": "fs/littlefs: add block_size_factor mount option",
-    "pr_updatedAt": "2026-06-15T12:08:48Z",
+    "pr_updatedAt": "2026-06-15T13:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19126"
   },
   {
@@ -7492,7 +7660,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -7530,7 +7698,7 @@
     "job_url": "https://github.com/apache/nuttx/actions/runs/27407330057",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 42,
+    "pr_additions": 40,
     "pr_assignees": [],
     "pr_author": "alexcekay",
     "pr_autoMergeRequest": null,
@@ -7541,7 +7709,7 @@
     "pr_createdAt": "2026-06-12T09:27:18Z",
     "pr_deletions": 6,
     "pr_headRefName": "fs_littlefs_block_size_factor_option",
-    "pr_headRefOid": "b9ae4cfb742e87a8984b151cc06694a0b231e1e9",
+    "pr_headRefOid": "0447e0d1742ec4764ec5e4d500669b422ebdb907",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "alexcekay",
     "pr_id": "PR_kwDODZiUac7lsWdO",
@@ -7556,7 +7724,7 @@
     "pr_number": 19126,
     "pr_state": "OPEN",
     "pr_title": "fs/littlefs: add block_size_factor mount option",
-    "pr_updatedAt": "2026-06-15T12:08:48Z",
+    "pr_updatedAt": "2026-06-15T13:07:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19126"
   },
   {
@@ -7660,7 +7828,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -7772,7 +7940,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -8444,7 +8612,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -8500,7 +8668,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -8892,7 +9060,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -10404,7 +10572,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Size: M",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -12196,7 +12364,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -12252,7 +12420,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -12308,7 +12476,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -12364,7 +12532,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -12420,7 +12588,7 @@
     "pr_isDraft": false,
     "pr_labels": "Arch: arm, Arch: arm64, Arch: risc-v, Arch: xtensa, Area: Drivers, Size: M, Board: arm",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "UNKNOWN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -59356,7 +59524,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -59468,7 +59636,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -59524,7 +59692,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -109700,7 +109868,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111044,7 +111212,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111156,7 +111324,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111212,7 +111380,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111268,7 +111436,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111380,7 +111548,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111492,7 +111660,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111604,7 +111772,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111716,7 +111884,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111772,7 +111940,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -111884,7 +112052,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112052,7 +112220,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112164,7 +112332,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112276,7 +112444,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112444,7 +112612,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112556,7 +112724,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112668,7 +112836,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112780,7 +112948,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112892,7 +113060,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -112948,7 +113116,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113060,7 +113228,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113116,7 +113284,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113172,7 +113340,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113228,7 +113396,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113284,7 +113452,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113340,7 +113508,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113396,7 +113564,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113452,7 +113620,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113508,7 +113676,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113564,7 +113732,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113620,7 +113788,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113676,7 +113844,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113732,7 +113900,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113788,7 +113956,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113844,7 +114012,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113900,7 +114068,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -113956,7 +114124,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114012,7 +114180,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114068,7 +114236,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114124,7 +114292,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114180,7 +114348,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114236,7 +114404,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114292,7 +114460,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114348,7 +114516,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114404,7 +114572,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -114460,7 +114628,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -116812,7 +116980,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -116868,7 +117036,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -117204,7 +117372,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -117260,7 +117428,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -117316,7 +117484,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -117372,7 +117540,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -117484,7 +117652,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -117540,7 +117708,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -117932,7 +118100,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -119836,7 +120004,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -119948,7 +120116,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -120116,7 +120284,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -120396,7 +120564,7 @@
     "pr_number": 19018,
     "pr_state": "MERGED",
     "pr_title": "drivers/mtd: Remove bad block management in FTL when it is not needed",
-    "pr_updatedAt": "2026-06-15T11:10:50Z",
+    "pr_updatedAt": "2026-06-15T13:04:10Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19018"
   },
   {
@@ -127228,7 +127396,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -127284,7 +127452,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -135989,7 +136157,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136213,7 +136381,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136269,7 +136437,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136325,7 +136493,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136381,7 +136549,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136437,7 +136605,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136493,7 +136661,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136549,7 +136717,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136605,7 +136773,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136661,7 +136829,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136717,7 +136885,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
@@ -136773,7 +136941,7 @@
     "pr_number": 18951,
     "pr_state": "OPEN",
     "pr_title": "sim/ft2232h: Add FT2232H GPIO integration on NuttX sim",
-    "pr_updatedAt": "2026-06-15T12:25:03Z",
+    "pr_updatedAt": "2026-06-15T12:45:44Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18951"
   },
   {
