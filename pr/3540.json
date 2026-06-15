@@ -1,0 +1,114 @@
+{
+  "additions": 423,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "is_bot": false,
+    "login": "tmedicci",
+    "name": "Tiago Medicci Serrano"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-15T13:16:58Z",
+  "deletions": 26,
+  "files": [
+    {
+      "path": "examples/lws_echo/CMakeLists.txt",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/Kconfig",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/Makefile",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/lws_echo_main.c",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/libwebsockets/CMakeLists.txt",
+      "additions": 52,
+      "deletions": 17
+    },
+    {
+      "path": "netutils/libwebsockets/Kconfig",
+      "additions": 17,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/libwebsockets/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/libwebsockets/Makefile",
+      "additions": 14,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/libwebsockets/lws_config.h",
+      "additions": 8,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "improvement/libwebsockets_server",
+  "headRefOid": "5bbfc3b5663fd66bd0944436cc894d6da894d882",
+  "headRepository": {
+    "id": "R_kgDOIFfryw",
+    "name": "incubator-nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI4ODExNzIw",
+    "name": "Tiago Medicci Serrano",
+    "login": "tmedicci"
+  },
+  "id": "PR_kwDODZiT487mjZN3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqecSA",
+      "name": "Area: Networking",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3540,
+  "state": "OPEN",
+  "title": "netutils/libwebsockets: Remove hard-dependency on mbedTLS and enable websoket server",
+  "updatedAt": "2026-06-15T13:17:32Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3540"
+}
