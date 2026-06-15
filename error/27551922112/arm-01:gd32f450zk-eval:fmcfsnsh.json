@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-15T15:17:35",
+"arch": "arm",
+"subarch": "gd32f4",
+"group": "arm-01",
+"board": "gd32f450zk-eval",
+"config": "fmcfsnsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27551922112/job/81440743701#step:10:1307",
+"msg": "##[error]mtd/mtd_progmem.c:107:5: error: excess elements in struct initializer [-Werror] \n 107 |     NULL, \n |     ^~~~ \n mtd/mtd_progmem.c:107:5: note: (near initialization for 'g_progmem.mtd') \n ##[error]mtd/mtd_progmem.c:108:5: error: excess elements in struct initializer [-Werror] \n 108 |     \"progmem\", \n |     ^~~~~~~~~ \n mtd/mtd_progmem.c:108:5: note: (near initialization for 'g_progmem.mtd') \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:108: mtd_progmem.o] Error 1 \n"
+}
