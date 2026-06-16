@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-16T06:12:45Z",
   "createdAt": "2026-06-15T14:05:35Z",
   "deletions": 13,
   "files": [
@@ -79,15 +79,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "cbfaa7c3b0dd041d63a67f4faa3faf94ea85fead"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-16T06:12:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19145,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/mtd: Make compile time check for sane mtd isbad/markbad configuration",
-  "updatedAt": "2026-06-16T06:01:45Z",
+  "updatedAt": "2026-06-16T06:34:55Z",
   "url": "https://github.com/apache/nuttx/pull/19145"
 }
