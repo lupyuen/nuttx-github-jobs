@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 10,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-16T17:27:30Z",
   "createdAt": "2026-06-15T13:16:58Z",
   "deletions": 26,
   "files": [
@@ -100,15 +100,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ec764fbbab6afd61e05d2171c0d258853f324194"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-16T17:27:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3540,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netutils/libwebsockets: Remove hard-dependency on mbedTLS and enable websoket server",
-  "updatedAt": "2026-06-16T07:00:46Z",
+  "updatedAt": "2026-06-16T17:27:30Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3540"
 }

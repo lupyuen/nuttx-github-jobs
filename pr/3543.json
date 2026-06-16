@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-16T17:24:43Z",
   "createdAt": "2026-06-15T18:28:21Z",
   "deletions": 2,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c51180d780bc86c6a69263abf2c408093cb077fa"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-16T17:24:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3543,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/mdnsd: Create an event-based starter for mDNS daemon",
-  "updatedAt": "2026-06-16T15:23:25Z",
+  "updatedAt": "2026-06-16T17:24:43Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3543"
 }
