@@ -1,0 +1,94 @@
+{
+  "additions": 35,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "is_bot": false,
+    "login": "toku-mac",
+    "name": "Shoji Tokunaga"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-16T02:07:15Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "cmake/nuttx_add_rust.cmake",
+      "additions": 9,
+      "deletions": 1
+    },
+    {
+      "path": "examples/rust/hello/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "examples/rust/hello/Cargo.toml",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "examples/rust/hello/Makefile",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "examples/rust/hello/src/lib.rs",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "tools/Rust.mk",
+      "additions": 6,
+      "deletions": 3
+    }
+  ],
+  "headRefName": "avoid_infinite_loop_on_sim",
+  "headRefOid": "99a2aa71128f8419291254662beccc69a3289527",
+  "headRepository": {
+    "id": "R_kgDOSa-wAw",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc5NjAxMTY=",
+    "name": "Shoji Tokunaga",
+    "login": "toku-mac"
+  },
+  "id": "PR_kwDODZiT487mz0Rn",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqd4wg",
+      "name": "Area: Build System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3544,
+  "state": "OPEN",
+  "title": "examples/rust: Avoid the infinite loop on sim for hello_rust_cargo",
+  "updatedAt": "2026-06-16T02:07:47Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3544"
+}
