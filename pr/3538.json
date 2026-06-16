@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-16T06:49:23Z",
   "createdAt": "2026-06-12T07:21:55Z",
   "deletions": 96,
   "files": [
@@ -63,15 +63,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "47409451576f46c9ad4cc378df27172750af5070"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-16T06:49:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 3538,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ostest: Fix ostest for CONFIG_ENABLE_PARTIAL_SIGNALS and CONFIG_DISABLE_ALL_SIGNALS",
-  "updatedAt": "2026-06-13T14:50:15Z",
+  "updatedAt": "2026-06-16T06:49:23Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3538"
 }
