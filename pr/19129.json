@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-16T14:43:09Z",
   "createdAt": "2026-06-13T06:28:08Z",
   "deletions": 10,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1b600bd282dd058be40232ca6c989e651f83f09e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-16T14:43:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19129,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/nrf91: improvements for LTE API",
-  "updatedAt": "2026-06-16T09:09:06Z",
+  "updatedAt": "2026-06-16T14:43:09Z",
   "url": "https://github.com/apache/nuttx/pull/19129"
 }
