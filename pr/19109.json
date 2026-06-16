@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-16T22:12:31Z",
   "createdAt": "2026-06-10T13:02:08Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "dc830cefdd03efadfeae254c7f4b305256a61af5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-16T22:12:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19109,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "include/pthread : initialize wait_count in PTHREAD_COND_INITIALIZER",
-  "updatedAt": "2026-06-10T19:19:09Z",
+  "updatedAt": "2026-06-16T22:12:31Z",
   "url": "https://github.com/apache/nuttx/pull/19109"
 }
