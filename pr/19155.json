@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 32,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:11:27Z",
   "createdAt": "2026-06-17T04:09:09Z",
   "deletions": 102,
   "files": [
@@ -234,15 +234,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "361e7e29ae7f6ae6492c21b0d4a1339224d41247"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:11:27Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19155,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19116} arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
-  "updatedAt": "2026-06-17T04:09:39Z",
+  "updatedAt": "2026-06-17T09:11:27Z",
   "url": "https://github.com/apache/nuttx/pull/19155"
 }

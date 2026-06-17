@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:13:33Z",
   "createdAt": "2026-06-17T04:28:21Z",
   "deletions": 2,
   "files": [
@@ -43,15 +43,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d33e20fa1c50affe550a79aecf6fe9b0b136547f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:13:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19159,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19132} drivers/contactless/pn532: Fix Stack Overflow in PN532 driver",
-  "updatedAt": "2026-06-17T04:28:52Z",
+  "updatedAt": "2026-06-17T09:13:33Z",
   "url": "https://github.com/apache/nuttx/pull/19159"
 }

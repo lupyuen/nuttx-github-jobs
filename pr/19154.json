@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:10:35Z",
   "createdAt": "2026-06-17T04:05:47Z",
   "deletions": 12,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7f479a7e8451b66e13fa58e40184665d76509e81"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:10:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19154,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19115} arch/arm/src/stm32f7: remove duplicated stm32_exti_alarm.c source",
-  "updatedAt": "2026-06-17T04:06:21Z",
+  "updatedAt": "2026-06-17T09:10:36Z",
   "url": "https://github.com/apache/nuttx/pull/19154"
 }

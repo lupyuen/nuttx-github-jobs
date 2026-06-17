@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 19,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:10:02Z",
   "createdAt": "2026-06-17T04:00:18Z",
   "deletions": 38,
   "files": [
@@ -151,15 +151,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8ad4f90b72726241037ffb671f9a471a39119c25"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:10:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19152,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19113} avr/avrdx: Fixup contributions from KR to NuttX V13",
-  "updatedAt": "2026-06-17T04:01:22Z",
+  "updatedAt": "2026-06-17T09:10:02Z",
   "url": "https://github.com/apache/nuttx/pull/19152"
 }

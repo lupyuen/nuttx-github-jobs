@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 10,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:13:58Z",
   "createdAt": "2026-06-17T04:25:39Z",
   "deletions": 24,
   "files": [
@@ -94,15 +94,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fec3c5bc0763342328f44a549c38f40338d19577"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:13:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19158,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19118} sched/group: implement saved-set-UID/GID semantics",
-  "updatedAt": "2026-06-17T04:26:00Z",
+  "updatedAt": "2026-06-17T09:13:58Z",
   "url": "https://github.com/apache/nuttx/pull/19158"
 }

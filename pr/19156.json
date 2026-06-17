@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:11:15Z",
   "createdAt": "2026-06-17T04:16:44Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ce4e167ea732d19d29aac8f6061c5c945b13789d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:11:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19156,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19121} libs/libc/pthread/pthread_mutex: Fix robust mutex initialization",
-  "updatedAt": "2026-06-17T04:17:15Z",
+  "updatedAt": "2026-06-17T09:11:15Z",
   "url": "https://github.com/apache/nuttx/pull/19156"
 }

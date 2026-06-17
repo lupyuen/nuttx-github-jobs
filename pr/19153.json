@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 378,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:10:29Z",
   "createdAt": "2026-06-17T04:03:04Z",
   "deletions": 16445,
   "files": [
@@ -550,15 +550,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e23af454f16bc2a5ce1ad6e5a4ae1fbb31904eb3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:10:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19153,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19114} !arch: unify stm32 hardware definition names",
-  "updatedAt": "2026-06-17T04:03:35Z",
+  "updatedAt": "2026-06-17T09:10:29Z",
   "url": "https://github.com/apache/nuttx/pull/19153"
 }

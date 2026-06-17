@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T09:12:15Z",
   "createdAt": "2026-06-17T02:36:11Z",
   "deletions": 7,
   "files": [
@@ -89,15 +89,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "79d80e49187ce5ef135f6b76d89078198d6237af"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T09:12:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19148,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-documentation} Documentation: various documentation improvements",
-  "updatedAt": "2026-06-17T07:19:34Z",
+  "updatedAt": "2026-06-17T09:12:15Z",
   "url": "https://github.com/apache/nuttx/pull/19148"
 }
