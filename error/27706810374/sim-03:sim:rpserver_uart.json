@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-17T18:55:40",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-03",
+"board": "sim",
+"config": "rpserver_uart",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27706810374/job/81965971217#step:10:673",
+"msg": "##[error]clk/clk_divider.c:364:19: error: conflicting types for 'clk_register_divider'; have 'struct clk_s *(const char *, const char *, uint8_t,  uint32_t,  uint8_t,  uint8_t,  uint16_t)' {aka 'struct clk_s *(const char *, const char *, unsigned char,  unsigned int,  unsigned char,  unsigned char,  short unsigned int)'} \n 364 | FAR struct clk_s *clk_register_divider(FAR const char *name, \n |                   ^~~~~~~~~~~~~~~~~~~~ \n In file included from clk/clk_divider.c:28: \n 222 | FAR struct clk_s *c"
+}
