@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T15:17:14Z",
   "createdAt": "2026-06-17T08:44:35Z",
   "deletions": 13,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5d2145aee91b9b303de4d727c561980d779c124d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T15:17:14Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3547,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-3527} system/uorb: fix listener_top not showing topic data",
-  "updatedAt": "2026-06-17T14:16:55Z",
+  "updatedAt": "2026-06-17T15:17:14Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3547"
 }

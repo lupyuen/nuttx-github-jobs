@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T15:17:06Z",
   "createdAt": "2026-06-17T08:46:57Z",
   "deletions": 96,
   "files": [
@@ -64,15 +64,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e387f3d3f183edb459ede013bed0f229b2a97a46"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T15:17:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3548,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-3538} ostest: Make POSIX timers test work with CONFIG_ENABLE_PARTIAL_SIGNALS",
-  "updatedAt": "2026-06-17T14:19:07Z",
+  "updatedAt": "2026-06-17T15:17:06Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3548"
 }
