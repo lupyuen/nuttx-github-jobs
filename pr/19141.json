@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 11,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-17T12:01:53Z",
   "createdAt": "2026-06-15T04:48:26Z",
   "deletions": 13,
   "files": [
@@ -104,15 +104,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b82ceb62a7a45ab46ce4201fd5ca4b77caad16f6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-17T12:01:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19141,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/at32/at32_can: Division by Zero in CAN Bit Timing Commands",
-  "updatedAt": "2026-06-16T20:49:45Z",
+  "updatedAt": "2026-06-17T12:02:15Z",
   "url": "https://github.com/apache/nuttx/pull/19141"
 }
