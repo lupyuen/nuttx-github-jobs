@@ -40,7 +40,20 @@
   },
   "id": "PR_kwDODZiUac7nlrY0",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -50,6 +63,6 @@
   "number": 19168,
   "state": "OPEN",
   "title": "drivers/clk: use uintptr_t for register addresses to fix GCC15 warnings",
-  "updatedAt": "2026-06-17T17:25:15Z",
+  "updatedAt": "2026-06-17T17:59:38Z",
   "url": "https://github.com/apache/nuttx/pull/19168"
 }
