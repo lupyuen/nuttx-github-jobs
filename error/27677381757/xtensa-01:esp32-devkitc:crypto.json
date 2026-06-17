@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-17T10:40:25",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "crypto",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/27677381757/job/81858491705#step:10:1222",
+"msg": "##[error]hash.c:264:28: error: 'sha224_huge_block_result' defined but not used [-Werror=unused-const-variable=] \n 264 | static const unsigned char sha224_huge_block_result[28] = \n |                            ^~~~~~~~~~~~~~~~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: hash.c.github.workspace.sources.apps.testing.drivers.crypto.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Makefile:54: /github"
+}
