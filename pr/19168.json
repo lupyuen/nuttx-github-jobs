@@ -1,0 +1,55 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEKvreg",
+    "is_bot": false,
+    "login": "Zepp-Hanzj",
+    "name": "hanzhijian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-17T17:16:39Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "drivers/clk/clk.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "include/nuttx/clk/clk_provider.h",
+      "additions": 12,
+      "deletions": 12
+    }
+  ],
+  "headRefName": "fix/clk-uintptr-t",
+  "headRefOid": "4ad13dd9a649e7ef0cc081d92860f918fe7b0bc1",
+  "headRepository": {
+    "id": "R_kgDOSiiDmQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEKvreg",
+    "name": "hanzhijian",
+    "login": "Zepp-Hanzj"
+  },
+  "id": "PR_kwDODZiUac7nlrY0",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19168,
+  "state": "OPEN",
+  "title": "drivers/clk: use uintptr_t for register addresses to fix GCC15 warnings",
+  "updatedAt": "2026-06-17T17:25:15Z",
+  "url": "https://github.com/apache/nuttx/pull/19168"
+}
