@@ -1,0 +1,564 @@
+{
+  "additions": 16451,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 378,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-17T04:03:04Z",
+  "deletions": 16445,
+  "files": [
+    {
+      "path": "arch/arm/include/stm32f7/chip.h",
+      "additions": 71,
+      "deletions": 71
+    },
+    {
+      "path": "arch/arm/include/stm32h5/chip.h",
+      "additions": 41,
+      "deletions": 41
+    },
+    {
+      "path": "arch/arm/include/stm32h7/chip.h",
+      "additions": 96,
+      "deletions": 96
+    },
+    {
+      "path": "arch/arm/include/stm32l4/chip.h",
+      "additions": 208,
+      "deletions": 208
+    },
+    {
+      "path": "arch/arm/include/stm32l4/irq.h",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/include/stm32l4/stm32l4x3xx_irq.h",
+      "additions": 85,
+      "deletions": 85
+    },
+    {
+      "path": "arch/arm/include/stm32l4/stm32l4x5xx_irq.h",
+      "additions": 90,
+      "deletions": 90
+    },
+    {
+      "path": "arch/arm/include/stm32l4/stm32l4x6xx_irq.h",
+      "additions": 99,
+      "deletions": 99
+    },
+    {
+      "path": "arch/arm/include/stm32l4/stm32l4xrxx_irq.h",
+      "additions": 100,
+      "deletions": 100
+    },
+    {
+      "path": "arch/arm/include/stm32l5/chip.h",
+      "additions": 30,
+      "deletions": 30
+    },
+    {
+      "path": "arch/arm/include/stm32l5/stm32l562xx_irq.h",
+      "additions": 111,
+      "deletions": 111
+    },
+    {
+      "path": "arch/arm/include/stm32l5/stm32l5_irq.h",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/include/stm32n6/chip.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/include/stm32wb/chip.h",
+      "additions": 53,
+      "deletions": 53
+    },
+    {
+      "path": "arch/arm/include/stm32wb/irq.h",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/include/stm32wb/stm32wb_irq.h",
+      "additions": 76,
+      "deletions": 76
+    },
+    {
+      "path": "arch/arm/include/stm32wl5/chip.h",
+      "additions": 17,
+      "deletions": 17
+    },
+    {
+      "path": "arch/arm/include/stm32wl5/irq.h",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/include/stm32wl5/stm32wl5xxx_cpu1_irq.h",
+      "additions": 71,
+      "deletions": 71
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32_qspi.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32_sai.h",
+      "additions": 56,
+      "deletions": 56
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f72xx73xx_adc.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f72xx73xx_gpio.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f72xx73xx_spi.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f72xx73xx_tim.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f72xx73xx_uart.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f74xx75xx_gpio.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f74xx75xx_tim.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f74xx77xx_adc.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f74xx77xx_i2c.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f74xx77xx_spi.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f74xx77xx_uart.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f76xx77xx_gpio.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f76xx77xx_tim.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_allocateheap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_bbsram.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_bbsram.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_can.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_can_sock.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_config.h",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_dma.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_dumpgpio.c",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_ethernet.c",
+      "additions": 13,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_ethernet.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_foc.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_gpio.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_gpio.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_i2s.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_sai.c",
+      "additions": 45,
+      "deletions": 45
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_serial.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_uart.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f72xx73xx_rcc.c",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f74xx75xx_rcc.c",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f76xx77xx_rcc.c",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_qspi.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5xxx_gpio.h",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5xxx_i2c.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5xxx_spi.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5xxx_uart.h",
+      "additions": 13,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_ethernet.c",
+      "additions": 13,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_ethernet.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_fdcan.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_gpio.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_gpio.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_icache.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_lowputc.c",
+      "additions": 213,
+      "deletions": 213
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_rcc.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_serial.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_start.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_usbdrdhost.c",
+      "additions": 74,
+      "deletions": 74
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h563xx_flash.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32h5xx_rcc.c",
+      "additions": 27,
+      "deletions": 27
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32_qspi.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_gpio.h",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_i2c.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_spi.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h7/hardware/stm32h7x3xx_uart.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_allocateheap.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_bbsram.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_bbsram.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture_lowerhalf.c",
+      "additions": 31,
+      "deletions": 31
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ethernet.c",
+      "additions": 53,
+      "deletions": 53
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ethernet.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_gpio.c",
+      "additions": 15,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_gpio.h",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_mpuinit.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_otg.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_sdmmc.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_serial.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_uart.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7x3xx_rcc.c",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32h7x7xx_rcc.c",
+      "additions": 11,
+      "deletions": 11
+    },
+    {
+      "path": "arch/arm/src/stm32l4/chip.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4_adc.h",
+      "additions": 124,
+      "deletions": 122
+    },
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4_can.h",
+      "additions": 96,
+      "deletions": 96
+    },
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4_comp.h",
+      "additions": 9,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4_crs.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4_dac.h",
+      "additions": 40,
+      "deletions": 40
+    },
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4_dfsdm.h",
+      "additions": 92,
+      "deletions": 92
+    },
+    {
+      "path": "arch/arm/src/stm32l4/hardware/stm32l4_exti.h",
+      "additions": 58,
+      "deletions": 58
+    }
+  ],
+  "headRefName": "bp-19114",
+  "headRefOid": "a6dcd06c7d88241a6b868c4bd41bc30529984fba",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7nTMST",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19153,
+  "state": "OPEN",
+  "title": "{bp-19114} !arch: unify stm32 hardware definition names",
+  "updatedAt": "2026-06-17T04:03:35Z",
+  "url": "https://github.com/apache/nuttx/pull/19153"
+}

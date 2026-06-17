@@ -1,0 +1,103 @@
+{
+  "additions": 199,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 9,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-17T04:18:51Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "binfmt/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/binfmt.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/binfmt_checkexec.c",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/binfmt_exec.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "binfmt/binfmt_loadmodule.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "binfmt/builtin.c",
+      "additions": 17,
+      "deletions": 5
+    },
+    {
+      "path": "binfmt/elf.c",
+      "additions": 16,
+      "deletions": 8
+    },
+    {
+      "path": "binfmt/nxflat.c",
+      "additions": 26,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-19122",
+  "headRefOid": "283337fc8a1eaaa43e8e8e6797dd4eb29b44dc63",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7nTdBD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvorJIg",
+      "name": "Area: BINFMT",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19157,
+  "state": "OPEN",
+  "title": "{bp-19122} fs/binfmt: Enforce POSIX execute permissions prior to binary load",
+  "updatedAt": "2026-06-17T04:19:16Z",
+  "url": "https://github.com/apache/nuttx/pull/19157"
+}

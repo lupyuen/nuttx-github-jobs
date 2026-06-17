@@ -1,0 +1,248 @@
+{
+  "additions": 156,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 32,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-17T04:09:09Z",
+  "deletions": 102,
+  "files": [
+    {
+      "path": "arch/arm/src/armv6-m/arm_svcall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_svcall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_svcall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_syscall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_syscall.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_swint.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/xtensa/src/common/xtensa_swint.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f302r8/configs/ihm07m1_f32/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/input/button_upper.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/sched.h",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "include/sys/syscall_lookup.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/pthread/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/pthread/pthread_mutex_destroy.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/Kconfig",
+      "additions": 12,
+      "deletions": 7
+    },
+    {
+      "path": "sched/group/group_leave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/init/nx_start.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_suspend.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "sched/semaphore/sem_wait.c",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "sched/signal/CMakeLists.txt",
+      "additions": 10,
+      "deletions": 11
+    },
+    {
+      "path": "sched/signal/Make.defs",
+      "additions": 8,
+      "deletions": 5
+    },
+    {
+      "path": "sched/signal/sig_cleanup.c",
+      "additions": 8,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_dispatch.c",
+      "additions": 33,
+      "deletions": 29
+    },
+    {
+      "path": "sched/signal/sig_initialize.c",
+      "additions": 12,
+      "deletions": 3
+    },
+    {
+      "path": "sched/signal/sig_kill.c",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_procmask.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "sched/signal/sig_tgkill.c",
+      "additions": 12,
+      "deletions": 1
+    },
+    {
+      "path": "sched/signal/sig_timedwait.c",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "sched/signal/signal.h",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "sched/task/task_exithook.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/task/task_restart.c",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "sched/task/task_setup.c",
+      "additions": 1,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "bp-19116",
+  "headRefOid": "3b98de3504f7c7e6967815cea8134e14bd364cfc",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7nTSZ5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19155,
+  "state": "OPEN",
+  "title": "{bp-19116} arch, sched/signal: Fix compilation with ENABLE_PARTIAL_SIGNALS=y",
+  "updatedAt": "2026-06-17T04:09:39Z",
+  "url": "https://github.com/apache/nuttx/pull/19155"
+}
