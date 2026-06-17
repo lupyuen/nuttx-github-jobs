@@ -1,0 +1,93 @@
+{
+  "additions": 119,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-17T08:42:34Z",
+  "deletions": 25,
+  "files": [
+    {
+      "path": "system/nxinit/action.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxinit/action.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "system/nxinit/builtin.c",
+      "additions": 53,
+      "deletions": 19
+    },
+    {
+      "path": "system/nxinit/import.c",
+      "additions": 7,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxinit/init.c",
+      "additions": 17,
+      "deletions": 2
+    },
+    {
+      "path": "system/nxinit/parser.c",
+      "additions": 11,
+      "deletions": 1
+    },
+    {
+      "path": "system/nxinit/service.c",
+      "additions": 28,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-3520",
+  "headRefOid": "b3df97afdd99958d8805b76de402cf9edc68abaf",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT487nYne1",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6dtQ",
+      "name": "Size: M",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7OBw",
+      "name": "Area: System",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3546,
+  "state": "OPEN",
+  "title": "{bp-3520} system/nxinit: fix parser edge cases, SIGCHLD race and build warnings (pick from open-vela)",
+  "updatedAt": "2026-06-17T08:51:53Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3546"
+}

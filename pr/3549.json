@@ -1,0 +1,95 @@
+{
+  "additions": 419,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 10,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-17T08:50:57Z",
+  "deletions": 26,
+  "files": [
+    {
+      "path": "examples/lws_echo/CMakeLists.txt",
+      "additions": 37,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/Kconfig",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/Makefile",
+      "additions": 32,
+      "deletions": 0
+    },
+    {
+      "path": "examples/lws_echo/lws_echo_main.c",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/libwebsockets/CMakeLists.txt",
+      "additions": 48,
+      "deletions": 17
+    },
+    {
+      "path": "netutils/libwebsockets/Kconfig",
+      "additions": 17,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/libwebsockets/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/libwebsockets/Makefile",
+      "additions": 14,
+      "deletions": 2
+    },
+    {
+      "path": "netutils/libwebsockets/lws_config.h",
+      "additions": 8,
+      "deletions": 4
+    }
+  ],
+  "headRefName": "bp-3540",
+  "headRefOid": "25c9fef793cba1b774a12c34275417c2a0c57f2a",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT487nYy1E",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3549,
+  "state": "OPEN",
+  "title": "{bp-3540} netutils/libwebsockets: Remove hard-dependency on mbedTLS and enable websoket server",
+  "updatedAt": "2026-06-17T08:50:57Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3549"
+}

@@ -1,0 +1,65 @@
+{
+  "additions": 36,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-17T08:46:57Z",
+  "deletions": 96,
+  "files": [
+    {
+      "path": "testing/ostest/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 1
+    },
+    {
+      "path": "testing/ostest/Makefile",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/ostest_main.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "testing/ostest/posixtimer.c",
+      "additions": 23,
+      "deletions": 87
+    }
+  ],
+  "headRefName": "bp-3538",
+  "headRefOid": "36f4c9b163438237b4460e85b1b2c841fe5954a7",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT487nYtid",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3548,
+  "state": "OPEN",
+  "title": "{bp-3538} ostest: Make POSIX timers test work with CONFIG_ENABLE_PARTIAL_SIGNALS",
+  "updatedAt": "2026-06-17T08:46:58Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3548"
+}
