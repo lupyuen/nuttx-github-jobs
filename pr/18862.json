@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-18T15:07:42Z",
   "createdAt": "2026-05-10T16:23:26Z",
   "deletions": 0,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b941a715ea392d1764f87e0e3c391f33c4250126"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-18T15:07:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 18862,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci: MemBrowse Integration",
-  "updatedAt": "2026-06-18T13:53:11Z",
+  "updatedAt": "2026-06-18T15:07:42Z",
   "url": "https://github.com/apache/nuttx/pull/18862"
 }
