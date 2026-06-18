@@ -1,5 +1,5 @@
 {
-  "additions": 269,
+  "additions": 252,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,20 +9,25 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-17T17:03:12Z",
   "deletions": 45,
   "files": [
     {
+      "path": "fs/inode/inode.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
       "path": "fs/littlefs/lfs_vfs.c",
-      "additions": 269,
+      "additions": 246,
       "deletions": 45
     }
   ],
   "headRefName": "vfs/littlefs-permissions",
-  "headRefOid": "5ea99b9062dfc36b28640868b5f333be5cc55ed0",
+  "headRefOid": "fdc06111f5841cc7683c0b817f4763bf43b3eb46",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -58,6 +63,6 @@
   "number": 19166,
   "state": "OPEN",
   "title": "fs/littlefs: Enforce open permissions and set create ownership",
-  "updatedAt": "2026-06-17T17:58:20Z",
+  "updatedAt": "2026-06-18T06:54:59Z",
   "url": "https://github.com/apache/nuttx/pull/19166"
 }

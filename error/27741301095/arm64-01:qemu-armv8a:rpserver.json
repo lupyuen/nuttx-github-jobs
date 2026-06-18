@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-18T06:51:15",
+"arch": "arm64",
+"subarch": "qemu",
+"group": "arm64-01",
+"board": "qemu-armv8a",
+"config": "rpserver",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27741301095/job/82069254783#step:10:398",
+"msg": "tmpfs/fs_tmpfs.c: In function 'tmpfs_fchstat': \n ##[error]tmpfs/fs_tmpfs.c:2162:7: error: unused variable 'ret' [-Werror=unused-variable] \n 2162 |   int ret; \n |       ^~~ \n ##[error]tmpfs/fs_tmpfs.c:2161:28: error: unused variable 'tfo' [-Werror=unused-variable] \n 2161 |   FAR struct tmpfs_file_s *tfo; \n |                            ^~~ \n tmpfs/fs_tmpfs.c: In function 'tmpfs_chstat': \n ##[error]tmpfs/fs_tmpfs.c:3133:7: error: unused variable 'ret' [-Werror=unused-variable] \n 3133 |   int ret; \n |"
+}
