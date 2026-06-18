@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-18T09:09:37",
+"arch": "arm64",
+"subarch": "qemu",
+"group": "arm64-01",
+"board": "qemu-armv8a",
+"config": "rpserver",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/27747702389/job/82090735429#step:10:451",
+"msg": "nsh_identity.c: In function 'cmd_whoami': \n ##[error]nsh_identity.c:464:22: error: unused variable 'pwd' [-Werror=unused-variable] \n 464 |   FAR struct passwd *pwd; \n |                      ^~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: nsh_identity.c.github.workspace.sources.apps.nshlib.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Makefile:54: /github/workspace/sources/apps/nshlib_all] Error 2 \n "
+}
