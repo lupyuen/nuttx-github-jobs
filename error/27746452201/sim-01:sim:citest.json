@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-18T08:39:54",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-01",
+"board": "sim",
+"config": "citest",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/27746452201/job/82086289397#step:10:588",
+"msg": "nsh_identity.c: In function 'cmd_whoami': \n ##[error]nsh_identity.c:464:22: error: unused variable 'pwd' [-Werror=unused-variable] \n 464 |   FAR struct passwd *pwd; \n |                      ^~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: nsh_identity.c.github.workspace.sources.apps.nshlib.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Makefile:54: /github/workspace/sources/apps/nshlib_all] Error 2 \n "
+}
