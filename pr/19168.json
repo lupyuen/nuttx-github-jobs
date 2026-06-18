@@ -1,5 +1,5 @@
 {
-  "additions": 16,
+  "additions": 22,
   "assignees": [],
   "author": {
     "id": "U_kgDOEKvreg",
@@ -9,16 +9,46 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 8,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-17T17:16:39Z",
-  "deletions": 16,
+  "deletions": 22,
   "files": [
     {
       "path": "drivers/clk/clk.h",
       "additions": 4,
       "deletions": 4
+    },
+    {
+      "path": "drivers/clk/clk_divider.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_fractional_divider.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_gate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_multiplier.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_mux.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_phase.c",
+      "additions": 1,
+      "deletions": 1
     },
     {
       "path": "include/nuttx/clk/clk_provider.h",
@@ -27,7 +57,7 @@
     }
   ],
   "headRefName": "fix/clk-uintptr-t",
-  "headRefOid": "4ad13dd9a649e7ef0cc081d92860f918fe7b0bc1",
+  "headRefOid": "c0073e286bf4f7e4727d2fae4e41123e4c1123a9",
   "headRepository": {
     "id": "R_kgDOSiiDmQ",
     "name": "nuttx",
@@ -63,6 +93,6 @@
   "number": 19168,
   "state": "OPEN",
   "title": "drivers/clk: use uintptr_t for register addresses to fix GCC15 warnings",
-  "updatedAt": "2026-06-17T17:59:38Z",
+  "updatedAt": "2026-06-18T01:39:53Z",
   "url": "https://github.com/apache/nuttx/pull/19168"
 }
