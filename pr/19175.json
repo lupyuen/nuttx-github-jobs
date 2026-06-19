@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-19T16:11:22Z",
   "createdAt": "2026-06-19T03:17:17Z",
   "deletions": 2,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "92d83aaf5ed60380783d72c7670fe91826603f1e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-19T16:11:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19175,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/armv7-a: Fix L1 page table entry double-offset in addrenv create region",
-  "updatedAt": "2026-06-19T15:36:00Z",
+  "updatedAt": "2026-06-19T16:11:22Z",
   "url": "https://github.com/apache/nuttx/pull/19175"
 }

@@ -1,5 +1,5 @@
 {
-  "additions": 252,
+  "additions": 275,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-17T17:03:12Z",
-  "deletions": 45,
+  "deletions": 6,
   "files": [
+    {
+      "path": "Documentation/components/filesystem/littlefs.rst",
+      "additions": 29,
+      "deletions": 1
+    },
     {
       "path": "fs/inode/inode.h",
       "additions": 6,
@@ -22,12 +27,12 @@
     },
     {
       "path": "fs/littlefs/lfs_vfs.c",
-      "additions": 246,
-      "deletions": 45
+      "additions": 240,
+      "deletions": 5
     }
   ],
   "headRefName": "vfs/littlefs-permissions",
-  "headRefOid": "fdc06111f5841cc7683c0b817f4763bf43b3eb46",
+  "headRefOid": "80cf4cd15154aaa957d01d008d1043066e13b55c",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -42,9 +47,9 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqR7sg",
-      "name": "Area: File System",
-      "description": "File System issues",
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
       "color": "0075ca"
     },
     {
@@ -63,6 +68,6 @@
   "number": 19166,
   "state": "OPEN",
   "title": "fs/littlefs: Enforce open permissions and set create ownership",
-  "updatedAt": "2026-06-19T15:36:16Z",
+  "updatedAt": "2026-06-19T16:04:33Z",
   "url": "https://github.com/apache/nuttx/pull/19166"
 }
