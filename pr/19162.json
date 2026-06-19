@@ -1,5 +1,5 @@
 {
-  "additions": 65,
+  "additions": 114,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,25 +9,45 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 6,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-17T13:20:16Z",
-  "deletions": 45,
+  "deletions": 101,
   "files": [
     {
       "path": "fs/inode/fs_inode.c",
-      "additions": 59,
-      "deletions": 45
+      "additions": 89,
+      "deletions": 82
     },
     {
       "path": "fs/inode/inode.h",
-      "additions": 6,
-      "deletions": 0
+      "additions": 20,
+      "deletions": 14
+    },
+    {
+      "path": "fs/vfs/fs_mkdir.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_rename.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_unlink.c",
+      "additions": 1,
+      "deletions": 1
     }
   ],
   "headRefName": "vfs/inode-permission-helpers",
-  "headRefOid": "47aba364526bc034a783a2332251f3bd79921bf6",
+  "headRefOid": "54ad241d223356fee0b0e83ae083602561cbc6a4",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -63,6 +83,6 @@
   "number": 19162,
   "state": "OPEN",
   "title": "fs/inode: Add shared permission helpers and pseudoFS open checks",
-  "updatedAt": "2026-06-19T16:09:38Z",
+  "updatedAt": "2026-06-19T16:54:36Z",
   "url": "https://github.com/apache/nuttx/pull/19162"
 }
