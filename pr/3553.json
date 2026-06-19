@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-19T15:19:19Z",
   "createdAt": "2026-06-18T09:21:46Z",
   "deletions": 13,
   "files": [
@@ -74,15 +74,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ee4727fdbacd0d847f3c197fcf7ed06f14328289"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-19T15:19:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3553,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing/ostest: Add multi-user permission regression tests",
-  "updatedAt": "2026-06-19T11:12:18Z",
+  "updatedAt": "2026-06-19T15:19:19Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3553"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-19T15:21:54Z",
   "createdAt": "2026-06-18T20:13:47Z",
   "deletions": 0,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3804e3d82ec3384699aa153ae90d4ed36d00735d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-19T15:21:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19174,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation/testing: Document MemBrowse integration",
-  "updatedAt": "2026-06-19T13:22:26Z",
+  "updatedAt": "2026-06-19T15:21:55Z",
   "url": "https://github.com/apache/nuttx/pull/19174"
 }
