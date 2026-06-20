@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-20T03:49:09Z",
   "createdAt": "2026-06-17T13:20:16Z",
   "deletions": 101,
   "files": [
@@ -74,15 +74,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "111f3fff4fb56ccfa20eb2a234a97b7deabce255"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-20T03:49:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19162,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/inode: Add shared permission helpers and pseudoFS open checks",
-  "updatedAt": "2026-06-19T18:56:59Z",
+  "updatedAt": "2026-06-20T03:49:09Z",
   "url": "https://github.com/apache/nuttx/pull/19162"
 }
