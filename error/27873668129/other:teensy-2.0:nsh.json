@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-20T14:26:25",
+"arch": "other",
+"subarch": "at90usb",
+"group": "other",
+"board": "teensy-2.0",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27873668129/job/82489644299#step:10:386",
+"msg": "vfs/fs_dir.c: In function 'read_pseudodir': \n ##[error]vfs/fs_dir.c:379:18: error: 'next' undeclared (first use in this function) \n entry->d_ino = next->i_ino; \n ^ \n vfs/fs_dir.c:379:18: note: each undeclared identifier is reported only once for each function it appears in \n vfs/fs_dir.c: In function 'dir_close': \n ##[error]vfs/fs_dir.c:434:7: error: implicit declaration of function 'close_pseudodir' [-Werror=implicit-function-declaration] \n close_pseudodir(dir); \n ^ \n cc1: all warnings being treat"
+}

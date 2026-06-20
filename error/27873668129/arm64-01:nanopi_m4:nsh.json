@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-20T14:28:59",
+"arch": "arm64",
+"subarch": "rk3399",
+"group": "arm64-01",
+"board": "nanopi_m4",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27873668129/job/82489644318#step:10:679",
+"msg": "vfs/fs_dir.c: In function 'read_pseudodir': \n ##[error]vfs/fs_dir.c:379:18: error: 'next' undeclared (first use in this function) \n 379 |   entry->d_ino = next->i_ino; \n |                  ^~~~ \n vfs/fs_dir.c:379:18: note: each undeclared identifier is reported only once for each function it appears in \n vfs/fs_dir.c: In function 'dir_close': \n ##[error]vfs/fs_dir.c:429:7: error: implicit declaration of function 'close_mountpoint'; did you mean 'open_mountpoint'? [-Werror=implicit-function-declaration"
+}

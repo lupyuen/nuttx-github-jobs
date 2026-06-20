@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-20T14:30:51",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "avr32dev1",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27873668129/job/82489644299#step:10:831",
+"msg": "vfs/fs_dir.c: In function 'read_pseudodir': \n vfs/fs_dir.c:379: error: 'next' undeclared (first use in this function) \n vfs/fs_dir.c:379: note: each undeclared identifier is reported only once for each function it appears in \n cc1: warnings being treated as errors \n At top level: \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n make[1]: *** [Makefile:89: fs_dir.o] Error 1 \n make[1]: Target 'libfs.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:101: fs/libfs.a] Error 2 "
+}

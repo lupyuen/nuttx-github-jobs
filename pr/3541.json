@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-20T14:51:36Z",
   "createdAt": "2026-06-15T13:33:38Z",
   "deletions": 13,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "477d04b975a91c27cde6eafc2bda8276508a3794"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-20T14:51:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3541,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/gps: print units after measurements",
-  "updatedAt": "2026-06-18T01:53:46Z",
+  "updatedAt": "2026-06-20T14:51:36Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3541"
 }
