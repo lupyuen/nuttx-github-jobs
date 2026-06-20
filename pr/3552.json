@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 11,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-20T18:38:46Z",
   "createdAt": "2026-06-18T08:15:58Z",
   "deletions": 2,
   "files": [
@@ -99,15 +99,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "75ee4d90907d905676ebd52366f2ab04cdfacebe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-20T18:38:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3552,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nshlib: Add su, id, and whoami identity commands",
-  "updatedAt": "2026-06-20T18:28:29Z",
+  "updatedAt": "2026-06-20T19:03:51Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3552"
 }
