@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-20T13:33:46Z",
   "createdAt": "2026-06-16T02:07:15Z",
   "deletions": 13,
   "files": [
@@ -80,15 +80,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8d6c49536569b517a97bf3104edb83636e2b910e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-20T13:33:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3544,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/rust: Avoid the infinite loop on sim for hello_rust_cargo",
-  "updatedAt": "2026-06-19T16:40:22Z",
+  "updatedAt": "2026-06-20T13:33:47Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3544"
 }
