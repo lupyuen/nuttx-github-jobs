@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-20T18:05:29Z",
   "createdAt": "2026-05-11T06:36:50Z",
   "deletions": 0,
   "files": [
@@ -119,15 +119,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "65854ea80563b91e11e9763ec2fa826b5a32657e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-20T18:05:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3474,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system/nxpkg: add a basic package lifecycle helper",
-  "updatedAt": "2026-06-20T17:27:48Z",
+  "updatedAt": "2026-06-20T18:05:29Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3474"
 }
