@@ -1,5 +1,5 @@
 {
-  "additions": 229,
+  "additions": 328,
   "assignees": [],
   "author": {
     "id": "U_kgDOBkM3nQ",
@@ -9,16 +9,21 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 7,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-05T10:57:52Z",
-  "deletions": 13,
+  "deletions": 29,
   "files": [
     {
       "path": "examples/sotest/Make.defs",
       "additions": 8,
       "deletions": 1
+    },
+    {
+      "path": "examples/sotest/main/CMakeLists.txt",
+      "additions": 49,
+      "deletions": 16
     },
     {
       "path": "examples/sotest/main/Makefile",
@@ -34,10 +39,20 @@
       "path": "examples/sotest/main/sotest_main.c",
       "additions": 87,
       "deletions": 11
+    },
+    {
+      "path": "examples/sotest/modprint/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/sotest/sotest/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
     }
   ],
   "headRefName": "gsoc/sotest-shared-fixtures-pr3",
-  "headRefOid": "52dcaa671aa45eb1b7d0e637ef992c0f3344bb55",
+  "headRefOid": "450bd87fbc8698d9e521e658697519c08d7e39a6",
   "headRepository": {
     "id": "R_kgDOSShR2w",
     "name": "nuttx-apps",
@@ -49,7 +64,7 @@
     "login": "aviralgarg05"
   },
   "id": "PR_kwDODZiT487jEcag",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiT488AAAABvo6dtQ",
@@ -73,6 +88,6 @@
   "number": 3526,
   "state": "OPEN",
   "title": "examples/sotest: support packaged shared library fixtures",
-  "updatedAt": "2026-06-21T13:43:36Z",
+  "updatedAt": "2026-06-21T15:06:26Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3526"
 }
