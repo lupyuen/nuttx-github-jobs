@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-21T12:43:30Z",
   "createdAt": "2026-06-19T21:11:38Z",
   "deletions": 62,
   "files": [
@@ -75,15 +75,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2a7cf05a20820711f0e7f05e17858306b40a4fcb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-21T12:43:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19177,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "stm32h5/qspi, drivers/mtd/gd25: add QSPIMEM_QUADDATA flag and GD25 QSPI support",
-  "updatedAt": "2026-06-21T04:32:39Z",
+  "updatedAt": "2026-06-21T12:43:30Z",
   "url": "https://github.com/apache/nuttx/pull/19177"
 }
