@@ -1,5 +1,5 @@
 {
-  "additions": 4867,
+  "additions": 4898,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 40,
+  "changedFiles": 41,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T16:07:21Z",
@@ -27,7 +27,7 @@
     },
     {
       "path": "netutils/dropbear/CMakeLists.txt",
-      "additions": 212,
+      "additions": 219,
       "deletions": 0
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "path": "netutils/dropbear/Makefile",
-      "additions": 182,
+      "additions": 185,
       "deletions": 0
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "netutils/dropbear/dropbear_main.c",
-      "additions": 305,
+      "additions": 310,
       "deletions": 0
     },
     {
@@ -61,8 +61,8 @@
       "deletions": 0
     },
     {
-      "path": "netutils/dropbear/patch/0001-use-nuttx-unused-macro.patch",
-      "additions": 291,
+      "path": "netutils/dropbear/patch/0001-guard-platform-declarations.patch",
+      "additions": 53,
       "deletions": 0
     },
     {
@@ -71,28 +71,33 @@
       "deletions": 0
     },
     {
-      "path": "netutils/dropbear/patch/0003-guard-environ-declaration-for-nuttx.patch",
-      "additions": 14,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/patch/0004-fix-nuttx-compile-warnings.patch",
-      "additions": 107,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/patch/0005-use-nuttx-sha256-hmac.patch",
+      "path": "netutils/dropbear/patch/0003-use-nuttx-sha256-hmac.patch",
       "additions": 45,
       "deletions": 0
     },
     {
-      "path": "netutils/dropbear/patch/0006-use-nuttx-chachapoly-state.patch",
+      "path": "netutils/dropbear/patch/0004-use-nuttx-chachapoly-state.patch",
       "additions": 84,
       "deletions": 0
     },
     {
-      "path": "netutils/dropbear/patch/0007-use-nuttx-passwd-auth.patch",
+      "path": "netutils/dropbear/patch/0005-use-nuttx-passwd-auth.patch",
       "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0006-allow-localoptions-to-override-tracking-malloc.patch",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0007-use-nuttx-unused-macro.patch",
+      "additions": 267,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0008-fix-strict-prototypes-warnings.patch",
+      "additions": 76,
       "deletions": 0
     },
     {
@@ -102,7 +107,7 @@
     },
     {
       "path": "netutils/dropbear/port/default_options_guard.h",
-      "additions": 693,
+      "additions": 709,
       "deletions": 0
     },
     {
@@ -182,7 +187,7 @@
     },
     {
       "path": "netutils/dropbear/port/nuttx_localoptions.h",
-      "additions": 58,
+      "additions": 61,
       "deletions": 0
     },
     {
@@ -217,7 +222,7 @@
     }
   ],
   "headRefName": "feature/dropbear-esp32c3-port",
-  "headRefOid": "af8bba4527bcdccbc7a3c3a4dffbb0e779edcc25",
+  "headRefOid": "423dc59b958af013cf77142f7ad7189cf53cd2c9",
   "headRepository": {
     "id": "R_kgDOMr2uag",
     "name": "nuttx-apps",
@@ -253,6 +258,6 @@
   "number": 3532,
   "state": "OPEN",
   "title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-  "updatedAt": "2026-06-21T00:14:41Z",
+  "updatedAt": "2026-06-21T01:19:25Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3532"
 }
