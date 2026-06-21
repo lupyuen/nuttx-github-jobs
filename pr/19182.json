@@ -1,5 +1,5 @@
 {
-  "additions": 89,
+  "additions": 90,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE4MDY2OTY0",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 5,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-20T18:06:48Z",
-  "deletions": 1,
+  "deletions": 2,
   "files": [
+    {
+      "path": "Documentation/standards/posix.rst",
+      "additions": 1,
+      "deletions": 1
+    },
     {
       "path": "include/unistd.h",
       "additions": 2,
@@ -37,7 +42,7 @@
     }
   ],
   "headRefName": "upstream-getgroups",
-  "headRefOid": "7754cfcc26c2782ca42075ea2247d320f5148933",
+  "headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
     "name": "nuttx-upstream",
@@ -52,9 +57,9 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqSSkg",
-      "name": "Area: OS Components",
-      "description": "OS Components issues",
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
       "color": "0075ca"
     },
     {
@@ -73,6 +78,6 @@
   "number": 19182,
   "state": "OPEN",
   "title": "libc/unistd: add getgroups()",
-  "updatedAt": "2026-06-20T18:34:46Z",
+  "updatedAt": "2026-06-21T03:57:23Z",
   "url": "https://github.com/apache/nuttx/pull/19182"
 }
