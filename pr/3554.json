@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-22T13:20:44Z",
   "createdAt": "2026-06-20T17:00:33Z",
   "deletions": 4,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "326b68aa3682a1f4efbf286086e610ffd96fbd9d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-22T13:20:43Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3554,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples/userfs: use designated initializers for struct dirent",
-  "updatedAt": "2026-06-21T14:31:29Z",
+  "updatedAt": "2026-06-22T13:20:44Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3554"
 }
