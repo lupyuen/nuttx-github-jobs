@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-22T15:22:07Z",
   "createdAt": "2026-06-22T11:11:59Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6edb14b1f0e696f41172eec0cafbe4b448a64a6a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-22T15:22:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19188,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci/testing: MemBrowse support multi commit pushes",
-  "updatedAt": "2026-06-22T13:31:37Z",
+  "updatedAt": "2026-06-22T15:22:07Z",
   "url": "https://github.com/apache/nuttx/pull/19188"
 }
