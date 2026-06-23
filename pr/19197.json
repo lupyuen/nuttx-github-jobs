@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-23T14:45:02Z",
   "createdAt": "2026-06-23T07:43:11Z",
   "deletions": 6,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1685e8ff7b86a4322153b65b7c56f3f8978ca077"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-23T14:45:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19197,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "syslog: avoid an infinite loop if one channel fails",
-  "updatedAt": "2026-06-23T11:24:59Z",
+  "updatedAt": "2026-06-23T14:45:02Z",
   "url": "https://github.com/apache/nuttx/pull/19197"
 }
