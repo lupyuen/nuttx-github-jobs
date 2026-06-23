@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-23T01:59:55",
+"arch": "arm64",
+"subarch": "imx9",
+"group": "arm64-01",
+"board": "imx93-evk",
+"config": "bootloader",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/27996487940/job/82859879667#step:10:373",
+"msg": "aarch64-none-elf-ld: /github/workspace/sources/nuttx/nuttx section `.rodata' will not fit in region `ocram' \n aarch64-none-elf-ld: section .data LMA [00000000204e0000,00000000204e2137] overlaps section .rodata LMA [00000000204c7000,00000000204e061f] \n aarch64-none-elf-ld: region `ocram' overflowed by 1568 bytes \n make[1]: *** [Makefile:194: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n On branch releases/13.0 \n On branch releases/13"
+}

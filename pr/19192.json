@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 8,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-23T01:46:33Z",
   "createdAt": "2026-06-23T00:11:42Z",
   "deletions": 22,
   "files": [
@@ -84,15 +84,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "687471c0d98f13bf388b61100d33956531219d8c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-23T01:46:33Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19192,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19168} drivers/clk: use uintptr_t for register addresses to fix GCC15 warnings",
-  "updatedAt": "2026-06-23T00:12:05Z",
+  "updatedAt": "2026-06-23T01:46:34Z",
   "url": "https://github.com/apache/nuttx/pull/19192"
 }

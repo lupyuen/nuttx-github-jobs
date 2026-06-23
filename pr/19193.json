@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-23T02:02:11Z",
   "createdAt": "2026-06-23T00:14:37Z",
   "deletions": 2,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0076f354018a8bc4288b17bc8774a8ff1d1b8e76"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-23T02:02:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19193,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19171} drivers/eeprom/i2c_xx24xx: Integer Overflow in I2C EEPROM ee24xx_seek()",
-  "updatedAt": "2026-06-23T00:14:59Z",
+  "updatedAt": "2026-06-23T02:02:11Z",
   "url": "https://github.com/apache/nuttx/pull/19193"
 }

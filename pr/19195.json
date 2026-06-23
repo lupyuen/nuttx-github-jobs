@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-23T02:02:29Z",
   "createdAt": "2026-06-23T00:20:54Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ef4c8bc4b4caf105b4a541b5c50f658785291fca"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-23T02:02:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19195,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19180} ci/test: Remove FTDI from CI to avoid failure",
-  "updatedAt": "2026-06-23T00:21:14Z",
+  "updatedAt": "2026-06-23T02:02:29Z",
   "url": "https://github.com/apache/nuttx/pull/19195"
 }
