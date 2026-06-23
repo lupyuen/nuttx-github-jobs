@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 16,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-23T19:26:54Z",
   "createdAt": "2026-06-21T03:08:38Z",
   "deletions": 9,
   "files": [
@@ -124,15 +124,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "95063bde1571673eafeb7fecef132474d24ce68a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-23T19:26:54Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19184,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/serial: add job-control TTY ioctls",
-  "updatedAt": "2026-06-23T02:45:54Z",
+  "updatedAt": "2026-06-23T19:26:54Z",
   "url": "https://github.com/apache/nuttx/pull/19184"
 }
