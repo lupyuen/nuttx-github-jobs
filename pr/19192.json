@@ -1,0 +1,98 @@
+{
+  "additions": 22,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-23T00:11:42Z",
+  "deletions": 22,
+  "files": [
+    {
+      "path": "drivers/clk/clk.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/clk/clk_divider.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_fractional_divider.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_gate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_multiplier.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_mux.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/clk/clk_phase.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/clk/clk_provider.h",
+      "additions": 12,
+      "deletions": 12
+    }
+  ],
+  "headRefName": "bp-19168",
+  "headRefOid": "756299c6775da16c9d0db17cafc090876eacfe4e",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7pbBSe",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19192,
+  "state": "OPEN",
+  "title": "{bp-19168} drivers/clk: use uintptr_t for register addresses to fix GCC15 warnings",
+  "updatedAt": "2026-06-23T00:12:05Z",
+  "url": "https://github.com/apache/nuttx/pull/19192"
+}
