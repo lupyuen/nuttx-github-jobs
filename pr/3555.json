@@ -8,8 +8,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-23T17:26:39Z",
   "createdAt": "2026-06-22T22:22:35Z",
   "deletions": 8,
   "files": [
@@ -61,15 +61,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "085ca0606ef2a45e6d776845c36698201fe2ea0c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-23T17:26:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3555,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "build(deps): bump actions/checkout from 6 to 7",
-  "updatedAt": "2026-06-23T02:13:16Z",
+  "updatedAt": "2026-06-23T17:26:42Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3555"
 }
