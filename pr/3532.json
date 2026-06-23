@@ -1,5 +1,5 @@
 {
-  "additions": 3872,
+  "additions": 2469,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 38,
+  "changedFiles": 25,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T16:07:21Z",
@@ -27,12 +27,12 @@
     },
     {
       "path": "netutils/dropbear/CMakeLists.txt",
-      "additions": 223,
+      "additions": 186,
       "deletions": 0
     },
     {
       "path": "netutils/dropbear/Kconfig",
-      "additions": 121,
+      "additions": 120,
       "deletions": 0
     },
     {
@@ -42,17 +42,12 @@
     },
     {
       "path": "netutils/dropbear/Makefile",
-      "additions": 187,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/README.md",
-      "additions": 113,
+      "additions": 158,
       "deletions": 0
     },
     {
       "path": "netutils/dropbear/dropbear_main.c",
-      "additions": 310,
+      "additions": 329,
       "deletions": 0
     },
     {
@@ -66,73 +61,23 @@
       "deletions": 0
     },
     {
-      "path": "netutils/dropbear/patch/0002-use-nuttx-ecdsa-hostkey-sign.patch",
-      "additions": 85,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/patch/0003-use-nuttx-sha256-hmac.patch",
-      "additions": 45,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/patch/0004-use-nuttx-chachapoly-state.patch",
-      "additions": 84,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/patch/0005-use-nuttx-passwd-auth.patch",
+      "path": "netutils/dropbear/patch/0002-use-nuttx-passwd-auth.patch",
       "additions": 87,
       "deletions": 0
     },
     {
-      "path": "netutils/dropbear/patch/0006-allow-localoptions-to-override-tracking-malloc.patch",
+      "path": "netutils/dropbear/patch/0003-allow-localoptions-to-override-tracking-malloc.patch",
       "additions": 24,
       "deletions": 0
     },
     {
-      "path": "netutils/dropbear/patch/0007-use-nuttx-unused-macro.patch",
-      "additions": 93,
+      "path": "netutils/dropbear/patch/0004-use-nuttx-unused-macro.patch",
+      "additions": 202,
       "deletions": 0
     },
     {
       "path": "netutils/dropbear/port/config.h",
       "additions": 20,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/dropbear_chachapoly.c",
-      "additions": 172,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/dropbear_crypto.c",
-      "additions": 87,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/dropbear_crypto.h",
-      "additions": 47,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/dropbear_curve25519.c",
-      "additions": 24,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/dropbear_ltc_aes.c",
-      "additions": 300,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/dropbear_ltc_hmac_sha256.c",
-      "additions": 103,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/dropbear_ltc_sha256.c",
-      "additions": 75,
       "deletions": 0
     },
     {
@@ -147,7 +92,7 @@
     },
     {
       "path": "netutils/dropbear/port/localoptions.h",
-      "additions": 62,
+      "additions": 67,
       "deletions": 0
     },
     {
@@ -162,17 +107,7 @@
     },
     {
       "path": "netutils/dropbear/port/nuttx_config.h",
-      "additions": 136,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/nuttx_hostkey.c",
-      "additions": 303,
-      "deletions": 0
-    },
-    {
-      "path": "netutils/dropbear/port/nuttx_hostkey.h",
-      "additions": 30,
+      "additions": 135,
       "deletions": 0
     },
     {
@@ -207,7 +142,7 @@
     }
   ],
   "headRefName": "feature/dropbear-esp32c3-port",
-  "headRefOid": "88245e27caf7c95323f26fe4ac16ca0cab2a6901",
+  "headRefOid": "9cd72330b49f02704e08ae9275c1504a7fd7cff5",
   "headRepository": {
     "id": "R_kgDOMr2uag",
     "name": "nuttx-apps",
@@ -243,6 +178,6 @@
   "number": 3532,
   "state": "OPEN",
   "title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-  "updatedAt": "2026-06-23T15:48:42Z",
+  "updatedAt": "2026-06-23T22:43:29Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3532"
 }
