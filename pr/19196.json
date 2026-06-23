@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-23T11:26:39Z",
   "createdAt": "2026-06-23T04:45:50Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "280fbba5171b0e2049187a211c33b8b11cfe435d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-23T11:26:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19196,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "stm32h5/adc: Enable ADC1.OR.OP0 for INP0 and INN1.",
-  "updatedAt": "2026-06-23T06:34:25Z",
+  "updatedAt": "2026-06-23T11:26:39Z",
   "url": "https://github.com/apache/nuttx/pull/19196"
 }

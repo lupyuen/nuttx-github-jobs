@@ -1,0 +1,64 @@
+{
+  "additions": 28,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjIwODgyMjE4",
+    "is_bot": false,
+    "login": "leisiji",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-23T11:27:52Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "boards/arm/qemu/qemu-armv7a/scripts/dramboot.ld",
+      "additions": 13,
+      "deletions": 15
+    },
+    {
+      "path": "cmake/nuttx_multiple_link.cmake",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "mm/kasan/hook.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "mm/umm_heap/umm_initialize.c",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "kasan",
+  "headRefOid": "fbfd49c48a133d2d9ebc81d5b42edd0629d5a569",
+  "headRepository": {
+    "id": "R_kgDOS5p9dQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjIwODgyMjE4",
+    "login": "leisiji"
+  },
+  "id": "PR_kwDODZiUac7pnm8h",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19198,
+  "state": "OPEN",
+  "title": "mm,boards/arm/qemu: Fix KASAN user-space false positives, global region link error, and linker script section placement.",
+  "updatedAt": "2026-06-23T11:27:54Z",
+  "url": "https://github.com/apache/nuttx/pull/19198"
+}
