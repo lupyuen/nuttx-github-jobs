@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:47:09",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "login",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28102087709/job/83206897256#step:10:512",
+"msg": "CONFIG_BOARD_ETC_ROMFS_PASSWD_PASSWORD must be set when BOARD_ETC_ROMFS_PASSWD_ENABLE is enabled. \n Run 'make menuconfig' and select a password at: \n Board Selection ---> \n Auto-generate /etc/passwd at build time ---> \n Root Password => \"Your Password\" \n .  Stop. \n make[1]: *** [Makefile:81: context] Error 2 \n make: *** [tools/Unix.mk:471: boards/.context] Error 2 \n make: Target 'all' not remade because of errors."
+}

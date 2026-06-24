@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T14:12:41",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-01",
+"board": "sim",
+"config": "adb",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28104087445/job/83213989219#step:10:405",
+"msg": "Makefile:133: *** \n CONFIG_NSH_LOGIN_PASSWORD must be set when NSH_LOGIN_FIXED is enabled. \n Run 'make menuconfig' and select a password at: \n Application Configuration ---> \n NSH Library ---> \n Verification method ---> \n Fixed username/password ---> \n Login password => \"Your Password\" \n .  Stop. \n make[2]: *** [Makefile:57: /github/workspace/sources/apps/nshlib_context] Error 2 \n make[2]: Target 'context_all' not remade because of errors. \n make[1]: *** [Makefile:187: context] Error 2 \n make:"
+}
