@@ -1,0 +1,60 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 3,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-24T19:42:17Z",
+  "deletions": 16,
+  "files": [
+    {
+      "path": "fs/vfs/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_link.c",
+      "additions": 11,
+      "deletions": 12
+    }
+  ],
+  "headRefName": "fix/vfs-link-enosys-fallback",
+  "headRefOid": "d97515a919b79d6ce89b68b2c14de2aeb325b91a",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7qQt1v",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19212,
+  "state": "OPEN",
+  "title": "fs/vfs: provide link fallback without softlinks",
+  "updatedAt": "2026-06-24T19:42:19Z",
+  "url": "https://github.com/apache/nuttx/pull/19212"
+}
