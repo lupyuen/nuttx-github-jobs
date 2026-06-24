@@ -1,6 +1,230 @@
 [
   {
     "build_arch": "arm",
+    "build_board": "u-blox-c027",
+    "build_config": "nsh",
+    "build_group": "arm-03",
+    "build_msg": "Makefile:133: *** \n CONFIG_NSH_LOGIN_PASSWORD must be set when NSH_LOGIN_FIXED is enabled. \n Run 'make menuconfig' and select a password at: \n Application Configuration ---> \n NSH Library ---> \n Verification method ---> \n Fixed username/password ---> \n Login password => \"Your Password\" \n .  Stop. \n make[2]: *** [Makefile:57: /github/workspace/sources/apps/nshlib_context] Error 2 \n make[2]: Target 'context_all' not remade because of errors. \n make[1]: *** [Makefile:187: context] Error 2 \n make:",
+    "build_score": 0,
+    "build_subarch": "lpc17xx_40xx",
+    "build_timestamp": "2026-06-24T14:37:57",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28104087445/job/83213989365#step:10:862",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-24T14:00:36Z",
+    "job_databaseId": 28104087445,
+    "job_displayTitle": "!nshlib: Require explicit fixed login password at build time",
+    "job_event": "pull_request",
+    "job_headBranch": "nsh-login-empty-password",
+    "job_headSha": "a5ffd5302d7fc41343e490fd6b7a871f7f4fa854",
+    "job_name": "Build",
+    "job_number": 9733,
+    "job_run_duration_ms": "2281000",
+    "job_startedAt": "2026-06-24T14:00:36Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-24T14:38:37Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28104087445",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 55,
+    "pr_assignees": [],
+    "pr_author": "Abhishekmishra2808",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 4,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-24T13:55:57Z",
+    "pr_deletions": 11,
+    "pr_headRefName": "nsh-login-empty-password",
+    "pr_headRefOid": "a5ffd5302d7fc41343e490fd6b7a871f7f4fa854",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "Abhishekmishra2808",
+    "pr_id": "PR_kwDODZiT487qI3K2",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: NSH",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3557,
+    "pr_state": "OPEN",
+    "pr_title": "!nshlib: Require explicit fixed login password at build time",
+    "pr_updatedAt": "2026-06-24T14:32:38Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "lua",
+    "build_group": "sim-02",
+    "build_msg": "rage Speed    T%ime   T  Time     Time  Current \n otal    % Received % Xferd  Average Speed   Time    Time     Time  Current \n Dloa \n d    0Upload   Total   Sp e n t    0    L e f0t     S p e0e d",
+    "build_score": 0.8,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-06-24T14:15:51",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28104087445/job/83213989269#step:10:423",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-24T14:00:36Z",
+    "job_databaseId": 28104087445,
+    "job_displayTitle": "!nshlib: Require explicit fixed login password at build time",
+    "job_event": "pull_request",
+    "job_headBranch": "nsh-login-empty-password",
+    "job_headSha": "a5ffd5302d7fc41343e490fd6b7a871f7f4fa854",
+    "job_name": "Build",
+    "job_number": 9733,
+    "job_run_duration_ms": "2281000",
+    "job_startedAt": "2026-06-24T14:00:36Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-24T14:38:37Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28104087445",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 55,
+    "pr_assignees": [],
+    "pr_author": "Abhishekmishra2808",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 4,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-24T13:55:57Z",
+    "pr_deletions": 11,
+    "pr_headRefName": "nsh-login-empty-password",
+    "pr_headRefOid": "a5ffd5302d7fc41343e490fd6b7a871f7f4fa854",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "Abhishekmishra2808",
+    "pr_id": "PR_kwDODZiT487qI3K2",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: NSH",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3557,
+    "pr_state": "OPEN",
+    "pr_title": "!nshlib: Require explicit fixed login password at build time",
+    "pr_updatedAt": "2026-06-24T14:32:38Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "adb",
+    "build_group": "sim-01",
+    "build_msg": "Makefile:133: *** \n CONFIG_NSH_LOGIN_PASSWORD must be set when NSH_LOGIN_FIXED is enabled. \n Run 'make menuconfig' and select a password at: \n Application Configuration ---> \n NSH Library ---> \n Verification method ---> \n Fixed username/password ---> \n Login password => \"Your Password\" \n .  Stop. \n make[2]: *** [Makefile:57: /github/workspace/sources/apps/nshlib_context] Error 2 \n make[2]: Target 'context_all' not remade because of errors. \n make[1]: *** [Makefile:187: context] Error 2 \n make:",
+    "build_score": 0,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-06-24T14:12:41",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28104087445/job/83213989219#step:10:405",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-24T14:00:36Z",
+    "job_databaseId": 28104087445,
+    "job_displayTitle": "!nshlib: Require explicit fixed login password at build time",
+    "job_event": "pull_request",
+    "job_headBranch": "nsh-login-empty-password",
+    "job_headSha": "a5ffd5302d7fc41343e490fd6b7a871f7f4fa854",
+    "job_name": "Build",
+    "job_number": 9733,
+    "job_run_duration_ms": "2281000",
+    "job_startedAt": "2026-06-24T14:00:36Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-24T14:38:37Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28104087445",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 55,
+    "pr_assignees": [],
+    "pr_author": "Abhishekmishra2808",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 4,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-24T13:55:57Z",
+    "pr_deletions": 11,
+    "pr_headRefName": "nsh-login-empty-password",
+    "pr_headRefOid": "a5ffd5302d7fc41343e490fd6b7a871f7f4fa854",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "Abhishekmishra2808",
+    "pr_id": "PR_kwDODZiT487qI3K2",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: NSH",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3557,
+    "pr_state": "OPEN",
+    "pr_title": "!nshlib: Require explicit fixed login password at build time",
+    "pr_updatedAt": "2026-06-24T14:32:38Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "login",
+    "build_group": "sim-02",
+    "build_msg": "CONFIG_BOARD_ETC_ROMFS_PASSWD_PASSWORD must be set when BOARD_ETC_ROMFS_PASSWD_ENABLE is enabled. \n Run 'make menuconfig' and select a password at: \n Board Selection ---> \n Auto-generate /etc/passwd at build time ---> \n Root Password => \"Your Password\" \n .  Stop. \n make[1]: *** [Makefile:81: context] Error 2 \n make: *** [tools/Unix.mk:471: boards/.context] Error 2 \n make: Target 'all' not remade because of errors.",
+    "build_score": 0,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-06-24T13:47:09",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/28102087709/job/83206897256#step:10:512",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-24T13:29:23Z",
+    "job_databaseId": 28102087709,
+    "job_displayTitle": "!boards/nsh: Require explicit ROMFS passwd password at build time",
+    "job_event": "pull_request",
+    "job_headBranch": "passwd-empty-default-hardening",
+    "job_headSha": "11f8cc0254ab6bee382672eabd8062ee31aab0ae",
+    "job_name": "Build",
+    "job_number": 55425,
+    "job_run_duration_ms": "2391000",
+    "job_startedAt": "2026-06-24T13:29:23Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-24T14:09:14Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/28102087709",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 105,
+    "pr_assignees": [],
+    "pr_author": "Abhishekmishra2808",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 11,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-24T13:29:17Z",
+    "pr_deletions": 45,
+    "pr_headRefName": "passwd-empty-default-hardening",
+    "pr_headRefOid": "11f8cc0254ab6bee382672eabd8062ee31aab0ae",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "Abhishekmishra2808",
+    "pr_id": "PR_kwDODZiUac7qIM_R",
+    "pr_isDraft": false,
+    "pr_labels": "Area: Build system, Size: M, Board: risc-v, Board: simulator",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19209,
+    "pr_state": "OPEN",
+    "pr_title": "!boards/nsh: Require explicit ROMFS passwd password at build time",
+    "pr_updatedAt": "2026-06-24T14:30:19Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19209"
+  },
+  {
+    "build_arch": "arm",
     "build_board": "nrf52840-dk",
     "build_config": "mcuboot_app",
     "build_group": "arm-05",
@@ -52,7 +276,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -108,7 +332,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -164,7 +388,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -220,7 +444,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -276,7 +500,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -332,7 +556,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -388,7 +612,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -444,7 +668,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -500,7 +724,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -556,7 +780,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -612,7 +836,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -668,7 +892,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -724,7 +948,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -780,7 +1004,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -836,7 +1060,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -892,7 +1116,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -948,7 +1172,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1004,7 +1228,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1060,7 +1284,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1116,7 +1340,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1172,7 +1396,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1228,7 +1452,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1284,7 +1508,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1340,7 +1564,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1396,7 +1620,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1452,7 +1676,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1508,7 +1732,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1564,7 +1788,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1620,7 +1844,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1676,7 +1900,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1732,7 +1956,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1788,7 +2012,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1844,7 +2068,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1900,7 +2124,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -1956,7 +2180,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2012,7 +2236,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2068,7 +2292,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2124,7 +2348,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2180,7 +2404,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2236,7 +2460,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2292,7 +2516,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2348,7 +2572,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2404,7 +2628,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2460,7 +2684,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2516,7 +2740,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2572,7 +2796,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2628,7 +2852,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2684,7 +2908,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2740,7 +2964,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2796,7 +3020,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2852,7 +3076,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2908,7 +3132,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -2964,7 +3188,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3020,7 +3244,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3076,7 +3300,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3132,7 +3356,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3188,7 +3412,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3244,7 +3468,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3300,7 +3524,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3356,7 +3580,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3412,7 +3636,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3468,7 +3692,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3524,7 +3748,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3580,7 +3804,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3636,7 +3860,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3692,7 +3916,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3748,7 +3972,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3804,7 +4028,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3860,7 +4084,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3916,7 +4140,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -3972,7 +4196,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4028,7 +4252,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4084,7 +4308,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4140,7 +4364,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4196,7 +4420,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4252,7 +4476,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4308,7 +4532,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4364,7 +4588,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4420,7 +4644,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4476,7 +4700,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4532,7 +4756,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4588,7 +4812,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4644,7 +4868,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4700,7 +4924,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4756,7 +4980,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4812,7 +5036,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4868,7 +5092,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4924,7 +5148,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -4980,7 +5204,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5036,7 +5260,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5092,7 +5316,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5148,7 +5372,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5204,7 +5428,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5260,7 +5484,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5316,7 +5540,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5372,7 +5596,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5428,7 +5652,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5484,7 +5708,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5540,7 +5764,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5596,7 +5820,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5652,7 +5876,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5708,7 +5932,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5764,7 +5988,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5820,7 +6044,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5876,7 +6100,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5932,7 +6156,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -5988,7 +6212,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6044,7 +6268,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6100,7 +6324,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6156,7 +6380,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6212,7 +6436,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6268,7 +6492,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6324,7 +6548,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6380,7 +6604,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6436,7 +6660,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6492,7 +6716,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6548,7 +6772,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6604,7 +6828,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6660,7 +6884,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6716,7 +6940,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6772,7 +6996,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6828,7 +7052,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6884,7 +7108,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6940,7 +7164,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -6996,7 +7220,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7052,7 +7276,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7108,7 +7332,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7164,7 +7388,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7220,7 +7444,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7276,7 +7500,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7332,7 +7556,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7388,7 +7612,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7444,7 +7668,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7500,7 +7724,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7556,7 +7780,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7612,7 +7836,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7668,7 +7892,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7724,7 +7948,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7780,7 +8004,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7836,7 +8060,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7892,7 +8116,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -7948,7 +8172,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8004,7 +8228,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8060,7 +8284,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8116,7 +8340,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8172,7 +8396,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8228,7 +8452,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8284,7 +8508,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8340,7 +8564,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8396,7 +8620,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8452,7 +8676,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8508,7 +8732,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8564,7 +8788,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8620,7 +8844,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8676,7 +8900,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8732,7 +8956,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8788,7 +9012,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8844,7 +9068,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8900,7 +9124,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -8956,7 +9180,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9012,7 +9236,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9068,7 +9292,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9124,7 +9348,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9180,7 +9404,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9236,7 +9460,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9292,7 +9516,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9348,7 +9572,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9404,7 +9628,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9460,7 +9684,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9516,7 +9740,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9572,7 +9796,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9628,7 +9852,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9684,7 +9908,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9740,7 +9964,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9796,7 +10020,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9852,7 +10076,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9908,7 +10132,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -9964,7 +10188,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10020,7 +10244,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10076,7 +10300,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10132,7 +10356,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10188,7 +10412,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10244,7 +10468,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10300,7 +10524,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10356,7 +10580,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10412,7 +10636,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10468,7 +10692,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10524,7 +10748,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10580,7 +10804,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10636,7 +10860,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10692,7 +10916,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10748,7 +10972,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10804,7 +11028,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10860,7 +11084,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10916,7 +11140,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -10972,7 +11196,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11028,7 +11252,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11084,7 +11308,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11140,7 +11364,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11196,7 +11420,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11252,7 +11476,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11308,7 +11532,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11364,7 +11588,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11420,7 +11644,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11476,7 +11700,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11532,7 +11756,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11588,7 +11812,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11644,7 +11868,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11700,7 +11924,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11756,7 +11980,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11812,7 +12036,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11868,7 +12092,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11924,7 +12148,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -11980,7 +12204,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12036,7 +12260,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12092,7 +12316,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12148,7 +12372,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12204,7 +12428,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12260,7 +12484,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12316,7 +12540,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12372,7 +12596,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12428,7 +12652,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12484,7 +12708,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12540,7 +12764,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12596,7 +12820,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12652,7 +12876,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12708,7 +12932,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12764,7 +12988,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12820,7 +13044,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12876,7 +13100,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12932,7 +13156,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -12988,7 +13212,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13044,7 +13268,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13100,7 +13324,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13156,7 +13380,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13212,7 +13436,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13268,7 +13492,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13324,7 +13548,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13380,7 +13604,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13436,7 +13660,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13492,7 +13716,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13548,7 +13772,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13604,7 +13828,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13660,7 +13884,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13716,7 +13940,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13772,7 +13996,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13828,7 +14052,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13884,7 +14108,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13940,7 +14164,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -13996,7 +14220,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14052,7 +14276,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14108,7 +14332,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14164,7 +14388,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14220,7 +14444,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14276,7 +14500,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14332,7 +14556,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14388,7 +14612,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14444,7 +14668,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14500,7 +14724,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14556,7 +14780,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14612,7 +14836,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14668,7 +14892,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14724,7 +14948,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14780,7 +15004,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14836,7 +15060,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14892,7 +15116,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -14948,7 +15172,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15004,7 +15228,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15060,7 +15284,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15116,7 +15340,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15172,7 +15396,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15228,7 +15452,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15284,7 +15508,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15340,7 +15564,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15396,7 +15620,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15452,7 +15676,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15508,7 +15732,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15564,7 +15788,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15620,7 +15844,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15676,7 +15900,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15732,7 +15956,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15788,7 +16012,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15844,7 +16068,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15900,7 +16124,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -15956,7 +16180,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16012,7 +16236,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16068,7 +16292,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16124,7 +16348,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16180,7 +16404,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16236,7 +16460,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16292,7 +16516,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16348,7 +16572,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16404,7 +16628,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16460,7 +16684,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16516,7 +16740,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16572,7 +16796,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16628,7 +16852,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16684,7 +16908,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16740,7 +16964,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16796,7 +17020,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16852,7 +17076,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16908,7 +17132,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -16964,7 +17188,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17020,7 +17244,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17076,7 +17300,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17132,7 +17356,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17188,7 +17412,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17244,7 +17468,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17300,7 +17524,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17356,7 +17580,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17412,7 +17636,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17468,7 +17692,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17524,7 +17748,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17580,7 +17804,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17636,7 +17860,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17692,7 +17916,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17748,7 +17972,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17804,7 +18028,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17860,7 +18084,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17916,7 +18140,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -17972,7 +18196,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18028,7 +18252,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18084,7 +18308,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18140,7 +18364,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18196,7 +18420,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18252,7 +18476,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18308,7 +18532,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18364,7 +18588,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18420,7 +18644,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18476,7 +18700,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18532,7 +18756,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18588,7 +18812,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18644,7 +18868,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18700,7 +18924,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18756,7 +18980,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18812,7 +19036,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18868,7 +19092,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18924,7 +19148,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -18980,7 +19204,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19036,7 +19260,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19092,7 +19316,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19148,7 +19372,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19204,7 +19428,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19260,7 +19484,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19316,7 +19540,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19372,7 +19596,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19428,7 +19652,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19484,7 +19708,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19540,7 +19764,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19596,7 +19820,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19652,7 +19876,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19708,7 +19932,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19764,7 +19988,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19820,7 +20044,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19876,7 +20100,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19932,7 +20156,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -19988,7 +20212,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20044,7 +20268,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20100,7 +20324,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20156,7 +20380,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20212,7 +20436,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20268,7 +20492,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20324,7 +20548,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20380,7 +20604,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20436,7 +20660,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20492,7 +20716,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20548,7 +20772,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20604,7 +20828,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20660,7 +20884,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20716,7 +20940,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20772,7 +20996,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20828,7 +21052,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20884,7 +21108,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20940,7 +21164,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -20996,7 +21220,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21052,7 +21276,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21108,7 +21332,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21164,7 +21388,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21220,7 +21444,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21276,7 +21500,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21332,7 +21556,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21388,7 +21612,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21444,7 +21668,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21500,7 +21724,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21556,7 +21780,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21612,7 +21836,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21668,7 +21892,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21724,7 +21948,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21780,7 +22004,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21836,7 +22060,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21892,7 +22116,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -21948,7 +22172,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22004,7 +22228,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22060,7 +22284,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22116,7 +22340,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22172,7 +22396,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22228,7 +22452,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22284,7 +22508,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22340,7 +22564,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22396,7 +22620,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22452,7 +22676,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22508,7 +22732,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22564,7 +22788,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22620,7 +22844,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22676,7 +22900,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22732,7 +22956,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22788,7 +23012,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22844,7 +23068,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22900,7 +23124,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -22956,7 +23180,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23012,7 +23236,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23068,7 +23292,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23124,7 +23348,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23180,7 +23404,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23236,7 +23460,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23292,7 +23516,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23348,7 +23572,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23404,7 +23628,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23460,7 +23684,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23516,7 +23740,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23572,7 +23796,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23628,7 +23852,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23684,7 +23908,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23740,7 +23964,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23796,7 +24020,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23852,7 +24076,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23908,7 +24132,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -23964,7 +24188,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24020,7 +24244,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24076,7 +24300,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24132,7 +24356,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24188,7 +24412,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24244,7 +24468,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24300,7 +24524,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24356,7 +24580,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24412,7 +24636,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24468,7 +24692,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24524,7 +24748,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24580,7 +24804,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24636,7 +24860,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24692,7 +24916,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24748,7 +24972,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24804,7 +25028,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24860,7 +25084,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24916,7 +25140,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -24972,7 +25196,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25028,7 +25252,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25084,7 +25308,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25140,7 +25364,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25196,7 +25420,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25252,7 +25476,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25308,7 +25532,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25364,7 +25588,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25420,7 +25644,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25476,7 +25700,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25532,7 +25756,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25588,7 +25812,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25644,7 +25868,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25700,7 +25924,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25756,7 +25980,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25812,7 +26036,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25868,7 +26092,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25924,7 +26148,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -25980,7 +26204,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26036,7 +26260,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26092,7 +26316,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26148,7 +26372,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26204,7 +26428,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26260,7 +26484,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26316,7 +26540,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26372,7 +26596,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26428,7 +26652,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26484,7 +26708,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26540,7 +26764,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26596,7 +26820,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26652,7 +26876,7 @@
     "pr_number": 19208,
     "pr_state": "OPEN",
     "pr_title": "{bp-19136} arch/stm32: unify all Kconfig options for STM32 ports",
-    "pr_updatedAt": "2026-06-24T13:18:28Z",
+    "pr_updatedAt": "2026-06-24T14:21:50Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19208"
   },
   {
@@ -26764,7 +26988,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T12:22:07Z",
+    "pr_updatedAt": "2026-06-24T14:27:34Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -26820,7 +27044,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T12:22:07Z",
+    "pr_updatedAt": "2026-06-24T14:27:34Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -26876,7 +27100,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T12:22:07Z",
+    "pr_updatedAt": "2026-06-24T14:27:34Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -27100,7 +27324,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T12:22:07Z",
+    "pr_updatedAt": "2026-06-24T14:27:34Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -27156,7 +27380,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T12:22:07Z",
+    "pr_updatedAt": "2026-06-24T14:27:34Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -190736,118 +190960,6 @@
     "pr_url": "https://github.com/apache/nuttx/pull/18980"
   },
   {
-    "build_arch": "xtensa",
-    "build_board": "esp32s3-lcd-ev",
-    "build_config": "lcd",
-    "build_group": "xtensa-03",
-    "build_msg": "Killing pytest after timeout...",
-    "build_score": 0.8,
-    "build_subarch": "esp32s3",
-    "build_timestamp": "2026-05-27T18:16:32",
-    "build_url": "https://github.com/apache/nuttx/actions/runs/26518975376/job/78107047956#step:10:1665",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-27T14:52:43Z",
-    "job_databaseId": 26518975376,
-    "job_displayTitle": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "job_event": "pull_request",
-    "job_headBranch": "translate_apple_clock_id",
-    "job_headSha": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "job_name": "Build",
-    "job_number": 54949,
-    "job_run_duration_ms": "17703000",
-    "job_startedAt": "2026-05-27T14:52:43Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-27T19:47:46Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/26518975376",
-    "job_workflowDatabaseId": 908549,
-    "job_workflowName": "Build",
-    "pr_additions": 98,
-    "pr_assignees": [],
-    "pr_author": "toku-mac",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 7,
-    "pr_closed": true,
-    "pr_closedAt": "2026-05-29T03:46:12Z",
-    "pr_createdAt": "2026-05-27T14:52:32Z",
-    "pr_deletions": 0,
-    "pr_headRefName": "translate_apple_clock_id",
-    "pr_headRefOid": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "pr_headRepository": "nuttx",
-    "pr_headRepositoryOwner": "toku-mac",
-    "pr_id": "PR_kwDODZiUac7f3r_I",
-    "pr_isDraft": true,
-    "pr_labels": "Arch: simulator, Area: OS Components, Size: S",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
-    "pr_milestone": null,
-    "pr_number": 18978,
-    "pr_state": "CLOSED",
-    "pr_title": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "pr_updatedAt": "2026-05-29T03:46:20Z",
-    "pr_url": "https://github.com/apache/nuttx/pull/18978"
-  },
-  {
-    "build_arch": "risc-v",
-    "build_board": "esp32p4-function-ev-board",
-    "build_config": "qencoder",
-    "build_group": "risc-v-03",
-    "build_msg": "Killing pytest after timeout...",
-    "build_score": 0.8,
-    "build_subarch": "esp32p4",
-    "build_timestamp": "2026-05-27T18:06:12",
-    "build_url": "https://github.com/apache/nuttx/actions/runs/26518975376/job/78107047773#step:10:1495",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-27T14:52:43Z",
-    "job_databaseId": 26518975376,
-    "job_displayTitle": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "job_event": "pull_request",
-    "job_headBranch": "translate_apple_clock_id",
-    "job_headSha": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "job_name": "Build",
-    "job_number": 54949,
-    "job_run_duration_ms": "17703000",
-    "job_startedAt": "2026-05-27T14:52:43Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-27T19:47:46Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/26518975376",
-    "job_workflowDatabaseId": 908549,
-    "job_workflowName": "Build",
-    "pr_additions": 98,
-    "pr_assignees": [],
-    "pr_author": "toku-mac",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 7,
-    "pr_closed": true,
-    "pr_closedAt": "2026-05-29T03:46:12Z",
-    "pr_createdAt": "2026-05-27T14:52:32Z",
-    "pr_deletions": 0,
-    "pr_headRefName": "translate_apple_clock_id",
-    "pr_headRefOid": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "pr_headRepository": "nuttx",
-    "pr_headRepositoryOwner": "toku-mac",
-    "pr_id": "PR_kwDODZiUac7f3r_I",
-    "pr_isDraft": true,
-    "pr_labels": "Arch: simulator, Area: OS Components, Size: S",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
-    "pr_milestone": null,
-    "pr_number": 18978,
-    "pr_state": "CLOSED",
-    "pr_title": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "pr_updatedAt": "2026-05-29T03:46:20Z",
-    "pr_url": "https://github.com/apache/nuttx/pull/18978"
-  },
-  {
     "build_arch": "sim",
     "build_board": "sim",
     "build_config": "lua",
@@ -190902,117 +191014,5 @@
     "pr_title": "drivers/analog: fix dead free and memory leak in mcp48xx and mcp47x6.",
     "pr_updatedAt": "2026-05-28T00:18:59Z",
     "pr_url": "https://github.com/apache/nuttx/pull/18980"
-  },
-  {
-    "build_arch": "arm",
-    "build_board": "stm32f103-minimum",
-    "build_config": "adb",
-    "build_group": "arm-11",
-    "build_msg": "d       T i m e  D l o aTd i mUep l o a d  T i mTeo t aClu r r eSnpte \n n t         L e f t     S p e e d \n --:-",
-    "build_score": 0.8,
-    "build_subarch": "stm32",
-    "build_timestamp": "2026-05-27T17:24:27",
-    "build_url": "https://github.com/apache/nuttx/actions/runs/26518975376/job/78107050163#step:10:504",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-27T14:52:43Z",
-    "job_databaseId": 26518975376,
-    "job_displayTitle": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "job_event": "pull_request",
-    "job_headBranch": "translate_apple_clock_id",
-    "job_headSha": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "job_name": "Build",
-    "job_number": 54949,
-    "job_run_duration_ms": "17703000",
-    "job_startedAt": "2026-05-27T14:52:43Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-27T19:47:46Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/26518975376",
-    "job_workflowDatabaseId": 908549,
-    "job_workflowName": "Build",
-    "pr_additions": 98,
-    "pr_assignees": [],
-    "pr_author": "toku-mac",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 7,
-    "pr_closed": true,
-    "pr_closedAt": "2026-05-29T03:46:12Z",
-    "pr_createdAt": "2026-05-27T14:52:32Z",
-    "pr_deletions": 0,
-    "pr_headRefName": "translate_apple_clock_id",
-    "pr_headRefOid": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "pr_headRepository": "nuttx",
-    "pr_headRepositoryOwner": "toku-mac",
-    "pr_id": "PR_kwDODZiUac7f3r_I",
-    "pr_isDraft": true,
-    "pr_labels": "Arch: simulator, Area: OS Components, Size: S",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
-    "pr_milestone": null,
-    "pr_number": 18978,
-    "pr_state": "CLOSED",
-    "pr_title": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "pr_updatedAt": "2026-05-29T03:46:20Z",
-    "pr_url": "https://github.com/apache/nuttx/pull/18978"
-  },
-  {
-    "build_arch": "xtensa",
-    "build_board": "esp32s3-devkit",
-    "build_config": "ksta_softap",
-    "build_group": "xtensa-03",
-    "build_msg": "100",
-    "build_score": 0.8,
-    "build_subarch": "esp32s3",
-    "build_timestamp": "2026-05-27T17:10:42",
-    "build_url": "https://github.com/apache/nuttx/actions/runs/26518975376/job/78107047956#step:10:895",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-27T14:52:43Z",
-    "job_databaseId": 26518975376,
-    "job_displayTitle": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "job_event": "pull_request",
-    "job_headBranch": "translate_apple_clock_id",
-    "job_headSha": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "job_name": "Build",
-    "job_number": 54949,
-    "job_run_duration_ms": "17703000",
-    "job_startedAt": "2026-05-27T14:52:43Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-27T19:47:46Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/26518975376",
-    "job_workflowDatabaseId": 908549,
-    "job_workflowName": "Build",
-    "pr_additions": 98,
-    "pr_assignees": [],
-    "pr_author": "toku-mac",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 7,
-    "pr_closed": true,
-    "pr_closedAt": "2026-05-29T03:46:12Z",
-    "pr_createdAt": "2026-05-27T14:52:32Z",
-    "pr_deletions": 0,
-    "pr_headRefName": "translate_apple_clock_id",
-    "pr_headRefOid": "ab6e9b6d889ecf73e33c21317e8fd2cf7e9177ef",
-    "pr_headRepository": "nuttx",
-    "pr_headRepositoryOwner": "toku-mac",
-    "pr_id": "PR_kwDODZiUac7f3r_I",
-    "pr_isDraft": true,
-    "pr_labels": "Arch: simulator, Area: OS Components, Size: S",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
-    "pr_milestone": null,
-    "pr_number": 18978,
-    "pr_state": "CLOSED",
-    "pr_title": "arch/sim: Translate Apple clock IDs for macOS sim",
-    "pr_updatedAt": "2026-05-29T03:46:20Z",
-    "pr_url": "https://github.com/apache/nuttx/pull/18978"
   }
 ]
