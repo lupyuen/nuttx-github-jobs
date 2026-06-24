@@ -1,0 +1,169 @@
+{
+  "additions": 24,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 21,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-23T23:52:41Z",
+  "deletions": 24,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32f7/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_qspi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_qspi.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f72xx73xx_rcc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f74xx75xx_rcc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32f76xx77xx_rcc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Kconfig",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_qspi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_qspi.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/f7corecomp/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/i2s/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/projectlab/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/configs/usbnsh/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/src/stm32_boot.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/littlefs/defconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/nxffs/defconfig",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-19069",
+  "headRefOid": "76eaf6f1656b8c2f0eb2a250cc2ee2cb48a78878",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7p4Yv3",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19202,
+  "state": "OPEN",
+  "title": "{bp-19069} !arch/stm32: rename STM32F7/H7 QUADSPI Kconfig symbol to QSPI",
+  "updatedAt": "2026-06-24T00:03:12Z",
+  "url": "https://github.com/apache/nuttx/pull/19202"
+}
