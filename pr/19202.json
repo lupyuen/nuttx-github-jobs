@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 21,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-24T04:19:34Z",
   "createdAt": "2026-06-23T23:52:41Z",
   "deletions": 24,
   "files": [
@@ -155,15 +155,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7c2100462aeacd1e159439bcff601aee3124908e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-24T04:19:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19202,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19069} !arch/stm32: rename STM32F7/H7 QUADSPI Kconfig symbol to QSPI",
-  "updatedAt": "2026-06-24T00:27:06Z",
+  "updatedAt": "2026-06-24T04:19:35Z",
   "url": "https://github.com/apache/nuttx/pull/19202"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-24T04:19:18Z",
   "createdAt": "2026-06-24T00:40:39Z",
   "deletions": 4,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d4f31f73aafdc1a87eab147c348b42ce81a7ac46"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-24T04:19:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19205,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19112} arch/arm/gd32f4: fix missing CTL selector bits in up_disableusartint.",
-  "updatedAt": "2026-06-24T01:40:57Z",
+  "updatedAt": "2026-06-24T04:19:18Z",
   "url": "https://github.com/apache/nuttx/pull/19205"
 }
