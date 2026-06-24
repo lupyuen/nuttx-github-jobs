@@ -1,5 +1,61 @@
 [
   {
+    "build_arch": "arm",
+    "build_board": "thingy91",
+    "build_config": "nsh_nrf52",
+    "build_group": "arm-05",
+    "build_msg": "Ignored files: \n (use \"git add -f <file>...\" to include in what will be committed) \n drivers/segger/segger.su \n drivers/segger/serial_rtt.su \n drivers/segger/syslog_rtt.su \n Ignored files: \n (use \"git add -f <file>...\" to include in what will be committed) \n system/uorb/sensor/accel.c.github.workspace.sources.apps.system.uorb.su \n system/uorb/sensor/angle.c.github.workspace.sources.apps.system.uorb.su \n system/uorb/sensor/baro.c.github.workspace.sources.apps.system.uorb.su \n system/uorb/sensor",
+    "build_score": 0.8,
+    "build_subarch": "nrf91",
+    "build_timestamp": "2026-06-24T11:00:44",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/28088452948/job/83164674585#step:10:1573",
+    "build_version": "3",
+    "job_conclusion": "success",
+    "job_createdAt": "2026-06-24T09:20:47Z",
+    "job_databaseId": 28088452948,
+    "job_displayTitle": "arch/arm: fix DMA transfers with sizes smaller than 4 bytes.",
+    "job_event": "pull_request",
+    "job_headBranch": "fix_stm32_sendfifo",
+    "job_headSha": "546c382b8a6d440070cd8d4ee4565ef430cf81a8",
+    "job_name": "Build",
+    "job_number": 55422,
+    "job_run_duration_ms": "10665000",
+    "job_startedAt": "2026-06-24T09:20:47Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-24T12:18:32Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/28088452948",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 4,
+    "pr_assignees": [],
+    "pr_author": "csanchezdll",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 4,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-24T08:59:16Z",
+    "pr_deletions": 4,
+    "pr_headRefName": "fix_stm32_sendfifo",
+    "pr_headRefOid": "546c382b8a6d440070cd8d4ee4565ef430cf81a8",
+    "pr_headRepository": "incubator-nuttx",
+    "pr_headRepositoryOwner": "csanchezdll",
+    "pr_id": "PR_kwDODZiUac7qBrm9",
+    "pr_isDraft": false,
+    "pr_labels": "Arch: arm, Size: XS",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19206,
+    "pr_state": "OPEN",
+    "pr_title": "arch/arm: fix DMA transfers with sizes smaller than 4 bytes.",
+    "pr_updatedAt": "2026-06-24T11:57:32Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19206"
+  },
+  {
     "build_arch": "xtensa",
     "build_board": "esp32s3-ws-lcd128",
     "build_config": "touch-lvgl",
@@ -52,7 +108,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T04:06:11Z",
+    "pr_updatedAt": "2026-06-24T12:22:07Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -108,7 +164,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T04:06:11Z",
+    "pr_updatedAt": "2026-06-24T12:22:07Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -164,7 +220,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T04:06:11Z",
+    "pr_updatedAt": "2026-06-24T12:22:07Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -388,7 +444,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T04:06:11Z",
+    "pr_updatedAt": "2026-06-24T12:22:07Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -444,7 +500,7 @@
     "pr_number": 3556,
     "pr_state": "OPEN",
     "pr_title": "industry/scpi: add unit parser config options",
-    "pr_updatedAt": "2026-06-24T04:06:11Z",
+    "pr_updatedAt": "2026-06-24T12:22:07Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3556"
   },
   {
@@ -500,7 +556,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -724,7 +780,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -780,7 +836,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -836,7 +892,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -1004,7 +1060,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -1060,7 +1116,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -1116,7 +1172,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -1172,7 +1228,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -1228,7 +1284,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -1284,7 +1340,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -1340,7 +1396,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -4420,7 +4476,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -4476,7 +4532,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -4532,7 +4588,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -4588,7 +4644,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -4868,7 +4924,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -5708,7 +5764,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -6029,22 +6085,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -6085,22 +6141,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -6197,22 +6253,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -6477,22 +6533,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -6660,7 +6716,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -6716,7 +6772,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -6772,7 +6828,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -6869,22 +6925,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -7037,22 +7093,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -7205,22 +7261,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -7597,22 +7653,22 @@
     "pr_createdAt": "2026-06-20T18:06:48Z",
     "pr_deletions": 2,
     "pr_headRefName": "upstream-getgroups",
-    "pr_headRefOid": "32122f215400ff0b15ea17e4bb22945145ca37af",
+    "pr_headRefOid": "2c3b19626e12cc57984eb4a5eb6a93f60469d9bc",
     "pr_headRepository": "nuttx-upstream",
     "pr_headRepositoryOwner": "xiaoxiang781216",
     "pr_id": "PR_kwDODZiUac7ovAbH",
     "pr_isDraft": false,
     "pr_labels": "Area: Documentation, Size: S",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "DIRTY",
-    "pr_mergeable": "CONFLICTING",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
     "pr_milestone": null,
     "pr_number": 19182,
     "pr_state": "OPEN",
     "pr_title": "libc/unistd: add getgroups()",
-    "pr_updatedAt": "2026-06-23T19:23:45Z",
+    "pr_updatedAt": "2026-06-24T12:12:51Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19182"
   },
   {
@@ -28536,8 +28592,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 1,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-24T11:41:29Z",
     "pr_createdAt": "2026-06-16T09:08:48Z",
     "pr_deletions": 0,
     "pr_headRefName": "shichunma/mm-gran-reject-oversized-pools",
@@ -28547,16 +28603,16 @@
     "pr_id": "PR_kwDODZiUac7m7Xm0",
     "pr_isDraft": false,
     "pr_labels": "Area: Memory Management, Size: XS",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergeCommit": "a74d8d5d02aee2563346edf4f95f7fda037b241e",
+    "pr_mergeStateStatus": "UNKNOWN",
+    "pr_mergeable": "UNKNOWN",
+    "pr_mergedAt": "2026-06-24T11:41:29Z",
+    "pr_mergedBy": "acassis",
     "pr_milestone": null,
     "pr_number": 19146,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "mm gran reject oversized pools",
-    "pr_updatedAt": "2026-06-20T03:49:19Z",
+    "pr_updatedAt": "2026-06-24T11:41:29Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19146"
   },
   {
@@ -28816,8 +28872,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 1,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-24T11:41:29Z",
     "pr_createdAt": "2026-06-16T09:08:48Z",
     "pr_deletions": 0,
     "pr_headRefName": "shichunma/mm-gran-reject-oversized-pools",
@@ -28827,16 +28883,16 @@
     "pr_id": "PR_kwDODZiUac7m7Xm0",
     "pr_isDraft": false,
     "pr_labels": "Area: Memory Management, Size: XS",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergeCommit": "a74d8d5d02aee2563346edf4f95f7fda037b241e",
+    "pr_mergeStateStatus": "UNKNOWN",
+    "pr_mergeable": "UNKNOWN",
+    "pr_mergedAt": "2026-06-24T11:41:29Z",
+    "pr_mergedBy": "acassis",
     "pr_milestone": null,
     "pr_number": 19146,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "mm gran reject oversized pools",
-    "pr_updatedAt": "2026-06-20T03:49:19Z",
+    "pr_updatedAt": "2026-06-24T11:41:29Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19146"
   },
   {
@@ -29040,8 +29096,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "master",
     "pr_changedFiles": 1,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-06-24T11:41:29Z",
     "pr_createdAt": "2026-06-16T09:08:48Z",
     "pr_deletions": 0,
     "pr_headRefName": "shichunma/mm-gran-reject-oversized-pools",
@@ -29051,16 +29107,16 @@
     "pr_id": "PR_kwDODZiUac7m7Xm0",
     "pr_isDraft": false,
     "pr_labels": "Area: Memory Management, Size: XS",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergeCommit": "a74d8d5d02aee2563346edf4f95f7fda037b241e",
+    "pr_mergeStateStatus": "UNKNOWN",
+    "pr_mergeable": "UNKNOWN",
+    "pr_mergedAt": "2026-06-24T11:41:29Z",
+    "pr_mergedBy": "acassis",
     "pr_milestone": null,
     "pr_number": 19146,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "mm gran reject oversized pools",
-    "pr_updatedAt": "2026-06-20T03:49:19Z",
+    "pr_updatedAt": "2026-06-24T11:41:29Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19146"
   },
   {
@@ -33372,7 +33428,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -33428,7 +33484,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -33540,7 +33596,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -33596,7 +33652,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -36396,7 +36452,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -36564,7 +36620,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -36620,7 +36676,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -36956,7 +37012,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -37124,7 +37180,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -37180,7 +37236,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -37236,7 +37292,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -63052,7 +63108,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -63108,7 +63164,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -63164,7 +63220,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
@@ -70556,7 +70612,7 @@
     "pr_number": 3532,
     "pr_state": "OPEN",
     "pr_title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-    "pr_updatedAt": "2026-06-24T05:05:46Z",
+    "pr_updatedAt": "2026-06-24T11:36:11Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3532"
   },
   {
