@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T18:32:09",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "lpc4088-quickstart",
+"config": "knsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28119711053/job/83268603945#step:10:531",
+"msg": "In file included from /github/workspace/sources/nuttx/include/sys/syscall.h:36, \n from /github/workspace/sources/nuttx/include/syscall.h:32, \n from proxies/PROXY_link.c:5: \n proxies/PROXY_link.c: In function 'link': \n ##[error]proxies/PROXY_link.c:9:39: error: 'SYS_link' undeclared (first use in this function); did you mean 'SYS_unlink'? \n 9 |   return (int)sys_call2((unsigned int)SYS_link, (uintptr_t)parm1, (uintptr_t)parm2); \n |                                       ^~~~~~~~ \n proxies/PROXY_link.c:"
+}

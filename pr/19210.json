@@ -1,0 +1,78 @@
+{
+  "additions": 16,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": true,
+  "closedAt": "2026-06-24T18:35:59Z",
+  "createdAt": "2026-06-24T18:11:50Z",
+  "deletions": 20,
+  "files": [
+    {
+      "path": "fs/vfs/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_link.c",
+      "additions": 10,
+      "deletions": 15
+    },
+    {
+      "path": "syscall/syscall.csv",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix/vfs-link-enosys",
+  "headRefOid": "6cd24613cdc8d588954f1fe9779bb86e882d94eb",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7qO34k",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19210,
+  "state": "CLOSED",
+  "title": "fs/vfs: link() fails with ENOSYS instead of aliasing symlink",
+  "updatedAt": "2026-06-24T18:35:59Z",
+  "url": "https://github.com/apache/nuttx/pull/19210"
+}

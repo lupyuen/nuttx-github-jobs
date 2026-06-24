@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T18:30:07",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "knsh_romfs",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28119711053/job/83268603972#step:10:388",
+"msg": "proxies/PROXY_link.c: In function 'link': \n ##[error]proxies/PROXY_link.c:9:39: error: 'SYS_link' undeclared (first use in this function); did you mean 'SYS_unlink'? \n 9 |   return (int)sys_call2((unsigned int)SYS_link, (uintptr_t)parm1, (uintptr_t)parm2); \n |                                       ^~~~~~~~ \n |                                       SYS_unlink \n proxies/PROXY_link.c:9:39: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]proxies/PROXY_link"
+}

@@ -1,0 +1,63 @@
+{
+  "additions": 11,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjU4MjM1NDU2",
+    "is_bot": false,
+    "login": "joaomariolago",
+    "name": "João Mário Lago"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-24T18:15:57Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/stm32h5-adc-cont-timer-trigger",
+  "headRefOid": "aa099671c672d0668b878a14899e08780c0a3714",
+  "headRepository": {
+    "id": "R_kgDOSp2L0g",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjU4MjM1NDU2",
+    "name": "João Mário Lago",
+    "login": "joaomariolago"
+  },
+  "id": "PR_kwDODZiUac7qO9WD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19211,
+  "state": "OPEN",
+  "title": "arch/arm/stm32h5/adc: disable CONT for timer-triggered circular DMA",
+  "updatedAt": "2026-06-24T18:34:05Z",
+  "url": "https://github.com/apache/nuttx/pull/19211"
+}

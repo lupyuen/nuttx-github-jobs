@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T18:29:40",
+"arch": "risc-v",
+"subarch": "bl808",
+"group": "risc-v-01",
+"board": "ox64",
+"config": "spi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28119711053/job/83268603937#step:10:457",
+"msg": "proxies/PROXY_link.c: In function 'link': \n ##[error]proxies/PROXY_link.c:9:39: error: 'SYS_link' undeclared (first use in this function); did you mean 'SYS_unlink'? \n 9 |   return (int)sys_call2((unsigned int)SYS_link, (uintptr_t)parm1, (uintptr_t)parm2); \n |                                       ^~~~~~~~ \n |                                       SYS_unlink \n proxies/PROXY_link.c:9:39: note: each undeclared identifier is reported only once for each function it appears in \n ##[error]proxies/PROXY_link"
+}
