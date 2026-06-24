@@ -1,5 +1,5 @@
 {
-  "additions": 196,
+  "additions": 212,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 7,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T13:23:46Z",
-  "deletions": 0,
+  "deletions": 16,
   "files": [
     {
       "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-devkit/index.rst",
@@ -31,13 +31,28 @@
       "deletions": 0
     },
     {
+      "path": "fs/vfs/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/Make.defs",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_link.c",
+      "additions": 11,
+      "deletions": 12
+    },
+    {
       "path": "include/crypto/chachapoly.h",
       "additions": 13,
       "deletions": 0
     }
   ],
   "headRefName": "feature/dropbear-esp32c3-port",
-  "headRefOid": "fc1e04dcb7ccb9e77f79908c20b6d2b15ee89dc5",
+  "headRefOid": "5558172dcdf06434b120e466f7f601187af2c6fd",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx",
@@ -71,7 +86,7 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
+  "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
@@ -79,6 +94,6 @@
   "number": 19062,
   "state": "OPEN",
   "title": "boards/esp32c3-devkit: add Dropbear SSH server configuration",
-  "updatedAt": "2026-06-15T14:26:15Z",
+  "updatedAt": "2026-06-24T21:08:39Z",
   "url": "https://github.com/apache/nuttx/pull/19062"
 }

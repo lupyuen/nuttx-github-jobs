@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-24T21:34:31Z",
   "createdAt": "2026-06-24T18:15:57Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2b17b0c9924fb287180725679abba30a29ddf5d9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-24T21:34:31Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19211,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/stm32h5/adc: disable CONT for timer-triggered circular DMA",
-  "updatedAt": "2026-06-24T20:20:12Z",
+  "updatedAt": "2026-06-24T21:34:32Z",
   "url": "https://github.com/apache/nuttx/pull/19211"
 }
