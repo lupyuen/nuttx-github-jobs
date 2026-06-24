@@ -32,7 +32,7 @@
     }
   ],
   "headRefName": "fix/vfs-link-enosys-fallback",
-  "headRefOid": "d97515a919b79d6ce89b68b2c14de2aeb325b91a",
+  "headRefOid": "f45205733ed6b4387bb2696dc7286b53af5d3515",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx",
@@ -45,7 +45,20 @@
   },
   "id": "PR_kwDODZiUac7qQt1v",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -55,6 +68,6 @@
   "number": 19212,
   "state": "OPEN",
   "title": "fs/vfs: provide link fallback without softlinks",
-  "updatedAt": "2026-06-24T19:42:19Z",
+  "updatedAt": "2026-06-24T20:04:06Z",
   "url": "https://github.com/apache/nuttx/pull/19212"
 }
