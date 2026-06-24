@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:17:09",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "omnibusf4",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384546#step:10:506",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n ##[error]board/stm32_pwm.c:82:13: error: call to undeclared function 'stm32_pwminitialize'; ISO C99 and later do not support implicit function declarations [-Wimplicit-function-declaration] \n 82 |       pwm = stm32_pwminitialize(npwm); \n |             ^ \n board/stm32_pwm.c:82:13: note: did you mean 'stm32_usbinitialize'? \n board/omnibusf4.h:135:20: note: 'stm32_usbinitialize' declared here \n 13"
+}

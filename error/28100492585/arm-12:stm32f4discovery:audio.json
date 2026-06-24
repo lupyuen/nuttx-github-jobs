@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:25:24",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-12",
+"board": "stm32f4discovery",
+"config": "audio",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384547#step:10:753",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n In file included from ./audio/cs43l22.c:52: \n ##[error]/github/workspace/sources/nuttx/include/nuttx/audio/cs43l22.h:65:4: error: #error CONFIG_I2S is required by the CS43L22 driver \n 65 | #  error CONFIG_I2S is required by the CS43L22 driver \n |    ^~~~~ \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./cs43l22.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-p"
+}

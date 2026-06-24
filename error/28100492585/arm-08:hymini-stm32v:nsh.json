@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:30:20",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-08",
+"board": "hymini-stm32v",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384501#step:10:1156",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n ##[error]board/stm32_boot.c:105:13: error: 'g_sd_inserted' defined but not used [-Werror=unused-variable] \n 105 | static bool g_sd_inserted; \n |             ^~~~~~~~~~~~~ \n ##[error]board/stm32_boot.c:104:27: error: 'g_sdiodev' defined but not used [-Werror=unused-variable] \n 104 | static struct sdio_dev_s *g_sdiodev; \n |                           ^~~~~~~~~ \n cc1: all warnings being treated as"
+}

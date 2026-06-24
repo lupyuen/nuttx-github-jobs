@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:29:20",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "stm3210e-eval",
+"config": "usbmsc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384546#step:10:1074",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libboards.a(boardctl.o): in function `boardctl': \n boardctl.c:(.text.boardctl+0x1e): undefined reference to `board_usbmsc_initialize' \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make:"
+}

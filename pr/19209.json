@@ -1,0 +1,125 @@
+{
+  "additions": 105,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCkF4eA",
+    "is_bot": false,
+    "login": "Abhishekmishra2808",
+    "name": "Abhishek Mishra"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-24T13:29:17Z",
+  "deletions": 45,
+  "files": [
+    {
+      "path": "Documentation/applications/nsh/login.rst",
+      "additions": 24,
+      "deletions": 5
+    },
+    {
+      "path": "Documentation/components/tools/index.rst",
+      "additions": 21,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/platforms/renesas/rx65n/boards/rx65n-grrose/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/ROMFS.txt",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/Board.mk",
+      "additions": 13,
+      "deletions": 1
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 10,
+      "deletions": 8
+    },
+    {
+      "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/group",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/src/etc/group",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "cmake/nuttx_add_romfs.cmake",
+      "additions": 7,
+      "deletions": 2
+    },
+    {
+      "path": "tools/mkpasswd.c",
+      "additions": 20,
+      "deletions": 15
+    }
+  ],
+  "headRefName": "passwd-empty-default-hardening",
+  "headRefOid": "11f8cc0254ab6bee382672eabd8062ee31aab0ae",
+  "headRepository": {
+    "id": "R_kgDOSbd_bQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCkF4eA",
+    "name": "Abhishek Mishra",
+    "login": "Abhishekmishra2808"
+  },
+  "id": "PR_kwDODZiUac7qIM_R",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19209,
+  "state": "OPEN",
+  "title": "!boards/nsh: Require explicit ROMFS passwd password at build time",
+  "updatedAt": "2026-06-24T13:35:26Z",
+  "url": "https://github.com/apache/nuttx/pull/19209"
+}

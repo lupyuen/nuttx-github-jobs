@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:26:22",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "stm3210e-eval",
+"config": "composite",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384546#step:10:932",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libboards.a(boardctl.o): in function `boardctl': \n boardctl.c:(.text.boardctl+0x54): undefined reference to `board_usbmsc_initialize' \n arm-none-eabi-ld: /github/workspace/sources/nuttx/arch/arm/src/board/libboard.a(stm32_composite.o): in function `board_composite_initialize': \n stm32_composite.c:(.text.board_composite_initialize+0xe): und"
+}

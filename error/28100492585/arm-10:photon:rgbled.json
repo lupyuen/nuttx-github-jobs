@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:21:20",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-10",
+"board": "photon",
+"config": "rgbled",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384546#step:10:699",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n ##[error]board/stm32_rgbled.c:168:4: error: #error \"HAVE_RGBLED is undefined\" \n 168 | #  error \"HAVE_RGBLED is undefined\" \n |    ^~~~~ \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./stm32_rgbled.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-stri"
+}

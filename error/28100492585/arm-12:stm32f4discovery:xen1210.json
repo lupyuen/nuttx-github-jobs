@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:17:30",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-12",
+"board": "stm32f4discovery",
+"config": "xen1210",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384547#step:10:410",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n src/stm32_xen1210.c: In function 'xen1210_pwm_setup': \n ##[error]src/stm32_xen1210.c:219:13: error: implicit declaration of function 'stm32_pwminitialize'; did you mean 'stm32_spibus_initialize'? [-Werror=implicit-function-declaration] \n 219 |       pwm = stm32_pwminitialize(BOARD_XEN1210_PWMTIMER); \n |             ^~~~~~~~~~~~~~~~~~~ \n |             stm32_spibus_initialize \n ##[error]src/stm32"
+}

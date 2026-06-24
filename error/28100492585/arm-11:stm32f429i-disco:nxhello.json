@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-24T13:39:59",
+"arch": "arm",
+"subarch": "stm32",
+"group": "arm-11",
+"board": "stm32f429i-disco",
+"config": "nxhello",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28100492585/job/83201384484#step:10:6130",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n ##[error]chip/stm32_ltdc.c:615:32: error: field 'dma2dinfo' has incomplete type \n 615 |   struct stm32_dma2d_overlay_s dma2dinfo;     /* Overlay info for DMA2D */ \n |                                ^~~~~~~~~ \n ##[error]chip/stm32_ltdc.c:950:61: error: 'struct stm32_ltdc_s' has no member named 'oinfo' \n 950 |             .oinfo          = &g_vtable.layer[LTDC_LAYER_L1].oinfo \n |                 "
+}
