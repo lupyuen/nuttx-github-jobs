@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-24T18:00:36Z",
   "createdAt": "2026-06-11T17:08:41Z",
   "deletions": 0,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d79beefa549b88bccc2cfe8375a511214682d5ae"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-24T18:00:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19123,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "armv7-m/armv8-m: honor SP modifications on exception return",
-  "updatedAt": "2026-06-24T15:32:28Z",
+  "updatedAt": "2026-06-24T18:00:36Z",
   "url": "https://github.com/apache/nuttx/pull/19123"
 }

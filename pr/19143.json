@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4022,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-24T17:54:45Z",
   "createdAt": "2026-06-15T10:05:37Z",
   "deletions": 396560,
   "files": [
@@ -556,15 +556,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8b7639d5a3568867eef2e3151cb0c7eaeca5d7c8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-24T17:54:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19143,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!arch/stm32: split stm32 and stm32f0l0g0 into per-chip-family directories",
-  "updatedAt": "2026-06-24T15:30:43Z",
+  "updatedAt": "2026-06-24T17:54:45Z",
   "url": "https://github.com/apache/nuttx/pull/19143"
 }

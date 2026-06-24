@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-24T17:55:12Z",
   "createdAt": "2026-06-20T18:06:48Z",
   "deletions": 2,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9704481224a199506bfb74702c2b3638081d8474"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-24T17:55:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19182,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "libc/unistd: add getgroups()",
-  "updatedAt": "2026-06-24T15:11:53Z",
+  "updatedAt": "2026-06-24T17:55:12Z",
   "url": "https://github.com/apache/nuttx/pull/19182"
 }
