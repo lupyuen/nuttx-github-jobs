@@ -1,5 +1,5 @@
 {
-  "additions": 105,
+  "additions": 1135,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,46 +9,46 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 11,
+  "changedFiles": 16,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-24T13:29:17Z",
-  "deletions": 45,
+  "deletions": 486,
   "files": [
     {
       "path": "Documentation/applications/nsh/login.rst",
-      "additions": 24,
-      "deletions": 5
+      "additions": 204,
+      "deletions": 47
     },
     {
       "path": "Documentation/components/tools/index.rst",
-      "additions": 21,
-      "deletions": 4
+      "additions": 160,
+      "deletions": 40
     },
     {
       "path": "Documentation/platforms/renesas/rx65n/boards/rx65n-grrose/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/ROMFS.txt",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
-      "additions": 6,
+      "additions": 8,
       "deletions": 6
     },
     {
+      "path": "Documentation/platforms/risc-v/esp32c3-legacy/boards/esp32c3-legacy-devkit/ROMFS.txt",
+      "additions": 9,
+      "deletions": 6
+    },
+    {
+      "path": "Documentation/platforms/sim/sim/boards/sim/index.rst",
+      "additions": 14,
+      "deletions": 11
+    },
+    {
       "path": "boards/Board.mk",
-      "additions": 13,
-      "deletions": 1
+      "additions": 7,
+      "deletions": 12
     },
     {
       "path": "boards/Kconfig",
-      "additions": 10,
-      "deletions": 8
+      "additions": 21,
+      "deletions": 14
     },
     {
       "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/group",
@@ -62,17 +62,42 @@
     },
     {
       "path": "cmake/nuttx_add_romfs.cmake",
-      "additions": 7,
+      "additions": 5,
+      "deletions": 26
+    },
+    {
+      "path": "cmake/savedefconfig.cmake",
+      "additions": 3,
       "deletions": 2
     },
     {
+      "path": "tools/Makefile.host",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "tools/Unix.mk",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "tools/board_romfs_mkpasswd.sh",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
       "path": "tools/mkpasswd.c",
-      "additions": 20,
-      "deletions": 15
+      "additions": 473,
+      "deletions": 317
+    },
+    {
+      "path": "tools/promptpasswd.sh",
+      "additions": 164,
+      "deletions": 0
     }
   ],
   "headRefName": "passwd-empty-default-hardening",
-  "headRefOid": "11f8cc0254ab6bee382672eabd8062ee31aab0ae",
+  "headRefOid": "f4a6ce2cc618e1fbf03010523e34630791d2c7a9",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -93,9 +118,9 @@
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
-      "name": "Size: M",
-      "description": "The size of the change in this PR is medium",
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
       "color": "FEF2C0"
     },
     {
@@ -120,6 +145,6 @@
   "number": 19209,
   "state": "OPEN",
   "title": "!boards/nsh: Require explicit ROMFS passwd password at build time",
-  "updatedAt": "2026-06-24T15:51:50Z",
+  "updatedAt": "2026-06-25T15:12:56Z",
   "url": "https://github.com/apache/nuttx/pull/19209"
 }
