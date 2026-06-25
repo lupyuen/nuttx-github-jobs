@@ -1,0 +1,178 @@
+{
+  "additions": 2449,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 24,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-25T13:28:41Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "fsutils/passwd/passwd_append.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/dropbear/.gitignore",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/CMakeLists.txt",
+      "additions": 185,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/Kconfig",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/Makefile",
+      "additions": 157,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/dropbear_main.c",
+      "additions": 329,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/dropbear_nshsession.c",
+      "additions": 633,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0001-guard-platform-declarations.patch",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0002-use-nuttx-passwd-auth.patch",
+      "additions": 87,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0003-allow-localoptions-to-override-tracking-malloc.patch",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/patch/0004-use-nuttx-unused-macro.patch",
+      "additions": 202,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/config.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_utils.c",
+      "additions": 149,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/dropbear_utils.h",
+      "additions": 31,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/localoptions.h",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_auth.c",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "netutils/dropbear/port/nuttx_config.h",
+      "additions": 142,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/Kconfig",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_dropbear.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_init.c",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/dropbear-esp32c3-port",
+  "headRefOid": "bbff4bf05e0fb02a655cf8ac0036ee0f1ed47f03",
+  "headRepository": {
+    "id": "R_kgDOMr2uag",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiT487qk8OF",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABsqeHrg",
+      "name": "Area: File System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3561,
+  "state": "OPEN",
+  "title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
+  "updatedAt": "2026-06-25T13:31:43Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3561"
+}

@@ -16,7 +16,7 @@
   "deletions": 4,
   "files": [
     {
-      "path": "arch/arm/src/stm32/stm32_sdio.c",
+      "path": "arch/arm/src/common/stm32/stm32_sdio_m3m4_v1.c",
       "additions": 1,
       "deletions": 1
     },
@@ -37,7 +37,7 @@
     }
   ],
   "headRefName": "fix_stm32_sendfifo",
-  "headRefOid": "546c382b8a6d440070cd8d4ee4565ef430cf81a8",
+  "headRefOid": "2ac362f2a32d06e87bfa098d2d5f4d6575daed01",
   "headRepository": {
     "id": "R_kgDOIGBIlw",
     "name": "incubator-nuttx",
@@ -64,14 +64,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19206,
   "state": "OPEN",
   "title": "arch/arm: fix DMA transfers with sizes smaller than 4 bytes.",
-  "updatedAt": "2026-06-24T11:57:32Z",
+  "updatedAt": "2026-06-25T13:39:29Z",
   "url": "https://github.com/apache/nuttx/pull/19206"
 }
