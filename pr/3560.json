@@ -1,0 +1,113 @@
+{
+  "additions": 625,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-25T12:15:54Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "nshlib/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/Kconfig",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_command.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_fscmds.c",
+      "additions": 46,
+      "deletions": 2
+    },
+    {
+      "path": "nshlib/nsh_identity.c",
+      "additions": 453,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_login.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_parse.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_prompt.c",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "nshlib/nsh_telnetlogin.c",
+      "additions": 11,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-3552",
+  "headRefOid": "e735f34c08d634fa4de0f9f1a98efe85cac9fc84",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT487qjJGP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7X-w",
+      "name": "Area: NSH",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3560,
+  "state": "OPEN",
+  "title": "{bp-3552} nshlib: Add su, id, and whoami identity commands",
+  "updatedAt": "2026-06-25T12:31:37Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3560"
+}
