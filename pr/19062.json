@@ -1,5 +1,5 @@
 {
-  "additions": 184,
+  "additions": 141,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T13:23:46Z",
@@ -24,20 +24,10 @@
       "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/dropbear/defconfig",
       "additions": 93,
       "deletions": 0
-    },
-    {
-      "path": "crypto/chachapoly.c",
-      "additions": 30,
-      "deletions": 0
-    },
-    {
-      "path": "include/crypto/chachapoly.h",
-      "additions": 13,
-      "deletions": 0
     }
   ],
   "headRefName": "feature/dropbear-esp32c3-port",
-  "headRefOid": "327a8bf9a07339180195961f711e6bca96c2f64e",
+  "headRefOid": "27a30fa763b35941ba893df6e91fa8d50e8590fe",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx",
@@ -52,16 +42,16 @@
   "isDraft": false,
   "labels": [
     {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
       "id": "LA_kwDODZiUac8AAAABvj_ZzA",
       "name": "Size: M",
       "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
-    },
-    {
-      "id": "LA_kwDODZiUac8AAAABvonxAw",
-      "name": "Area: Crypto",
-      "description": "",
-      "color": "0075ca"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8L77A",
@@ -79,6 +69,6 @@
   "number": 19062,
   "state": "OPEN",
   "title": "boards/esp32c3-devkit: add Dropbear SSH server configuration",
-  "updatedAt": "2026-06-25T01:59:58Z",
+  "updatedAt": "2026-06-25T08:30:42Z",
   "url": "https://github.com/apache/nuttx/pull/19062"
 }
