@@ -1,5 +1,5 @@
 {
-  "additions": 986,
+  "additions": 995,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -13,17 +13,17 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-24T13:29:17Z",
-  "deletions": 557,
+  "deletions": 546,
   "files": [
     {
       "path": "Documentation/applications/nsh/login.rst",
-      "additions": 167,
+      "additions": 168,
       "deletions": 76
     },
     {
       "path": "Documentation/components/tools/index.rst",
-      "additions": 48,
-      "deletions": 82
+      "additions": 53,
+      "deletions": 80
     },
     {
       "path": "Documentation/platforms/renesas/rx65n/boards/rx65n-grrose/index.rst",
@@ -62,8 +62,8 @@
     },
     {
       "path": "cmake/nuttx_add_romfs.cmake",
-      "additions": 5,
-      "deletions": 26
+      "additions": 8,
+      "deletions": 17
     },
     {
       "path": "cmake/savedefconfig.cmake",
@@ -97,7 +97,7 @@
     }
   ],
   "headRefName": "passwd-empty-default-hardening",
-  "headRefOid": "084e0432d7943ad96c163d34dd5cbaea909fbdd6",
+  "headRefOid": "66718712b66f68703d85a7dd6bb840563383bff0",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -145,6 +145,6 @@
   "number": 19209,
   "state": "OPEN",
   "title": "!boards/nsh: Replace reversible TEA password storage in /etc/passwd with one-way PBKDF2-HMAC-SHA256 hashing ",
-  "updatedAt": "2026-06-25T20:12:42Z",
+  "updatedAt": "2026-06-25T20:56:03Z",
   "url": "https://github.com/apache/nuttx/pull/19209"
 }
