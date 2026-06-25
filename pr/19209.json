@@ -1,5 +1,5 @@
 {
-  "additions": 1135,
+  "additions": 986,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -13,17 +13,17 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-24T13:29:17Z",
-  "deletions": 486,
+  "deletions": 557,
   "files": [
     {
       "path": "Documentation/applications/nsh/login.rst",
-      "additions": 204,
-      "deletions": 47
+      "additions": 167,
+      "deletions": 76
     },
     {
       "path": "Documentation/components/tools/index.rst",
-      "additions": 160,
-      "deletions": 40
+      "additions": 48,
+      "deletions": 82
     },
     {
       "path": "Documentation/platforms/renesas/rx65n/boards/rx65n-grrose/index.rst",
@@ -97,7 +97,7 @@
     }
   ],
   "headRefName": "passwd-empty-default-hardening",
-  "headRefOid": "f4a6ce2cc618e1fbf03010523e34630791d2c7a9",
+  "headRefOid": "084e0432d7943ad96c163d34dd5cbaea909fbdd6",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -144,7 +144,7 @@
   "milestone": null,
   "number": 19209,
   "state": "OPEN",
-  "title": "!boards/nsh: Require explicit ROMFS passwd password at build time",
-  "updatedAt": "2026-06-25T15:35:33Z",
+  "title": "!boards/nsh: Replace reversible TEA password storage in /etc/passwd with one-way PBKDF2-HMAC-SHA256 hashing ",
+  "updatedAt": "2026-06-25T16:47:39Z",
   "url": "https://github.com/apache/nuttx/pull/19209"
 }
