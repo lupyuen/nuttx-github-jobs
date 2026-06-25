@@ -1,0 +1,88 @@
+{
+  "additions": 734,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-25T12:10:23Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "testing/ostest/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "testing/ostest/Kconfig",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/Makefile",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "testing/ostest/multiuser.c",
+      "additions": 688,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/ostest.h",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "testing/ostest/ostest_main.c",
+      "additions": 21,
+      "deletions": 8
+    }
+  ],
+  "headRefName": "bp-3553",
+  "headRefOid": "80c99ca17029a393a2b18f6daa6481c74cabce67",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT487qjAdE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7V-A",
+      "name": "Area: Testing",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3559,
+  "state": "OPEN",
+  "title": "{bp-3553} testing/ostest: Add multi-user permission regression tests",
+  "updatedAt": "2026-06-25T12:11:52Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3559"
+}

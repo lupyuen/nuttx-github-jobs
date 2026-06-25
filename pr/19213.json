@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-25T11:47:41Z",
   "createdAt": "2026-06-25T09:38:50Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1bcfc25d450ea905e72c19653964cc3a5227872e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-25T11:47:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19213,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19215} Releasenotes: add NuttX 13.0.0 release notes",
-  "updatedAt": "2026-06-25T11:23:56Z",
+  "updatedAt": "2026-06-25T12:00:14Z",
   "url": "https://github.com/apache/nuttx/pull/19213"
 }
