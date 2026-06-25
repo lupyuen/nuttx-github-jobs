@@ -1,5 +1,5 @@
 {
-  "additions": 212,
+  "additions": 184,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 7,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T13:23:46Z",
-  "deletions": 16,
+  "deletions": 0,
   "files": [
     {
       "path": "Documentation/platforms/risc-v/esp32c3/boards/esp32c3-devkit/index.rst",
@@ -22,7 +22,7 @@
     },
     {
       "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/dropbear/defconfig",
-      "additions": 105,
+      "additions": 93,
       "deletions": 0
     },
     {
@@ -31,28 +31,13 @@
       "deletions": 0
     },
     {
-      "path": "fs/vfs/CMakeLists.txt",
-      "additions": 3,
-      "deletions": 2
-    },
-    {
-      "path": "fs/vfs/Make.defs",
-      "additions": 2,
-      "deletions": 2
-    },
-    {
-      "path": "fs/vfs/fs_link.c",
-      "additions": 11,
-      "deletions": 12
-    },
-    {
       "path": "include/crypto/chachapoly.h",
       "additions": 13,
       "deletions": 0
     }
   ],
   "headRefName": "feature/dropbear-esp32c3-port",
-  "headRefOid": "5558172dcdf06434b120e466f7f601187af2c6fd",
+  "headRefOid": "327a8bf9a07339180195961f711e6bca96c2f64e",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx",
@@ -94,6 +79,6 @@
   "number": 19062,
   "state": "OPEN",
   "title": "boards/esp32c3-devkit: add Dropbear SSH server configuration",
-  "updatedAt": "2026-06-24T21:08:39Z",
+  "updatedAt": "2026-06-25T01:46:32Z",
   "url": "https://github.com/apache/nuttx/pull/19062"
 }

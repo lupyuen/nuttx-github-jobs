@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-25T01:30:09Z",
   "createdAt": "2026-06-24T19:42:17Z",
   "deletions": 16,
   "files": [
@@ -59,15 +59,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3aa3c215049d6fd69746c752b39436de7fca7bb1"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-25T01:30:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19212,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/vfs: provide link fallback without softlinks",
-  "updatedAt": "2026-06-24T21:34:09Z",
+  "updatedAt": "2026-06-25T01:30:10Z",
   "url": "https://github.com/apache/nuttx/pull/19212"
 }
