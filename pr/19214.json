@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-25T15:56:02Z",
   "createdAt": "2026-06-25T09:39:16Z",
   "deletions": 2,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5c8fa78c4e9cadd886e3038084653e5e18982913"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-25T15:56:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19214,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci/testing: Update MemBrowse targets and cuncurrency condition",
-  "updatedAt": "2026-06-25T10:26:38Z",
+  "updatedAt": "2026-06-25T15:56:03Z",
   "url": "https://github.com/apache/nuttx/pull/19214"
 }
