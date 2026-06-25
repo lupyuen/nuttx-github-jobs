@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-25T18:19:03Z",
   "createdAt": "2026-06-12T03:48:57Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "21def97623a4f45bfef0c976bf769be3581c5ed0"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-06-25T18:19:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19124,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "net/devif: harden devif_conn_event() against list mutation",
-  "updatedAt": "2026-06-24T15:33:13Z",
+  "updatedAt": "2026-06-25T18:19:03Z",
   "url": "https://github.com/apache/nuttx/pull/19124"
 }

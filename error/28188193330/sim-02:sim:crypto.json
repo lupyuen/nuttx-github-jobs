@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-25T17:36:41",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "crypto",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28188193330/job/83496005981#step:10:435",
+"msg": "pbkdf2_hmac_sha256.c: In function 'pbkdf2_hmac_sha256': \n ##[error]pbkdf2_hmac_sha256.c:381:35: error: passing argument 1 of 'mbedtls_pkcs5_pbkdf2_hmac' from incompatible pointer type [-Werror=incompatible-pointer-types] \n 381 |   ret = mbedtls_pkcs5_pbkdf2_hmac(info, pass, passlen, salt, saltlen, \n |                                   ^~~~ \n |                                   | \n |                                   const mbedtls_md_info_t * \n In file included from pbkdf2_hmac_sha256.c:37: \n /github/"
+}
