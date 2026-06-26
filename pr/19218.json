@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-26T02:52:08Z",
   "createdAt": "2026-06-26T00:53:20Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "63c095ffefee5e62e64e081a03d2f6bd759bc1fe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-26T02:52:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19218,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19164} drivers/can/ctucanfd_pci: Fix Malformed CAN Data Msg (address off-by-one)",
-  "updatedAt": "2026-06-26T00:53:39Z",
+  "updatedAt": "2026-06-26T02:52:08Z",
   "url": "https://github.com/apache/nuttx/pull/19218"
 }
