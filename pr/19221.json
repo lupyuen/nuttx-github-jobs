@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-26T13:42:52Z",
   "createdAt": "2026-06-26T09:27:30Z",
   "deletions": 52,
   "files": [
@@ -43,15 +43,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c13914c7b2b224ae5d226d11c7fe093c934f417f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-26T13:42:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19221,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "stdbit.h: fix compilation error of generic stdc_ functions",
-  "updatedAt": "2026-06-26T13:22:38Z",
+  "updatedAt": "2026-06-26T13:42:52Z",
   "url": "https://github.com/apache/nuttx/pull/19221"
 }
