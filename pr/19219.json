@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-26T12:32:09Z",
   "createdAt": "2026-06-26T03:24:56Z",
   "deletions": 0,
   "files": [
@@ -125,15 +125,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f5e3bb24595b78c5e329d13b1ad559a294ed3ef9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-26T12:32:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19219,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/esp32p4: add support to M5Stack Tab5 board",
-  "updatedAt": "2026-06-26T11:52:57Z",
+  "updatedAt": "2026-06-26T12:33:02Z",
   "url": "https://github.com/apache/nuttx/pull/19219"
 }
