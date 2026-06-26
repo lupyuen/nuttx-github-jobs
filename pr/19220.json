@@ -1,0 +1,93 @@
+{
+  "additions": 0,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE5MjU3MTU5",
+    "is_bot": false,
+    "login": "Junbo-Zheng",
+    "name": "Junbo Zheng"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-26T06:13:24Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "arch/arm/src/arm/arm_saveusercontext.S",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv6-m/arm_saveusercontext.S",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-a/arm_saveusercontext.S",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-m/arm_saveusercontext.S",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv7-r/arm_saveusercontext.S",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-m/arm_saveusercontext.S",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/armv8-r/arm_saveusercontext.S",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "arm",
+  "headRefOid": "b47bb31856801c84569955aa5f661efc9391b5bb",
+  "headRepository": {
+    "id": "R_kgDOTD_aFg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE5MjU3MTU5",
+    "name": "Junbo Zheng",
+    "login": "Junbo-Zheng"
+  },
+  "id": "PR_kwDODZiUac7q28dm",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19220,
+  "state": "OPEN",
+  "title": "arch/arm: remove duplicate .globl for up_saveusercontext",
+  "updatedAt": "2026-06-26T06:38:19Z",
+  "url": "https://github.com/apache/nuttx/pull/19220"
+}
