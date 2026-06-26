@@ -1,5 +1,5 @@
 {
-  "additions": 153,
+  "additions": 10,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY4OTk4NTQz",
@@ -9,20 +9,30 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
-  "createdAt": "2026-06-26T09:27:30Z",
-  "deletions": 52,
+  "createdAt": "2026-06-26T10:12:45Z",
+  "deletions": 0,
   "files": [
     {
-      "path": "include/nuttx/lib/stdbit.h",
-      "additions": 153,
-      "deletions": 52
+      "path": "boards/sim/sim/sim/configs/citest/defconfig",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/.gitignore",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ci/testrun/script/test_os/test_os.py",
+      "additions": 7,
+      "deletions": 0
     }
   ],
-  "headRefName": "stdbit-fix",
-  "headRefOid": "b447dcd9536190dab66adbfdd33969cab8a6feba",
+  "headRefName": "stdbit-test",
+  "headRefOid": "455a9faded42f7abafcb18c5a7bc45c2e99afaf4",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyODQ3NDY5NzM=",
     "name": "incubator-nuttx",
@@ -33,25 +43,18 @@
     "name": "Michal Lenc",
     "login": "michallenc"
   },
-  "id": "PR_kwDODZiUac7q6wHh",
+  "id": "PR_kwDODZiUac7q7tjm",
   "isDraft": false,
-  "labels": [
-    {
-      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
-      "name": "Size: M",
-      "description": "The size of the change in this PR is medium",
-      "color": "FEF2C0"
-    }
-  ],
+  "labels": [],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
-  "number": 19221,
+  "number": 19222,
   "state": "OPEN",
-  "title": "stdbit.h: fix compilation error of generic stdc_ functions",
-  "updatedAt": "2026-06-26T10:09:07Z",
-  "url": "https://github.com/apache/nuttx/pull/19221"
+  "title": "ci: add stdbit.h test",
+  "updatedAt": "2026-06-26T10:13:22Z",
+  "url": "https://github.com/apache/nuttx/pull/19222"
 }
