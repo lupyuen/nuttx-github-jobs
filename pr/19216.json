@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-26T14:50:44Z",
   "createdAt": "2026-06-25T12:52:39Z",
   "deletions": 4,
   "files": [
@@ -58,15 +58,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9a4114a9d3e06e47cab2c15e00b2b29c17c10b10"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-26T14:50:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19216,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "1wire: Move onewire_valid_rom to 1wire_crc.h",
-  "updatedAt": "2026-06-26T13:40:47Z",
+  "updatedAt": "2026-06-26T14:50:44Z",
   "url": "https://github.com/apache/nuttx/pull/19216"
 }
