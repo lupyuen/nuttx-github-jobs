@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-26T18:16:21Z",
   "createdAt": "2026-06-26T06:13:24Z",
   "deletions": 7,
   "files": [
@@ -79,15 +79,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "578b303c63f5e0115dc822b1cfd969c1ed40682d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-26T18:16:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19220,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm: remove duplicate .globl for up_saveusercontext",
-  "updatedAt": "2026-06-26T06:38:19Z",
+  "updatedAt": "2026-06-26T18:16:21Z",
   "url": "https://github.com/apache/nuttx/pull/19220"
 }

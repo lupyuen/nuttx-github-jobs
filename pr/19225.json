@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-26T18:33:39Z",
   "createdAt": "2026-06-26T13:57:30Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "861125a75eabf6b97891d2d6acdb00b1be26419f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-26T18:33:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19225,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/audio: Fix audio tone generator",
-  "updatedAt": "2026-06-26T15:16:07Z",
+  "updatedAt": "2026-06-26T18:33:40Z",
   "url": "https://github.com/apache/nuttx/pull/19225"
 }
