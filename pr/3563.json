@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-26T11:51:22Z",
   "createdAt": "2026-06-26T10:17:03Z",
   "deletions": 0,
   "files": [
@@ -69,15 +69,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b8cb8d1a4a3c6aa7b86b593f409380a07b4f61eb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-26T11:51:22Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3563,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-3562} testing/libc: add stdbit test",
-  "updatedAt": "2026-06-26T10:53:36Z",
+  "updatedAt": "2026-06-26T11:51:23Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3563"
 }
