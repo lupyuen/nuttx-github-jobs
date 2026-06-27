@@ -1,0 +1,83 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "is_bot": false,
+    "login": "wangchdo",
+    "name": "chengdong wang"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-27T15:15:45Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/risc-v/include/barriers.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_fpu.S",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mmu.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_vpu.S",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_head.S",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "master",
+  "headRefOid": "4b2e3e86b1bea4a7581c0b9a57cd86a38fbb1ca0",
+  "headRepository": {
+    "id": "R_kgDOPhB8Mw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjQ4NDYyMjY0",
+    "name": "chengdong wang",
+    "login": "wangchdo"
+  },
+  "id": "PR_kwDODZiUac7rUneo",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19229,
+  "state": "OPEN",
+  "title": "arch/riscv: Add CONFIG_ARCH_RV_ISA_ZICSR_ZIFENCEI for fence.i",
+  "updatedAt": "2026-06-27T15:37:35Z",
+  "url": "https://github.com/apache/nuttx/pull/19229"
+}
