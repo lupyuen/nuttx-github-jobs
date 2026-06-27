@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-27T11:44:15Z",
   "createdAt": "2026-06-26T17:38:25Z",
   "deletions": 10,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ae718ba47fd396d649939c1f54f09b92e096a594"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-27T11:44:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 3565,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nsh/echo: Fix echo command to keep original behavior adding a '\\n' as a single write()",
-  "updatedAt": "2026-06-26T17:53:08Z",
+  "updatedAt": "2026-06-27T11:44:15Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3565"
 }

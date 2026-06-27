@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 24,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-27T11:42:01Z",
   "createdAt": "2026-06-25T13:28:41Z",
   "deletions": 1,
   "files": [
@@ -164,15 +164,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fee2ddbf540ddd3639a30a2ed488b34fa10bf862"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-27T11:42:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3561,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netutils/dropbear: initial Dropbear SSH server port for NuttX",
-  "updatedAt": "2026-06-26T20:13:32Z",
+  "updatedAt": "2026-06-27T11:42:01Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3561"
 }
