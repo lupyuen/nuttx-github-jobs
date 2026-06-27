@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-27T17:07:57Z",
   "createdAt": "2026-06-08T13:23:46Z",
   "deletions": 0,
   "files": [
@@ -60,15 +60,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "3f00e60c1fb45bfaf0e1dfc7e34eebdd2d629aac"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-27T17:07:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19062,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/esp32c3-devkit: add Dropbear SSH server configuration",
-  "updatedAt": "2026-06-27T15:02:52Z",
+  "updatedAt": "2026-06-27T17:07:57Z",
   "url": "https://github.com/apache/nuttx/pull/19062"
 }
