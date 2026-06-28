@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-28T02:54:00",
+"arch": "other",
+"subarch": "pic32mx",
+"group": "other",
+"board": "pic32mx7mmb",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28309022972/job/83870389606#step:10:686",
+"msg": "nsh_script.c: In function 'nsh_script': \n ##[error]nsh_script.c:124:39: error: 'O_RDOK' undeclared (first use in this function) \n vtbl->np.np_fd = open(fullpath, O_RDOK | O_CLOEXEC); \n ^ \n nsh_script.c:124:39: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: nsh_script.c.github.workspace.sources.apps.nshlib.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Makefile:5"
+}

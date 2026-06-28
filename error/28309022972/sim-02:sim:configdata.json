@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-28T02:48:29",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "configdata",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28309022972/job/83870389620#step:10:346",
+"msg": "configdata_main.c: In function 'configdata_main': \n ##[error]configdata_main.c:667:30: error: 'O_RDOK' undeclared (first use in this function); did you mean 'O_RDWR'? \n 667 |   g_fd = open(\"/dev/config\", O_RDOK); \n |                              ^~~~~~ \n |                              O_RDWR \n configdata_main.c:667:30: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: configdata_main.c.github.work"
+}

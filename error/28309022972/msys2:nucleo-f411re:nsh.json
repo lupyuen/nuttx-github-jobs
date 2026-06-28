@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-28T02:55:43",
+"arch": "msys2",
+"subarch": "stm32f4",
+"group": "msys2",
+"board": "nucleo-f411re",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28309022972/job/83870390651#step:9:1019",
+"msg": "nsh_script.c: In function 'nsh_script': \n ##[error]nsh_script.c:124:39: error: 'O_RDOK' undeclared (first use in this function); did you mean 'O_RDWR'? \n 124 |       vtbl->np.np_fd = open(fullpath, O_RDOK | O_CLOEXEC); \n |                                       ^~~~~~ \n |                                       O_RDWR \n nsh_script.c:124:39: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/d/a/nuttx/nuttx/sources/apps/Application.mk:239: nsh_script.c."
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-28T02:50:58",
+"arch": "other",
+"subarch": "at32uc3",
+"group": "other",
+"board": "mizar32a",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28309022972/job/83870389606#step:10:481",
+"msg": "nsh_script.c: In function 'nsh_script': \n nsh_script.c:124: error: 'O_RDOK' undeclared (first use in this function) \n nsh_script.c:124: note: each undeclared identifier is reported only once for each function it appears in \n cc1: warnings being treated as errors \n At top level: \n cc1: error: unrecognized command line option \"-Wno-cpp\" \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: nsh_script.c.github.workspace.sources.apps.nshlib.o] Error 1 \n make[2]: Target 'all' not remade bec"
+}
