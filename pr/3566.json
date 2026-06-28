@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-28T11:00:52Z",
   "createdAt": "2026-06-28T02:03:02Z",
   "deletions": 4,
   "files": [
@@ -65,15 +65,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4c560ef0a202aa00657e67f4572aee0ed071bd0f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-28T11:00:52Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 3566,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Replace O_RDOK with O_RDONLY after alias removal",
-  "updatedAt": "2026-06-28T09:04:54Z",
+  "updatedAt": "2026-06-28T11:00:53Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3566"
 }
