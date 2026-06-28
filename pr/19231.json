@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 39,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-28T12:10:12Z",
   "createdAt": "2026-06-28T02:37:12Z",
   "deletions": 75,
   "files": [
@@ -239,15 +239,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6161c7363977c75dd47281aa134092434eec1a98"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-28T12:10:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19231,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-  "updatedAt": "2026-06-28T09:03:42Z",
+  "updatedAt": "2026-06-28T12:10:12Z",
   "url": "https://github.com/apache/nuttx/pull/19231"
 }
