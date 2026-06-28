@@ -1,0 +1,83 @@
+{
+  "additions": 22,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-28T19:31:12Z",
+  "deletions": 33,
+  "files": [
+    {
+      "path": "arch/arm/include/lpc2378/irq.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/lpc2378/lpc2378.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/lpc2378/lpc23xx_decodeirq.c",
+      "additions": 22,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm/src/lpc2378/lpc23xx_irq.c",
+      "additions": 0,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/lpc2378/lpc23xx_timerisr.c",
+      "additions": 0,
+      "deletions": 10
+    }
+  ],
+  "headRefName": "fix_lpc2378",
+  "headRefOid": "3d057a7b53564e77e144af49aacf764b51b849f6",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "name": "Alan C. Assis",
+    "login": "acassis"
+  },
+  "id": "PR_kwDODZiUac7riYQu",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19233,
+  "state": "OPEN",
+  "title": "arch/arm: Fix LPC2378 to work again",
+  "updatedAt": "2026-06-28T19:51:22Z",
+  "url": "https://github.com/apache/nuttx/pull/19233"
+}
