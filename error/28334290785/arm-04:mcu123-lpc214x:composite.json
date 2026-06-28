@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-28T20:27:06",
+"arch": "arm",
+"subarch": "lpc214x",
+"group": "arm-04",
+"board": "mcu123-lpc214x",
+"config": "composite",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28334290785/job/83937826220#step:10:623",
+"msg": "In file included from chip/lpc214x_decodeirq.c:36: \n chip/lpc214x_decodeirq.c: In function 'arm_decodeirq': \n ##[error]chip/lpc214x_decodeirq.c:152:33: error: 'VIC_IRQSTATUS_OFFSET' undeclared (first use in this function); did you mean 'LPC214X_VIC_IRQSTATUS_OFFSET'? \n 152 |   uint32_t irqbits = vic_getreg(VIC_IRQSTATUS_OFFSET) & 0xffffffff; \n |                                 ^~~~~~~~~~~~~~~~~~~~ \n 130 | #define getreg32(a)    (*(volatile uint32_t *)(a)) \n |                                           "
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-28T20:32:33",
+"arch": "arm",
+"subarch": "lpc2378",
+"group": "arm-04",
+"board": "olimex-lpc2378",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28333820732/job/83938136801#step:10:617",
+"msg": "##[error]chip/lpc23xx_decodeirq.c:87:18: error: 'lpc23xx_decodeirq' defined but not used [-Werror=unused-function] \n 87 | static uint32_t *lpc23xx_decodeirq(uint32_t *regs) \n |                  ^~~~~~~~~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:179: lpc23xx_decodeirq.o] Error 1 \n make[1]: Target 'libarch.a' not remade because of errors. \n make: *** [tools/LibTargets.mk:170: arch/arm/src/libarch.a] Error 2 \n make: Target 'all' not remade because of errors."
+}
