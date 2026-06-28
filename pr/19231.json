@@ -1,0 +1,253 @@
+{
+  "additions": 73,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 39,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-28T02:37:12Z",
+  "deletions": 75,
+  "files": [
+    {
+      "path": "drivers/bch/bchlib_setup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/can/can.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/misc/optee.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/mtd/filemtd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/pipes/pipe_common.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "drivers/sensors/sensor.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/sensor_rpmsg.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "fs/fat/fs_fat32.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/hostfs/hostfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/inode/fs_inode.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "fs/mmap/fs_mmap.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/nxffs/nxffs_open.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "fs/nxffs/nxffs_read.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/nxffs/nxffs_truncate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/nxffs/nxffs_write.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/rpmsgfs/rpmsgfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/smartfs/smartfs_smart.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/spiffs/src/spiffs_vfs.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_inotify.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_read.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_signalfd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_truncate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "graphics/nxterm/nxterm_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/fcntl.h",
+      "additions": 1,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stdio/lib_fclose.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_fmemopen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_fopen.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stdio/lib_libfflush.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_libflushall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdio/lib_libfread_unlocked.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_libfwrite.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_ungetc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_ungetwc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_wrflush_unlocked.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/mq_receive.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/mq_send.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/tls/task_initinfo.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "upstream-rdok-nuttx",
+  "headRefOid": "3b20150dc76d4464b684d406393119fda51a54f4",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac7rawQE",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19231,
+  "state": "OPEN",
+  "title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
+  "updatedAt": "2026-06-28T02:42:52Z",
+  "url": "https://github.com/apache/nuttx/pull/19231"
+}
