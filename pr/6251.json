@@ -1,0 +1,545 @@
+{
+  "additions": 497,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 173,
+  "closed": true,
+  "closedAt": "2022-05-15T09:12:04Z",
+  "createdAt": "2022-05-12T08:00:45Z",
+  "deletions": 456,
+  "files": [
+    {
+      "path": "arch/arm/src/c5471/c5471_ethernet.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/c5471/c5471_serial.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_emmc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_sdhci.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_usbdev.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/dm320/dm320_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_usbdev.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/efm32/efm32_usbhost.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/imxrt/imxrt_ehci.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/kinetis/kinetis_usbhshost.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/lpc17xx_40xx/lpc17_40_usbhost.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/lpc31xx/lpc31_ehci.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_cgu.c",
+      "additions": 5,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_ehci.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_ethernet.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/lpc43xx/lpc43_rgu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/lpc54xx/lpc54_usb0_ohci.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/nuc1xx/nuc_clockconfig.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/sam34/sam4s_nand.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sam34/sam_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_ehci.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_ohci.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samd5e5/sam_usb.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_qspi_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_spi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_spi_slave.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_eth.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_otgfsdev.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_otgfshost.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_otghsdev.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_otghshost.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32/stm32_usbfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0l0g0/stm32_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_ethernet.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_otgdev.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_otghost.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_ethernet.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_fmc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_otgdev.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_otghost.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_otgfsdev.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_otgfshost.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/str71x/str71x_irq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/tiva/lm/lm3s_ethernet.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/tiva/tm4c/tm4c_ethernet.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/mips/src/pic32mx/pic32mx_usbdev.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/renesas/src/rx65n/rx65n_eth.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/renesas/src/rx65n/rx65n_usbhost.c",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "arch/x86_64/src/common/up_initialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/z80/src/ez80/ez80_emac.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_ili9340.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_lpm013m091a.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/cxd56xx/common/src/cxd56_sensors.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/audio/cxd56_audio_ac_reg.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/ak09912_scu.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bm1383glv_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bm1422gmv_scu.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bmi160_scu.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/kx022_scu.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/imxrt/teensy-4.x/src/imxrt_st7789.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-devkit/src/lpc17_40_norinitialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-devkit/src/lpc17_40_sdraminitialize.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lpc4088-quickstart/src/lpc17_40_sdraminitialize.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/lx_cpu/src/lpc17_40_sdraminitialize.c",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/open1788/src/lpc17_40_norinitialize.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/open1788/src/lpc17_40_sdraminitialize.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/lpc17xx_40xx/zkit-arm-1769/src/lpc17_40_lcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/lpc214x/zp214xpa/src/lpc2148_ug2864ambag01.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/flipnclick-sam3x/src/sam_ssd1306.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam3u-ek/src/sam_lcd.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/src/sam_ili9325.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/sam34/sam4e-ek/src/sam_ili9341.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/sam34/sam4l-xplained/src/sam_ug2832hsweg04.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/samd20-xplained/src/sam_ug2832hsweg04.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/samd21-xplained/src/sam_ug2832hsweg04.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samd2l2/saml21-xplained/src/sam_ug2832hsweg04.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/same70-xplained/src/sam_xbee.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_ili9488.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/samv7/samv71-xult/src/sam_st7789.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/clicker2-stm32/src/stm32_xbee.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/src/stm32_r61505u.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/src/stm32_ssd1289.c",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/hymini-stm32v/src/stm32_ts.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/src/stm32_mio283qt2.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/mikroe-stm32f4/src/stm32_mio283qt9a.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f303re/src/stm32_ssd1351.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-f446re/src/stm32_ili9225.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/nucleo-l152re/src/stm32_ili93418b.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/olimex-stm32-p407/src/stm32_st7735.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/shenzhou/src/stm32_ili93xx.c",
+      "additions": 24,
+      "deletions": 24
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_idle.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32/stm3210e-eval/src/stm32_lcd.c",
+      "additions": 18,
+      "deletions": 17
+    },
+    {
+      "path": "boards/arm/stm32/stm3220g-eval/src/stm32_lcd.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/stm3240g-eval/src/stm32_lcd.c",
+      "additions": 6,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_lcd_st7567.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32/stm32f103-minimum/src/stm32_pcd8544.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "delay",
+  "headRefOid": "db2627a60d81ee81e238ade7b0093642ec5ec1a2",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac43s10U",
+  "isDraft": true,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 6251,
+  "state": "CLOSED",
+  "title": "Optimize the up_mdelay usage",
+  "updatedAt": "2026-06-28T01:14:23Z",
+  "url": "https://github.com/apache/nuttx/pull/6251"
+}

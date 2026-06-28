@@ -1,0 +1,175 @@
+{
+  "additions": 64,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 26,
+  "closed": true,
+  "closedAt": "2024-10-06T01:23:53Z",
+  "createdAt": "2023-02-04T14:00:36Z",
+  "deletions": 7,
+  "files": [
+    {
+      "path": "arch/sim/src/sim/sim_initialize.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_rptun.c",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/sensors/wtgahrs2.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/video/fb.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/mqueue/mq_close.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/rpmsgfs/rpmsgfs_server.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/smartfs/smartfs_utils.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/spiffs/src/spiffs_vfs.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/tmpfs/fs_tmpfs.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/unionfs/fs_unionfs.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_dir.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_epoll.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_fcntl.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_sendfile.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "include/nuttx/arch.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "include/pthread.h",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "include/sys/utsname.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/pthread/pthread_self.c",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stdio/lib_freopen.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stdio/lib_rewind.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/lib_memsistream.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/stream/lib_memsostream.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/time/lib_localtime.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/userfs/lib_userfs.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "mm/mm_heap/mm.h",
+      "additions": 0,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "unistd",
+  "headRefOid": "54e20f5f4566ea317dd54a48cd52c7eb95f986fc",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk0MTA0NjY=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "name": "Xiang Xiao",
+    "login": "xiaoxiang781216"
+  },
+  "id": "PR_kwDODZiUac5JQuGj",
+  "isDraft": true,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 8434,
+  "state": "CLOSED",
+  "title": "pthread: Change pthread_self to function",
+  "updatedAt": "2026-06-28T01:14:22Z",
+  "url": "https://github.com/apache/nuttx/pull/8434"
+}
