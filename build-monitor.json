@@ -1,6 +1,454 @@
 [
   {
     "build_arch": "arm",
+    "build_board": "spresense",
+    "build_config": "example_lcd",
+    "build_group": "arm-01",
+    "build_msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n 584 |                            luns[num_luns].flags & O_WROK ? false : true); \n |                                                   ^~~~~~ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbm",
+    "build_score": 0,
+    "build_subarch": "cxd56xx",
+    "build_timestamp": "2026-06-28T16:56:21",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698439#step:10:707",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "arm",
+    "build_board": "spresense",
+    "build_config": "wifi",
+    "build_group": "arm-01",
+    "build_msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n 584 |                            luns[num_luns].flags & O_WROK ? false : true); \n |                                                   ^~~~~~ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbm",
+    "build_score": 0,
+    "build_subarch": "cxd56xx",
+    "build_timestamp": "2026-06-28T16:55:01",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698439#step:10:674",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "arm",
+    "build_board": "spresense",
+    "build_config": "lcd",
+    "build_group": "arm-01",
+    "build_msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n 584 |                            luns[num_luns].flags & O_WROK ? false : true); \n |                                                   ^~~~~~ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbm",
+    "build_score": 0,
+    "build_subarch": "cxd56xx",
+    "build_timestamp": "2026-06-28T16:52:49",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698439#step:10:619",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "arm",
+    "build_board": "lpcxpresso-lpc1768",
+    "build_config": "usbmsc",
+    "build_group": "arm-03",
+    "build_msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n 584 |                            luns[num_luns].flags & O_WROK ? false : true); \n |                                                   ^~~~~~ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbm",
+    "build_score": 0,
+    "build_subarch": "lpc17xx_40xx",
+    "build_timestamp": "2026-06-28T16:50:16",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698420#step:10:626",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "other",
+    "build_board": "pic32mx7mmb",
+    "build_config": "nsh",
+    "build_group": "other",
+    "build_msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n luns[num_luns].flags & O_WROK ? false : true); \n ^ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbmsc.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Make",
+    "build_score": 0,
+    "build_subarch": "pic32mx",
+    "build_timestamp": "2026-06-28T16:44:34",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698440#step:10:552",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "arm",
+    "build_board": "olimex-lpc1766stk",
+    "build_config": "usbmsc",
+    "build_group": "arm-03",
+    "build_msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n 584 |                            luns[num_luns].flags & O_WROK ? false : true); \n |                                                   ^~~~~~ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbm",
+    "build_score": 0,
+    "build_subarch": "lpc17xx_40xx",
+    "build_timestamp": "2026-06-28T16:42:24",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698420#step:10:451",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "sim",
+    "build_board": "sim",
+    "build_config": "lua",
+    "build_group": "sim-02",
+    "build_msg": "D lDolaoda d  U pUlpolaoda d    T oTtoatla l    S Sppeenntt       L eLfetf t  S pSepeede \n d",
+    "build_score": 0.8,
+    "build_subarch": "sim",
+    "build_timestamp": "2026-06-28T16:40:55",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698445#step:10:423",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "other",
+    "build_board": "teensy-2.0",
+    "build_config": "usbmsc",
+    "build_group": "other",
+    "build_msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n luns[num_luns].flags & O_WROK ? false : true); \n ^ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbmsc.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Make",
+    "build_score": 0,
+    "build_subarch": "at90usb",
+    "build_timestamp": "2026-06-28T16:35:59",
+    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059/job/83922698440#step:10:361",
+    "build_version": "3",
+    "job_conclusion": "failure",
+    "job_createdAt": "2026-06-28T16:24:12Z",
+    "job_databaseId": 28328527059,
+    "job_displayTitle": "interpreters/berry: Normalize CRLF before patching",
+    "job_event": "pull_request",
+    "job_headBranch": "codex/fix-berry-crlf-before-patch",
+    "job_headSha": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "job_name": "Build",
+    "job_number": 9761,
+    "job_run_duration_ms": "2021000",
+    "job_startedAt": "2026-06-28T16:24:12Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-06-28T16:57:53Z",
+    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28328527059",
+    "job_workflowDatabaseId": 908566,
+    "job_workflowName": "Build",
+    "pr_additions": 46,
+    "pr_assignees": [],
+    "pr_author": "speccy88",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 3,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-06-28T16:24:08Z",
+    "pr_deletions": 6,
+    "pr_headRefName": "codex/fix-berry-crlf-before-patch",
+    "pr_headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+    "pr_headRepository": "nuttx-apps",
+    "pr_headRepositoryOwner": "speccy88",
+    "pr_id": "PR_kwDODZiT487rg2Mr",
+    "pr_isDraft": false,
+    "pr_labels": "Size: S, Area: Interpreters",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 3567,
+    "pr_state": "OPEN",
+    "pr_title": "interpreters/berry: Normalize CRLF before patching",
+    "pr_updatedAt": "2026-06-28T17:19:53Z",
+    "pr_url": "https://github.com/apache/nuttx-apps/pull/3567"
+  },
+  {
+    "build_arch": "arm",
     "build_board": "thingy91",
     "build_config": "nsh_nrf52",
     "build_group": "arm-05",
@@ -388,7 +836,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -444,7 +892,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -500,7 +948,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -556,7 +1004,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -612,7 +1060,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -668,7 +1116,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -724,7 +1172,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -780,7 +1228,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -836,7 +1284,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -892,7 +1340,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -948,7 +1396,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1004,7 +1452,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1060,7 +1508,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1116,7 +1564,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1172,7 +1620,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1228,7 +1676,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1284,7 +1732,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1340,7 +1788,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1396,7 +1844,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1452,7 +1900,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1508,7 +1956,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1564,7 +2012,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1620,7 +2068,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1676,7 +2124,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1732,7 +2180,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1788,7 +2236,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1844,7 +2292,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1900,7 +2348,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -1956,7 +2404,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2012,7 +2460,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2068,7 +2516,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2124,7 +2572,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2180,7 +2628,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2236,7 +2684,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2292,7 +2740,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2348,7 +2796,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2404,7 +2852,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2460,7 +2908,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2516,7 +2964,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2572,7 +3020,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2628,7 +3076,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2684,7 +3132,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2740,7 +3188,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2796,7 +3244,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2852,7 +3300,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2908,7 +3356,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -2964,7 +3412,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3020,7 +3468,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3076,7 +3524,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3132,7 +3580,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3188,7 +3636,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3244,7 +3692,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3300,7 +3748,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3356,7 +3804,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3412,7 +3860,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3468,7 +3916,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3524,7 +3972,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3580,7 +4028,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3636,7 +4084,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3692,7 +4140,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3748,7 +4196,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3804,7 +4252,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3860,7 +4308,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3916,7 +4364,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -3972,7 +4420,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4028,7 +4476,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4084,7 +4532,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4140,7 +4588,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4196,7 +4644,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4252,7 +4700,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4308,7 +4756,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4364,7 +4812,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4420,7 +4868,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4476,7 +4924,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4532,7 +4980,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4588,7 +5036,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4644,7 +5092,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4700,7 +5148,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4756,7 +5204,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4812,7 +5260,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4868,7 +5316,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4924,7 +5372,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -4980,7 +5428,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5036,7 +5484,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5092,7 +5540,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5148,7 +5596,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5204,7 +5652,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5260,7 +5708,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5316,7 +5764,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5372,7 +5820,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5428,7 +5876,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5484,7 +5932,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5540,7 +5988,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5596,7 +6044,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5652,7 +6100,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5708,7 +6156,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5764,7 +6212,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5820,7 +6268,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5876,7 +6324,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5932,7 +6380,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -5988,7 +6436,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6044,7 +6492,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6100,7 +6548,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6156,7 +6604,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6212,7 +6660,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6268,7 +6716,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6324,7 +6772,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6380,7 +6828,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6436,7 +6884,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -6492,7 +6940,7 @@
     "pr_number": 19231,
     "pr_state": "MERGED",
     "pr_title": "include/fcntl.h: remove O_RDOK/O_WROK aliases",
-    "pr_updatedAt": "2026-06-28T12:10:12Z",
+    "pr_updatedAt": "2026-06-28T17:21:28Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19231"
   },
   {
@@ -259502,118 +259950,6 @@
     "pr_title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
     "pr_updatedAt": "2026-06-17T14:17:41Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19004"
-  },
-  {
-    "build_arch": "risc-v",
-    "build_board": "esp32p4-function-ev-board",
-    "build_config": "timers",
-    "build_group": "risc-v-03",
-    "build_msg": "Killing pytest after timeout...",
-    "build_score": 0.8,
-    "build_subarch": "esp32p4",
-    "build_timestamp": "2026-05-31T20:14:13",
-    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/26720064277/job/78745519059#step:10:1478",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-31T17:54:41Z",
-    "job_databaseId": 26720064277,
-    "job_displayTitle": "apps/cmake: Fix aarch64 NuttX Rust target specs",
-    "job_event": "pull_request",
-    "job_headBranch": "fix_aarch64_target_specs",
-    "job_headSha": "c2056fec43af2c96118a401606ee784c33fd5d7c",
-    "job_name": "Build",
-    "job_number": 9585,
-    "job_run_duration_ms": "13055000",
-    "job_startedAt": "2026-05-31T17:54:41Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-31T21:32:16Z",
-    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/26720064277",
-    "job_workflowDatabaseId": 908566,
-    "job_workflowName": "Build",
-    "pr_additions": 18,
-    "pr_assignees": [],
-    "pr_author": "toku-mac",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 4,
-    "pr_closed": true,
-    "pr_closedAt": "2026-06-02T11:06:58Z",
-    "pr_createdAt": "2026-05-29T03:44:22Z",
-    "pr_deletions": 79,
-    "pr_headRefName": "fix_aarch64_target_specs",
-    "pr_headRefOid": "c2056fec43af2c96118a401606ee784c33fd5d7c",
-    "pr_headRepository": "nuttx-apps",
-    "pr_headRepositoryOwner": "toku-mac",
-    "pr_id": "PR_kwDODZiT487gfbq2",
-    "pr_isDraft": false,
-    "pr_labels": "Area: Build System, Size: S",
-    "pr_mergeCommit": "9796690b7b056fb0b3bc341e94681ff67dbce5f0",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-06-02T11:06:58Z",
-    "pr_mergedBy": "jerpelea",
-    "pr_milestone": null,
-    "pr_number": 3510,
-    "pr_state": "MERGED",
-    "pr_title": "apps/cmake: Fix aarch64 NuttX Rust target specs",
-    "pr_updatedAt": "2026-06-12T05:47:15Z",
-    "pr_url": "https://github.com/apache/nuttx-apps/pull/3510"
-  },
-  {
-    "build_arch": "arm",
-    "build_board": "stm32f103-minimum",
-    "build_config": "adb",
-    "build_group": "arm-11",
-    "build_msg": "D lDolaoda d  U pUlpolaoda d    T oTtoatall      SSppeenntt        LLeefftt    SSppeeeedd",
-    "build_score": 0.8,
-    "build_subarch": "stm32",
-    "build_timestamp": "2026-05-31T19:40:44",
-    "build_url": "https://github.com/apache/nuttx-apps/actions/runs/26720064277/job/78745519332#step:10:504",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-05-31T17:54:41Z",
-    "job_databaseId": 26720064277,
-    "job_displayTitle": "apps/cmake: Fix aarch64 NuttX Rust target specs",
-    "job_event": "pull_request",
-    "job_headBranch": "fix_aarch64_target_specs",
-    "job_headSha": "c2056fec43af2c96118a401606ee784c33fd5d7c",
-    "job_name": "Build",
-    "job_number": 9585,
-    "job_run_duration_ms": "13055000",
-    "job_startedAt": "2026-05-31T17:54:41Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-05-31T21:32:16Z",
-    "job_url": "https://github.com/apache/nuttx-apps/actions/runs/26720064277",
-    "job_workflowDatabaseId": 908566,
-    "job_workflowName": "Build",
-    "pr_additions": 18,
-    "pr_assignees": [],
-    "pr_author": "toku-mac",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 4,
-    "pr_closed": true,
-    "pr_closedAt": "2026-06-02T11:06:58Z",
-    "pr_createdAt": "2026-05-29T03:44:22Z",
-    "pr_deletions": 79,
-    "pr_headRefName": "fix_aarch64_target_specs",
-    "pr_headRefOid": "c2056fec43af2c96118a401606ee784c33fd5d7c",
-    "pr_headRepository": "nuttx-apps",
-    "pr_headRepositoryOwner": "toku-mac",
-    "pr_id": "PR_kwDODZiT487gfbq2",
-    "pr_isDraft": false,
-    "pr_labels": "Area: Build System, Size: S",
-    "pr_mergeCommit": "9796690b7b056fb0b3bc341e94681ff67dbce5f0",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-06-02T11:06:58Z",
-    "pr_mergedBy": "jerpelea",
-    "pr_milestone": null,
-    "pr_number": 3510,
-    "pr_state": "MERGED",
-    "pr_title": "apps/cmake: Fix aarch64 NuttX Rust target specs",
-    "pr_updatedAt": "2026-06-12T05:47:15Z",
-    "pr_url": "https://github.com/apache/nuttx-apps/pull/3510"
   },
   {
     "build_arch": "sim",
