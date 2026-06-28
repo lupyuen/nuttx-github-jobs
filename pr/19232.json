@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-28T14:40:10Z",
   "createdAt": "2026-06-28T09:17:37Z",
   "deletions": 3,
   "files": [
@@ -54,15 +54,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a923e4a714d55a4963c0bd68d90a1bb936d200f8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-28T14:40:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19232,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "stm32f746g-disco: Fix USERLED support",
-  "updatedAt": "2026-06-28T11:59:13Z",
+  "updatedAt": "2026-06-28T14:40:11Z",
   "url": "https://github.com/apache/nuttx/pull/19232"
 }
