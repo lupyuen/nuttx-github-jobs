@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-29T05:50:17Z",
   "createdAt": "2026-06-27T19:53:35Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6f74205b42c21174d3c13dd2e51ab02c4f721e3f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-29T05:50:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19230,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nuttx/drivers/crypto/pnt/pnt_se05x_api: Minor Overflow in Secure Element",
-  "updatedAt": "2026-06-27T23:36:58Z",
+  "updatedAt": "2026-06-29T05:50:17Z",
   "url": "https://github.com/apache/nuttx/pull/19230"
 }
