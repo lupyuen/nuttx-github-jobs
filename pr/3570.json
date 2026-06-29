@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-29T10:29:42Z",
   "createdAt": "2026-06-29T06:54:58Z",
   "deletions": 4,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "535ecd864043574f427a365e2e66552c94a70ae0"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-29T10:29:42Z",
+  "mergedBy": {
+    "id": "U_kgDOBga_xA",
+    "is_bot": false,
+    "login": "simbit18",
+    "name": ""
+  },
   "milestone": null,
   "number": 3570,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing/libc/fopencookie/fopencookie.c: fix spellcheck",
-  "updatedAt": "2026-06-29T08:48:45Z",
+  "updatedAt": "2026-06-29T10:29:43Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3570"
 }
