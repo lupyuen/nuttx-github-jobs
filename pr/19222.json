@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 3,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-29T12:44:18Z",
   "createdAt": "2026-06-26T10:12:45Z",
   "deletions": 1,
   "files": [
@@ -65,15 +65,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6e239036bcb2867da341eeaf8671eb5c9b204ab9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-29T12:44:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 19222,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "ci: add stdbit.h test",
-  "updatedAt": "2026-06-29T09:03:08Z",
+  "updatedAt": "2026-06-29T12:44:18Z",
   "url": "https://github.com/apache/nuttx/pull/19222"
 }
