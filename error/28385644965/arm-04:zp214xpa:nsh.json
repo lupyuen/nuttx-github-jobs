@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-29T16:27:43",
+"arch": "arm",
+"subarch": "lpc214x",
+"group": "arm-04",
+"board": "zp214xpa",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28385644965/job/84099917402#step:10:460",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libarch.a(arm_doirq.o): in function `arm_doirq': \n arm_doirq.c:(.text.arm_doirq+0x24): undefined reference to `arm_ack_irq' \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors."
+}
