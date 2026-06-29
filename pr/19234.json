@@ -1,5 +1,5 @@
 {
-  "additions": 8,
+  "additions": 65,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 5,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-28T20:01:55Z",
@@ -21,13 +21,18 @@
       "deletions": 2
     },
     {
+      "path": "arch/arm/src/lpc214x/chip.h",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
       "path": "arch/arm/src/lpc214x/lpc214x_decodeirq.c",
       "additions": 7,
       "deletions": 59
     },
     {
       "path": "arch/arm/src/lpc214x/lpc214x_irq.c",
-      "additions": 0,
+      "additions": 53,
       "deletions": 4
     },
     {
@@ -37,7 +42,7 @@
     }
   ],
   "headRefName": "fix_lpc214x",
-  "headRefOid": "ddacbeb986e621278ce7525f304f837fb0a71390",
+  "headRefOid": "48e2408861bf9d644ac36065f72ed1c6e3a636e3",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -58,9 +63,9 @@
       "color": "DC5544"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
@@ -73,6 +78,6 @@
   "number": 19234,
   "state": "OPEN",
   "title": "arch/lpc214x: Fix LPC214x to work again",
-  "updatedAt": "2026-06-29T16:09:35Z",
+  "updatedAt": "2026-06-29T19:49:02Z",
   "url": "https://github.com/apache/nuttx/pull/19234"
 }

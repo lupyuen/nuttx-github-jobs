@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-29T19:28:12Z",
   "createdAt": "2026-06-28T19:31:12Z",
   "deletions": 71,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d59ab52935367417747d5cb0bba09e5cff184646"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-29T19:28:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19233,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm: Fix LPC2378 to work again",
-  "updatedAt": "2026-06-29T19:22:23Z",
+  "updatedAt": "2026-06-29T19:28:12Z",
   "url": "https://github.com/apache/nuttx/pull/19233"
 }
