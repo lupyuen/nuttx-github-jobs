@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-29T03:11:01",
+"arch": "other",
+"subarch": "pic32mx",
+"group": "other",
+"board": "pic32mx7mmb",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28345566025/job/83968246593#step:10:552",
+"msg": "usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n luns[num_luns].flags & O_WROK ? false : true); \n ^ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/workspace/sources/apps/Application.mk:330: usbmsc_main.c.github.workspace.sources.apps.system.usbmsc.o] Error 1 \n make[2]: Target 'all' not remade because of errors. \n make[1]: *** [Make"
+}
