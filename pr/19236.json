@@ -1,0 +1,479 @@
+{
+  "additions": 11571,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM2MDY0MDM0",
+    "is_bot": false,
+    "login": "raulcxw",
+    "name": "Raul Chen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 82,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-06-29T06:08:41Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm/rtl8720f/boards/rtl8720f_evb/index.rst",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/rtl8720f/index.rst",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/rtl8721dx/boards/pke8721daf/index.rst",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/rtl8721dx/index.rst",
+      "additions": 61,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/Kconfig",
+      "additions": 30,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/rtl8720f/chip.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/rtl8720f/irq.h",
+      "additions": 147,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/rtl8721dx/chip.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/include/rtl8721dx/irq.h",
+      "additions": 170,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/.gitignore",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_flash_mtd.c",
+      "additions": 402,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_flash_mtd.h",
+      "additions": 134,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_kv.c",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_os_wrap.c",
+      "additions": 988,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_os_wrap.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_sdk.mk",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_wlan.c",
+      "additions": 722,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/ameba_wlan.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/sdk_shim/os_wrapper_specific.h",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/toolchain.mk",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_build_np.sh",
+      "additions": 165,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_fetch_sdk.sh",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_fetch_toolchain.sh",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_gen_autoconf.sh",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_setup_env.sh",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/wifi/ameba_wifi.c",
+      "additions": 330,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/wifi/ameba_wifi_depend.c",
+      "additions": 401,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/wifi/include/ameba_lwip_off.h",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/ameba/wifi/include/lwip_netconf.h",
+      "additions": 190,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/CMakeLists.txt",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/Kconfig",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/Make.defs",
+      "additions": 217,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_allocateheap.c",
+      "additions": 141,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_app_start.c",
+      "additions": 274,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_board.mk",
+      "additions": 406,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_ipc.c",
+      "additions": 150,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_ipc.h",
+      "additions": 51,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_irq.c",
+      "additions": 382,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_irq.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_loguart.c",
+      "additions": 413,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_start.c",
+      "additions": 172,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_timerisr.c",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_wifi_init.c",
+      "additions": 133,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/chip.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/hardware/ameba_memorymap.h",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/CMakeLists.txt",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/Kconfig",
+      "additions": 85,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/Make.defs",
+      "additions": 198,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_allocateheap.c",
+      "additions": 141,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_app_start.c",
+      "additions": 303,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_board.mk",
+      "additions": 406,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_irq.c",
+      "additions": 382,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_irq.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_loguart.c",
+      "additions": 406,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_start.c",
+      "additions": 172,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_timerisr.c",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_wifi_init.c",
+      "additions": 169,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/chip.h",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/hardware/ameba_memorymap.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/configs/nsh/defconfig",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/include/board.h",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/prebuilt/.gitignore",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/scripts/Make.defs",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/src/CMakeLists.txt",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/src/Makefile",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/src/rtl8720f_boot.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/src/rtl8720f_bringup.c",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/src/rtl8720f_rtl8720f_evb.h",
+      "additions": 100,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/CMakeLists.txt",
+      "additions": 35,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/Kconfig",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/configs/nsh/defconfig",
+      "additions": 79,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/include/board.h",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/prebuilt/.gitignore",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/scripts/Make.defs",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/src/CMakeLists.txt",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/src/Makefile",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/src/rtl8721dx_boot.c",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/src/rtl8721dx_bringup.c",
+      "additions": 190,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/src/rtl8721dx_pke8721daf.h",
+      "additions": 86,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "ameba-pr",
+  "headRefOid": "00455b6cbb7c56ef003412866a241dafb4e67031",
+  "headRepository": {
+    "id": "R_kgDOTF0xDQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "O_kgDOCf-xhQ",
+    "login": "Ameba-AIoT"
+  },
+  "id": "PR_kwDODZiUac7rpD7H",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19236,
+  "state": "OPEN",
+  "title": "arch/arm: add Realtek RTL8721Dx and RTL8720F (Ameba IOT) support",
+  "updatedAt": "2026-06-29T06:34:15Z",
+  "url": "https://github.com/apache/nuttx/pull/19236"
+}
