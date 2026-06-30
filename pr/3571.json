@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-30T13:03:03Z",
   "createdAt": "2026-06-29T11:22:25Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f57aa7b4cf29520c988652f95bface00721e18e9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-30T13:03:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3571,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "nshlib/nsh_fscmds: Display modification time in ls -l output",
-  "updatedAt": "2026-06-30T05:47:11Z",
+  "updatedAt": "2026-06-30T13:03:04Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3571"
 }
