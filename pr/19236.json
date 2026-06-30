@@ -1,5 +1,5 @@
 {
-  "additions": 11739,
+  "additions": 11872,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM2MDY0MDM0",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 82,
+  "changedFiles": 84,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-29T06:08:41Z",
@@ -17,7 +17,7 @@
   "files": [
     {
       "path": "Documentation/platforms/arm/rtl8720f/boards/rtl8720f_evb/index.rst",
-      "additions": 58,
+      "additions": 105,
       "deletions": 0
     },
     {
@@ -26,8 +26,13 @@
       "deletions": 0
     },
     {
+      "path": "Documentation/platforms/arm/rtl8721dx/boards/pke8721daf/PKE8721DAF.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
       "path": "Documentation/platforms/arm/rtl8721dx/boards/pke8721daf/index.rst",
-      "additions": 57,
+      "additions": 104,
       "deletions": 0
     },
     {
@@ -317,7 +322,7 @@
     },
     {
       "path": "boards/arm/rtl8720f/rtl8720f_evb/CMakeLists.txt",
-      "additions": 35,
+      "additions": 36,
       "deletions": 0
     },
     {
@@ -372,7 +377,7 @@
     },
     {
       "path": "boards/arm/rtl8721dx/pke8721daf/CMakeLists.txt",
-      "additions": 35,
+      "additions": 36,
       "deletions": 0
     },
     {
@@ -424,10 +429,15 @@
       "path": "boards/arm/rtl8721dx/pke8721daf/src/rtl8721dx_pke8721daf.h",
       "additions": 86,
       "deletions": 0
+    },
+    {
+      "path": "tools/nxstyle.c",
+      "additions": 37,
+      "deletions": 0
     }
   ],
   "headRefName": "ameba-pr",
-  "headRefOid": "d7d72be4f720de0f6ae6d9c11df72e30c39acdc4",
+  "headRefOid": "3b222947d3233d0f602b2a21b439faf4015b38dc",
   "headRepository": {
     "id": "R_kgDOTF0xDQ",
     "name": "nuttx",
@@ -474,6 +484,6 @@
   "number": 19236,
   "state": "OPEN",
   "title": "arch/arm: add Realtek RTL8721Dx and RTL8720F (Ameba IOT) support",
-  "updatedAt": "2026-06-30T07:04:14Z",
+  "updatedAt": "2026-06-30T08:03:50Z",
   "url": "https://github.com/apache/nuttx/pull/19236"
 }
