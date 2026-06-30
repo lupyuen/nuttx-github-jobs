@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-30T05:46:38Z",
   "createdAt": "2026-06-29T06:37:31Z",
   "deletions": 20,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c503843e38322eb381d4cff86d667fae001c62ef"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-30T05:46:38Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3569,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netutils/rexecd: add -t option to serve connections without a thread",
-  "updatedAt": "2026-06-30T03:00:20Z",
+  "updatedAt": "2026-06-30T05:46:38Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3569"
 }
