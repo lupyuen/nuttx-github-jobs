@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-30T16:19:58Z",
   "createdAt": "2026-06-29T15:50:59Z",
   "deletions": 53,
   "files": [
@@ -95,15 +95,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5ead824fff5acf8ab57891b3b7c1054842514a4a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-30T16:19:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 3572,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps: Fix O_ACCMODE bitmask checks after Linux flag alignment",
-  "updatedAt": "2026-06-30T15:57:52Z",
+  "updatedAt": "2026-06-30T16:19:59Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3572"
 }
