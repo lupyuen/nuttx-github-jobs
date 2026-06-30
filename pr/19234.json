@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-06-30T19:00:44Z",
   "createdAt": "2026-06-28T20:01:55Z",
   "deletions": 75,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "cded2685594d31d9083628a79e916e1571fb1c85"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-06-30T19:00:44Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19234,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/lpc214x: Fix LPC214x to work again",
-  "updatedAt": "2026-06-30T01:48:23Z",
+  "updatedAt": "2026-06-30T19:00:44Z",
   "url": "https://github.com/apache/nuttx/pull/19234"
 }
