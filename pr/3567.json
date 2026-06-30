@@ -1,5 +1,5 @@
 {
-  "additions": 46,
+  "additions": 55,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjIzODg3MzY=",
@@ -9,30 +9,25 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 3,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-28T16:24:08Z",
-  "deletions": 6,
+  "deletions": 24,
   "files": [
     {
-      "path": "interpreters/berry/CMakeLists.txt",
-      "additions": 8,
-      "deletions": 6
-    },
-    {
-      "path": "interpreters/berry/Makefile",
-      "additions": 3,
+      "path": "interpreters/berry/.gitattributes",
+      "additions": 1,
       "deletions": 0
     },
     {
-      "path": "interpreters/berry/tools/fix-crlf.py",
-      "additions": 35,
-      "deletions": 0
+      "path": "interpreters/berry/0001-Fix-Berry-default-port-for-NuttX.patch",
+      "additions": 54,
+      "deletions": 24
     }
   ],
   "headRefName": "codex/fix-berry-crlf-before-patch",
-  "headRefOid": "1218d36bc3f4cd53f2e6c2af44c25dd54c722e2f",
+  "headRefOid": "30cdb199c750ef26d180c6e2b88d6847e3c24d63",
   "headRepository": {
     "id": "R_kgDOTF_IuA",
     "name": "nuttx-apps",
@@ -68,6 +63,6 @@
   "number": 3567,
   "state": "OPEN",
   "title": "interpreters/berry: Normalize CRLF before patching",
-  "updatedAt": "2026-06-30T05:50:01Z",
+  "updatedAt": "2026-06-30T11:22:28Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3567"
 }
