@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-30T20:23:27",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32-c3-zero",
+"config": "wifi",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28473112285/job/84391061100#step:10:461",
+"msg": "CMake Warning at cmake/nuttx_kconfig.cmake:259 (message): \n Kconfig Configuration Error: /usr/local/bin/setconfig: Dependency loop \n =============== \n CRYPTO (defined at crypto/Kconfig:6), with definition... \n config CRYPTO \n bool \"Crypto API support\" \n default n \n help \n Enable or disable Crypto API features \n (select-related dependencies: (NRF52_SOFTDEVICE_CONTROLLER && \n ALLOW_BSDNORDIC_COMPONENTS && ARCH_CHIP_NRF52 && ARCH_ARM && ARCH_ARM) || \n (NRF53_SOFTDEVICE_CONTROLLER && ALLOW_BSDNORDI"
+}

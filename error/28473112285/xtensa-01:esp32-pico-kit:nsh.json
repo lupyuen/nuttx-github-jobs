@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-30T20:24:34",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-pico-kit",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28473112285/job/84391061079#step:10:247",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n gcc: error: unrecognized command-line option '-mlongcalls' \n gcc: error: missing argument to '-Wstack-usage=' \n gcc: error: missing argument to '-Wstack-usage=' \n gcc: error: unrecognized command-line option '-mlongcalls' \n ERROR: gcc failed: 1 \n command: gcc -MT ./nsh_main.c.github.workspace.sources.apps.system.nsh.o  -M '-fno-common' '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-fno-str"
+}

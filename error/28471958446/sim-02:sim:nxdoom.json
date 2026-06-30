@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-30T20:38:37",
+"arch": "sim",
+"subarch": "unknown",
+"group": "sim-02",
+"board": "sim",
+"config": "nxdoom",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28471958446/job/84387003248#step:10:3158",
+"msg": "In file included from src/doom/r_defs.h:41, \n from src/doom/r_data.h:32, \n from src/doom/r_local.h:42, \n from src/doom/p_local.h:32, \n from src/doom/am_map.c:33: \n ##[error]src/doom/d_think.h:38:1: error: function declaration isn't a prototype [-Werror=strict-prototypes] \n 38 | typedef void (*actionf_v)(); \n | ^~~~~~~ \n ##[error]src/doom/am_map.c:1007:13: error: 'am_update_light_lev' defined but not used [-Werror=unused-function] \n 1007 | static void am_update_light_lev(void) \n |             ^~~~~"
+}

@@ -1,5 +1,5 @@
 {
-  "additions": 995,
+  "additions": 1010,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 16,
+  "changedFiles": 17,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-24T13:29:17Z",
@@ -17,12 +17,12 @@
   "files": [
     {
       "path": "Documentation/applications/nsh/login.rst",
-      "additions": 168,
+      "additions": 177,
       "deletions": 76
     },
     {
       "path": "Documentation/components/tools/index.rst",
-      "additions": 53,
+      "additions": 54,
       "deletions": 80
     },
     {
@@ -54,6 +54,11 @@
       "path": "boards/risc-v/esp32c3-legacy/esp32c3-legacy-devkit/src/etc/group",
       "additions": 1,
       "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/login/defconfig",
+      "additions": 5,
+      "deletions": 0
     },
     {
       "path": "boards/sim/sim/sim/src/etc/group",
@@ -97,7 +102,7 @@
     }
   ],
   "headRefName": "passwd-empty-default-hardening",
-  "headRefOid": "66718712b66f68703d85a7dd6bb840563383bff0",
+  "headRefOid": "14e477ab70617e55a5c63e0575884bfbf551f4b9",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -145,6 +150,6 @@
   "number": 19209,
   "state": "OPEN",
   "title": "!boards/nsh: Replace reversible TEA password storage in /etc/passwd with one-way PBKDF2-HMAC-SHA256 hashing ",
-  "updatedAt": "2026-06-25T20:56:03Z",
+  "updatedAt": "2026-06-30T20:33:44Z",
   "url": "https://github.com/apache/nuttx/pull/19209"
 }

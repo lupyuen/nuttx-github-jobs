@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-30T20:27:09",
+"arch": "x86_64",
+"subarch": "qemu",
+"group": "x86_64-01",
+"board": "qemu-intel64",
+"config": "knsh_romfs_pci",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28473112285/job/84391061081#step:10:23410",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n gcc: error: missing argument to '-Wstack-usage=' \n ERROR: gcc failed: 1 \n command: gcc -MT ./clock.o  -M '-Wall' '-Wstrict-prototypes' '-Wshadow' '-Wundef' '-Wstack-usage=' '-fno-stack-protector' '-fno-pic' '-mcmodel=large' '-mno-red-zone' '-mrdrnd' '-isystem' '/github/workspace/sources/nuttx/include' '-D__NuttX__' '-U_AIX' '-U_WIN32' '-U__APPLE__' '-U__FreeBSD__' '-U__NetBSD__' '-U__linux__' '-U__sun__' '-U__unix__' '-U__ENVIRONMENT_MAC_OS_X_VERSION_"
+}

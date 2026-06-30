@@ -1,5 +1,5 @@
 {
-  "additions": 1520,
+  "additions": 1111,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,50 +9,20 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 22,
+  "changedFiles": 18,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-24T13:55:57Z",
-  "deletions": 203,
+  "deletions": 204,
   "files": [
     {
-      "path": "crypto/pbkdf2/CMakeLists.txt",
-      "additions": 32,
-      "deletions": 0
-    },
-    {
-      "path": "crypto/pbkdf2/Kconfig",
-      "additions": 15,
-      "deletions": 0
-    },
-    {
-      "path": "crypto/pbkdf2/Make.defs",
-      "additions": 27,
-      "deletions": 0
-    },
-    {
-      "path": "crypto/pbkdf2/Makefile",
-      "additions": 29,
-      "deletions": 0
-    },
-    {
-      "path": "crypto/pbkdf2/pbkdf2_hmac_sha256.c",
-      "additions": 396,
-      "deletions": 0
-    },
-    {
-      "path": "crypto/pbkdf2/pbkdf2_hmac_sha256.h",
-      "additions": 64,
-      "deletions": 0
-    },
-    {
       "path": "fsutils/passwd/CMakeLists.txt",
-      "additions": 9,
+      "additions": 8,
       "deletions": 1
     },
     {
       "path": "fsutils/passwd/Kconfig",
-      "additions": 15,
+      "additions": 17,
       "deletions": 16
     },
     {
@@ -78,11 +48,21 @@
     {
       "path": "fsutils/passwd/passwd_encrypt.c",
       "additions": 147,
-      "deletions": 130
+      "deletions": 131
+    },
+    {
+      "path": "fsutils/passwd/passwd_pbkdf2.c",
+      "additions": 114,
+      "deletions": 0
+    },
+    {
+      "path": "fsutils/passwd/passwd_pbkdf2.h",
+      "additions": 44,
+      "deletions": 0
     },
     {
       "path": "fsutils/passwd/passwd_verify.c",
-      "additions": 99,
+      "additions": 98,
       "deletions": 25
     },
     {
@@ -102,7 +82,7 @@
     },
     {
       "path": "testing/pbkdf2/CMakeLists.txt",
-      "additions": 40,
+      "additions": 37,
       "deletions": 0
     },
     {
@@ -122,12 +102,12 @@
     },
     {
       "path": "testing/pbkdf2/pbkdf2_test.c",
-      "additions": 288,
+      "additions": 287,
       "deletions": 0
     }
   ],
   "headRefName": "nsh-login-empty-password",
-  "headRefOid": "7ab3fa7abb2828e206ae2f9b6cc8598a00df3af4",
+  "headRefOid": "98a4b5753426e2c1d08ef58f1723565fc76eb164",
   "headRepository": {
     "id": "R_kgDORPCWcw",
     "name": "nuttx-apps",
@@ -142,16 +122,16 @@
   "isDraft": false,
   "labels": [
     {
+      "id": "LA_kwDODZiT488AAAABsqeHrg",
+      "name": "Area: File System",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
       "id": "LA_kwDODZiT488AAAABvo6brA",
       "name": "Size: XL",
       "description": "",
       "color": "FEF2C0"
-    },
-    {
-      "id": "LA_kwDODZiT488AAAABvo7ksA",
-      "name": "Area: Crypto",
-      "description": "",
-      "color": "0075ca"
     }
   ],
   "mergeCommit": null,
@@ -163,6 +143,6 @@
   "number": 3557,
   "state": "OPEN",
   "title": "!nshlib: Require explicit fixed login password at build time",
-  "updatedAt": "2026-06-30T19:28:39Z",
+  "updatedAt": "2026-06-30T20:47:01Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3557"
 }

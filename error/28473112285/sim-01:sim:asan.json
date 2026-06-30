@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-06-30T20:26:04",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-01",
+"board": "sim",
+"config": "asan",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28473112285/job/84391061066#step:10:13944",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n cc: error: missing argument to '-Wstack-usage=' \n ERROR: cc failed: 1 \n command: cc -MT ./hello_main.c.github.workspace.sources.apps.examples.hello.o  -M '-fno-strict-aliasing' '-fno-omit-frame-pointer' '-fno-optimize-sibling-calls' '-Wstack-usage=' '-fsanitize=address' '-fsanitize-address-use-after-scope' '-fsanitize=pointer-compare' '-fsanitize=pointer-subtract' '-fsanitize=undefined' '-fno-common' '-fvisibility=hidden' '-ffunction-sections' '-fdata"
+}
