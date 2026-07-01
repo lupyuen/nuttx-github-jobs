@@ -1,5 +1,5 @@
 {
-  "additions": 11872,
+  "additions": 12010,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM2MDY0MDM0",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 84,
+  "changedFiles": 85,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-29T06:08:41Z",
@@ -17,7 +17,7 @@
   "files": [
     {
       "path": "Documentation/platforms/arm/rtl8720f/boards/rtl8720f_evb/index.rst",
-      "additions": 105,
+      "additions": 131,
       "deletions": 0
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "path": "Documentation/platforms/arm/rtl8721dx/boards/pke8721daf/index.rst",
-      "additions": 104,
+      "additions": 130,
       "deletions": 0
     },
     {
@@ -232,7 +232,7 @@
     },
     {
       "path": "arch/arm/src/rtl8720f/ameba_wifi_init.c",
-      "additions": 133,
+      "additions": 134,
       "deletions": 0
     },
     {
@@ -302,7 +302,7 @@
     },
     {
       "path": "arch/arm/src/rtl8721dx/ameba_wifi_init.c",
-      "additions": 169,
+      "additions": 170,
       "deletions": 0
     },
     {
@@ -347,7 +347,7 @@
     },
     {
       "path": "boards/arm/rtl8720f/rtl8720f_evb/scripts/Make.defs",
-      "additions": 28,
+      "additions": 33,
       "deletions": 0
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "path": "boards/arm/rtl8721dx/pke8721daf/scripts/Make.defs",
-      "additions": 28,
+      "additions": 33,
       "deletions": 0
     },
     {
@@ -431,13 +431,18 @@
       "deletions": 0
     },
     {
+      "path": "tools/ameba/Config.mk",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
       "path": "tools/nxstyle.c",
       "additions": 37,
       "deletions": 0
     }
   ],
   "headRefName": "ameba-pr",
-  "headRefOid": "3b222947d3233d0f602b2a21b439faf4015b38dc",
+  "headRefOid": "50da1f93fffa2843fca37f3d17ca5d9156975e3e",
   "headRepository": {
     "id": "R_kgDOTF0xDQ",
     "name": "nuttx",
@@ -484,6 +489,6 @@
   "number": 19236,
   "state": "OPEN",
   "title": "arch/arm: add Realtek RTL8721Dx and RTL8720F (Ameba IOT) support",
-  "updatedAt": "2026-07-01T02:25:25Z",
+  "updatedAt": "2026-07-01T04:18:53Z",
   "url": "https://github.com/apache/nuttx/pull/19236"
 }
