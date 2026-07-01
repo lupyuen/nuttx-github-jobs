@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-01T12:11:05",
+"arch": "sim",
+"subarch": "unknown",
+"group": "sim-01",
+"board": "sim",
+"config": "berry",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28514405478/job/84526421409#step:10:495",
+"msg": "berry/src/be_introspectlib.c: In function 'm_fromptr': \n ##[error]berry/src/be_introspectlib.c:137:25: error: declaration of 'top' shadows a previous local [-Werror=shadow] \n 137 |                 bvalue *top = be_incrtop(vm); \n |                         ^~~ \n berry/src/be_introspectlib.c:126:9: note: shadowed declaration is here \n 126 |     int top = be_top(vm); \n |         ^~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sources/apps/Application.mk:239: be_introspe"
+}
