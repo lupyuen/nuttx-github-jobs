@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 85,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-01T12:18:07Z",
   "createdAt": "2026-06-29T06:08:41Z",
   "deletions": 35,
   "files": [
@@ -480,15 +480,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "76838fa1b2a5cc8aadd29725e081fbd779faa04b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-01T12:18:07Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19236,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm: add Realtek RTL8721Dx and RTL8720F (Ameba IOT) support",
-  "updatedAt": "2026-07-01T08:20:22Z",
+  "updatedAt": "2026-07-01T12:18:07Z",
   "url": "https://github.com/apache/nuttx/pull/19236"
 }

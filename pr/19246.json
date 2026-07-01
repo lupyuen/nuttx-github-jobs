@@ -1,0 +1,68 @@
+{
+  "additions": 54,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEKvreg",
+    "is_bot": false,
+    "login": "Zepp-Hanzj",
+    "name": "hanzhijian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 2,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-01T12:25:35Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "include/nuttx/crc32.h",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "libs/libc/misc/lib_crc32.c",
+      "additions": 30,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix/crc32-linux-compat",
+  "headRefOid": "d419c84e6d3f6eea42a24c28bfb2ca4d545dae31",
+  "headRepository": {
+    "id": "R_kgDOSiiDmQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEKvreg",
+    "name": "hanzhijian",
+    "login": "Zepp-Hanzj"
+  },
+  "id": "PR_kwDODZiUac7sqy9I",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19246,
+  "state": "OPEN",
+  "title": "libc/crc32: add IEEE-compatible crc32_ieee for Linux/zlib interop",
+  "updatedAt": "2026-07-01T12:31:47Z",
+  "url": "https://github.com/apache/nuttx/pull/19246"
+}
