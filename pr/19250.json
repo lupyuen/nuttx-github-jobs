@@ -1,0 +1,194 @@
+{
+  "additions": 4342,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "is_bot": false,
+    "login": "ricardgb",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 30,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-01T15:19:54Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_cyw43439.c",
+      "additions": 879,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_cyw43439.h",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/Kconfig",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/configs/telnet/defconfig",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/board.h",
+      "additions": 169,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_i2cdev.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_i2sdev.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_spidev.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_spisd.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/Make.defs",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/memmap_copy_to_ram.ld",
+      "additions": 331,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/memmap_default.ld",
+      "additions": 343,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/memmap_no_flash.ld",
+      "additions": 284,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/CMakeLists.txt",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/Make.defs",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/etc/init.d/rc.sysinit",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/etc/init.d/rcS",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_appinit.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_autoleds.c",
+      "additions": 165,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_boardinitialize.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_bringup.c",
+      "additions": 151,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_buttons.c",
+      "additions": 177,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_firmware.c",
+      "additions": 160,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_gpio.c",
+      "additions": 392,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_pico.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_userleds.c",
+      "additions": 214,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rp23xx-raspberrypi-pico-2-w",
+  "headRefOid": "48b72b8db4f5964e4aff3e2710096c4fb9b33dff",
+  "headRepository": {
+    "id": "R_kgDOTKojAA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "login": "ricardgb"
+  },
+  "id": "PR_kwDODZiUac7svamO",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19250,
+  "state": "OPEN",
+  "title": "boards/arm/rp23xx: add Raspberry Pi Pico 2 W board (CYW43439 Wi-Fi)",
+  "updatedAt": "2026-07-01T15:19:56Z",
+  "url": "https://github.com/apache/nuttx/pull/19250"
+}

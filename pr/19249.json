@@ -1,0 +1,359 @@
+{
+  "additions": 5559,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "is_bot": false,
+    "login": "ricardgb",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 63,
+  "closed": true,
+  "closedAt": "2026-07-01T15:15:20Z",
+  "createdAt": "2026-07-01T15:10:02Z",
+  "deletions": 125,
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "Documentation/ReleaseNotes/NuttX-12.13.0",
+      "additions": 796,
+      "deletions": 0
+    },
+    {
+      "path": "README.md",
+      "additions": 2,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_dmac.c",
+      "additions": 24,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm/src/rp23xx/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_cyw43439.c",
+      "additions": 879,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_cyw43439.h",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/sam34/sam_gpioirq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_gpioirq.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.c",
+      "additions": 8,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm64/include/bcm2711/chip.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_gpio.c",
+      "additions": 6,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fatal.c",
+      "additions": 149,
+      "deletions": 42
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/CMakeLists.txt",
+      "additions": 40,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/Kconfig",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/configs/telnet/defconfig",
+      "additions": 92,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/board.h",
+      "additions": 169,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_i2cdev.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_i2sdev.h",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_spidev.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/include/rp23xx_spisd.h",
+      "additions": 83,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/Make.defs",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/memmap_copy_to_ram.ld",
+      "additions": 331,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/memmap_default.ld",
+      "additions": 343,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/scripts/memmap_no_flash.ld",
+      "additions": 284,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/CMakeLists.txt",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/Make.defs",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/etc/init.d/rc.sysinit",
+      "additions": 23,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/etc/init.d/rcS",
+      "additions": 24,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_appinit.c",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_autoleds.c",
+      "additions": 165,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_boardinitialize.c",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_bringup.c",
+      "additions": 151,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_buttons.c",
+      "additions": 177,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_firmware.c",
+      "additions": 160,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_gpio.c",
+      "additions": 392,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_pico.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_userleds.c",
+      "additions": 214,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c071rb/include/board.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32f0l0g0/nucleo-c092rc/include/board.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/src/stm32_bringup.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/efuse/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/efuse/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/common/src/esp32s3_lan9250.c",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-box/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-eye/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-korvo-2/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-lcd-ev/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/lckfb-szpi-esp32s3/src/esp32s3_bringup.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/mtd/w25.c",
+      "additions": 17,
+      "deletions": 0
+    },
+    {
+      "path": "drivers/net/telnet.c",
+      "additions": 47,
+      "deletions": 12
+    },
+    {
+      "path": "drivers/serial/uart_rpmsg.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/serial/uart_rpmsg_raw.c",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libbuiltin/libgcc/gcov.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/nat/nat.c",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "net/netdev/netdev_ioctl.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "sched/clock/clock.h",
+      "additions": 73,
+      "deletions": 0
+    },
+    {
+      "path": "sched/clock/clock_sched_ticks.c",
+      "additions": 28,
+      "deletions": 0
+    },
+    {
+      "path": "sched/group/group_foreachchild.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/sched/sched_critmonitor.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "sched/sched/sched_processtickless.c",
+      "additions": 9,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "rp23xx-raspberrypi-pico-2-w",
+  "headRefOid": "d316add213badafc4c54be4f32a33dc88f0d8206",
+  "headRepository": {
+    "id": "R_kgDOTKojAA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "login": "ricardgb"
+  },
+  "id": "PR_kwDODZiUac7svI46",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19249,
+  "state": "CLOSED",
+  "title": "boards/arm/rp23xx: add Raspberry Pi Pico 2 W board (CYW43439 Wi-Fi)",
+  "updatedAt": "2026-07-01T15:20:22Z",
+  "url": "https://github.com/apache/nuttx/pull/19249"
+}
