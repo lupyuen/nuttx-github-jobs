@@ -1,0 +1,164 @@
+{
+  "additions": 1520,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "is_bot": false,
+    "login": "JorgeGzm",
+    "name": "Jorge Guzman"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 20,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-01T15:35:52Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-cardputer/esp32-cardputer-image-1.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-cardputer/esp32-cardputer-image-2.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-cardputer/index.rst",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 15,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/Kconfig",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/configs/fb/defconfig",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/configs/lvgl/defconfig",
+      "additions": 74,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/configs/nsh/defconfig",
+      "additions": 47,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/configs/sdcard/defconfig",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/configs/softap/defconfig",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/configs/wifi/defconfig",
+      "additions": 78,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/include/board.h",
+      "additions": 128,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/scripts/Make.defs",
+      "additions": 57,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/src/Make.defs",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/src/esp32s3-cardputer.h",
+      "additions": 91,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/src/esp32s3_board_lcd_st7789.c",
+      "additions": 149,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/src/esp32s3_board_spi.c",
+      "additions": 117,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/src/esp32s3_boot.c",
+      "additions": 77,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/src/esp32s3_bringup.c",
+      "additions": 222,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-cardputer/src/esp32s3_reset.c",
+      "additions": 87,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "add_esp32s3_cardputer",
+  "headRefOid": "4032a9ee2fa9d8ff355140f5aed55ab4425f5d10",
+  "headRepository": {
+    "id": "R_kgDOKmt3PQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "name": "Jorge Guzman",
+    "login": "JorgeGzm"
+  },
+  "id": "PR_kwDODZiUac7sv1Oc",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19251,
+  "state": "OPEN",
+  "title": "boards/esp32s3: add support to M5Stack Cardputer board",
+  "updatedAt": "2026-07-01T16:15:23Z",
+  "url": "https://github.com/apache/nuttx/pull/19251"
+}
