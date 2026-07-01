@@ -1,0 +1,151 @@
+{
+  "additions": 45,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOEKvreg",
+    "is_bot": false,
+    "login": "Zepp-Hanzj",
+    "name": "hanzhijian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 15,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-01T06:07:28Z",
+  "deletions": 238,
+  "files": [
+    {
+      "path": "boards/arm/stm32f1/et-stm32-stamp/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f1/maple/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f1/maple/configs/nx/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f1/maple/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/tlsr82/tlsr8278adk80d/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/configdata/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/linuxspi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/mtdpart/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/mtdrwb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/nxffs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/spiffs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/mbedtls/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/crypto/Kconfig",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/stdlib/Kconfig",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "libs/libc/stdlib/lib_srand.c",
+      "additions": 42,
+      "deletions": 212
+    }
+  ],
+  "headRefName": "fix/rand-period",
+  "headRefOid": "404f6ebecca6a329a95ee33331ac9d97670170f3",
+  "headRepository": {
+    "id": "R_kgDOSiiDmQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOEKvreg",
+    "name": "hanzhijian",
+    "login": "Zepp-Hanzj"
+  },
+  "id": "PR_kwDODZiUac7siVy5",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19244,
+  "state": "OPEN",
+  "title": "stdlib/rand: replace weak LCG with xorshift32 PRNG",
+  "updatedAt": "2026-07-01T06:13:25Z",
+  "url": "https://github.com/apache/nuttx/pull/19244"
+}
