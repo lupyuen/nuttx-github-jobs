@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-01T14:39:06Z",
   "createdAt": "2026-07-01T14:08:22Z",
   "deletions": 3,
   "files": [
@@ -40,16 +40,36 @@
   },
   "id": "PR_kwDODZiUac7stgxx",
   "isDraft": false,
-  "labels": [],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "50f91ef5023106c3ce5428fac1ce3aa05a5acc29"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-01T14:39:06Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 19248,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "docs/boards: Fix missing information",
-  "updatedAt": "2026-07-01T14:08:24Z",
+  "updatedAt": "2026-07-01T14:39:06Z",
   "url": "https://github.com/apache/nuttx/pull/19248"
 }
