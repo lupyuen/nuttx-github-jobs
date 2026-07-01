@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-01T18:22:26",
+"arch": "arm",
+"subarch": "unknown",
+"group": "arm-06",
+"board": "raspberrypi-pico-2-w",
+"config": "telnet",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28529394392/job/84576614498#step:10:1798",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libsched.a(nx_bringup.o): in function `nx_start_application': \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n Untracked files: \n boards/arm/rp23xx/raspberrypi-pico-2-w/src/cyw43439.firmware.image"
+}

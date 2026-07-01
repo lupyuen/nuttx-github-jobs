@@ -1,0 +1,88 @@
+{
+  "additions": 179,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "is_bot": false,
+    "login": "Vajnar",
+    "name": "Martin Vajnar"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-01T18:19:50Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/Kconfig",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/include/board.h",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/src/stm32_bringup.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/src/stm32_w25q.c",
+      "additions": 140,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/src/stm32f746g-disco.h",
+      "additions": 12,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "stm32f746g-disco-add-winbond",
+  "headRefOid": "839299231c422e7510e2f0761d242804738bc485",
+  "headRepository": {
+    "id": "R_kgDOMtLutw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjgxMzI3NTU=",
+    "name": "Martin Vajnar",
+    "login": "Vajnar"
+  },
+  "id": "PR_kwDODZiUac7szsQL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19257,
+  "state": "OPEN",
+  "title": "stm32f746g-disco: Add support for Winbond W25Q128JVEQ flash chip",
+  "updatedAt": "2026-07-01T18:26:00Z",
+  "url": "https://github.com/apache/nuttx/pull/19257"
+}
