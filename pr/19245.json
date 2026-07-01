@@ -1,0 +1,142 @@
+{
+  "additions": 12,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM3Nzg5OTc2",
+    "is_bot": false,
+    "login": "AirFortressIlikara",
+    "name": "Ilikara"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-01T07:56:48Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "arch/arm/src/at32/at32_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_m3m4_v1v2v3.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l5_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/stm32wl5_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/mips/src/pic32mz/pic32mz_timer.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sparc/src/bm3803/bm3803_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sparc/src/s698pm/s698pm_tim.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/video/vnc/vnc_server.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/nuttx/wdog.h",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "fix/comment-typo",
+  "headRefOid": "17a90cadf114b7d87e0bb501f5980d78b01222ca",
+  "headRepository": {
+    "id": "R_kgDOPt2lzA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM3Nzg5OTc2",
+    "name": "Ilikara",
+    "login": "AirFortressIlikara"
+  },
+  "id": "PR_kwDODZiUac7sknQS",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonvFw",
+      "name": "Area: Video",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19245,
+  "state": "OPEN",
+  "title": "drivers: Fix comment typos — 'Pubic' → 'Public' across drivers and headers.",
+  "updatedAt": "2026-07-01T08:26:27Z",
+  "url": "https://github.com/apache/nuttx/pull/19245"
+}
