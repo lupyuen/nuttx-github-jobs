@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-01T10:38:25",
+"arch": "arm",
+"subarch": "stm32l0",
+"group": "arm-14",
+"board": "stm32l0538-disco",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28503167395/job/84486605065#step:10:397",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/nuttx section `.data' will not fit in region `flash' \n arm-none-eabi-ld: region `flash' overflowed by 20 bytes \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors."
+}
