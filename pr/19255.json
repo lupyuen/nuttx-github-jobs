@@ -1,0 +1,74 @@
+{
+  "additions": 640,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "is_bot": false,
+    "login": "ricardgb",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 6,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-01T17:28:50Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "arch/arm/src/rp23xx/CMakeLists.txt",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/Kconfig",
+      "additions": 41,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_flash_mtd.c",
+      "additions": 483,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_flash_mtd.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/common/src/rp23xx_common_bringup.c",
+      "additions": 56,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rp23xx-flash-mtd",
+  "headRefOid": "dfe513a7c0f5da7e4cc365669efb10aeb3338f3f",
+  "headRepository": {
+    "id": "R_kgDOTKojAA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "login": "ricardgb"
+  },
+  "id": "PR_kwDODZiUac7synCS",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19255,
+  "state": "OPEN",
+  "title": "arch/arm/rp23xx: add on-chip flash LittleFS (MTD) support",
+  "updatedAt": "2026-07-01T17:28:51Z",
+  "url": "https://github.com/apache/nuttx/pull/19255"
+}
