@@ -1,5 +1,5 @@
 {
-  "additions": 413443,
+  "additions": 7320,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,396 +9,36 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4366,
+  "changedFiles": 477,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-31T12:04:14Z",
-  "deletions": 454584,
+  "deletions": 52065,
   "files": [
     {
       "path": ".github/CODEOWNERS",
-      "additions": 1995,
-      "deletions": 1961
-    },
-    {
-      "path": "Documentation/applications/examples/ft80x/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/applications/system/usbmsc/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/character/input/keypad.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/character/input/mpr121.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/character/input/sbutton.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/character/leds/userled.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/character/serial.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/special/lcd.rst",
-      "additions": 3,
-      "deletions": 3
-    },
-    {
-      "path": "Documentation/components/drivers/special/sdio.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/special/usbdev.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/components/drivers/special/usbhost.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/contributing/making-changes.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/changing_systemclockconfig.rst",
-      "additions": 2,
-      "deletions": 2
-    },
-    {
-      "path": "Documentation/guides/etcromfs.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/index.rst",
-      "additions": 1,
-      "deletions": 0
-    },
-    {
-      "path": "Documentation/guides/ipv6.rst",
-      "additions": 2,
-      "deletions": 2
-    },
-    {
-      "path": "Documentation/guides/nsh_network_link_management.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/ofloader.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/partially_linked_elf.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/port_drivers_to_stm32f7.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/protected_build.rst",
-      "additions": 11,
-      "deletions": 11
-    },
-    {
-      "path": "Documentation/guides/smaller_vector_tables.rst",
-      "additions": 5,
-      "deletions": 5
+      "additions": 8,
+      "deletions": 39
     },
     {
       "path": "Documentation/guides/stm32_ports.rst",
-      "additions": 991,
-      "deletions": 0
-    },
-    {
-      "path": "Documentation/guides/stm32ccm.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/usingkernelthreads.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/guides/zerolatencyinterrupts.rst",
-      "additions": 2,
-      "deletions": 2
-    },
-    {
-      "path": "Documentation/implementation/chip_h.rst",
-      "additions": 5,
-      "deletions": 5
-    },
-    {
-      "path": "Documentation/implementation/file_descriptors.rst",
-      "additions": 4,
-      "deletions": 4
-    },
-    {
-      "path": "Documentation/implementation/nuttx_initialization_sequence.rst",
-      "additions": 14,
-      "deletions": 14
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f1/boards/fire-stm32v2/index.rst",
-      "additions": 2,
-      "deletions": 2
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f1/boards/shenzhou/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f1/boards/stm3210e-eval/index.rst",
-      "additions": 6,
-      "deletions": 6
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f1/boards/stm32f103-minimum/index.rst",
-      "additions": 2,
-      "deletions": 2
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f1/boards/stm32vldiscovery/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f4/boards/clicker2-stm32/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f4/boards/omnibusf4/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f4/boards/stm32f4discovery/index.rst",
-      "additions": 7,
-      "deletions": 7
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32f4/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32l4/boards/nucleo-l432kc/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/platforms/arm/stm32l4/boards/nucleo-l476rg/index.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "Documentation/quickstart/organization.rst",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "LICENSE",
-      "additions": 32,
-      "deletions": 32
-    },
-    {
-      "path": "arch/arm/Kconfig",
-      "additions": 38,
-      "deletions": 6
-    },
-    {
-      "path": "arch/arm/include/phy62xx/phy62xx_irq.h",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "arch/arm/include/stm32/chip.h",
-      "additions": 0,
-      "deletions": 2756
-    },
-    {
-      "path": "arch/arm/include/stm32/irq.h",
-      "additions": 0,
-      "deletions": 121
-    },
-    {
-      "path": "arch/arm/include/stm32/stm32f10xxx_irq.h",
-      "additions": 0,
-      "deletions": 298
-    },
-    {
-      "path": "arch/arm/include/stm32/stm32f20xxx_irq.h",
-      "additions": 0,
-      "deletions": 172
-    },
-    {
-      "path": "arch/arm/include/stm32/stm32f40xxx_irq.h",
-      "additions": 0,
-      "deletions": 347
-    },
-    {
-      "path": "arch/arm/include/stm32/stm32g4xxxx_irq.h",
-      "additions": 0,
-      "deletions": 202
-    },
-    {
-      "path": "arch/arm/include/stm32/stm32l15xxx_irq.h",
-      "additions": 0,
-      "deletions": 260
-    },
-    {
-      "path": "arch/arm/include/stm32c0/chip.h",
-      "additions": 157,
-      "deletions": 0
+      "additions": 120,
+      "deletions": 86
     },
     {
       "path": "arch/arm/include/stm32c0/irq.h",
-      "additions": 113,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f0/chip.h",
-      "additions": 238,
-      "deletions": 0
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "arch/arm/include/stm32f0/irq.h",
-      "additions": 125,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f0l0g0/chip.h",
-      "additions": 0,
-      "deletions": 776
-    },
-    {
-      "path": "arch/arm/include/stm32f0l0g0/irq.h",
-      "additions": 0,
-      "deletions": 114
-    },
-    {
-      "path": "arch/arm/include/stm32f0l0g0/stm32c0_irq.h",
-      "additions": 0,
-      "deletions": 117
-    },
-    {
-      "path": "arch/arm/include/stm32f0l0g0/stm32f0_irq.h",
-      "additions": 0,
-      "deletions": 131
-    },
-    {
-      "path": "arch/arm/include/stm32f0l0g0/stm32g0_irq.h",
-      "additions": 0,
-      "deletions": 195
-    },
-    {
-      "path": "arch/arm/include/stm32f0l0g0/stm32l0_irq.h",
-      "additions": 0,
-      "deletions": 122
-    },
-    {
-      "path": "arch/arm/include/stm32f1/chip.h",
-      "additions": 495,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f1/irq.h",
-      "additions": 286,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f2/chip.h",
-      "additions": 189,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f2/irq.h",
-      "additions": 168,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f3/chip.h",
-      "additions": 627,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f3/irq.h",
-      "additions": 84,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f3/stm32f30xxx_irq.h",
       "additions": 2,
-      "deletions": 29
-    },
-    {
-      "path": "arch/arm/include/stm32f3/stm32f33xxx_irq.h",
-      "additions": 2,
-      "deletions": 29
-    },
-    {
-      "path": "arch/arm/include/stm32f3/stm32f37xxx_irq.h",
-      "additions": 2,
-      "deletions": 29
-    },
-    {
-      "path": "arch/arm/include/stm32f4/chip.h",
-      "additions": 864,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32f4/irq.h",
-      "additions": 346,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32g0/chip.h",
-      "additions": 166,
-      "deletions": 0
+      "deletions": 2
     },
     {
       "path": "arch/arm/include/stm32g0/irq.h",
-      "additions": 183,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32g4/chip.h",
-      "additions": 350,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32g4/irq.h",
-      "additions": 225,
-      "deletions": 0
+      "additions": 2,
+      "deletions": 2
     },
     {
       "path": "arch/arm/include/stm32h5/stm32h5xx_irq.h",
@@ -408,26 +48,6 @@
     {
       "path": "arch/arm/include/stm32h7/chip.h",
       "additions": 3,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32l0/chip.h",
-      "additions": 371,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32l0/irq.h",
-      "additions": 117,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32l1/chip.h",
-      "additions": 491,
-      "deletions": 0
-    },
-    {
-      "path": "arch/arm/include/stm32l1/irq.h",
-      "additions": 252,
       "deletions": 0
     },
     {
@@ -457,8 +77,8 @@
     },
     {
       "path": "arch/arm/src/common/stm32/CMakeLists.txt",
-      "additions": 487,
-      "deletions": 0
+      "additions": 34,
+      "deletions": 50
     },
     {
       "path": "arch/arm/src/common/stm32/Kconfig.have",
@@ -472,52 +92,432 @@
     },
     {
       "path": "arch/arm/src/common/stm32/Make.defs",
-      "additions": 538,
-      "deletions": 0
+      "additions": 31,
+      "deletions": 46
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_adc.h",
-      "additions": 58,
-      "deletions": 0
+      "path": "arch/arm/src/common/stm32/hardware/stm32_rcc.h",
+      "additions": 0,
+      "deletions": 69
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_adc_v1.h",
+      "path": "arch/arm/src/common/stm32/stm32_1wire.h",
+      "additions": 0,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_1wire_m3m4_v1.c",
+      "additions": 142,
+      "deletions": 16
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_adc_m0_v1.h",
       "additions": 4,
       "deletions": 4
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_adc_v1l1.h",
+      "path": "arch/arm/src/common/stm32/stm32_adc_m3m4_v1v2.h",
+      "additions": 37,
+      "deletions": 37
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_capture_m3m4_v1.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_dac_m3m4_v1.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_freerun.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_hrtim_m3m4_v1.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_lsi.c",
+      "additions": 36,
+      "deletions": 22
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_lsi_m3m4_v1.c",
+      "additions": 0,
+      "deletions": 94
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_oneshot.c",
+      "additions": 66,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_oneshot_lowerhalf.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_oneshot_m3m4_v1.c",
+      "additions": 0,
+      "deletions": 458
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_oneshot_m3m4_v1_lowerhalf.c",
+      "additions": 0,
+      "deletions": 309
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pulsecount.c",
+      "additions": 34,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pulsecount_m0_v1.c",
+      "additions": 0,
+      "deletions": 1277
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pulsecount_m3m4_v1v2v3.c",
+      "additions": 0,
+      "deletions": 1775
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pwm_m0_v1.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pwm_m3m4_v1v2v3.c",
+      "additions": 29,
+      "deletions": 29
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_qencoder.c",
+      "additions": 65,
+      "deletions": 110
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_qencoder_m0_v1.c",
+      "additions": 0,
+      "deletions": 1254
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_sdadc_m3m4_v1.h",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim.c",
+      "additions": 530,
+      "deletions": 123
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim.h",
+      "additions": 200,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_clk.h",
+      "additions": 483,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_lowerhalf.c",
+      "additions": 78,
+      "deletions": 16
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_m0_v1.c",
+      "additions": 0,
+      "deletions": 1502
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_m0_v1.h",
+      "additions": 0,
+      "deletions": 233
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_m3m4_v1v2v3.h",
+      "additions": 0,
+      "deletions": 225
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_m3m4_v1v2v3_lowerhalf.c",
+      "additions": 0,
+      "deletions": 588
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_uid.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_uid.h",
       "additions": 4,
       "deletions": 4
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_adc_v2.h",
+      "path": "arch/arm/src/common/stm32/stm32_uid_m3m4_v1v2.c",
+      "additions": 0,
+      "deletions": 62
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_waste.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_waste_m3m4_v1.c",
+      "additions": 0,
+      "deletions": 44
+    },
+    {
+      "path": "arch/arm/src/stm32c0/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32c0/hardware/stm32_rcc.h",
       "additions": 4,
       "deletions": 4
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_adc_v2_m0.h",
-      "additions": 326,
-      "deletions": 0
+      "path": "arch/arm/src/stm32f0/Kconfig",
+      "additions": 0,
+      "deletions": 1
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_adc_v2g4.h",
+      "path": "arch/arm/src/stm32f0/hardware/stm32_rcc.h",
       "additions": 4,
       "deletions": 4
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_aes.h",
-      "additions": 101,
+      "path": "arch/arm/src/stm32f1/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f1/hardware/stm32_rcc.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f1/stm32.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f2/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f2/hardware/stm32_rcc.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f2/stm32.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f3/Kconfig",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f3/hardware/stm32_rcc.h",
+      "additions": 18,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/stm32f3/stm32.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f4/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f4/hardware/stm32_rcc.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32f4/stm32.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 19
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Kconfig",
+      "additions": 12,
       "deletions": 0
     },
     {
-      "path": "arch/arm/src/common/stm32/hardware/stm32_bkp.h",
-      "additions": 177,
+      "path": "arch/arm/src/stm32f7/Make.defs",
+      "additions": 3,
+      "deletions": 17
+    },
+    {
+      "path": "arch/arm/src/stm32f7/hardware/stm32f7_tim.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32.h",
+      "additions": 28,
+      "deletions": 13
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_adc.h",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_capture.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_lsi.c",
+      "additions": 0,
+      "deletions": 74
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_pwm.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_pwm.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_qencoder.c",
+      "additions": 0,
+      "deletions": 1183
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_qencoder.h",
+      "additions": 0,
+      "deletions": 102
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_tim.c",
+      "additions": 0,
+      "deletions": 1572
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_tim.h",
+      "additions": 0,
+      "deletions": 221
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_tim_lowerhalf.c",
+      "additions": 0,
+      "deletions": 591
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_uid.h",
+      "additions": 0,
+      "deletions": 52
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_waste.h",
+      "additions": 0,
+      "deletions": 66
+    },
+    {
+      "path": "arch/arm/src/stm32g0/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32g0/hardware/stm32_rcc.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32g4/Kconfig",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32g4/hardware/stm32_rcc.h",
+      "additions": 13,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32g4/stm32.h",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 15
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Kconfig",
+      "additions": 2,
       "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 2,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32_rcc.h",
+      "additions": 1214,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5_tim.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/hardware/stm32h5xxx_rcc.h",
+      "additions": 0,
+      "deletions": 1246
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_lsi.c",
+      "additions": 0,
+      "deletions": 73
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pulsecount.c",
+      "additions": 0,
+      "deletions": 1792
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pulsecount.h",
+      "additions": 0,
+      "deletions": 39
     }
   ],
   "headRefName": "stm32_refactor_all",
-  "headRefOid": "2a6ab87f10f2c411e921850ea669cf76bd7c0558",
+  "headRefOid": "d4ab40bb84350373fa4eda8574b01babcbd7b73f",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx",
@@ -557,14 +557,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19004,
   "state": "OPEN",
   "title": "[BREAKING CHANGE] reorganize and unify STM32 ports",
-  "updatedAt": "2026-06-29T05:54:54Z",
+  "updatedAt": "2026-07-01T05:32:51Z",
   "url": "https://github.com/apache/nuttx/pull/19004"
 }
