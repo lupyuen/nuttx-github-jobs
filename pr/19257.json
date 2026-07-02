@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-02T07:36:24Z",
   "createdAt": "2026-07-01T18:19:50Z",
   "deletions": 2,
   "files": [
@@ -74,15 +74,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5b5275283559088e6851d2ccb5fcf9a4356f4b3c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-02T07:36:24Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 19257,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "stm32f746g-disco: Add support for Winbond W25Q128JVEQ flash chip",
-  "updatedAt": "2026-07-02T05:37:21Z",
+  "updatedAt": "2026-07-02T07:36:24Z",
   "url": "https://github.com/apache/nuttx/pull/19257"
 }

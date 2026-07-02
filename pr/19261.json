@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-02T07:38:50Z",
   "createdAt": "2026-07-02T03:07:10Z",
   "deletions": 0,
   "files": [
@@ -47,15 +47,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a3029acf9598f40f0d3620bb2bf71503b59af63b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-02T07:38:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY4OTk4NTQz",
+    "is_bot": false,
+    "login": "michallenc",
+    "name": "Michal Lenc"
+  },
   "milestone": null,
   "number": 19261,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/contactless/mfrc522: Contactless Driver Is Not Robust",
-  "updatedAt": "2026-07-02T05:23:40Z",
+  "updatedAt": "2026-07-02T07:38:50Z",
   "url": "https://github.com/apache/nuttx/pull/19261"
 }
