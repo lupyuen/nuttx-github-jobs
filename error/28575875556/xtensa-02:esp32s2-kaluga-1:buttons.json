@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-02T08:35:09",
+"arch": "xtensa",
+"subarch": "esp32s2",
+"group": "xtensa-02",
+"board": "esp32s2-kaluga-1",
+"config": "buttons",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28575875556/job/84724530559#step:10:376",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n nsh_script.c: In function 'nsh_script': \n ##[error]nsh_script.c:124:39: error: 'O_RDOK' undeclared (first use in this function); did you mean 'O_RDWR'? \n 124 |       vtbl->np.np_fd = open(fullpath, O_RDOK | O_CLOEXEC); \n |                                       ^~~~~~ \n |                                       O_RDWR \n nsh_script.c:124:39: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *** [/github/"
+}

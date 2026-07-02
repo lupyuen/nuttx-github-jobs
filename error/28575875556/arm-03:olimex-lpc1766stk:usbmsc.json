@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-02T08:35:57",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "olimex-lpc1766stk",
+"config": "usbmsc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28575875556/job/84724530618#step:10:733",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n usbmsc_main.c: In function 'msconn_main': \n ##[error]usbmsc_main.c:584:51: error: 'O_WROK' undeclared (first use in this function) \n 584 |                            luns[num_luns].flags & O_WROK ? false : true); \n |                                                   ^~~~~~ \n usbmsc_main.c:584:51: note: each undeclared identifier is reported only once for each function it appears in \n make[2]: *"
+}

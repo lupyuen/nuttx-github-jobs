@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-02T08:20:23",
+"arch": "arm",
+"subarch": "stm32g4",
+"group": "arm-08",
+"board": "b-g431b-esc1",
+"config": "foc_b16",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28575130235/job/84722130994#step:10:486",
+"msg": "make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n make: *** [tools/Unix.mk:745: olddefconfig] Error 1 \n ##[error]./chip/stm32_foc.c:300:8: error: #error Invalid channels configuration \n 300 | #      error Invalid channels configuration \n |        ^~~~~ \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./stm32_foc.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-Os' '-fno-strict-aliasing' '-fomit-frame-pointer' '--param=min-pagesize=0' '-fno-co"
+}

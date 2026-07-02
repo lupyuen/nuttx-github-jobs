@@ -1,0 +1,514 @@
+{
+  "additions": 489,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 84,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-02T08:19:58Z",
+  "deletions": 323,
+  "files": [
+    {
+      "path": "arch/arm/src/common/arm_hostfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_hostif.c",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_powermgr_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_usbdev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/s32k1xx/s32k1xx_resetcause_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_fpu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/common/arm64_hostfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_hostfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostfs.c",
+      "additions": 12,
+      "deletions": 10
+    },
+    {
+      "path": "arch/sim/src/sim/win/sim_hostfs.c",
+      "additions": 12,
+      "deletions": 10
+    },
+    {
+      "path": "arch/x86_64/src/common/x86_64_acpi_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/s32k1xx/rddrone-bms772/src/s32k1xx_nrstcheck_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/bch/bchlib_setup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/can/can.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/clk/clk.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/misc/optee.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/mmcsd/mmcsd_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/mtd/filemtd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/mtd/mtd_partition.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/pipes/pipe_common.c",
+      "additions": 16,
+      "deletions": 15
+    },
+    {
+      "path": "drivers/power/pm/pm_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/sensors/sensor.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "drivers/sensors/sensor_rpmsg.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "fs/aio/aio_write.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/binfs/fs_binfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/cromfs/fs_cromfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/fat/fs_fat32.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "fs/hostfs/hostfs.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/inode/fs_inode.c",
+      "additions": 143,
+      "deletions": 84
+    },
+    {
+      "path": "fs/inode/inode.h",
+      "additions": 27,
+      "deletions": 14
+    },
+    {
+      "path": "fs/littlefs/lfs_vfs.c",
+      "additions": 11,
+      "deletions": 6
+    },
+    {
+      "path": "fs/mmap/fs_mmap.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/mount/fs_procfs_mount.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/nfs/nfs_vfsops.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/nxffs/nxffs_open.c",
+      "additions": 7,
+      "deletions": 8
+    },
+    {
+      "path": "fs/nxffs/nxffs_read.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/nxffs/nxffs_truncate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/nxffs/nxffs_write.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfscpuload.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfscritmon.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfsfdt.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfsiobinfo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfstcbinfo.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfsuptime.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_procfsversion.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/procfs/fs_skeleton.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/romfs/fs_romfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/rpmsgfs/rpmsgfs.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/shm/shm_open.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "fs/smartfs/smartfs_procfs.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/smartfs/smartfs_smart.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/spiffs/src/spiffs_vfs.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/spiffs/src/spiffs_volume.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/tmpfs/fs_tmpfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_inotify.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_mkdir.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_open.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "fs/vfs/fs_read.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_rename.c",
+      "additions": 41,
+      "deletions": 2
+    },
+    {
+      "path": "fs/vfs/fs_signalfd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_truncate.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "fs/vfs/fs_unlink.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "fs/vfs/fs_write.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "graphics/nxterm/nxterm_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "include/fcntl.h",
+      "additions": 42,
+      "deletions": 41
+    },
+    {
+      "path": "include/nuttx/fs/hostfs.h",
+      "additions": 28,
+      "deletions": 14
+    },
+    {
+      "path": "include/sys/mount.h",
+      "additions": 10,
+      "deletions": 10
+    },
+    {
+      "path": "libs/libc/stdio/lib_fclose.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_fmemopen.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdio/lib_fopen.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "libs/libc/stdio/lib_libfflush.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_libflushall.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "libs/libc/stdio/lib_libfread_unlocked.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_libfwrite.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_ungetc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_ungetwc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "libs/libc/stdio/lib_wrflush_unlocked.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "net/procfs/net_procfs.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "net/procfs/net_procfs_route.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/irq/irq_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/module/mod_procfs.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/mq_receive.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/mqueue/mq_send.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "sched/tls/task_initinfo.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-19238",
+  "headRefOid": "97e25bdc22ded02662e197df7594fa9f5a005e6a",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7tB0sK",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqREwQ",
+      "name": "Arch: x86_64",
+      "description": "Issues related to the x86_64 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19267,
+  "state": "OPEN",
+  "title": "{bp-19238} !include/fcntl.h: align open flags with Linux values",
+  "updatedAt": "2026-07-02T08:20:24Z",
+  "url": "https://github.com/apache/nuttx/pull/19267"
+}
