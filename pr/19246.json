@@ -1,5 +1,5 @@
 {
-  "additions": 54,
+  "additions": 145,
   "assignees": [],
   "author": {
     "id": "U_kgDOEKvreg",
@@ -9,12 +9,22 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-01T12:25:35Z",
   "deletions": 0,
   "files": [
+    {
+      "path": "Documentation/implementation/crc.rst",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/implementation/index.rst",
+      "additions": 1,
+      "deletions": 0
+    },
     {
       "path": "include/nuttx/crc32.h",
       "additions": 24,
@@ -27,7 +37,7 @@
     }
   ],
   "headRefName": "fix/crc32-linux-compat",
-  "headRefOid": "d419c84e6d3f6eea42a24c28bfb2ca4d545dae31",
+  "headRefOid": "8504576947af84a263d2d6d5ca4e8f0c4c9b9b44",
   "headRepository": {
     "id": "R_kgDOSiiDmQ",
     "name": "nuttx",
@@ -42,15 +52,15 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABsqSSkg",
-      "name": "Area: OS Components",
-      "description": "OS Components issues",
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
       "color": "0075ca"
     },
     {
-      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
-      "name": "Size: S",
-      "description": "The size of the change in this PR is small",
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
       "color": "FEF2C0"
     }
   ],
@@ -63,6 +73,6 @@
   "number": 19246,
   "state": "OPEN",
   "title": "libc/crc32: add IEEE-compatible crc32_ieee for Linux/zlib interop",
-  "updatedAt": "2026-07-01T13:04:53Z",
+  "updatedAt": "2026-07-02T01:36:59Z",
   "url": "https://github.com/apache/nuttx/pull/19246"
 }
