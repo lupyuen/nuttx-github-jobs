@@ -1,0 +1,125 @@
+{
+  "additions": 791,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "is_bot": false,
+    "login": "JorgeGzm",
+    "name": "Jorge Guzman"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-02T16:15:39Z",
+  "deletions": 12,
+  "files": [
+    {
+      "path": "Documentation/applications/examples/lvglterm/index.rst",
+      "additions": 55,
+      "deletions": 9
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/linum-stm32h753bi/index.rst",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-m5-cardputer/index.rst",
+      "additions": 35,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/lvglterm/defconfig",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/Kconfig",
+      "additions": 29,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/configs/lvglterm/defconfig",
+      "additions": 126,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/src/Make.defs",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/src/esp32s3-m5-cardputer.h",
+      "additions": 20,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/src/esp32s3_board_spi.c",
+      "additions": 19,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/src/esp32s3_bringup.c",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/src/esp32s3_kbd.c",
+      "additions": 397,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/lvglterm-input-variants",
+  "headRefOid": "90155fdd3a267a23ec35751f1744fdb3bad6fd2f",
+  "headRepository": {
+    "id": "R_kgDOKmt3PQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "name": "Jorge Guzman",
+    "login": "JorgeGzm"
+  },
+  "id": "PR_kwDODZiUac7tNv8G",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19279,
+  "state": "OPEN",
+  "title": "Feature/lvglterm input variants",
+  "updatedAt": "2026-07-02T16:23:58Z",
+  "url": "https://github.com/apache/nuttx/pull/19279"
+}
