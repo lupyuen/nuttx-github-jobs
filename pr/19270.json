@@ -517,7 +517,7 @@
     }
   ],
   "headRefName": "bp-19245",
-  "headRefOid": "6038156b1107d739ce1549f1337202e0bc19dfbd",
+  "headRefOid": "ede41255d323c54df0da466861d20022ff2a996b",
   "headRepository": {
     "id": "R_kgDOLUiNjg",
     "name": "nuttx",
@@ -530,7 +530,44 @@
   },
   "id": "PR_kwDODZiUac7tDymM",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqP-Tg",
+      "name": "Arch: mips",
+      "description": "Issues related to the MIPS architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQwyQ",
+      "name": "Arch: sparc",
+      "description": "Issues related to the SPARC architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "UNSTABLE",
   "mergeable": "MERGEABLE",
@@ -540,6 +577,6 @@
   "number": 19270,
   "state": "OPEN",
   "title": "{bp-19245} drivers: Fix comment typos — 'Pubic' → 'Public' across drivers and headers",
-  "updatedAt": "2026-07-02T09:44:29Z",
+  "updatedAt": "2026-07-02T10:22:16Z",
   "url": "https://github.com/apache/nuttx/pull/19270"
 }
