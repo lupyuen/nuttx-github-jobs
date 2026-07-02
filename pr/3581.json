@@ -1,0 +1,89 @@
+{
+  "additions": 6,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-02T11:13:24Z",
+  "deletions": 6,
+  "files": [
+    {
+      "path": "examples/configdata/configdata_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "examples/userfs/userfs_main.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "nshlib/nsh_script.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "platform/mikroe-stm32f4/mikroe_configdata.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "system/usbmsc/usbmsc_main.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-3568",
+  "headRefOid": "579aa5f6036d511443e34788777941c5bbb2c4e8",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT487tF4AD",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6WdQ",
+      "name": "Size: S",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7X-w",
+      "name": "Area: NSH",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3581,
+  "state": "OPEN",
+  "title": "{bp-3568} apps: Replace O_RDOK with O_RDONLY after alias removal",
+  "updatedAt": "2026-07-02T11:15:37Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3581"
+}
