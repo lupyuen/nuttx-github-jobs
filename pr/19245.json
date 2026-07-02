@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 12,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-02T05:29:48Z",
   "createdAt": "2026-07-01T07:56:48Z",
   "deletions": 12,
   "files": [
@@ -128,15 +128,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "acb9b36472bd60dc9b128ac48d8f12afc7dc3fd3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-02T05:29:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19245,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers: Fix comment typos — 'Pubic' → 'Public' across drivers and headers.",
-  "updatedAt": "2026-07-01T15:56:06Z",
+  "updatedAt": "2026-07-02T05:29:48Z",
   "url": "https://github.com/apache/nuttx/pull/19245"
 }
