@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-02T12:07:10Z",
   "createdAt": "2026-07-02T10:51:17Z",
   "deletions": 0,
   "files": [
@@ -69,15 +69,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "29a125f64162affe4fa5724a160e6cbf18d2c8de"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-02T12:07:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3580,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-3536} testing/sig_sp_test: add test for SP context restore on signal return",
-  "updatedAt": "2026-07-02T10:51:38Z",
+  "updatedAt": "2026-07-02T12:07:10Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3580"
 }

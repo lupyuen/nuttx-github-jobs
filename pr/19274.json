@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-02T12:01:49Z",
   "createdAt": "2026-07-02T11:28:05Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ed75eec3d6aadd80c1dce7e67280fb00d945ba2c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-02T12:01:49Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19274,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19124} net/devif: harden devif_conn_event() against list mutation",
-  "updatedAt": "2026-07-02T11:28:27Z",
+  "updatedAt": "2026-07-02T12:01:49Z",
   "url": "https://github.com/apache/nuttx/pull/19274"
 }

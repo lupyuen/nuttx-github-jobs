@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-02T12:07:51Z",
   "createdAt": "2026-07-01T14:39:14Z",
   "deletions": 1,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e61f46536e5b55153202a2a1bb0143357f76b20e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-02T12:07:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3578,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "interpreters/berry: Fix Wshadow build errors",
-  "updatedAt": "2026-07-02T10:26:52Z",
+  "updatedAt": "2026-07-02T12:07:51Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3578"
 }
