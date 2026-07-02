@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-02T13:30:30Z",
   "createdAt": "2026-07-02T12:05:43Z",
   "deletions": 118,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f049deb0d6693c280214f202f1c335075e761ba2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-02T13:30:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19277,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19258} Documentation/spresense: rewrite board page with images and configs",
-  "updatedAt": "2026-07-02T12:12:21Z",
+  "updatedAt": "2026-07-02T13:31:05Z",
   "url": "https://github.com/apache/nuttx/pull/19277"
 }
