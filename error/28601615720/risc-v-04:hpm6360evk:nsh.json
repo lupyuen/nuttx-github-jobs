@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-02T16:12:59",
+"arch": "risc-v",
+"subarch": "hpm6000",
+"group": "risc-v-04",
+"board": "hpm6360evk",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28601615720/job/84811479115#step:10:335",
+"msg": "riscv-none-elf-ld: /github/workspace/sources/nuttx/nuttx section `.text' will not fit in region `ilm' \n riscv-none-elf-ld: region `ilm' overflowed by 976 bytes \n make[1]: *** [Makefile:195: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n On branch releases/13.0"
+}
