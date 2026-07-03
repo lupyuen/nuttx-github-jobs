@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T02:30:53Z",
   "createdAt": "2026-07-02T08:02:08Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2f1da092f2a871c0a32ff33ac11c9121b402cd42"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T02:30:53Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19263,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19230} drivers/crypto/pnt: Minor Overflow in Secure Element Driver May Cause a DoS",
-  "updatedAt": "2026-07-02T15:26:13Z",
+  "updatedAt": "2026-07-03T02:30:53Z",
   "url": "https://github.com/apache/nuttx/pull/19263"
 }

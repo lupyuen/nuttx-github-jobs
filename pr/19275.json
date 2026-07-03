@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T02:32:15Z",
   "createdAt": "2026-07-02T11:47:18Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "aeed361f4eeeecc6efa523b792db13a34a79b648"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T02:32:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19275,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19146} mm/gran: reject pools with too many granules",
-  "updatedAt": "2026-07-02T15:23:34Z",
+  "updatedAt": "2026-07-03T02:32:15Z",
   "url": "https://github.com/apache/nuttx/pull/19275"
 }

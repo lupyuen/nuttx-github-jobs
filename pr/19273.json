@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T02:32:01Z",
   "createdAt": "2026-07-02T10:47:55Z",
   "deletions": 16,
   "files": [
@@ -70,15 +70,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0f4f53f3eacc333fa3fa8845a91f2e6745bac22b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T02:32:01Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19273,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19198} mm,qemu: Fix KASAN user-space false positives, global region link error, and linker script section placement",
-  "updatedAt": "2026-07-02T15:23:14Z",
+  "updatedAt": "2026-07-03T02:32:01Z",
   "url": "https://github.com/apache/nuttx/pull/19273"
 }

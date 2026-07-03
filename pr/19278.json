@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T02:32:57Z",
   "createdAt": "2026-07-02T12:08:40Z",
   "deletions": 12,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e375b69e086ef7f6236713e5d12bddf0f8e93211"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T02:32:57Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19278,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19242} Long double macros",
-  "updatedAt": "2026-07-02T15:23:54Z",
+  "updatedAt": "2026-07-03T02:32:57Z",
   "url": "https://github.com/apache/nuttx/pull/19278"
 }

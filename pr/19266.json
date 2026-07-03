@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T02:31:02Z",
   "createdAt": "2026-07-02T08:08:36Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "33ec0debcaa764fa17401a3c5a64f9dcf379e52e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T02:31:02Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19266,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19237} tools/nxstyle.c: Add symbols for drivers/crypto/pnt/pnt_se05x_api.c",
-  "updatedAt": "2026-07-02T15:25:33Z",
+  "updatedAt": "2026-07-03T02:31:03Z",
   "url": "https://github.com/apache/nuttx/pull/19266"
 }
