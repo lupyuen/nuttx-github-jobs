@@ -1,0 +1,564 @@
+{
+  "additions": 102705,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 304,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-03T08:11:44Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": ".codespell-ignore-lines",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": ".codespellrc",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "examples/webpanel/.gitignore",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/Kconfig",
+      "additions": 109,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/Make.defs",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/Makefile",
+      "additions": 94,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/cgi_files.c",
+      "additions": 314,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/cgi_renew.c",
+      "additions": 72,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/cgi_sysinfo.c",
+      "additions": 414,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/cgi_upload.c",
+      "additions": 637,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/content/www/index.html",
+      "additions": 454,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/content/www/xterm.css",
+      "additions": 218,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/content/www/xterm.min.js",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/webpanel_main.c",
+      "additions": 207,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/ws_terminal.c",
+      "additions": 350,
+      "deletions": 0
+    },
+    {
+      "path": "examples/webpanel/ws_terminal.h",
+      "additions": 63,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/.gitignore",
+      "additions": 70,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/AUTHORS",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/COPYING.md",
+      "additions": 361,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/Kconfig",
+      "additions": 187,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/Make.defs",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/Makefile",
+      "additions": 203,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/pcsound/.gitignore",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/pcsound/pcsound.c",
+      "additions": 129,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/pcsound/pcsound.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/pcsound/pcsound_internal.h",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/.gitignore",
+      "additions": 22,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/aes_prng.c",
+      "additions": 930,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/aes_prng.h",
+      "additions": 44,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/config.h",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_dedicated.c",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_event.c",
+      "additions": 81,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_event.h",
+      "additions": 192,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_iwad.c",
+      "additions": 539,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_iwad.h",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_loop.c",
+      "additions": 955,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_loop.h",
+      "additions": 118,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_mode.c",
+      "additions": 247,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_mode.h",
+      "additions": 126,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/d_ticcmd.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_defs.h",
+      "additions": 120,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_io.c",
+      "additions": 392,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_io.h",
+      "additions": 46,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_main.c",
+      "additions": 554,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_main.h",
+      "additions": 69,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_mapping.c",
+      "additions": 206,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_mapping.h",
+      "additions": 106,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_str.c",
+      "additions": 228,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_str.h",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/deh_text.c",
+      "additions": 140,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/.gitignore",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/am_map.c",
+      "additions": 1817,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/am_map.h",
+      "additions": 95,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_englsh.h",
+      "additions": 695,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_french.h",
+      "additions": 698,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_items.c",
+      "additions": 143,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_items.h",
+      "additions": 55,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_main.c",
+      "additions": 2184,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_main.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_net.c",
+      "additions": 333,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_player.h",
+      "additions": 236,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_textur.h",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/d_think.h",
+      "additions": 64,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_ammo.c",
+      "additions": 128,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_bexstr.c",
+      "additions": 406,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_cheat.c",
+      "additions": 179,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_doom.c",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_frame.c",
+      "additions": 198,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_misc.c",
+      "additions": 281,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_misc.h",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_ptr.c",
+      "additions": 172,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_sound.c",
+      "additions": 133,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_thing.c",
+      "additions": 161,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/deh_weapon.c",
+      "additions": 131,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/doomdata.h",
+      "additions": 248,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/doomdef.c",
+      "additions": 33,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/doomdef.h",
+      "additions": 171,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/doomstat.c",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/doomstat.h",
+      "additions": 273,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/dstrings.c",
+      "additions": 71,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/dstrings.h",
+      "additions": 62,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/f_finale.c",
+      "additions": 769,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/f_finale.h",
+      "additions": 49,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/f_wipe.c",
+      "additions": 296,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/f_wipe.h",
+      "additions": 53,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/g_game.c",
+      "additions": 2466,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/g_game.h",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/hu_lib.c",
+      "additions": 318,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/hu_lib.h",
+      "additions": 178,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/hu_stuff.c",
+      "additions": 641,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/hu_stuff.h",
+      "additions": 84,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/info.c",
+      "additions": 5356,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/info.h",
+      "additions": 1378,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/m_menu.c",
+      "additions": 2155,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/m_menu.h",
+      "additions": 76,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/m_random.c",
+      "additions": 90,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/m_random.h",
+      "additions": 50,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/p_ceilng.c",
+      "additions": 327,
+      "deletions": 0
+    },
+    {
+      "path": "games/NXDoom/src/doom/p_doors.c",
+      "additions": 802,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-3573",
+  "headRefOid": "94dc96f61e4fd54218e4e10c159cf326d9f91fd0",
+  "headRepository": {
+    "id": "R_kgDOLrSB3Q",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiT487tfflL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6brA",
+      "name": "Size: XL",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7gUg",
+      "name": "Area: Games",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3584,
+  "state": "OPEN",
+  "title": "{bp-3573}  games/NXDoom: Initial port of Chocolate DOOM to NuttX.",
+  "updatedAt": "2026-07-03T08:15:52Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3584"
+}
