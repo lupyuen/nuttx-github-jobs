@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T17:59:35Z",
   "createdAt": "2026-07-03T07:43:07Z",
   "deletions": 238,
   "files": [
@@ -137,15 +137,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "502feadb3de5feb7b995bf7c47d6b6750ccfaa0b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T17:59:35Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19285,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19244} stdlib/rand: replace weak LCG with xorshift32 PRNG",
-  "updatedAt": "2026-07-03T07:57:21Z",
+  "updatedAt": "2026-07-03T17:59:35Z",
   "url": "https://github.com/apache/nuttx/pull/19285"
 }

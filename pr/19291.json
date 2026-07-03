@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T18:00:05Z",
   "createdAt": "2026-07-03T10:53:23Z",
   "deletions": 3,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fa534b75b7a9084bbdcca9a1573df4432149e4ad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T18:00:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19291,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19229} arch/riscv: Add CONFIG_ARCH_RV_ISA_ZICSR_ZIFENCEI for fence.i",
-  "updatedAt": "2026-07-03T12:19:35Z",
+  "updatedAt": "2026-07-03T18:00:05Z",
   "url": "https://github.com/apache/nuttx/pull/19291"
 }

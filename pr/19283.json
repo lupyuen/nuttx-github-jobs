@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 26,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T18:00:32Z",
   "createdAt": "2026-07-03T07:17:34Z",
   "deletions": 17,
   "files": [
@@ -192,15 +192,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fd3889ceaacb4cefacc9a8c5cf0e71c4761c2e21"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T18:00:32Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19283,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19280} arch/[risc-v|xtensa]: update Espressif's common source code",
-  "updatedAt": "2026-07-03T16:25:04Z",
+  "updatedAt": "2026-07-03T18:00:33Z",
   "url": "https://github.com/apache/nuttx/pull/19283"
 }
