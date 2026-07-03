@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T02:30:40Z",
   "createdAt": "2026-06-29T17:15:39Z",
   "deletions": 0,
   "files": [
@@ -70,11 +70,18 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "51d0848b7423085ccec53eecfd56e0f30081175d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T02:30:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": {
     "number": 11,
     "title": "GSoC",
@@ -82,8 +89,8 @@
     "dueOn": null
   },
   "number": 19239,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps/NXDoom: Initial port of DOOM to NuttX",
-  "updatedAt": "2026-07-03T00:36:00Z",
+  "updatedAt": "2026-07-03T02:30:40Z",
   "url": "https://github.com/apache/nuttx/pull/19239"
 }

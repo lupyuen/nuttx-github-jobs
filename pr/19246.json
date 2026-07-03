@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T02:18:28Z",
   "createdAt": "2026-07-01T12:25:35Z",
   "deletions": 0,
   "files": [
@@ -64,15 +64,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "597a533a472e148b8c70f581243592e6bc54e1cb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T02:18:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19246,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "libc/crc32: add IEEE-compatible crc32_ieee for Linux/zlib interop",
-  "updatedAt": "2026-07-02T14:26:34Z",
+  "updatedAt": "2026-07-03T02:18:29Z",
   "url": "https://github.com/apache/nuttx/pull/19246"
 }
