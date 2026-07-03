@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-03T04:03:17",
+"arch": "arm",
+"subarch": "unknown",
+"group": "arm-08",
+"board": "linum-stm32h753bi",
+"config": "lvglterm",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28633184848/job/84914312336#step:10:960",
+"msg": "##[error]./lvglterm.c:59:4: error: #error LVGL Font UNSCII 16 should be enabled in the configuration \n 59 | #  error LVGL Font UNSCII 16 should be enabled in the configuration \n |    ^~~~~ \n ERROR: arm-none-eabi-gcc failed: 1 \n command: arm-none-eabi-gcc -MT ./lvglterm.c.github.workspace.sources.apps.examples.lvglterm.o  -M '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Wno-psabi' '-fomit-frame-pointer' '--param=min-pagesize=0' '-fno-common' '-Wall' '-Wshadow' '-Wundef' '-ffunction-sec"
+}
