@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T14:13:19Z",
   "createdAt": "2026-07-03T07:06:30Z",
   "deletions": 4,
   "files": [
@@ -64,15 +64,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ff899ae95da9148b8e924a609a839e154846d03a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T14:13:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19282,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19206} arch/arm: fix DMA transfers with sizes smaller than 4 bytes.",
-  "updatedAt": "2026-07-03T12:58:25Z",
+  "updatedAt": "2026-07-03T14:13:19Z",
   "url": "https://github.com/apache/nuttx/pull/19282"
 }

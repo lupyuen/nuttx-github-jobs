@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T14:16:25Z",
   "createdAt": "2026-07-03T07:28:50Z",
   "deletions": 0,
   "files": [
@@ -54,15 +54,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fd4e34be6d55aa6ae62ef815019a62112769e4b6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T14:16:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19284,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19123} armv7-m/armv8-m: honor SP modifications on signal return",
-  "updatedAt": "2026-07-03T10:35:42Z",
+  "updatedAt": "2026-07-03T14:16:25Z",
   "url": "https://github.com/apache/nuttx/pull/19284"
 }
