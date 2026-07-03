@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T12:18:15Z",
   "createdAt": "2026-07-03T07:02:01Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "ba2fd1a12ff1042e943a79118577aca92a471ac9"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T12:18:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19281,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19247} boards/stm32l0538-disco: Remove DD command to release more space",
-  "updatedAt": "2026-07-03T10:35:21Z",
+  "updatedAt": "2026-07-03T12:23:38Z",
   "url": "https://github.com/apache/nuttx/pull/19281"
 }

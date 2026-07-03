@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T12:18:36Z",
   "createdAt": "2026-07-03T09:51:22Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "297ef5d45349be572c33d8a1ecf71f74cbcb01bb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T12:18:36Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19288,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19287} arch/arm/stm32f7: add stm32.h peripheral header",
-  "updatedAt": "2026-07-03T11:49:19Z",
+  "updatedAt": "2026-07-03T12:18:36Z",
   "url": "https://github.com/apache/nuttx/pull/19288"
 }
