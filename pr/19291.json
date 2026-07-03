@@ -1,0 +1,83 @@
+{
+  "additions": 13,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-03T10:53:23Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "arch/risc-v/include/barriers.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_fpu.S",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_mmu.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/common/riscv_vpu.S",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/mpfs/mpfs_head.S",
+      "additions": 2,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-19229",
+  "headRefOid": "a5380636edd7c8f3c60b5a4bf5f9f0f4940c9bb8",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7tjZov",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19291,
+  "state": "OPEN",
+  "title": "{bp-19229} arch/riscv: Add CONFIG_ARCH_RV_ISA_ZICSR_ZIFENCEI for fence.i",
+  "updatedAt": "2026-07-03T10:58:36Z",
+  "url": "https://github.com/apache/nuttx/pull/19291"
+}
