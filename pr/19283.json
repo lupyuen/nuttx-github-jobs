@@ -1,0 +1,206 @@
+{
+  "additions": 1253,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 26,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-03T07:17:34Z",
+  "deletions": 17,
+  "files": [
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/boards/esp32c6-devkitc/index.rst",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32c6/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/boards/esp32h2-devkit/index.rst",
+      "additions": 68,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/risc-v/esp32h2/index.rst",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 2
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Make.defs",
+      "additions": 5,
+      "deletions": 3
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Wireless.cmake",
+      "additions": 75,
+      "deletions": 5
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/Wireless.mk",
+      "additions": 54,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_ble.c",
+      "additions": 333,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32c6/esp_ble.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/Make.defs",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/esp_ble.c",
+      "additions": 333,
+      "deletions": 0
+    },
+    {
+      "path": "arch/risc-v/src/esp32h2/esp_ble.h",
+      "additions": 52,
+      "deletions": 0
+    },
+    {
+      "path": "arch/xtensa/src/esp32/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/risc-v/esp32c6/common/scripts/esp32c6_sections.ld",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/configs/ble/defconfig",
+      "additions": 67,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32c6/esp32c6-devkitc/src/esp32c6_bringup.c",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/common/scripts/esp32h2_sections.ld",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/configs/ble/defconfig",
+      "additions": 66,
+      "deletions": 0
+    },
+    {
+      "path": "boards/risc-v/esp32h2/esp32h2-devkit/src/esp32h2_bringup.c",
+      "additions": 13,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "bp-19280",
+  "headRefOid": "45c49d1a0cc33d5e5093fb219e4f73f68c72f957",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7teLbA",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L77A",
+      "name": "Board: risc-v",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19283,
+  "state": "OPEN",
+  "title": "{bp-19280} arch/[risc-v|xtensa]: update Espressif's common source code",
+  "updatedAt": "2026-07-03T07:26:55Z",
+  "url": "https://github.com/apache/nuttx/pull/19283"
+}

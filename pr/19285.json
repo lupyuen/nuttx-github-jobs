@@ -1,0 +1,120 @@
+{
+  "additions": 45,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 15,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-03T07:43:07Z",
+  "deletions": 238,
+  "files": [
+    {
+      "path": "boards/arm/stm32f1/et-stm32-stamp/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f1/maple/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f1/maple/configs/nx/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f1/maple/configs/usbnsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/tlsr82/tlsr8278adk80d/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/configdata/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/linuxspi/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/mtdpart/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/mtdrwb/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/nxffs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/sim/sim/sim/configs/spiffs/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-devkit/configs/mbedtls/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/crypto/Kconfig",
+      "additions": 3,
+      "deletions": 5
+    },
+    {
+      "path": "libs/libc/stdlib/Kconfig",
+      "additions": 0,
+      "deletions": 9
+    },
+    {
+      "path": "libs/libc/stdlib/lib_srand.c",
+      "additions": 42,
+      "deletions": 212
+    }
+  ],
+  "headRefName": "bp-19244",
+  "headRefOid": "911af8a68b8a5a2598a0df7824b0dd42f9c52aab",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7teyHh",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19285,
+  "state": "OPEN",
+  "title": "{bp-19244} stdlib/rand: replace weak LCG with xorshift32 PRNG",
+  "updatedAt": "2026-07-03T07:43:09Z",
+  "url": "https://github.com/apache/nuttx/pull/19285"
+}
