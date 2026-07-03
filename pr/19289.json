@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 37,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T20:01:51Z",
   "createdAt": "2026-07-03T09:51:34Z",
   "deletions": 562,
   "files": [
@@ -229,15 +229,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f8d8d3bb716c7f4ee92de9343d33d123d6af5208"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T20:01:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19289,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/stm32: commonize stm32_waste across all STM32 families.",
-  "updatedAt": "2026-07-03T17:59:02Z",
+  "updatedAt": "2026-07-03T20:01:51Z",
   "url": "https://github.com/apache/nuttx/pull/19289"
 }
