@@ -1,5 +1,117 @@
 [
   {
+    "build_arch": "risc-v",
+    "build_board": "hpm6360evk",
+    "build_config": "nsh",
+    "build_group": "risc-v-04",
+    "build_msg": "riscv-none-elf-ld: /github/workspace/sources/nuttx/nuttx section `.text' will not fit in region `ilm' \n riscv-none-elf-ld: region `ilm' overflowed by 976 bytes \n make[1]: *** [Makefile:195: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n On branch releases/13.0 \n On branch releases/13.0",
+    "build_score": 0,
+    "build_subarch": "hpm6000",
+    "build_timestamp": "2026-07-03T13:12:17",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/28660067048/job/84998714744#step:10:341",
+    "build_version": "3",
+    "job_conclusion": "",
+    "job_createdAt": "2026-07-03T12:18:39Z",
+    "job_databaseId": 28660067048,
+    "job_displayTitle": "arch/arm/stm32f7: add stm32.h peripheral header",
+    "job_event": "push",
+    "job_headBranch": "releases/13.0",
+    "job_headSha": "297ef5d45349be572c33d8a1ecf71f74cbcb01bb",
+    "job_name": "Build",
+    "job_number": 55597,
+    "job_run_duration_ms": "4901000",
+    "job_startedAt": "2026-07-03T12:18:39Z",
+    "job_status": "queued",
+    "job_updatedAt": "2026-07-03T12:21:08Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/28660067048",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 60,
+    "pr_assignees": [],
+    "pr_author": "raiden00pl",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-07-03T09:47:43Z",
+    "pr_deletions": 0,
+    "pr_headRefName": "stm32_refactor_all_stm32f7_stm32h",
+    "pr_headRefOid": "e475d844613e3810182bc7441ba4fa3926d61d2a",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "raiden00pl",
+    "pr_id": "PR_kwDODZiUac7th9y5",
+    "pr_isDraft": false,
+    "pr_labels": "Arch: arm, Size: S",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19287,
+    "pr_state": "OPEN",
+    "pr_title": "arch/arm/stm32f7: add stm32.h peripheral header",
+    "pr_updatedAt": "2026-07-03T09:56:17Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19287"
+  },
+  {
+    "build_arch": "arm64",
+    "build_board": "imx93-evk",
+    "build_config": "bootloader",
+    "build_group": "arm64-01",
+    "build_msg": "aarch64-none-elf-ld: /github/workspace/sources/nuttx/nuttx section `.rodata' will not fit in region `ocram' \n aarch64-none-elf-ld: section .data LMA [00000000204e0000,00000000204e2137] overlaps section .rodata LMA [00000000204c7000,00000000204e069f] \n aarch64-none-elf-ld: region `ocram' overflowed by 1696 bytes \n make[1]: *** [Makefile:194: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors. \n On branch releases/13.0 \n On branch releases/13",
+    "build_score": 0,
+    "build_subarch": "imx9",
+    "build_timestamp": "2026-07-03T12:35:52",
+    "build_url": "https://github.com/apache/nuttx/actions/runs/28660067048/job/84998714663#step:10:373",
+    "build_version": "3",
+    "job_conclusion": "",
+    "job_createdAt": "2026-07-03T12:18:39Z",
+    "job_databaseId": 28660067048,
+    "job_displayTitle": "arch/arm/stm32f7: add stm32.h peripheral header",
+    "job_event": "push",
+    "job_headBranch": "releases/13.0",
+    "job_headSha": "297ef5d45349be572c33d8a1ecf71f74cbcb01bb",
+    "job_name": "Build",
+    "job_number": 55597,
+    "job_run_duration_ms": "4901000",
+    "job_startedAt": "2026-07-03T12:18:39Z",
+    "job_status": "queued",
+    "job_updatedAt": "2026-07-03T12:21:08Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/28660067048",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 60,
+    "pr_assignees": [],
+    "pr_author": "raiden00pl",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 1,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-07-03T09:47:43Z",
+    "pr_deletions": 0,
+    "pr_headRefName": "stm32_refactor_all_stm32f7_stm32h",
+    "pr_headRefOid": "e475d844613e3810182bc7441ba4fa3926d61d2a",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "raiden00pl",
+    "pr_id": "PR_kwDODZiUac7th9y5",
+    "pr_isDraft": false,
+    "pr_labels": "Arch: arm, Size: S",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19287,
+    "pr_state": "OPEN",
+    "pr_title": "arch/arm/stm32f7: add stm32.h peripheral header",
+    "pr_updatedAt": "2026-07-03T09:56:17Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19287"
+  },
+  {
     "build_arch": "arm",
     "build_board": "pke8721daf",
     "build_config": "nsh",
@@ -760,8 +872,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "releases/13.0",
     "pr_changedFiles": 304,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-07-03T13:01:42Z",
     "pr_createdAt": "2026-07-03T08:11:44Z",
     "pr_deletions": 1,
     "pr_headRefName": "bp-3573",
@@ -771,16 +883,16 @@
     "pr_id": "PR_kwDODZiT487tfflL",
     "pr_isDraft": false,
     "pr_labels": "Size: XL, Area: Games, Area: Examples",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNSTABLE",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergeCommit": "5bf9b4ea9ac9facafa0ca10f3f95f0098a17db77",
+    "pr_mergeStateStatus": "UNKNOWN",
+    "pr_mergeable": "UNKNOWN",
+    "pr_mergedAt": "2026-07-03T13:01:42Z",
+    "pr_mergedBy": "acassis",
     "pr_milestone": null,
     "pr_number": 3584,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "{bp-3573}  games/NXDoom: Initial port of Chocolate DOOM to NuttX.",
-    "pr_updatedAt": "2026-07-03T08:15:52Z",
+    "pr_updatedAt": "2026-07-03T13:01:42Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3584"
   },
   {
@@ -1320,8 +1432,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "releases/13.0",
     "pr_changedFiles": 304,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-07-03T13:01:42Z",
     "pr_createdAt": "2026-07-03T08:11:44Z",
     "pr_deletions": 1,
     "pr_headRefName": "bp-3573",
@@ -1331,16 +1443,16 @@
     "pr_id": "PR_kwDODZiT487tfflL",
     "pr_isDraft": false,
     "pr_labels": "Size: XL, Area: Games, Area: Examples",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNSTABLE",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergeCommit": "5bf9b4ea9ac9facafa0ca10f3f95f0098a17db77",
+    "pr_mergeStateStatus": "UNKNOWN",
+    "pr_mergeable": "UNKNOWN",
+    "pr_mergedAt": "2026-07-03T13:01:42Z",
+    "pr_mergedBy": "acassis",
     "pr_milestone": null,
     "pr_number": 3584,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "{bp-3573}  games/NXDoom: Initial port of Chocolate DOOM to NuttX.",
-    "pr_updatedAt": "2026-07-03T08:15:52Z",
+    "pr_updatedAt": "2026-07-03T13:01:42Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3584"
   },
   {
@@ -1376,8 +1488,8 @@
     "pr_autoMergeRequest": null,
     "pr_baseRefName": "releases/13.0",
     "pr_changedFiles": 304,
-    "pr_closed": false,
-    "pr_closedAt": null,
+    "pr_closed": true,
+    "pr_closedAt": "2026-07-03T13:01:42Z",
     "pr_createdAt": "2026-07-03T08:11:44Z",
     "pr_deletions": 1,
     "pr_headRefName": "bp-3573",
@@ -1387,16 +1499,16 @@
     "pr_id": "PR_kwDODZiT487tfflL",
     "pr_isDraft": false,
     "pr_labels": "Size: XL, Area: Games, Area: Examples",
-    "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNSTABLE",
-    "pr_mergeable": "MERGEABLE",
-    "pr_mergedAt": null,
-    "pr_mergedBy": "",
+    "pr_mergeCommit": "5bf9b4ea9ac9facafa0ca10f3f95f0098a17db77",
+    "pr_mergeStateStatus": "UNKNOWN",
+    "pr_mergeable": "UNKNOWN",
+    "pr_mergedAt": "2026-07-03T13:01:42Z",
+    "pr_mergedBy": "acassis",
     "pr_milestone": null,
     "pr_number": 3584,
-    "pr_state": "OPEN",
+    "pr_state": "MERGED",
     "pr_title": "{bp-3573}  games/NXDoom: Initial port of Chocolate DOOM to NuttX.",
-    "pr_updatedAt": "2026-07-03T08:15:52Z",
+    "pr_updatedAt": "2026-07-03T13:01:42Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3584"
   },
   {
@@ -2725,7 +2837,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -2740,7 +2852,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -2781,7 +2893,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -2796,7 +2908,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -2893,7 +3005,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -2908,7 +3020,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -2949,7 +3061,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -2964,7 +3076,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -3005,7 +3117,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -3020,7 +3132,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -3061,7 +3173,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -3076,7 +3188,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -5250,7 +5362,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -5265,7 +5377,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -5306,7 +5418,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -5321,7 +5433,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -5362,7 +5474,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -5377,7 +5489,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -5530,7 +5642,7 @@
     "pr_createdAt": "2026-07-02T16:15:39Z",
     "pr_deletions": 12,
     "pr_headRefName": "feature/lvglterm-input-variants",
-    "pr_headRefOid": "77cf5569d84f975f84532fbc6ab58327145dd04e",
+    "pr_headRefOid": "d60a96c38ffdf3768e8e46ec9600486413247978",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "JorgeGzm",
     "pr_id": "PR_kwDODZiUac7tNv8G",
@@ -5545,7 +5657,7 @@
     "pr_number": 19279,
     "pr_state": "OPEN",
     "pr_title": "Feature/lvglterm input variants",
-    "pr_updatedAt": "2026-07-03T11:54:25Z",
+    "pr_updatedAt": "2026-07-03T13:36:32Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19279"
   },
   {
@@ -176849,7 +176961,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -176905,7 +177017,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -176961,7 +177073,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177017,7 +177129,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177073,7 +177185,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177129,7 +177241,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177414,7 +177526,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177470,7 +177582,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177526,7 +177638,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177582,7 +177694,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177638,7 +177750,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177694,7 +177806,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177750,7 +177862,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177806,7 +177918,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177862,7 +177974,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177918,7 +178030,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -177974,7 +178086,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178030,7 +178142,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178086,7 +178198,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178142,7 +178254,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178198,7 +178310,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178254,7 +178366,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178310,7 +178422,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178366,7 +178478,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178422,7 +178534,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178478,7 +178590,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178534,7 +178646,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178590,7 +178702,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178646,7 +178758,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178702,7 +178814,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178758,7 +178870,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178814,7 +178926,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178870,7 +178982,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178926,7 +179038,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -178982,7 +179094,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179038,7 +179150,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179094,7 +179206,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179150,7 +179262,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179206,7 +179318,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179262,7 +179374,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179318,7 +179430,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179374,7 +179486,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -179430,7 +179542,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -233037,7 +233149,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -233093,7 +233205,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -264901,7 +265013,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -265013,7 +265125,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -265125,7 +265237,7 @@
     "pr_number": 3557,
     "pr_state": "OPEN",
     "pr_title": "!nshlib: Require explicit fixed login password at build time",
-    "pr_updatedAt": "2026-07-01T13:41:06Z",
+    "pr_updatedAt": "2026-07-03T13:20:29Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3557"
   },
   {
@@ -378809,62 +378921,6 @@
     "pr_url": "https://github.com/apache/nuttx/pull/19048"
   },
   {
-    "build_arch": "risc-v",
-    "build_board": "esp32p4-function-ev-board",
-    "build_config": "timers",
-    "build_group": "risc-v-03",
-    "build_msg": "Killing pytest after timeout...",
-    "build_score": 0.8,
-    "build_subarch": "esp32p4",
-    "build_timestamp": "2026-06-05T15:55:08",
-    "build_url": "https://github.com/apache/nuttx/actions/runs/27018787117/job/79741141826#step:10:1494",
-    "build_version": "3",
-    "job_conclusion": "success",
-    "job_createdAt": "2026-06-05T13:49:54Z",
-    "job_databaseId": 27018787117,
-    "job_displayTitle": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "job_event": "pull_request",
-    "job_headBranch": "rp2350-rv-smp",
-    "job_headSha": "2fc08cf2f7b0a99bc0af78db9b15f567a9fb4b3a",
-    "job_name": "Build",
-    "job_number": 55065,
-    "job_run_duration_ms": "8304000",
-    "job_startedAt": "2026-06-05T13:49:54Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-06-05T16:08:18Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/27018787117",
-    "job_workflowDatabaseId": 908549,
-    "job_workflowName": "Build",
-    "pr_additions": 487,
-    "pr_assignees": [],
-    "pr_author": "shtirlic",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 26,
-    "pr_closed": true,
-    "pr_closedAt": "2026-06-14T14:54:12Z",
-    "pr_createdAt": "2026-06-02T20:58:40Z",
-    "pr_deletions": 264,
-    "pr_headRefName": "rp2350-rv-smp",
-    "pr_headRefOid": "a2393981bddd2d268da865c06c25c9a9eb385b63",
-    "pr_headRepository": "nuttx",
-    "pr_headRepositoryOwner": "shtirlic",
-    "pr_id": "PR_kwDODZiUac7h95b0",
-    "pr_isDraft": false,
-    "pr_labels": "Area: Documentation, Arch: risc-v, Size: L, Board: risc-v",
-    "pr_mergeCommit": "1282b94792767bf40cdb8fb50faf9051db0bda42",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-06-14T14:54:12Z",
-    "pr_mergedBy": "xiaoxiang781216",
-    "pr_milestone": null,
-    "pr_number": 19026,
-    "pr_state": "MERGED",
-    "pr_title": "arch/risc-v/rp23xx-rv: Add SMP support for dual Hazard3",
-    "pr_updatedAt": "2026-06-15T10:43:24Z",
-    "pr_url": "https://github.com/apache/nuttx/pull/19026"
-  },
-  {
     "build_arch": "sim",
     "build_board": "sim",
     "build_config": "lua",
@@ -379001,118 +379057,6 @@
     "job_status": "completed",
     "job_updatedAt": "2026-06-05T18:14:30Z",
     "job_url": "https://github.com/apache/nuttx/actions/runs/27020955088",
-    "job_workflowDatabaseId": 908549,
-    "job_workflowName": "Build",
-    "pr_additions": 29,
-    "pr_assignees": [],
-    "pr_author": "Vajnar",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 1,
-    "pr_closed": true,
-    "pr_closedAt": "2026-06-06T07:54:51Z",
-    "pr_createdAt": "2026-06-05T12:50:29Z",
-    "pr_deletions": 0,
-    "pr_headRefName": "framebuffer-splash-update",
-    "pr_headRefOid": "26fd8ca825856e67890af475c35dafc55f4ee95b",
-    "pr_headRepository": "nuttx",
-    "pr_headRepositoryOwner": "Vajnar",
-    "pr_id": "PR_kwDODZiUac7jGqY2",
-    "pr_isDraft": false,
-    "pr_labels": "Size: S, Area: Video",
-    "pr_mergeCommit": "155805c2e633d062f13bc5c51e490a3518932b1c",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-06-06T07:54:51Z",
-    "pr_mergedBy": "lupyuen",
-    "pr_milestone": null,
-    "pr_number": 19047,
-    "pr_state": "MERGED",
-    "pr_title": "video/fb: Trigger updatearea() if CONFIG_FB_UPDATE is defined",
-    "pr_updatedAt": "2026-06-07T12:59:51Z",
-    "pr_url": "https://github.com/apache/nuttx/pull/19047"
-  },
-  {
-    "build_arch": "sim",
-    "build_board": "sim",
-    "build_config": "lua",
-    "build_group": "sim-02",
-    "build_msg": "%   %%T  oTTtooattlaa ll         %   %R% e RcReeeciceveieivdve ed%d  %X fXefrde r dA v eArvaegrea gSep eSepde e d  T i mTei m   Time     Time  Currenet \n T i m e           T i m e     C u r r e n t \n D l o a d     U p l o a d       T o t al   Spent        L e fDtl o adS p eUepdl \n oad \n a l  D l oSapde n tU p l o aLde f t  T oStpaele d \n Spe \n n t  0      L e f0t     S p0e e d",
-    "build_score": 0.8,
-    "build_subarch": "sim",
-    "build_timestamp": "2026-06-05T14:15:16",
-    "build_url": "https://github.com/apache/nuttx/actions/runs/27019333781/job/79743056317#step:10:422",
-    "build_version": "3",
-    "job_conclusion": "failure",
-    "job_createdAt": "2026-06-05T14:00:22Z",
-    "job_databaseId": 27019333781,
-    "job_displayTitle": "boards/sim/sim/sim/nsh: enable CONFIG_RTC for host time sync",
-    "job_event": "pull_request",
-    "job_headBranch": "fix/sim-nsh-rtc",
-    "job_headSha": "5d9a74e2fb9d3eb1f696c0ec9b4ae02a0463d74f",
-    "job_name": "Build",
-    "job_number": 55066,
-    "job_run_duration_ms": "2553000",
-    "job_startedAt": "2026-06-05T14:00:22Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-06-05T14:42:55Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/27019333781",
-    "job_workflowDatabaseId": 908549,
-    "job_workflowName": "Build",
-    "pr_additions": 3,
-    "pr_assignees": [],
-    "pr_author": "Zepp-Hanzj",
-    "pr_autoMergeRequest": null,
-    "pr_baseRefName": "master",
-    "pr_changedFiles": 1,
-    "pr_closed": true,
-    "pr_closedAt": "2026-06-06T18:08:16Z",
-    "pr_createdAt": "2026-06-05T14:00:13Z",
-    "pr_deletions": 0,
-    "pr_headRefName": "fix/sim-nsh-rtc",
-    "pr_headRefOid": "707645db306528fc69a1d9e375f6993128baf09d",
-    "pr_headRepository": "nuttx",
-    "pr_headRepositoryOwner": "Zepp-Hanzj",
-    "pr_id": "PR_kwDODZiUac7jIKFc",
-    "pr_isDraft": false,
-    "pr_labels": "Size: XS, Board: simulator",
-    "pr_mergeCommit": "80f133504a81af4ffedd17e638472b85e3ea08a8",
-    "pr_mergeStateStatus": "UNKNOWN",
-    "pr_mergeable": "UNKNOWN",
-    "pr_mergedAt": "2026-06-06T18:08:16Z",
-    "pr_mergedBy": "acassis",
-    "pr_milestone": null,
-    "pr_number": 19048,
-    "pr_state": "MERGED",
-    "pr_title": "boards/sim/sim/sim/nsh: enable CONFIG_RTC for host time sync",
-    "pr_updatedAt": "2026-06-06T23:02:02Z",
-    "pr_url": "https://github.com/apache/nuttx/pull/19048"
-  },
-  {
-    "build_arch": "sim",
-    "build_board": "sim",
-    "build_config": "lua",
-    "build_group": "sim-02",
-    "build_msg": "Dloa d   %U Tpoltoaal d      %T Roetcaeliv e d  S%p eXfnetr d    A vLeerftage Speed   Time    Time     Time  Current",
-    "build_score": 0.8,
-    "build_subarch": "sim",
-    "build_timestamp": "2026-06-05T13:51:23",
-    "build_url": "https://github.com/apache/nuttx/actions/runs/27018099321/job/79738731620#step:10:424",
-    "build_version": "3",
-    "job_conclusion": "cancelled",
-    "job_createdAt": "2026-06-05T13:36:27Z",
-    "job_databaseId": 27018099321,
-    "job_displayTitle": "video/fb: Trigger updatearea() if CONFIG_FB_UPDATE is defined",
-    "job_event": "pull_request",
-    "job_headBranch": "framebuffer-splash-update",
-    "job_headSha": "9e2d2bb08cd472a10821cf619fc52f61b81a70e5",
-    "job_name": "Build",
-    "job_number": 55064,
-    "job_run_duration_ms": "1517000",
-    "job_startedAt": "2026-06-05T13:36:27Z",
-    "job_status": "completed",
-    "job_updatedAt": "2026-06-05T14:01:44Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/27018099321",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
     "pr_additions": 29,
