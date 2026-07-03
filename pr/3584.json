@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 304,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T13:01:42Z",
   "createdAt": "2026-07-03T08:11:44Z",
   "deletions": 1,
   "files": [
@@ -550,15 +550,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5bf9b4ea9ac9facafa0ca10f3f95f0098a17db77"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T13:01:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3584,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-3573}  games/NXDoom: Initial port of Chocolate DOOM to NuttX.",
-  "updatedAt": "2026-07-03T08:15:52Z",
+  "updatedAt": "2026-07-03T13:01:42Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3584"
 }
