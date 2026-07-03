@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-03T05:51:12Z",
   "createdAt": "2026-06-23T11:27:52Z",
   "deletions": 16,
   "files": [
@@ -69,15 +69,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "85337c0efc216a5304b35d2880438d86d443bdf6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-03T05:51:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
   "milestone": null,
   "number": 19198,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "mm,boards/arm/qemu: Fix KASAN user-space false positives, global region link error, and linker script section placement.",
-  "updatedAt": "2026-07-03T02:39:12Z",
+  "updatedAt": "2026-07-03T05:51:12Z",
   "url": "https://github.com/apache/nuttx/pull/19198"
 }
