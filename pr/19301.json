@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-04T20:21:40Z",
   "createdAt": "2026-07-04T15:52:48Z",
   "deletions": 17,
   "files": [
@@ -89,15 +89,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "74f820679d8c34da8e9931e7912bb2309217fe24"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-04T20:21:40Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19301,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19298} boards/risc-v/bl602: disable CONFIG_ENABLE_ALL_SIGNALS=y",
-  "updatedAt": "2026-07-04T19:30:43Z",
+  "updatedAt": "2026-07-04T20:21:40Z",
   "url": "https://github.com/apache/nuttx/pull/19301"
 }
