@@ -1,0 +1,570 @@
+{
+  "additions": 1607,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 134,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-04T08:51:27Z",
+  "deletions": 2763,
+  "files": [
+    {
+      "path": "Documentation/guides/stm32_ports.rst",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_adc_m0_v1.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_adc_m3m4_v1v2.h",
+      "additions": 37,
+      "deletions": 37
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_capture_m3m4_v1.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_dac_m3m4_v1.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pulsecount_m0_v1.c",
+      "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pulsecount_m3m4_v1v2v3.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pwm_m0_v1.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_pwm_m3m4_v1v2v3.c",
+      "additions": 29,
+      "deletions": 29
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_sdadc_m3m4_v1.h",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_m0_v1.c",
+      "additions": 18,
+      "deletions": 18
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_tim_m3m4_v1v2v3.c",
+      "additions": 17,
+      "deletions": 17
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_adc.h",
+      "additions": 20,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_pulsecount.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_pwm.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_tim.c",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_adc.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pulsecount.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_pwm.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_tim.c",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_adc.h",
+      "additions": 21,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_capture.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_pulsecount.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_pwm.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_tim.c",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_adc.h",
+      "additions": 21,
+      "deletions": 21
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dac.c",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_dfsdm.h",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_lptim.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pulsecount.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_pwm.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_tim.c",
+      "additions": 33,
+      "deletions": 33
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l5_tim.c",
+      "additions": 22,
+      "deletions": 22
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_tim.c",
+      "additions": 22,
+      "deletions": 22
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_tim.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/stm32wl5_tim.c",
+      "additions": 22,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32c0/nucleo-c071rb/include/board.h",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/stm32c0/nucleo-c092rc/include/board.h",
+      "additions": 7,
+      "deletions": 7
+    },
+    {
+      "path": "boards/arm/stm32f0/nucleo-f072rb/include/board.h",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32f0/nucleo-f091rc/include/board.h",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32f0/stm32f051-discovery/include/board.h",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32f0/stm32f072-discovery/include/board.h",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "boards/arm/stm32f1/cloudctrl/include/board.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32f1/et-stm32-stamp/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/fire-stm32v2/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/hymini-stm32v/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/maple/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/nucleo-f103rb/include/board.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32f1/olimex-stm32-p107/include/board.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32f1/olimexino-stm32/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/shenzhou/include/board.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32f1/stm3210e-eval/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/stm32_tiny/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/stm32butterfly2/include/board.h",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32f1/stm32f103-minimum/include/board.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/stm32vldiscovery/include/board.h",
+      "additions": 14,
+      "deletions": 21
+    },
+    {
+      "path": "boards/arm/stm32f1/viewtool-stm32f107/include/board-stm32f103vct6.h",
+      "additions": 8,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f1/viewtool-stm32f107/include/board-stm32f107vct6.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32f1/viewtool-stm32f107/src/stm32_highpri.c",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/stm32f2/nucleo-f207zg/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f2/olimex-stm32-p207/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f2/photon/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f2/stm3220g-eval/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f3/nucleo-f302r8/include/board.h",
+      "additions": 11,
+      "deletions": 26
+    },
+    {
+      "path": "boards/arm/stm32f3/nucleo-f303re/include/board.h",
+      "additions": 11,
+      "deletions": 26
+    },
+    {
+      "path": "boards/arm/stm32f3/nucleo-f303ze/include/board.h",
+      "additions": 11,
+      "deletions": 26
+    },
+    {
+      "path": "boards/arm/stm32f3/nucleo-f334r8/include/board.h",
+      "additions": 11,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f3/nucleo-f334r8/src/stm32_spwm.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32f3/stm32f334-disco/include/board.h",
+      "additions": 11,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f3/stm32f3discovery/include/board.h",
+      "additions": 11,
+      "deletions": 26
+    },
+    {
+      "path": "boards/arm/stm32f4/clicker2-stm32/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/mikroe-stm32f4/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/nucleo-f401re/include/board.h",
+      "additions": 14,
+      "deletions": 34
+    },
+    {
+      "path": "boards/arm/stm32f4/nucleo-f410rb/include/board.h",
+      "additions": 5,
+      "deletions": 22
+    },
+    {
+      "path": "boards/arm/stm32f4/nucleo-f411re/include/board.h",
+      "additions": 14,
+      "deletions": 34
+    },
+    {
+      "path": "boards/arm/stm32f4/nucleo-f412zg/include/board.h",
+      "additions": 14,
+      "deletions": 25
+    },
+    {
+      "path": "boards/arm/stm32f4/nucleo-f429zi/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/nucleo-f446re/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/odrive36/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/olimex-stm32-e407/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/olimex-stm32-h405/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/olimex-stm32-h407/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/olimex-stm32-p407/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/omnibusf4/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/stm3240g-eval/include/board.h",
+      "additions": 14,
+      "deletions": 35
+    },
+    {
+      "path": "boards/arm/stm32f4/stm32f401rc-rs485/include/board.h",
+      "additions": 14,
+      "deletions": 34
+    },
+    {
+      "path": "boards/arm/stm32f4/stm32f411-minimum/include/board.h",
+      "additions": 14,
+      "deletions": 32
+    },
+    {
+      "path": "boards/arm/stm32f4/stm32f411e-disco/include/board.h",
+      "additions": 14,
+      "deletions": 32
+    },
+    {
+      "path": "boards/arm/stm32f4/stm32f429i-disco/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f4/stm32f4discovery/include/board.h",
+      "additions": 14,
+      "deletions": 28
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f722ze/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f746zg/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f7/nucleo-f767zi/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f7/steval-eth001v1/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746-ws/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f746g-disco/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f769i-disco/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32f7/stm32f777zit6-meadow/include/board.h",
+      "additions": 14,
+      "deletions": 14
+    },
+    {
+      "path": "boards/arm/stm32g0/nucleo-g070rb/include/board.h",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32g4/b-g431b-esc1/include/board.h",
+      "additions": 12,
+      "deletions": 29
+    }
+  ],
+  "headRefName": "stm32_refactor_all_clkin",
+  "headRefOid": "564f4ff1fcaf4ab34e25b5a687e40da8728fe61b",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7t01UL",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19297,
+  "state": "OPEN",
+  "title": "!arch/arm/src/stm32: unify the timer input clock board options",
+  "updatedAt": "2026-07-04T09:01:48Z",
+  "url": "https://github.com/apache/nuttx/pull/19297"
+}
