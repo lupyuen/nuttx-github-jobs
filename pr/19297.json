@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 134,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-04T19:31:30Z",
   "createdAt": "2026-07-04T08:51:27Z",
   "deletions": 2763,
   "files": [
@@ -556,15 +556,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e9ac37e4272493d4d2e775d819b6bd9df2e90506"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-04T19:31:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19297,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!arch/arm/src/stm32: unify the timer input clock board options",
-  "updatedAt": "2026-07-04T12:30:26Z",
+  "updatedAt": "2026-07-04T19:31:30Z",
   "url": "https://github.com/apache/nuttx/pull/19297"
 }
