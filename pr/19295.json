@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 53,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-04T10:47:46Z",
   "createdAt": "2026-07-04T06:57:59Z",
   "deletions": 798,
   "files": [
@@ -315,15 +315,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "09e4bb45e4bf1f7cde40323d950059f4b7af7d22"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-04T10:47:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19295,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!arch/stm32: unify and commonize stm32_uid for all STM32 families.",
-  "updatedAt": "2026-07-04T08:44:21Z",
+  "updatedAt": "2026-07-04T10:47:46Z",
   "url": "https://github.com/apache/nuttx/pull/19295"
 }
