@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-04T06:15:18Z",
   "createdAt": "2026-07-03T22:10:03Z",
   "deletions": 1,
   "files": [
@@ -73,15 +73,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fb428899dc944e577acb4b44232fe6f312ebf5ed"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-04T06:15:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19294,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "crypto: Support SHA2_224_HMAC",
-  "updatedAt": "2026-07-04T02:25:58Z",
+  "updatedAt": "2026-07-04T06:15:18Z",
   "url": "https://github.com/apache/nuttx/pull/19294"
 }
