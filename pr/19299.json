@@ -9,46 +9,51 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
-  "changedFiles": 8,
-  "closed": false,
-  "closedAt": null,
+  "changedFiles": 9,
+  "closed": true,
+  "closedAt": "2026-07-04T13:12:29Z",
   "createdAt": "2026-07-04T12:10:26Z",
-  "deletions": 8,
+  "deletions": 16,
   "files": [
+    {
+      "path": "boards/risc-v/bl602/bl602evb/configs/dma/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/elf/defconfig",
       "additions": 0,
-      "deletions": 1
+      "deletions": 2
     },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/fpu/defconfig",
       "additions": 0,
-      "deletions": 1
+      "deletions": 2
     },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/gpio/defconfig",
       "additions": 0,
-      "deletions": 1
+      "deletions": 2
     },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/i2c/defconfig",
       "additions": 0,
-      "deletions": 1
+      "deletions": 2
     },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/nsh/defconfig",
       "additions": 0,
-      "deletions": 1
+      "deletions": 2
     },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/spi/defconfig",
       "additions": 0,
-      "deletions": 1
+      "deletions": 2
     },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/spiflash/defconfig",
       "additions": 0,
-      "deletions": 1
+      "deletions": 2
     },
     {
       "path": "boards/risc-v/bl602/bl602evb/configs/timer/defconfig",
@@ -57,7 +62,7 @@
     }
   ],
   "headRefName": "bp-19298",
-  "headRefOid": "53d4c1326f0a2eb9df18589fdef04f675e0ac7d9",
+  "headRefOid": "2e55c827f60230438f1ce1374f1626724ec672e2",
   "headRepository": {
     "id": "R_kgDOLUiNjg",
     "name": "nuttx",
@@ -72,10 +77,10 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
-      "name": "Size: XS",
-      "description": "The size of the change in this PR is very small",
-      "color": "0E8A16"
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8L77A",
@@ -91,8 +96,8 @@
   "mergedBy": null,
   "milestone": null,
   "number": 19299,
-  "state": "OPEN",
+  "state": "CLOSED",
   "title": "{bp-19298} boards/risv-v/bl602: disable CONFIG_ENABLE_ALL_SIGNALS=y",
-  "updatedAt": "2026-07-04T12:10:48Z",
+  "updatedAt": "2026-07-04T13:12:30Z",
   "url": "https://github.com/apache/nuttx/pull/19299"
 }

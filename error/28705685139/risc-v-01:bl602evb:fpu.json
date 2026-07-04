@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-04T12:17:22",
+"arch": "risc-v",
+"subarch": "bl602",
+"group": "risc-v-01",
+"board": "bl602evb",
+"config": "fpu",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28705685139/job/85130945301#step:10:366",
+"msg": "riscv-none-elf-ld: /github/workspace/sources/nuttx/staging/libapps.a(timer_main.c.github.workspace.sources.apps.examples.timer_1.o): in function `timer_main': \n /github/workspace/sources/apps/examples/timer/timer_main.c:209:(.text.timer_main+0x1c2): undefined reference to `sigaction' \n riscv-none-elf-ld: /github/workspace/sources/apps/examples/timer/timer_main.c:278:(.text.timer_main+0x30e): undefined reference to `sigaction' \n make[1]: *** [Makefile:195: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: n"
+}
