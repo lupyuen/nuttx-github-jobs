@@ -1,0 +1,329 @@
+{
+  "additions": 33,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 53,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-04T12:12:36Z",
+  "deletions": 798,
+  "files": [
+    {
+      "path": "arch/arm/src/common/stm32/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/common/stm32/Kconfig.have",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/common/stm32/Make.defs",
+      "additions": 1,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_uid.c",
+      "additions": 3,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_uid.h",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_uid_m0_v1.c",
+      "additions": 0,
+      "deletions": 47
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_uid_m3m4_v1v2.c",
+      "additions": 0,
+      "deletions": 62
+    },
+    {
+      "path": "arch/arm/src/stm32c0/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f0/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f1/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f2/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f3/Kconfig",
+      "additions": 0,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/stm32f4/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32f7/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_uid.h",
+      "additions": 0,
+      "deletions": 52
+    },
+    {
+      "path": "arch/arm/src/stm32g0/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32g4/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h5/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_uid.c",
+      "additions": 0,
+      "deletions": 66
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_uid.h",
+      "additions": 0,
+      "deletions": 53
+    },
+    {
+      "path": "arch/arm/src/stm32h7/CMakeLists.txt",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32h7/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_uid.c",
+      "additions": 0,
+      "deletions": 64
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_uid.h",
+      "additions": 0,
+      "deletions": 53
+    },
+    {
+      "path": "arch/arm/src/stm32l0/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l1/Kconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_uid.c",
+      "additions": 0,
+      "deletions": 63
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_uid.h",
+      "additions": 0,
+      "deletions": 53
+    },
+    {
+      "path": "arch/arm/src/stm32l5/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l5/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l5_uid.h",
+      "additions": 0,
+      "deletions": 38
+    },
+    {
+      "path": "arch/arm/src/stm32u5/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32u5/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_uid.c",
+      "additions": 0,
+      "deletions": 48
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_uid.h",
+      "additions": 0,
+      "deletions": 38
+    },
+    {
+      "path": "arch/arm/src/stm32wb/CMakeLists.txt",
+      "additions": 1,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/stm32wb/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_uid.h",
+      "additions": 0,
+      "deletions": 38
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/Make.defs",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/stm32wl5_uid.h",
+      "additions": 0,
+      "deletions": 53
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l432kc/src/stm32_uid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l476rg/src/stm32_uid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/nucleo-l496zg/src/stm32_uid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476-mdk/src/stm32_boot.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/src/stm32_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l476vg-disco/src/stm32_uid.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/src/stm32_bringup.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32l4/stm32l4r9ai-disco/src/stm32_uid.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bp-19295",
+  "headRefOid": "a730f592c626d432ab9fae0251a38a1c9df2bfee",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7t2oGJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19300,
+  "state": "OPEN",
+  "title": "{bp-19295} !arch/stm32: unify and commonize stm32_uid for all STM32 families.",
+  "updatedAt": "2026-07-04T12:20:19Z",
+  "url": "https://github.com/apache/nuttx/pull/19300"
+}
