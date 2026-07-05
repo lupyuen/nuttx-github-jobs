@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-05T07:06:18Z",
   "createdAt": "2026-07-04T17:11:22Z",
   "deletions": 48,
   "files": [
@@ -74,15 +74,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4d5f60005c6d91c76e4a585fe3102aab50119ec6"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-05T07:06:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3586,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netutils/dropbear: add scp support via SSH exec requests",
-  "updatedAt": "2026-07-04T20:07:53Z",
+  "updatedAt": "2026-07-05T07:06:18Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3586"
 }

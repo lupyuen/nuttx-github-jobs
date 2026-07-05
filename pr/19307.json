@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-05T07:06:05Z",
   "createdAt": "2026-07-04T19:46:26Z",
   "deletions": 123,
   "files": [
@@ -137,15 +137,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "8b49e46b9ee7306a463107aad643c93d5b604309"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-05T07:06:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19307,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/audio/i2s: Fix unsigned integers in function signatures",
-  "updatedAt": "2026-07-04T20:05:32Z",
+  "updatedAt": "2026-07-05T07:06:05Z",
   "url": "https://github.com/apache/nuttx/pull/19307"
 }
