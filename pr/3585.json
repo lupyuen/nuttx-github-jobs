@@ -1,5 +1,5 @@
 {
-  "additions": 26,
+  "additions": 36,
   "assignees": [],
   "author": {
     "id": "U_kgDOEKvreg",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 5,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-03T14:10:35Z",
@@ -34,10 +34,15 @@
       "path": "crypto/wolfssl/Makefile",
       "additions": 1,
       "deletions": 1
+    },
+    {
+      "path": "system/nxinit/parser.c",
+      "additions": 10,
+      "deletions": 0
     }
   ],
   "headRefName": "fix/distclean-context-partial-build",
-  "headRefOid": "d6d4f3f3092a881363118e94b72f380fe70a40d9",
+  "headRefOid": "1f90ced82d2fea2e8e5c3ee317db9c7aa3f74061",
   "headRepository": {
     "id": "R_kgDOSiiEKw",
     "name": "nuttx-apps",
@@ -49,7 +54,7 @@
     "login": "Zepp-Hanzj"
   },
   "id": "PR_kwDODZiT487tnneY",
-  "isDraft": true,
+  "isDraft": false,
   "labels": [
     {
       "id": "LA_kwDODZiT488AAAABvo6WdQ",
@@ -72,7 +77,7 @@
   "milestone": null,
   "number": 3585,
   "state": "OPEN",
-  "title": "build: introduce .context marker for distclean after partial builds",
-  "updatedAt": "2026-07-05T01:33:50Z",
+  "title": "apps: fix distclean for partial builds and residual .kconfig files",
+  "updatedAt": "2026-07-05T03:54:47Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3585"
 }
