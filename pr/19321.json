@@ -1,0 +1,103 @@
+{
+  "additions": 449,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOCkF4eA",
+    "is_bot": false,
+    "login": "Abhishekmishra2808",
+    "name": "Abhishek Mishra"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-05T20:17:39Z",
+  "deletions": 135,
+  "files": [
+    {
+      "path": "Documentation/components/tools/index.rst",
+      "additions": 48,
+      "deletions": 78
+    },
+    {
+      "path": "Makefile",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/Board.mk",
+      "additions": 4,
+      "deletions": 7
+    },
+    {
+      "path": "boards/Kconfig",
+      "additions": 45,
+      "deletions": 18
+    },
+    {
+      "path": "cmake/nuttx_add_romfs.cmake",
+      "additions": 85,
+      "deletions": 19
+    },
+    {
+      "path": "tools/check_passwd_keys.sh",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "tools/gen_passwd_keys.sh",
+      "additions": 89,
+      "deletions": 0
+    },
+    {
+      "path": "tools/mkpasswd.c",
+      "additions": 21,
+      "deletions": 13
+    },
+    {
+      "path": "tools/passwd_keys.mk",
+      "additions": 74,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "hardcode-password-remove",
+  "headRefOid": "4039d385e7c2ce817bdee61b69480e4bf4d8f643",
+  "headRepository": {
+    "id": "R_kgDOSbd_bQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOCkF4eA",
+    "name": "Abhishek Mishra",
+    "login": "Abhishekmishra2808"
+  },
+  "id": "PR_kwDODZiUac7uGnvP",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_bjg",
+      "name": "Size: L",
+      "description": "The size of the change in this PR is large",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19321,
+  "state": "OPEN",
+  "title": "!boards: enforce secure ROMFS passwd and TEA key setup",
+  "updatedAt": "2026-07-05T20:29:20Z",
+  "url": "https://github.com/apache/nuttx/pull/19321"
+}
