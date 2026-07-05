@@ -1,5 +1,5 @@
 {
-  "additions": 24,
+  "additions": 26,
   "assignees": [],
   "author": {
     "id": "U_kgDOEKvreg",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 4,
+  "changedFiles": 6,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-03T14:10:35Z",
-  "deletions": 13,
+  "deletions": 15,
   "files": [
     {
       "path": "Application.mk",
@@ -34,10 +34,20 @@
       "path": "crypto/wolfssl/Makefile",
       "additions": 1,
       "deletions": 1
+    },
+    {
+      "path": "netutils/libshvc/Makefile",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "netutils/libulut/Makefile",
+      "additions": 1,
+      "deletions": 1
     }
   ],
   "headRefName": "fix/distclean-context-partial-build",
-  "headRefOid": "06e44e7935f2b391fb18b4139aad4b91e291cea5",
+  "headRefOid": "29ca83b52ee8989b0424f25c4852434b01dcc76d",
   "headRepository": {
     "id": "R_kgDOSiiEKw",
     "name": "nuttx-apps",
@@ -73,6 +83,6 @@
   "number": 3585,
   "state": "OPEN",
   "title": "apps: fix distclean for partial builds and residual .kconfig files",
-  "updatedAt": "2026-07-05T07:26:08Z",
+  "updatedAt": "2026-07-05T10:45:43Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3585"
 }
