@@ -1,5 +1,5 @@
 {
-  "additions": 1,
+  "additions": 37,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjE0Mjk4ODU0",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-04T17:24:16Z",
   "deletions": 0,
   "files": [
+    {
+      "path": "Documentation/applications/netutils/dropbear/index.rst",
+      "additions": 36,
+      "deletions": 0
+    },
     {
       "path": "boards/risc-v/esp32c3/esp32c3-devkit/configs/dropbear/defconfig",
       "additions": 1,
@@ -22,7 +27,7 @@
     }
   ],
   "headRefName": "feature/dropbear-add-scp",
-  "headRefOid": "75448f6fa0a97fff9f4753955879e9a179723423",
+  "headRefOid": "9a1e74df0f77ee9884723f60c51d7b68421e37de",
   "headRepository": {
     "id": "R_kgDOMkAVTQ",
     "name": "nuttx",
@@ -37,10 +42,16 @@
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
-      "name": "Size: XS",
-      "description": "The size of the change in this PR is very small",
-      "color": "0E8A16"
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
     },
     {
       "id": "LA_kwDODZiUac8AAAABw8L77A",
@@ -50,14 +61,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19303,
   "state": "OPEN",
   "title": "boards/esp32c3-devkit: add Dropbear SCP server support",
-  "updatedAt": "2026-07-04T20:30:19Z",
+  "updatedAt": "2026-07-05T14:11:21Z",
   "url": "https://github.com/apache/nuttx/pull/19303"
 }
