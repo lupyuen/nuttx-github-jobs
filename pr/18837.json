@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 53,
+  "changedFiles": 57,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-02T19:44:08Z",
-  "deletions": 778,
+  "deletions": 790,
   "files": [
     {
       "path": "arch/arm/src/cxd32xx/cxd32_serial_pl011.c",
@@ -81,6 +81,16 @@
       "deletions": 13
     },
     {
+      "path": "boards/arm/mps/mps3-an547/configs/ap/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/mps/mps3-an547/configs/bl/defconfig",
+      "additions": 0,
+      "deletions": 1
+    },
+    {
       "path": "boards/arm/qemu/qemu-armv7a/configs/full/defconfig",
       "additions": 1,
       "deletions": 5
@@ -118,6 +128,16 @@
     {
       "path": "boards/arm/qemu/qemu-armv7a/configs/smp/defconfig",
       "additions": 1,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7r/configs/nsh/defconfig",
+      "additions": 0,
+      "deletions": 5
+    },
+    {
+      "path": "boards/arm/qemu/qemu-armv7r/configs/pnsh/defconfig",
+      "additions": 0,
       "deletions": 5
     },
     {
@@ -282,7 +302,7 @@
     }
   ],
   "headRefName": "pl011-uart",
-  "headRefOid": "e86d05c40a421d4dce097f9ce00360f83182c7c7",
+  "headRefOid": "89c1729dbf5f20b9f3bfcf69a451599a643b88f2",
   "headRepository": {
     "id": "R_kgDOMTJh2w",
     "name": "nuttx",
@@ -342,6 +362,6 @@
   "number": 18837,
   "state": "OPEN",
   "title": "drivers/serial: Refactor PL011 to be general-purpose",
-  "updatedAt": "2026-07-06T17:45:20Z",
+  "updatedAt": "2026-07-06T21:45:38Z",
   "url": "https://github.com/apache/nuttx/pull/18837"
 }

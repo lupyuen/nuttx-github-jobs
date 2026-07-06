@@ -1,0 +1,125 @@
+{
+  "additions": 217,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "is_bot": false,
+    "login": "JorgeGzm",
+    "name": "Jorge Guzman"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-06T21:39:38Z",
+  "deletions": 24,
+  "files": [
+    {
+      "path": "Documentation/applications/examples/lvglterm/index.rst",
+      "additions": 40,
+      "deletions": 18
+    },
+    {
+      "path": "Documentation/applications/examples/lvglterm/lvglterm-usb.png",
+      "additions": 0,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/arm/stm32h7/boards/linum-stm32h753bi/index.rst",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "Documentation/platforms/xtensa/esp32s3/boards/esp32s3-m5-cardputer/index.rst",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/lvglterm_kbda/defconfig",
+      "additions": 93,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/include/board.h",
+      "additions": 13,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/linum-stm32h753bi.h",
+      "additions": 18,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_boot.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_bringup.c",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_usb.c",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/configs/lvglterm/defconfig",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "feature/lvglterm-usb-hid-keyboard",
+  "headRefOid": "18a37db7b06d662a686f9680e04e0b415840bf35",
+  "headRepository": {
+    "id": "R_kgDOKmt3PQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjEyMzk4Mzky",
+    "name": "Jorge Guzman",
+    "login": "JorgeGzm"
+  },
+  "id": "PR_kwDODZiUac7ujmrM",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19356,
+  "state": "OPEN",
+  "title": "boards/stm32h7/linum-stm32h753bi: enable USB FS host, add lvglterm_kbda",
+  "updatedAt": "2026-07-06T21:45:43Z",
+  "url": "https://github.com/apache/nuttx/pull/19356"
+}
