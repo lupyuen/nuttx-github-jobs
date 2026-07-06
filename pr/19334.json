@@ -8,8 +8,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T17:15:20Z",
   "createdAt": "2026-07-06T02:52:44Z",
   "deletions": 1,
   "files": [
@@ -46,15 +46,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5b27a76e0171c40ccafc4b43293501ec8efa0c10"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T17:15:20Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19334,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "build(deps): bump docker/build-push-action from 7.2.0 to 7.3.0",
-  "updatedAt": "2026-07-06T03:47:55Z",
+  "updatedAt": "2026-07-06T17:15:23Z",
   "url": "https://github.com/apache/nuttx/pull/19334"
 }
