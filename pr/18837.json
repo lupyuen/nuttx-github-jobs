@@ -1,5 +1,5 @@
 {
-  "additions": 940,
+  "additions": 950,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjYyODUwMDkx",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 52,
+  "changedFiles": 53,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-05-02T19:44:08Z",
-  "deletions": 773,
+  "deletions": 778,
   "files": [
     {
       "path": "arch/arm/src/cxd32xx/cxd32_serial_pl011.c",
@@ -27,7 +27,7 @@
     },
     {
       "path": "arch/arm/src/fvp-v8r-aarch32/fvp_serial.c",
-      "additions": 202,
+      "additions": 203,
       "deletions": 4
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "path": "arch/arm/src/qemu/qemu_serial.c",
-      "additions": 119,
+      "additions": 120,
       "deletions": 5
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       "path": "arch/arm64/src/fvp-v8r/fvp_serial.c",
-      "additions": 204,
+      "additions": 205,
       "deletions": 2
     },
     {
@@ -72,8 +72,8 @@
     },
     {
       "path": "arch/arm64/src/qemu/qemu_serial.c",
-      "additions": 122,
-      "deletions": 3
+      "additions": 121,
+      "deletions": 5
     },
     {
       "path": "boards/arm/fvp-v8r-aarch32/fvp-armv8r-aarch32/configs/nsh/defconfig",
@@ -256,6 +256,11 @@
       "deletions": 5
     },
     {
+      "path": "boards/arm64/qemu/qemu-armv8a/scripts/dramboot.ld",
+      "additions": 7,
+      "deletions": 3
+    },
+    {
       "path": "drivers/serial/Kconfig",
       "additions": 0,
       "deletions": 4
@@ -267,7 +272,7 @@
     },
     {
       "path": "drivers/serial/uart_pl011.c",
-      "additions": 67,
+      "additions": 68,
       "deletions": 378
     },
     {
@@ -277,7 +282,7 @@
     }
   ],
   "headRefName": "pl011-uart",
-  "headRefOid": "0fd76d2a1c9a6f281138b4df2ba8dda736e72575",
+  "headRefOid": "c08a71c9d4083b551507e5c2c6ea9c1fc8b8aa37",
   "headRepository": {
     "id": "R_kgDOMTJh2w",
     "name": "nuttx",
@@ -337,6 +342,6 @@
   "number": 18837,
   "state": "OPEN",
   "title": "drivers/serial: Refactor PL011 to be general-purpose",
-  "updatedAt": "2026-07-06T10:38:41Z",
+  "updatedAt": "2026-07-06T16:21:59Z",
   "url": "https://github.com/apache/nuttx/pull/18837"
 }
