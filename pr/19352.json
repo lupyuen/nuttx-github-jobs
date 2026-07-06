@@ -1,5 +1,5 @@
 {
-  "additions": 43,
+  "additions": 56,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM2MDY0MDM0",
@@ -13,7 +13,7 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-06T09:12:35Z",
-  "deletions": 13,
+  "deletions": 14,
   "files": [
     {
       "path": "arch/arm/src/common/ameba/toolchain.mk",
@@ -22,8 +22,8 @@
     },
     {
       "path": "arch/arm/src/common/ameba/tools/ameba_fetch_toolchain.sh",
-      "additions": 12,
-      "deletions": 2
+      "additions": 25,
+      "deletions": 3
     },
     {
       "path": "arch/arm/src/rtl8720f/ameba_board.mk",
@@ -37,7 +37,7 @@
     }
   ],
   "headRefName": "ameba-build-fixes",
-  "headRefOid": "ba6ae600d826e428310114f28745e9e6e3d2f999",
+  "headRefOid": "3a06ddf949dedc056ed79d29b2e7278f108fe5e6",
   "headRepository": {
     "id": "R_kgDOTF0xDQ",
     "name": "nuttx",
@@ -72,6 +72,6 @@
   "number": 19352,
   "state": "OPEN",
   "title": "arch/arm/ameba: fix per-IC asdk toolchain selection and fwlib archive hygiene",
-  "updatedAt": "2026-07-06T10:04:42Z",
+  "updatedAt": "2026-07-06T10:23:04Z",
   "url": "https://github.com/apache/nuttx/pull/19352"
 }
