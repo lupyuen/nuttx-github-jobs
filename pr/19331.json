@@ -1,5 +1,5 @@
 {
-  "additions": 1,
+  "additions": 3,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM1NDE3NDA5",
@@ -9,41 +9,46 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 1,
+  "changedFiles": 2,
   "closed": false,
   "closedAt": null,
-  "createdAt": "2026-07-05T20:33:02Z",
-  "deletions": 1,
+  "createdAt": "2026-07-06T02:26:01Z",
+  "deletions": 3,
   "files": [
     {
-      "path": "testing/nettest/utils/nettest_tcpserver.c",
+      "path": "drivers/pci/pci_epc.c",
       "additions": 1,
       "deletions": 1
+    },
+    {
+      "path": "drivers/pci/pci_epf.c",
+      "additions": 2,
+      "deletions": 2
     }
   ],
-  "headRefName": "codex/nettest-tcpserver-terminator",
-  "headRefOid": "bbf8b91e5c6d982b6be11806bad4c502e46b25a6",
+  "headRefName": "codex/pci-endpoint-null-guards",
+  "headRefOid": "89e38258f24405e19a99fe7145db3ce01fd0d740",
   "headRepository": {
-    "id": "R_kgDOTOYj7g",
-    "name": "nuttx-apps",
+    "id": "R_kgDOTOXhiA",
+    "name": "nuttx",
     "nameWithOwner": ""
   },
   "headRepositoryOwner": {
     "id": "MDQ6VXNlcjM1NDE3NDA5",
     "login": "Old-Ding"
   },
-  "id": "PR_kwDODZiT487uGwCy",
+  "id": "PR_kwDODZiUac7uKG6L",
   "isDraft": false,
   "labels": [
     {
-      "id": "LA_kwDODZiT488AAAABvo6Uug",
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
       "name": "Size: XS",
-      "description": "",
+      "description": "The size of the change in this PR is very small",
       "color": "0E8A16"
     },
     {
-      "id": "LA_kwDODZiT488AAAABvo7V-A",
-      "name": "Area: Testing",
+      "id": "LA_kwDODZiUac8AAAABvorlqw",
+      "name": "Area: PCI",
       "description": "",
       "color": "0075ca"
     }
@@ -54,9 +59,9 @@
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
-  "number": 3599,
+  "number": 19331,
   "state": "OPEN",
-  "title": "testing: nettest: Fix TCP server terminator bounds",
-  "updatedAt": "2026-07-06T01:51:19Z",
-  "url": "https://github.com/apache/nuttx-apps/pull/3599"
+  "title": "drivers: pci: Fix endpoint null guard logic",
+  "updatedAt": "2026-07-06T02:32:20Z",
+  "url": "https://github.com/apache/nuttx/pull/19331"
 }
