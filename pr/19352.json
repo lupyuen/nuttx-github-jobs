@@ -1,0 +1,77 @@
+{
+  "additions": 43,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM2MDY0MDM0",
+    "is_bot": false,
+    "login": "raulcxw",
+    "name": "Raul Chen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 4,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-06T09:12:35Z",
+  "deletions": 13,
+  "files": [
+    {
+      "path": "arch/arm/src/common/ameba/toolchain.mk",
+      "additions": 13,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_fetch_toolchain.sh",
+      "additions": 12,
+      "deletions": 2
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_board.mk",
+      "additions": 9,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_board.mk",
+      "additions": 9,
+      "deletions": 5
+    }
+  ],
+  "headRefName": "ameba-build-fixes",
+  "headRefOid": "ba6ae600d826e428310114f28745e9e6e3d2f999",
+  "headRepository": {
+    "id": "R_kgDOTF0xDQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "O_kgDOCf-xhQ",
+    "login": "Ameba-AIoT"
+  },
+  "id": "PR_kwDODZiUac7uRJQC",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19352,
+  "state": "OPEN",
+  "title": "arch/arm/ameba: fix per-IC asdk toolchain selection and fwlib archive hygiene",
+  "updatedAt": "2026-07-06T10:04:42Z",
+  "url": "https://github.com/apache/nuttx/pull/19352"
+}
