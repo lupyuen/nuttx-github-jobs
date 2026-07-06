@@ -1,0 +1,151 @@
+{
+  "additions": 123,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "releases/13.0",
+  "changedFiles": 15,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-06T05:33:40Z",
+  "deletions": 123,
+  "files": [
+    {
+      "path": "arch/arm/src/common/stm32/stm32_i2s_m3m4_v1.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/lc823450/lc823450_i2s.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/rp2040/rp2040_i2s.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/rp23xx/rp23xx_i2s.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_ssc.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/samv7/sam_ssc.c",
+      "additions": 9,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_i2s.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_sai.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_sai.c",
+      "additions": 4,
+      "deletions": 4
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_i2s.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/risc-v/src/rp23xx-rv/rp23xx_i2s.c",
+      "additions": 5,
+      "deletions": 5
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_i2s.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_i2s.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "arch/xtensa/src/esp32s2/esp32s2_i2s.c",
+      "additions": 12,
+      "deletions": 12
+    },
+    {
+      "path": "include/nuttx/audio/i2s.h",
+      "additions": 13,
+      "deletions": 13
+    }
+  ],
+  "headRefName": "bp-19307",
+  "headRefOid": "14e56e33fcd77f78772151e65a8636e0e02bad44",
+  "headRepository": {
+    "id": "R_kgDOLUiNjg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "name": "Alin Jerpelea",
+    "login": "jerpelea"
+  },
+  "id": "PR_kwDODZiUac7uMoza",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "UNSTABLE",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19340,
+  "state": "OPEN",
+  "title": "{bp-19307} drivers/audio/i2s: Fix unsigned integers in function signatures",
+  "updatedAt": "2026-07-06T05:34:02Z",
+  "url": "https://github.com/apache/nuttx/pull/19340"
+}
