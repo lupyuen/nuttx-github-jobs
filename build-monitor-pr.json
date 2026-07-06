@@ -1,23 +1,70 @@
 [
   {
-    "build_count": 2,
+    "build_count": 1,
     "job_conclusion": "",
-    "job_createdAt": "2026-07-06T09:24:15Z",
-    "job_databaseId": 28781421820,
+    "job_createdAt": "2026-07-06T10:58:53Z",
+    "job_databaseId": 28786626337,
+    "job_displayTitle": "arch/arm/ameba: WiFi netdev lower-half, TCP SACK and boot auto-connect",
+    "job_event": "pull_request",
+    "job_headBranch": "ameba-wifi-lowerhalf-autoconnect",
+    "job_headSha": "e6d5e89bbc7445333ac3de44615364a97f9e23b5",
+    "job_name": "Build",
+    "job_number": 55693,
+    "job_run_duration_ms": "null",
+    "job_startedAt": "2026-07-06T10:58:53Z",
+    "job_status": "in_progress",
+    "job_updatedAt": "2026-07-06T11:36:23Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/28786626337",
+    "job_workflowDatabaseId": 908549,
+    "job_workflowName": "Build",
+    "pr_additions": 218,
+    "pr_assignees": [],
+    "pr_author": "raulcxw",
+    "pr_autoMergeRequest": null,
+    "pr_baseRefName": "master",
+    "pr_changedFiles": 6,
+    "pr_closed": false,
+    "pr_closedAt": null,
+    "pr_createdAt": "2026-07-06T10:58:48Z",
+    "pr_deletions": 354,
+    "pr_headRefName": "ameba-wifi-lowerhalf-autoconnect",
+    "pr_headRefOid": "e6d5e89bbc7445333ac3de44615364a97f9e23b5",
+    "pr_headRepository": "nuttx",
+    "pr_headRepositoryOwner": "Ameba-AIoT",
+    "pr_id": "PR_kwDODZiUac7uTxLB",
+    "pr_isDraft": false,
+    "pr_labels": "Arch: arm, Size: L, Board: arm",
+    "pr_mergeCommit": "",
+    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeable": "MERGEABLE",
+    "pr_mergedAt": null,
+    "pr_mergedBy": "",
+    "pr_milestone": null,
+    "pr_number": 19353,
+    "pr_state": "OPEN",
+    "pr_title": "arch/arm/ameba: WiFi netdev lower-half, TCP SACK and boot auto-connect",
+    "pr_updatedAt": "2026-07-06T11:04:55Z",
+    "pr_url": "https://github.com/apache/nuttx/pull/19353"
+  },
+  {
+    "build_count": 3,
+    "job_conclusion": "",
+    "job_createdAt": "2026-07-06T10:15:35Z",
+    "job_databaseId": 28784323789,
     "job_displayTitle": "arch/arm/ameba: fix per-IC asdk toolchain selection and fwlib archive hygiene",
     "job_event": "pull_request",
     "job_headBranch": "ameba-build-fixes",
-    "job_headSha": "ba6ae600d826e428310114f28745e9e6e3d2f999",
+    "job_headSha": "3a06ddf949dedc056ed79d29b2e7278f108fe5e6",
     "job_name": "Build",
-    "job_number": 55691,
+    "job_number": 55692,
     "job_run_duration_ms": "null",
-    "job_startedAt": "2026-07-06T09:24:15Z",
-    "job_status": "queued",
-    "job_updatedAt": "2026-07-06T09:53:47Z",
-    "job_url": "https://github.com/apache/nuttx/actions/runs/28781421820",
+    "job_startedAt": "2026-07-06T10:15:35Z",
+    "job_status": "in_progress",
+    "job_updatedAt": "2026-07-06T10:56:00Z",
+    "job_url": "https://github.com/apache/nuttx/actions/runs/28784323789",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
-    "pr_additions": 43,
+    "pr_additions": 56,
     "pr_assignees": [],
     "pr_author": "raulcxw",
     "pr_autoMergeRequest": null,
@@ -26,9 +73,9 @@
     "pr_closed": false,
     "pr_closedAt": null,
     "pr_createdAt": "2026-07-06T09:12:35Z",
-    "pr_deletions": 13,
+    "pr_deletions": 14,
     "pr_headRefName": "ameba-build-fixes",
-    "pr_headRefOid": "ba6ae600d826e428310114f28745e9e6e3d2f999",
+    "pr_headRefOid": "3a06ddf949dedc056ed79d29b2e7278f108fe5e6",
     "pr_headRepository": "nuttx",
     "pr_headRepositoryOwner": "Ameba-AIoT",
     "pr_id": "PR_kwDODZiUac7uRJQC",
@@ -43,7 +90,7 @@
     "pr_number": 19352,
     "pr_state": "OPEN",
     "pr_title": "arch/arm/ameba: fix per-IC asdk toolchain selection and fwlib archive hygiene",
-    "pr_updatedAt": "2026-07-06T10:04:42Z",
+    "pr_updatedAt": "2026-07-06T10:23:04Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19352"
   },
   {
@@ -59,8 +106,8 @@
     "job_number": 9837,
     "job_run_duration_ms": "null",
     "job_startedAt": "2026-07-06T08:06:33Z",
-    "job_status": "queued",
-    "job_updatedAt": "2026-07-06T08:14:30Z",
+    "job_status": "in_progress",
+    "job_updatedAt": "2026-07-06T10:39:08Z",
     "job_url": "https://github.com/apache/nuttx-apps/actions/runs/28777079354",
     "job_workflowDatabaseId": 908566,
     "job_workflowName": "Build",
@@ -231,7 +278,7 @@
     "pr_number": 19255,
     "pr_state": "OPEN",
     "pr_title": "arch/arm/rp23xx: add on-chip flash LittleFS (MTD) support",
-    "pr_updatedAt": "2026-07-06T06:59:56Z",
+    "pr_updatedAt": "2026-07-06T10:11:05Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19255"
   },
   {
@@ -278,12 +325,12 @@
     "pr_number": 3613,
     "pr_state": "OPEN",
     "pr_title": "{bp-3587} canutils/lely: add dependencies for Kconfig options",
-    "pr_updatedAt": "2026-07-06T09:08:57Z",
+    "pr_updatedAt": "2026-07-06T10:33:42Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3613"
   },
   {
     "build_count": 1,
-    "job_conclusion": "",
+    "job_conclusion": "success",
     "job_createdAt": "2026-07-06T06:21:07Z",
     "job_databaseId": 28772040604,
     "job_displayTitle": "{bp-19316} drivers: 1wire: Fix DS2XXX device type bounds",
@@ -294,8 +341,8 @@
     "job_number": 55683,
     "job_run_duration_ms": "13772000",
     "job_startedAt": "2026-07-06T06:21:07Z",
-    "job_status": "in_progress",
-    "job_updatedAt": "2026-07-06T10:06:34Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-07-06T10:10:39Z",
     "job_url": "https://github.com/apache/nuttx/actions/runs/28772040604",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
@@ -317,7 +364,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: Drivers, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNSTABLE",
+    "pr_mergeStateStatus": "CLEAN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -325,12 +372,12 @@
     "pr_number": 19350,
     "pr_state": "OPEN",
     "pr_title": "{bp-19316} drivers: 1wire: Fix DS2XXX device type bounds",
-    "pr_updatedAt": "2026-07-06T09:10:26Z",
+    "pr_updatedAt": "2026-07-06T10:33:52Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19350"
   },
   {
     "build_count": 1,
-    "job_conclusion": "",
+    "job_conclusion": "success",
     "job_createdAt": "2026-07-06T06:18:35Z",
     "job_databaseId": 28771920091,
     "job_displayTitle": "{bp-19329} libc/stream: Check lowout bounds before access",
@@ -341,8 +388,8 @@
     "job_number": 55682,
     "job_run_duration_ms": "13957000",
     "job_startedAt": "2026-07-06T06:18:35Z",
-    "job_status": "in_progress",
-    "job_updatedAt": "2026-07-06T10:07:14Z",
+    "job_status": "completed",
+    "job_updatedAt": "2026-07-06T10:11:12Z",
     "job_url": "https://github.com/apache/nuttx/actions/runs/28771920091",
     "job_workflowDatabaseId": 908549,
     "job_workflowName": "Build",
@@ -364,7 +411,7 @@
     "pr_isDraft": false,
     "pr_labels": "Area: OS Components, Size: XS",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "UNSTABLE",
+    "pr_mergeStateStatus": "CLEAN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -372,7 +419,7 @@
     "pr_number": 19349,
     "pr_state": "OPEN",
     "pr_title": "{bp-19329} libc/stream: Check lowout bounds before access",
-    "pr_updatedAt": "2026-07-06T09:05:33Z",
+    "pr_updatedAt": "2026-07-06T10:33:59Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19349"
   },
   {
@@ -419,7 +466,7 @@
     "pr_number": 3612,
     "pr_state": "OPEN",
     "pr_title": "{bp-3598} !fsutils/passwd: remove insecure default TEA encryption keys",
-    "pr_updatedAt": "2026-07-06T09:09:44Z",
+    "pr_updatedAt": "2026-07-06T10:34:08Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3612"
   },
   {
@@ -466,7 +513,7 @@
     "pr_number": 19348,
     "pr_state": "OPEN",
     "pr_title": "{Bp 19321} !boards: enforce secure ROMFS passwd and TEA key setup",
-    "pr_updatedAt": "2026-07-06T06:11:13Z",
+    "pr_updatedAt": "2026-07-06T10:34:16Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19348"
   },
   {
@@ -513,7 +560,7 @@
     "pr_number": 19346,
     "pr_state": "OPEN",
     "pr_title": "{bp-19326} drivers: wireless: bound GS2200M sscanf fields",
-    "pr_updatedAt": "2026-07-06T05:55:44Z",
+    "pr_updatedAt": "2026-07-06T10:34:23Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19346"
   },
   {
@@ -560,7 +607,7 @@
     "pr_number": 19345,
     "pr_state": "OPEN",
     "pr_title": "{bp-19327} fs/partition: bound TXTABLE partition names",
-    "pr_updatedAt": "2026-07-06T05:54:01Z",
+    "pr_updatedAt": "2026-07-06T10:34:29Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19345"
   },
   {
@@ -607,7 +654,7 @@
     "pr_number": 19343,
     "pr_state": "OPEN",
     "pr_title": "{bp-19317} drivers: leds: Fix LP503X bank mode LED bounds",
-    "pr_updatedAt": "2026-07-06T05:46:37Z",
+    "pr_updatedAt": "2026-07-06T10:34:36Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19343"
   },
   {
@@ -654,7 +701,7 @@
     "pr_number": 19342,
     "pr_state": "OPEN",
     "pr_title": "{bp-19323} drivers/usbdev: rndis: Reject truncated responses",
-    "pr_updatedAt": "2026-07-06T05:45:57Z",
+    "pr_updatedAt": "2026-07-06T10:34:42Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19342"
   },
   {
@@ -701,7 +748,7 @@
     "pr_number": 19341,
     "pr_state": "OPEN",
     "pr_title": "{bp-19324} drivers: pci: Fix EPC MSI IRQ map validation",
-    "pr_updatedAt": "2026-07-06T05:46:05Z",
+    "pr_updatedAt": "2026-07-06T10:34:48Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19341"
   },
   {
@@ -748,7 +795,7 @@
     "pr_number": 19340,
     "pr_state": "OPEN",
     "pr_title": "{bp-19307} drivers/audio/i2s: Fix unsigned integers in function signatures",
-    "pr_updatedAt": "2026-07-06T05:34:02Z",
+    "pr_updatedAt": "2026-07-06T10:34:53Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19340"
   },
   {
@@ -795,7 +842,7 @@
     "pr_number": 19339,
     "pr_state": "OPEN",
     "pr_title": "{bp-19325} drivers: pci: Fix EPF debug assertions",
-    "pr_updatedAt": "2026-07-06T05:31:10Z",
+    "pr_updatedAt": "2026-07-06T10:35:00Z",
     "pr_url": "https://github.com/apache/nuttx/pull/19339"
   },
   {
@@ -842,7 +889,7 @@
     "pr_number": 3611,
     "pr_state": "OPEN",
     "pr_title": "{bp-3589} apps/nsh: Don't disable error by default",
-    "pr_updatedAt": "2026-07-06T05:26:27Z",
+    "pr_updatedAt": "2026-07-06T10:35:17Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3611"
   },
   {
@@ -2299,7 +2346,7 @@
     "pr_number": 3589,
     "pr_state": "OPEN",
     "pr_title": "apps/nsh: Don't disable error by default",
-    "pr_updatedAt": "2026-07-05T19:23:59Z",
+    "pr_updatedAt": "2026-07-06T10:44:31Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3589"
   },
   {
@@ -2338,7 +2385,7 @@
     "pr_isDraft": false,
     "pr_labels": "Size: S, Area: CAN",
     "pr_mergeCommit": "",
-    "pr_mergeStateStatus": "BLOCKED",
+    "pr_mergeStateStatus": "CLEAN",
     "pr_mergeable": "MERGEABLE",
     "pr_mergedAt": null,
     "pr_mergedBy": "",
@@ -2346,7 +2393,7 @@
     "pr_number": 3588,
     "pr_state": "OPEN",
     "pr_title": "canutils/lely: fix unreliable download/unpack/patch logic",
-    "pr_updatedAt": "2026-07-05T17:58:09Z",
+    "pr_updatedAt": "2026-07-06T10:42:06Z",
     "pr_url": "https://github.com/apache/nuttx-apps/pull/3588"
   },
   {
