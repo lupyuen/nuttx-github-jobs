@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T14:26:04Z",
   "createdAt": "2026-07-06T05:26:05Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "20ffb1a3a3b590d52890ee865a28442390e5d16c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T14:26:04Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3611,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-3589} apps/nsh: Don't disable error by default",
-  "updatedAt": "2026-07-06T10:35:17Z",
+  "updatedAt": "2026-07-06T14:27:55Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3611"
 }
