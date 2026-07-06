@@ -1,5 +1,5 @@
 {
-  "additions": 4310,
+  "additions": 4442,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjczNjkyMTU5",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 29,
+  "changedFiles": 30,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-01T15:19:54Z",
   "deletions": 0,
   "files": [
+    {
+      "path": "Documentation/platforms/arm/rp23xx/boards/raspberrypi-pico-2-w/index.rst",
+      "additions": 132,
+      "deletions": 0
+    },
     {
       "path": "arch/arm/src/rp23xx/CMakeLists.txt",
       "additions": 4,
@@ -162,7 +167,7 @@
     }
   ],
   "headRefName": "rp23xx-raspberrypi-pico-2-w",
-  "headRefOid": "2a1e7fd1e1f3b4b05c9b2ce353f9123f9f29a762",
+  "headRefOid": "c6033b75407338dbfc51fd0ab6549f08a094ed66",
   "headRepository": {
     "id": "R_kgDOTKojAA",
     "name": "nuttx",
@@ -201,14 +206,14 @@
     }
   ],
   "mergeCommit": null,
-  "mergeStateStatus": "UNKNOWN",
-  "mergeable": "UNKNOWN",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19250,
   "state": "OPEN",
   "title": "boards/arm/rp23xx: add Raspberry Pi Pico 2 W board (CYW43439 Wi-Fi)",
-  "updatedAt": "2026-07-04T19:45:25Z",
+  "updatedAt": "2026-07-06T07:17:53Z",
   "url": "https://github.com/apache/nuttx/pull/19250"
 }

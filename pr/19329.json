@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T07:02:23Z",
   "createdAt": "2026-07-06T01:12:44Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bab2b4a5f24665e66dcf27ed7efede94cc94b803"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T07:02:23Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjc4NDI2OTg=",
+    "is_bot": false,
+    "login": "jerpelea",
+    "name": "Alin Jerpelea"
+  },
   "milestone": null,
   "number": 19329,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "libc/stream: Check lowout bounds before access",
-  "updatedAt": "2026-07-06T06:16:27Z",
+  "updatedAt": "2026-07-06T07:02:23Z",
   "url": "https://github.com/apache/nuttx/pull/19329"
 }
