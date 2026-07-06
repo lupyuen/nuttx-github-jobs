@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T11:58:47Z",
   "createdAt": "2026-07-06T06:12:57Z",
   "deletions": 4,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4f861a4e213b0f6089d367f810ff6e8a7a68be6b"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T11:58:47Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3612,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-3598} !fsutils/passwd: remove insecure default TEA encryption keys",
-  "updatedAt": "2026-07-06T10:34:08Z",
+  "updatedAt": "2026-07-06T11:59:31Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3612"
 }

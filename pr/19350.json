@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T11:55:05Z",
   "createdAt": "2026-07-06T06:21:02Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "bc764dc9bd25f328aafc29d5685fc35cb61d79f7"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T11:55:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19350,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19316} drivers: 1wire: Fix DS2XXX device type bounds",
-  "updatedAt": "2026-07-06T10:33:52Z",
+  "updatedAt": "2026-07-06T11:56:13Z",
   "url": "https://github.com/apache/nuttx/pull/19350"
 }

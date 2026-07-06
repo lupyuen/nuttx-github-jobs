@@ -1,0 +1,118 @@
+{
+  "additions": 80,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 12,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-06T12:07:30Z",
+  "deletions": 101,
+  "files": [
+    {
+      "path": "arch/arm/src/common/stm32/stm32_serial_m0_v3.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_serial_m0_v4.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_serial_m3m4_v1v2v3v4.c",
+      "additions": 4,
+      "deletions": 10
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_serial.c",
+      "additions": 4,
+      "deletions": 5
+    },
+    {
+      "path": "arch/arm/src/stm32h5/stm32_serial.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_serial.c",
+      "additions": 4,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32l4/stm32l4_serial.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32l5/stm32l5_serial.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32n6/stm32_serial.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32u5/stm32_serial.c",
+      "additions": 8,
+      "deletions": 9
+    },
+    {
+      "path": "arch/arm/src/stm32wb/stm32wb_serial.c",
+      "additions": 8,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/stm32wl5/stm32wl5_serial.c",
+      "additions": 8,
+      "deletions": 9
+    }
+  ],
+  "headRefName": "nuttx-fuzzer-stm32-serial",
+  "headRefOid": "61c1115d2542ff415c83bb77bbcbeb6812ac4c21",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7uVYS_",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19354,
+  "state": "OPEN",
+  "title": "arch/stm32/serial: simplify ifdefs in ioctl",
+  "updatedAt": "2026-07-06T12:14:28Z",
+  "url": "https://github.com/apache/nuttx/pull/19354"
+}

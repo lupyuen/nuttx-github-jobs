@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T11:56:03Z",
   "createdAt": "2026-07-06T05:39:44Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1d7d5d3f138f9048d0cf8e63f94419e48d660f75"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T11:56:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19341,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19324} drivers: pci: Fix EPC MSI IRQ map validation",
-  "updatedAt": "2026-07-06T10:34:48Z",
+  "updatedAt": "2026-07-06T11:56:53Z",
   "url": "https://github.com/apache/nuttx/pull/19341"
 }
