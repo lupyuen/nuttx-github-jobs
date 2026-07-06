@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T08:35:03Z",
   "createdAt": "2026-07-06T05:23:54Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "1aeb7a12f7098d29b543013d509228893bb465fb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T08:35:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19338,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19318} boards/imx93-evk: Fix bootloader board config",
-  "updatedAt": "2026-07-06T05:34:03Z",
+  "updatedAt": "2026-07-06T08:35:57Z",
   "url": "https://github.com/apache/nuttx/pull/19338"
 }

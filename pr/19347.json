@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T08:35:29Z",
   "createdAt": "2026-07-06T06:00:01Z",
   "deletions": 5,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "a2b8d15041bc72072d6ecb10d72aa4c4923ecf0f"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T08:35:29Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19347,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19328} arch/arm: nrf91: bound modem version parsing",
-  "updatedAt": "2026-07-06T06:00:22Z",
+  "updatedAt": "2026-07-06T08:36:53Z",
   "url": "https://github.com/apache/nuttx/pull/19347"
 }

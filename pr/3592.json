@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T08:31:48Z",
   "createdAt": "2026-07-05T17:19:01Z",
   "deletions": 102,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f1d53c875d459baed3e4704f046a63e16aa27a46"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T08:31:48Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3592,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools: Fix bitmap converter print syntax",
-  "updatedAt": "2026-07-06T06:06:00Z",
+  "updatedAt": "2026-07-06T08:31:48Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3592"
 }

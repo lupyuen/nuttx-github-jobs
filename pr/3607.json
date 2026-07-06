@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T08:31:39Z",
   "createdAt": "2026-07-05T22:46:11Z",
   "deletions": 4,
   "files": [
@@ -53,15 +53,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6eead56aa9b164de7d362f009a9b1ed556ecc9fb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T08:31:39Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3607,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "system: resmonitor: check CPU load reads",
-  "updatedAt": "2026-07-06T06:06:46Z",
+  "updatedAt": "2026-07-06T08:31:39Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3607"
 }

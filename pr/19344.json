@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "releases/13.0",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T08:35:19Z",
   "createdAt": "2026-07-06T05:49:40Z",
   "deletions": 4,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "9888b7cd3b163b985511ba5f03455e2615f67f8d"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T08:35:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19344,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "{bp-19315} arch/arm: xmc4: fix VADC index bounds checks",
-  "updatedAt": "2026-07-06T05:50:01Z",
+  "updatedAt": "2026-07-06T08:36:24Z",
   "url": "https://github.com/apache/nuttx/pull/19344"
 }
