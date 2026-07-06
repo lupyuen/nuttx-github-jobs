@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 6,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T17:57:10Z",
   "createdAt": "2026-07-06T10:58:48Z",
   "deletions": 354,
   "files": [
@@ -79,15 +79,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "a60ac789a45f912853d98305cfd9c458be9ec838"
+  },
   "mergeStateStatus": "UNKNOWN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T17:57:10Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19353,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/ameba: WiFi netdev lower-half, TCP SACK and boot auto-connect",
-  "updatedAt": "2026-07-06T14:08:05Z",
+  "updatedAt": "2026-07-06T17:57:10Z",
   "url": "https://github.com/apache/nuttx/pull/19353"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 12,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-06T17:57:52Z",
   "createdAt": "2026-07-06T12:07:30Z",
   "deletions": 101,
   "files": [
@@ -104,15 +104,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "f27749b1b7339676bde10ec6852c9a7082fbaee3"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-06T17:57:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19354,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/stm32/serial: simplify ifdefs in ioctl",
-  "updatedAt": "2026-07-06T12:14:28Z",
+  "updatedAt": "2026-07-06T17:57:52Z",
   "url": "https://github.com/apache/nuttx/pull/19354"
 }
