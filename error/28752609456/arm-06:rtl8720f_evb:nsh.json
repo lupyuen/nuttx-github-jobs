@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-06T04:17:41",
+"arch": "arm",
+"subarch": "rtl8720f",
+"group": "arm-06",
+"board": "rtl8720f_evb",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28752609456/job/85280931771#step:10:1916",
+"msg": "##[warning]/github/workspace/sources/nuttx/arch/arm/src/common/ameba/ameba-rtos/component/soc/RTL8720F/fwlib/ram_common/ameba_pmctimer.c:159:53: warning: passing argument 3 of 'irq_register' makes integer from pointer without a cast [-Wint-conversion] \n 159 |  InterruptRegister(PMCTimer_INT_Hdl, PMC_TIMER_IRQ, NULL, PMC_TIMER_INT_PRIO); \n |                                                     ^~~~ \n |                                                     | \n |                                               "
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-06T01:34:30",
+"arch": "arm",
+"subarch": "rtl8721dx",
+"group": "arm-06",
+"board": "pke8721daf",
+"config": "nsh",
+"build_score": 0.5,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28757776185/job/85267810333#step:10:2451",
+"msg": "##[warning]/github/workspace/sources/nuttx/arch/arm/src/common/ameba/ameba-rtos/component/soc/amebadplus/misc/ameba_pmu.c:336:60: warning: passing argument 3 of 'irq_register' makes integer from pointer without a cast [-Wint-conversion] \n 336 |  InterruptRegister(pmc_wakeuptimer_int_hdl, PMC_TIMER_IRQ, NULL, PMC_TIMER_INT_PRIO); \n |                                                            ^~~~ \n |                                                            | \n |                                         "
+}
