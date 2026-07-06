@@ -1,0 +1,62 @@
+{
+  "additions": 1,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM1NDE3NDA5",
+    "is_bot": false,
+    "login": "Old-Ding",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-06T01:12:44Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "libs/libc/stream/lib_lowoutstream.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "codex/lowoutstream-bound-check",
+  "headRefOid": "c49d2c3056d107524214a6f95c8e1644982dc8ed",
+  "headRepository": {
+    "id": "R_kgDOTOXhiA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjM1NDE3NDA5",
+    "login": "Old-Ding"
+  },
+  "id": "PR_kwDODZiUac7uJUpJ",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19329,
+  "state": "OPEN",
+  "title": "libc/stream: Check lowout bounds before access",
+  "updatedAt": "2026-07-06T01:38:50Z",
+  "url": "https://github.com/apache/nuttx/pull/19329"
+}
