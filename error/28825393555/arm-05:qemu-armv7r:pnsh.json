@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-06T23:50:55",
+"arch": "arm",
+"subarch": "qemu",
+"group": "arm-05",
+"board": "qemu-armv7r",
+"config": "pnsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28825393555/job/85487465387#step:10:1920",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libdrivers.a(syslog_channel.o): in function `syslog_default_putc': \n arm-none-eabi-ld: /github/workspace/sources/nuttx/drivers/syslog/syslog_channel.c:300:(.text.syslog_default_putc+0x44): undefined reference to `up_putc' \n arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libkarch.a(arm_nputs.o): in function `up_nputs': \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:559: nuttx] Error 2 \n make: Target 'all' not r"
+}
