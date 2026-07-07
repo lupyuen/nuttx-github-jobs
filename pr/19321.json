@@ -1,5 +1,5 @@
 {
-  "additions": 718,
+  "additions": 720,
   "assignees": [],
   "author": {
     "id": "U_kgDOCkF4eA",
@@ -9,7 +9,7 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 18,
+  "changedFiles": 20,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-05T20:17:39Z",
@@ -61,6 +61,16 @@
       "deletions": 1
     },
     {
+      "path": "boards/arm/stm32f1/nucleo-f103rb/configs/ihm07m1_b16/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32f3/nucleo-f302r8/configs/ihm07m1_b16/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
       "path": "boards/arm64/imx9/imx93-evk/configs/bootloader/defconfig",
       "additions": 0,
       "deletions": 1
@@ -107,7 +117,7 @@
     }
   ],
   "headRefName": "hardcode-password-remove",
-  "headRefOid": "dc6c28fd6158782e1dca088e1182c6df6dcf60f4",
+  "headRefOid": "7eb7a9549ec0daf844c5d4e56adbfe0d9c674f86",
   "headRepository": {
     "id": "R_kgDOSbd_bQ",
     "name": "nuttx",
@@ -161,6 +171,6 @@
   "number": 19321,
   "state": "OPEN",
   "title": "!boards: enforce secure ROMFS passwd and TEA key setup",
-  "updatedAt": "2026-07-06T20:42:42Z",
+  "updatedAt": "2026-07-07T05:38:51Z",
   "url": "https://github.com/apache/nuttx/pull/19321"
 }
