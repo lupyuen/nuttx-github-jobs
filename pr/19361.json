@@ -1,5 +1,5 @@
 {
-  "additions": 0,
+  "additions": 1,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM3MDAw",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 2,
+  "changedFiles": 3,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-07T12:28:39Z",
-  "deletions": 2,
+  "deletions": 3,
   "files": [
     {
       "path": "boards/arm/mps/mps3-an547/configs/ap/defconfig",
@@ -24,10 +24,15 @@
       "path": "boards/arm/mps/mps3-an547/configs/bl/defconfig",
       "additions": 0,
       "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f3/nucleo-f302r8/configs/ihm07m1_b16/defconfig",
+      "additions": 1,
+      "deletions": 1
     }
   ],
   "headRefName": "fix_nsh_err_config",
-  "headRefOid": "98653ee8645f9ad83bb1d228776da5bb84e7c889",
+  "headRefOid": "0fbb9ea98828a1dd412fd3ca5018e8e3d15a6518",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyNTE0NDcyMzk=",
     "name": "incubator-nuttx",
@@ -63,6 +68,6 @@
   "number": 19361,
   "state": "OPEN",
   "title": "boards/mps3-an547: Fix error caused by updating nsh Kconfig",
-  "updatedAt": "2026-07-07T13:50:28Z",
+  "updatedAt": "2026-07-07T20:31:14Z",
   "url": "https://github.com/apache/nuttx/pull/19361"
 }
