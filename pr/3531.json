@@ -1,5 +1,5 @@
 {
-  "additions": 376,
+  "additions": 573,
   "assignees": [],
   "author": {
     "id": "U_kgDOBkM3nQ",
@@ -9,40 +9,35 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 5,
+  "changedFiles": 4,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-08T11:29:04Z",
-  "deletions": 2,
+  "deletions": 3,
   "files": [
     {
       "path": "examples/elf/main/CMakeLists.txt",
-      "additions": 84,
+      "additions": 91,
       "deletions": 1
     },
     {
       "path": "examples/elf/main/Makefile",
-      "additions": 17,
-      "deletions": 1
+      "additions": 28,
+      "deletions": 2
     },
     {
-      "path": "examples/elf/main/gen_romfs_source.py",
-      "additions": 58,
+      "path": "examples/elf/main/host/CMakeLists.txt",
+      "additions": 26,
       "deletions": 0
     },
     {
-      "path": "examples/elf/main/gen_symtab.py",
-      "additions": 87,
-      "deletions": 0
-    },
-    {
-      "path": "examples/elf/main/mk_pkg_fixture.py",
-      "additions": 130,
+      "path": "examples/elf/main/mk_pkg_fixture.c",
+      "additions": 428,
       "deletions": 0
     }
   ],
   "headRefName": "gsoc/elf-validation-fixtures-pr4",
-  "headRefOid": "7f20e7e3ac1f7a6f9c37d684080c1590be6f0643",
+  "headRefOid": "29245aaa774ebb0c9849de592420d2aea2dd4d0c",
   "headRepository": {
     "id": "R_kgDOSShR2w",
     "name": "nuttx-apps",
@@ -78,6 +73,6 @@
   "number": 3531,
   "state": "OPEN",
   "title": "examples/elf: extend nxpkg validation coverage",
-  "updatedAt": "2026-07-04T12:12:23Z",
+  "updatedAt": "2026-07-07T16:12:46Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3531"
 }

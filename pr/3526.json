@@ -1,5 +1,5 @@
 {
-  "additions": 498,
+  "additions": 670,
   "assignees": [],
   "author": {
     "id": "U_kgDOBkM3nQ",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 9,
+  "changedFiles": 8,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-06-05T10:57:52Z",
-  "deletions": 30,
+  "deletions": 31,
   "files": [
     {
       "path": "examples/sotest/Make.defs",
@@ -22,27 +22,22 @@
     },
     {
       "path": "examples/sotest/main/CMakeLists.txt",
-      "additions": 70,
+      "additions": 76,
       "deletions": 17
     },
     {
       "path": "examples/sotest/main/Makefile",
-      "additions": 13,
-      "deletions": 1
+      "additions": 23,
+      "deletions": 2
     },
     {
-      "path": "examples/sotest/main/gen_romfs_source.py",
-      "additions": 58,
+      "path": "examples/sotest/main/host/CMakeLists.txt",
+      "additions": 26,
       "deletions": 0
     },
     {
-      "path": "examples/sotest/main/gen_symtab.py",
-      "additions": 91,
-      "deletions": 0
-    },
-    {
-      "path": "examples/sotest/main/mk_pkg_fixture_shared.py",
-      "additions": 121,
+      "path": "examples/sotest/main/mk_pkg_fixture_shared.c",
+      "additions": 400,
       "deletions": 0
     },
     {
@@ -62,7 +57,7 @@
     }
   ],
   "headRefName": "gsoc/sotest-shared-fixtures-pr3",
-  "headRefOid": "f24da1e61fec18fe69f781686c4e1a7000481536",
+  "headRefOid": "1ad20027a6a323aafbafcb2cdd22cbc048738150",
   "headRepository": {
     "id": "R_kgDOSShR2w",
     "name": "nuttx-apps",
@@ -98,6 +93,6 @@
   "number": 3526,
   "state": "OPEN",
   "title": "examples/sotest: support packaged shared library fixtures",
-  "updatedAt": "2026-07-03T14:07:10Z",
+  "updatedAt": "2026-07-07T16:12:46Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3526"
 }
