@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-07T12:23:41Z",
   "createdAt": "2026-07-07T08:42:44Z",
   "deletions": 101,
   "files": [
@@ -63,15 +63,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "cce73da215469a7709cd5ffec5d0ad8d8c98309e"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-07T12:23:41Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19358,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: rework Realtek RTL8721Dx and RTL8720F chip/board pages",
-  "updatedAt": "2026-07-07T09:34:27Z",
+  "updatedAt": "2026-07-07T12:23:42Z",
   "url": "https://github.com/apache/nuttx/pull/19358"
 }
