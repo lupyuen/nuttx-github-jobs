@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-08T08:56:55",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "lvgl_lcd",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/28928986720/job/85823632729#step:10:628",
+"msg": "sim/posix/sim_hostsocket.c: In function 'host_socket_addr_to_native': \n ##[error]sim/posix/sim_hostsocket.c:287:11: error: '__builtin_strncpy' output may be truncated copying 107 bytes from a string of length 107 [-Werror=stringop-truncation] \n 287 |           strncpy(un.sun_path, addr->un.path, sizeof(un.sun_path) - 1); \n cc1: all warnings being treated as errors \n make[1]: *** [Makefile:410: sim_hostsocket.o] Error 1 \n make[1]: Target 'nuttx' not remade because of errors. \n make: *** [tools/Unix.mk:"
+}

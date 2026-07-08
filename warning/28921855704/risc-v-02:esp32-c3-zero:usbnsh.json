@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-08T06:25:51",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32-c3-zero",
+"config": "usbnsh",
+"build_score": 0.5,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28921855704/job/85800896661#step:10:283",
+"msg": "CMake Warning at cmake/nuttx_3rdparty.cmake:90 (message): \n Commit hash mismatch in /github/workspace/sources/nxtmpdir/esp-hal-3rdparty \n (expected: 0eb59f7e02a4735f2b9a78797e691b66740fcadb, current: \n b90b1837cb5ad24747deb4c895246037cc206ce5) \n Call Stack (most recent call first): \n arch/risc-v/src/common/espressif/CMakeLists.txt:263 (nuttx_check_git_hash)"
+}
