@@ -1,0 +1,124 @@
+{
+  "additions": 347,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjM2MDY0MDM0",
+    "is_bot": false,
+    "login": "raulcxw",
+    "name": "Raul Chen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 11,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-08T02:39:17Z",
+  "deletions": 18,
+  "files": [
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_build_np.sh",
+      "additions": 16,
+      "deletions": 8
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_gen_autoconf.sh",
+      "additions": 7,
+      "deletions": 4
+    },
+    {
+      "path": "arch/arm/src/common/ameba/tools/ameba_sdk_config.sh",
+      "additions": 103,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm/src/rtl8720f/ameba_board.mk",
+      "additions": 19,
+      "deletions": 3
+    },
+    {
+      "path": "arch/arm/src/rtl8721dx/ameba_board.mk",
+      "additions": 18,
+      "deletions": 3
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/ameba_sdk.conf",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8720f/rtl8720f_evb/ameba_sdk_force.conf",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/ameba_sdk.conf",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rtl8721dx/pke8721daf/ameba_sdk_force.conf",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ameba/Config.mk",
+      "additions": 27,
+      "deletions": 0
+    },
+    {
+      "path": "tools/ameba/ameba_menuconfig.sh",
+      "additions": 120,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "pr-build",
+  "headRefOid": "75832aecda83f0ff814f330a307f4b0666aaaa0b",
+  "headRepository": {
+    "id": "R_kgDOTF0xDQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "O_kgDOCf-xhQ",
+    "login": "Ameba-AIoT"
+  },
+  "id": "PR_kwDODZiUac7vF6lV",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19366,
+  "state": "OPEN",
+  "title": "arch/arm/ameba: cache SDK sub-config, add ameba_menuconfig, silence vendor -Wint-conversion",
+  "updatedAt": "2026-07-08T02:45:08Z",
+  "url": "https://github.com/apache/nuttx/pull/19366"
+}
