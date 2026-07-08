@@ -1,0 +1,114 @@
+{
+  "additions": 1430,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjI2Mzc4NjA2",
+    "is_bot": false,
+    "login": "LingaoM",
+    "name": "Lingao Meng"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 10,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-08T08:27:49Z",
+  "deletions": 231,
+  "files": [
+    {
+      "path": "arch/sim/src/Makefile",
+      "additions": 4,
+      "deletions": 1
+    },
+    {
+      "path": "arch/sim/src/nuttx-names.in",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostepoll.c",
+      "additions": 116,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostfs.c",
+      "additions": 297,
+      "deletions": 65
+    },
+    {
+      "path": "arch/sim/src/sim/posix/sim_hostsocket.c",
+      "additions": 583,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hostepoll.h",
+      "additions": 60,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hostsock.h",
+      "additions": 205,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hostsocket.h",
+      "additions": 105,
+      "deletions": 0
+    },
+    {
+      "path": "arch/sim/src/sim/sim_hostusrsock.h",
+      "additions": 2,
+      "deletions": 165
+    },
+    {
+      "path": "include/nuttx/fs/hostfs.h",
+      "additions": 47,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "arch-sim-host-apis",
+  "headRefOid": "5012caa8f9e365198746b8f58751013c1ad7003c",
+  "headRepository": {
+    "id": "R_kgDOGdnTog",
+    "name": "incubator-nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjI2Mzc4NjA2",
+    "name": "Lingao Meng",
+    "login": "LingaoM"
+  },
+  "id": "PR_kwDODZiUac7vMA4m",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQq0A",
+      "name": "Arch: simulator",
+      "description": "Issues related to the SIMulator",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR7sg",
+      "name": "Area: File System",
+      "description": "File System issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19369,
+  "state": "OPEN",
+  "title": "arch/sim: Add host socket and epoll APIs",
+  "updatedAt": "2026-07-08T08:38:48Z",
+  "url": "https://github.com/apache/nuttx/pull/19369"
+}

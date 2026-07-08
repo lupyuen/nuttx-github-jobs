@@ -1,5 +1,5 @@
 {
-  "additions": 5,
+  "additions": 0,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjM1NDE3NDA5",
@@ -9,30 +9,20 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 3,
+  "changedFiles": 1,
   "closed": false,
   "closedAt": null,
-  "createdAt": "2026-07-05T17:05:30Z",
-  "deletions": 5,
+  "createdAt": "2026-07-08T07:34:45Z",
+  "deletions": 1,
   "files": [
     {
-      "path": "tools/ide_exporter.py",
-      "additions": 1,
+      "path": "boards/xtensa/esp32s3/esp32s3-m5-cardputer/configs/lvglterm/defconfig",
+      "additions": 0,
       "deletions": 1
-    },
-    {
-      "path": "tools/licensing/apachize.py",
-      "additions": 1,
-      "deletions": 1
-    },
-    {
-      "path": "tools/licensing/check.py",
-      "additions": 3,
-      "deletions": 3
     }
   ],
-  "headRefName": "codex/python-invalid-escapes",
-  "headRefOid": "cdd805a22d86a35e5ff96d749d38c4030e18c7f5",
+  "headRefName": "codex/refresh-ci-defconfigs",
+  "headRefOid": "fff172031cdeb140c7ec25eede0a68c67c08ccb1",
   "headRepository": {
     "id": "R_kgDOTOXhiA",
     "name": "nuttx",
@@ -42,20 +32,20 @@
     "id": "MDQ6VXNlcjM1NDE3NDA5",
     "login": "Old-Ding"
   },
-  "id": "PR_kwDODZiUac7uE2o9",
+  "id": "PR_kwDODZiUac7vK28_",
   "isDraft": false,
   "labels": [
-    {
-      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
-      "name": "Area: Tooling",
-      "description": "",
-      "color": "0075ca"
-    },
     {
       "id": "LA_kwDODZiUac8AAAABvj_Wkw",
       "name": "Size: XS",
       "description": "The size of the change in this PR is very small",
       "color": "0E8A16"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8MG5Q",
+      "name": "Board: xtensa",
+      "description": "",
+      "color": "F9D0C4"
     }
   ],
   "mergeCommit": null,
@@ -64,9 +54,9 @@
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
-  "number": 19313,
+  "number": 19368,
   "state": "OPEN",
-  "title": "tools: escape Python string backslashes",
-  "updatedAt": "2026-07-08T07:46:35Z",
-  "url": "https://github.com/apache/nuttx/pull/19313"
+  "title": "boards: xtensa: refresh cardputer lvglterm defconfig",
+  "updatedAt": "2026-07-08T07:51:16Z",
+  "url": "https://github.com/apache/nuttx/pull/19368"
 }
