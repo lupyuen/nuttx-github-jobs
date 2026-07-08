@@ -1,0 +1,82 @@
+{
+  "additions": 896,
+  "assignees": [],
+  "author": {
+    "id": "U_kgDOBw0WxQ",
+    "is_bot": false,
+    "login": "dmihai03",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 5,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-08T11:49:48Z",
+  "deletions": 2,
+  "files": [
+    {
+      "path": "examples/mqttc/CMakeLists.txt",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mqttc/Kconfig",
+      "additions": 25,
+      "deletions": 1
+    },
+    {
+      "path": "examples/mqttc/Makefile",
+      "additions": 20,
+      "deletions": 1
+    },
+    {
+      "path": "examples/mqttc/mqttc_pub.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "examples/mqttc/mqttc_sub.c",
+      "additions": 842,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "mqtt-sub",
+  "headRefOid": "7eb2c5cffcc89489bedfea14bad88dc7d404e38b",
+  "headRepository": {
+    "id": "R_kgDORRtvvQ",
+    "name": "nuttx-apps",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "U_kgDOBw0WxQ",
+    "login": "dmihai03"
+  },
+  "id": "PR_kwDODZiT487vQxkH",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiT488AAAABvo6YaQ",
+      "name": "Size: L",
+      "description": "",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiT488AAAABvo7i9A",
+      "name": "Area: Examples",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 3618,
+  "state": "OPEN",
+  "title": "examples/mqttc: add subscriber client implementation example",
+  "updatedAt": "2026-07-08T11:50:14Z",
+  "url": "https://github.com/apache/nuttx-apps/pull/3618"
+}
