@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-08T13:19:05Z",
   "createdAt": "2026-07-08T01:35:27Z",
   "deletions": 3,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "1fc6f2bac89771a6d4586789998d94e4cc1f20ef"
+  },
   "mergeStateStatus": "UNKNOWN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-08T13:19:05Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19364,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/riscv: reject overlapping leaf PTE in riscv_fillpage",
-  "updatedAt": "2026-07-08T04:25:21Z",
+  "updatedAt": "2026-07-08T13:19:05Z",
   "url": "https://github.com/apache/nuttx/pull/19364"
 }
