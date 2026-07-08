@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 11,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-08T18:08:16Z",
   "createdAt": "2026-07-06T21:39:38Z",
   "deletions": 23,
   "files": [
@@ -111,15 +111,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2e7910fef6d04d44ca72828bdfb08212cc029dbe"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-08T18:08:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19356,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/stm32h7/linum-stm32h753bi: enable USB FS host, add lvglterm_kbda",
-  "updatedAt": "2026-07-08T16:25:36Z",
+  "updatedAt": "2026-07-08T19:08:53Z",
   "url": "https://github.com/apache/nuttx/pull/19356"
 }
