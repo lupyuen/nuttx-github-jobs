@@ -1,0 +1,50 @@
+{
+  "additions": 4,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjg3NTYwNzgx",
+    "is_bot": false,
+    "login": "94xhn",
+    "name": "yi chen"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 1,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-09T22:13:10Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "drivers/serial/serial.c",
+      "additions": 4,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "fix-uart-echo-xmit-lock",
+  "headRefOid": "31ccbd210ea985e3654e4f81b00ee37b5f70a3f7",
+  "headRepository": {
+    "id": "R_kgDOTTvUtw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjg3NTYwNzgx",
+    "name": "yi chen",
+    "login": "94xhn"
+  },
+  "id": "PR_kwDODZiUac7v7kB_",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19391,
+  "state": "OPEN",
+  "title": "drivers/serial: hold xmit.lock around echo in uart_readv()",
+  "updatedAt": "2026-07-09T22:13:11Z",
+  "url": "https://github.com/apache/nuttx/pull/19391"
+}
