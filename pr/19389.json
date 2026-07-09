@@ -1,0 +1,294 @@
+{
+  "additions": 183,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 46,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-09T15:37:03Z",
+  "deletions": 960,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/common/stm32/src/stm32_tone.c",
+      "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/common/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/common/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/qencoder/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/configs/tone/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/include/board.h",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/Make.defs",
+      "additions": 4,
+      "deletions": 10
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/linum-stm32h753bi.h",
+      "additions": 0,
+      "deletions": 30
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_bringup.c",
+      "additions": 8,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_qencoder.c",
+      "additions": 0,
+      "deletions": 68
+    },
+    {
+      "path": "boards/arm/stm32h7/linum-stm32h753bi/src/stm32_tone.c",
+      "additions": 0,
+      "deletions": 175
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/Make.defs",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h723zg/src/stm32_reset.c",
+      "additions": 0,
+      "deletions": 64
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/elf/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/mcuboot-app/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/mcuboot-loader/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/nxboot-app/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/configs/nxboot-loader/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 8
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/Make.defs",
+      "additions": 4,
+      "deletions": 10
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_reset.c",
+      "additions": 0,
+      "deletions": 64
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_romfs.h",
+      "additions": 0,
+      "deletions": 63
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi/src/stm32_romfs_initialize.c",
+      "additions": 0,
+      "deletions": 139
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/configs/jumbo/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/Make.defs",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h743zi2/src/stm32_reset.c",
+      "additions": 0,
+      "deletions": 64
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h745zi/src/Make.defs",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/configs/jumbo/defconfig",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/Make.defs",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32h7/nucleo-h753zi/src/stm32_reset.c",
+      "additions": 0,
+      "deletions": 64
+    },
+    {
+      "path": "boards/arm/stm32h7/openh743i/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/portenta-h7/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/src/Make.defs",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h745i-disco/src/stm32_reset.c",
+      "additions": 0,
+      "deletions": 64
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h747i-disco/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/CMakeLists.txt",
+      "additions": 0,
+      "deletions": 4
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/Make.defs",
+      "additions": 4,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32h7/stm32h750b-dk/src/stm32_reset.c",
+      "additions": 0,
+      "deletions": 62
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h743/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32h7/weact-stm32h750/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "stm32_refactor_all_board_common_1",
+  "headRefOid": "23b5b13a567182118fdfe48535db307b83e891f8",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7vzJvb",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19389,
+  "state": "OPEN",
+  "title": "boards/arm/stm32h7: switch board common to boards/arm/common/stm32",
+  "updatedAt": "2026-07-09T16:45:18Z",
+  "url": "https://github.com/apache/nuttx/pull/19389"
+}
