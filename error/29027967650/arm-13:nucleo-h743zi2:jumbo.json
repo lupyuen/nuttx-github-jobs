@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-09T18:28:05",
+"arch": "arm",
+"subarch": "stm32h7",
+"group": "arm-13",
+"board": "nucleo-h743zi2",
+"config": "jumbo",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/29027967650/job/86188529825#step:10:996",
+"msg": "./stm32_bringup.c:47:10: fatal error: 'stm32_pulsecount.h' file not found \n 47 | #include \"stm32_pulsecount.h\" \n |          ^~~~~~~~~~~~~~~~~~~~ \n 1 error generated. \n ERROR: clang failed: 1 \n command: clang -MT ./stm32_bringup.o  -M '-Wno-atomic-alignment' '-Wstrict-prototypes' '-Wno-attributes' '-Wno-unknown-pragmas' '-Oz' '-fno-strict-aliasing' '-fomit-frame-pointer' '-fno-builtin' '-fshort-enums' '-fno-common' '-Wall' '-Wshadow' '-Wundef' '-ffunction-sections' '-fdata-sections' '-g' '-march=armv7"
+}
