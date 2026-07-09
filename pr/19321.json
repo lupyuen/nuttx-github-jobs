@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 15,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T14:41:12Z",
   "createdAt": "2026-07-05T20:17:39Z",
   "deletions": 197,
   "files": [
@@ -125,15 +125,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d75d7131657d6e8af885336eeb97a3ce6ef5aff4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T14:41:12Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19321,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "!boards: enforce secure ROMFS passwd and TEA key setup",
-  "updatedAt": "2026-07-08T13:16:36Z",
+  "updatedAt": "2026-07-09T14:41:12Z",
   "url": "https://github.com/apache/nuttx/pull/19321"
 }

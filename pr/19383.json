@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T14:30:03Z",
   "createdAt": "2026-07-09T08:28:27Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "adc3fd23a175cf910891f910c91a12aef7999b0a"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T14:30:03Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19383,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/stm32: make STM32_FOC depend on MOTOR_FOC",
-  "updatedAt": "2026-07-09T14:02:17Z",
+  "updatedAt": "2026-07-09T14:30:03Z",
   "url": "https://github.com/apache/nuttx/pull/19383"
 }

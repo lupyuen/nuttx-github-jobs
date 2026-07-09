@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 24,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T14:30:43Z",
   "createdAt": "2026-07-09T09:07:34Z",
   "deletions": 528,
   "files": [
@@ -170,15 +170,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0f8032d0c5127f6c8d1e781f1bb1299ef2089a73"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T14:30:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19387,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/stm32f7: switch board common to boards/arm/common/stm32",
-  "updatedAt": "2026-07-09T12:37:51Z",
+  "updatedAt": "2026-07-09T14:30:43Z",
   "url": "https://github.com/apache/nuttx/pull/19387"
 }
