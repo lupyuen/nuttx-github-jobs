@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-09T17:24:03",
+"arch": "arm",
+"subarch": "stm32h7",
+"group": "arm-08",
+"board": "linum-stm32h753bi",
+"config": "tone",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/29030233105/job/86161237721#step:10:803",
+"msg": "##[error]/github/workspace/sources/nuttx/boards/arm/common/stm32/src/stm32_tone.c:90:8: error: implicit declaration of function 'open'; did you mean 'fopen'? [-Werror=implicit-function-declaration] \n 90 |   fd = open(devpath, O_RDWR); \n |        ^~~~ \n |        fopen \n ##[error]/github/workspace/sources/nuttx/boards/arm/common/stm32/src/stm32_tone.c:90:22: error: 'O_RDWR' undeclared (first use in this function) \n 90 |   fd = open(devpath, O_RDWR); \n |                      ^~~~~~ \n cc1: all warnings b"
+}
