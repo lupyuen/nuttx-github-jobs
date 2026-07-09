@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T01:27:18Z",
   "createdAt": "2026-07-05T20:24:09Z",
   "deletions": 5,
   "files": [
@@ -68,15 +68,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "50ffee7a85659a14ff6367191d560395beeae4ad"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T01:27:18Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3597,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples: Fix network echo receive terminators",
-  "updatedAt": "2026-07-08T13:50:35Z",
+  "updatedAt": "2026-07-09T01:27:19Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3597"
 }

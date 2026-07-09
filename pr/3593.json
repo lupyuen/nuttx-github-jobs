@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T01:41:16Z",
   "createdAt": "2026-07-05T19:25:14Z",
   "deletions": 10,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "0566af556a9fa058ccd1632de3e97f4620279180"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T01:41:16Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3593,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples: lp503x: Fix command argument handling",
-  "updatedAt": "2026-07-09T00:01:47Z",
+  "updatedAt": "2026-07-09T01:41:16Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3593"
 }

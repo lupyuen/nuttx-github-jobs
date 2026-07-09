@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T01:28:21Z",
   "createdAt": "2026-07-05T20:02:02Z",
   "deletions": 3,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "13f04f65b1bf444729c9a000846c176fdcdc4280"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T01:28:21Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3596,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples: nrf24l01_btle: Fix RX terminator bounds",
-  "updatedAt": "2026-07-08T13:50:30Z",
+  "updatedAt": "2026-07-09T01:28:22Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3596"
 }

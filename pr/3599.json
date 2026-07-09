@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T01:27:28Z",
   "createdAt": "2026-07-05T20:33:02Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "662133eeca511f00d4051d79070192e8bb4f7a3c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T01:27:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3599,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing: nettest: Fix TCP server terminator bounds",
-  "updatedAt": "2026-07-08T13:50:51Z",
+  "updatedAt": "2026-07-09T01:27:29Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3599"
 }

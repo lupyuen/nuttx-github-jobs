@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T01:29:58Z",
   "createdAt": "2026-07-05T20:40:24Z",
   "deletions": 8,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "fd525988f83efeb6433edee7855b86ac1982a7fc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T01:29:58Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3600,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "netutils: smtp: Treat recv EOF as an error",
-  "updatedAt": "2026-07-08T16:17:46Z",
+  "updatedAt": "2026-07-09T01:29:58Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3600"
 }

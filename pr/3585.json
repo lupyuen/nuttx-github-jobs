@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T01:25:34Z",
   "createdAt": "2026-07-03T14:10:35Z",
   "deletions": 4,
   "files": [
@@ -69,15 +69,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
+  "mergeCommit": {
+    "oid": "81accb08324485a0cc529a3777d2c2a099fe70fd"
+  },
+  "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-07-09T01:25:34Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3585,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "apps: fix distclean for partial builds and residual .kconfig files",
-  "updatedAt": "2026-07-09T01:25:16Z",
+  "updatedAt": "2026-07-09T01:25:34Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3585"
 }

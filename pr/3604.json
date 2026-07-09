@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T01:30:50Z",
   "createdAt": "2026-07-05T21:59:49Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "7fa0767e30843634e37df2d10adb6b73b6292bbd"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T01:30:50Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3604,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "examples: nrf24l01_term: reserve RX terminator",
-  "updatedAt": "2026-07-08T13:51:15Z",
+  "updatedAt": "2026-07-09T01:30:50Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3604"
 }
