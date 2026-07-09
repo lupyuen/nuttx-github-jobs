@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 2,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-08T23:51:55Z",
   "createdAt": "2026-07-07T20:14:41Z",
   "deletions": 37,
   "files": [
@@ -54,15 +54,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "26c5dd83052a18b415e351bae810b19f73a7f4c2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-08T23:51:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjMwNTE4MzI=",
+    "is_bot": false,
+    "login": "cederom",
+    "name": "CeDeROM"
+  },
   "milestone": null,
   "number": 3616,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "games/NXDoom: use default glob implementation",
-  "updatedAt": "2026-07-08T15:49:03Z",
+  "updatedAt": "2026-07-09T00:38:32Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3616"
 }

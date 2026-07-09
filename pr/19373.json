@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T00:45:09Z",
   "createdAt": "2026-07-08T15:39:00Z",
   "deletions": 8,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "c311a6d181480a3aa8a70c191bcc76f051fe6a42"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T00:45:09Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19373,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/i2s/i2schar: Fix return types",
-  "updatedAt": "2026-07-08T16:05:29Z",
+  "updatedAt": "2026-07-09T00:45:09Z",
   "url": "https://github.com/apache/nuttx/pull/19373"
 }
