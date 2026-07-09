@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-09T02:08:09",
+"arch": "arm64",
+"subarch": "imx9",
+"group": "arm64-01",
+"board": "imx93-evk",
+"config": "bootloader",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/28988677462/job/86023638317#step:10:286",
+"msg": "##[error]imx8qxb0.c:1:1: error: expected identifier or '(' before numeric constant \n 1 | 429: Too Many Requests \n | ^~~ \n In file included from mkimage_imx8.c:28: \n ##[error]mkimage_common.h:1:1: error: expected identifier or '(' before numeric constant \n 1 | 429: Too Many Requests \n | ^~~ \n ##[error]mkimage_imx8.c:184:39: error: 'UNDEFINED' undeclared here (not in a function) \n 184 | static uint32_t imximage_ivt_offset = UNDEFINED; \n |                                       ^~~~~~~~~ \n ##[error]mk"
+}
