@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T13:59:28Z",
   "createdAt": "2026-07-09T08:22:19Z",
   "deletions": 2,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
+  "mergeCommit": {
+    "oid": "a65a1e619e54c19b0d552fe2769f190f5c8fee11"
+  },
   "mergeStateStatus": "UNKNOWN",
   "mergeable": "UNKNOWN",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergedAt": "2026-07-09T13:59:28Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19381,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/serial/uart_ram: match uart_ops_s receive() prototype",
-  "updatedAt": "2026-07-09T08:34:06Z",
+  "updatedAt": "2026-07-09T13:59:28Z",
   "url": "https://github.com/apache/nuttx/pull/19381"
 }
