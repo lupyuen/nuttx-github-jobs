@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 8,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T12:33:16Z",
   "createdAt": "2026-07-07T09:51:44Z",
   "deletions": 0,
   "files": [
@@ -83,15 +83,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "cf93ac12c34a5618e779852d284ffa4ec4824d59"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T12:33:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19359,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/sensors: Add MPU6050 6-axis IMU I2C character driver",
-  "updatedAt": "2026-07-09T08:50:54Z",
+  "updatedAt": "2026-07-09T12:37:11Z",
   "url": "https://github.com/apache/nuttx/pull/19359"
 }

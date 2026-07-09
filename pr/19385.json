@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T12:38:30Z",
   "createdAt": "2026-07-09T08:44:22Z",
   "deletions": 3,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e60c831c40d4c5c20520fb10891ea82698215468"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T12:38:30Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19385,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/stm32: fix H5 I2C kernel-clock register names",
-  "updatedAt": "2026-07-09T08:50:33Z",
+  "updatedAt": "2026-07-09T12:38:30Z",
   "url": "https://github.com/apache/nuttx/pull/19385"
 }

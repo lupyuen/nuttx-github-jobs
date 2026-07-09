@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-09T12:27:42Z",
   "createdAt": "2026-07-08T20:38:45Z",
   "deletions": 0,
   "files": [
@@ -34,16 +34,36 @@
   },
   "id": "PR_kwDODZiUac7vdNnk",
   "isDraft": false,
-  "labels": [],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMjk4MTUwNzUy",
+      "name": "Area: Tooling",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
+  "mergeCommit": {
+    "oid": "d2d65c48d556af21b5615df699d4f48ac490bdd4"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-09T12:27:42Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19375,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "tools/nxstyle.c: Add exclusion for MQTTErrors",
-  "updatedAt": "2026-07-09T01:10:20Z",
+  "updatedAt": "2026-07-09T12:38:03Z",
   "url": "https://github.com/apache/nuttx/pull/19375"
 }
