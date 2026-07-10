@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-10T12:07:19Z",
   "createdAt": "2026-07-09T03:41:33Z",
   "deletions": 24,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "e0b4eb7c9cc1df17f6b6471bf531ed38af86b843"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-10T12:07:19Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19377,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/risc-v: kill faulting user task instead of panicking kernel",
-  "updatedAt": "2026-07-10T11:17:15Z",
+  "updatedAt": "2026-07-10T12:07:19Z",
   "url": "https://github.com/apache/nuttx/pull/19377"
 }

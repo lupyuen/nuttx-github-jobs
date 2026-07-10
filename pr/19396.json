@@ -1,5 +1,5 @@
 {
-  "additions": 136,
+  "additions": 147,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY4NzI5MzM3",
@@ -13,7 +13,7 @@
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-10T09:04:58Z",
-  "deletions": 74,
+  "deletions": 79,
   "files": [
     {
       "path": "crypto/chacha_private.h",
@@ -27,13 +27,13 @@
     },
     {
       "path": "crypto/cryptodev.c",
-      "additions": 3,
+      "additions": 9,
       "deletions": 0
     },
     {
       "path": "crypto/cryptosoft.c",
-      "additions": 42,
-      "deletions": 15
+      "additions": 47,
+      "deletions": 20
     },
     {
       "path": "crypto/xform.c",
@@ -57,7 +57,7 @@
     }
   ],
   "headRefName": "crypto-chacha20-unified",
-  "headRefOid": "2d0582a437ba0a2f204b86b5f8c7b64022f7dab2",
+  "headRefOid": "08edec38e255f3d90cb0dca5ca8aa5819839eaaf",
   "headRepository": {
     "id": "R_kgDOKAa8wg",
     "name": "nuttx",
@@ -70,16 +70,29 @@
   },
   "id": "PR_kwDODZiUac7wGJ79",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
   "mergeCommit": null,
-  "mergeStateStatus": "DIRTY",
-  "mergeable": "CONFLICTING",
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
   "mergedAt": null,
   "mergedBy": null,
   "milestone": null,
   "number": 19396,
   "state": "OPEN",
   "title": "crypto: Add standalone CHACHA20 stream cipher on the unified enc path.",
-  "updatedAt": "2026-07-10T09:10:09Z",
+  "updatedAt": "2026-07-10T12:49:46Z",
   "url": "https://github.com/apache/nuttx/pull/19396"
 }
