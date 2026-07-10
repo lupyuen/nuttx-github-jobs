@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-10T18:37:55Z",
   "createdAt": "2026-07-04T17:24:16Z",
   "deletions": 0,
   "files": [
@@ -49,15 +49,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "4a927bc7e00d441a7ace46d63135d27973c0cb14"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-10T18:37:55Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19303,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/esp32c3-devkit: add Dropbear SCP server support",
-  "updatedAt": "2026-07-06T05:36:34Z",
+  "updatedAt": "2026-07-10T18:37:55Z",
   "url": "https://github.com/apache/nuttx/pull/19303"
 }
