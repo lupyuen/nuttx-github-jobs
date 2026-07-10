@@ -1,5 +1,5 @@
 {
-  "additions": 184,
+  "additions": 190,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjY1NjMwNTU=",
@@ -9,12 +9,17 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 46,
+  "changedFiles": 47,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-09T15:37:03Z",
-  "deletions": 960,
+  "deletions": 966,
   "files": [
+    {
+      "path": "arch/arm/src/common/stm32/Kconfig.tim",
+      "additions": 6,
+      "deletions": 6
+    },
     {
       "path": "boards/Kconfig",
       "additions": 1,
@@ -247,7 +252,7 @@
     }
   ],
   "headRefName": "stm32_refactor_all_board_common_1",
-  "headRefOid": "09700d0c22e27ff3bb55b057369c511ad82bbf8c",
+  "headRefOid": "976569528e823c2f99a91adb2f4dd54c476b9262",
   "headRepository": {
     "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
     "name": "nuttx",
@@ -266,6 +271,12 @@
       "name": "Area: Build system",
       "description": "",
       "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
     },
     {
       "id": "LA_kwDODZiUac8AAAABvj_ZzA",
@@ -289,6 +300,6 @@
   "number": 19389,
   "state": "OPEN",
   "title": "boards/arm/stm32h7: switch board common to boards/arm/common/stm32",
-  "updatedAt": "2026-07-10T07:30:42Z",
+  "updatedAt": "2026-07-10T11:01:05Z",
   "url": "https://github.com/apache/nuttx/pull/19389"
 }
