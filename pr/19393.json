@@ -1,0 +1,104 @@
+{
+  "additions": 174,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-10T01:29:32Z",
+  "deletions": 3,
+  "files": [
+    {
+      "path": "boards/sim/sim/sim/configs/dropbear/defconfig",
+      "additions": 82,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/chachapoly.c",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/cryptosoft.c",
+      "additions": 34,
+      "deletions": 2
+    },
+    {
+      "path": "crypto/xform.c",
+      "additions": 14,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/chachapoly.h",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/cryptodev.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "include/crypto/xform.h",
+      "additions": 6,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/crypto-chacha20-ocf",
+  "headRefOid": "27e718373ec25ee1c700c17ff99db8a931de3e26",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7v-eGT",
+  "isDraft": true,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L-Yw",
+      "name": "Board: simulator",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19393,
+  "state": "OPEN",
+  "title": "crypto: chachapoly availble in /dev/crypto",
+  "updatedAt": "2026-07-10T01:46:02Z",
+  "url": "https://github.com/apache/nuttx/pull/19393"
+}
