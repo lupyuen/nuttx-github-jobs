@@ -35,7 +35,20 @@
   },
   "id": "PR_kwDODZiUac7v7kB_",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqR34A",
+      "name": "Area: Drivers",
+      "description": "Drivers issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -45,6 +58,6 @@
   "number": 19391,
   "state": "OPEN",
   "title": "drivers/serial: hold xmit.lock around echo in uart_readv()",
-  "updatedAt": "2026-07-09T22:13:11Z",
+  "updatedAt": "2026-07-10T04:36:54Z",
   "url": "https://github.com/apache/nuttx/pull/19391"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-10T05:02:45Z",
   "createdAt": "2026-07-09T20:17:17Z",
   "deletions": 13,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "27c466a4292b09557eda087811c32e75d5a347a8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-10T05:02:45Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 3625,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "crypto: Fix CRC-32 test case 8",
-  "updatedAt": "2026-07-09T23:29:44Z",
+  "updatedAt": "2026-07-10T05:02:45Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3625"
 }
