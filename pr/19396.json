@@ -1,0 +1,85 @@
+{
+  "additions": 136,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "is_bot": false,
+    "login": "ThePassionate",
+    "name": "makejian"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 8,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-10T09:04:58Z",
+  "deletions": 74,
+  "files": [
+    {
+      "path": "crypto/chacha_private.h",
+      "additions": 3,
+      "deletions": 3
+    },
+    {
+      "path": "crypto/chachapoly.c",
+      "additions": 27,
+      "deletions": 9
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 3,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/cryptosoft.c",
+      "additions": 42,
+      "deletions": 15
+    },
+    {
+      "path": "crypto/xform.c",
+      "additions": 51,
+      "deletions": 40
+    },
+    {
+      "path": "include/crypto/chachapoly.h",
+      "additions": 4,
+      "deletions": 3
+    },
+    {
+      "path": "include/crypto/cryptodev.h",
+      "additions": 3,
+      "deletions": 2
+    },
+    {
+      "path": "include/crypto/xform.h",
+      "additions": 3,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "crypto-chacha20-unified",
+  "headRefOid": "2d0582a437ba0a2f204b86b5f8c7b64022f7dab2",
+  "headRepository": {
+    "id": "R_kgDOKAa8wg",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY4NzI5MzM3",
+    "name": "makejian",
+    "login": "ThePassionate"
+  },
+  "id": "PR_kwDODZiUac7wGJ79",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "DIRTY",
+  "mergeable": "CONFLICTING",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19396,
+  "state": "OPEN",
+  "title": "crypto: Add standalone CHACHA20 stream cipher on the unified enc path.",
+  "updatedAt": "2026-07-10T09:10:09Z",
+  "url": "https://github.com/apache/nuttx/pull/19396"
+}
