@@ -1,0 +1,89 @@
+{
+  "additions": 90,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "is_bot": false,
+    "login": "ricardgb",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 9,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-11T11:26:27Z",
+  "deletions": 0,
+  "files": [
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/scripts/memmap_copy_to_ram.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/scripts/memmap_default.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/pimoroni-pico-2-plus/scripts/memmap_no_flash.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_copy_to_ram.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_default.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2/scripts/memmap_no_flash.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_copy_to_ram.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_default.ld",
+      "additions": 10,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/xiao-rp2350/scripts/memmap_no_flash.ld",
+      "additions": 10,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rp23xx-got-ram",
+  "headRefOid": "7b4f68f75e38754a26c376848bf56d29b2d90f3c",
+  "headRepository": {
+    "id": "R_kgDOTKojAA",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjczNjkyMTU5",
+    "login": "ricardgb"
+  },
+  "id": "PR_kwDODZiUac7wg9u7",
+  "isDraft": false,
+  "labels": [],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19401,
+  "state": "OPEN",
+  "title": "boards/rp23xx: copy .got into RAM at boot in the memmap linker scripts",
+  "updatedAt": "2026-07-11T11:26:27Z",
+  "url": "https://github.com/apache/nuttx/pull/19401"
+}

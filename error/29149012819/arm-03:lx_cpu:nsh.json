@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-11T10:46:59",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "lx_cpu",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29149012819/job/86535467237#step:10:828",
+"msg": "In file included from nsh_proccmds.c:47: \n nsh_proccmds.c: In function 'top_summary': \n ##[error]nsh_proccmds.c:932:24: error: 'VT100_STR_CLEAREOL' undeclared (first use in this function); did you mean 'VT100_CLEAREOL'? \n 932 |       nsh_output(vtbl, VT100_STR_CLEAREOL \n |                        ^~~~~~~~~~~~~~~~~~ \n nsh_console.h:58:50: note: in definition of macro 'nsh_output' \n 58 | #  define nsh_output(v, ...)    (v)->output(v, ##__VA_ARGS__) \n |                                                  ^~"
+}
