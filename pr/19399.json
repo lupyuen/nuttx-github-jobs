@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 4,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T12:15:15Z",
   "createdAt": "2026-07-11T01:44:00Z",
   "deletions": 3,
   "files": [
@@ -70,15 +70,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "UNSTABLE",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "b7305d878067d2434f05359c10403cba127420e5"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T12:15:15Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19399,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "Documentation: nsh: document the top command",
-  "updatedAt": "2026-07-11T11:13:21Z",
+  "updatedAt": "2026-07-11T12:15:16Z",
   "url": "https://github.com/apache/nuttx/pull/19399"
 }
