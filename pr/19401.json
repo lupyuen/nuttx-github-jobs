@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 9,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T17:57:17Z",
   "createdAt": "2026-07-11T11:26:27Z",
   "deletions": 0,
   "files": [
@@ -88,15 +88,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "05df45dfeeac98849940dc4995e9fdbe2077ebdc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T17:57:17Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19401,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/rp23xx: copy .got into RAM at boot in the memmap linker scripts",
-  "updatedAt": "2026-07-11T15:20:48Z",
+  "updatedAt": "2026-07-11T17:57:18Z",
   "url": "https://github.com/apache/nuttx/pull/19401"
 }

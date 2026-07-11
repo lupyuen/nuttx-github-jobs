@@ -1,0 +1,174 @@
+{
+  "additions": 421,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "is_bot": false,
+    "login": "raiden00pl",
+    "name": "Mateusz Szafoni"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 22,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-11T18:27:54Z",
+  "deletions": 23,
+  "files": [
+    {
+      "path": "boards/Kconfig",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32h5/common/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/common/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32h5/nucleo-h563zi/src/Make.defs",
+      "additions": 7,
+      "deletions": 6
+    },
+    {
+      "path": "boards/arm/stm32l5/common/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l5/common/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32l5/nucleo-l552ze/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32l5/stm32l562e-dk/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32n6/common/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/common/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32n6/nucleo-n657x0-q/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32u5/b-u585i-iot02a/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32u5/common/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32u5/common/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32u5/nucleo-u5a5zj-q/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32wb/common/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wb/common/Makefile",
+      "additions": 36,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wb/flipperzero/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32wb/nucleo-wb55rg/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/stm32wl5/common/CMakeLists.txt",
+      "additions": 25,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/common/Makefile",
+      "additions": 39,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/stm32wl5/nucleo-wl55jc/src/Make.defs",
+      "additions": 4,
+      "deletions": 2
+    }
+  ],
+  "headRefName": "stm32_refactor_all_board_common_2",
+  "headRefOid": "956f2526d28e4b3d2d5ab58d1c7081b3c81805e3",
+  "headRepository": {
+    "id": "MDEwOlJlcG9zaXRvcnkyMjk3MzU0Mzg=",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjY1NjMwNTU=",
+    "name": "Mateusz Szafoni",
+    "login": "raiden00pl"
+  },
+  "id": "PR_kwDODZiUac7wl8FW",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyMzQyMTc3OTM4",
+      "name": "Area: Build system",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19404,
+  "state": "OPEN",
+  "title": "boards/arm/stm32{l5,u5,wb,wl5,n6,h5}: use stm32 boards common",
+  "updatedAt": "2026-07-11T18:33:53Z",
+  "url": "https://github.com/apache/nuttx/pull/19404"
+}

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 47,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T18:09:46Z",
   "createdAt": "2026-07-09T15:37:03Z",
   "deletions": 966,
   "files": [
@@ -291,15 +291,22 @@
       "color": "F9D0C4"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6d62533e4ddb821e0745106e4a96f921a2e09104"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T18:09:46Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19389,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "boards/arm/stm32h7: switch board common to boards/arm/common/stm32",
-  "updatedAt": "2026-07-11T03:25:35Z",
+  "updatedAt": "2026-07-11T18:09:46Z",
   "url": "https://github.com/apache/nuttx/pull/19389"
 }

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-11T17:48:25",
+"arch": "arm",
+"subarch": "unknown",
+"group": "arm-06",
+"board": "raspberrypi-pico-2-w",
+"config": "access",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx/actions/runs/29141153346/job/86558505773#step:10:1795",
+"msg": "##[error]mdnsd_event.c:129:13: error: 'mdnsd_event_is_newaddr' defined but not used [-Werror=unused-function] \n 129 | static bool mdnsd_event_is_newaddr(FAR struct nlmsghdr *hdr) \n |             ^~~~~~~~~~~~~~~~~~~~~~ \n ##[error]mdnsd_event.c:69:13: error: 'mdnsd_event_has_ipv4addr' defined but not used [-Werror=unused-function] \n 69 | static bool mdnsd_event_has_ipv4addr(void) \n |             ^~~~~~~~~~~~~~~~~~~~~~~~ \n cc1: all warnings being treated as errors \n make[2]: *** [/github/workspace/sourc"
+}
