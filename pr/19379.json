@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 5,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T21:22:08Z",
   "createdAt": "2026-07-09T08:14:14Z",
   "deletions": 6,
   "files": [
@@ -69,15 +69,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "30c50405479bb59e33ab8a897c0b230bcaac313c"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T21:22:08Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
   "milestone": null,
   "number": 19379,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "drivers/timers, sched/clock: use file_get/file_put",
-  "updatedAt": "2026-07-11T19:52:05Z",
+  "updatedAt": "2026-07-11T21:22:08Z",
   "url": "https://github.com/apache/nuttx/pull/19379"
 }

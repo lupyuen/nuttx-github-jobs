@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 7,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T20:58:56Z",
   "createdAt": "2026-07-11T15:16:54Z",
   "deletions": 1,
   "files": [
@@ -79,15 +79,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5e2ce6190d801b79d8bb5c1aaa7a9e1ae51aa3f8"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T20:58:56Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19403,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "crypto: add CRYPTO_CHACHA20_DJB variant (64-bit counter/nonce)",
-  "updatedAt": "2026-07-11T18:03:27Z",
+  "updatedAt": "2026-07-11T20:58:56Z",
   "url": "https://github.com/apache/nuttx/pull/19403"
 }

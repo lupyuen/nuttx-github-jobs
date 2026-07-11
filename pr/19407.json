@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T21:20:45Z",
   "createdAt": "2026-07-11T19:55:26Z",
   "deletions": 1,
   "files": [
@@ -35,7 +35,20 @@
   },
   "id": "PR_kwDODZiUac7wm2lu",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwyNTEzMzUyMDMz",
+      "name": "Area: Networking",
+      "description": "Effects networking subsystem",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -43,8 +56,8 @@
   "mergedBy": null,
   "milestone": null,
   "number": 19407,
-  "state": "OPEN",
+  "state": "CLOSED",
   "title": "fix: add bounds check before memcpy in rpmsg_sockif.c",
-  "updatedAt": "2026-07-11T19:55:28Z",
+  "updatedAt": "2026-07-11T21:20:45Z",
   "url": "https://github.com/apache/nuttx/pull/19407"
 }
