@@ -1,5 +1,5 @@
 {
-  "additions": 4442,
+  "additions": 4782,
   "assignees": [],
   "author": {
     "id": "MDQ6VXNlcjczNjkyMTU5",
@@ -9,11 +9,11 @@
   },
   "autoMergeRequest": null,
   "baseRefName": "master",
-  "changedFiles": 30,
+  "changedFiles": 34,
   "closed": false,
   "closedAt": null,
   "createdAt": "2026-07-01T15:19:54Z",
-  "deletions": 0,
+  "deletions": 1,
   "files": [
     {
       "path": "Documentation/platforms/arm/rp23xx/boards/raspberrypi-pico-2-w/index.rst",
@@ -41,8 +41,18 @@
       "deletions": 0
     },
     {
+      "path": "arch/arm/src/rp23xx/rp23xx_usbdev.c",
+      "additions": 71,
+      "deletions": 1
+    },
+    {
       "path": "boards/Kconfig",
       "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/common/src/rp23xx_common_bringup.c",
+      "additions": 25,
       "deletions": 0
     },
     {
@@ -53,6 +63,11 @@
     {
       "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/Kconfig",
       "additions": 42,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/configs/access/defconfig",
+      "additions": 113,
       "deletions": 0
     },
     {
@@ -112,12 +127,12 @@
     },
     {
       "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/CMakeLists.txt",
-      "additions": 57,
+      "additions": 61,
       "deletions": 0
     },
     {
       "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/Make.defs",
-      "additions": 91,
+      "additions": 95,
       "deletions": 0
     },
     {
@@ -146,6 +161,11 @@
       "deletions": 0
     },
     {
+      "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_composite.c",
+      "additions": 123,
+      "deletions": 0
+    },
+    {
       "path": "boards/arm/rp23xx/raspberrypi-pico-2-w/src/rp23xx_firmware.c",
       "additions": 160,
       "deletions": 0
@@ -167,7 +187,7 @@
     }
   ],
   "headRefName": "rp23xx-raspberrypi-pico-2-w",
-  "headRefOid": "c6033b75407338dbfc51fd0ab6549f08a094ed66",
+  "headRefOid": "fe294ebc22c4fa44dfdcf805189646987bc934e5",
   "headRepository": {
     "id": "R_kgDOTKojAA",
     "name": "nuttx",
@@ -214,6 +234,6 @@
   "number": 19250,
   "state": "OPEN",
   "title": "boards/arm/rp23xx: add Raspberry Pi Pico 2 W board (CYW43439 Wi-Fi)",
-  "updatedAt": "2026-07-06T17:27:03Z",
+  "updatedAt": "2026-07-11T05:24:03Z",
   "url": "https://github.com/apache/nuttx/pull/19250"
 }
