@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-11T18:54:35",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-devkitc",
+"config": "mqttc",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29161827270/job/86568244843#step:10:1242",
+"msg": "##[error]mqttc_pub.c:465:10: error: expected identifier or '(' before 'int' \n 465 | int main(int argc, FAR char *argv[]) \n |          ^~~ \n ##[error]mqttc_pub.c:447:13: error: 'close_conn' defined but not used [-Werror=unused-function] \n 447 | static void close_conn(FAR struct mqtt_conn_context_s *conn) \n |             ^~~~~~~~~~ \n ##[error]mqttc_pub.c:202:12: error: 'init_conn' defined but not used [-Werror=unused-function] \n 202 | static int init_conn(FAR const struct mqttc_cfg_s *cfg, \n |        "
+}

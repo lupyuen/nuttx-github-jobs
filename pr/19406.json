@@ -1,0 +1,170 @@
+{
+  "additions": 1537,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "is_bot": false,
+    "login": "linguini1",
+    "name": "Matteo Golin"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 20,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-11T19:31:18Z",
+  "deletions": 24,
+  "files": [
+    {
+      "path": "Documentation/platforms/arm64/bcm2711/boards/raspberrypi-4b/index.rst",
+      "additions": 12,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/include/bcm2711/irq.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/CMakeLists.txt",
+      "additions": 6,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Kconfig",
+      "additions": 45,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/Make.defs",
+      "additions": 7,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_oneshot.c",
+      "additions": 529,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_oneshot.h",
+      "additions": 58,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_pwm.c",
+      "additions": 528,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/bcm2711_pwm.h",
+      "additions": 75,
+      "deletions": 0
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_gpclk.h",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_memmap.h",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_pwm.h",
+      "additions": 12,
+      "deletions": 20
+    },
+    {
+      "path": "arch/arm64/src/bcm2711/hardware/bcm2711_systimer.h",
+      "additions": 5,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/Kconfig",
+      "additions": 9,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/configs/pwmaudio/defconfig",
+      "additions": 65,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/CMakeLists.txt",
+      "additions": 5,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/Makefile",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b.h",
+      "additions": 13,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_bringup.c",
+      "additions": 4,
+      "deletions": 0
+    },
+    {
+      "path": "boards/arm64/bcm2711/raspberrypi-4b/src/rpi4b_pwm.c",
+      "additions": 152,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "rpi4b-pwm",
+  "headRefOid": "d89d2d58d34b37a7f65aeeb6cd97242849a597bf",
+  "headRepository": {
+    "id": "R_kgDOMTJh2w",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjYyODUwMDkx",
+    "name": "Matteo Golin",
+    "login": "linguini1"
+  },
+  "id": "PR_kwDODZiUac7wmj1k",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "MDU6TGFiZWwxNzM0NzM5NDI0",
+      "name": "Area: Documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqO1YA",
+      "name": "Arch: arm64",
+      "description": "Issues related to ARM64 (64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_dNA",
+      "name": "Size: XL",
+      "description": "The size of the change in this PR is very large. Consider breaking down the PR into smaller pieces.",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8LvAA",
+      "name": "Board: arm64",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19406,
+  "state": "OPEN",
+  "title": "boards/raspberrypi-4b: PWM audio support",
+  "updatedAt": "2026-07-11T19:38:24Z",
+  "url": "https://github.com/apache/nuttx/pull/19406"
+}
