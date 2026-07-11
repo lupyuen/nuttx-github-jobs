@@ -35,7 +35,20 @@
   },
   "id": "PR_kwDODZiUac7wWKxh",
   "isDraft": false,
-  "labels": [],
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqSSkg",
+      "name": "Area: OS Components",
+      "description": "OS Components issues",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_Wkw",
+      "name": "Size: XS",
+      "description": "The size of the change in this PR is very small",
+      "color": "0E8A16"
+    }
+  ],
   "mergeCommit": null,
   "mergeStateStatus": "BLOCKED",
   "mergeable": "MERGEABLE",
@@ -45,6 +58,6 @@
   "number": 19398,
   "state": "OPEN",
   "title": "sched/task: fix nxtask_exit() freeing the wrong TCB on non-SMP (#19308)",
-  "updatedAt": "2026-07-11T06:34:30Z",
+  "updatedAt": "2026-07-11T15:35:54Z",
   "url": "https://github.com/apache/nuttx/pull/19398"
 }

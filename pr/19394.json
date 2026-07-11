@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T15:43:11Z",
   "createdAt": "2026-07-10T03:26:55Z",
   "deletions": 0,
   "files": [
@@ -48,15 +48,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "6e979f841b0e9881fe5fb01f76319a5211ef5acc"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T15:43:11Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19394,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "fs/procfs: fix incorrect environ read for another task under CONFIG_A…",
-  "updatedAt": "2026-07-10T08:01:27Z",
+  "updatedAt": "2026-07-11T15:43:11Z",
   "url": "https://github.com/apache/nuttx/pull/19394"
 }

@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T15:42:25Z",
   "createdAt": "2026-07-10T07:23:35Z",
   "deletions": 1,
   "files": [
@@ -49,15 +49,22 @@
       "color": "0E8A16"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "5c0cd187190bc55d1d673f74e40f952481fc73e2"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T15:42:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 19395,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/stm32: make STM32_ETHMAC depend on NET",
-  "updatedAt": "2026-07-10T07:34:08Z",
+  "updatedAt": "2026-07-11T15:42:25Z",
   "url": "https://github.com/apache/nuttx/pull/19395"
 }

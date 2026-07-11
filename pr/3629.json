@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 1,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-11T15:31:25Z",
   "createdAt": "2026-07-11T05:02:11Z",
   "deletions": 1,
   "files": [
@@ -48,15 +48,22 @@
       "color": "0075ca"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "BLOCKED",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "2bcc6b96ead84735e2d65876f46e80655377b769"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-11T15:31:25Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjM3MDAw",
+    "is_bot": false,
+    "login": "acassis",
+    "name": "Alan C. Assis"
+  },
   "milestone": null,
   "number": 3629,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "testing/sched: fix off-by-one sample count in timerjitter",
-  "updatedAt": "2026-07-11T12:40:30Z",
+  "updatedAt": "2026-07-11T15:31:25Z",
   "url": "https://github.com/apache/nuttx-apps/pull/3629"
 }
