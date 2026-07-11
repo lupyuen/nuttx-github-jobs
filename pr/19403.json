@@ -1,0 +1,93 @@
+{
+  "additions": 49,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "is_bot": false,
+    "login": "FelipeMdeO",
+    "name": "Felipe Oliveira"
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 7,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-11T15:16:54Z",
+  "deletions": 1,
+  "files": [
+    {
+      "path": "crypto/chachapoly.c",
+      "additions": 26,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 1,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/cryptosoft.c",
+      "additions": 6,
+      "deletions": 0
+    },
+    {
+      "path": "crypto/xform.c",
+      "additions": 11,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/chachapoly.h",
+      "additions": 2,
+      "deletions": 0
+    },
+    {
+      "path": "include/crypto/cryptodev.h",
+      "additions": 2,
+      "deletions": 1
+    },
+    {
+      "path": "include/crypto/xform.h",
+      "additions": 1,
+      "deletions": 0
+    }
+  ],
+  "headRefName": "feature/crypto-chacha20-djb",
+  "headRefOid": "8ed13bc7288dce6a3a2e644ea693352790e525a8",
+  "headRepository": {
+    "id": "R_kgDOMkAVTQ",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjE0Mjk4ODU0",
+    "name": "Felipe Oliveira",
+    "login": "FelipeMdeO"
+  },
+  "id": "PR_kwDODZiUac7wjqRT",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_XyQ",
+      "name": "Size: S",
+      "description": "The size of the change in this PR is small",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonxAw",
+      "name": "Area: Crypto",
+      "description": "",
+      "color": "0075ca"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19403,
+  "state": "OPEN",
+  "title": "crypto: add CRYPTO_CHACHA20_DJB variant (64-bit counter/nonce)",
+  "updatedAt": "2026-07-11T15:18:16Z",
+  "url": "https://github.com/apache/nuttx/pull/19403"
+}
