@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-12T13:12:56",
+"arch": "arm",
+"subarch": "imx6",
+"group": "arm-02",
+"board": "sabre-6quad",
+"config": "posix_spawn",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29193463308/job/86652270131#step:10:581",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libc.a(lib_builtin_forindex.o): in function `builtin_for_index': \n arm-none-eabi-ld: /github/workspace/sources/nuttx/libs/libc/builtin/lib_builtin_forindex.c:62:(.text.builtin_for_index+0x18): undefined reference to `g_builtins' \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors."
+}

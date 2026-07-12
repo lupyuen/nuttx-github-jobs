@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-12T13:12:29",
+"arch": "risc-v",
+"subarch": "esp32c3",
+"group": "risc-v-02",
+"board": "esp32-c3-zero",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29193463308/job/86652270119#step:10:369",
+"msg": "riscv-none-elf-ld: /github/workspace/sources/nuttx/staging/libapps.a(nsh_builtin.c.github.workspace.sources.apps.nshlib_1.o): in function `nsh_builtin': \n nsh_builtin.c:(.text.nsh_builtin+0x24): undefined reference to `exec_builtin' \n riscv-none-elf-ld: /github/workspace/sources/nuttx/staging/libc.a(lib_builtin_forindex.o): in function `builtin_for_index': \n lib_builtin_forindex.c:(.text.builtin_for_index+0x0): undefined reference to `g_builtin_count' \n riscv-none-elf-ld: lib_builtin_forindex.c:(.text.b"
+}

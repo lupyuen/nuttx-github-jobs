@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-12T13:12:26",
+"arch": "other",
+"subarch": "pic32mz",
+"group": "other",
+"board": "flipnclick-pic32mz",
+"config": "nsh",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29193463308/job/86652270143#step:10:501",
+"msg": "(.text.nsh_builtin+0x14): undefined reference to `exec_builtin' \n (.text.builtin_for_index+0x0): undefined reference to `g_builtin_count' \n (.text.builtin_for_index+0x4): undefined reference to `g_builtin_count' \n (.text.builtin_for_index+0x10): undefined reference to `g_builtins' \n (.text.builtin_for_index+0x14): undefined reference to `g_builtins' \n make[1]: *** [Makefile:94: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors."
+}

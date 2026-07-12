@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-12T13:09:53",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "olimex-lpc1766stk",
+"config": "hidkbd",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29193463308/job/86652270113#step:10:521",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libapps.a(nsh_builtin.c.github.workspace.sources.apps.nshlib_1.o): in function `nsh_builtin': \n nsh_builtin.c:(.text.nsh_builtin+0x16): undefined reference to `exec_builtin' \n arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libc.a(lib_builtin_forindex.o): in function `builtin_for_index': \n lib_builtin_forindex.c:(.text.builtin_for_index+0x14): undefined reference to `g_builtin_count' \n arm-none-eabi-ld: lib_builtin_forindex.c:(.text.bui"
+}

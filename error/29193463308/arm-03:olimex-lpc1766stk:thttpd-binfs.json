@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-12T13:06:20",
+"arch": "arm",
+"subarch": "lpc17xx_40xx",
+"group": "arm-03",
+"board": "olimex-lpc1766stk",
+"config": "thttpd-binfs",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29193463308/job/86652270113#step:10:386",
+"msg": "arm-none-eabi-ld: /github/workspace/sources/nuttx/staging/libc.a(lib_builtin_forindex.o): in function `builtin_for_index': \n lib_builtin_forindex.c:(.text.builtin_for_index+0x14): undefined reference to `g_builtin_count' \n arm-none-eabi-ld: lib_builtin_forindex.c:(.text.builtin_for_index+0x18): undefined reference to `g_builtins' \n make[1]: *** [Makefile:230: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors."
+}

@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-12T13:12:58",
+"arch": "sim",
+"subarch": "sim",
+"group": "sim-02",
+"board": "sim",
+"config": "loadable",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29193463308/job/86652270124#step:10:692",
+"msg": "/usr/bin/ld: nuttx.rel: in function `builtin_for_index': \n /usr/bin/ld: /github/workspace/sources/nuttx/libs/libc/builtin/lib_builtin_forindex.c:58: undefined reference to `g_builtins' \n collect2: error: ld returned 1 exit status \n make[1]: *** [Makefile:490: nuttx] Error 1 \n make: *** [tools/Unix.mk:569: nuttx] Error 2 \n make: Target 'all' not remade because of errors."
+}

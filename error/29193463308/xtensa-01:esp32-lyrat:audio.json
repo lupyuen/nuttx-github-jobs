@@ -1,0 +1,12 @@
+{
+"timestamp": "2026-07-12T13:11:44",
+"arch": "xtensa",
+"subarch": "esp32",
+"group": "xtensa-01",
+"board": "esp32-lyrat",
+"config": "audio",
+"build_score": 0,
+"version": "3",
+"url": "https://github.com/apache/nuttx-apps/actions/runs/29193463308/job/86652270121#step:10:550",
+"msg": "/tools/xtensa-esp-elf-gcc/bin/xtensa-esp-elf-ld: /github/workspace/sources/nuttx/staging/libapps.a(nsh_builtin.c.github.workspace.sources.apps.nshlib_1.o):(.literal.nsh_builtin+0x8): undefined reference to `exec_builtin' \n /tools/xtensa-esp-elf-gcc/bin/xtensa-esp-elf-ld: /github/workspace/sources/nuttx/staging/libapps.a(nsh_builtin.c.github.workspace.sources.apps.nshlib_1.o): in function `nsh_builtin': \n nsh_builtin.c:(.text.nsh_builtin+0xe): undefined reference to `exec_builtin' \n /tools/xtensa-esp-elf-"
+}
