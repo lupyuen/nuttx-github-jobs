@@ -10,8 +10,8 @@
   "autoMergeRequest": null,
   "baseRefName": "master",
   "changedFiles": 25,
-  "closed": false,
-  "closedAt": null,
+  "closed": true,
+  "closedAt": "2026-07-12T01:35:51Z",
   "createdAt": "2026-07-09T10:00:29Z",
   "deletions": 2012,
   "files": [
@@ -175,15 +175,22 @@
       "color": "FEF2C0"
     }
   ],
-  "mergeCommit": null,
-  "mergeStateStatus": "CLEAN",
-  "mergeable": "MERGEABLE",
-  "mergedAt": null,
-  "mergedBy": null,
+  "mergeCommit": {
+    "oid": "d5b78ed9aa630fd97bf5c804ddd3e1ae36acccfb"
+  },
+  "mergeStateStatus": "UNKNOWN",
+  "mergeable": "UNKNOWN",
+  "mergedAt": "2026-07-12T01:35:51Z",
+  "mergedBy": {
+    "id": "MDQ6VXNlcjE4MDY2OTY0",
+    "is_bot": false,
+    "login": "xiaoxiang781216",
+    "name": "Xiang Xiao"
+  },
   "milestone": null,
   "number": 19388,
-  "state": "OPEN",
+  "state": "MERGED",
   "title": "arch/arm/src/stm32: unify pulse count driver into common/stm32",
-  "updatedAt": "2026-07-11T21:21:26Z",
+  "updatedAt": "2026-07-12T01:35:51Z",
   "url": "https://github.com/apache/nuttx/pull/19388"
 }
