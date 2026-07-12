@@ -1,0 +1,474 @@
+{
+  "additions": 85,
+  "assignees": [],
+  "author": {
+    "id": "MDQ6VXNlcjUwOTI2NDky",
+    "is_bot": false,
+    "login": "catalinv-ncc",
+    "name": ""
+  },
+  "autoMergeRequest": null,
+  "baseRefName": "master",
+  "changedFiles": 75,
+  "closed": false,
+  "closedAt": null,
+  "createdAt": "2026-07-12T14:34:52Z",
+  "deletions": 85,
+  "files": [
+    {
+      "path": "arch/arm/src/c5471/c5471_watchdog.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_bbsram_m3m4_v1.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/common/stm32/stm32_hrtim_m3m4_v1.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_adc.c",
+      "additions": 6,
+      "deletions": 6
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_charger.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_gauge.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_ge2d.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_geofence.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_gnss.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_hostif.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_sph.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_sysctl.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/cxd56xx/cxd56_uart0.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/phy62xx/phyplus_stub.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/rtl8720c/ameba_hci.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/sama5/sam_tsd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32f7/stm32_bbsram.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/stm32h7/stm32_bbsram.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/arm/src/tlsr82/tlsr82_spi_console.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/renesas/src/rx65n/rx65n_sbram.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_dedic_gpio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_lp_mailbox.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_nxdiag.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_temperature_sensor.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/risc-v/src/common/espressif/esp_ulp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86/src/qemu/qemu_keypad.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/x86/src/qemu/qemu_vga.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_nxdiag.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/common/espressif/esp_ulp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_himem.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32/esp32_himem_chardev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "arch/xtensa/src/esp32s3/esp32s3_himem.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "audio/audio.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/ak09912_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/apds9930_scu.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bh1721fvc_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bh1745nuc_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bm1383glv_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bm1422gmv_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bmi160_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/bmp280_scu.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/cxd5610_gnss.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/kx022_scu.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/lt1pa01_scu.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/cxd56xx/drivers/sensors/rpr0521rs_scu.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "boards/arm/kl/freedom-kl25z/src/kl_tsi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/kl/freedom-kl26z/src/kl_tsi.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/sam34/sam4l-xplained/src/sam_slcd.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/arm/stm32f4/mikroe-stm32f4/src/stm32_touchscreen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "boards/mips/pic32mx/pic32mx7mmb/src/pic32_touchscreen.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "crypto/cryptodev.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/1wire/1wire_ds2xxx.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/aie/ai_engine.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/analog/adc.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/analog/ads1242.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/analog/ads7046.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/analog/comp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/analog/dac.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/analog/hx711.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/analog/opamp.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/audio/tone.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/bch/bchdev_register.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/can/can.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/contactless/mfrc522.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/contactless/pn532.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/coresight/coresight_tmc_etr.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/crypto/dev_urandom.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/crypto/rng90.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/crypto/se05x.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/eeprom/i2c_xx24xx.c",
+      "additions": 2,
+      "deletions": 2
+    },
+    {
+      "path": "drivers/eeprom/spi_xx25xx.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/efuse/efuse.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/i2c/i2c_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/i2c/i2c_slave_driver.c",
+      "additions": 1,
+      "deletions": 1
+    },
+    {
+      "path": "drivers/i2s/i2schar.c",
+      "additions": 1,
+      "deletions": 1
+    }
+  ],
+  "headRefName": "bug/Multiple_Drivers_Are_Registered_World_Writable_Permissions",
+  "headRefOid": "99423b41e2ee5141159602f9bfca2128bc815b55",
+  "headRepository": {
+    "id": "R_kgDOS0wodw",
+    "name": "nuttx",
+    "nameWithOwner": ""
+  },
+  "headRepositoryOwner": {
+    "id": "MDQ6VXNlcjUwOTI2NDky",
+    "login": "catalinv-ncc"
+  },
+  "id": "PR_kwDODZiUac7wwfwp",
+  "isDraft": false,
+  "labels": [
+    {
+      "id": "LA_kwDODZiUac8AAAABsqOt8A",
+      "name": "Arch: arm",
+      "description": "Issues related to ARM (32-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQXuw",
+      "name": "Arch: renesas",
+      "description": "Issues related to the Renesas chips",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQhgw",
+      "name": "Arch: risc-v",
+      "description": "Issues related to the RISC-V (32-bit or 64-bit) architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqQ9Ig",
+      "name": "Arch: x86",
+      "description": "Issues related to the x86 architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABsqRKYw",
+      "name": "Arch: xtensa",
+      "description": "Issues related to the Xtensa architecture",
+      "color": "DC5544"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvj_ZzA",
+      "name": "Size: M",
+      "description": "The size of the change in this PR is medium",
+      "color": "FEF2C0"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABvonsWw",
+      "name": "Area: Audio",
+      "description": "",
+      "color": "0075ca"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8Lkbg",
+      "name": "Board: arm",
+      "description": "",
+      "color": "F9D0C4"
+    },
+    {
+      "id": "LA_kwDODZiUac8AAAABw8L0MQ",
+      "name": "Board: mips",
+      "description": "",
+      "color": "F9D0C4"
+    }
+  ],
+  "mergeCommit": null,
+  "mergeStateStatus": "BLOCKED",
+  "mergeable": "MERGEABLE",
+  "mergedAt": null,
+  "mergedBy": null,
+  "milestone": null,
+  "number": 19416,
+  "state": "OPEN",
+  "title": "drivers/efuse/efuse: Multiple Drivers Are Registered With World Writable",
+  "updatedAt": "2026-07-12T14:40:50Z",
+  "url": "https://github.com/apache/nuttx/pull/19416"
+}
